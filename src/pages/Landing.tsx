@@ -62,7 +62,7 @@ const Landing = () => {
             Master your SSC preparation with personalized video lectures, AI-powered summaries, and smart study schedules
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <Link to="/dashboard">
+            <Link to="/auth">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6">
                 Get Started Free
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -140,7 +140,7 @@ const Landing = () => {
               Join thousands of students who are already achieving their dreams with our AI-powered learning platform
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/dashboard">
+              <Link to="/auth">
                 <Button variant="hero" size="lg" className="text-lg px-8 py-6">
                   Start Learning Today
                   <Users className="ml-2 h-5 w-5" />

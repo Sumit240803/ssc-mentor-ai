@@ -1,1 +1,4 @@
 project_id = "jaaqkpacpgidnwnralot"
+
+[functions.secure-operations]
+verify_jwt = true
