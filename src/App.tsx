@@ -11,6 +11,7 @@ import Dashboard from "./pages/Dashboard";
 import Lectures from "./pages/Lectures";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
+import Profile from "./pages/Profile";
 import FloatingChatbot from "./components/FloatingChatbot";
 import NotFound from "./pages/NotFound";
 
@@ -55,6 +56,14 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <Motivation />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/profile" 
+              element={
+                <ProtectedRoute>
+                  <Profile />
                 </ProtectedRoute>
               } 
             />
