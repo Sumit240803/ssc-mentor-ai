@@ -13,6 +13,7 @@ import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
 import AdminDashboard from "./pages/admin/AdminDashboard";
+import LectureManagement from "./pages/admin/LectureManagement";
 import AdminRoute from "./components/AdminRoute";
 import FloatingChatbot from "./components/FloatingChatbot";
 import NotFound from "./pages/NotFound";
@@ -66,6 +67,36 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <Profile />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin" 
+              element={
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <AdminDashboard />
+                  </AdminRoute>
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin/lectures" 
+              element={
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <LectureManagement />
+                  </AdminRoute>
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin/lectures/create" 
+              element={
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <LectureManagement />
+                  </AdminRoute>
                 </ProtectedRoute>
               } 
             />

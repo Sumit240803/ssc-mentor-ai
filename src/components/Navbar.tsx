@@ -5,18 +5,22 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Menu, X, GraduationCap, User, LogOut, Settings } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
+import { useAdmin } from "@/hooks/useAdmin";
+import AdminAssignment from "./AdminAssignment";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
+  const { isAdmin } = useAdmin();
 
   const navItems = user ? [
     { name: "Dashboard", href: "/dashboard" },
     { name: "Lectures", href: "/lectures" },
     { name: "Schedule", href: "/schedule" },
     { name: "Motivation", href: "/motivation" },
+    ...(isAdmin ? [{ name: "Admin", href: "/admin" }] : []),
   ] : [
     { name: "Home", href: "/" },
   ];
@@ -90,7 +94,19 @@ const Navbar = () => {
                     <Settings className="mr-2 h-4 w-4" />
                     <span>Profile</span>
                   </DropdownMenuItem>
+                  {isAdmin && (
+                    <DropdownMenuItem onClick={() => navigate('/admin')}>
+                      <Settings className="mr-2 h-4 w-4" />
+                      <span>Admin Dashboard</span>
+                    </DropdownMenuItem>
+                  )}
                   <DropdownMenuSeparator />
+                  {isAdmin && (
+                    <>
+                      <AdminAssignment />
+                      <DropdownMenuSeparator />
+                    </>
+                  )}
                   <DropdownMenuItem onClick={handleSignOut}>
                     <LogOut className="mr-2 h-4 w-4" />
                     <span>Sign out</span>
