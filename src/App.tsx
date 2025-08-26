@@ -12,6 +12,8 @@ import Lectures from "./pages/Lectures";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminRoute from "./components/AdminRoute";
 import FloatingChatbot from "./components/FloatingChatbot";
 import NotFound from "./pages/NotFound";
 
@@ -65,6 +67,14 @@ const App = () => (
                 <ProtectedRoute>
                   <Profile />
                 </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin/*" 
+              element={
+                <AdminRoute>
+                  <AdminDashboard />
+                </AdminRoute>
               } 
             />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
