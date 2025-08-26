@@ -14,6 +14,7 @@ import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import LectureManagement from "./pages/admin/LectureManagement";
+import PostModeration from "./pages/admin/PostModeration";
 import AdminRoute from "./components/AdminRoute";
 import FloatingChatbot from "./components/FloatingChatbot";
 import NotFound from "./pages/NotFound";
@@ -101,11 +102,13 @@ const App = () => (
               } 
             />
             <Route 
-              path="/admin/*" 
+              path="/admin/posts" 
               element={
-                <AdminRoute>
-                  <AdminDashboard />
-                </AdminRoute>
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <PostModeration />
+                  </AdminRoute>
+                </ProtectedRoute>
               } 
             />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

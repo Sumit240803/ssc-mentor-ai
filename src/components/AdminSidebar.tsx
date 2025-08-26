@@ -55,16 +55,10 @@ const AdminSidebar = () => {
       description: "Organize course subjects"
     },
     {
-      title: "Analytics",
-      href: "/admin/analytics",
-      icon: BarChart3,
-      description: "Platform insights"
-    },
-    {
-      title: "Settings",
-      href: "/admin/settings",
-      icon: Settings,
-      description: "System configuration"
+      title: "Posts",
+      href: "/admin/posts",
+      icon: Shield,
+      description: "Moderate user posts"
     }
   ];
 
