@@ -7,6 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useToast } from "@/hooks/use-toast";
 import { useAuth } from "@/contexts/AuthContext";
 import { useSupabase } from "@/hooks/useSupabase";
+import { supabase } from "@/integrations/supabase/client";
 import { 
   User, 
   Mail, 
@@ -48,13 +49,46 @@ const Profile = () => {
           email: data.email || user?.email || "",
           avatar_url: data.avatar_url || ""
         });
+      } else {
+        // No profile exists, create one
+        await createProfileForUser();
       }
     } catch (error: any) {
+      console.error("Profile load error:", error);
       toast({
         title: "Error loading profile",
         description: error.message,
         variant: "destructive"
       });
+    }
+  };
+
+  const createProfileForUser = async () => {
+    if (!user) return;
+    
+    try {
+      // Create profile with basic user info
+      const profileData = {
+        user_id: user.id,
+        email: user.email,
+        full_name: user.user_metadata?.full_name || user.user_metadata?.name || "",
+        avatar_url: user.user_metadata?.avatar_url || ""
+      };
+
+      const { error } = await supabase
+        .from('profiles')
+        .insert([profileData]);
+
+      if (error) throw error;
+
+      // Set the profile data in state
+      setProfile({
+        full_name: profileData.full_name,
+        email: profileData.email,
+        avatar_url: profileData.avatar_url
+      });
+    } catch (error: any) {
+      console.error("Profile creation error:", error);
     }
   };
 
