@@ -150,7 +150,7 @@ export const useSupabase = () => {
         .from('profiles')
         .select('*')
         .eq('user_id', user.id)
-        .single();
+        .maybeSingle();
 
       return { data, error };
     } catch (error: any) {
