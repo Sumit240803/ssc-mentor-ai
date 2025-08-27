@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { 
   Quote, 
   Heart, 
@@ -12,67 +13,10 @@ import {
   Trophy
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import { useMotivation } from "@/hooks/useMotivation";
 
 const Motivation = () => {
-  const todayQuote = {
-    text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    author: "Winston Churchill",
-    category: "Perseverance"
-  };
-
-  const motivationalContent = [
-    {
-      id: 1,
-      type: "quote",
-      content: "The expert in anything was once a beginner.",
-      author: "Helen Hayes",
-      category: "Growth",
-      date: "Today",
-      likes: 156
-    },
-    {
-      id: 2,
-      type: "tip",
-      content: "Break down complex topics into smaller, manageable chunks. This makes learning less overwhelming and more effective.",
-      category: "Study Tips",
-      date: "Yesterday",
-      likes: 203
-    },
-    {
-      id: 3,
-      type: "success",
-      content: "Rahul from Delhi secured AIR 15 in SSC CGL 2023 after following a consistent study schedule for 8 months!",
-      category: "Success Story",
-      date: "2 days ago",
-      likes: 89
-    },
-    {
-      id: 4,
-      type: "quote",
-      content: "Education is the most powerful weapon which you can use to change the world.",
-      author: "Nelson Mandela",
-      category: "Education",
-      date: "3 days ago",
-      likes: 312
-    },
-    {
-      id: 5,
-      type: "tip",
-      content: "Use the Pomodoro Technique: Study for 25 minutes, then take a 5-minute break. This improves focus and retention.",
-      category: "Study Tips",
-      date: "4 days ago",
-      likes: 178
-    },
-    {
-      id: 6,
-      type: "quote",
-      content: "The only way to do great work is to love what you do.",
-      author: "Steve Jobs",
-      category: "Passion",
-      date: "5 days ago",
-      likes: 245
-    }
-  ];
+  const { dailyQuote, motivationalContent, userStats, loading } = useMotivation();
 
   const getContentIcon = (type) => {
     switch (type) {
@@ -104,12 +48,27 @@ const Motivation = () => {
     }
   };
 
-  const stats = [
-    { label: "Days Active", value: "45", icon: Target },
-    { label: "Goals Achieved", value: "23", icon: Trophy },
-    { label: "Study Streak", value: "12", icon: TrendingUp },
-    { label: "Motivation Score", value: "94%", icon: Star },
-  ];
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffTime = Math.abs(now.getTime() - date.getTime());
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    
+    if (diffDays === 0 || diffDays === 1) return 'Today';
+    if (diffDays === 2) return 'Yesterday';
+    return `${diffDays - 1} days ago`;
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <div className="flex items-center justify-center min-h-[50vh]">
+          <LoadingSpinner />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -136,17 +95,27 @@ const Motivation = () => {
                   <Quote className="h-8 w-8 text-primary" />
                 </div>
                 <h2 className="text-2xl font-bold text-foreground mb-4">Today's Inspiration</h2>
-                <blockquote className="text-xl text-muted-foreground italic leading-relaxed mb-4">
-                  "{todayQuote.text}"
-                </blockquote>
-                <cite className="text-primary font-semibold text-lg">
-                  - {todayQuote.author}
-                </cite>
-                <div className="mt-4">
-                  <Badge className={getCategoryColor(todayQuote.category)}>
-                    {todayQuote.category}
-                  </Badge>
-                </div>
+                {dailyQuote ? (
+                  <>
+                    <blockquote className="text-xl text-muted-foreground italic leading-relaxed mb-4">
+                      "{dailyQuote.content}"
+                    </blockquote>
+                    {dailyQuote.author && (
+                      <cite className="text-primary font-semibold text-lg">
+                        - {dailyQuote.author}
+                      </cite>
+                    )}
+                    <div className="mt-4">
+                      <Badge className={getCategoryColor(dailyQuote.category)}>
+                        {dailyQuote.category}
+                      </Badge>
+                    </div>
+                  </>
+                ) : (
+                  <p className="text-muted-foreground">
+                    "Success is the sum of small efforts, repeated day in and day out."
+                  </p>
+                )}
               </div>
             </Card>
 
@@ -156,46 +125,59 @@ const Motivation = () => {
                 Motivation Archive
               </h3>
               <div className="space-y-4">
-                {motivationalContent.map((item) => {
-                  const ContentIcon = getContentIcon(item.type);
-                  return (
-                    <div 
-                      key={item.id} 
-                      className="p-4 rounded-lg border hover:shadow-card transition-all duration-300"
-                    >
-                      <div className="flex items-start gap-4">
-                        <div className={`p-3 rounded-lg ${getContentColor(item.type)}`}>
-                          <ContentIcon className="h-5 w-5" />
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex items-center gap-2 mb-2">
-                            <Badge className={getCategoryColor(item.category)}>
-                              {item.category}
-                            </Badge>
-                            <span className="text-sm text-muted-foreground">{item.date}</span>
+                {motivationalContent.length > 0 ? (
+                  motivationalContent.map((item: any) => {
+                    const ContentIcon = getContentIcon(item.type);
+                    return (
+                      <div 
+                        key={item.id} 
+                        className="p-4 rounded-lg border hover:shadow-card transition-all duration-300"
+                      >
+                        <div className="flex items-start gap-4">
+                          <div className={`p-3 rounded-lg ${getContentColor(item.type)}`}>
+                            <ContentIcon className="h-5 w-5" />
                           </div>
-                          <p className="text-foreground leading-relaxed mb-3">
-                            {item.content}
-                          </p>
-                          {item.author && (
-                            <cite className="text-primary font-medium">
-                              - {item.author}
-                            </cite>
-                          )}
-                          <div className="flex items-center gap-4 mt-3 pt-3 border-t">
-                            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-red-500">
-                              <Heart className="h-4 w-4 mr-1" />
-                              {item.likes}
-                            </Button>
-                            <span className="text-sm text-muted-foreground">
-                              Tap to save
-                            </span>
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2 mb-2">
+                              <Badge className={getCategoryColor(item.category)}>
+                                {item.category}
+                              </Badge>
+                              <span className="text-sm text-muted-foreground">
+                                {formatDate(item.created_at)}
+                              </span>
+                            </div>
+                            {item.title && (
+                              <h4 className="font-medium text-foreground mb-2">{item.title}</h4>
+                            )}
+                            <p className="text-foreground leading-relaxed mb-3">
+                              {item.content}
+                            </p>
+                            {item.author && (
+                              <cite className="text-primary font-medium">
+                                - {item.author}
+                              </cite>
+                            )}
+                            <div className="flex items-center gap-4 mt-3 pt-3 border-t">
+                              <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-red-500">
+                                <Heart className="h-4 w-4 mr-1" />
+                                {item.likes_count || 0}
+                              </Button>
+                              <span className="text-sm text-muted-foreground">
+                                Tap to save
+                              </span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })
+                ) : (
+                  <div className="text-center py-8 text-muted-foreground">
+                    <Quote className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                    <p>No motivational content available</p>
+                    <p className="text-sm">Check back later for inspiration!</p>
+                  </div>
+                )}
               </div>
             </Card>
           </div>
@@ -208,17 +190,39 @@ const Motivation = () => {
                 Your Progress
               </h3>
               <div className="space-y-4">
-                {stats.map((stat, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <div className="p-2 bg-primary/10 rounded-lg">
-                      <stat.icon className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-foreground">{stat.value}</div>
-                      <div className="text-sm text-muted-foreground">{stat.label}</div>
-                    </div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-primary/10 rounded-lg">
+                    <TrendingUp className="h-5 w-5 text-primary" />
                   </div>
-                ))}
+                  <div>
+                    <div className="text-2xl font-bold text-foreground">
+                      {userStats?.current_streak || 0}
+                    </div>
+                    <div className="text-sm text-muted-foreground">Study Streak</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-primary/10 rounded-lg">
+                    <Star className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-foreground">
+                      {userStats?.motivation_score || 80}%
+                    </div>
+                    <div className="text-sm text-muted-foreground">Motivation Score</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-primary/10 rounded-lg">
+                    <Trophy className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-foreground">
+                      {userStats?.lectures_completed || 0}
+                    </div>
+                    <div className="text-sm text-muted-foreground">Lectures Completed</div>
+                  </div>
+                </div>
               </div>
             </Card>
 

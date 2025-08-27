@@ -1,8 +1,8 @@
-import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { 
   Calendar as CalendarIcon, 
   Clock, 
@@ -15,43 +15,38 @@ import {
   MessageSquare
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import { useSchedule } from "@/hooks/useSchedule";
 
 const Schedule = () => {
-  const [tasks, setTasks] = useState([
-    { id: 1, title: "Complete GS Chapter 5 - Indian Economy", subject: "GS", time: "09:00 AM", duration: "45 min", completed: false, priority: "high" },
-    { id: 2, title: "Math Practice Set 3 - Algebra", subject: "Maths", time: "11:00 AM", duration: "30 min", completed: true, priority: "medium" },
-    { id: 3, title: "Reasoning Quiz - Logical Puzzles", subject: "Reasoning", time: "02:00 PM", duration: "20 min", completed: false, priority: "high" },
-    { id: 4, title: "English Grammar - Tenses Practice", subject: "English", time: "04:00 PM", duration: "25 min", completed: false, priority: "low" },
-    { id: 5, title: "GS Current Affairs Reading", subject: "GS", time: "06:00 PM", duration: "30 min", completed: false, priority: "medium" },
-  ]);
+  const { tasks, userStats, loading, toggleTask } = useSchedule();
 
   const weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
   const currentDay = new Date().getDay();
 
-  const toggleTask = (taskId) => {
-    setTasks(tasks.map(task => 
-      task.id === taskId ? { ...task, completed: !task.completed } : task
-    ));
+  const formatTime = (timeString: string) => {
+    if (!timeString) return 'Not scheduled';
+    const time = new Date(`2000-01-01T${timeString}`);
+    return time.toLocaleTimeString('en-US', { 
+      hour: 'numeric', 
+      minute: '2-digit', 
+      hour12: true 
+    });
   };
 
-  const getSubjectIcon = (subject) => {
-    switch (subject) {
-      case "GS": return Book;
-      case "Maths": return Calculator;
-      case "Reasoning": return Brain;
-      case "English": return MessageSquare;
-      default: return Book;
-    }
+  const getSubjectIcon = (subject: string) => {
+    const subjectLower = subject.toLowerCase();
+    if (subjectLower.includes('math')) return Calculator;
+    if (subjectLower.includes('reasoning')) return Brain;
+    if (subjectLower.includes('english')) return MessageSquare;
+    return Book;
   };
 
-  const getSubjectColor = (subject) => {
-    switch (subject) {
-      case "GS": return "bg-blue-100 text-blue-800";
-      case "Maths": return "bg-green-100 text-green-800";
-      case "Reasoning": return "bg-purple-100 text-purple-800";
-      case "English": return "bg-orange-100 text-orange-800";
-      default: return "bg-gray-100 text-gray-800";
-    }
+  const getSubjectColor = (subject: string) => {
+    const subjectLower = subject.toLowerCase();
+    if (subjectLower.includes('math')) return "bg-green-100 text-green-800";
+    if (subjectLower.includes('reasoning')) return "bg-purple-100 text-purple-800";
+    if (subjectLower.includes('english')) return "bg-orange-100 text-orange-800";
+    return "bg-blue-100 text-blue-800";
   };
 
   const getPriorityColor = (priority) => {
@@ -63,16 +58,20 @@ const Schedule = () => {
     }
   };
 
-  const completedTasks = tasks.filter(task => task.completed).length;
+  const completedTasks = tasks.filter((task: any) => task.is_completed).length;
   const totalTasks = tasks.length;
-  const completionPercentage = Math.round((completedTasks / totalTasks) * 100);
+  const completionPercentage = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
 
-  const weeklyGoals = [
-    { goal: "Complete 5 GS chapters", progress: 60, total: 5, completed: 3 },
-    { goal: "Solve 10 math practice sets", progress: 80, total: 10, completed: 8 },
-    { goal: "Master 50 reasoning problems", progress: 40, total: 50, completed: 20 },
-    { goal: "Learn 100 new English words", progress: 75, total: 100, completed: 75 },
-  ];
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <div className="flex items-center justify-center min-h-[50vh]">
+          <LoadingSpinner />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -121,47 +120,55 @@ const Schedule = () => {
 
               {/* Tasks List */}
               <div className="space-y-3">
-                {tasks.map((task) => {
-                  const SubjectIcon = getSubjectIcon(task.subject);
-                  return (
-                    <div 
-                      key={task.id} 
-                      className={`p-4 rounded-lg border-l-4 ${getPriorityColor(task.priority)} ${
-                        task.completed ? 'bg-muted/50' : 'bg-background'
-                      } hover:shadow-card transition-all duration-300`}
-                    >
-                      <div className="flex items-center gap-4">
-                        <Checkbox 
-                          checked={task.completed}
-                          onCheckedChange={() => toggleTask(task.id)}
-                        />
-                        <div className="p-2 rounded-lg bg-muted">
-                          <SubjectIcon className="h-4 w-4 text-muted-foreground" />
-                        </div>
-                        <div className="flex-1">
-                          <h4 className={`font-medium ${task.completed ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
-                            {task.title}
-                          </h4>
-                          <div className="flex items-center gap-4 mt-1">
-                            <Badge className={getSubjectColor(task.subject)}>
-                              {task.subject}
-                            </Badge>
-                            <span className="text-sm text-muted-foreground flex items-center gap-1">
-                              <Clock className="h-3 w-3" />
-                              {task.time}
-                            </span>
-                            <span className="text-sm text-muted-foreground">
-                              {task.duration}
-                            </span>
+                {tasks.length > 0 ? (
+                  tasks.map((task: any) => {
+                    const SubjectIcon = getSubjectIcon(task.subject);
+                    return (
+                      <div 
+                        key={task.id} 
+                        className={`p-4 rounded-lg border-l-4 ${getPriorityColor(task.priority)} ${
+                          task.is_completed ? 'bg-muted/50' : 'bg-background'
+                        } hover:shadow-card transition-all duration-300`}
+                      >
+                        <div className="flex items-center gap-4">
+                          <Checkbox 
+                            checked={task.is_completed}
+                            onCheckedChange={() => toggleTask(task.id)}
+                          />
+                          <div className="p-2 rounded-lg bg-muted">
+                            <SubjectIcon className="h-4 w-4 text-muted-foreground" />
                           </div>
+                          <div className="flex-1">
+                            <h4 className={`font-medium ${task.is_completed ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
+                              {task.title}
+                            </h4>
+                            <div className="flex items-center gap-4 mt-1">
+                              <Badge className={getSubjectColor(task.subject)}>
+                                {task.subject}
+                              </Badge>
+                              <span className="text-sm text-muted-foreground flex items-center gap-1">
+                                <Clock className="h-3 w-3" />
+                                {formatTime(task.scheduled_time)}
+                              </span>
+                              <span className="text-sm text-muted-foreground">
+                                {task.duration_minutes} min
+                              </span>
+                            </div>
+                          </div>
+                          {task.is_completed && (
+                            <CheckCircle className="h-5 w-5 text-secondary" />
+                          )}
                         </div>
-                        {task.completed && (
-                          <CheckCircle className="h-5 w-5 text-secondary" />
-                        )}
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })
+                ) : (
+                  <div className="text-center py-8 text-muted-foreground">
+                    <CalendarIcon className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                    <p>No tasks scheduled for today</p>
+                    <p className="text-sm">Add some tasks to get started!</p>
+                  </div>
+                )}
               </div>
             </Card>
 
@@ -191,27 +198,31 @@ const Schedule = () => {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Weekly Goals */}
+            {/* User Stats */}
             <Card className="p-6 border-0 shadow-card">
               <h3 className="text-xl font-semibold text-foreground mb-6 flex items-center gap-2">
                 <Target className="h-5 w-5 text-primary" />
-                Weekly Goals
+                Your Progress
               </h3>
               <div className="space-y-4">
-                {weeklyGoals.map((goal, index) => (
-                  <div key={index} className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-foreground font-medium">{goal.goal}</span>
-                      <span className="text-muted-foreground">{goal.completed}/{goal.total}</span>
-                    </div>
-                    <div className="w-full bg-muted rounded-full h-2">
-                      <div 
-                        className="bg-secondary h-2 rounded-full transition-all duration-500"
-                        style={{ width: `${goal.progress}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                ))}
+                <div className="flex items-center justify-between">
+                  <span className="text-muted-foreground">Study Hours</span>
+                  <span className="text-2xl font-bold text-foreground">
+                    {userStats?.study_hours_total || 0}h
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-muted-foreground">Lectures Completed</span>
+                  <span className="text-2xl font-bold text-foreground">
+                    {userStats?.lectures_completed || 0}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-muted-foreground">Tasks Today</span>
+                  <span className="text-2xl font-bold text-foreground">
+                    {userStats?.tasks_completed_today || 0}
+                  </span>
+                </div>
               </div>
             </Card>
 
@@ -221,10 +232,15 @@ const Schedule = () => {
                 <div className="p-4 bg-primary/10 rounded-full w-fit mx-auto mb-4">
                   <Target className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">12 Days</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">
+                  {userStats?.current_streak || 0} Days
+                </h3>
                 <p className="text-muted-foreground mb-4">Current Study Streak</p>
                 <p className="text-sm text-muted-foreground">
-                  Keep going! You're building great study habits.
+                  {(userStats?.current_streak || 0) > 0 
+                    ? "Keep going! You're building great study habits."
+                    : "Start your study streak today!"
+                  }
                 </p>
               </div>
             </Card>
