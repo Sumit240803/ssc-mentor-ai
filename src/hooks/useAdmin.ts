@@ -215,6 +215,199 @@ export const useAdmin = () => {
     }
   };
 
+  // Tasks management
+  const createTask = async (taskData: any) => {
+    try {
+      const { data, error } = await supabase
+        .from('tasks')
+        .insert([{
+          ...taskData,
+          created_by: user?.id
+        }])
+        .select()
+        .single();
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Task created successfully"
+      });
+
+      return { data, error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to create task",
+        variant: "destructive"
+      });
+      return { data: null, error };
+    }
+  };
+
+  const getTasks = async () => {
+    try {
+      const { data, error } = await supabase
+        .from('tasks')
+        .select('*')
+        .order('scheduled_date', { ascending: false })
+        .order('scheduled_time', { ascending: true });
+
+      if (error) throw error;
+      return { data, error: null };
+    } catch (error: any) {
+      return { data: null, error };
+    }
+  };
+
+  const updateTask = async (id: string, taskData: any) => {
+    try {
+      const { data, error } = await supabase
+        .from('tasks')
+        .update(taskData)
+        .eq('id', id)
+        .select()
+        .single();
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Task updated successfully"
+      });
+
+      return { data, error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to update task",
+        variant: "destructive"
+      });
+      return { data: null, error };
+    }
+  };
+
+  const deleteTask = async (id: string) => {
+    try {
+      const { error } = await supabase
+        .from('tasks')
+        .delete()
+        .eq('id', id);
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Task deleted successfully"
+      });
+
+      return { error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to delete task",
+        variant: "destructive"
+      });
+      return { error };
+    }
+  };
+
+  // Motivational content management
+  const createMotivationalContent = async (contentData: any) => {
+    try {
+      const { data, error } = await supabase
+        .from('motivational_content')
+        .insert([{
+          ...contentData,
+          created_by: user?.id
+        }])
+        .select()
+        .single();
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Motivational content created successfully"
+      });
+
+      return { data, error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to create motivational content",
+        variant: "destructive"
+      });
+      return { data: null, error };
+    }
+  };
+
+  const getMotivationalContent = async () => {
+    try {
+      const { data, error } = await supabase
+        .from('motivational_content')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      if (error) throw error;
+      return { data, error: null };
+    } catch (error: any) {
+      return { data: null, error };
+    }
+  };
+
+  const updateMotivationalContent = async (id: string, contentData: any) => {
+    try {
+      const { data, error } = await supabase
+        .from('motivational_content')
+        .update(contentData)
+        .eq('id', id)
+        .select()
+        .single();
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Motivational content updated successfully"
+      });
+
+      return { data, error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to update motivational content",
+        variant: "destructive"
+      });
+      return { data: null, error };
+    }
+  };
+
+  const deleteMotivationalContent = async (id: string) => {
+    try {
+      const { error } = await supabase
+        .from('motivational_content')
+        .delete()
+        .eq('id', id);
+
+      if (error) throw error;
+
+      toast({
+        title: "Success",
+        description: "Motivational content deleted successfully"
+      });
+
+      return { error: null };
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to delete motivational content",
+        variant: "destructive"
+      });
+      return { error };
+    }
+  };
+
   return {
     isAdmin,
     loading,
@@ -224,6 +417,16 @@ export const useAdmin = () => {
     deleteLecture,
     getLectures,
     getSubjects,
-    assignAdminRole
+    assignAdminRole,
+    // Tasks management
+    createTask,
+    getTasks,
+    updateTask,
+    deleteTask,
+    // Motivational content management
+    createMotivationalContent,
+    getMotivationalContent,
+    updateMotivationalContent,
+    deleteMotivationalContent
   };
 };

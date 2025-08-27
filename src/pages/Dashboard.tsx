@@ -13,31 +13,46 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
+import { useDashboardData } from "@/hooks/useDashboardData";
 
 const Dashboard = () => {
-  const todayTasks = [
-    { id: 1, title: "Complete GS Chapter 5", completed: true, time: "45 min" },
-    { id: 2, title: "Math Practice Set 3", completed: false, time: "30 min" },
-    { id: 3, title: "Reasoning Quiz", completed: false, time: "20 min" },
-  ];
+  const { 
+    todayTasks, 
+    recentLectures, 
+    dailyQuote, 
+    userStats, 
+    loading, 
+    toggleTask 
+  } = useDashboardData();
 
-  const recentLectures = [
-    { id: 1, title: "Indian History - Mughal Empire", subject: "GS", duration: "45 min", progress: 100 },
-    { id: 2, title: "Algebra Basics", subject: "Maths", duration: "35 min", progress: 75 },
-    { id: 3, title: "Logical Reasoning", subject: "Reasoning", duration: "40 min", progress: 50 },
-  ];
-
-  const motivationalQuote = {
-    text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    author: "Winston Churchill"
+  const formatTime = (time: string) => {
+    if (!time) return '';
+    return new Date(`2000-01-01T${time}`).toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    });
   };
 
-  const stats = [
-    { label: "Total Study Hours", value: "156", icon: Clock, color: "text-primary" },
-    { label: "Lectures Completed", value: "43", icon: PlayCircle, color: "text-secondary" },
-    { label: "Current Streak", value: "12 days", icon: Target, color: "text-orange-500" },
-    { label: "Quiz Score Avg", value: "87%", icon: TrendingUp, color: "text-green-500" },
-  ];
+  const stats = userStats ? [
+    { label: "Total Study Hours", value: userStats.study_hours_total.toString(), icon: Clock, color: "text-primary" },
+    { label: "Lectures Completed", value: userStats.lectures_completed.toString(), icon: PlayCircle, color: "text-secondary" },
+    { label: "Current Streak", value: `${userStats.current_streak} days`, icon: Target, color: "text-orange-500" },
+    { label: "Tasks Completed", value: userStats.tasks_completed_today.toString(), icon: TrendingUp, color: "text-green-500" },
+  ] : [];
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <div className="max-w-7xl mx-auto px-4 py-8">
+          <div className="text-center py-12">
+            <div className="text-lg text-muted-foreground">Loading your dashboard...</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -55,22 +70,26 @@ const Dashboard = () => {
         </div>
 
         {/* Daily Motivation */}
-        <Card className="mb-8 p-6 bg-gradient-subtle border-0 shadow-card">
-          <div className="flex items-start gap-4">
-            <div className="p-3 bg-primary/10 rounded-full">
-              <Quote className="h-6 w-6 text-primary" />
+        {dailyQuote && (
+          <Card className="mb-8 p-6 bg-gradient-subtle border-0 shadow-card">
+            <div className="flex items-start gap-4">
+              <div className="p-3 bg-primary/10 rounded-full">
+                <Quote className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-foreground mb-2">Daily Motivation</h3>
+                <blockquote className="text-muted-foreground italic text-lg leading-relaxed">
+                  "{dailyQuote.content}"
+                </blockquote>
+                {dailyQuote.author && (
+                  <cite className="text-primary font-medium mt-2 block">
+                    - {dailyQuote.author}
+                  </cite>
+                )}
+              </div>
             </div>
-            <div>
-              <h3 className="font-semibold text-foreground mb-2">Daily Motivation</h3>
-              <blockquote className="text-muted-foreground italic text-lg leading-relaxed">
-                "{motivationalQuote.text}"
-              </blockquote>
-              <cite className="text-primary font-medium mt-2 block">
-                - {motivationalQuote.author}
-              </cite>
-            </div>
-          </div>
-        </Card>
+          </Card>
+        )}
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -104,19 +123,37 @@ const Dashboard = () => {
               </Link>
             </div>
             <div className="space-y-3">
-              {todayTasks.map((task) => (
-                <div key={task.id} className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors">
-                  <div className={`p-1 rounded-full ${task.completed ? 'bg-secondary' : 'bg-muted'}`}>
-                    <CheckCircle className={`h-4 w-4 ${task.completed ? 'text-white' : 'text-muted-foreground'}`} />
-                  </div>
-                  <div className="flex-1">
-                    <div className={`font-medium ${task.completed ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
-                      {task.title}
+              {todayTasks.length > 0 ? (
+                todayTasks.map((task: any) => (
+                  <div 
+                    key={task.id} 
+                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors cursor-pointer"
+                    onClick={() => toggleTask(task.id)}
+                  >
+                    <div className={`p-1 rounded-full ${task.is_completed ? 'bg-secondary' : 'bg-muted'}`}>
+                      <CheckCircle className={`h-4 w-4 ${task.is_completed ? 'text-white' : 'text-muted-foreground'}`} />
                     </div>
-                    <div className="text-sm text-muted-foreground">{task.time}</div>
+                    <div className="flex-1">
+                      <div className={`font-medium ${task.is_completed ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
+                        {task.title}
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        {task.scheduled_time ? formatTime(task.scheduled_time) : ''} • {task.duration_minutes} min
+                      </div>
+                    </div>
                   </div>
+                ))
+              ) : (
+                <div className="text-center py-6 text-muted-foreground">
+                  <Calendar className="h-8 w-8 mx-auto mb-2 opacity-50" />
+                  <p>No tasks scheduled for today</p>
+                  <Link to="/schedule">
+                    <Button variant="soft" size="sm" className="mt-2">
+                      Add Tasks
+                    </Button>
+                  </Link>
                 </div>
-              ))}
+              )}
             </div>
           </Card>
 
@@ -134,31 +171,44 @@ const Dashboard = () => {
               </Link>
             </div>
             <div className="space-y-4">
-              {recentLectures.map((lecture) => (
-                <div key={lecture.id} className="p-4 rounded-lg border hover:shadow-card transition-all duration-300">
-                  <div className="flex justify-between items-start mb-3">
-                    <div>
-                      <h4 className="font-medium text-foreground">{lecture.title}</h4>
-                      <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
-                        <span className="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs">
-                          {lecture.subject}
-                        </span>
-                        <span>{lecture.duration}</span>
+              {recentLectures.length > 0 ? (
+                recentLectures.map((lecture: any) => (
+                  <div key={lecture.id} className="p-4 rounded-lg border hover:shadow-card transition-all duration-300">
+                    <div className="flex justify-between items-start mb-3">
+                      <div>
+                        <h4 className="font-medium text-foreground">{lecture.title}</h4>
+                        <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
+                          <span className="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs">
+                            {lecture.subject}
+                          </span>
+                          <span>{lecture.duration_minutes} min</span>
+                        </div>
+                      </div>
+                      <Link to="/lectures">
+                        <Button variant="ghost" size="sm">
+                          <PlayCircle className="h-4 w-4" />
+                        </Button>
+                      </Link>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-sm">
+                        <span className="text-muted-foreground">Views</span>
+                        <span className="text-foreground font-medium">{lecture.view_count || 0}</span>
                       </div>
                     </div>
-                    <Button variant="ghost" size="sm">
-                      <PlayCircle className="h-4 w-4" />
+                  </div>
+                ))
+              ) : (
+                <div className="text-center py-6 text-muted-foreground">
+                  <BookOpen className="h-8 w-8 mx-auto mb-2 opacity-50" />
+                  <p>No lectures available</p>
+                  <Link to="/lectures">
+                    <Button variant="soft" size="sm" className="mt-2">
+                      Browse Lectures
                     </Button>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-muted-foreground">Progress</span>
-                      <span className="text-foreground font-medium">{lecture.progress}%</span>
-                    </div>
-                    <Progress value={lecture.progress} className="h-2" />
-                  </div>
+                  </Link>
                 </div>
-              ))}
+              )}
             </div>
           </Card>
         </div>

@@ -65,6 +65,51 @@ export type Database = {
         }
         Relationships: []
       }
+      motivational_content: {
+        Row: {
+          author: string | null
+          category: string | null
+          content: string
+          created_at: string
+          created_by: string | null
+          id: string
+          is_active: boolean | null
+          is_daily: boolean | null
+          likes_count: number | null
+          title: string | null
+          type: string | null
+          updated_at: string
+        }
+        Insert: {
+          author?: string | null
+          category?: string | null
+          content: string
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          is_active?: boolean | null
+          is_daily?: boolean | null
+          likes_count?: number | null
+          title?: string | null
+          type?: string | null
+          updated_at?: string
+        }
+        Update: {
+          author?: string | null
+          category?: string | null
+          content?: string
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          is_active?: boolean | null
+          is_daily?: boolean | null
+          likes_count?: number | null
+          title?: string | null
+          type?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
       payments: {
         Row: {
           amount: number
@@ -197,6 +242,54 @@ export type Database = {
         }
         Relationships: []
       }
+      tasks: {
+        Row: {
+          created_at: string
+          created_by: string | null
+          description: string | null
+          duration_minutes: number | null
+          id: string
+          is_completed: boolean | null
+          priority: string | null
+          scheduled_date: string | null
+          scheduled_time: string | null
+          subject: string
+          title: string
+          updated_at: string
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          created_by?: string | null
+          description?: string | null
+          duration_minutes?: number | null
+          id?: string
+          is_completed?: boolean | null
+          priority?: string | null
+          scheduled_date?: string | null
+          scheduled_time?: string | null
+          subject: string
+          title: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          created_by?: string | null
+          description?: string | null
+          duration_minutes?: number | null
+          id?: string
+          is_completed?: boolean | null
+          priority?: string | null
+          scheduled_date?: string | null
+          scheduled_time?: string | null
+          subject?: string
+          title?: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Relationships: []
+      }
       user_roles: {
         Row: {
           created_at: string
@@ -214,6 +307,45 @@ export type Database = {
           created_at?: string
           id?: string
           role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
+      user_stats: {
+        Row: {
+          created_at: string
+          current_streak: number | null
+          id: string
+          last_activity_date: string | null
+          lectures_completed: number | null
+          motivation_score: number | null
+          study_hours_total: number | null
+          tasks_completed_today: number | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          current_streak?: number | null
+          id?: string
+          last_activity_date?: string | null
+          lectures_completed?: number | null
+          motivation_score?: number | null
+          study_hours_total?: number | null
+          tasks_completed_today?: number | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          current_streak?: number | null
+          id?: string
+          last_activity_date?: string | null
+          lectures_completed?: number | null
+          motivation_score?: number | null
+          study_hours_total?: number | null
+          tasks_completed_today?: number | null
+          updated_at?: string
           user_id?: string
         }
         Relationships: []

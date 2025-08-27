@@ -16,6 +16,8 @@ import Profile from "./pages/Profile";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import LectureManagement from "./pages/admin/LectureManagement";
 import SubjectManagement from "./pages/admin/SubjectManagement";
+import TaskManagement from "./pages/admin/TaskManagement";
+import MotivationManagement from "./pages/admin/MotivationManagement";
 import PostModeration from "./pages/admin/PostModeration";
 import AdminRoute from "./components/AdminRoute";
 import FloatingChatbot from "./components/FloatingChatbot";
@@ -117,6 +119,26 @@ const App = () => (
                 <ProtectedRoute>
                   <AdminRoute>
                     <SubjectManagement />
+                  </AdminRoute>
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin/tasks" 
+              element={
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <TaskManagement />
+                  </AdminRoute>
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin/motivation" 
+              element={
+                <ProtectedRoute>
+                  <AdminRoute>
+                    <MotivationManagement />
                   </AdminRoute>
                 </ProtectedRoute>
               } 

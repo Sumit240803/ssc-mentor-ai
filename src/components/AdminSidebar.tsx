@@ -13,7 +13,9 @@ import {
   Menu,
   X,
   Shield,
-  GraduationCap
+  GraduationCap,
+  Calendar,
+  Quote
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { cn } from "@/lib/utils";
@@ -53,6 +55,18 @@ const AdminSidebar = () => {
       href: "/admin/subjects",
       icon: BookOpen,
       description: "Organize course subjects"
+    },
+    {
+      title: "Tasks",
+      href: "/admin/tasks",
+      icon: Calendar,
+      description: "Manage study schedules"
+    },
+    {
+      title: "Motivation",
+      href: "/admin/motivation",
+      icon: Quote,
+      description: "Inspirational content"
     },
     {
       title: "Posts",
