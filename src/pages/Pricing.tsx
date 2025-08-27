@@ -63,7 +63,7 @@ const Pricing = () => {
         currency: 'INR',
         name: 'EduPlatform',
         description: 'Premium Course Access',
-        order_id: paymentData.id,
+        // For test mode, we don't need to create a server-side order
         handler: async function (response: any) {
           try {
             // Update payment record with Razorpay details
@@ -71,8 +71,6 @@ const Pricing = () => {
               .from('payments')
               .update({
                 razorpay_payment_id: response.razorpay_payment_id,
-                razorpay_order_id: response.razorpay_order_id,
-                razorpay_signature: response.razorpay_signature,
                 status: 'completed'
               })
               .eq('id', paymentData.id);
@@ -119,12 +117,13 @@ const Pricing = () => {
       console.log('Razorpay instance created:', rzp);
       
       rzp.on('payment.failed', async function (response: any) {
+        console.log('Payment failed:', response);
         // Update payment status to failed
         await supabase
           .from('payments')
           .update({
             status: 'failed',
-            razorpay_payment_id: response.error.metadata.payment_id
+            razorpay_payment_id: response.error.metadata?.payment_id || null
           })
           .eq('id', paymentData.id);
 
