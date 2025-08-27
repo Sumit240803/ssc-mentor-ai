@@ -10,10 +10,9 @@ interface PaymentStatus {
 
 export const usePaymentStatus = (): PaymentStatus => {
   const { user } = useAuth();
-  // TEMPORARY: Bypass payment for testing - REMOVE THIS IN PRODUCTION
-  const [hasPaid, setHasPaid] = useState(true);
-  const [loading, setLoading] = useState(false);
-  const [paymentStatus, setPaymentStatus] = useState<'pending' | 'completed' | 'trial'>('completed');
+  const [hasPaid, setHasPaid] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [paymentStatus, setPaymentStatus] = useState<'pending' | 'completed' | 'trial'>('pending');
 
   useEffect(() => {
     const checkPaymentStatus = async () => {
