@@ -21,6 +21,8 @@ const Pricing = () => {
   const [loading, setLoading] = useState(false);
 
   const handlePayment = async () => {
+    console.log('Payment initiated');
+    
     if (!user) {
       toast({
         title: "Error",
@@ -33,6 +35,7 @@ const Pricing = () => {
     setLoading(true);
     
     try {
+      console.log('Creating payment record...');
       // Create payment record
       const { data: paymentData, error: paymentError } = await supabase
         .from('payments')
@@ -46,8 +49,12 @@ const Pricing = () => {
         .single();
 
       if (paymentError) {
+        console.error('Payment creation error:', paymentError);
         throw paymentError;
       }
+
+      console.log('Payment record created:', paymentData);
+      console.log('Razorpay available:', !!window.Razorpay);
 
       // Initialize Razorpay
       const options = {
@@ -107,7 +114,9 @@ const Pricing = () => {
         }
       };
 
+      console.log('Razorpay options:', options);
       const rzp = new window.Razorpay(options);
+      console.log('Razorpay instance created:', rzp);
       
       rzp.on('payment.failed', async function (response: any) {
         // Update payment status to failed
@@ -126,6 +135,7 @@ const Pricing = () => {
         });
       });
 
+      console.log('Opening Razorpay...');
       rzp.open();
     } catch (error) {
       console.error('Payment initiation error:', error);
