@@ -51,7 +51,7 @@ const Pricing = () => {
 
       // Initialize Razorpay
       const options = {
-        key: 'rzp_test_9999999999', // Replace with your Razorpay key
+        key: 'rzp_test_your_key_here', // Replace with your actual Razorpay key
         amount: 49900, // 499 rupees in paise
         currency: 'INR',
         name: 'EduPlatform',
