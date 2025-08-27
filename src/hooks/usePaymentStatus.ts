@@ -22,12 +22,16 @@ export const usePaymentStatus = (): PaymentStatus => {
       }
 
       try {
+        console.log('Checking payment status for user:', user.id);
+        
         // First check profile payment status for quick lookup
         const { data: profile, error: profileError } = await supabase
           .from('profiles')
           .select('payment_status')
           .eq('user_id', user.id)
           .single();
+
+        console.log('Profile data:', profile, 'Profile error:', profileError);
 
         if (profileError) {
           console.error('Error fetching profile:', profileError);
@@ -36,6 +40,7 @@ export const usePaymentStatus = (): PaymentStatus => {
         }
 
         if (profile?.payment_status === 'completed' || profile?.payment_status === 'trial') {
+          console.log('User has paid according to profile');
           setHasPaid(true);
           setPaymentStatus(profile.payment_status);
           setLoading(false);
@@ -51,6 +56,8 @@ export const usePaymentStatus = (): PaymentStatus => {
           .limit(1)
           .maybeSingle();
 
+        console.log('Payment data:', payment, 'Payment error:', paymentError);
+
         if (paymentError) {
           console.error('Error fetching payment:', paymentError);
           setLoading(false);
@@ -58,15 +65,23 @@ export const usePaymentStatus = (): PaymentStatus => {
         }
 
         if (payment) {
+          console.log('Found completed payment, updating profile...');
           // Update profile if payment exists but profile wasn't updated
-          await supabase
+          const { error: updateError } = await supabase
             .from('profiles')
             .update({ payment_status: 'completed' })
             .eq('user_id', user.id);
           
+          if (updateError) {
+            console.error('Error updating profile:', updateError);
+          } else {
+            console.log('Profile updated successfully');
+          }
+          
           setHasPaid(true);
           setPaymentStatus('completed');
         } else {
+          console.log('No completed payments found');
           setHasPaid(false);
           const status = profile?.payment_status;
           if (status === 'pending' || status === 'completed' || status === 'trial') {
