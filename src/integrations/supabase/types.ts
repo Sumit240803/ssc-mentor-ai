@@ -65,6 +65,48 @@ export type Database = {
         }
         Relationships: []
       }
+      payments: {
+        Row: {
+          amount: number
+          created_at: string
+          currency: string
+          id: string
+          payment_method: string | null
+          razorpay_order_id: string | null
+          razorpay_payment_id: string | null
+          razorpay_signature: string | null
+          status: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          amount?: number
+          created_at?: string
+          currency?: string
+          id?: string
+          payment_method?: string | null
+          razorpay_order_id?: string | null
+          razorpay_payment_id?: string | null
+          razorpay_signature?: string | null
+          status?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          created_at?: string
+          currency?: string
+          id?: string
+          payment_method?: string | null
+          razorpay_order_id?: string | null
+          razorpay_payment_id?: string | null
+          razorpay_signature?: string | null
+          status?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       posts: {
         Row: {
           content: string | null
@@ -99,6 +141,7 @@ export type Database = {
           email: string | null
           full_name: string | null
           id: string
+          payment_status: string | null
           updated_at: string
           user_id: string
         }
@@ -108,6 +151,7 @@ export type Database = {
           email?: string | null
           full_name?: string | null
           id?: string
+          payment_status?: string | null
           updated_at?: string
           user_id: string
         }
@@ -117,6 +161,7 @@ export type Database = {
           email?: string | null
           full_name?: string | null
           id?: string
+          payment_status?: string | null
           updated_at?: string
           user_id?: string
         }
@@ -187,6 +232,10 @@ export type Database = {
           _role: Database["public"]["Enums"]["app_role"]
           _user_id: string
         }
+        Returns: boolean
+      }
+      user_has_paid: {
+        Args: { _user_id: string }
         Returns: boolean
       }
     }

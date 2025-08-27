@@ -7,6 +7,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
+import Pricing from "./pages/Pricing";
 import Dashboard from "./pages/Dashboard";
 import Lectures from "./pages/Lectures";
 import Schedule from "./pages/Schedule";
@@ -32,6 +33,14 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/auth" element={<Auth />} />
+            <Route 
+              path="/pricing" 
+              element={
+                <ProtectedRoute requirePayment={false}>
+                  <Pricing />
+                </ProtectedRoute>
+              } 
+            />
             <Route 
               path="/dashboard" 
               element={

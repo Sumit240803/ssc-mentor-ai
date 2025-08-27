@@ -22,7 +22,7 @@ const Auth = () => {
   // Redirect if already authenticated
   useEffect(() => {
     if (user) {
-      navigate('/dashboard');
+      navigate('/pricing');
     }
   }, [user, navigate]);
 
@@ -51,7 +51,7 @@ const Auth = () => {
           title: "Success!",
           description: "You have been signed in successfully",
         });
-        navigate('/dashboard');
+        navigate('/pricing');
       }
     } catch (error: any) {
       toast({
@@ -104,12 +104,13 @@ const Auth = () => {
       } else {
         toast({
           title: "Success!",
-          description: "Account created successfully. Please check your email to verify your account.",
+          description: "Account created successfully! Please proceed to complete your purchase.",
         });
         // Clear form
         setEmail('');
         setPassword('');
         setFullName('');
+        // Note: User will be automatically redirected to pricing by useEffect
       }
     } catch (error: any) {
       toast({
