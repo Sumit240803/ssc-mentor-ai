@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Check, Crown, BookOpen, Video, Users, Award, Brain, Zap, Target, Bot, Sparkles, CheckCircle, Star, ArrowRight } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '@/components/Navbar';
 
 declare global {
   interface Window {
@@ -205,6 +206,7 @@ const Pricing = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-secondary/10 relative overflow-hidden">
+      <Navbar/>
       {/* Animated Background Elements */}
       <div className="fixed inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-glow rounded-full animate-float"></div>
