@@ -9,15 +9,22 @@ interface PaymentStatus {
 }
 
 export const usePaymentStatus = (): PaymentStatus => {
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const [hasPaid, setHasPaid] = useState(false);
   const [loading, setLoading] = useState(true);
   const [paymentStatus, setPaymentStatus] = useState<'pending' | 'completed' | 'trial'>('pending');
 
   useEffect(() => {
     const checkPaymentStatus = async () => {
+      // Wait for auth to complete before checking payment
+      if (authLoading) {
+        return;
+      }
+      
       if (!user) {
         console.log('No user found, setting loading to false');
+        setHasPaid(false);
+        setPaymentStatus('pending');
         setLoading(false);
         return;
       }
@@ -96,7 +103,7 @@ export const usePaymentStatus = (): PaymentStatus => {
     };
 
     checkPaymentStatus();
-  }, [user]);
+  }, [user, authLoading]);
 
   return { hasPaid, loading, paymentStatus };
 };
