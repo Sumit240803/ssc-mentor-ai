@@ -5,54 +5,56 @@ import { supabase } from '@/integrations/supabase/client';
 interface PaymentStatus {
   hasPaid: boolean;
   loading: boolean;
-  paymentStatus: 'pending' | 'completed' | 'trial';
+  paymentStatus: 'pending' | 'completed' | 'trial' | 'verifying';
 }
 
 export const usePaymentStatus = (): PaymentStatus => {
   const { user, loading: authLoading } = useAuth();
   const [hasPaid, setHasPaid] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [paymentStatus, setPaymentStatus] = useState<'pending' | 'completed' | 'trial'>('pending');
+  const [paymentStatus, setPaymentStatus] = useState<'pending' | 'completed' | 'trial' | 'verifying'>('pending');
 
   useEffect(() => {
-    const checkPaymentStatus = async () => {
-      // Wait for auth to complete before checking payment
-      if (authLoading) {
-        return;
-      }
-      
-      if (!user) {
-        console.log('No user found, setting loading to false');
-        setHasPaid(false);
-        setPaymentStatus('pending');
-        setLoading(false);
-        return;
-      }
+    if (authLoading) return; // wait for auth to finish
+
+    if (!user) {
+      setHasPaid(false);
+      setPaymentStatus('pending');
+      setLoading(false);
+      return;
+    }
+
+    let isMounted = true;
+    let retries = 0;
+    const MAX_RETRIES = 3;
+    const RETRY_DELAY = 3000; // 3s
+
+    const checkPayment = async () => {
+      if (!isMounted) return;
 
       try {
-        console.log('Checking payment status for user:', user.id, 'User email:', user.email);
-        
-        // First check profile payment status for quick lookup
+        // Check profile first
         const { data: profile, error: profileError } = await supabase
           .from('profiles')
           .select('payment_status')
           .eq('user_id', user.id)
           .single();
 
-        console.log('Profile data:', profile, 'Profile error:', profileError);
-
         if (profileError) {
           console.error('Error fetching profile:', profileError);
-          // Don't return here, continue to check payments table
-        } else if (profile?.payment_status === 'completed' || profile?.payment_status === 'trial') {
-          console.log('User has paid according to profile');
+        }
+
+        if (profile?.payment_status === 'completed' || profile?.payment_status === 'trial') {
           setHasPaid(true);
           setPaymentStatus(profile.payment_status);
           setLoading(false);
           return;
         }
 
-        // Double-check with payments table
+        // If still pending, mark as verifying
+        setPaymentStatus('verifying');
+
+        // Check payments table
         const { data: payment, error: paymentError } = await supabase
           .from('payments')
           .select('status')
@@ -61,48 +63,45 @@ export const usePaymentStatus = (): PaymentStatus => {
           .limit(1)
           .maybeSingle();
 
-        console.log('Payment data:', payment, 'Payment error:', paymentError);
-
         if (paymentError) {
           console.error('Error fetching payment:', paymentError);
-          setLoading(false);
-          return;
         }
 
         if (payment) {
-          console.log('Found completed payment, updating profile...');
-          // Update profile if payment exists but profile wasn't updated
+          // Update profile if payment exists
           const { error: updateError } = await supabase
             .from('profiles')
             .update({ payment_status: 'completed' })
             .eq('user_id', user.id);
-          
-          if (updateError) {
-            console.error('Error updating profile:', updateError);
-          } else {
-            console.log('Profile updated successfully');
-          }
-          
+
+          if (updateError) console.error('Error updating profile:', updateError);
+
           setHasPaid(true);
           setPaymentStatus('completed');
+          setLoading(false);
+        } else if (retries < MAX_RETRIES) {
+          // Retry after delay
+          retries++;
+          setTimeout(checkPayment, RETRY_DELAY);
         } else {
-          console.log('No completed payments found');
+          // Max retries reached → payment still not found
           setHasPaid(false);
-          const status = profile?.payment_status;
-          if (status === 'pending' || status === 'completed' || status === 'trial') {
-            setPaymentStatus(status);
-          } else {
-            setPaymentStatus('pending');
-          }
+          setPaymentStatus('pending');
+          setLoading(false);
         }
-      } catch (error) {
-        console.error('Error checking payment status:', error);
-      } finally {
+      } catch (err) {
+        console.error('Error checking payment status:', err);
+        setHasPaid(false);
+        setPaymentStatus('pending');
         setLoading(false);
       }
     };
 
-    checkPaymentStatus();
+    checkPayment();
+
+    return () => {
+      isMounted = false;
+    };
   }, [user, authLoading]);
 
   return { hasPaid, loading, paymentStatus };
