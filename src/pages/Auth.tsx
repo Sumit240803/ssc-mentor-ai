@@ -9,6 +9,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import { Loader2, Mail, Lock, User, ArrowLeft } from 'lucide-react';
+import { usePaymentStatus } from '@/hooks/usePaymentStatus';
 
 const Auth = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -16,15 +17,20 @@ const Auth = () => {
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
   const { signIn, signUp, signInWithGoogle, user } = useAuth();
+  const { hasPaid, loading, paymentStatus } = usePaymentStatus();
+
   const { toast } = useToast();
   const navigate = useNavigate();
 
   // Redirect if already authenticated
   useEffect(() => {
     if (user) {
+      if(hasPaid){
+        navigate('/dashboard');
+      }
       navigate('/pricing');
     }
-  }, [user, navigate]);
+  }, [user, navigate,hasPaid]);
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
