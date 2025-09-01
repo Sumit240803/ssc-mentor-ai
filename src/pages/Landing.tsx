@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
+import Navbar from "@/components/Navbar";
 
 const Landing = () => {
   const features = [
@@ -75,6 +76,7 @@ const Landing = () => {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
+      <Navbar/>
       {/* Animated Background Elements */}
       <div className="fixed inset-0 opacity-30">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-glow rounded-full animate-float"></div>
