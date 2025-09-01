@@ -11,8 +11,10 @@ interface ProtectedRouteProps {
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requirePayment = true }) => {
   const { user, loading: authLoading } = useAuth();
-  const { hasPaid, loading: paymentLoading } = usePaymentStatus();
+  const { hasPaid, loading: paymentLoading, paymentStatus } = usePaymentStatus();
   const location = useLocation();
+
+  console.log('ProtectedRoute - User:', user?.id, 'Auth Loading:', authLoading, 'Payment Loading:', paymentLoading, 'Has Paid:', hasPaid, 'Payment Status:', paymentStatus);
 
   if (authLoading || paymentLoading) {
     return (
