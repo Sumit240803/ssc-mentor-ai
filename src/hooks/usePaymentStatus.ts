@@ -17,12 +17,13 @@ export const usePaymentStatus = (): PaymentStatus => {
   useEffect(() => {
     const checkPaymentStatus = async () => {
       if (!user) {
+        console.log('No user found, setting loading to false');
         setLoading(false);
         return;
       }
 
       try {
-        console.log('Checking payment status for user:', user.id);
+        console.log('Checking payment status for user:', user.id, 'User email:', user.email);
         
         // First check profile payment status for quick lookup
         const { data: profile, error: profileError } = await supabase
@@ -35,11 +36,8 @@ export const usePaymentStatus = (): PaymentStatus => {
 
         if (profileError) {
           console.error('Error fetching profile:', profileError);
-          setLoading(false);
-          return;
-        }
-
-        if (profile?.payment_status === 'completed' || profile?.payment_status === 'trial') {
+          // Don't return here, continue to check payments table
+        } else if (profile?.payment_status === 'completed' || profile?.payment_status === 'trial') {
           console.log('User has paid according to profile');
           setHasPaid(true);
           setPaymentStatus(profile.payment_status);
