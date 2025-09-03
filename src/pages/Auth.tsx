@@ -27,8 +27,9 @@ const Auth = () => {
     if (user) {
       if(hasPaid){
         navigate('/dashboard');
+      } else {
+        navigate('/pricing');
       }
-      navigate('/pricing');
     }
   }, [user, navigate,hasPaid]);
 
