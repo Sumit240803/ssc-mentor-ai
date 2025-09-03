@@ -18,11 +18,24 @@ import {
   Star,
   CheckCircle
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import Navbar from "@/components/Navbar";
+import { useAuth } from "@/contexts/AuthContext";
+import { usePaymentStatus } from "@/hooks/usePaymentStatus";
 
 const Landing = () => {
+  const { user } = useAuth();
+  const { hasPaid } = usePaymentStatus();
+  const navigate = useNavigate();
+
+  const handleStartJourney = () => {
+    if (user && hasPaid) {
+      navigate('/dashboard');
+    } else {
+      navigate('/auth');
+    }
+  };
   const features = [
     {
       icon: Brain,
@@ -116,12 +129,10 @@ const Landing = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in mb-12" style={{ animationDelay: "0.4s" }}>
-            <Link to="/auth">
-              <Button size="lg" className="text-lg px-8 py-6 bg-gradient-ai-primary hover:shadow-ai-glow transition-all duration-300 animate-pulse-glow">
-                Start AI Learning Journey
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
+            <Button size="lg" className="text-lg px-8 py-6 bg-gradient-ai-primary hover:shadow-ai-glow transition-all duration-300 animate-pulse-glow" onClick={handleStartJourney}>
+              Start AI Learning Journey
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-primary/30 hover:bg-primary/5">
               <Play className="mr-2 h-5 w-5" />
               Watch AI Demo
@@ -275,12 +286,10 @@ const Landing = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link to="/auth">
-                  <Button size="lg" className="text-lg px-10 py-6 bg-gradient-ai-primary hover:shadow-ai-glow transition-all duration-300 animate-pulse-glow">
-                    Start Your AI Journey - ₹499
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
+                <Button size="lg" className="text-lg px-10 py-6 bg-gradient-ai-primary hover:shadow-ai-glow transition-all duration-300 animate-pulse-glow" onClick={handleStartJourney}>
+                  Start Your AI Journey - ₹499
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-primary/30 hover:bg-primary/5">
                   Schedule AI Demo
                 </Button>
