@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import { useLectures } from "@/hooks/useLectures";
+import { TopicChat } from "@/components/TopicChat";
 
 interface TopicData {
   content_id: string;
@@ -219,6 +220,14 @@ const Lectures = () => {
                   </div>
                 </div>
               </Card>
+            )}
+
+            {/* AI Chat for Selected Topic */}
+            {selectedTopic && (
+              <TopicChat 
+                contentId={selectedTopic.content_id}
+                topicName={selectedTopic.topic_info.filename.replace('.pdf', '')}
+              />
             )}
           </div>
         </div>
