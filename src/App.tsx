@@ -10,6 +10,7 @@ import Auth from "./pages/Auth";
 import Pricing from "./pages/Pricing";
 import Dashboard from "./pages/Dashboard";
 import Lectures from "./pages/Lectures";
+import AIChat from "./pages/AIChat";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
@@ -56,6 +57,14 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <Lectures />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/ai-chat" 
+              element={
+                <ProtectedRoute>
+                  <AIChat />
                 </ProtectedRoute>
               } 
             />
