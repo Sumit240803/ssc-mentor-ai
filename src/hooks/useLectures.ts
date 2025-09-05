@@ -1,9 +1,25 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '@/integrations/supabase/client';
+
+interface TopicInfo {
+  subject: string;
+  sub_subject: string;
+  topic: string;
+  subtopic: string;
+  filename: string;
+}
+
+interface TopicData {
+  content_id: string;
+  topic_info: TopicInfo;
+  has_enhanced_summary: boolean;
+  has_standard_summary: boolean;
+  summary_preview: string;
+  storage_url: string;
+}
 
 export const useLectures = () => {
-  const [lectures, setLectures] = useState([]);
-  const [subjects, setSubjects] = useState([]);
+  const [topics, setTopics] = useState<TopicData[]>([]);
+  const [subSubjects, setSubSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,48 +29,34 @@ export const useLectures = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      await Promise.all([
-        fetchLectures(),
-        fetchSubjects()
-      ]);
+      const response = await fetch('https://study-ai-rohit.vercel.app/topics');
+      if (!response.ok) {
+        throw new Error('Failed to fetch topics');
+      }
+      const data: TopicData[] = await response.json();
+      setTopics(data);
+      
+      // Extract unique sub_subjects
+      const uniqueSubSubjects = [...new Set(data.map(topic => topic.topic_info.sub_subject))];
+      setSubSubjects(uniqueSubSubjects);
     } catch (error) {
-      console.error('Error loading lecture data:', error);
+      console.error('Error loading topic data:', error);
     } finally {
       setLoading(false);
     }
   };
 
-  const fetchLectures = async () => {
-    const { data } = await supabase
-      .from('lectures')
-      .select('*')
-      .eq('is_published', true)
-      .order('created_at', { ascending: false });
-    
-    setLectures(data || []);
-  };
-
-  const fetchSubjects = async () => {
-    const { data } = await supabase
-      .from('subjects')
-      .select('*')
-      .eq('is_active', true)
-      .order('name', { ascending: true });
-    
-    setSubjects(data || []);
-  };
-
-  const getLecturesBySubject = (subjectName: string) => {
-    return lectures.filter((lecture: any) => 
-      lecture.subject.toLowerCase() === subjectName.toLowerCase()
+  const getTopicsBySubSubject = (subSubjectName: string) => {
+    return topics.filter((topic: TopicData) => 
+      topic.topic_info.sub_subject.toLowerCase() === subSubjectName.toLowerCase()
     );
   };
 
   return {
-    lectures,
-    subjects,
+    topics,
+    subSubjects,
     loading,
-    getLecturesBySubject,
+    getTopicsBySubSubject,
     refreshData: loadData
   };
 };

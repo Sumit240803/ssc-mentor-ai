@@ -5,39 +5,49 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { 
-  PlayCircle, 
-  Clock, 
+  ExternalLink, 
+  FileText, 
   BookOpen, 
   Calculator, 
   Brain, 
   MessageSquare,
-  Star,
+  Download,
   ChevronRight
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import { useLectures } from "@/hooks/useLectures";
 
-const Lectures = () => {
-  const [selectedLecture, setSelectedLecture] = useState(null);
-  const { lectures, subjects, loading, getLecturesBySubject } = useLectures();
+interface TopicData {
+  content_id: string;
+  topic_info: {
+    subject: string;
+    sub_subject: string;
+    topic: string;
+    subtopic: string;
+    filename: string;
+  };
+  has_enhanced_summary: boolean;
+  has_standard_summary: boolean;
+  summary_preview: string;
+  storage_url: string;
+}
 
-  const getSubjectIcon = (iconName: string) => {
-    const icons = {
-      BookOpen: BookOpen,
-      Calculator: Calculator,
-      Brain: Brain,
-      MessageSquare: MessageSquare
+const Lectures = () => {
+  const [selectedTopic, setSelectedTopic] = useState<TopicData | null>(null);
+  const { topics, subSubjects, loading, getTopicsBySubSubject } = useLectures();
+
+  const getSubjectIcon = (subSubject: string) => {
+    const icons: { [key: string]: any } = {
+      "General Studies": BookOpen,
+      "Mathematics": Calculator,
+      "Reasoning": Brain,
+      "English": MessageSquare
     };
-    return icons[iconName as keyof typeof icons] || BookOpen;
+    return icons[subSubject] || BookOpen;
   };
 
-  const getDifficultyColor = (difficulty) => {
-    switch (difficulty) {
-      case "Beginner": return "bg-green-100 text-green-800";
-      case "Intermediate": return "bg-yellow-100 text-yellow-800";
-      case "Advanced": return "bg-red-100 text-red-800";
-      default: return "bg-gray-100 text-gray-800";
-    }
+  const handleDownload = (url: string, filename: string) => {
+    window.open(url, '_blank');
   };
 
   if (loading) {
@@ -59,68 +69,69 @@ const Lectures = () => {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-            Video Lectures
+            Study Materials
           </h1>
           <p className="text-muted-foreground text-lg">
-            Comprehensive lessons designed to master your SSC preparation
+            Comprehensive study content with AI-powered summaries for your exam preparation
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Lectures List */}
+          {/* Topics List */}
           <div className="lg:col-span-2">
-            <Tabs defaultValue={subjects[0]?.name?.toLowerCase()} className="w-full">
-              <TabsList className={`grid w-full mb-6 ${subjects.length <= 4 ? `grid-cols-${subjects.length}` : 'grid-cols-4'}`}>
-                {subjects.map((subject: any) => {
-                  const SubjectIcon = getSubjectIcon(subject.icon);
+            <Tabs defaultValue={subSubjects[0]?.toLowerCase().replace(/\s+/g, '-')} className="w-full">
+              <TabsList className={`grid w-full mb-6 ${subSubjects.length <= 4 ? `grid-cols-${subSubjects.length}` : 'grid-cols-4'}`}>
+                {subSubjects.map((subSubject: string) => {
+                  const SubjectIcon = getSubjectIcon(subSubject);
                   return (
                     <TabsTrigger 
-                      key={subject.id} 
-                      value={subject.name.toLowerCase()}
+                      key={subSubject} 
+                      value={subSubject.toLowerCase().replace(/\s+/g, '-')}
                       className="flex items-center gap-2"
                     >
-                      <SubjectIcon className="h-4 w-4" style={{ color: subject.color_code }} />
-                      <span className="hidden sm:inline">{subject.name}</span>
+                      <SubjectIcon className="h-4 w-4 text-primary" />
+                      <span className="hidden sm:inline">{subSubject}</span>
                     </TabsTrigger>
                   );
                 })}
               </TabsList>
 
-              {subjects.map((subject: any) => (
-                <TabsContent key={subject.id} value={subject.name.toLowerCase()} className="space-y-4">
-                  {getLecturesBySubject(subject.name).length > 0 ? (
-                    getLecturesBySubject(subject.name).map((lecture: any) => (
+              {subSubjects.map((subSubject: string) => (
+                <TabsContent key={subSubject} value={subSubject.toLowerCase().replace(/\s+/g, '-')} className="space-y-4">
+                  {getTopicsBySubSubject(subSubject).length > 0 ? (
+                    getTopicsBySubSubject(subSubject).map((topic: TopicData) => (
                       <Card 
-                        key={lecture.id} 
+                        key={topic.content_id} 
                         className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer border-0 shadow-card"
-                        onClick={() => setSelectedLecture(lecture)}
+                        onClick={() => setSelectedTopic(topic)}
                       >
                         <div className="flex items-start justify-between">
                           <div className="flex-1">
                             <div className="flex items-center gap-3 mb-3">
                               <div className="p-2 bg-primary/10 rounded-lg">
-                                <PlayCircle className="h-5 w-5 text-primary" />
+                                <FileText className="h-5 w-5 text-primary" />
                               </div>
                               <div>
                                 <h3 className="font-semibold text-foreground text-lg">
-                                  {lecture.title}
+                                  {topic.topic_info.filename.replace('.pdf', '')}
                                 </h3>
                                 <div className="flex items-center gap-4 text-sm text-muted-foreground mt-1">
                                   <span className="flex items-center gap-1">
-                                    <Clock className="h-3 w-3" />
-                                    {lecture.duration_minutes} min
+                                    <BookOpen className="h-3 w-3" />
+                                    {topic.topic_info.topic}
                                   </span>
-                                  <span className="flex items-center gap-1">
-                                    <Star className="h-3 w-3 fill-yellow-400 text-yellow-400" />
-                                    4.8
-                                  </span>
-                                  <span>{lecture.view_count || 0} views</span>
+                                  <span>{topic.topic_info.subtopic}</span>
                                 </div>
                               </div>
                             </div>
-                            <Badge className={getDifficultyColor(lecture.difficulty_level)}>
-                              {lecture.difficulty_level}
-                            </Badge>
+                            <div className="flex gap-2">
+                              {topic.has_enhanced_summary && (
+                                <Badge variant="default">Enhanced Summary</Badge>
+                              )}
+                              {topic.has_standard_summary && (
+                                <Badge variant="outline">Standard Summary</Badge>
+                              )}
+                            </div>
                           </div>
                           <ChevronRight className="h-5 w-5 text-muted-foreground" />
                         </div>
@@ -129,7 +140,7 @@ const Lectures = () => {
                   ) : (
                     <div className="text-center py-8 text-muted-foreground">
                       <BookOpen className="h-12 w-12 mx-auto mb-4 opacity-50" />
-                      <p>No lectures available for {subject.name}</p>
+                      <p>No content available for {subSubject}</p>
                       <p className="text-sm">Check back later for new content!</p>
                     </div>
                   )}
@@ -138,59 +149,74 @@ const Lectures = () => {
             </Tabs>
           </div>
 
-          {/* Video Player & Summary */}
+          {/* Content Actions & Summary */}
           <div className="space-y-6">
-            {/* Video Player */}
+            {/* Content Actions */}
             <Card className="p-6 border-0 shadow-card">
               <h3 className="font-semibold text-foreground mb-4">
-                {selectedLecture ? selectedLecture.title : "Select a lecture to begin"}
+                {selectedTopic ? selectedTopic.topic_info.filename.replace('.pdf', '') : "Select content to view"}
               </h3>
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                {selectedLecture ? (
-                  <Button variant="hero" size="lg" className="gap-2">
-                    <PlayCircle className="h-6 w-6" />
-                    Play Lecture
-                  </Button>
+              <div className="flex flex-col gap-4 mb-4">
+                {selectedTopic ? (
+                  <div className="space-y-3">
+                    <Button 
+                      variant="default" 
+                      size="lg" 
+                      className="w-full gap-2"
+                      onClick={() => handleDownload(selectedTopic.storage_url, selectedTopic.topic_info.filename)}
+                    >
+                      <Download className="h-5 w-5" />
+                      Download PDF
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      size="lg" 
+                      className="w-full gap-2"
+                      onClick={() => window.open(selectedTopic.storage_url, '_blank')}
+                    >
+                      <ExternalLink className="h-5 w-5" />
+                      View Online
+                    </Button>
+                  </div>
                 ) : (
-                  <div className="text-center text-muted-foreground">
-                    <PlayCircle className="h-12 w-12 mx-auto mb-2 opacity-50" />
-                    <p>Choose a lecture from the list to start learning</p>
+                  <div className="text-center text-muted-foreground py-8">
+                    <FileText className="h-12 w-12 mx-auto mb-2 opacity-50" />
+                    <p>Choose content from the list to access materials</p>
                   </div>
                 )}
               </div>
-              {selectedLecture && (
-                <div className="flex items-center justify-between text-sm text-muted-foreground">
-                  <span>Duration: {selectedLecture.duration_minutes} min</span>
-                  <span>Difficulty: {selectedLecture.difficulty_level}</span>
+              {selectedTopic && (
+                <div className="space-y-2 text-sm text-muted-foreground border-t pt-4">
+                  <div><strong>Subject:</strong> {selectedTopic.topic_info.subject}</div>
+                  <div><strong>Topic:</strong> {selectedTopic.topic_info.topic}</div>
+                  <div><strong>Subtopic:</strong> {selectedTopic.topic_info.subtopic}</div>
                 </div>
               )}
             </Card>
 
-            {/* Lecture Description */}
-            {selectedLecture && (
+            {/* AI Summary */}
+            {selectedTopic && (
               <Card className="p-6 border-0 shadow-card">
                 <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
                   <div className="p-2 bg-gradient-hero rounded-lg">
                     <Brain className="h-4 w-4 text-white" />
                   </div>
-                  Lecture Overview
+                  AI-Generated Summary
                 </h3>
                 <div className="space-y-4">
-                  <p className="text-muted-foreground leading-relaxed">
-                    {selectedLecture.description || "This comprehensive lecture covers essential concepts and practical applications. Perfect for building a strong foundation in this subject area."}
-                  </p>
-                  {selectedLecture.tags && selectedLecture.tags.length > 0 && (
-                    <div>
-                      <h4 className="font-medium text-foreground mb-2">Topics Covered:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {selectedLecture.tags.map((tag: string, index: number) => (
-                          <Badge key={index} variant="outline">
-                            {tag}
-                          </Badge>
-                        ))}
-                      </div>
+                  <div className="max-h-96 overflow-y-auto prose prose-sm max-w-none">
+                    <div className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                      {selectedTopic.summary_preview}
                     </div>
-                  )}
+                  </div>
+                  <div className="flex gap-2 pt-4 border-t">
+                    {selectedTopic.has_enhanced_summary && (
+                      <Badge variant="default">Enhanced Summary Available</Badge>
+                    )}
+                    {selectedTopic.has_standard_summary && (
+                      <Badge variant="outline">Standard Summary Available</Badge>
+                    )}
+                  </div>
                 </div>
               </Card>
             )}
