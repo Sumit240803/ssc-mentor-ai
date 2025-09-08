@@ -1,0 +1,343 @@
+import React from 'react';
+import { useMockTest } from '@/hooks/useMockTest';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { Label } from '@/components/ui/label';
+import { Badge } from '@/components/ui/badge';
+import { Progress } from '@/components/ui/progress';
+import { 
+  Clock, 
+  ChevronLeft, 
+  ChevronRight, 
+  CheckCircle, 
+  XCircle, 
+  Award,
+  Timer,
+  BookOpen,
+  Target
+} from 'lucide-react';
+import { cn } from '@/lib/utils';
+
+const MockTest: React.FC = () => {
+  const {
+    testState,
+    startTest,
+    submitTest,
+    answerQuestion,
+    goToQuestion,
+    nextQuestion,
+    previousQuestion,
+    getResults,
+    resetTest,
+    formatTime,
+    isDataLoaded,
+  } = useMockTest();
+
+  if (!isDataLoaded) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Loading mock test data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Start Test Screen
+  if (!testState.isActive && !testState.isCompleted && testState.questions.length === 0) {
+    return (
+      <div className="min-h-screen bg-gradient-subtle flex items-center justify-center p-4">
+        <Card className="w-full max-w-2xl">
+          <CardHeader className="text-center">
+            <CardTitle className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
+              <Target className="h-8 w-8 text-primary" />
+              Mock Test
+            </CardTitle>
+            <CardDescription className="text-lg">
+              Delhi Police Constable Practice Test
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-card p-4 rounded-lg border">
+                <h3 className="font-semibold mb-2 flex items-center gap-2">
+                  <BookOpen className="h-5 w-5 text-primary" />
+                  Test Pattern
+                </h3>
+                <ul className="text-sm space-y-1">
+                  <li>• General Awareness: 50 questions</li>
+                  <li>• Reasoning: 25 questions</li>
+                  <li>• Numerical Ability: 15 questions</li>
+                  <li>• Computer Awareness: 10 questions</li>
+                  <li className="font-semibold pt-1">Total: 100 questions</li>
+                </ul>
+              </div>
+              <div className="bg-card p-4 rounded-lg border">
+                <h3 className="font-semibold mb-2 flex items-center gap-2">
+                  <Timer className="h-5 w-5 text-primary" />
+                  Time & Rules
+                </h3>
+                <ul className="text-sm space-y-1">
+                  <li>• Duration: 90 minutes</li>
+                  <li>• No negative marking</li>
+                  <li>• Can review and change answers</li>
+                  <li>• Auto-submit when time ends</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="bg-muted p-4 rounded-lg">
+              <h3 className="font-semibold mb-2">Instructions:</h3>
+              <ul className="text-sm space-y-1">
+                <li>1. Read each question carefully before selecting an answer</li>
+                <li>2. Use the navigation panel to move between questions</li>
+                <li>3. Questions marked with "PYQ" are from previous year papers</li>
+                <li>4. Make sure to submit the test before time runs out</li>
+                <li>5. You can review your answers before final submission</li>
+              </ul>
+            </div>
+
+            <Button 
+              onClick={startTest} 
+              size="lg" 
+              className="w-full"
+              variant="default"
+            >
+              Start Test
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
+
+  // Test Interface
+  if (testState.isActive || testState.isCompleted) {
+    const currentQuestion = testState.questions[testState.currentQuestionIndex];
+    const currentAnswer = testState.userAnswers[currentQuestion?.id];
+    const progress = ((testState.currentQuestionIndex + 1) / testState.questions.length) * 100;
+
+    // Results Screen
+    if (testState.isCompleted) {
+      const results = getResults();
+      
+      return (
+        <div className="min-h-screen bg-gradient-subtle p-4">
+          <div className="max-w-4xl mx-auto">
+            <Card>
+              <CardHeader className="text-center">
+                <CardTitle className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
+                  <Award className="h-8 w-8 text-primary" />
+                  Test Results
+                </CardTitle>
+                <CardDescription>
+                  Your performance summary
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                  <div className="text-center p-6 bg-card rounded-lg border">
+                    <div className="text-3xl font-bold text-primary mb-2">
+                      {results.score}/{results.totalQuestions}
+                    </div>
+                    <div className="text-sm text-muted-foreground">Total Score</div>
+                  </div>
+                  <div className="text-center p-6 bg-card rounded-lg border">
+                    <div className="text-3xl font-bold text-primary mb-2">
+                      {results.percentage}%
+                    </div>
+                    <div className="text-sm text-muted-foreground">Percentage</div>
+                  </div>
+                  <div className="text-center p-6 bg-card rounded-lg border">
+                    <div className="text-3xl font-bold text-primary mb-2">
+                      {formatTime(results.timeTaken)}
+                    </div>
+                    <div className="text-sm text-muted-foreground">Time Taken</div>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                  <div className="text-center p-4 bg-green-50 dark:bg-green-950 rounded-lg border border-green-200 dark:border-green-800">
+                    <CheckCircle className="h-8 w-8 text-green-600 mx-auto mb-2" />
+                    <div className="font-semibold text-green-700 dark:text-green-300">{results.correctAnswers}</div>
+                    <div className="text-xs text-green-600 dark:text-green-400">Correct</div>
+                  </div>
+                  <div className="text-center p-4 bg-red-50 dark:bg-red-950 rounded-lg border border-red-200 dark:border-red-800">
+                    <XCircle className="h-8 w-8 text-red-600 mx-auto mb-2" />
+                    <div className="font-semibold text-red-700 dark:text-red-300">{results.incorrectAnswers}</div>
+                    <div className="text-xs text-red-600 dark:text-red-400">Incorrect</div>
+                  </div>
+                  <div className="text-center p-4 bg-yellow-50 dark:bg-yellow-950 rounded-lg border border-yellow-200 dark:border-yellow-800">
+                    <Clock className="h-8 w-8 text-yellow-600 mx-auto mb-2" />
+                    <div className="font-semibold text-yellow-700 dark:text-yellow-300">{results.unansweredQuestions}</div>
+                    <div className="text-xs text-yellow-600 dark:text-yellow-400">Unanswered</div>
+                  </div>
+                  <div className="text-center p-4 bg-blue-50 dark:bg-blue-950 rounded-lg border border-blue-200 dark:border-blue-800">
+                    <Target className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                    <div className="font-semibold text-blue-700 dark:text-blue-300">{results.answeredQuestions}</div>
+                    <div className="text-xs text-blue-600 dark:text-blue-400">Attempted</div>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 justify-center">
+                  <Button onClick={resetTest} variant="outline">
+                    Take Another Test
+                  </Button>
+                  <Button onClick={() => window.location.href = '/dashboard'}>
+                    Back to Dashboard
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      );
+    }
+
+    // Active Test Interface
+    return (
+      <div className="min-h-screen bg-background">
+        {/* Timer Bar */}
+        <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <Clock className="h-5 w-5 text-primary" />
+                <span className="font-mono font-semibold text-lg">
+                  {formatTime(testState.timeRemaining)}
+                </span>
+              </div>
+              <div className="text-sm text-muted-foreground">
+                Question {testState.currentQuestionIndex + 1} of {testState.questions.length}
+              </div>
+            </div>
+            <Progress value={progress} className="w-32" />
+          </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto p-4 grid grid-cols-1 lg:grid-cols-4 gap-6">
+          {/* Main Question Area */}
+          <div className="lg:col-span-3">
+            {currentQuestion && (
+              <Card>
+                <CardHeader>
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-xl">
+                      Question {testState.currentQuestionIndex + 1}
+                    </CardTitle>
+                    <div className="flex items-center gap-2">
+                      <Badge variant="outline">{currentQuestion.section}</Badge>
+                      {currentQuestion.pyq && (
+                        <Badge variant="secondary">
+                          PYQ {currentQuestion.pyqDetails.year}
+                        </Badge>
+                      )}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <p className="text-lg leading-relaxed">{currentQuestion.question}</p>
+                  
+                  <RadioGroup
+                    value={currentAnswer?.selectedOption || ''}
+                    onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
+                    className="space-y-3"
+                  >
+                    {currentQuestion.options.map((option, index) => (
+                      <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
+                        <RadioGroupItem value={option} id={`option-${index}`} />
+                        <Label 
+                          htmlFor={`option-${index}`} 
+                          className="flex-1 cursor-pointer text-base"
+                        >
+                          {option}
+                        </Label>
+                      </div>
+                    ))}
+                  </RadioGroup>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* Navigation */}
+            <div className="mt-6 flex items-center justify-between">
+              <Button
+                onClick={previousQuestion}
+                disabled={testState.currentQuestionIndex === 0}
+                variant="outline"
+              >
+                <ChevronLeft className="h-4 w-4 mr-2" />
+                Previous
+              </Button>
+              
+              <Button onClick={submitTest} variant="destructive">
+                Submit Test
+              </Button>
+              
+              <Button
+                onClick={nextQuestion}
+                disabled={testState.currentQuestionIndex === testState.questions.length - 1}
+              >
+                Next
+                <ChevronRight className="h-4 w-4 ml-2" />
+              </Button>
+            </div>
+          </div>
+
+          {/* Question Navigation Panel */}
+          <div className="lg:col-span-1">
+            <Card className="sticky top-24">
+              <CardHeader>
+                <CardTitle className="text-lg">Questions</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-5 gap-2">
+                  {testState.questions.map((question, index) => {
+                    const isAnswered = testState.userAnswers[question.id];
+                    const isCurrent = index === testState.currentQuestionIndex;
+                    
+                    return (
+                      <Button
+                        key={question.id}
+                        variant={isCurrent ? "default" : isAnswered ? "secondary" : "outline"}
+                        size="sm"
+                        className={cn(
+                          "h-8 w-8 p-0 text-xs",
+                          isCurrent && "ring-2 ring-primary/50"
+                        )}
+                        onClick={() => goToQuestion(index)}
+                      >
+                        {index + 1}
+                      </Button>
+                    );
+                  })}
+                </div>
+                
+                <div className="mt-4 space-y-2 text-xs">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 bg-primary rounded"></div>
+                    <span>Current</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 bg-secondary rounded"></div>
+                    <span>Answered</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 border rounded"></div>
+                    <span>Not Answered</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+};
+
+export default MockTest;

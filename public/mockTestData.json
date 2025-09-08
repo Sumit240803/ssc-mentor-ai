@@ -1,0 +1,204 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+      "chapters": [
+        {
+          "chapter": "Physics",
+          "questions": [
+            {
+              "question": "What is the unit of electric current?",
+              "options": ["Volt", "Ampere", "Watt", "Ohm"],
+              "answer": "Ampere",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "The speed of light in vacuum is approximately:",
+              "options": ["3 × 10^8 m/s", "3 × 10^6 m/s", "3 × 10^7 m/s", "3 × 10^9 m/s"],
+              "answer": "3 × 10^8 m/s",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "Which law states that force equals mass times acceleration?",
+              "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Gravitation"],
+              "answer": "Newton's Second Law",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            }
+          ]
+        },
+        {
+          "chapter": "Chemistry",
+          "questions": [
+            {
+              "question": "What is the chemical symbol for Gold?",
+              "options": ["Go", "Gd", "Au", "Ag"],
+              "answer": "Au",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The pH of pure water is:",
+              "options": ["6", "7", "8", "9"],
+              "answer": "7",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Arithmetic",
+          "questions": [
+            {
+              "question": "What is 15% of 200?",
+              "options": ["25", "30", "35", "40"],
+              "answer": "30",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "If a train travels 60 km in 45 minutes, what is its speed in km/h?",
+              "options": ["75", "80", "85", "90"],
+              "answer": "80",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+        },
+        {
+          "chapter": "Algebra",
+          "questions": [
+            {
+              "question": "Solve: 2x + 5 = 15",
+              "options": ["5", "7", "10", "12"],
+              "answer": "5",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Computer",
+      "chapters": [
+        {
+          "chapter": "Computer Fundamentals",
+          "questions": [
+            {
+              "question": "What does CPU stand for?",
+              "options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
+              "answer": "Central Processing Unit",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which of the following is an input device?",
+              "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+              "answer": "Keyboard",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Reasoning",
+      "chapters": [
+        {
+          "chapter": "Logical Reasoning",
+          "questions": [
+            {
+              "question": "If BOOK is coded as CPPL, then WORD will be coded as:",
+              "options": ["XPSE", "XQSE", "YPSE", "XPSD"],
+              "answer": "XPSE",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Find the odd one out: 3, 7, 11, 14, 17",
+              "options": ["3", "7", "14", "17"],
+              "answer": "14",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English",
+      "chapters": [
+        {
+          "chapter": "Grammar",
+          "questions": [
+            {
+              "question": "Choose the correct sentence:",
+              "options": ["He don't like coffee", "He doesn't like coffee", "He not like coffee", "He no like coffee"],
+              "answer": "He doesn't like coffee",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "What is the plural of 'child'?",
+              "options": ["childs", "childes", "children", "child"],
+              "answer": "children",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

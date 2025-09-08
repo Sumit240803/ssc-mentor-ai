@@ -214,7 +214,7 @@ const Dashboard = () => {
         </div>
 
         {/* Quick Actions */}
-        <div className="mt-8 grid md:grid-cols-3 gap-4">
+        <div className="mt-8 grid md:grid-cols-4 gap-4">
           <Link to="/lectures">
             <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
               <div className="text-center">
@@ -223,6 +223,18 @@ const Dashboard = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Start Learning</h3>
                 <p className="text-muted-foreground text-sm">Browse video lectures by subject</p>
+              </div>
+            </Card>
+          </Link>
+          
+          <Link to="/mock-test">
+            <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
+              <div className="text-center">
+                <div className="p-3 bg-green-500/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-green-500/20 transition-colors">
+                  <Target className="h-8 w-8 text-green-500" />
+                </div>
+                <h3 className="font-semibold text-foreground mb-2">Mock Test</h3>
+                <p className="text-muted-foreground text-sm">Practice with 100 questions</p>
               </div>
             </Card>
           </Link>

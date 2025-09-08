@@ -13,6 +13,7 @@ import Dashboard from "./pages/Dashboard";
 import Lectures from "./pages/Lectures";
 import AIChat from "./pages/AIChat";
 import TopicSummary from "./pages/TopicSummary";
+import MockTest from "./pages/MockTest";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
@@ -71,10 +72,18 @@ const App = () => (
               } 
             />
             <Route 
-              path="/topic-summary" 
+              path="/topic-summary/:id" 
               element={
                 <ProtectedRoute>
                   <TopicSummary />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/mock-test" 
+              element={
+                <ProtectedRoute>
+                  <MockTest />
                 </ProtectedRoute>
               } 
             />
