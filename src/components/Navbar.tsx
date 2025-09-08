@@ -7,6 +7,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useAdmin } from "@/hooks/useAdmin";
 import AdminAssignment from "./AdminAssignment";
+import { ThemeToggle } from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,8 +55,9 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
+          <div className="hidden md:flex items-center space-x-4">
+            <div className="flex items-center space-x-8">
+              {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
@@ -68,6 +70,8 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+            </div>
+            <ThemeToggle />
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
