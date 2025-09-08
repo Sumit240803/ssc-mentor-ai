@@ -17,6 +17,7 @@ import {
 import Navbar from "@/components/Navbar";
 import { useLectures } from "@/hooks/useLectures";
 import { TopicChat } from "@/components/TopicChat";
+import { useNavigate } from 'react-router-dom';
 
 interface TopicData {
   content_id: string;
@@ -34,6 +35,7 @@ interface TopicData {
 }
 
 const Lectures = () => {
+  const navigate = useNavigate();
   const [selectedTopic, setSelectedTopic] = useState<TopicData | null>(null);
   const { topics, subSubjects, loading, getTopicsBySubSubject } = useLectures();
 
@@ -218,6 +220,20 @@ const Lectures = () => {
                       <Badge variant="outline">Standard Summary Available</Badge>
                     )}
                   </div>
+                  <Button 
+                    onClick={() => {
+                      const params = new URLSearchParams({
+                        contentId: selectedTopic.content_id,
+                        topicName: encodeURIComponent(selectedTopic.topic_info.filename.replace('.pdf', ''))
+                      });
+                      navigate(`/topic-summary?${params.toString()}`);
+                    }}
+                    className="w-full mt-4"
+                    variant="outline"
+                  >
+                    <Brain className="h-4 w-4 mr-2" />
+                    View Full AI Summary
+                  </Button>
                 </div>
               </Card>
             )}

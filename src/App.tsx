@@ -12,6 +12,7 @@ import Pricing from "./pages/Pricing";
 import Dashboard from "./pages/Dashboard";
 import Lectures from "./pages/Lectures";
 import AIChat from "./pages/AIChat";
+import TopicSummary from "./pages/TopicSummary";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
@@ -66,6 +67,14 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <AIChat />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/topic-summary" 
+              element={
+                <ProtectedRoute>
+                  <TopicSummary />
                 </ProtectedRoute>
               } 
             />
