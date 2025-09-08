@@ -22,7 +22,6 @@ import TaskManagement from "./pages/admin/TaskManagement";
 import MotivationManagement from "./pages/admin/MotivationManagement";
 import PostModeration from "./pages/admin/PostModeration";
 import AdminRoute from "./components/AdminRoute";
-import FloatingChatbot from "./components/FloatingChatbot";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -167,7 +166,6 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-          <FloatingChatbot />
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>

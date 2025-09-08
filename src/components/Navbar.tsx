@@ -71,7 +71,8 @@ const Navbar = () => {
               </Link>
             ))}
             </div>
-            <ThemeToggle />
+            <div className="flex items-center space-x-2">
+              <ThemeToggle />
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -124,6 +125,7 @@ const Navbar = () => {
                 </Button>
               </Link>
             )}
+            </div>
           </div>
 
           {/* Mobile menu button */}
