@@ -116,13 +116,19 @@ export const useMockTest = () => {
     };
   }, [testState.isActive, testState.timeRemaining, testState.isCompleted]);
 
-  const generateRandomQuestions = (): TestQuestion[] => {
+const generateRandomQuestions = (): TestQuestion[] => {
     if (!mockTestData) return [];
 
     const selectedQuestions: TestQuestion[] = [];
     let questionId = 1;
 
-    Object.entries(EXAM_PATTERN).forEach(([sectionName, count]) => {
+    // Define the order of sections as per requirement
+    const sectionOrder = ['General Science', 'Reasoning', 'Mathematics', 'Computer'];
+
+    sectionOrder.forEach((sectionName) => {
+      const count = EXAM_PATTERN[sectionName as keyof typeof EXAM_PATTERN];
+      if (!count) return;
+
       const section = mockTestData.mockTest.find(s => s.section === sectionName);
       if (!section) return;
 
@@ -139,13 +145,13 @@ export const useMockTest = () => {
         });
       });
 
-      // Randomly select the required number of questions
+      // Randomly select the required number of questions from this section
       const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
       const selected = shuffled.slice(0, Math.min(count, shuffled.length));
       selectedQuestions.push(...selected);
     });
 
-    return selectedQuestions.sort(() => Math.random() - 0.5); // Final shuffle
+    return selectedQuestions; // Keep section-wise order, no final shuffle
   };
 
   const startTest = () => {

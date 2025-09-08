@@ -35,6 +35,126 @@
                 "year": 2022,
                 "paper": "Delhi Police Constable"
               }
+            },
+            {
+              "question": "What is the SI unit of power?",
+              "options": ["Joule", "Watt", "Newton", "Pascal"],
+              "answer": "Watt",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "Which type of lens is used to correct myopia?",
+              "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+              "answer": "Concave lens",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "The phenomenon of bending of light when it passes from one medium to another is called:",
+              "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+              "answer": "Refraction",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the frequency of AC current in India?",
+              "options": ["50 Hz", "60 Hz", "40 Hz", "100 Hz"],
+              "answer": "50 Hz",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which instrument is used to measure atmospheric pressure?",
+              "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+              "answer": "Barometer",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The unit of electric resistance is:",
+              "options": ["Volt", "Ampere", "Ohm", "Watt"],
+              "answer": "Ohm",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which color of light has the shortest wavelength?",
+              "options": ["Red", "Blue", "Green", "Violet"],
+              "answer": "Violet",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the acceleration due to gravity on Earth?",
+              "options": ["9.8 m/s²", "10 m/s²", "8.9 m/s²", "11.2 m/s²"],
+              "answer": "9.8 m/s²",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which law explains the working of a rocket?",
+              "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Conservation of Energy"],
+              "answer": "Newton's Third Law",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The SI unit of energy is:",
+              "options": ["Watt", "Joule", "Newton", "Pascal"],
+              "answer": "Joule",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which type of current is supplied to homes?",
+              "options": ["Direct Current", "Alternating Current", "Pulsating Current", "Static Current"],
+              "answer": "Alternating Current",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the principle behind the working of a transformer?",
+              "options": ["Electromagnetic induction", "Electrostatic induction", "Thermal expansion", "Photoelectric effect"],
+              "answer": "Electromagnetic induction",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
             }
           ]
         },
@@ -60,21 +180,41 @@
                 "year": 2023,
                 "paper": "Delhi Police Constable"
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "section": "Mathematics",
-      "chapters": [
-        {
-          "chapter": "Arithmetic",
-          "questions": [
+            },
             {
-              "question": "What is 15% of 200?",
-              "options": ["25", "30", "35", "40"],
-              "answer": "30",
+              "question": "Which gas is most abundant in Earth's atmosphere?",
+              "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
+              "answer": "Nitrogen",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the chemical formula of water?",
+              "options": ["H2O", "HO2", "H2O2", "HO"],
+              "answer": "H2O",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which element has the highest melting point?",
+              "options": ["Iron", "Tungsten", "Carbon", "Platinum"],
+              "answer": "Tungsten",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the chemical symbol for Sodium?",
+              "options": ["So", "Sd", "Na", "S"],
+              "answer": "Na",
               "pyq": true,
               "pyqDetails": {
                 "year": 2023,
@@ -82,9 +222,89 @@
               }
             },
             {
-              "question": "If a train travels 60 km in 45 minutes, what is its speed in km/h?",
-              "options": ["75", "80", "85", "90"],
-              "answer": "80",
+              "question": "Which acid is found in vinegar?",
+              "options": ["Hydrochloric acid", "Sulfuric acid", "Acetic acid", "Nitric acid"],
+              "answer": "Acetic acid",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The atomic number of Carbon is:",
+              "options": ["4", "6", "8", "12"],
+              "answer": "6",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which gas is produced when metals react with acids?",
+              "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+              "answer": "Hydrogen",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the chemical formula of common salt?",
+              "options": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+              "answer": "NaCl",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which element is essential for combustion?",
+              "options": ["Hydrogen", "Nitrogen", "Oxygen", "Carbon"],
+              "answer": "Oxygen",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The hardest natural substance is:",
+              "options": ["Gold", "Iron", "Diamond", "Platinum"],
+              "answer": "Diamond",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which metal is liquid at room temperature?",
+              "options": ["Lead", "Mercury", "Tin", "Zinc"],
+              "answer": "Mercury",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the molecular formula of methane?",
+              "options": ["CH4", "C2H6", "C3H8", "C4H10"],
+              "answer": "CH4",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which gas is known as laughing gas?",
+              "options": ["Nitrogen dioxide", "Nitrous oxide", "Nitric oxide", "Ammonia"],
+              "answer": "Nitrous oxide",
               "pyq": false,
               "pyqDetails": {
                 "year": null,
@@ -94,32 +314,32 @@
           ]
         },
         {
-          "chapter": "Algebra",
+          "chapter": "Biology",
           "questions": [
             {
-              "question": "Solve: 2x + 5 = 15",
-              "options": ["5", "7", "10", "12"],
-              "answer": "5",
+              "question": "What is the powerhouse of the cell?",
+              "options": ["Nucleus", "Mitochondria", "Ribosome", "Vacuole"],
+              "answer": "Mitochondria",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which blood group is known as universal donor?",
+              "options": ["A", "B", "AB", "O"],
+              "answer": "O",
               "pyq": false,
               "pyqDetails": {
                 "year": null,
                 "paper": ""
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "section": "Computer",
-      "chapters": [
-        {
-          "chapter": "Computer Fundamentals",
-          "questions": [
+            },
             {
-              "question": "What does CPU stand for?",
-              "options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
-              "answer": "Central Processing Unit",
+              "question": "How many chambers does a human heart have?",
+              "options": ["2", "3", "4", "5"],
+              "answer": "4",
               "pyq": true,
               "pyqDetails": {
                 "year": 2022,
@@ -127,9 +347,169 @@
               }
             },
             {
-              "question": "Which of the following is an input device?",
-              "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
-              "answer": "Keyboard",
+              "question": "Which organ produces insulin in the human body?",
+              "options": ["Liver", "Kidney", "Pancreas", "Spleen"],
+              "answer": "Pancreas",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the largest organ in the human body?",
+              "options": ["Liver", "Brain", "Lungs", "Skin"],
+              "answer": "Skin",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which vitamin is produced when skin is exposed to sunlight?",
+              "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+              "answer": "Vitamin D",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the normal body temperature of a healthy human?",
+              "options": ["36°C", "37°C", "38°C", "39°C"],
+              "answer": "37°C",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which part of the brain controls balance?",
+              "options": ["Cerebrum", "Cerebellum", "Medulla", "Pons"],
+              "answer": "Cerebellum",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "How many bones are there in an adult human body?",
+              "options": ["206", "208", "210", "212"],
+              "answer": "206",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+              "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+              "answer": "Carbon dioxide",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the scientific name of humans?",
+              "options": ["Homo erectus", "Homo sapiens", "Homo habilis", "Homo neanderthalensis"],
+              "answer": "Homo sapiens",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which blood cells help in clotting?",
+              "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+              "answer": "Platelets",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the main function of red blood cells?",
+              "options": ["Fight infection", "Carry oxygen", "Clot blood", "Produce antibodies"],
+              "answer": "Carry oxygen",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which organ filters blood in the human body?",
+              "options": ["Liver", "Lungs", "Kidney", "Heart"],
+              "answer": "Kidney",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the smallest unit of life?",
+              "options": ["Atom", "Molecule", "Cell", "Tissue"],
+              "answer": "Cell",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which hormone regulates blood sugar?",
+              "options": ["Insulin", "Adrenaline", "Thyroxine", "Growth hormone"],
+              "answer": "Insulin",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the gestation period of humans?",
+              "options": ["8 months", "9 months", "10 months", "11 months"],
+              "answer": "9 months",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which part of the eye controls the amount of light entering?",
+              "options": ["Cornea", "Lens", "Iris", "Retina"],
+              "answer": "Iris",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the main component of bones?",
+              "options": ["Calcium carbonate", "Calcium phosphate", "Sodium chloride", "Magnesium oxide"],
+              "answer": "Calcium phosphate",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which type of blood vessel carries blood away from the heart?",
+              "options": ["Arteries", "Veins", "Capillaries", "Venules"],
+              "answer": "Arteries",
               "pyq": false,
               "pyqDetails": {
                 "year": null,
@@ -165,21 +545,11 @@
                 "year": null,
                 "paper": ""
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "section": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "questions": [
+            },
             {
-              "question": "Choose the correct sentence:",
-              "options": ["He don't like coffee", "He doesn't like coffee", "He not like coffee", "He no like coffee"],
-              "answer": "He doesn't like coffee",
+              "question": "If CAT is coded as 3120, then DOG will be coded as:",
+              "options": ["4157", "4158", "4159", "4160"],
+              "answer": "4157",
               "pyq": true,
               "pyqDetails": {
                 "year": 2022,
@@ -187,9 +557,489 @@
               }
             },
             {
-              "question": "What is the plural of 'child'?",
-              "options": ["childs", "childes", "children", "child"],
-              "answer": "children",
+              "question": "Complete the series: 2, 6, 12, 20, 30, ?",
+              "options": ["40", "42", "44", "46"],
+              "answer": "42",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If all roses are flowers and some flowers are red, then:",
+              "options": ["All roses are red", "Some roses are red", "No roses are red", "Cannot be determined"],
+              "answer": "Cannot be determined",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which number comes next in the series: 1, 4, 9, 16, 25, ?",
+              "options": ["30", "32", "36", "49"],
+              "answer": "36",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If DELHI is coded as 73541, then CHILD will be coded as:",
+              "options": ["25417", "25471", "25174", "21547"],
+              "answer": "25417",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Find the missing number: 8, 27, 64, 125, ?",
+              "options": ["196", "216", "256", "343"],
+              "answer": "216",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If Monday is the first day, then what day will be the 100th day?",
+              "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+              "answer": "Tuesday",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Choose the odd one out: Circle, Square, Triangle, Rectangle",
+              "options": ["Circle", "Square", "Triangle", "Rectangle"],
+              "answer": "Circle",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If RAIN is to DROUGHT, then PEACE is to:",
+              "options": ["WAR", "CALM", "QUIET", "HARMONY"],
+              "answer": "WAR",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Complete the pattern: AB, CD, EF, GH, ?",
+              "options": ["IJ", "HI", "JK", "KL"],
+              "answer": "IJ",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If 5 + 3 = 28, 9 + 1 = 810, then 8 + 6 = ?",
+              "options": ["214", "148", "142", "482"],
+              "answer": "214",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Find the odd one out: Apple, Mango, Orange, Potato",
+              "options": ["Apple", "Mango", "Orange", "Potato"],
+              "answer": "Potato",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If MIND is coded as LHMC, then SOUL will be coded as:",
+              "options": ["RNTK", "RNUL", "ROTK", "SOUL"],
+              "answer": "RNTK",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "What comes next: 3, 7, 15, 31, 63, ?",
+              "options": ["127", "125", "129", "131"],
+              "answer": "127",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If CHAIR is coded as 12345, then REACH will be coded as:",
+              "options": ["52341", "52431", "54231", "51234"],
+              "answer": "52341",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Choose the correct mirror image of AMBULANCE:",
+              "options": ["ECNALUBMA", "AMBULANCE", "ƎƆИA⅃UBMA", "AƆИA⅃UBMƎ"],
+              "answer": "ƎƆИA⅃UBMA",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If A = 1, B = 2, C = 3, then what is the value of CAB?",
+              "options": ["312", "321", "123", "132"],
+              "answer": "312",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Complete the series: AZ, BY, CX, DW, ?",
+              "options": ["EV", "EU", "FV", "FU"],
+              "answer": "EV",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If South-East becomes North-West, then North-East becomes:",
+              "options": ["South-West", "South-East", "North-West", "North-East"],
+              "answer": "South-West",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Find the odd one out: 11, 13, 17, 19, 21",
+              "options": ["11", "13", "19", "21"],
+              "answer": "21",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If COMPUTER is coded as RFUVQNPC, then MONITOR will be coded as:",
+              "options": ["ONIMONR", "SRMPLNC", "LRMOPNC", "SRMPLNC"],
+              "answer": "SRMPLNC",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "What is the next number in the series: 5, 11, 23, 47, ?",
+              "options": ["94", "95", "96", "97"],
+              "answer": "95",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If PEN is coded as 16-5-14, then INK will be coded as:",
+              "options": ["9-14-11", "9-15-11", "8-14-11", "9-14-12"],
+              "answer": "9-14-11",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Arithmetic",
+          "questions": [
+            {
+              "question": "What is 15% of 200?",
+              "options": ["25", "30", "35", "40"],
+              "answer": "30",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "If a train travels 60 km in 45 minutes, what is its speed in km/h?",
+              "options": ["75", "80", "85", "90"],
+              "answer": "80",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The average of 5, 10, 15, 20, 25 is:",
+              "options": ["13", "15", "17", "19"],
+              "answer": "15",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "If the cost price is ₹100 and selling price is ₹120, what is the profit percentage?",
+              "options": ["15%", "20%", "25%", "30%"],
+              "answer": "20%",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the compound interest on ₹1000 for 2 years at 10% per annum?",
+              "options": ["₹200", "₹210", "₹220", "₹250"],
+              "answer": "₹210",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "If 3x + 7 = 22, then x = ?",
+              "options": ["3", "5", "7", "9"],
+              "answer": "5",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The area of a rectangle with length 12 cm and breadth 8 cm is:",
+              "options": ["96 cm²", "88 cm²", "94 cm²", "92 cm²"],
+              "answer": "96 cm²",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "If 25% of a number is 75, what is the number?",
+              "options": ["250", "300", "350", "400"],
+              "answer": "300",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "The perimeter of a square with side 6 cm is:",
+              "options": ["18 cm", "24 cm", "30 cm", "36 cm"],
+              "answer": "24 cm",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "What is 7/8 as a percentage?",
+              "options": ["87.5%", "85.5%", "88.5%", "86.5%"],
+              "answer": "87.5%",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If a man walks 4 km in 1 hour, how far will he walk in 2.5 hours?",
+              "options": ["8 km", "9 km", "10 km", "12 km"],
+              "answer": "10 km",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "The sum of first 10 natural numbers is:",
+              "options": ["45", "50", "55", "60"],
+              "answer": "55",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "If 2x - 3 = 7, then x = ?",
+              "options": ["4", "5", "6", "7"],
+              "answer": "5",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "The circumference of a circle with radius 7 cm is: (π = 22/7)",
+              "options": ["44 cm", "42 cm", "46 cm", "48 cm"],
+              "answer": "44 cm",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the LCM of 12 and 18?",
+              "options": ["36", "54", "72", "108"],
+              "answer": "36",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Computer",
+      "chapters": [
+        {
+          "chapter": "Computer Fundamentals",
+          "questions": [
+            {
+              "question": "What does CPU stand for?",
+              "options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
+              "answer": "Central Processing Unit",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which of the following is an input device?",
+              "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+              "answer": "Keyboard",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What does RAM stand for?",
+              "options": ["Random Access Memory", "Read Access Memory", "Rapid Access Memory", "Ready Access Memory"],
+              "answer": "Random Access Memory",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which of the following is system software?",
+              "options": ["MS Word", "Operating System", "Calculator", "Paint"],
+              "answer": "Operating System",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the full form of WWW?",
+              "options": ["World Wide Web", "World Wide Website", "World Web Wide", "Wide World Web"],
+              "answer": "World Wide Web",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which key is used to delete text to the right of the cursor?",
+              "options": ["Backspace", "Delete", "Ctrl+X", "Shift+Delete"],
+              "answer": "Delete",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What does HTTP stand for?",
+              "options": ["HyperText Transfer Protocol", "HyperText Transport Protocol", "HyperText Transmission Protocol", "HyperText Transfer Program"],
+              "answer": "HyperText Transfer Protocol",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2023,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which device is used to connect multiple computers in a network?",
+              "options": ["Modem", "Router", "Scanner", "Printer"],
+              "answer": "Router",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+            {
+              "question": "What is the brain of the computer called?",
+              "options": ["RAM", "ROM", "CPU", "Hard Disk"],
+              "answer": "CPU",
+              "pyq": true,
+              "pyqDetails": {
+                "year": 2022,
+                "paper": "Delhi Police Constable"
+              }
+            },
+            {
+              "question": "Which of the following is volatile memory?",
+              "options": ["RAM", "ROM", "Hard Disk", "CD-ROM"],
+              "answer": "RAM",
               "pyq": false,
               "pyqDetails": {
                 "year": null,
