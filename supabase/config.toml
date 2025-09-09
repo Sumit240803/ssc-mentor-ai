@@ -2,3 +2,6 @@ project_id = "jaaqkpacpgidnwnralot"
 
 [functions.secure-operations]
 verify_jwt = true
+
+[functions.session-manager]
+verify_jwt = true

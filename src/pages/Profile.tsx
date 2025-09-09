@@ -8,6 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useAuth } from "@/contexts/AuthContext";
 import { useSupabase } from "@/hooks/useSupabase";
 import { supabase } from "@/integrations/supabase/client";
+import { SessionManager } from "@/components/SessionManager";
 import { 
   User, 
   Mail, 
@@ -355,6 +356,11 @@ const Profile = () => {
                 </div>
               </div>
             </Card>
+
+            {/* Session Management */}
+            <div className="mt-6">
+              <SessionManager />
+            </div>
           </div>
         </div>
       </div>

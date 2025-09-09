@@ -1,6 +1,8 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase } from '@/integrations/supabase/client';
+import { useSessionManager } from '@/hooks/useSessionManager';
+import { useSessionValidator } from '@/hooks/useSessionValidator';
 
 interface AuthContextType {
   user: User | null;
@@ -31,35 +33,60 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const { registerSession, validateSession, clearSession } = useSessionManager();
+  
+  // Enable periodic session validation
+  useSessionValidator();
 
   useEffect(() => {
     // Set up auth state listener first
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (event, session) => {
+      async (event, session) => {
         console.log('Auth state change:', event, 'Session user:', session?.user?.id);
         setSession(session);
         setUser(session?.user ?? null);
         setLoading(false);
         
-        // Defer profile fetching to avoid deadlocks
+        // Handle session registration and validation
         if (session?.user && event === 'SIGNED_IN') {
-          setTimeout(() => {
-            // Profile is automatically created by trigger, no need to fetch
+          setTimeout(async () => {
+            try {
+              await registerSession();
+              console.log('Session registered successfully');
+            } catch (error) {
+              console.error('Failed to register session:', error);
+            }
           }, 0);
+        } else if (event === 'SIGNED_OUT') {
+          clearSession();
         }
       }
     );
 
     // Then check for existing session
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       console.log('Initial session check:', session?.user?.id);
       setSession(session);
       setUser(session?.user ?? null);
+      
+      // Validate existing session
+      if (session?.user) {
+        try {
+          const validation = await validateSession();
+          if (!validation.valid) {
+            console.log('Session invalid, signing out:', validation.reason);
+            await supabase.auth.signOut();
+          }
+        } catch (error) {
+          console.error('Session validation failed:', error);
+        }
+      }
+      
       setLoading(false);
     });
 
     return () => subscription.unsubscribe();
-  }, []);
+  }, [registerSession, validateSession, clearSession]);
 
   const signUp = async (email: string, password: string, fullName?: string) => {
     try {
@@ -117,6 +144,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const signOut = async () => {
     try {
       setLoading(true);
+      clearSession(); // Clear session before signing out
       const { error } = await supabase.auth.signOut();
       if (!error) {
         setUser(null);
