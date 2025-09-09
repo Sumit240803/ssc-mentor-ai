@@ -42,12 +42,17 @@ import AdminSidebar from "@/components/AdminSidebar";
 
 interface Subject {
   id: string;
-  name: string;
-  description: string | null;
-  is_active: boolean;
-  color_code: string;
-  icon: string;
+  subject: string;
+  sub_subject: string;
+  topic: string;
+  subtopic: string;
+  name?: string;
+  description?: string | null;
+  is_active?: boolean;
+  color_code?: string;
+  icon?: string;
   created_at: string;
+  updated_at?: string;
 }
 
 const SubjectManagement = () => {
@@ -61,7 +66,11 @@ const SubjectManagement = () => {
     description: "",
     color_code: "#3B82F6",
     icon: "BookOpen",
-    is_active: true
+    is_active: true,
+    subject: "",
+    sub_subject: "",
+    topic: "",
+    subtopic: ""
   });
   const { toast } = useToast();
 
@@ -164,12 +173,12 @@ const SubjectManagement = () => {
       if (error) throw error;
 
       setSubjects(subjects.map(s => 
-        s.id === subject.id ? { ...s, is_active: !s.is_active } : s
+        s.id === subject.id ? { ...s, is_active: !(s.is_active !== false) } : s
       ));
 
       toast({
-        title: `Subject ${!subject.is_active ? 'activated' : 'deactivated'}`,
-        description: `The subject has been ${!subject.is_active ? 'activated' : 'deactivated'}.`,
+        title: `Subject ${!(subject.is_active !== false) ? 'activated' : 'deactivated'}`,
+        description: `The subject has been ${!(subject.is_active !== false) ? 'activated' : 'deactivated'}.`,
       });
     } catch (error: any) {
       toast({
@@ -186,7 +195,11 @@ const SubjectManagement = () => {
       description: "",
       color_code: "#3B82F6",
       icon: "BookOpen",
-      is_active: true
+      is_active: true,
+      subject: "",
+      sub_subject: "",
+      topic: "",
+      subtopic: ""
     });
     setEditingSubject(null);
     setIsDialogOpen(false);
@@ -195,17 +208,21 @@ const SubjectManagement = () => {
   const editSubject = (subject: Subject) => {
     setEditingSubject(subject);
     setFormData({
-      name: subject.name,
+      name: subject.name || subject.subject,
       description: subject.description || "",
-      color_code: subject.color_code,
-      icon: subject.icon,
-      is_active: subject.is_active
+      color_code: subject.color_code || "#3B82F6",
+      icon: subject.icon || "BookOpen",
+      is_active: subject.is_active ?? true,
+      subject: subject.subject,
+      sub_subject: subject.sub_subject,
+      topic: subject.topic,
+      subtopic: subject.subtopic
     });
     setIsDialogOpen(true);
   };
 
   const filteredSubjects = subjects.filter(subject =>
-    subject.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (subject.name || subject.subject).toLowerCase().includes(searchTerm.toLowerCase()) ||
     (subject.description && subject.description.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
@@ -264,8 +281,41 @@ const SubjectManagement = () => {
                       <Input
                         id="name"
                         value={formData.name}
-                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                        onChange={(e) => setFormData({...formData, name: e.target.value, subject: e.target.value})}
                         placeholder="e.g., Mathematics, Science"
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <Label htmlFor="sub_subject">Sub Subject</Label>
+                      <Input
+                        id="sub_subject"
+                        value={formData.sub_subject}
+                        onChange={(e) => setFormData({...formData, sub_subject: e.target.value})}
+                        placeholder="e.g., Algebra, Biology"
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <Label htmlFor="topic">Topic</Label>
+                      <Input
+                        id="topic"
+                        value={formData.topic}
+                        onChange={(e) => setFormData({...formData, topic: e.target.value})}
+                        placeholder="e.g., Linear Equations, Cell Structure"
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <Label htmlFor="subtopic">Subtopic</Label>
+                      <Input
+                        id="subtopic"
+                        value={formData.subtopic}
+                        onChange={(e) => setFormData({...formData, subtopic: e.target.value})}
+                        placeholder="e.g., Solving Systems, Mitochondria"
                         required
                       />
                     </div>
@@ -340,7 +390,7 @@ const SubjectManagement = () => {
                 <div>
                   <p className="text-sm font-medium text-muted-foreground">Active Subjects</p>
                   <p className="text-3xl font-bold text-foreground">
-                    {subjects.filter(s => s.is_active).length}
+                    {subjects.filter(s => s.is_active !== false).length}
                   </p>
                 </div>
                 <div className="p-3 rounded-full bg-green-50">
@@ -354,7 +404,7 @@ const SubjectManagement = () => {
                 <div>
                   <p className="text-sm font-medium text-muted-foreground">Inactive Subjects</p>
                   <p className="text-3xl font-bold text-foreground">
-                    {subjects.filter(s => !s.is_active).length}
+                    {subjects.filter(s => s.is_active === false).length}
                   </p>
                 </div>
                 <div className="p-3 rounded-full bg-gray-50">
@@ -396,9 +446,9 @@ const SubjectManagement = () => {
                           <BookOpen className="h-4 w-4" />
                         </div>
                         <div>
-                          <h4 className="font-semibold text-foreground">{subject.name}</h4>
-                          <Badge variant={subject.is_active ? "default" : "secondary"} className="text-xs">
-                            {subject.is_active ? 'Active' : 'Inactive'}
+                          <h4 className="font-semibold text-foreground">{subject.name || subject.subject}</h4>
+                          <Badge variant={subject.is_active !== false ? "default" : "secondary"} className="text-xs">
+                            {subject.is_active !== false ? 'Active' : 'Inactive'}
                           </Badge>
                         </div>
                       </div>
@@ -422,7 +472,7 @@ const SubjectManagement = () => {
                           onClick={() => toggleSubjectStatus(subject)}
                           className="h-8 w-8"
                         >
-                          {subject.is_active ? (
+                          {subject.is_active !== false ? (
                             <EyeOff className="h-4 w-4" />
                           ) : (
                             <Eye className="h-4 w-4" />
@@ -446,7 +496,7 @@ const SubjectManagement = () => {
                             <AlertDialogHeader>
                               <AlertDialogTitle>Delete Subject</AlertDialogTitle>
                               <AlertDialogDescription>
-                                Are you sure you want to delete "{subject.name}"? This action cannot be undone.
+                                Are you sure you want to delete "{subject.name || subject.subject}"? This action cannot be undone.
                               </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>

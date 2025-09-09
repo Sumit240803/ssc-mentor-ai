@@ -583,8 +583,13 @@ export type Database = {
       }
       subjects: {
         Row: {
+          color_code: string | null
           created_at: string | null
+          description: string | null
+          icon: string | null
           id: string
+          is_active: boolean | null
+          name: string
           sub_subject: string
           subject: string
           subtopic: string
@@ -592,8 +597,13 @@ export type Database = {
           updated_at: string | null
         }
         Insert: {
+          color_code?: string | null
           created_at?: string | null
+          description?: string | null
+          icon?: string | null
           id?: string
+          is_active?: boolean | null
+          name: string
           sub_subject: string
           subject: string
           subtopic: string
@@ -601,8 +611,13 @@ export type Database = {
           updated_at?: string | null
         }
         Update: {
+          color_code?: string | null
           created_at?: string | null
+          description?: string | null
+          icon?: string | null
           id?: string
+          is_active?: boolean | null
+          name?: string
           sub_subject?: string
           subject?: string
           subtopic?: string
