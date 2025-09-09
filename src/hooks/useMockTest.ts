@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { supabase } from '@/integrations/supabase/client';
+import { useAuth } from '@/contexts/AuthContext';
 
 export interface Question {
   question: string;
@@ -58,6 +60,7 @@ const EXAM_PATTERN = {
 const EXAM_DURATION = 90 * 60; // 90 minutes in seconds
 
 export const useMockTest = () => {
+  const { user } = useAuth();
   const [mockTestData, setMockTestData] = useState<MockTestData | null>(null);
   const [testState, setTestState] = useState<TestState>({
     questions: [],
@@ -168,13 +171,17 @@ const generateRandomQuestions = (): TestQuestion[] => {
     });
   };
 
-  const submitTest = () => {
+  const submitTest = async () => {
+    const endTime = new Date();
     setTestState(prev => ({
       ...prev,
       isActive: false,
       isCompleted: true,
-      endTime: new Date(),
+      endTime,
     }));
+
+    // Save results to database
+    await saveResultsToDatabase(endTime);
   };
 
   const answerQuestion = (questionId: number, selectedOption: string) => {
@@ -215,6 +222,62 @@ const generateRandomQuestions = (): TestQuestion[] => {
       ...prev,
       currentQuestionIndex: Math.max(prev.currentQuestionIndex - 1, 0),
     }));
+  };
+
+  const calculateSectionWiseScores = () => {
+    const sectionScores: Record<string, { correct: number; total: number; percentage: number }> = {};
+    
+    testState.questions.forEach((question) => {
+      const sectionName = question.section;
+      if (!sectionScores[sectionName]) {
+        sectionScores[sectionName] = { correct: 0, total: 0, percentage: 0 };
+      }
+      
+      sectionScores[sectionName].total++;
+      
+      const userAnswer = testState.userAnswers[question.id];
+      if (userAnswer && userAnswer.isCorrect) {
+        sectionScores[sectionName].correct++;
+      }
+    });
+    
+    // Calculate percentages
+    Object.keys(sectionScores).forEach(section => {
+      const score = sectionScores[section];
+      score.percentage = Math.round((score.correct / score.total) * 100);
+    });
+    
+    return sectionScores;
+  };
+
+  const saveResultsToDatabase = async (endTime: Date) => {
+    if (!user) return;
+
+    try {
+      const results = getResults();
+      const sectionWiseScores = calculateSectionWiseScores();
+      
+      const { error } = await supabase
+        .from('mock_test_results')
+        .insert({
+          user_id: user.id,
+          total_questions: results.totalQuestions,
+          answered_questions: results.answeredQuestions,
+          correct_answers: results.correctAnswers,
+          incorrect_answers: results.incorrectAnswers,
+          unanswered_questions: results.unansweredQuestions,
+          score: results.score,
+          percentage: results.percentage,
+          time_taken_seconds: results.timeTaken,
+          section_wise_scores: sectionWiseScores,
+        });
+
+      if (error) {
+        console.error('Error saving test results:', error);
+      }
+    } catch (error) {
+      console.error('Error saving test results:', error);
+    }
   };
 
   const getResults = () => {
