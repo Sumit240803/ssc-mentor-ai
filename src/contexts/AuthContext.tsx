@@ -1,8 +1,7 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase } from '@/integrations/supabase/client';
 import { useSessionManager } from '@/hooks/useSessionManager';
-import { useSessionValidator } from '@/hooks/useSessionValidator';
 
 interface AuthContextType {
   user: User | null;
@@ -34,9 +33,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
   const { registerSession, validateSession, clearSession } = useSessionManager();
-  
-  // Enable periodic session validation
-  useSessionValidator();
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     // Set up auth state listener first
@@ -87,6 +84,47 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
     return () => subscription.unsubscribe();
   }, [registerSession, validateSession, clearSession]);
+  
+  // Session validation effect - moved here to avoid circular dependency
+  useEffect(() => {
+    if (!user) {
+      // Clear interval if user is not logged in
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+      return;
+    }
+
+    // Set up periodic session validation (every 5 minutes)
+    const validatePeriodically = async () => {
+      try {
+        const result = await validateSession();
+        if (!result.valid) {
+          console.log('Session validation failed, signing out:', result.reason);
+          await signOut();
+        }
+      } catch (error) {
+        console.error('Session validation error:', error);
+        // On validation error, sign out to be safe
+        await signOut();
+      }
+    };
+
+    // Initial validation after 30 seconds
+    const initialTimeout = setTimeout(validatePeriodically, 30000);
+
+    // Set up interval for periodic validation (5 minutes)
+    intervalRef.current = setInterval(validatePeriodically, 5 * 60 * 1000);
+
+    return () => {
+      clearTimeout(initialTimeout);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+    };
+  }, [user, validateSession]);
 
   const signUp = async (email: string, password: string, fullName?: string) => {
     try {
