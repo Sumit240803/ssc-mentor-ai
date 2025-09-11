@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { supabase } from '@/integrations/supabase/client';
 
 interface TopicInfo {
   subject: string;
@@ -29,15 +30,36 @@ export const useLectures = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://study-ai-rohit.vercel.app/topics');
-      if (!response.ok) {
-        throw new Error('Failed to fetch topics');
+      
+      // Fetch from Supabase content_with_summaries view
+      const { data: contentData, error } = await supabase
+        .from('content_with_summaries')
+        .select('*');
+
+      if (error) {
+        throw error;
       }
-      const data: TopicData[] = await response.json();
-      setTopics(data);
+
+      // Transform data to match expected format
+      const transformedData: TopicData[] = (contentData || []).map(item => ({
+        content_id: item.content_id || '',
+        topic_info: {
+          subject: item.subject || '',
+          sub_subject: item.sub_subject || '',
+          topic: item.topic || '',
+          subtopic: item.subtopic || '',
+          filename: item.filename || ''
+        },
+        has_enhanced_summary: !!item.enhanced_summary,
+        has_standard_summary: !!item.standard_summary,
+        summary_preview: item.enhanced_summary?.substring(0, 150) + '...' || item.standard_summary?.substring(0, 150) + '...' || '',
+        storage_url: item.storage_url || ''
+      }));
+
+      setTopics(transformedData);
       
       // Extract unique sub_subjects
-      const uniqueSubSubjects = [...new Set(data.map(topic => topic.topic_info.sub_subject))];
+      const uniqueSubSubjects = [...new Set(transformedData.map(topic => topic.topic_info.sub_subject))];
       setSubSubjects(uniqueSubSubjects);
     } catch (error) {
       console.error('Error loading topic data:', error);

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { supabase } from '@/integrations/supabase/client';
 
 interface TopicInfo {
   filename: string;
@@ -33,14 +34,40 @@ export const useTopicSummary = (contentId: string | null) => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`https://study-ai-rohit.vercel.app/api/v1/topics/${contentId}/summary`);
         
-        if (!response.ok) {
-          throw new Error('Failed to fetch summary');
+        // Fetch from Supabase content_with_summaries view
+        const { data, error: dbError } = await supabase
+          .from('content_with_summaries')
+          .select('*')
+          .eq('content_id', contentId)
+          .single();
+        
+        if (dbError) {
+          throw dbError;
+        }
+
+        if (!data) {
+          throw new Error('Summary not found');
         }
         
-        const data: SummaryResponse = await response.json();
-        setSummary(data);
+        // Transform data to match expected format
+        const transformedData: SummaryResponse = {
+          status: 'success',
+          content_id: data.content_id || '',
+          topic_info: {
+            filename: data.filename || '',
+            subject: data.subject || '',
+            sub_subject: data.sub_subject || '',
+            topic: data.topic || '',
+            subtopic: data.subtopic || ''
+          },
+          enhanced_summary: data.enhanced_summary || data.standard_summary || '',
+          file_size: data.file_size || 0,
+          created_at: data.created_at || new Date().toISOString(),
+          message: 'Summary retrieved successfully'
+        };
+        
+        setSummary(transformedData);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
         setSummary(null);
