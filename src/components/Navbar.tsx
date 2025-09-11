@@ -17,10 +17,10 @@ const Navbar = () => {
   const { isAdmin } = useAdmin();
 
   const navItems = user ? [
-    { name: "Dashboard", href: "/dashboard" },
+    { name: "Mock Test", href: "/mock-test" },
     { name: "Lectures", href: "/lectures" },
-    { name: "Schedule", href: "/schedule" },
     { name: "Motivation", href: "/motivation" },
+    { name: "Schedule", href: "/schedule" },
     ...(isAdmin ? [{ name: "Admin", href: "/admin" }] : []),
   ] : [
     { name: "Home", href: "/" },

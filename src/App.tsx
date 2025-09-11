@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import Pricing from "./pages/Pricing";
-import Dashboard from "./pages/Dashboard";
+
 import Lectures from "./pages/Lectures";
 import AIChat from "./pages/AIChat";
 import TopicSummary from "./pages/TopicSummary";
@@ -44,14 +44,6 @@ const App = () => (
               element={
                 <ProtectedRoute requirePayment={false}>
                   <Pricing />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/dashboard" 
-              element={
-                <ProtectedRoute>
-                  <Dashboard />
                 </ProtectedRoute>
               } 
             />

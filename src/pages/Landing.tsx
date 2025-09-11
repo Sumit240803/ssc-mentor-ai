@@ -31,7 +31,7 @@ const Landing = () => {
 
   const handleStartJourney = () => {
     if (user && hasPaid) {
-      navigate('/dashboard');
+      navigate('/lectures');
     } else {
       navigate('/auth');
     }
