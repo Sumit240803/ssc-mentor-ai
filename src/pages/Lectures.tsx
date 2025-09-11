@@ -14,7 +14,6 @@ import {
   Download,
   ChevronRight
 } from "lucide-react";
-import Navbar from "@/components/Navbar";
 import { useLectures } from "@/hooks/useLectures";
 import { TopicChat } from "@/components/TopicChat";
 import { useNavigate } from 'react-router-dom';
@@ -56,7 +55,6 @@ const Lectures = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-background">
-        <Navbar />
         <div className="flex items-center justify-center min-h-[50vh]">
           <LoadingSpinner />
         </div>
@@ -66,7 +64,6 @@ const Lectures = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Header */}

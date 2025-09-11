@@ -19,7 +19,6 @@ import {
   Save,
   X
 } from 'lucide-react';
-import Navbar from '@/components/Navbar';
 import { useToast } from '@/hooks/use-toast';
 
 const LectureManagement = () => {
@@ -131,7 +130,6 @@ const LectureManagement = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Header */}

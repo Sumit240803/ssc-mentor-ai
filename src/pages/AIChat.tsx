@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ArrowLeft, Send, Bot, User, BookOpen } from "lucide-react";
 import ReactMarkdown from "react-markdown";
-import Navbar from "@/components/Navbar";
 
 interface ChatMessage {
   id: string;
@@ -102,7 +101,6 @@ const AIChat = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}

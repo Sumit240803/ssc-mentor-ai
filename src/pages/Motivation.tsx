@@ -12,7 +12,6 @@ import {
   Lightbulb,
   Trophy
 } from "lucide-react";
-import Navbar from "@/components/Navbar";
 import { useMotivation } from "@/hooks/useMotivation";
 
 const Motivation = () => {
@@ -62,7 +61,6 @@ const Motivation = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-background">
-        <Navbar />
         <div className="flex items-center justify-center min-h-[50vh]">
           <LoadingSpinner />
         </div>
@@ -72,7 +70,6 @@ const Motivation = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Header */}

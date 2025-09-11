@@ -5,7 +5,6 @@ import { Card } from '@/components/ui/card';
 import { ArrowLeft, Brain, FileText } from 'lucide-react';
 import { LoadingSpinner } from '@/components/ui/loading-spinner';
 import ReactMarkdown from 'react-markdown';
-import Navbar from '@/components/Navbar';
 
 export default function TopicSummary() {
   const [searchParams] = useSearchParams();
@@ -22,7 +21,6 @@ export default function TopicSummary() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="container mx-auto px-4 py-8 pt-24">
         <div className="max-w-4xl mx-auto">

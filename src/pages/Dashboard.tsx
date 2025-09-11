@@ -12,7 +12,6 @@ import {
   Quote
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import Navbar from "@/components/Navbar";
 import { useDashboardData } from "@/hooks/useDashboardData";
 
 const Dashboard = () => {
@@ -44,7 +43,6 @@ const Dashboard = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-background">
-        <Navbar />
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="text-center py-12">
             <div className="text-lg text-muted-foreground">Loading your dashboard...</div>
@@ -56,7 +54,6 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Welcome Section */}
