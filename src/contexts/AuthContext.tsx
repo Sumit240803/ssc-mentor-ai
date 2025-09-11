@@ -1,7 +1,6 @@
-import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase } from '@/integrations/supabase/client';
-import { useSessionManager } from '@/hooks/useSessionManager';
 
 interface AuthContextType {
   user: User | null;
@@ -32,8 +31,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
-  const { registerSession, validateSession, clearSession } = useSessionManager();
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     // Set up auth state listener first
@@ -43,88 +40,19 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         setSession(session);
         setUser(session?.user ?? null);
         setLoading(false);
-        
-        // Handle session registration and validation
-        if (session?.user && event === 'SIGNED_IN') {
-          setTimeout(async () => {
-            try {
-              await registerSession();
-              console.log('Session registered successfully');
-            } catch (error) {
-              console.error('Failed to register session:', error);
-            }
-          }, 0);
-        } else if (event === 'SIGNED_OUT') {
-          clearSession();
-        }
       }
     );
 
     // Then check for existing session
-    supabase.auth.getSession().then(async ({ data: { session } }) => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
       console.log('Initial session check:', session?.user?.id);
       setSession(session);
       setUser(session?.user ?? null);
-      
-      // Validate existing session
-      if (session?.user) {
-        try {
-          const validation = await validateSession();
-          if (!validation.valid) {
-            console.log('Session invalid, signing out:', validation.reason);
-            await supabase.auth.signOut();
-          }
-        } catch (error) {
-          console.error('Session validation failed:', error);
-        }
-      }
-      
       setLoading(false);
     });
 
     return () => subscription.unsubscribe();
-  }, [registerSession, validateSession, clearSession]);
-  
-  // Session validation effect - moved here to avoid circular dependency
-  useEffect(() => {
-    if (!user) {
-      // Clear interval if user is not logged in
-      if (intervalRef.current) {
-        clearInterval(intervalRef.current);
-        intervalRef.current = null;
-      }
-      return;
-    }
-
-    // Set up periodic session validation (every 5 minutes)
-    const validatePeriodically = async () => {
-      try {
-        const result = await validateSession();
-        if (!result.valid) {
-          console.log('Session validation failed, signing out:', result.reason);
-          await signOut();
-        }
-      } catch (error) {
-        console.error('Session validation error:', error);
-        // On validation error, sign out to be safe
-        await signOut();
-      }
-    };
-
-    // Initial validation after 30 seconds
-    const initialTimeout = setTimeout(validatePeriodically, 30000);
-
-    // Set up interval for periodic validation (5 minutes)
-    intervalRef.current = setInterval(validatePeriodically, 5 * 60 * 1000);
-
-    return () => {
-      clearTimeout(initialTimeout);
-      if (intervalRef.current) {
-        clearInterval(intervalRef.current);
-        intervalRef.current = null;
-      }
-    };
-  }, [user, validateSession]);
+  }, []);
 
   const signUp = async (email: string, password: string, fullName?: string) => {
     try {
@@ -182,7 +110,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const signOut = async () => {
     try {
       setLoading(true);
-      clearSession(); // Clear session before signing out
       const { error } = await supabase.auth.signOut();
       if (!error) {
         setUser(null);
