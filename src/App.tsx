@@ -32,7 +32,7 @@ const queryClient = new QueryClient();
 // Component to conditionally render navbar
 const AppContent = () => {
   const location = useLocation();
-  const hideNavbarRoutes = ['/', '/auth'];
+  const hideNavbarRoutes = ['/auth'];
   const shouldShowNavbar = !hideNavbarRoutes.includes(location.pathname);
 
   return (
