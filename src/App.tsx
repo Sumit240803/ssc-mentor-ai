@@ -12,6 +12,7 @@ import Auth from "./pages/Auth";
 import Pricing from "./pages/Pricing";
 
 import Lectures from "./pages/Lectures";
+import TopicDetail from "./pages/TopicDetail";
 import AIChat from "./pages/AIChat";
 import TopicSummary from "./pages/TopicSummary";
 import MockTest from "./pages/MockTest";
@@ -54,6 +55,14 @@ const AppContent = () => {
               element={
                 <ProtectedRoute>
                   <Lectures />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/topic" 
+              element={
+                <ProtectedRoute>
+                  <TopicDetail />
                 </ProtectedRoute>
               } 
             />
