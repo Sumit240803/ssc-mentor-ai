@@ -16,6 +16,7 @@ import {
 import { useLectures } from "@/hooks/useLectures";
 import { useTopicSummary } from "@/hooks/useTopicSummary";
 import { TopicChat } from "@/components/TopicChat";
+import ReactMarkdown from 'react-markdown';
 
 interface TopicData {
   content_id: string;
@@ -179,10 +180,63 @@ const TopicDetail = () => {
               
               {summary ? (
                 <div className="space-y-4">
-                  <div className="max-h-96 overflow-y-auto prose prose-sm max-w-none">
-                    <div className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                  <div className="max-h-96 overflow-y-auto">
+                    <ReactMarkdown
+                      components={{
+                        h1: ({ children }) => (
+                          <h1 className="text-lg font-bold text-foreground mb-3 mt-4 first:mt-0">
+                            {children}
+                          </h1>
+                        ),
+                        h2: ({ children }) => (
+                          <h2 className="text-base font-semibold text-foreground mb-2 mt-3">
+                            {children}
+                          </h2>
+                        ),
+                        h3: ({ children }) => (
+                          <h3 className="text-sm font-medium text-foreground mb-2 mt-3">
+                            {children}
+                          </h3>
+                        ),
+                        p: ({ children }) => (
+                          <p className="text-muted-foreground leading-relaxed mb-3 text-sm">
+                            {children}
+                          </p>
+                        ),
+                        ul: ({ children }) => (
+                          <ul className="list-disc list-inside space-y-1 mb-3 text-muted-foreground text-sm">
+                            {children}
+                          </ul>
+                        ),
+                        ol: ({ children }) => (
+                          <ol className="list-decimal list-inside space-y-1 mb-3 text-muted-foreground text-sm">
+                            {children}
+                          </ol>
+                        ),
+                        li: ({ children }) => (
+                          <li className="text-muted-foreground ml-2 text-sm">
+                            {children}
+                          </li>
+                        ),
+                        strong: ({ children }) => (
+                          <strong className="font-semibold text-foreground">
+                            {children}
+                          </strong>
+                        ),
+                        code: ({ children }) => (
+                          <code className="bg-muted px-1 py-0.5 rounded text-xs font-mono text-foreground">
+                            {children}
+                          </code>
+                        ),
+                        blockquote: ({ children }) => (
+                          <blockquote className="border-l-2 border-primary pl-3 italic text-muted-foreground mb-3 text-sm">
+                            {children}
+                          </blockquote>
+                        ),
+                      }}
+                    >
                       {summary.enhanced_summary || topic.summary_preview}
-                    </div>
+                    </ReactMarkdown>
                   </div>
                   <div className="flex gap-2 pt-4 border-t">
                     {topic.has_enhanced_summary && (
