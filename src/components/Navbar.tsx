@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuSeparator } from "@/components/ui/dropdown-menu";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { Menu, X, GraduationCap, User, LogOut, Settings } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
@@ -74,17 +75,19 @@ const Navbar = () => {
             <div className="flex items-center space-x-2">
               <ThemeToggle />
             {user ? (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" className="relative h-8 w-8 rounded-full">
-                    <Avatar className="h-8 w-8">
-                      <AvatarImage src={user.user_metadata?.avatar_url} alt={user.user_metadata?.full_name || user.email} />
-                      <AvatarFallback>
-                        {user.user_metadata?.full_name ? getInitials(user.user_metadata.full_name) : <User className="h-4 w-4" />}
-                      </AvatarFallback>
-                    </Avatar>
-                  </Button>
-                </DropdownMenuTrigger>
+              <HoverCard>
+                <HoverCardTrigger asChild>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" className="relative h-8 w-8 rounded-full">
+                        <Avatar className="h-8 w-8">
+                          <AvatarImage src={user.user_metadata?.avatar_url} alt={user.user_metadata?.full_name || user.email} />
+                          <AvatarFallback>
+                            {user.user_metadata?.full_name ? getInitials(user.user_metadata.full_name) : <User className="h-4 w-4" />}
+                          </AvatarFallback>
+                        </Avatar>
+                      </Button>
+                    </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56" align="end" forceMount>
                   <div className="flex items-center justify-start gap-2 p-2">
                     <div className="flex flex-col space-y-1 leading-none">
@@ -118,6 +121,18 @@ const Navbar = () => {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
+                </HoverCardTrigger>
+                <HoverCardContent className="w-80" side="bottom" align="end">
+                  <div className="flex flex-col space-y-2">
+                    <h4 className="text-sm font-semibold">
+                      Welcome, {user.user_metadata?.full_name || user.email?.split('@')[0] || "Student"}!
+                    </h4>
+                    <p className="text-sm text-muted-foreground">
+                      Let's begin your preparation.
+                    </p>
+                  </div>
+                </HoverCardContent>
+              </HoverCard>
             ) : (
               <Link to="/auth">
                 <Button variant="soft" size="sm">
