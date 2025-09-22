@@ -6,8 +6,6 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/h
 import { Menu, X, GraduationCap, User, LogOut, Settings } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
-import { useAdmin } from "@/hooks/useAdmin";
-import AdminAssignment from "./AdminAssignment";
 import { ThemeToggle } from "./ThemeToggle";
 
 const Navbar = () => {
@@ -15,14 +13,12 @@ const Navbar = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
-  const { isAdmin } = useAdmin();
 
   const navItems = user ? [
     { name: "Mock Test", href: "/mock-test" },
     { name: "Lectures", href: "/lectures" },
     { name: "Motivation", href: "/motivation" },
     { name: "Schedule", href: "/schedule" },
-    ...(isAdmin ? [{ name: "Admin", href: "/admin" }] : []),
   ] : [
     { name: "Home", href: "/" },
   ];
@@ -103,19 +99,7 @@ const Navbar = () => {
                           <Settings className="mr-2 h-4 w-4" />
                           <span>Profile</span>
                         </DropdownMenuItem>
-                        {isAdmin && (
-                          <DropdownMenuItem onClick={() => navigate('/admin')}>
-                            <Settings className="mr-2 h-4 w-4" />
-                            <span>Admin Dashboard</span>
-                          </DropdownMenuItem>
-                        )}
                         <DropdownMenuSeparator />
-                        {isAdmin && (
-                          <>
-                            <AdminAssignment />
-                            <DropdownMenuSeparator />
-                          </>
-                        )}
                         <DropdownMenuItem onClick={handleSignOut}>
                           <LogOut className="mr-2 h-4 w-4" />
                           <span>Sign out</span>
