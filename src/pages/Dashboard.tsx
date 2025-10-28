@@ -169,29 +169,26 @@ const Dashboard = () => {
             </div>
             <div className="space-y-4">
               {recentLectures.length > 0 ? (
-                recentLectures.map((lecture: any) => (
-                  <div key={lecture.id} className="p-4 rounded-lg border hover:shadow-card transition-all duration-300">
+                recentLectures.map((lecture: any, index) => (
+                  <div key={index} className="p-4 rounded-lg border hover:shadow-card transition-all duration-300">
                     <div className="flex justify-between items-start mb-3">
                       <div>
-                        <h4 className="font-medium text-foreground">{lecture.title}</h4>
+                        <h4 className="font-medium text-foreground line-clamp-1">{lecture.file_name}</h4>
                         <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                           <span className="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs">
                             {lecture.subject}
                           </span>
-                          <span>{lecture.duration_minutes} min</span>
+                          <span className="text-xs">{(lecture.size / 1024).toFixed(0)} KB</span>
                         </div>
                       </div>
-                      <Link to="/lectures">
+                      <Link to={`/lecture-detail?url=${encodeURIComponent(lecture.url)}&fileName=${encodeURIComponent(lecture.file_name)}&type=${encodeURIComponent(lecture.type)}&subject=${encodeURIComponent(lecture.subject)}&topic=${encodeURIComponent(lecture.topic)}`}>
                         <Button variant="ghost" size="sm">
                           <PlayCircle className="h-4 w-4" />
                         </Button>
                       </Link>
                     </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between text-sm">
-                        <span className="text-muted-foreground">Views</span>
-                        <span className="text-foreground font-medium">{lecture.view_count || 0}</span>
-                      </div>
+                    <div className="text-sm text-muted-foreground line-clamp-1">
+                      {lecture.topic}
                     </div>
                   </div>
                 ))

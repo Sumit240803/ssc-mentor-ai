@@ -1,26 +1,19 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '@/integrations/supabase/client';
 
-interface TopicInfo {
+interface LectureFile {
   subject: string;
-  sub_subject: string;
   topic: string;
-  subtopic: string;
-  filename: string;
+  file_name: string;
+  url: string;
+  type: string;
+  size: number;
 }
 
-interface TopicData {
-  content_id: string;
-  topic_info: TopicInfo;
-  has_enhanced_summary: boolean;
-  has_standard_summary: boolean;
-  summary_preview: string;
-  storage_url: string;
-}
+const API_BASE_URL = 'https://sscb-backend-api.onrender.com';
 
 export const useLectures = () => {
-  const [topics, setTopics] = useState<TopicData[]>([]);
-  const [subSubjects, setSubSubjects] = useState<string[]>([]);
+  const [lectures, setLectures] = useState<LectureFile[]>([]);
+  const [subjects, setSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -31,54 +24,55 @@ export const useLectures = () => {
     try {
       setLoading(true);
       
-      // Fetch from Supabase content_with_summaries view
-      const { data: contentData, error } = await supabase
-        .from('content_with_summaries')
-        .select('*');
-
-      if (error) {
-        throw error;
+      // Fetch subjects
+      const subjectsResponse = await fetch(`${API_BASE_URL}/subjects/`);
+      const subjectsData = await subjectsResponse.json();
+      
+      if (subjectsData.status === 'success') {
+        setSubjects(subjectsData.data);
       }
 
-      // Transform data to match expected format
-      const transformedData: TopicData[] = (contentData || []).map(item => ({
-        content_id: item.content_id || '',
-        topic_info: {
-          subject: item.subject || '',
-          sub_subject: item.sub_subject || '',
-          topic: item.topic || '',
-          subtopic: item.subtopic || '',
-          filename: item.filename || ''
-        },
-        has_enhanced_summary: !!item.enhanced_summary,
-        has_standard_summary: !!item.standard_summary,
-        summary_preview: item.enhanced_summary?.substring(0, 150) + '...' || item.standard_summary?.substring(0, 150) + '...' || '',
-        storage_url: item.storage_url || ''
-      }));
-
-      setTopics(transformedData);
+      // Fetch all lectures
+      const lecturesResponse = await fetch(`${API_BASE_URL}/lectures/`);
+      const lecturesData = await lecturesResponse.json();
       
-      // Extract unique sub_subjects
-      const uniqueSubSubjects = [...new Set(transformedData.map(topic => topic.topic_info.sub_subject))];
-      setSubSubjects(uniqueSubSubjects);
+      if (lecturesData.status === 'success') {
+        setLectures(lecturesData.data);
+      }
     } catch (error) {
-      console.error('Error loading topic data:', error);
+      console.error('Error loading lecture data:', error);
     } finally {
       setLoading(false);
     }
   };
 
-  const getTopicsBySubSubject = (subSubjectName: string) => {
-    return topics.filter((topic: TopicData) => 
-      topic.topic_info.sub_subject.toLowerCase() === subSubjectName.toLowerCase()
+  const getLecturesBySubject = (subjectName: string) => {
+    return lectures.filter((lecture: LectureFile) => 
+      lecture.subject.toLowerCase() === subjectName.toLowerCase()
     );
   };
 
+  const fetchLecturesBySubject = async (subjectName: string) => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}`);
+      const data = await response.json();
+      
+      if (data.status === 'success') {
+        return data.data;
+      }
+      return [];
+    } catch (error) {
+      console.error('Error fetching lectures by subject:', error);
+      return [];
+    }
+  };
+
   return {
-    topics,
-    subSubjects,
+    lectures,
+    subjects,
     loading,
-    getTopicsBySubSubject,
+    getLecturesBySubject,
+    fetchLecturesBySubject,
     refreshData: loadData
   };
 };

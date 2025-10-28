@@ -12,9 +12,8 @@ import Auth from "./pages/Auth";
 import Pricing from "./pages/Pricing";
 
 import Lectures from "./pages/Lectures";
-import TopicDetail from "./pages/TopicDetail";
+import LectureDetail from "./pages/LectureDetail";
 import AIChat from "./pages/AIChat";
-import TopicSummary from "./pages/TopicSummary";
 import MockTest from "./pages/MockTest";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
@@ -52,10 +51,10 @@ const AppContent = () => {
               } 
             />
             <Route 
-              path="/topic" 
+              path="/lecture-detail" 
               element={
                 <ProtectedRoute>
-                  <TopicDetail />
+                  <LectureDetail />
                 </ProtectedRoute>
               } 
             />
@@ -64,14 +63,6 @@ const AppContent = () => {
               element={
                 <ProtectedRoute>
                   <AIChat />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/topic-summary" 
-              element={
-                <ProtectedRoute>
-                  <TopicSummary />
                 </ProtectedRoute>
               } 
             />

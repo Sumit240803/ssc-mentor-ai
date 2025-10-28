@@ -1,0 +1,135 @@
+import { useState, useEffect } from "react";
+import { useSearchParams, useNavigate } from "react-router-dom";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft, Download, FileText, Volume2 } from "lucide-react";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ScrollArea } from "@/components/ui/scroll-area";
+
+const LectureDetail = () => {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [content, setContent] = useState<string>("");
+  const [loading, setLoading] = useState(true);
+  
+  const url = searchParams.get("url") || "";
+  const fileName = searchParams.get("fileName") || "";
+  const type = searchParams.get("type") || "";
+  const subject = searchParams.get("subject") || "";
+  const topic = searchParams.get("topic") || "";
+
+  useEffect(() => {
+    if (type.includes("text") && url) {
+      fetchTextContent();
+    } else {
+      setLoading(false);
+    }
+  }, [url, type]);
+
+  const fetchTextContent = async () => {
+    try {
+      setLoading(true);
+      const response = await fetch(url);
+      const text = await response.text();
+      setContent(text);
+    } catch (error) {
+      console.error("Error fetching content:", error);
+      setContent("Failed to load content");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleBack = () => {
+    navigate("/lectures");
+  };
+
+  const handleDownload = () => {
+    window.open(url, "_blank");
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <LoadingSpinner size="lg" />
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
+      <div className="max-w-5xl mx-auto">
+        <Button
+          variant="ghost"
+          onClick={handleBack}
+          className="mb-6 hover:bg-primary/10"
+        >
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Lectures
+        </Button>
+
+        <Card className="border-2">
+          <CardHeader className="space-y-4">
+            <div className="flex items-start justify-between gap-4">
+              <div className="space-y-2 flex-1">
+                <CardTitle className="text-2xl">{fileName}</CardTitle>
+                <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
+                  <span className="font-medium">{subject}</span>
+                  <span>•</span>
+                  <span>{topic}</span>
+                </div>
+              </div>
+              {type.includes("audio") ? (
+                <Volume2 className="h-8 w-8 text-primary" />
+              ) : (
+                <FileText className="h-8 w-8 text-primary" />
+              )}
+            </div>
+
+            <div className="flex gap-3">
+              <Button onClick={handleDownload} className="gap-2">
+                <Download className="h-4 w-4" />
+                Download
+              </Button>
+            </div>
+          </CardHeader>
+
+          <CardContent>
+            {type.includes("audio") ? (
+              <div className="space-y-4">
+                <audio controls className="w-full">
+                  <source src={url} type={type} />
+                  Your browser does not support the audio element.
+                </audio>
+                <p className="text-sm text-muted-foreground">
+                  Listen to the lecture or download it for offline access.
+                </p>
+              </div>
+            ) : type.includes("text") ? (
+              <ScrollArea className="h-[600px] w-full rounded-md border p-6">
+                <div className="prose prose-sm dark:prose-invert max-w-none">
+                  <pre className="whitespace-pre-wrap font-sans text-sm leading-relaxed">
+                    {content}
+                  </pre>
+                </div>
+              </ScrollArea>
+            ) : (
+              <div className="text-center py-12">
+                <FileText className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                <p className="text-muted-foreground mb-4">
+                  This file type cannot be previewed. Click download to view it.
+                </p>
+                <Button onClick={handleDownload} variant="outline">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download File
+                </Button>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+};
+
+export default LectureDetail;

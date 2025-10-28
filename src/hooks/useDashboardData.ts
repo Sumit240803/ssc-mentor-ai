@@ -46,14 +46,18 @@ export const useDashboardData = () => {
   };
 
   const fetchRecentLectures = async () => {
-    const { data } = await supabase
-      .from('lectures')
-      .select('*')
-      .eq('is_published', true)
-      .order('created_at', { ascending: false })
-      .limit(3);
-    
-    setRecentLectures(data || []);
+    try {
+      const response = await fetch('https://sscb-backend-api.onrender.com/lectures/');
+      const result = await response.json();
+      
+      if (result.status === 'success') {
+        // Get the 3 most recent lectures
+        setRecentLectures(result.data.slice(0, 3));
+      }
+    } catch (error) {
+      console.error('Error fetching recent lectures:', error);
+      setRecentLectures([]);
+    }
   };
 
   const fetchDailyQuote = async () => {

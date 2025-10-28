@@ -1,150 +1,134 @@
-import { Card } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { LoadingSpinner } from "@/components/ui/loading-spinner";
-import { 
-  FileText, 
-  BookOpen, 
-  Calculator, 
-  Brain, 
-  MessageSquare,
-  ChevronRight
-} from "lucide-react";
+import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2 } from "lucide-react";
 import { useLectures } from "@/hooks/useLectures";
-import { useNavigate } from 'react-router-dom';
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { useNavigate } from "react-router-dom";
 
-interface TopicData {
-  content_id: string;
-  topic_info: {
-    subject: string;
-    sub_subject: string;
-    topic: string;
-    subtopic: string;
-    filename: string;
-  };
-  has_enhanced_summary: boolean;
-  has_standard_summary: boolean;
-  summary_preview: string;
-  storage_url: string;
+interface LectureFile {
+  subject: string;
+  topic: string;
+  file_name: string;
+  url: string;
+  type: string;
+  size: number;
 }
 
 const Lectures = () => {
   const navigate = useNavigate();
-  const { subSubjects, loading, getTopicsBySubSubject } = useLectures();
-
-  const getSubjectIcon = (subSubject: string) => {
-    const icons: { [key: string]: any } = {
-      "General Studies": BookOpen,
-      "Mathematics": Calculator,
-      "Reasoning": Brain,
-      "English": MessageSquare
-    };
-    return icons[subSubject] || BookOpen;
-  };
+  const { lectures, subjects, loading, getLecturesBySubject } = useLectures();
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background">
-        <div className="flex items-center justify-center min-h-[50vh]">
-          <LoadingSpinner />
-        </div>
+      <div className="min-h-screen flex items-center justify-center">
+        <LoadingSpinner size="lg" />
       </div>
     );
   }
 
+  const getSubjectIcon = (subject: string) => {
+    const subjectLower = subject.toLowerCase();
+    if (subjectLower.includes("computer")) return <Brain className="h-5 w-5" />;
+    if (subjectLower.includes("science")) return <Atom className="h-5 w-5" />;
+    if (subjectLower.includes("affair") || subjectLower.includes("politic")) return <BookOpen className="h-5 w-5" />;
+    return <GraduationCap className="h-5 w-5" />;
+  };
+
+  const getFileIcon = (type: string) => {
+    if (type.includes("audio")) return <Volume2 className="h-5 w-5" />;
+    return <FileText className="h-5 w-5" />;
+  };
+
+  const formatFileSize = (bytes: number) => {
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+  };
+
+  const handleLectureClick = (lecture: LectureFile) => {
+    navigate(`/lecture-detail?url=${encodeURIComponent(lecture.url)}&fileName=${encodeURIComponent(lecture.file_name)}&type=${encodeURIComponent(lecture.type)}&subject=${encodeURIComponent(lecture.subject)}&topic=${encodeURIComponent(lecture.topic)}`);
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Header */}
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
+      <div className="max-w-7xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+          <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
             Study Materials
           </h1>
-          <p className="text-muted-foreground text-lg">
-            Comprehensive study content with AI-powered summaries for your exam preparation
+          <p className="text-muted-foreground">
+            Access comprehensive lecture notes and study materials organized by subject
           </p>
         </div>
 
-        {/* Topics List */}
-        <Tabs defaultValue={subSubjects[0]?.toLowerCase().replace(/\s+/g, '-')} className="w-full">
-          <TabsList className={`grid w-full mb-6 ${subSubjects.length <= 4 ? `grid-cols-${subSubjects.length}` : 'grid-cols-4'}`}>
-            {subSubjects.map((subSubject: string) => {
-              const SubjectIcon = getSubjectIcon(subSubject);
-              return (
-                <TabsTrigger 
-                  key={subSubject} 
-                  value={subSubject.toLowerCase().replace(/\s+/g, '-')}
-                  className="flex items-center gap-2"
-                >
-                  <SubjectIcon className="h-4 w-4 text-primary" />
-                  <span className="hidden sm:inline">{subSubject}</span>
-                </TabsTrigger>
-              );
-            })}
+        <Tabs defaultValue={subjects[0]} className="w-full">
+          <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto gap-2 bg-card/50 backdrop-blur-sm p-2">
+            {subjects.map((subject) => (
+              <TabsTrigger
+                key={subject}
+                value={subject}
+                className="flex items-center gap-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+              >
+                {getSubjectIcon(subject)}
+                <span className="font-medium">{subject}</span>
+              </TabsTrigger>
+            ))}
           </TabsList>
 
-          {subSubjects.map((subSubject: string) => (
-            <TabsContent key={subSubject} value={subSubject.toLowerCase().replace(/\s+/g, '-')} className="space-y-4">
-              {getTopicsBySubSubject(subSubject).length > 0 ? (
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {getTopicsBySubSubject(subSubject).map((topic: TopicData) => (
-                    <Card 
-                      key={topic.content_id} 
-                      className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer border-0 shadow-card group"
-                      onClick={() => navigate(`/topic?id=${topic.content_id}`)}
-                    >
-                      <div className="space-y-4">
-                        <div className="flex items-center gap-3">
-                          <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                            <FileText className="h-5 w-5 text-primary" />
+          {subjects.map((subject) => {
+            const subjectLectures = getLecturesBySubject(subject);
+
+            return (
+              <TabsContent key={subject} value={subject} className="mt-6">
+                {subjectLectures.length === 0 ? (
+                  <Card className="border-dashed">
+                    <CardContent className="flex flex-col items-center justify-center py-12">
+                      <FileText className="h-12 w-12 text-muted-foreground mb-4" />
+                      <p className="text-muted-foreground text-center">
+                        No content available for this subject yet.
+                      </p>
+                    </CardContent>
+                  </Card>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {subjectLectures.map((lecture, index) => (
+                      <Card
+                        key={index}
+                        className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
+                        onClick={() => handleLectureClick(lecture)}
+                      >
+                        <CardHeader className="space-y-3">
+                          <div className="flex items-start justify-between gap-2">
+                            <div className="space-y-1 flex-1">
+                              <CardTitle className="text-lg group-hover:text-primary transition-colors line-clamp-2">
+                                {lecture.file_name}
+                              </CardTitle>
+                              <CardDescription className="text-sm">
+                                <div className="font-medium text-foreground/80">
+                                  {lecture.topic}
+                                </div>
+                              </CardDescription>
+                            </div>
+                            {getFileIcon(lecture.type)}
                           </div>
-                          <div className="flex-1 min-w-0">
-                            <h3 className="font-semibold text-foreground text-lg line-clamp-2">
-                              {topic.topic_info.filename.replace('.pdf', '')}
-                            </h3>
+                          
+                          <div className="flex gap-2 flex-wrap items-center">
+                            <Badge variant="secondary" className="gap-1">
+                              {lecture.type.includes('audio') ? 'Audio' : lecture.type.includes('text') ? 'Text' : 'Document'}
+                            </Badge>
+                            <span className="text-xs text-muted-foreground">
+                              {formatFileSize(lecture.size)}
+                            </span>
                           </div>
-                        </div>
-                        
-                        <div className="space-y-2 text-sm text-muted-foreground">
-                          <div className="flex items-center gap-1">
-                            <BookOpen className="h-3 w-3" />
-                            <span className="truncate">{topic.topic_info.topic}</span>
-                          </div>
-                          <div className="truncate">{topic.topic_info.subtopic}</div>
-                        </div>
-                        
-                        <div className="flex gap-2 flex-wrap">
-                          {topic.has_enhanced_summary && (
-                            <Badge variant="default" className="text-xs">Enhanced</Badge>
-                          )}
-                          {topic.has_standard_summary && (
-                            <Badge variant="outline" className="text-xs">Standard</Badge>
-                          )}
-                        </div>
-                        
-                        <div className="pt-2 border-t">
-                          <p className="text-xs text-muted-foreground line-clamp-2">
-                            {topic.summary_preview}
-                          </p>
-                        </div>
-                        
-                        <div className="flex items-center justify-between pt-2">
-                          <span className="text-xs text-primary font-medium">View Details</span>
-                          <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
-                        </div>
-                      </div>
-                    </Card>
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-12 text-muted-foreground">
-                  <BookOpen className="h-12 w-12 mx-auto mb-4 opacity-50" />
-                  <p className="text-lg font-medium">No content available for {subSubject}</p>
-                  <p className="text-sm">Check back later for new content!</p>
-                </div>
-              )}
-            </TabsContent>
-          ))}
+                        </CardHeader>
+                      </Card>
+                    ))}
+                  </div>
+                )}
+              </TabsContent>
+            );
+          })}
         </Tabs>
       </div>
     </div>
