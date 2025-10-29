@@ -14,6 +14,7 @@ import Pricing from "./pages/Pricing";
 import Lectures from "./pages/Lectures";
 import LectureDetail from "./pages/LectureDetail";
 import AIChat from "./pages/AIChat";
+import MockTestsList from "./pages/MockTestsList";
 import MockTest from "./pages/MockTest";
 import Schedule from "./pages/Schedule";
 import Motivation from "./pages/Motivation";
@@ -67,7 +68,15 @@ const AppContent = () => {
               } 
             />
             <Route 
-              path="/mock-test" 
+              path="/mock-tests" 
+              element={
+                <ProtectedRoute>
+                  <MockTestsList />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/mock-test/:testId" 
               element={
                 <ProtectedRoute>
                   <MockTest />

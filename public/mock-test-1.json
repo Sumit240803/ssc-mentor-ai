@@ -1,0 +1,131 @@
+{
+  "testName": "Delhi Police Constable - Mock Test 1",
+  "duration": 90,
+  "mockTest": [
+    {
+      "section": "General Science",
+      "questions": [
+        {
+          "question": "What is the chemical formula of water?",
+          "options": ["H2O", "CO2", "NaCl", "O2"],
+          "answer": "H2O",
+          "pyq": true,
+          "pyqDetails": {
+            "year": 2022,
+            "paper": "Delhi Police Constable"
+          }
+        },
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+          "answer": "Mars",
+          "pyq": false,
+          "pyqDetails": {
+            "year": null,
+            "paper": ""
+          }
+        }
+      ]
+    },
+    {
+      "section": "Mathematics",
+      "questions": [
+        {
+          "question": "What is 15 + 25?",
+          "options": ["30", "35", "40", "45"],
+          "answer": "40",
+          "pyq": false,
+          "pyqDetails": {
+            "year": null,
+            "paper": ""
+          }
+        },
+        {
+          "question": "What is the square root of 144?",
+          "options": ["10", "11", "12", "13"],
+          "answer": "12",
+          "pyq": true,
+          "pyqDetails": {
+            "year": 2021,
+            "paper": "Delhi Police Constable"
+          }
+        }
+      ]
+    },
+    {
+      "section": "Computer",
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "options": ["Central Processing Unit", "Computer Personal Unit", "Central Processor Unit", "Central Program Unit"],
+          "answer": "Central Processing Unit",
+          "pyq": false,
+          "pyqDetails": {
+            "year": null,
+            "paper": ""
+          }
+        },
+        {
+          "question": "Which of the following is an input device?",
+          "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+          "answer": "Keyboard",
+          "pyq": true,
+          "pyqDetails": {
+            "year": 2023,
+            "paper": "Delhi Police Constable"
+          }
+        }
+      ]
+    },
+    {
+      "section": "Reasoning",
+      "questions": [
+        {
+          "question": "If A = 1, B = 2, C = 3, then what is the code for CAB?",
+          "options": ["312", "321", "123", "213"],
+          "answer": "312",
+          "pyq": false,
+          "pyqDetails": {
+            "year": null,
+            "paper": ""
+          }
+        },
+        {
+          "question": "Find the odd one out: 2, 4, 6, 9, 10",
+          "options": ["2", "4", "9", "10"],
+          "answer": "9",
+          "pyq": true,
+          "pyqDetails": {
+            "year": 2022,
+            "paper": "Delhi Police Constable"
+          }
+        }
+      ]
+    },
+    {
+      "section": "English",
+      "questions": [
+        {
+          "question": "Choose the correct synonym for 'Happy':",
+          "options": ["Sad", "Joyful", "Angry", "Worried"],
+          "answer": "Joyful",
+          "pyq": false,
+          "pyqDetails": {
+            "year": null,
+            "paper": ""
+          }
+        },
+        {
+          "question": "Which is the correct spelling?",
+          "options": ["Recieve", "Receive", "Receeve", "Receve"],
+          "answer": "Receive",
+          "pyq": true,
+          "pyqDetails": {
+            "year": 2021,
+            "paper": "Delhi Police Constable"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@ const Navbar = () => {
   const { user, signOut } = useAuth();
 
   const navItems = user ? [
-    { name: "Mock Test", href: "/mock-test" },
+    { name: "Mock Test", href: "/mock-tests" },
     { name: "Lectures", href: "/lectures" },
     { name: "Motivation", href: "/motivation" },
     { name: "Schedule", href: "/schedule" },

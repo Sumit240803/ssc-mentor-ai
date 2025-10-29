@@ -13,24 +13,20 @@ export interface Question {
   };
 }
 
-export interface Chapter {
-  chapter: string;
+export interface Section {
+  section: string;
   questions: Question[];
 }
 
-export interface Section {
-  section: string;
-  chapters: Chapter[];
-}
-
 export interface MockTestData {
+  testName: string;
+  duration: number;
   mockTest: Section[];
 }
 
 export interface TestQuestion extends Question {
   id: number;
   section: string;
-  chapter: string;
 }
 
 export interface UserAnswer {
@@ -50,23 +46,14 @@ export interface TestState {
   endTime: Date | null;
 }
 
-const EXAM_PATTERN = {
-  'General Science': 50,
-  'Reasoning': 25,
-  'Mathematics': 15,
-  'Computer': 10,
-};
-
-const EXAM_DURATION = 90 * 60; // 90 minutes in seconds
-
-export const useMockTest = () => {
+export const useMockTest = (testFileName?: string) => {
   const { user } = useAuth();
   const [mockTestData, setMockTestData] = useState<MockTestData | null>(null);
   const [testState, setTestState] = useState<TestState>({
     questions: [],
     currentQuestionIndex: 0,
     userAnswers: {},
-    timeRemaining: EXAM_DURATION,
+    timeRemaining: 90 * 60, // Default 90 minutes
     isActive: false,
     isCompleted: false,
     startTime: null,
@@ -76,17 +63,25 @@ export const useMockTest = () => {
   // Load mock test data
   useEffect(() => {
     const loadMockTestData = async () => {
+      if (!testFileName) return;
+      
       try {
-        const response = await fetch('/mockTestData.json');
+        const response = await fetch(`/${testFileName}.json`);
         const data: MockTestData = await response.json();
         setMockTestData(data);
+        
+        // Update time remaining based on test duration
+        setTestState(prev => ({
+          ...prev,
+          timeRemaining: data.duration * 60,
+        }));
       } catch (error) {
         console.error('Error loading mock test data:', error);
       }
     };
 
     loadMockTestData();
-  }, []);
+  }, [testFileName]);
 
   // Timer effect
   useEffect(() => {
@@ -119,51 +114,32 @@ export const useMockTest = () => {
     };
   }, [testState.isActive, testState.timeRemaining, testState.isCompleted]);
 
-const generateRandomQuestions = (): TestQuestion[] => {
+  const generateQuestions = (): TestQuestion[] => {
     if (!mockTestData) return [];
 
-    const selectedQuestions: TestQuestion[] = [];
+    const allQuestions: TestQuestion[] = [];
     let questionId = 1;
 
-    // Define the order of sections as per requirement
-    const sectionOrder = ['General Science', 'Reasoning', 'Mathematics', 'Computer'];
-
-    sectionOrder.forEach((sectionName) => {
-      const count = EXAM_PATTERN[sectionName as keyof typeof EXAM_PATTERN];
-      if (!count) return;
-
-      const section = mockTestData.mockTest.find(s => s.section === sectionName);
-      if (!section) return;
-
-      // Collect all questions from all chapters in this section
-      const allQuestions: TestQuestion[] = [];
-      section.chapters.forEach(chapter => {
-        chapter.questions.forEach(question => {
-          allQuestions.push({
-            ...question,
-            id: questionId++,
-            section: sectionName,
-            chapter: chapter.chapter,
-          });
+    mockTestData.mockTest.forEach((section) => {
+      section.questions.forEach((question) => {
+        allQuestions.push({
+          ...question,
+          id: questionId++,
+          section: section.section,
         });
       });
-
-      // Randomly select the required number of questions from this section
-      const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
-      const selected = shuffled.slice(0, Math.min(count, shuffled.length));
-      selectedQuestions.push(...selected);
     });
 
-    return selectedQuestions; // Keep section-wise order, no final shuffle
+    return allQuestions;
   };
 
   const startTest = () => {
-    const questions = generateRandomQuestions();
+    const questions = generateQuestions();
     setTestState({
       questions,
       currentQuestionIndex: 0,
       userAnswers: {},
-      timeRemaining: EXAM_DURATION,
+      timeRemaining: mockTestData ? mockTestData.duration * 60 : 90 * 60,
       isActive: true,
       isCompleted: false,
       startTime: new Date(),
@@ -251,7 +227,7 @@ const generateRandomQuestions = (): TestQuestion[] => {
   };
 
   const saveResultsToDatabase = async (endTime: Date) => {
-    if (!user) return;
+    if (!user || !mockTestData) return;
 
     try {
       const results = getResults();
@@ -261,6 +237,7 @@ const generateRandomQuestions = (): TestQuestion[] => {
         .from('mock_test_results')
         .insert({
           user_id: user.id,
+          test_name: mockTestData.testName,
           total_questions: results.totalQuestions,
           answered_questions: results.answeredQuestions,
           correct_answers: results.correctAnswers,
@@ -289,7 +266,7 @@ const generateRandomQuestions = (): TestQuestion[] => {
     
     const timeTaken = testState.startTime && testState.endTime 
       ? Math.floor((testState.endTime.getTime() - testState.startTime.getTime()) / 1000)
-      : EXAM_DURATION - testState.timeRemaining;
+      : (mockTestData ? mockTestData.duration * 60 : 90 * 60) - testState.timeRemaining;
 
     return {
       totalQuestions,
@@ -308,7 +285,7 @@ const generateRandomQuestions = (): TestQuestion[] => {
       questions: [],
       currentQuestionIndex: 0,
       userAnswers: {},
-      timeRemaining: EXAM_DURATION,
+      timeRemaining: mockTestData ? mockTestData.duration * 60 : 90 * 60,
       isActive: false,
       isCompleted: false,
       startTime: null,

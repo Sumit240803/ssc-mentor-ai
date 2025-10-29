@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useMockTest } from '@/hooks/useMockTest';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -20,7 +21,11 @@ import {
 import { cn } from '@/lib/utils';
 
 const MockTest: React.FC = () => {
+  const { testId } = useParams<{ testId: string }>();
+  const navigate = useNavigate();
+  
   const {
+    mockTestData,
     testState,
     startTest,
     submitTest,
@@ -32,7 +37,7 @@ const MockTest: React.FC = () => {
     resetTest,
     formatTime,
     isDataLoaded,
-  } = useMockTest();
+  } = useMockTest(testId);
 
   if (!isDataLoaded) {
     return (
@@ -53,10 +58,10 @@ const MockTest: React.FC = () => {
           <CardHeader className="text-center">
             <CardTitle className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
               <Target className="h-8 w-8 text-primary" />
-              Mock Test
+              {mockTestData?.testName || 'Mock Test'}
             </CardTitle>
             <CardDescription className="text-lg">
-              Delhi Police Constable Practice Test
+              Full-length practice test
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -67,11 +72,14 @@ const MockTest: React.FC = () => {
                   Test Pattern
                 </h3>
                 <ul className="text-sm space-y-1">
-                  <li>• General Awareness: 50 questions</li>
-                  <li>• Reasoning: 25 questions</li>
-                  <li>• Numerical Ability: 15 questions</li>
-                  <li>• Computer Awareness: 10 questions</li>
-                  <li className="font-semibold pt-1">Total: 100 questions</li>
+                  {mockTestData?.mockTest.map((section) => (
+                    <li key={section.section}>
+                      • {section.section}: {section.questions.length} questions
+                    </li>
+                  ))}
+                  <li className="font-semibold pt-1">
+                    Total: {mockTestData?.mockTest.reduce((total, section) => total + section.questions.length, 0)} questions
+                  </li>
                 </ul>
               </div>
               <div className="bg-card p-4 rounded-lg border">
@@ -80,7 +88,7 @@ const MockTest: React.FC = () => {
                   Time & Rules
                 </h3>
                 <ul className="text-sm space-y-1">
-                  <li>• Duration: 90 minutes</li>
+                  <li>• Duration: {mockTestData?.duration || 90} minutes</li>
                   <li>• No negative marking</li>
                   <li>• Can review and change answers</li>
                   <li>• Auto-submit when time ends</li>
@@ -182,11 +190,11 @@ const MockTest: React.FC = () => {
                 </div>
 
                 <div className="flex gap-4 justify-center">
-                  <Button onClick={resetTest} variant="outline">
-                    Take Another Test
+                  <Button onClick={() => navigate('/mock-tests')} variant="outline">
+                    Back to Tests
                   </Button>
-                  <Button onClick={() => window.location.href = '/dashboard'}>
-                    Back to Dashboard
+                  <Button onClick={() => navigate('/lectures')}>
+                    Back to Lectures
                   </Button>
                 </div>
               </CardContent>
@@ -245,17 +253,29 @@ const MockTest: React.FC = () => {
                     onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
                     className="space-y-3"
                   >
-                    {currentQuestion.options.map((option, index) => (
-                      <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
-                        <RadioGroupItem value={option} id={`option-${index}`} />
-                        <Label 
-                          htmlFor={`option-${index}`} 
-                          className="flex-1 cursor-pointer text-base"
-                        >
-                          {option}
-                        </Label>
-                      </div>
-                    ))}
+                    {currentQuestion.options.map((option, index) => {
+                      const isImageUrl = option.startsWith('http://') || option.startsWith('https://');
+                      
+                      return (
+                        <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
+                          <RadioGroupItem value={option} id={`option-${index}`} />
+                          <Label 
+                            htmlFor={`option-${index}`} 
+                            className="flex-1 cursor-pointer text-base"
+                          >
+                            {isImageUrl ? (
+                              <img 
+                                src={option} 
+                                alt={`Option ${index + 1}`} 
+                                className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                              />
+                            ) : (
+                              option
+                            )}
+                          </Label>
+                        </div>
+                      );
+                    })}
                   </RadioGroup>
                 </CardContent>
               </Card>
