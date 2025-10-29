@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
@@ -17,7 +18,20 @@ interface LectureFile {
 
 const Lectures = () => {
   const navigate = useNavigate();
-  const { lectures, subjects, loading, getLecturesBySubject } = useLectures();
+  const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
+  const [activeSubject, setActiveSubject] = useState<string>("");
+
+  useEffect(() => {
+    if (subjects.length > 0 && !activeSubject) {
+      setActiveSubject(subjects[0]);
+      fetchLecturesBySubject(subjects[0]);
+    }
+  }, [subjects]);
+
+  const handleTabChange = (subject: string) => {
+    setActiveSubject(subject);
+    fetchLecturesBySubject(subject);
+  };
 
   if (loading) {
     return (
@@ -62,7 +76,7 @@ const Lectures = () => {
           </p>
         </div>
 
-        <Tabs defaultValue={subjects[0]} className="w-full">
+        <Tabs value={activeSubject} onValueChange={handleTabChange} className="w-full">
           <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto gap-2 bg-card/50 backdrop-blur-sm p-2">
             {subjects.map((subject) => (
               <TabsTrigger
@@ -78,10 +92,15 @@ const Lectures = () => {
 
           {subjects.map((subject) => {
             const subjectLectures = getLecturesBySubject(subject);
+            const isLoading = isLoadingSubject(subject);
 
             return (
               <TabsContent key={subject} value={subject} className="mt-6">
-                {subjectLectures.length === 0 ? (
+                {isLoading ? (
+                  <div className="flex items-center justify-center py-12">
+                    <LoadingSpinner size="lg" />
+                  </div>
+                ) : subjectLectures.length === 0 ? (
                   <Card className="border-dashed">
                     <CardContent className="flex flex-col items-center justify-center py-12">
                       <FileText className="h-12 w-12 text-muted-foreground mb-4" />
