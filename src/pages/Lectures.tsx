@@ -54,11 +54,6 @@ const Lectures = () => {
     return <FileText className="h-5 w-5" />;
   };
 
-  const formatFileSize = (bytes: number) => {
-    if (bytes < 1024) return bytes + ' B';
-    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
-    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
-  };
 
   const handleLectureClick = (lecture: LectureFile) => {
     navigate(`/lecture-detail?url=${encodeURIComponent(lecture.url)}&fileName=${encodeURIComponent(lecture.file_name)}&type=${encodeURIComponent(lecture.type)}&subject=${encodeURIComponent(lecture.subject)}&topic=${encodeURIComponent(lecture.topic)}`);
@@ -132,14 +127,9 @@ const Lectures = () => {
                             {getFileIcon(lecture.type)}
                           </div>
                           
-                          <div className="flex gap-2 flex-wrap items-center">
-                            <Badge variant="secondary" className="gap-1">
-                              {lecture.type.includes('audio') ? 'Audio' : lecture.type.includes('text') ? 'Text' : 'Document'}
-                            </Badge>
-                            <span className="text-xs text-muted-foreground">
-                              {formatFileSize(lecture.size)}
-                            </span>
-                          </div>
+                          <Badge variant="secondary" className="gap-1">
+                            {lecture.type.includes('audio') ? 'Audio' : lecture.type.includes('text') ? 'Text' : 'Document'}
+                          </Badge>
                         </CardHeader>
                       </Card>
                     ))}
