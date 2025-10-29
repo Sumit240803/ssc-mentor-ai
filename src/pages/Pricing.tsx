@@ -94,7 +94,7 @@ const Pricing = () => {
               description: "Welcome to EduPlatform Premium! You now have access to all courses.",
             });
 
-            navigate('/dashboard');
+            navigate('/lectures');
           } catch (error) {
             console.error('Payment verification error:', error);
             toast({
