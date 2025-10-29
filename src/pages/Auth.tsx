@@ -25,13 +25,9 @@ const Auth = () => {
   // Redirect if already authenticated
   useEffect(() => {
     if (user) {
-      if(hasPaid){
-        navigate('/dashboard');
-      } else {
-        navigate('/pricing');
-      }
+      navigate('/lectures');
     }
-  }, [user, navigate,hasPaid]);
+  }, [user, navigate]);
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -58,7 +54,7 @@ const Auth = () => {
           title: "Success!",
           description: "You have been signed in successfully",
         });
-        navigate('/pricing');
+        navigate('/lectures');
       }
     } catch (error: any) {
       toast({
