@@ -204,178 +204,191 @@ const Pricing = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-secondary/10 relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="fixed inset-0 opacity-20 pointer-events-none">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-glow rounded-full animate-float"></div>
-        <div className="absolute top-40 right-20 w-48 h-48 bg-gradient-ai-secondary rounded-full animate-float opacity-60" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 left-1/4 w-32 h-32 bg-gradient-neural rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
+    <div className="min-h-screen bg-background relative overflow-hidden">
+      {/* Subtle Background Pattern */}
+      <div className="fixed inset-0 opacity-[0.02] pointer-events-none">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, hsl(var(--primary)) 1px, transparent 0)',
+          backgroundSize: '40px 40px'
+        }}></div>
       </div>
 
-      <div className="relative z-10 flex items-center justify-center min-h-screen p-4">
-        <div className="w-full max-w-5xl">
-          {/* Header */}
-          <div className="text-center mb-8">
-            <Badge variant="secondary" className="mb-4 px-4 py-2 text-sm font-semibold animate-pulse-glow">
-              <Sparkles className="w-4 h-4 mr-2" />
-              AI-Powered Learning Platform
-            </Badge>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        {/* Header Section */}
+        <div className="text-center mb-16 animate-fade-in">
+          <Badge variant="secondary" className="mb-6 px-6 py-2 text-sm font-medium">
+            <Sparkles className="w-4 h-4 mr-2 inline" />
+            AI-Powered Learning Platform
+          </Badge>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-neural bg-clip-text text-transparent">
-              Unlock Your AI Learning
-              <br />Potential
-            </h1>
-            
-            <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-              Experience the future of SSC preparation with our advanced AI mentor that personalizes your learning journey
-            </p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            <span className="bg-gradient-neural bg-clip-text text-transparent">
+              Transform Your
+            </span>
+            <br />
+            <span className="text-foreground">SSC Preparation</span>
+          </h1>
+          
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+            Join thousands of successful students using our AI-powered platform to ace their SSC exams
+          </p>
 
-            {/* Limited Time Offer */}
-            <div className="bg-gradient-ai-primary text-white px-6 py-3 rounded-full inline-flex items-center space-x-2 mb-6 animate-pulse-glow">
-              <Crown className="w-5 h-5" />
-              <span className="font-semibold">Limited Time: 50% OFF</span>
-              <div className="flex space-x-2 ml-4">
-                <div className="bg-white/20 px-2 py-1 rounded text-sm">
-                  {String(timeLeft.hours).padStart(2, '0')}h
-                </div>
-                <div className="bg-white/20 px-2 py-1 rounded text-sm">
-                  {String(timeLeft.minutes).padStart(2, '0')}m
-                </div>
-                <div className="bg-white/20 px-2 py-1 rounded text-sm">
-                  {String(timeLeft.seconds).padStart(2, '0')}s
-                </div>
-              </div>
+          {/* Limited Time Banner */}
+          <div className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-6 py-3 rounded-full shadow-elevated animate-pulse-glow">
+            <Crown className="w-5 h-5" />
+            <span className="font-semibold">Limited Offer: 50% OFF</span>
+            <div className="flex gap-2 ml-2">
+              <span className="bg-primary-foreground/20 px-2.5 py-1 rounded-md text-sm font-mono">
+                {String(timeLeft.hours).padStart(2, '0')}h
+              </span>
+              <span className="bg-primary-foreground/20 px-2.5 py-1 rounded-md text-sm font-mono">
+                {String(timeLeft.minutes).padStart(2, '0')}m
+              </span>
+              <span className="bg-primary-foreground/20 px-2.5 py-1 rounded-md text-sm font-mono">
+                {String(timeLeft.seconds).padStart(2, '0')}s
+              </span>
             </div>
           </div>
+        </div>
 
+        <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Main Pricing Card */}
-          <Card className="shadow-floating border-0 bg-gradient-card backdrop-blur-sm relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-glow opacity-30"></div>
-            
-            <CardHeader className="text-center pb-4 relative z-10">
-              <div className="flex items-center justify-center mb-4">
-                <div className="p-3 bg-gradient-ai-primary rounded-2xl animate-pulse-glow">
-                  <Brain className="w-10 h-10 text-white" />
-                </div>
-              </div>
-              <CardTitle className="text-3xl mb-2 bg-gradient-ai-secondary bg-clip-text text-transparent">
-                AI Premium Access
-              </CardTitle>
-              <CardDescription className="text-lg mb-6">
-                Get unlimited access to our cutting-edge AI-powered educational platform
-              </CardDescription>
-              
-              <div className="flex items-center justify-center mb-4">
-                <div className="text-right mr-4">
-                  <div className="text-2xl text-muted-foreground line-through">₹999</div>
-                  <div className="text-sm text-muted-foreground">Regular Price</div>
-                </div>
-                <div className="text-center">
-                  <span className="text-5xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹499</span>
-                  <span className="text-muted-foreground ml-2 text-lg">/lifetime</span>
-                </div>
-              </div>
-              
-              <Badge variant="secondary" className="text-sm px-4 py-2">
-                🚀 50% OFF • Limited Time Only
-              </Badge>
-            </CardHeader>
-
-            <CardContent className="relative z-10">
-              {/* Features List */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-start space-x-3 p-3 rounded-lg hover:bg-primary/5 transition-colors">
-                    <div className="p-1 bg-gradient-ai-primary rounded-lg">
-                      <feature.icon className="w-4 h-4 text-white flex-shrink-0" />
-                    </div>
-                    <span className="text-foreground font-medium">{feature.text}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Social Proof */}
-              <div className="bg-muted/50 rounded-2xl p-6 mb-8">
-                <div className="text-center mb-4">
-                  <h3 className="text-lg font-semibold text-foreground mb-2">Join 50,000+ Successful Students</h3>
-                  <div className="flex justify-center space-x-1 mb-2">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-sm text-muted-foreground">4.9/5 from 10,000+ reviews</p>
+          <div className="lg:col-span-2">
+            <Card className="border-2 border-primary/20 shadow-elevated hover:shadow-float transition-all duration-300">
+              <CardHeader className="text-center pb-8 border-b">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-ai-primary rounded-2xl mx-auto mb-4 shadow-float">
+                  <Brain className="w-8 h-8 text-white" />
                 </div>
                 
-                <div className="grid md:grid-cols-2 gap-4">
-                  {testimonials.map((testimonial, index) => (
-                    <div key={index} className="bg-background rounded-lg p-4">
-                      <div className="flex items-center mb-2">
-                        <span className="text-2xl mr-2">{testimonial.image}</span>
-                        <div>
-                          <p className="font-semibold text-sm">{testimonial.name}</p>
-                          <p className="text-xs text-primary">{testimonial.achievement}</p>
-                        </div>
+                <CardTitle className="text-3xl mb-3">AI Premium Access</CardTitle>
+                <CardDescription className="text-base">
+                  Lifetime access to all AI-powered features
+                </CardDescription>
+                
+                <div className="flex items-end justify-center gap-2 mt-6">
+                  <span className="text-2xl text-muted-foreground line-through">₹999</span>
+                  <span className="text-6xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹499</span>
+                  <span className="text-muted-foreground mb-2">/lifetime</span>
+                </div>
+                
+                <Badge variant="secondary" className="mt-4 text-sm px-4 py-1.5">
+                  Save ₹500 Today
+                </Badge>
+              </CardHeader>
+
+              <CardContent className="pt-8">
+                {/* Features Grid */}
+                <div className="space-y-3 mb-8">
+                  {features.map((feature, index) => (
+                    <div key={index} className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary-light/50 transition-colors group">
+                      <div className="flex-shrink-0 w-8 h-8 bg-gradient-ai-primary rounded-lg flex items-center justify-center shadow-card group-hover:shadow-elevated transition-shadow">
+                        <feature.icon className="w-4 h-4 text-white" />
                       </div>
-                      <p className="text-sm text-muted-foreground italic">"{testimonial.text}"</p>
+                      <span className="text-foreground font-medium">{feature.text}</span>
                     </div>
                   ))}
                 </div>
-              </div>
 
-              {/* Call to Action */}
-              <div className="text-center">
+                {/* CTA Button */}
                 <Button 
                   onClick={handlePayment}
                   disabled={loading}
                   size="lg"
-                  className="w-full py-6 text-xl font-bold bg-gradient-ai-primary hover:shadow-ai-glow transition-all duration-300 animate-pulse-glow mb-4"
+                  className="w-full py-6 text-lg font-semibold bg-gradient-ai-primary hover:shadow-float transition-all duration-300"
                 >
                   {loading ? (
-                    <div className="flex items-center">
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+                    <div className="flex items-center gap-2">
+                      <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"></div>
                       Processing...
                     </div>
                   ) : (
-                    <div className="flex items-center justify-center">
-                      <Brain className="w-6 h-6 mr-2" />
-                      Unlock AI Learning - ₹499
-                      <ArrowRight className="w-6 h-6 ml-2" />
+                    <div className="flex items-center gap-2">
+                      Get Premium Access
+                      <ArrowRight className="w-5 h-5" />
                     </div>
                   )}
                 </Button>
                 
-                <p className="text-xs text-muted-foreground mb-4">
-                  🔒 Secure payment powered by Razorpay • 256-bit SSL encryption
-                </p>
-                
-                <div className="grid grid-cols-3 gap-4 text-sm text-muted-foreground">
-                  <div className="flex items-center justify-center">
-                    <CheckCircle className="w-4 h-4 mr-1 text-primary" />
-                    Instant AI Access
+                <div className="flex items-center justify-center gap-6 mt-6 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle className="w-4 h-4 text-primary" />
+                    Instant Access
                   </div>
-                  <div className="flex items-center justify-center">
-                    <CheckCircle className="w-4 h-4 mr-1 text-primary" />
-                    30-Day Guarantee
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle className="w-4 h-4 text-primary" />
+                    Secure Payment
                   </div>
-                  <div className="flex items-center justify-center">
-                    <CheckCircle className="w-4 h-4 mr-1 text-primary" />
-                    24/7 AI Support
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle className="w-4 h-4 text-primary" />
+                    24/7 Support
                   </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
 
-          {/* Trust Indicators */}
-          <div className="text-center mt-8">
-            <p className="text-sm text-muted-foreground mb-4">
-              Trusted by 50,000+ students • Featured in leading education portals
-            </p>
-            <div className="flex justify-center space-x-8 opacity-60 text-xs">
-              <span>🏆 Best AI Learning Platform 2024</span>
-              <span>🛡️ ISO 27001 Certified</span>
-              <span>⚡ 99.9% Uptime Guarantee</span>
-            </div>
+          {/* Social Proof Sidebar */}
+          <div className="space-y-6">
+            {/* Rating Card */}
+            <Card className="shadow-card">
+              <CardContent className="pt-6">
+                <div className="text-center mb-4">
+                  <div className="flex justify-center gap-1 mb-2">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                    ))}
+                  </div>
+                  <p className="text-3xl font-bold mb-1">4.9/5</p>
+                  <p className="text-sm text-muted-foreground">From 10,000+ reviews</p>
+                </div>
+                <div className="pt-4 border-t text-center">
+                  <p className="text-2xl font-bold text-primary mb-1">50,000+</p>
+                  <p className="text-sm text-muted-foreground">Successful Students</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonials */}
+            {testimonials.map((testimonial, index) => (
+              <Card key={index} className="shadow-card hover:shadow-elevated transition-shadow">
+                <CardContent className="pt-6">
+                  <div className="flex items-start gap-3 mb-3">
+                    <span className="text-3xl">{testimonial.image}</span>
+                    <div className="flex-1">
+                      <p className="font-semibold text-sm">{testimonial.name}</p>
+                      <p className="text-xs text-primary">{testimonial.achievement}</p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed">"{testimonial.text}"</p>
+                  <div className="flex gap-0.5 mt-3">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Trust Indicators */}
+        <div className="text-center mt-16 space-y-4">
+          <p className="text-sm text-muted-foreground">
+            🔒 Secure payment powered by Razorpay • 256-bit SSL encryption
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 text-xs text-muted-foreground">
+            <span className="flex items-center gap-1">
+              🏆 Best AI Learning Platform 2024
+            </span>
+            <span className="flex items-center gap-1">
+              🛡️ ISO 27001 Certified
+            </span>
+            <span className="flex items-center gap-1">
+              ⚡ 99.9% Uptime Guarantee
+            </span>
+            <span className="flex items-center gap-1">
+              💯 30-Day Money Back
+            </span>
           </div>
         </div>
       </div>
