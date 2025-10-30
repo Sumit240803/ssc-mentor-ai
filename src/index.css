@@ -9,11 +9,11 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Base colors */
-    --background: 0 0% 99%;
+    --background: 220 100% 96%;
     --foreground: 215 28% 17%;
 
     /* Card system */
-    --card: 220 100% 98%;
+    --card: 220 80% 97%;
     --card-foreground: 215 28% 17%;
 
     /* Popover system */
@@ -50,6 +50,10 @@ All colors MUST be HSL.
     /* Destructive for errors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
+    
+    /* Muted areas */
+    --muted: 220 60% 94%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
     /* Borders and inputs */
     --border: 215 14% 89%;
@@ -61,8 +65,8 @@ All colors MUST be HSL.
     
     /* Educational gradients */
     --gradient-hero: var(--gradient-ai-primary);
-    --gradient-card: linear-gradient(145deg, hsl(220 100% 98%), hsl(220 100% 99%));
-    --gradient-subtle: linear-gradient(180deg, hsl(220 100% 98%), hsl(220 100% 99%));
+    --gradient-card: linear-gradient(145deg, hsl(220 80% 96%), hsl(220 90% 97%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 90% 95%), hsl(220 80% 97%));
     
     /* Learning shadows */
     --shadow-card: var(--shadow-neural);
