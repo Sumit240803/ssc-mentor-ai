@@ -76,13 +76,26 @@ export const useMockTest = (testFileName?: string) => {
       
       try {
         const response = await fetch(`/${testFileName}.json`);
-        const data: MockTestData = await response.json();
-        setMockTestData(data);
+        if (!response.ok) {
+          throw new Error(`Failed to load test: ${response.status}`);
+        }
+        
+        const data: any = await response.json();
+        
+        // Set default duration if missing
+        const duration = data.duration || 90;
+        const testData: MockTestData = {
+          testName: data.testName || 'Mock Test',
+          duration,
+          mockTest: data.mockTest || [],
+        };
+        
+        setMockTestData(testData);
         
         // Update time remaining based on test duration
         setTestState(prev => ({
           ...prev,
-          timeRemaining: data.duration * 60,
+          timeRemaining: duration * 60,
         }));
 
         // Load previous results if user is logged in
@@ -106,7 +119,7 @@ export const useMockTest = (testFileName?: string) => {
         .from('mock_test_results')
         .select('*')
         .eq('user_id', user.id)
-        .ilike('test_date', `%${fileName}%`)
+        .eq('test_date', fileName)
         .order('created_at', { ascending: false });
 
       if (error) {
@@ -169,9 +182,32 @@ export const useMockTest = (testFileName?: string) => {
     let questionId = 1;
 
     mockTestData.mockTest.forEach((section) => {
-      section.questions.forEach((question) => {
+      section.questions.forEach((question: any) => {
+        // Handle both array and object formats for options
+        let options: string[] = [];
+        let answer: string = '';
+        
+        if (Array.isArray(question.options)) {
+          // Options is already an array
+          options = question.options;
+          answer = question.answer || question.correct_option_text || '';
+        } else if (typeof question.options === 'object' && question.options !== null) {
+          // Options is an object with keys A, B, C, D
+          options = Object.values(question.options);
+          // Map correct_answer (A, B, C, D) to the actual option text
+          if (question.correct_answer && question.options[question.correct_answer]) {
+            answer = question.options[question.correct_answer];
+          } else {
+            answer = question.correct_option_text || '';
+          }
+        }
+        
         allQuestions.push({
-          ...question,
+          question: question.question,
+          options,
+          answer,
+          pyq: question.pyq || false,
+          pyqDetails: question.pyqDetails || { year: null, paper: '' },
           id: questionId++,
           section: section.section,
         });

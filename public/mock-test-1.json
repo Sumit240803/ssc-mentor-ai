@@ -1,4 +1,6 @@
 {
+  "testName": "SSC Mock Test 1",
+  "duration": 90,
   "mockTest": [
     {
       "section": "General Science",

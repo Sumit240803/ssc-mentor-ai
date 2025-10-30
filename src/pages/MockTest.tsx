@@ -364,29 +364,33 @@ const MockTest: React.FC = () => {
                     onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
                     className="space-y-3"
                   >
-                    {currentQuestion.options.map((option, index) => {
-                      const isImageUrl = option.startsWith('http://') || option.startsWith('https://');
-                      
-                      return (
-                        <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
-                          <RadioGroupItem value={option} id={`option-${index}`} />
-                          <Label 
-                            htmlFor={`option-${index}`} 
-                            className="flex-1 cursor-pointer text-base"
-                          >
-                            {isImageUrl ? (
-                              <img 
-                                src={option} 
-                                alt={`Option ${index + 1}`} 
-                                className="max-w-full h-auto rounded-md max-h-32 object-contain"
-                              />
-                            ) : (
-                              option
-                            )}
-                          </Label>
-                        </div>
-                      );
-                    })}
+                    {currentQuestion.options && Array.isArray(currentQuestion.options) ? (
+                      currentQuestion.options.map((option, index) => {
+                        const isImageUrl = typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://'));
+                        
+                        return (
+                          <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
+                            <RadioGroupItem value={option} id={`option-${index}`} />
+                            <Label 
+                              htmlFor={`option-${index}`} 
+                              className="flex-1 cursor-pointer text-base"
+                            >
+                              {isImageUrl ? (
+                                <img 
+                                  src={option} 
+                                  alt={`Option ${index + 1}`} 
+                                  className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                                />
+                              ) : (
+                                option
+                              )}
+                            </Label>
+                          </div>
+                        );
+                      })
+                    ) : (
+                      <p className="text-destructive">Invalid question format</p>
+                    )}
                   </RadioGroup>
                 </CardContent>
               </Card>
