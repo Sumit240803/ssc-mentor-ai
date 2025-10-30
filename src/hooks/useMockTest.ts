@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/contexts/AuthContext';
+import type { Database } from '@/integrations/supabase/types';
 
 export interface Question {
   question: string;
@@ -50,9 +51,13 @@ export interface MockTestAnalysis {
   analysis: string;
 }
 
+export type PreviousTestResult = Database['public']['Tables']['mock_test_results']['Row'];
+
 export const useMockTest = (testFileName?: string) => {
   const { user } = useAuth();
   const [mockTestData, setMockTestData] = useState<MockTestData | null>(null);
+  const [previousResults, setPreviousResults] = useState<PreviousTestResult[]>([]);
+  const [loadingPreviousResults, setLoadingPreviousResults] = useState(false);
   const [testState, setTestState] = useState<TestState>({
     questions: [],
     currentQuestionIndex: 0,
@@ -64,7 +69,7 @@ export const useMockTest = (testFileName?: string) => {
     endTime: null,
   });
 
-  // Load mock test data
+  // Load mock test data and previous results
   useEffect(() => {
     const loadMockTestData = async () => {
       if (!testFileName) return;
@@ -79,13 +84,42 @@ export const useMockTest = (testFileName?: string) => {
           ...prev,
           timeRemaining: data.duration * 60,
         }));
+
+        // Load previous results if user is logged in
+        if (user && testFileName) {
+          await fetchPreviousResults(testFileName);
+        }
       } catch (error) {
         console.error('Error loading mock test data:', error);
       }
     };
 
     loadMockTestData();
-  }, [testFileName]);
+  }, [testFileName, user]);
+
+  const fetchPreviousResults = async (fileName: string) => {
+    if (!user) return;
+    
+    setLoadingPreviousResults(true);
+    try {
+      const { data, error } = await supabase
+        .from('mock_test_results')
+        .select('*')
+        .eq('user_id', user.id)
+        .ilike('test_date', `%${fileName}%`)
+        .order('created_at', { ascending: false });
+
+      if (error) {
+        console.error('Error fetching previous results:', error);
+      } else {
+        setPreviousResults(data || []);
+      }
+    } catch (error) {
+      console.error('Error fetching previous results:', error);
+    } finally {
+      setLoadingPreviousResults(false);
+    }
+  };
 
   // Timer effect
   useEffect(() => {
@@ -241,7 +275,7 @@ export const useMockTest = (testFileName?: string) => {
         .from('mock_test_results')
         .insert({
           user_id: user.id,
-          test_name: mockTestData.testName,
+          test_date: testFileName || mockTestData.testName,
           total_questions: results.totalQuestions,
           answered_questions: results.answeredQuestions,
           correct_answers: results.correctAnswers,
@@ -360,5 +394,7 @@ export const useMockTest = (testFileName?: string) => {
     formatTime,
     getAnalysis,
     isDataLoaded: !!mockTestData,
+    previousResults,
+    loadingPreviousResults,
   };
 };

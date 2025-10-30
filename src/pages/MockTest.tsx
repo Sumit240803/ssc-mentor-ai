@@ -42,6 +42,8 @@ const MockTest: React.FC = () => {
     formatTime,
     getAnalysis,
     isDataLoaded,
+    previousResults,
+    loadingPreviousResults,
   } = useMockTest(testId);
 
   // Fetch analysis when test is completed
@@ -115,6 +117,60 @@ const MockTest: React.FC = () => {
               </div>
             </div>
             
+            {/* Previous Results Section */}
+            {loadingPreviousResults ? (
+              <div className="bg-muted p-6 rounded-lg text-center">
+                <LoadingSpinner className="mx-auto mb-2" />
+                <p className="text-sm text-muted-foreground">Loading previous results...</p>
+              </div>
+            ) : previousResults.length > 0 ? (
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950 dark:to-purple-950 p-6 rounded-lg border border-blue-200 dark:border-blue-800">
+                <h3 className="font-semibold mb-3 flex items-center gap-2">
+                  <Award className="h-5 w-5 text-primary" />
+                  Previous Attempts ({previousResults.length})
+                </h3>
+                <div className="space-y-3">
+                  {previousResults.slice(0, 3).map((result, index) => (
+                    <div key={result.id} className="bg-background p-4 rounded-lg border">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-sm font-medium">
+                          Attempt {previousResults.length - index}
+                        </span>
+                        <Badge variant={result.percentage >= 75 ? "default" : result.percentage >= 50 ? "secondary" : "destructive"}>
+                          {result.percentage}%
+                        </Badge>
+                      </div>
+                      <div className="grid grid-cols-3 gap-2 text-xs">
+                        <div>
+                          <span className="text-muted-foreground">Score:</span> {result.score}/{result.total_questions}
+                        </div>
+                        <div>
+                          <span className="text-muted-foreground">Correct:</span> {result.correct_answers}
+                        </div>
+                        <div>
+                          <span className="text-muted-foreground">Time:</span> {formatTime(result.time_taken_seconds)}
+                        </div>
+                      </div>
+                      <div className="text-xs text-muted-foreground mt-2">
+                        {new Date(result.created_at).toLocaleDateString('en-US', { 
+                          year: 'numeric', 
+                          month: 'short', 
+                          day: 'numeric',
+                          hour: '2-digit',
+                          minute: '2-digit'
+                        })}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                {previousResults.length > 3 && (
+                  <p className="text-xs text-center text-muted-foreground mt-2">
+                    and {previousResults.length - 3} more attempt(s)
+                  </p>
+                )}
+              </div>
+            ) : null}
+
             <div className="bg-muted p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Instructions:</h3>
               <ul className="text-sm space-y-1">
@@ -132,7 +188,7 @@ const MockTest: React.FC = () => {
               className="w-full"
               variant="default"
             >
-              Start Test
+              {previousResults.length > 0 ? 'Retake Test' : 'Start Test'}
             </Button>
           </CardContent>
         </Card>
