@@ -1,131 +1,1108 @@
 {
-  "testName": "Delhi Police Constable - Mock Test 1",
-  "duration": 90,
   "mockTest": [
     {
       "section": "General Science",
-      "questions": [
-        {
-          "question": "What is the chemical formula of water?",
-          "options": ["H2O", "CO2", "NaCl", "O2"],
-          "answer": "H2O",
-          "pyq": true,
-          "pyqDetails": {
-            "year": 2022,
-            "paper": "Delhi Police Constable"
-          }
-        },
-        {
-          "question": "Which planet is known as the Red Planet?",
-          "options": ["Venus", "Mars", "Jupiter", "Saturn"],
-          "answer": "Mars",
-          "pyq": false,
-          "pyqDetails": {
-            "year": null,
-            "paper": ""
-          }
-        }
-      ]
+
+          "questions": [
+             {
+      "question": "The terms 'Palaeolithic' (Old Stone Age) and 'Neolithic' (New Stone Age) were coined to divide the Stone Age based on tool technology. According to the provided text, who first introduced this classification in his 1865 book 'Pre-Historic Times'?",
+      "options": ["Robert Bruce Foote", "John Lubbock", "C.J. Thomsen", "H.D. Sankalia"],
+      "answer": "John Lubbock",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Based on the Radio Carbon-14 (C-14) analysis by D.P. Agrawal, what is the most widely accepted period for the Harappan Civilization?",
+      "options": ["3250 BC - 2750 BC", "2800 BC - 2500 BC", "2300 BC - 1750 BC", "3500 BC - 2700 BC"],
+      "answer": "2300 BC - 1750 BC",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The 'Dasarajna,' or the Battle of the Ten Kings, mentioned in the Rigveda, was fought on the banks of which river?",
+      "options": ["Sindhu", "Saraswati", "Parushni", "Yamuna"],
+      "answer": "Parushni",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "According to the provided text, where did Siddhartha Gautama attain enlightenment and what was he subsequently known as?",
+      "options": [
+        "Under a Peepal tree in Sarnath, where he was called the Jina.",
+        "Near the Niranjana River in Bodh Gaya, where he was called the Tathagata.",
+        "In a deer park in Kushinagar, where he was called the Sakyamuni.",
+        "At the palace in Kapilavastu, where he was called the Arhat."
+      ],
+      "answer": "Near the Niranjana River in Bodh Gaya, where he was called the Tathagata.",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Following a severe famine in Magadha around 300 B.C., the Jain Sangha split into two major sects. Who were the leaders of the factions that stayed in Magadha (and came to be known as Shvetambaras) and the one that migrated to the South (and came to be known as Digambaras), respectively?",
+      "options": ["Mahavira and Parshvanath", "Sthulabhadra and Bhadrabahu", "Bhadrabahu and Sthulabhadra", "Indrabhuti and Sudharman"],
+      "answer": "Sthulabhadra and Bhadrabahu",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "According to the provided text, which minister of the Magadhan king Ajatashatru was instrumental in conquering the Vajji confederacy by sowing discord among the Licchavis?",
+      "options": ["Jivaka", "Dirghacharayana", "Vassakara", "Chanakya"],
+      "answer": "Vassakara",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The 'Objective Resolution,' which laid down the fundamental principles of the Constitution, was introduced by Jawaharlal Nehru. On which date was this resolution ultimately adopted by the Constituent Assembly?",
+      "options": ["December 13, 1946", "January 22, 1947", "August 29, 1947", "November 26, 1949"],
+      "answer": "January 22, 1947",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The Indian Constitution is often described as 'quasi-federal'. Which of the following statements best explains this feature?",
+      "options": [
+        "The states have the power to secede from the Indian union.",
+        "The Constitution provides for a dual citizenship, both at the national and state level.",
+        "While it has a federal structure, it has a strong centralizing tendency.",
+        "The powers are equally divided between the central and the state governments."
+      ],
+      "answer": "While it has a federal structure, it has a strong centralizing tendency.",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The provision for the 'Suspension of Fundamental Rights during an Emergency' in the Indian Constitution was borrowed from which country's constitution?",
+      "options": ["South Africa", "United Kingdom", "United States of America", "Germany"],
+      "answer": "Germany",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },{
+  "question": "Which of the following provisions of the Constitution came into effect on November 26, 1949, the day of its adoption?",
+  "options": {
+    "A": "Emergency Provisions",
+    "B": "Fundamental Rights",
+    "C": "Citizenship and Elections",
+    "D": "Directive Principles of State Policy"
+  },
+  "correct_answer": "C",
+  "correct_option_text": "Citizenship and Elections",
+  "explanation": "On November 26, 1949, certain provisions related to citizenship, elections, and the provisional parliament came into effect immediately upon the adoption of the Constitution."
+},{
+    "question": "The integration of princely states into the Indian Union was a complex process. The document mentions that the British Parliament passed the Indian Independence Act, which gave the princely states three options. Which of the following was NOT one of those options?",
+    "options": {
+      "A": "Join the Dominion of India",
+      "B": "Join the Dominion of Pakistan",
+      "C": "Form their own independent confederation",
+      "D": "Remain independent"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Form their own independent confederation",
+    "explanation": "The provided text states that the Indian Independence Act gave the princely states the choice to either join India, join Pakistan, or remain independent. There was no provision for them to form their own confederation."
+  },
+  {
+    "question": "A person of Indian origin, whose ancestors were from an undivided India, is residing in a country where the provision for 'Overseas Citizenship of India' is not applicable for its citizens. Under which amendment was the provision for granting Overseas Citizenship of India to such individuals made?",
+    "options": {
+      "A": "Citizenship Amendment Act, 2003",
+      "B": "Citizenship Amendment Act, 1955",
+      "C": "Citizenship Amendment Act, 2005",
+      "D": "Public Representation Act, 1957"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Citizenship Amendment Act, 2005",
+    "explanation": "The provided text mentions that the Citizenship Amendment Act of 2005 allowed for the provision of Overseas Citizenship of India (OCI) to individuals of Indian origin from countries where this was not previously possible, except for Pakistan and Bangladesh."
+  },
+  {
+    "question": "According to the provided text, which of the following gives the Supreme Court and the High Courts the power of 'Judicial Review' to declare a law unconstitutional if it infringes on Fundamental Rights?",
+    "options": {
+      "A": "Article 12 and Article 13",
+      "B": "Article 13, Article 32, and Article 226",
+      "C": "Article 14 and Article 19",
+      "D": "Article 32 and Article 368"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "Article 13, Article 32, and Article 226",
+    "explanation": "The document states, 'This power of Judicial Review is granted to the judiciary by Article 13, which empowers the Supreme Court (under Article 32) and the High Courts (under Article 226) to declare any law unconstitutional and invalid if it violates Fundamental Rights.'"
+  },
+  {
+    "question": "According to the text, the time it takes for the Sun to complete one revolution around the center of our galaxy, the Milky Way, is defined as what?",
+    "options": {
+      "A": "Light-year",
+      "B": "Astronomical Unit",
+      "C": "Cosmic Year",
+      "D": "Parsec"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Cosmic Year",
+    "explanation": "The document states, 'The time taken by the Sun to complete one revolution of the center of its own galaxy (Milky Way) is called a cosmic year.'"
+  },
+  {
+    "question": "The 'Sima' layer, a part of the Earth's interior, is primarily composed of which two elements?",
+    "options": {
+      "A": "Silicon and Aluminium",
+      "B": "Silicon and Magnesium",
+      "C": "Nickel and Iron",
+      "D": "Silicon and Iron"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "Silicon and Magnesium",
+    "explanation": "The document states that the Mantle is composed of Silicon (Si) and Magnesium (Mg), which is why this layer is also called 'Sima'."
+  },
+  {
+    "question": "A mountain range formed by the collision of tectonic plates, where the earth's crust is folded and uplifted, is known as which type of mountain?",
+    "options": {
+      "A": "Block Mountain",
+      "B": "Volcanic Mountain",
+      "C": "Fold Mountain",
+      "D": "Residual Mountain"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Fold Mountain",
+    "explanation": "According to the document, Fold Mountains are formed when tectonic plates collide, causing the Earth's crust to buckle and fold."
+  }, {
+    "question": "According to the provided text, which of the following is considered the most important concept for understanding the origin of volcanoes?",
+    "options": {
+      "A": "The theory of continental drift",
+      "B": "The theory of plate tectonics",
+      "C": "The theory of isostasy",
+      "D": "The theory of thermal expansion"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "The theory of plate tectonics",
+    "explanation": "The document states that the 'Plate Tectonics theory' is considered the most significant for understanding the formation of volcanoes."
+  },
+  {
+    "question": "Spring Tides (बृहत् ज्वार) are higher than normal tides. Which of the following conditions causes the formation of Spring Tides?",
+    "options": {
+      "A": "When the Sun, Earth, and Moon form a right angle",
+      "B": "When the Earth is closest to the Sun in its orbit",
+      "C": "When the Sun, Moon, and Earth are aligned in a straight line",
+      "D": "When the gravitational pulls of the Sun and Moon cancel each other out"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "When the Sun, Moon, and Earth are aligned in a straight line",
+    "explanation": "The document states that on full moon (पूर्णिमा) and new moon (अमावस्या) days, the Sun, Moon, and Earth are nearly in a straight line, which results in the highest tides, known as Spring Tides."
+  },
+  {
+    "question": "The type of economy where production, supply, and prices are determined by the government. This centrally planned economic system is also known by another name mentioned in the text. What is it?",
+    "options": {
+      "A": "Capitalist Economy",
+      "B": "Mixed Economy",
+      "C": "Centrally Planned Economy",
+      "D": "Unorganised Economy"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Centrally Planned Economy",
+    "explanation": "The document states that in a Socialist Economy, decisions regarding production, supply, and prices are made by the government. It further adds that such an economy is also called a 'Centrally Planned Economy'."
+  },
+  {
+    "question": "What is the primary distinction between Economic Growth (आर्थिक संवृद्धि) and Economic Development (आर्थिक विकास)?",
+    "options": {
+      "A": "Economic Growth is a qualitative concept focusing on income distribution, while Economic Development is a quantitative measure of Gross Domestic Product (GDP).",
+      "B": "Economic Growth is a purely quantitative measure of the increase in production of goods and services, whereas Economic Development is a broader concept that includes qualitative improvements like lifestyle and structural changes in the economy.",
+      "C": "Economic Growth and Economic Development are identical concepts, both referring to the annual increase in a nation's Per Capita Income.",
+      "D": "Economic Growth is measured by the Human Development Index (HDI), while Economic Development is measured by the Gross National Product (GNP)."
+    },
+    "correct_answer": "B",
+    "correct_option_text": "Economic Growth is a purely quantitative measure of the increase in production of goods and services, whereas Economic Development is a broader concept that includes qualitative improvements like lifestyle and structural changes in the economy.",
+    "explanation": "The text states that Economic Growth is a 'quantitative' change focusing on metrics like GDP and GNP, while Economic Development is a 'qualitative' change including improvements in lifestyle, institutional changes, and economic structure."
+  },
+  {
+    "question": "Which of the following is NOT a method for measuring the National Income of a country as mentioned in the document?",
+    "options": {
+      "A": "Income Method",
+      "B": "Expenditure Method",
+      "C": "Production (Value Added) Method",
+      "D": "Investment Method"
+    },
+    "correct_answer": "D",
+    "correct_option_text": "Investment Method",
+    "explanation": "The document lists three primary methods for measuring national income: Income Method, Product or Value Added Method, and Expenditure Method. The Investment Method is not mentioned as a primary method for this calculation."
+  },
+  {
+    "question": "Which of the following accurately describes the 'Head Count Method' for measuring poverty?",
+    "options": {
+      "A": "It calculates the average income of the population below the poverty line.",
+      "B": "It measures the intensity of poverty by considering the gap between the poverty line and the income of the poor.",
+      "C": "It is a method for determining relative poverty by comparing the income of different segments of the population.",
+      "D": "It is used to ascertain absolute poverty by counting the number of people below a predetermined income or consumption level."
+    },
+    "correct_answer": "D",
+    "correct_option_text": "It is used to ascertain absolute poverty by counting the number of people below a predetermined income or consumption level.",
+    "explanation": "The 'Head Count Method' identifies absolute poverty by counting the number of individuals whose income or consumption level falls below the defined poverty line."
+  },
+  {
+    "question": "The concept of 'Rolling Plan' was introduced in India by which government and during which period, as an alternative to the traditional five-year planning model?",
+    "options": {
+      "A": "Indira Gandhi Government, between 1971-1975",
+      "B": "Janata Party Government, between 1978-1983",
+      "C": "Rajiv Gandhi Government, between 1985-1989",
+      "D": "Narasimha Rao Government, between 1992-1997"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "Janata Party Government, between 1978-1983",
+    "explanation": "The document states that the Janata Government, which was in power from 1977 to 1979, experimented with a decentralized plan, and during the 1978–83 period, the 'Rolling Plan' was introduced."
+  },
+  {
+    "question": "The Securities and Exchange Board of India (SEBI) was initially established in 1988, but in which year was it granted statutory status and powers through a government ordinance?",
+    "options": {
+      "A": "1988",
+      "B": "1994",
+      "C": "1992",
+      "D": "1996"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "1992",
+    "explanation": "The document mentions that on January 30, 1992, SEBI was granted statutory status and powers through a government ordinance."
+  },{
+    "question": "According to the provided text, the SI unit for electric current, the Ampere, is defined based on the force produced between two parallel conductors. What is the exact force per unit length that defines one Ampere?",
+    "options": {
+      "A": "2 × 10⁻⁷ newtons per metre",
+      "B": "3 × 10⁸ newtons per metre",
+      "C": "1/683 watt per steradian",
+      "D": "299,792,458 newtons per metre"
+    },
+    "correct_answer": "A",
+    "correct_option_text": "2 × 10⁻⁷ newtons per metre",
+    "explanation": "The document explicitly states that 'The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, would produce between them a force of 2 × 10⁻⁷ newtons per metre of length.'"
+  },
+  {
+    "question": "A cricket player pulls his hands backwards while catching a fast-moving cricket ball. This action is a practical application of which physical principle?",
+    "options": {
+      "A": "Newton's First Law of Motion, as it helps overcome the ball's inertia of motion.",
+      "B": "The Law of Conservation of Momentum, as it ensures the total momentum of the ball and player is conserved.",
+      "C": "Newton's Third Law of Motion, because the force exerted by the ball on the hands has an equal and opposite reaction.",
+      "D": "Newton's Second Law of Motion, as it increases the time taken to reduce the ball's momentum, thereby decreasing the force on the hands."
+    },
+    "correct_answer": "D",
+    "correct_option_text": "Newton's Second Law of Motion, as it increases the time taken to reduce the ball's momentum, thereby decreasing the force on the hands.",
+    "explanation": "According to Newton's Second Law of Motion, force equals the rate of change of momentum (Force = Change in Momentum / Time). By pulling their hands back, the player increases the duration of momentum change, reducing the force exerted on their hands and preventing injury."
+  },
+  {
+    "question": "A student observes that the smell of hot sizzling food reaches her from several meters away, but to get the smell from cold food she has to go close. Which of the following correctly explains this phenomenon?",
+    "options": {
+      "A": "The particles of hot food are lighter and travel faster.",
+      "B": "The rate of diffusion of gas particles increases with an increase in temperature.",
+      "C": "The kinetic energy of cold food particles is higher, causing them to settle down.",
+      "D": "The force of attraction between the particles of hot food is greater."
+    },
+    "correct_answer": "B",
+    "correct_option_text": "The rate of diffusion of gas particles increases with an increase in temperature.",
+    "explanation": "The document states that 'Diffusion is fastest in gases' and 'The rate of diffusion increases with increasing temperature.' Hot food particles move faster due to higher kinetic energy, allowing the smell to travel farther through the air."
+  },
+  {
+    "question": "A liquid mixture appears perfectly uniform to the naked eye, and its particles do not settle when left undisturbed. However, when a laser beam is passed through it, the path of the beam becomes clearly visible. Based on the characteristics described in the text, this mixture is best classified as:",
+    "options": {
+      "A": "A true solution",
+      "B": "A suspension",
+      "C": "A colloid",
+      "D": "A saturated solution"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "A colloid",
+    "explanation": "According to the text, a colloid 'appears homogeneous but is actually heterogeneous.' It scatters a beam of light passing through it (Tyndall effect). Since the mixture appears uniform but scatters light, it is classified as a colloid."
+  },
+  {
+    "question": "A scientist discovers a new organism that is multicellular, eukaryotic, has a rigid cell wall, but lacks chlorophyll and is composed of thread-like structures called hyphae. According to Whittaker's Five Kingdom Classification, this organism should be placed in which of the following kingdoms?",
+    "options": {
+      "A": "Monera",
+      "B": "Protista",
+      "C": "Fungi",
+      "D": "Plantae"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Fungi",
+    "explanation": "Organisms in the Kingdom Fungi are multicellular, eukaryotic, heterotrophic (lacking chlorophyll), and composed of thread-like structures called hyphae. These traits match the description of the discovered organism."
+  },
+  {
+    "question": "Which of the following statements accurately distinguishes between the components mentioned?",
+    "options": {
+      "A": "Protoplasm is the jelly-like substance between the plasma membrane and the nuclear membrane, while Cytoplasm is the entire living content of a cell.",
+      "B": "The Cell Wall is a living, semi-permeable layer, whereas the Cell Membrane is a dead, freely permeable layer.",
+      "C": "Centrosomes are found inside the nucleus and carry hereditary information, while Chromosomes are in the cytoplasm and initiate cell division.",
+      "D": "Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment."
+    },
+    "correct_answer": "D",
+    "correct_option_text": "Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment.",
+    "explanation": "The text states that the Chloroplast is a living structure (organelle), while Chlorophyll is the non-living green pigment within it. Other options incorrectly describe cellular components."
+  },
+  {
+    "question": "At the Republic Day Parade 2025, the award for the Best Tableau among States/UTs was given to Uttar Pradesh by the judges. However, in the 'Popular Choice' category based on the MyGov poll, which state secured the first position?",
+    "options": {
+      "A": "Uttar Pradesh",
+      "B": "Gujarat",
+      "C": "Andhra Pradesh",
+      "D": "Uttarakhand"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "Gujarat",
+    "explanation": "The notes state that while Uttar Pradesh won the Best Tableau award (Theme: 'Mahakumbh 2025'), Gujarat won the Popular Choice Award based on the MyGov poll (Theme: 'Swarnim Bharat: Virasat aur Vikas')."
+  },
+  {
+    "question": "The Reserve Bank of India (RBI) has mandated the use of an Additional Factor of Authentication (AFA) for which type of transactions to enhance security, a rule that was previously only for domestic payments?",
+    "options": {
+      "A": "All domestic UPI transactions above ₹5,000",
+      "B": "International 'Card Not Present' (CNP) transactions",
+      "C": "All QR code-based payments in foreign countries",
+      "D": "Transactions made through the '.fin.in' domain"
+    },
+    "correct_answer": "B",
+    "correct_option_text": "International 'Card Not Present' (CNP) transactions",
+    "explanation": "The document states that the RBI implemented Additional Factor of Authentication (AFA), including OTP or biometric verification, for international 'Card Not Present' (CNP) transactions to make them as secure as domestic payments."
+  },{
+    "question": "According to the provided text, what unique distinction did Muthoot FinCorp achieve by receiving the 'Superbrand 2025' title?",
+    "options": {
+      "A": "It was the first financial company in India to receive the award.",
+      "B": "It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.",
+      "C": "It was recognized for having the most branches in rural areas.",
+      "D": "It received the award for the best digital transformation among all NBFCs."
+    },
+    "correct_answer": "B",
+    "correct_option_text": "It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.",
+    "explanation": "The text explicitly states, 'Most Important Point: It was the first gold loan NBFC (Non-Banking Financial Company) to receive this title.' This highlights that Muthoot FinCorp’s specific achievement was being the first gold loan NBFC to earn this honour, demonstrating a high level of public trust in its specific sector."
+  },
+  {
+    "question": "According to the document, Prime Minister Narendra Modi was conferred with the 'Sri Lanka Mitra Vibhushana'. What is the significance of this award?",
+    "options": {
+      "A": "It is Sri Lanka's highest award for contributions to arts and culture.",
+      "B": "It is the highest military honour awarded to foreign leaders.",
+      "C": "It is the highest civilian honour of Sri Lanka reserved for Heads of State and Government.",
+      "D": "It is an award given for promoting peace and friendship in the South Asian region."
+    },
+    "correct_answer": "C",
+    "correct_option_text": "It is the highest civilian honour of Sri Lanka reserved for Heads of State and Government.",
+    "explanation": "The text explicitly states that the 'Sri Lanka Mitra Vibhushana' is the highest civilian honour for Heads of State and Government. It was presented by the Sri Lankan President and marked the 22nd international recognition for PM Modi."
+  },
+  {
+    "question": "What was the primary objective of 'Operation Sindoor' launched by the Indian Armed Forces?",
+    "options": {
+      "A": "To conduct a joint military exercise with Pakistan.",
+      "B": "To rescue Indian citizens from a conflict zone in PoJK.",
+      "C": "To target nine terrorist sites in Pakistan and PoJK in response to an attack.",
+      "D": "To secure the Line of Control against infiltration."
+    },
+    "correct_answer": "C",
+    "correct_option_text": "To target nine terrorist sites in Pakistan and PoJK in response to an attack.",
+    "explanation": "The text clearly states that 'Operation Sindoor' was launched by the Indian Armed Forces to target 9 terrorist sites located in Pakistan and PoJK. This action was a response to the brutal terrorist attack in Pahalgam where 25 Indians were killed."
+  },
+  {
+    "question": "Who has been honoured with the 'Most Impactful Environmentalist' award on World Environment Day, as mentioned in the provided text?",
+    "options": {
+      "A": "Sarah Joseph",
+      "B": "Suresh Eriyat",
+      "C": "Acharya Prashant",
+      "D": "Faizan Zaki"
+    },
+    "correct_answer": "C",
+    "correct_option_text": "Acharya Prashant",
+    "explanation": "The document states, 'The philosopher and author Acharya Prashant was honoured with the 'Most Impactful Environmentalist' award on World Environment Day.'"
+  },
+  {
+    "question": "Who has been appointed as the 52nd Chief Justice of India (CJI) and holds the unique distinction of being the first Buddhist to hold this office?",
+    "options": {
+      "A": "Justice Surya Kant",
+      "B": "Dr. Ajay Kumar",
+      "C": "Justice D.Y. Chandrachud",
+      "D": "Justice Bhushan Ramkrishna Gavai"
+    },
+    "correct_answer": "D",
+    "correct_option_text": "Justice Bhushan Ramkrishna Gavai",
+    "explanation": "The document states that Justice Bhushan Ramkrishna Gavai has been appointed as the 52nd Chief Justice of India (CJI). It also specifically mentions that he is the first Buddhist to reach this prestigious position."
+  },{
+    "question": "The joint military exercise named 'Ajay Warrior' is conducted between the Indian Army and the armed forces of which country?",
+    "options": {
+      "A": "United States",
+      "B": "France",
+      "C": "United Kingdom",
+      "D": "Russia"
+    },
+    "solution": "C",
+    "answer": "United Kingdom",
+    "explanation": "'Ajay Warrior' is a joint military exercise held between the armies of India and the United Kingdom. It is designed to enhance interoperability and share expertise in counter-terrorism and counter-insurgency operations."
+  },
+  {
+    "question": "The Defence Research and Development Organisation (DRDO) was formed in 1958 by the merger of the Technical Development Establishment (TDE) and the Directorate of Technical Development & Production (DTDP) with which other organisation?",
+    "options": {
+      "A": "Defence Science Organisation (DSO)",
+      "B": "Indian National Committee for Space Research (INCOSPAR)",
+      "C": "Council of Scientific & Industrial Research (CSIR)",
+      "D": "Bhabha Atomic Research Centre (BARC)"
+    },
+    "solution": "A",
+    "answer": "Defence Science Organisation (DSO)",
+    "explanation": "The DRDO was established in 1958 through the amalgamation of the Defence Science Organisation (DSO), the Technical Development Establishment (TDE), and the Directorate of Technical Development and Production (DTDP)."
+  },
+  {
+    "question": "Which of the following was the first National Park to be established in India?",
+    "options": {
+      "a": "Kanha National Park",
+      "b": "Kaziranga National Park",
+      "c": "Jim Corbett National Park",
+      "d": "Bandipur National Park"
+    },
+    "solution": "c",
+    "answer": "Jim Corbett National Park",
+    "explanation": "India's first national park was established in 1936 as Hailey National Park. It is now known as Jim Corbett National Park and is located in Uttarakhand."
+  },
+  {
+    "question": "The Hunter Commission, appointed in 1882 by Lord Ripon, was primarily constituted to:",
+    "options": {
+      "a": "Recommend reforms for the civil services.",
+      "b": "Review the progress of education since the Wood's Despatch of 1854.",
+      "c": "Investigate the circumstances of the Jallianwala Bagh massacre.",
+      "d": "Suggest changes to the university education system."
+    },
+    "solution": "b",
+    "answer": "Review the progress of education since the Wood's Despatch of 1854.",
+    "explanation": "The Hunter Commission of 1882 was established to assess the implementation of the recommendations made by the Wood's Despatch of 1854. Its main focus was to evaluate the state of primary and secondary education in the British provinces and suggest measures for improvement."
+  },
+  {
+    "question": "Who was the first person to serve as the acting President of India?",
+    "options": {
+      "A": "Rajendra Prasad",
+      "B": "V.V. Giri",
+      "C": "Zakir Hussain",
+      "D": "Sarvepalli Radhakrishnan"
+    },
+    "solution": "B",
+    "answer": "V.V. Giri",
+    "explanation": "Following the death of President Zakir Hussain in 1969, V.V. Giri was appointed as the first acting President of India."
+  },
+  {
+    "question": "The design of the Indian National Flag is based on the Swaraj flag, which was designed by whom?",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Sarvepalli Radhakrishnan",
+      "C": "Pingali Venkayya",
+      "D": "Lala Hansraj"
+    },
+    "solution": "C",
+    "answer": "Pingali Venkayya",
+    "explanation": "The Indian National Flag is based on the Swaraj flag, which was designed by Pingali Venkayya. Mahatma Gandhi had proposed a flag to the Indian National Congress in 1921, but the final design adopted was by Venkayya."
+  },{
+  "question": "Which Indian state's former Chief Minister Shri Karpoori Thakur has been posthumously awarded the Bharat Ratna?",
+  "options": {
+    "A": "Uttar Pradesh",
+    "B": "Bihar",
+    "C": "Rajasthan",
+    "D": "Madhya Pradesh"
+  },
+  "solution": "B",
+  "answer": "Bihar",
+  "explanation": "Shri Karpoori Thakur, a former Chief Minister of Bihar, was posthumously awarded the Bharat Ratna, India's highest civilian award, in January 2024. He was a socialist leader known for his work for the upliftment of the backward classes."
+},
+{
+  "question": "How many spokes are featured in the Ashoka Chakra?",
+  "options": {
+    "A": "24",
+    "B": "25",
+    "C": "26",
+    "D": "12"
+  },
+  "solution": "A",
+  "answer": "24",
+  "explanation": "The Ashoka Chakra, a Dharma Chakra (wheel of dharma), has 24 spokes. These 24 spokes represent the 24 hours of the day, symbolizing the continuous progress and movement of life."
+},
+{
+  "question": "In which of the following years was the Montreal Protocol signed?",
+  "options": {
+    "A": "1985",
+    "B": "1989",
+    "C": "1987",
+    "D": "1982"
+  },
+  "solution": "C",
+  "answer": "1987",
+  "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer was signed on September 16, 1987. It is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances that are responsible for ozone depletion."
+},
+{
+  "question": "Normal blood pressure of the human body is _____",
+  "options": {
+    "A": "60/120",
+    "B": "70/120",
+    "C": "80/120",
+    "D": "90/120"
+  },
+  "solution": "C",
+  "answer": "80/120",
+  "explanation": "Normal blood pressure is generally considered to be around 120/80 mmHg (millimeters of mercury). The top number (120) is the systolic pressure, and the bottom number (80) is the diastolic pressure."
+},
+{
+  "question": "Who was the founder of the Indian Institute of Science, Bangalore?",
+  "options": {
+    "A": "Vishveshvarayya",
+    "B": "Jamsetji Tata",
+    "C": "C.V. Raman",
+    "D": "Vikram Sarabhai"
+  },
+  "solution": "B",
+  "answer": "Jamsetji Tata",
+  "explanation": "The Indian Institute of Science (IISc) in Bangalore was conceived by Jamsetji Nusserwanji Tata, an Indian pioneer industrialist. The institute was established in 1909 following his vision."
+}
+          ]
     },
     {
       "section": "Mathematics",
-      "questions": [
-        {
-          "question": "What is 15 + 25?",
-          "options": ["30", "35", "40", "45"],
-          "answer": "40",
-          "pyq": false,
-          "pyqDetails": {
-            "year": null,
-            "paper": ""
-          }
-        },
-        {
-          "question": "What is the square root of 144?",
-          "options": ["10", "11", "12", "13"],
-          "answer": "12",
-          "pyq": true,
-          "pyqDetails": {
-            "year": 2021,
-            "paper": "Delhi Police Constable"
-          }
-        }
-      ]
+    
+          "questions": [
+             {
+      "question": "An amount of 8,000 rupees is invested at a 6% yearly simple interest rate. After 4 years, the whole amount is withdrawn, and one-fourth of the withdrawn amount is invested in the stock market. Find the remaining amount. (in rupees)",
+      "options": ["7,440", "2,480", "9,920", "7,560"],
+      "answer": "7,440",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Find the unit place digit in the expression (127)^132 + (116)^125 - (120)^500 + (214)^29.",
+      "options": ["1", "3", "5", "7"],
+      "answer": "7",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "A shopkeeper sells a laptop at a discount of 10% and earns a profit of 35%. If he sells the same laptop at a 20% discount, then what will be his new profit percentage?",
+      "options": ["20%", "25%", "22.5%", "15%"],
+      "answer": "20%",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "A shopkeeper marks up his price by 20% and then allows a 20% discount. What is his profit or loss percentage?",
+      "options": ["4% profit", "4% loss", "0% (No profit, no loss)", "2% loss"],
+      "answer": "4% loss",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "In a 160 L mixture of milk & water, the ratio of milk and water is 7:1. Find the quantity of water required to make the ratio of milk & water 4:1.",
+      "options": ["15 litres", "20 litres", "10 litres", "25 litres"],
+      "answer": "20 litres",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "What annual instalment will discharge a debt of ₹17,400 due in 4 years at 10% simple interest?",
+      "options": ["₹3,500", "₹3,800", "₹4,000", "₹3,200"],
+      "answer": "₹3,500",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Three runners start running on a circular track. They start from the same point at 7 AM and take 10 seconds, 16 seconds, and 20 seconds respectively to finish 1 round. At what time will they meet again at the starting point?",
+      "options": ["7:02:40 AM", "7:02:00 AM", "7:01:20 AM", "7:01:40 AM"],
+      "answer": "7:02:40 AM",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "A spherical tank of radius 6 cm contains a liquid. This liquid is to be filled into small cubical boxes of side length 3 cm. Then the number of boxes necessary to empty the tank is (use π≈3).",
+      "options": ["32", "16", "24", "36"],
+      "answer": "32",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "What is the largest four-digit number, which is divisible by 18, 24, 30, and 36?",
+      "options": ["9720", "9800", "9900", "9600"],
+      "answer": "9720",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "If the cost price of 15 articles is equal to the selling price of 12 articles, then what is the profit percentage?",
+      "options": ["25%", "20%", "30%", "15%"],
+      "answer": "25%",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "A 450 m long train is running at the speed of 54 km/h. The time (in seconds) in which it would pass a man standing near the railway line is:",
+      "options": ["30", "25", "40", "20"],
+      "answer": "30",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "In a field, two-fifths of the cows walked away, and three-quarters of the remaining cows wandered off. In the end, 18 cows were left, which went to drink water. So, what was the total number of cows in the beginning?",
+      "options": ["100", "120", "150", "90"],
+      "answer": "120",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The average of seven consecutive odd numbers is 31. What is the average of the largest three of these 7 given numbers?",
+      "options": ["35", "36", "33", "37"],
+      "answer": "35",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The expenditure of Arjun is 100% more than his savings. If his income increases by 15% and expenditure increases by 10%, then his savings increase by:",
+      "options": ["15%", "20%", "25%", "30%"],
+      "answer": "25%",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "8 workers can paint a house in 12 days, and 16 painters take 6 days to paint the same house. How many days will 4 workers and 8 painters take to paint the same house?",
+      "options": ["12", "9", "16", "18"],
+      "answer": "12",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    }
+          ]
     },
     {
       "section": "Computer",
-      "questions": [
-        {
-          "question": "What does CPU stand for?",
-          "options": ["Central Processing Unit", "Computer Personal Unit", "Central Processor Unit", "Central Program Unit"],
-          "answer": "Central Processing Unit",
-          "pyq": false,
-          "pyqDetails": {
-            "year": null,
-            "paper": ""
-          }
-        },
-        {
-          "question": "Which of the following is an input device?",
-          "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
-          "answer": "Keyboard",
-          "pyq": true,
-          "pyqDetails": {
-            "year": 2023,
-            "paper": "Delhi Police Constable"
-          }
-        }
-      ]
+    
+          "questions": [
+             {
+      "question": "Which of the following devices is most commonly used to connect multiple computers within a Local Area Network (LAN) and also efficiently manage data traffic by only sending data to the device it is intended for?",
+      "options": ["Modem", "Switch", "Router", "Gateway"],
+      "answer": "Switch",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "What is the purpose of the ‘Center Align’ text alignment option in Microsoft Word 365?",
+      "options": [
+        "It aligns the text along the right margin",
+        "It aligns the text along the left margin",
+        "It adds extra spacing between words",
+        "It centres the text horizontally between the margins"
+      ],
+      "answer": "It centres the text horizontally between the margins",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "In MS Excel 365, which cell reference type allows the cell reference in the formula to reflect the new location after a formula is copied and pasted to another cell?",
+      "options": [
+        "Absolute cell reference",
+        "Circular cell reference",
+        "Mixed cell reference",
+        "Relative cell reference"
+      ],
+      "answer": "Relative cell reference",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Which of the following shortcut keys is used to open the help tab in the menu bar in MS Word 365?",
+      "options": ["F4", "F2", "F12", "F1"],
+      "answer": "F1",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "How can you delete a row or column in MS-Excel 365?",
+      "options": [
+        "Go to the ‘Insert’ tab on the Excel ribbon and click on ‘Delete’.",
+        "Right-click on the row or column and choose ‘Delete’ from the context menu.",
+        "Use the Ctrl+H keyboard shortcut.",
+        "Use the Ctrl+D keyboard shortcut."
+      ],
+      "answer": "Right-click on the row or column and choose ‘Delete’ from the context menu.",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "In MS Word 365 how can you access the spelling and grammar check feature in Microsoft Word?",
+      "options": [
+        "Go to the ‘Home’ tab and click on ‘Spelling & Grammar’",
+        "Go to the ‘Insert’ tab and click on ‘Spelling & Grammar’",
+        "Go to the ‘Review’ tab and click on ‘Spelling & Grammar’",
+        "Go to the ‘View’ tab and click on ‘Spelling & Grammar’"
+      ],
+      "answer": "Go to the ‘Review’ tab and click on ‘Spelling & Grammar’",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "How do you access the ‘Save As’ function in MS Word 365?",
+      "options": [
+        "By clicking on the ‘Save’ icon",
+        "By using the keyboard shortcut ‘Ctrl + S’",
+        "By right-clicking on the document and selecting ‘Save As’",
+        "By going to the File tab and selecting ‘Save As’"
+      ],
+      "answer": "By going to the File tab and selecting ‘Save As’",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "In MS-Excel 365, which option allows you to sort data based on multiple columns simultaneously?",
+      "options": ["Quick Sort", "Sort A to Z", "AutoFilter", "Custom Sort"],
+      "answer": "Custom Sort",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "The symbol which is used to separate the user name and email server parts of an email is:",
+      "options": ["#", "@", "%", "$"],
+      "answer": "@",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    },
+    {
+      "question": "Which of the following tabs on the ribbon in MS Word 365 provides options for formatting text, such as font style and size?",
+      "options": ["Insert", "Page Layout", "File", "Home"],
+      "answer": "Home",
+      "pyq": false,
+      "pyqDetails": {
+        "year": null,
+        "paper": ""
+      }
+    }
+          ]
     },
     {
       "section": "Reasoning",
-      "questions": [
-        {
-          "question": "If A = 1, B = 2, C = 3, then what is the code for CAB?",
-          "options": ["312", "321", "123", "213"],
-          "answer": "312",
-          "pyq": false,
-          "pyqDetails": {
-            "year": null,
-            "paper": ""
-          }
-        },
-        {
-          "question": "Find the odd one out: 2, 4, 6, 9, 10",
-          "options": ["2", "4", "9", "10"],
-          "answer": "9",
-          "pyq": true,
-          "pyqDetails": {
-            "year": 2022,
-            "paper": "Delhi Police Constable"
-          }
-        }
-      ]
+     
+          "questions": [
+            {
+  "question": "Arrange the given words in the sequence in which they occur in the dictionary. 1. Protest 2. Profess 3. Protect 4. Provide 5. Provoke",
+  "options": ["21345", "21435", "12345", "23145"],
+  "answer": "21345",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},
+{
+  "question": "From the given alternatives, select the best answer which has the same relationship as in the 1st pair. Cardiology : Heart :: Nephrology : ?",
+  "options": ["Lungs", "Kidneys", "Liver", "Brain"],
+  "answer": "Kidneys",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},
+{
+  "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets: (8, 13, 39) and (12, 17, 51).",
+  "options": ["(6, 11, 33)", "(7, 12, 48)", "(9, 13, 26)", "(5, 10, 40)"],
+  "answer": "(6, 11, 33)",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},
+{
+  "question": "Three of the following four word pairs are alike as these have the same relationship and thus form a group. Which word pair does NOT belong to that group? (a) Car - Road (b) Ship - Sea (c) Rocket - Space (d) Aeroplane - Pilot",
+  "options": ["Car - Road", "Ship - Sea", "Rocket - Space", "Aeroplane - Pilot"],
+  "answer": "Aeroplane - Pilot",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},
+{
+  "question": "In a certain code language, 'MASTER' is coded as '741253' and 'STREAM' is coded as '123547'. What is the code for 'T'?",
+  "options": ["1", "2", "3", "4"],
+  "answer": "2",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},
+{
+  "question": "In a certain code language, if 'TABLE' is coded as 'VCDNG', then how is 'CHAIR' coded?",
+  "options": ["EJCKT", "EJCKS", "DJCKT", "EJCKR"],
+  "answer": "EJCKT",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+},{
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q7.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1E3LnBuZyIsImlhdCI6MTc2MTg0NDUyMSwiZXhwIjo0OTE1NDQ0NTIxfQ.vsvO4rPAPf9gEludtkJwAq5P76Clqdt5TtWvhiCMrM8",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q8.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1E4LnBuZyIsImlhdCI6MTc2MTg0NDYwNywiZXhwIjo0OTE1NDQ0NjA3fQ.KQ8iW6l5esCCm0LwNJtZZBnuSAxqjWoa2jEz3HFrfLw",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1E5LnBuZyIsImlhdCI6MTc2MTg0NDYzNiwiZXhwIjo0OTE1NDQ0NjM2fQ._0a548giYJAtY9JcUxlUulC44xy9Fnpa7ms-dpcO-O8",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q10.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1ExMC5wbmciLCJpYXQiOjE3NjE4NDQ2OTIsImV4cCI6NDkxNTQ0NDY5Mn0.waE3hSC5HTk46Y5Wlya0uj88oDYNK9PEK8jFh-kDhVs",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q11.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1ExMS5wbmciLCJpYXQiOjE3NjE4NDQ3MjYsImV4cCI6NDkxNTQ0NDcyNn0.Qre8TX1IyvvukDpbn3erXs8u7_4np25o_pZbIs_8dzo",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q12.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1ExMi5wbmciLCJpYXQiOjE3NjE4NDQ3NTIsImV4cCI6NDkxNTQ0NDc1Mn0.72VNyGQtnxGclk928LLhmi-G0EiopNYyjpd90OF2UbQ",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },{
+    "question": "Select the number that will come in the place of the question mark(?), if ‘+’ and ‘-’ are interchanged and ‘x’ and ‘÷’ are interchanged. 16 - 4 + 10 x 5 ÷ 3 = ?",
+    "options": ["(a) 15", "(b) 12", "(c) 14", "(d) 8"],
+    "answer": "(c) 14",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "Six friends P, Q, R, S, T, and U are sitting around a circular table facing the centre. S is second to the right of P. R is third to the left of P. T is an immediate neighbour of both P and R. U is second to the right of Q. Who is sitting to the immediate left of S?",
+    "options": ["(a) Q", "(b) U", "(c) T", "(d) R"],
+    "answer": "(b) U",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "A father's age is 4 times that of his son. If the difference of their ages is 24 years, then what is the age of the son?",
+    "options": ["(a) 6 years", "(b) 8 years", "(c) 10 years", "(d) 12 years"],
+    "answer": "(b) 8 years",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "Select the option that represents the letters that when sequentially placed from left to right in the blanks below will complete the letter series. a _ b c _ a a b _ c a _ a b c",
+    "options": ["(a) abac", "(b) acba", "(c) aabc", "(d) abca"],
+    "answer": "(b) acba",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "What should come in place of ? in the given series? 5, 11, 25, 55, ?, 251",
+    "options": ["(a) 117", "(b) 121", "(c) 115", "(d) 119"],
+    "answer": "(a) 117",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "What should come in place of the question mark (?) in the given series? 22, 33, 46, 61, 78, ?",
+    "options": ["(a) 97", "(b) 95", "(c) 99", "(d) 101"],
+    "answer": "(a) 97",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "Read the given statements and conclusions carefully and decide which of the conclusions logically follow(s) from the statements. Statements: All pens are pencils. Some pencils are markers. No marker is a sharpener. Conclusions: (I) Some markers are pens. (II) Some pencils are not sharpeners.",
+    "options": ["(a) Only conclusion (I) follows", "(b) Only conclusion (II) follows", "(c) Both (I) and (II) follow", "(d) Neither (I) nor (II) follows"],
+    "answer": "(b) Only conclusion (II) follows",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Find the pair that is different from the other three. (16, 102) (12, 78) (18, 114) (14, 92)",
+    "options": ["(a) (16, 102)", "(b) (12, 78)", "(c) (18, 114)", "(d) (14, 92)"],
+    "answer": "(d) (14, 92)",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "Which of the following words can be formed from all the alphabets of the word 'HEARTBREAK'?",
+    "options": ["(a) Brother Kart", "(b) Great Baker", "(c) Heart Breaker", "(d) Rare Earth"],
+    "answer": "(c) Heart Breaker",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },
+  {
+    "question": "Which one word can be formed from the following letters? g n i s a e r o",
+    "options": ["(a) Seasoning", "(b) Organise", "(c) Arose", "(d) Reason"],
+    "answer": "(b) Organise",
+    "pyq": false,
+    "pyqDetails": { "year": null, "paper": "" }
+  },{
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q23.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1EyMy5wbmciLCJpYXQiOjE3NjE4NDQ5MjUsImV4cCI6NDkxNTQ0NDkyNX0.fquWettLg8TSMHk2XjqPSPRvX25o4Xi3p6IQdyyVn7s",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },
+  {
+    "question": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/sign/Mock_test_images/Mock_test_1/mock_test_1_Q24.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV82ZWUwNTFiZi0yOTEzLTQ3YjYtOTM3Yy1hZTdmYWQ2ZTBiMzYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb2NrX3Rlc3RfaW1hZ2VzL01vY2tfdGVzdF8xL21vY2tfdGVzdF8xX1EyNC5wbmciLCJpYXQiOjE3NjE4NDQ5NTQsImV4cCI6NDkxNTQ0NDk1NH0.sAp04JiN-CSKDH_TyC-fGVUVy92RPlMvCaAiNSETPTE",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "pyq": false,
+    "pyqDetails": {
+      "year": null,
+      "paper": ""
+    }
+  },{
+  "question": "A woman starts from her home. She walks 5 km south, then turns right and walks 2 km. She then turns right again and walks 10 km. Finally, she turns right and walks 2 km. How far is she from her starting point?",
+  "options": ["(a) 5 km", "(b) 10 km", "(c) 15 km", "(d) 3 km"],
+  "answer": "",
+  "pyq": false,
+  "pyqDetails": {
+    "year": null,
+    "paper": ""
+  }
+}
+          ]
+     
     },
     {
       "section": "English",
-      "questions": [
-        {
-          "question": "Choose the correct synonym for 'Happy':",
-          "options": ["Sad", "Joyful", "Angry", "Worried"],
-          "answer": "Joyful",
-          "pyq": false,
-          "pyqDetails": {
-            "year": null,
-            "paper": ""
-          }
-        },
-        {
-          "question": "Which is the correct spelling?",
-          "options": ["Recieve", "Receive", "Receeve", "Receve"],
-          "answer": "Receive",
-          "pyq": true,
-          "pyqDetails": {
-            "year": 2021,
-            "paper": "Delhi Police Constable"
-          }
-        }
-      ]
+    
+          "questions": [
+            {
+              "question": "",
+              "options": ["", "", "", ""],
+              "answer": "",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            },
+             {
+              "question": "",
+              "options": ["", "", "", ""],
+              "answer": "",
+              "pyq": false,
+              "pyqDetails": {
+                "year": null,
+                "paper": ""
+              }
+            }
+          ]
+      
     }
   ]
 }
