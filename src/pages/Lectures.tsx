@@ -51,7 +51,7 @@ const Lectures = () => {
   };
 
   const getFileIcon = (type: string) => {
-    if (type.includes("audio")) return <Volume2 className="h-5 w-5" />;
+    if (type?.includes("audio")) return <Volume2 className="h-5 w-5" />;
     return <FileText className="h-5 w-5" />;
   };
 
@@ -132,7 +132,7 @@ const Lectures = () => {
                           </div>
                           
                           <Badge variant="secondary" className="gap-1">
-                            {lecture.type.includes('audio') ? 'Audio' : lecture.type.includes('text') ? 'Text' : 'Document'}
+                            {lecture.type?.includes('audio') ? 'Audio' : lecture.type?.includes('text') ? 'Text' : 'Document'}
                           </Badge>
                         </CardHeader>
                       </Card>
