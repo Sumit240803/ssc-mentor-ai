@@ -46,6 +46,10 @@ export interface TestState {
   endTime: Date | null;
 }
 
+export interface MockTestAnalysis {
+  analysis: string;
+}
+
 export const useMockTest = (testFileName?: string) => {
   const { user } = useAuth();
   const [mockTestData, setMockTestData] = useState<MockTestData | null>(null);
@@ -304,6 +308,44 @@ export const useMockTest = (testFileName?: string) => {
     return `${minutes}:${secs.toString().padStart(2, '0')}`;
   };
 
+  const getAnalysis = async (): Promise<MockTestAnalysis | null> => {
+    try {
+      const results = getResults();
+      const sectionWiseScores = calculateSectionWiseScores();
+      
+      // Transform section scores to match API format
+      const subjectWiseScore: Record<string, { correct: number; total: number; percentage: number }> = {};
+      Object.entries(sectionWiseScores).forEach(([section, scores]) => {
+        subjectWiseScore[section] = scores;
+      });
+      
+      const response = await fetch('https://sscb-backend-api.onrender.com/mocktest/analyze', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          total_questions: results.totalQuestions,
+          correct_answers: results.correctAnswers,
+          wrong_answers: results.incorrectAnswers,
+          skipped_questions: results.unansweredQuestions,
+          subject_wise_score: subjectWiseScore,
+          time_taken_minutes: Math.round(results.timeTaken / 60),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch analysis');
+      }
+
+      const data: MockTestAnalysis = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching test analysis:', error);
+      return null;
+    }
+  };
+
   return {
     mockTestData,
     testState,
@@ -316,6 +358,7 @@ export const useMockTest = (testFileName?: string) => {
     getResults,
     resetTest,
     formatTime,
+    getAnalysis,
     isDataLoaded: !!mockTestData,
   };
 };

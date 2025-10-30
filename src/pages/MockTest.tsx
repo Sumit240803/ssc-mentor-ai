@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useMockTest } from '@/hooks/useMockTest';
+import { useMockTest, MockTestAnalysis } from '@/hooks/useMockTest';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
+import { LoadingSpinner } from '@/components/ui/loading-spinner';
 import { 
   Clock, 
   ChevronLeft, 
@@ -16,13 +17,16 @@ import {
   Award,
   Timer,
   BookOpen,
-  Target
+  Target,
+  Brain
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
   const navigate = useNavigate();
+  const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
+  const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
   
   const {
     mockTestData,
@@ -36,8 +40,23 @@ const MockTest: React.FC = () => {
     getResults,
     resetTest,
     formatTime,
+    getAnalysis,
     isDataLoaded,
   } = useMockTest(testId);
+
+  // Fetch analysis when test is completed
+  useEffect(() => {
+    const fetchAnalysis = async () => {
+      if (testState.isCompleted && !analysis && !isLoadingAnalysis) {
+        setIsLoadingAnalysis(true);
+        const result = await getAnalysis();
+        setAnalysis(result);
+        setIsLoadingAnalysis(false);
+      }
+    };
+
+    fetchAnalysis();
+  }, [testState.isCompleted]);
 
   if (!isDataLoaded) {
     return (
@@ -133,7 +152,7 @@ const MockTest: React.FC = () => {
       
       return (
         <div className="min-h-screen bg-gradient-subtle p-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-6">
             <Card>
               <CardHeader className="text-center">
                 <CardTitle className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
@@ -197,6 +216,37 @@ const MockTest: React.FC = () => {
                     Back to Lectures
                   </Button>
                 </div>
+              </CardContent>
+            </Card>
+
+            {/* AI Analysis Section */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Brain className="h-6 w-6 text-primary" />
+                  AI Analysis
+                </CardTitle>
+                <CardDescription>
+                  Personalized insights about your performance
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {isLoadingAnalysis ? (
+                  <div className="flex flex-col items-center justify-center py-12">
+                    <LoadingSpinner size="lg" className="mb-4" />
+                    <p className="text-muted-foreground">Analyzing your performance...</p>
+                  </div>
+                ) : analysis ? (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    <div className="whitespace-pre-wrap text-foreground leading-relaxed">
+                      {analysis.analysis}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="text-center py-8 text-muted-foreground">
+                    Unable to load analysis. Please try again later.
+                  </div>
+                )}
               </CardContent>
             </Card>
           </div>
