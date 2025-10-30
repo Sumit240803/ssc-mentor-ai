@@ -1,18 +1,32 @@
 import { useState, useEffect } from 'react';
 
-interface LectureFile {
-  subject: string;
-  topic: string;
+interface FileItem {
   file_name: string;
   url: string;
   type: string;
   size: number;
 }
 
+interface LectureTopic {
+  subject: string;
+  section: string;
+  topic: string;
+  files: FileItem[];
+}
+
+interface PaginationInfo {
+  page: number;
+  limit: number;
+  total_items: number;
+  total_pages: number;
+  count: number;
+}
+
 const API_BASE_URL = 'https://sscb-backend-api.onrender.com';
 
 export const useLectures = () => {
-  const [lecturesBySubject, setLecturesBySubject] = useState<Record<string, LectureFile[]>>({});
+  const [lecturesBySubject, setLecturesBySubject] = useState<Record<string, LectureTopic[]>>({});
+  const [paginationBySubject, setPaginationBySubject] = useState<Record<string, PaginationInfo>>({});
   const [subjects, setSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadingSubjects, setLoadingSubjects] = useState<Record<string, boolean>>({});
@@ -37,12 +51,7 @@ export const useLectures = () => {
     }
   };
 
-  const fetchLecturesBySubject = async (subjectName: string) => {
-    // Return cached data if available
-    if (lecturesBySubject[subjectName]) {
-      return lecturesBySubject[subjectName];
-    }
-
+  const fetchLecturesBySubject = async (subjectName: string, page: number = 1) => {
     // Check if already loading
     if (loadingSubjects[subjectName]) {
       return [];
@@ -51,15 +60,42 @@ export const useLectures = () => {
     try {
       setLoadingSubjects(prev => ({ ...prev, [subjectName]: true }));
       
-      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}`);
+      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}?page=${page}&limit=10`);
       const data = await response.json();
       
       if (data.status === 'success') {
-        setLecturesBySubject(prev => ({
+        // Filter out empty placeholder files
+        const filteredData = data.data
+          .map((topic: LectureTopic) => ({
+            ...topic,
+            files: topic.files.filter((file: FileItem) => !file.file_name.includes('.emptyFolderPlaceholder'))
+          }))
+          .filter((topic: LectureTopic) => topic.files.length > 0);
+
+        if (page === 1) {
+          setLecturesBySubject(prev => ({
+            ...prev,
+            [subjectName]: filteredData
+          }));
+        } else {
+          setLecturesBySubject(prev => ({
+            ...prev,
+            [subjectName]: [...(prev[subjectName] || []), ...filteredData]
+          }));
+        }
+
+        setPaginationBySubject(prev => ({
           ...prev,
-          [subjectName]: data.data
+          [subjectName]: {
+            page: data.page,
+            limit: data.limit,
+            total_items: data.total_items,
+            total_pages: data.total_pages,
+            count: data.count
+          }
         }));
-        return data.data;
+
+        return filteredData;
       }
       return [];
     } catch (error) {
@@ -74,6 +110,10 @@ export const useLectures = () => {
     return lecturesBySubject[subjectName] || [];
   };
 
+  const getPaginationInfo = (subjectName: string) => {
+    return paginationBySubject[subjectName];
+  };
+
   const isLoadingSubject = (subjectName: string) => {
     return loadingSubjects[subjectName] || false;
   };
@@ -83,6 +123,7 @@ export const useLectures = () => {
     subjects,
     loading,
     getLecturesBySubject,
+    getPaginationInfo,
     fetchLecturesBySubject,
     isLoadingSubject,
     refreshData: loadSubjects

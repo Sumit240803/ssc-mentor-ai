@@ -2,24 +2,30 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones } from "lucide-react";
 import { useLectures } from "@/hooks/useLectures";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useNavigate } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
 
-interface LectureFile {
-  subject: string;
-  topic: string;
+interface FileItem {
   file_name: string;
   url: string;
   type: string;
   size: number;
 }
 
+interface LectureTopic {
+  subject: string;
+  section: string;
+  topic: string;
+  files: FileItem[];
+}
+
 const Lectures = () => {
   const navigate = useNavigate();
-  const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
+  const { subjects, loading, getLecturesBySubject, getPaginationInfo, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
 
   useEffect(() => {
@@ -50,14 +56,15 @@ const Lectures = () => {
     return <GraduationCap className="h-5 w-5" />;
   };
 
-  const getFileIcon = (type: string) => {
-    if (type?.includes("audio")) return <Volume2 className="h-5 w-5" />;
-    return <FileText className="h-5 w-5" />;
+  const handleFileClick = (file: FileItem, topic: LectureTopic) => {
+    navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
   };
 
-
-  const handleLectureClick = (lecture: LectureFile) => {
-    navigate(`/lecture-detail?url=${encodeURIComponent(lecture.url)}&fileName=${encodeURIComponent(lecture.file_name)}&type=${encodeURIComponent(lecture.type)}&subject=${encodeURIComponent(lecture.subject)}&topic=${encodeURIComponent(lecture.topic)}`);
+  const handleLoadMore = (subject: string) => {
+    const pagination = getPaginationInfo(subject);
+    if (pagination && pagination.page < pagination.total_pages) {
+      fetchLecturesBySubject(subject, pagination.page + 1);
+    }
   };
 
   return (
@@ -88,6 +95,7 @@ const Lectures = () => {
 
           {subjects.map((subject) => {
             const subjectLectures = getLecturesBySubject(subject);
+            const pagination = getPaginationInfo(subject);
             const isLoading = isLoadingSubject(subject);
 
             return (
@@ -95,7 +103,7 @@ const Lectures = () => {
                 <div className="flex justify-end mb-4">
                   <SubjectAIChat subject={subject} />
                 </div>
-                {isLoading ? (
+                {isLoading && (!subjectLectures || subjectLectures.length === 0) ? (
                   <div className="flex items-center justify-center py-12">
                     <LoadingSpinner size="lg" />
                   </div>
@@ -109,35 +117,77 @@ const Lectures = () => {
                     </CardContent>
                   </Card>
                 ) : (
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {subjectLectures.map((lecture, index) => (
-                      <Card
-                        key={index}
-                        className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
-                        onClick={() => handleLectureClick(lecture)}
-                      >
-                        <CardHeader className="space-y-3">
-                          <div className="flex items-start justify-between gap-2">
-                            <div className="space-y-1 flex-1">
-                              <CardTitle className="text-lg group-hover:text-primary transition-colors line-clamp-2">
-                                {lecture.file_name}
-                              </CardTitle>
-                              <CardDescription className="text-sm">
-                                <div className="font-medium text-foreground/80">
-                                  {lecture.topic}
-                                </div>
-                              </CardDescription>
-                            </div>
-                            {getFileIcon(lecture.type)}
-                          </div>
-                          
-                          <Badge variant="secondary" className="gap-1">
-                            {lecture.type?.includes('audio') ? 'Audio' : lecture.type?.includes('text') ? 'Text' : 'Document'}
-                          </Badge>
-                        </CardHeader>
-                      </Card>
-                    ))}
-                  </div>
+                  <>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {subjectLectures.map((topic, index) => {
+                        const textFile = topic.files.find(f => !f.type?.includes('audio'));
+                        const audioFile = topic.files.find(f => f.type?.includes('audio'));
+
+                        return (
+                          <Card
+                            key={index}
+                            className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
+                          >
+                            <CardHeader className="space-y-3">
+                              <div className="space-y-2">
+                                <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                                  {topic.topic}
+                                </CardTitle>
+                                <CardDescription className="text-sm">
+                                  <Badge variant="outline" className="font-medium">
+                                    {topic.section}
+                                  </Badge>
+                                </CardDescription>
+                              </div>
+                              
+                              <div className="flex flex-col gap-2 pt-2">
+                                {textFile && (
+                                  <Button
+                                    variant="outline"
+                                    className="w-full justify-start gap-2"
+                                    onClick={() => handleFileClick(textFile, topic)}
+                                  >
+                                    <FileText className="h-4 w-4" />
+                                    Read Notes
+                                  </Button>
+                                )}
+                                {audioFile && (
+                                  <Button
+                                    variant="outline"
+                                    className="w-full justify-start gap-2"
+                                    onClick={() => handleFileClick(audioFile, topic)}
+                                  >
+                                    <Headphones className="h-4 w-4" />
+                                    Listen Audio
+                                  </Button>
+                                )}
+                              </div>
+                            </CardHeader>
+                          </Card>
+                        );
+                      })}
+                    </div>
+                    
+                    {pagination && pagination.page < pagination.total_pages && (
+                      <div className="flex justify-center mt-8">
+                        <Button
+                          onClick={() => handleLoadMore(subject)}
+                          disabled={isLoading}
+                          variant="outline"
+                          size="lg"
+                        >
+                          {isLoading ? (
+                            <>
+                              <LoadingSpinner size="sm" className="mr-2" />
+                              Loading...
+                            </>
+                          ) : (
+                            `Load More (${pagination.page} / ${pagination.total_pages})`
+                          )}
+                        </Button>
+                      </div>
+                    )}
+                  </>
                 )}
               </TabsContent>
             );
