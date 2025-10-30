@@ -6,6 +6,7 @@ import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2 } from "lucide-
 import { useLectures } from "@/hooks/useLectures";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useNavigate } from "react-router-dom";
+import { SubjectAIChat } from "@/components/SubjectAIChat";
 
 interface LectureFile {
   subject: string;
@@ -91,6 +92,9 @@ const Lectures = () => {
 
             return (
               <TabsContent key={subject} value={subject} className="mt-6">
+                <div className="flex justify-end mb-4">
+                  <SubjectAIChat subject={subject} />
+                </div>
                 {isLoading ? (
                   <div className="flex items-center justify-center py-12">
                     <LoadingSpinner size="lg" />
