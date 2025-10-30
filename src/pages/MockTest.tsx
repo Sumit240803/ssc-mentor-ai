@@ -317,8 +317,14 @@ const MockTest: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
-                <Clock className="h-5 w-5 text-primary" />
-                <span className="font-mono font-semibold text-lg">
+                <Clock className={cn(
+                  "h-5 w-5",
+                  testState.timeRemaining < 300 ? "text-destructive animate-pulse" : "text-primary"
+                )} />
+                <span className={cn(
+                  "font-mono font-semibold text-lg",
+                  testState.timeRemaining < 300 && "text-destructive"
+                )}>
                   {formatTime(testState.timeRemaining)}
                 </span>
               </div>
@@ -333,7 +339,7 @@ const MockTest: React.FC = () => {
         <div className="max-w-7xl mx-auto p-4 grid grid-cols-1 lg:grid-cols-4 gap-6">
           {/* Main Question Area */}
           <div className="lg:col-span-3">
-            {currentQuestion && (
+            {currentQuestion ? (
               <Card>
                 <CardHeader>
                   <div className="flex items-center justify-between">
@@ -382,6 +388,12 @@ const MockTest: React.FC = () => {
                       );
                     })}
                   </RadioGroup>
+                </CardContent>
+              </Card>
+            ) : (
+              <Card>
+                <CardContent className="p-12 text-center">
+                  <p className="text-muted-foreground">Loading question...</p>
                 </CardContent>
               </Card>
             )}

@@ -123,14 +123,22 @@ export const useMockTest = (testFileName?: string) => {
 
   // Timer effect
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: NodeJS.Timeout | undefined;
 
-    if (testState.isActive && testState.timeRemaining > 0 && !testState.isCompleted) {
+    if (testState.isActive && !testState.isCompleted) {
+      console.log('Timer started with', testState.timeRemaining, 'seconds');
       interval = setInterval(() => {
         setTestState(prev => {
-          const newTimeRemaining = prev.timeRemaining - 1;
+          if (!prev.isActive || prev.isCompleted) {
+            return prev;
+          }
+          
+          const newTimeRemaining = Math.max(0, prev.timeRemaining - 1);
+          console.log('Time remaining:', newTimeRemaining);
+          
           if (newTimeRemaining <= 0) {
             // Auto-submit when time is up
+            console.log('Time up! Auto-submitting test');
             return {
               ...prev,
               timeRemaining: 0,
@@ -148,9 +156,11 @@ export const useMockTest = (testFileName?: string) => {
     }
 
     return () => {
-      if (interval) clearInterval(interval);
+      if (interval) {
+        clearInterval(interval);
+      }
     };
-  }, [testState.isActive, testState.timeRemaining, testState.isCompleted]);
+  }, [testState.isActive, testState.isCompleted]);
 
   const generateQuestions = (): TestQuestion[] => {
     if (!mockTestData) return [];
@@ -218,10 +228,14 @@ export const useMockTest = (testFileName?: string) => {
   };
 
   const goToQuestion = (index: number) => {
-    setTestState(prev => ({
-      ...prev,
-      currentQuestionIndex: Math.max(0, Math.min(index, prev.questions.length - 1)),
-    }));
+    setTestState(prev => {
+      const validIndex = Math.max(0, Math.min(index, prev.questions.length - 1));
+      console.log('Navigating to question:', validIndex, 'Total questions:', prev.questions.length);
+      return {
+        ...prev,
+        currentQuestionIndex: validIndex,
+      };
+    });
   };
 
   const nextQuestion = () => {
