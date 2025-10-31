@@ -3,8 +3,6 @@ import { Card } from "@/components/ui/card";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { Clock } from "lucide-react";
 import { toast } from "sonner";
-// @ts-ignore
-import RTFParser from "rtf-parser";
 
 interface ScheduleDetails {
   schedule: string;
@@ -46,24 +44,22 @@ const Schedule = () => {
 
   const parseRTF = (rtfContent: string): string => {
     try {
-      const parser = new RTFParser();
-      const doc = parser.parse(rtfContent);
+      // Remove RTF control words and formatting
+      let text = rtfContent
+        // Remove RTF header
+        .replace(/^\{\\rtf1[^}]*\}/g, '')
+        // Remove control words (e.g., \par, \pard, \b, etc.)
+        .replace(/\\[a-z]{1,32}(-?\d{1,10})?[ ]?/gi, ' ')
+        // Remove control symbols
+        .replace(/\\'[0-9a-f]{2}/gi, ' ')
+        // Remove group brackets
+        .replace(/[{}]/g, '')
+        // Replace multiple spaces with single space
+        .replace(/\s+/g, ' ')
+        // Trim whitespace
+        .trim();
       
-      let text = '';
-      const extractText = (node: any) => {
-        if (node.content) {
-          node.content.forEach((child: any) => {
-            if (child.value) {
-              text += child.value;
-            } else if (child.content) {
-              extractText(child);
-            }
-          });
-        }
-      };
-      
-      extractText(doc);
-      return text;
+      return text || rtfContent;
     } catch (error) {
       console.error('Error parsing RTF:', error);
       return rtfContent;
