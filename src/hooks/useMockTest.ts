@@ -443,6 +443,30 @@ export const useMockTest = (testFileName?: string) => {
     return `${minutes}:${secs.toString().padStart(2, '0')}`;
   };
 
+  const getMotivation = async (motivationScore: number): Promise<{ message: string } | null> => {
+    try {
+      const response = await fetch('https://sscb-backend-api.onrender.com/chat/motivate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          motivation_score: motivationScore,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch motivation');
+      }
+
+      const data: { message: string } = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching motivation:', error);
+      return null;
+    }
+  };
+
   const getAnalysis = async (): Promise<MockTestAnalysis | null> => {
     try {
       const results = getResults();
@@ -493,6 +517,7 @@ export const useMockTest = (testFileName?: string) => {
     getResults,
     resetTest,
     formatTime,
+    getMotivation,
     getAnalysis,
     isDataLoaded: !!mockTestData,
     previousResults,

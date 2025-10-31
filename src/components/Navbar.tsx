@@ -17,7 +17,6 @@ const Navbar = () => {
   const navItems = user ? [
     { name: "Mock Test", href: "/mock-tests" },
     { name: "Lectures", href: "/lectures" },
-    { name: "Motivation", href: "/motivation" },
     { name: "Schedule", href: "/schedule" },
   ] : [
     { name: "Home", href: "/" },

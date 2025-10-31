@@ -17,7 +17,6 @@ import AIChat from "./pages/AIChat";
 import MockTestsList from "./pages/MockTestsList";
 import MockTest from "./pages/MockTest";
 import Schedule from "./pages/Schedule";
-import Motivation from "./pages/Motivation";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
@@ -91,15 +90,7 @@ const AppContent = () => {
                 </ProtectedRoute>
               } 
             />
-            <Route 
-              path="/motivation" 
-              element={
-                <ProtectedRoute>
-                  <Motivation />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
+            <Route
               path="/profile" 
               element={
                 <ProtectedRoute>

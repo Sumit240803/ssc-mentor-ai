@@ -26,7 +26,9 @@ import { cn } from '@/lib/utils';
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
   const navigate = useNavigate();
+  const [motivation, setMotivation] = useState<{ message: string } | null>(null);
   const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
+  const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
   const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
   
   const {
@@ -41,24 +43,34 @@ const MockTest: React.FC = () => {
     getResults,
     resetTest,
     formatTime,
+    getMotivation,
     getAnalysis,
     isDataLoaded,
     previousResults,
     loadingPreviousResults,
   } = useMockTest(testId);
 
-  // Fetch analysis when test is completed
+  // Fetch motivation and analysis when test is completed
   useEffect(() => {
-    const fetchAnalysis = async () => {
-      if (testState.isCompleted && !analysis && !isLoadingAnalysis) {
+    const fetchMotivationAndAnalysis = async () => {
+      if (testState.isCompleted && !motivation && !isLoadingMotivation && !isLoadingAnalysis) {
+        const results = getResults();
+        
+        // First, fetch motivation
+        setIsLoadingMotivation(true);
+        const motivationResult = await getMotivation(results.percentage);
+        setMotivation(motivationResult);
+        setIsLoadingMotivation(false);
+        
+        // Then, fetch analysis
         setIsLoadingAnalysis(true);
-        const result = await getAnalysis();
-        setAnalysis(result);
+        const analysisResult = await getAnalysis();
+        setAnalysis(analysisResult);
         setIsLoadingAnalysis(false);
       }
     };
 
-    fetchAnalysis();
+    fetchMotivationAndAnalysis();
   }, [testState.isCompleted]);
 
   if (!isDataLoaded) {
@@ -273,6 +285,35 @@ const MockTest: React.FC = () => {
                     Back to Lectures
                   </Button>
                 </div>
+              </CardContent>
+            </Card>
+
+            {/* Motivation Section */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Award className="h-6 w-6 text-primary" />
+                  Motivation
+                </CardTitle>
+                <CardDescription>
+                  A message to keep you motivated
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {isLoadingMotivation ? (
+                  <div className="flex flex-col items-center justify-center py-12">
+                    <LoadingSpinner size="lg" className="mb-4" />
+                    <p className="text-muted-foreground">Getting your motivation message...</p>
+                  </div>
+                ) : motivation ? (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    <p className="whitespace-pre-line leading-relaxed">{motivation.message}</p>
+                  </div>
+                ) : (
+                  <div className="text-center py-8 text-muted-foreground">
+                    Unable to load motivation message. Please try again later.
+                  </div>
+                )}
               </CardContent>
             </Card>
 
