@@ -321,6 +321,7 @@ export const useMockTest = (testFileName?: string) => {
       const results = getResults();
       const sectionWiseScores = calculateSectionWiseScores();
       
+      // Save test results
       const { error } = await supabase
         .from('mock_test_results')
         .insert({
@@ -340,8 +341,58 @@ export const useMockTest = (testFileName?: string) => {
       if (error) {
         console.error('Error saving test results:', error);
       }
+
+      // Update motivation score based on test performance
+      await updateMotivationScore(results.percentage);
     } catch (error) {
       console.error('Error saving test results:', error);
+    }
+  };
+
+  const updateMotivationScore = async (percentage: number) => {
+    if (!user) return;
+
+    try {
+      // Get current motivation score
+      const { data: currentStats, error: fetchError } = await supabase
+        .from('user_stats')
+        .select('motivation_score')
+        .eq('user_id', user.id)
+        .single();
+
+      if (fetchError) {
+        console.error('Error fetching motivation score:', fetchError);
+        return;
+      }
+
+      const currentScore = currentStats?.motivation_score || 80;
+      let scoreChange = 0;
+
+      // Calculate score change based on performance
+      if (percentage >= 80) {
+        scoreChange = 10; // Excellent performance
+      } else if (percentage >= 60) {
+        scoreChange = 5; // Good performance
+      } else if (percentage >= 40) {
+        scoreChange = 0; // Average performance
+      } else {
+        scoreChange = -5; // Below average performance
+      }
+
+      // Calculate new score (capped between 0 and 100)
+      const newScore = Math.max(0, Math.min(100, currentScore + scoreChange));
+
+      // Update motivation score
+      const { error: updateError } = await supabase
+        .from('user_stats')
+        .update({ motivation_score: newScore })
+        .eq('user_id', user.id);
+
+      if (updateError) {
+        console.error('Error updating motivation score:', updateError);
+      }
+    } catch (error) {
+      console.error('Error updating motivation score:', error);
     }
   };
 
