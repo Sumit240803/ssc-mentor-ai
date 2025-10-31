@@ -3,6 +3,8 @@ import { Card } from "@/components/ui/card";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { Clock } from "lucide-react";
 import { toast } from "sonner";
+// @ts-ignore
+import RTFParser from "rtf-parser";
 
 interface ScheduleDetails {
   schedule: string;
@@ -42,6 +44,32 @@ const Schedule = () => {
     }
   };
 
+  const parseRTF = (rtfContent: string): string => {
+    try {
+      const parser = new RTFParser();
+      const doc = parser.parse(rtfContent);
+      
+      let text = '';
+      const extractText = (node: any) => {
+        if (node.content) {
+          node.content.forEach((child: any) => {
+            if (child.value) {
+              text += child.value;
+            } else if (child.content) {
+              extractText(child);
+            }
+          });
+        }
+      };
+      
+      extractText(doc);
+      return text;
+    } catch (error) {
+      console.error('Error parsing RTF:', error);
+      return rtfContent;
+    }
+  };
+
   const handleScheduleSelect = async (schedule: string) => {
     try {
       setSelectedSchedule(schedule);
@@ -54,8 +82,11 @@ const Schedule = () => {
       if (data.text_url) {
         try {
           const textResponse = await fetch(data.text_url);
-          const textContent = await textResponse.text();
-          data.text_content = textContent;
+          const rtfContent = await textResponse.text();
+          
+          // Parse RTF to plain text
+          const parsedText = parseRTF(rtfContent);
+          data.text_content = parsedText;
         } catch (error) {
           console.error('Error fetching text content:', error);
         }
@@ -148,7 +179,7 @@ const Schedule = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-4">
                   Schedule Details
                 </h3>
-                <div className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-wrap">
+                <div className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-line text-foreground leading-relaxed">
                   {scheduleDetails.text_content}
                 </div>
               </Card>
