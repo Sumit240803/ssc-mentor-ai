@@ -8,6 +8,7 @@ interface ScheduleDetails {
   schedule: string;
   audio_url: string;
   text_url: string;
+  text_content?: string;
 }
 
 const Schedule = () => {
@@ -48,6 +49,17 @@ const Schedule = () => {
       
       const response = await fetch(`https://sscb-backend-api.onrender.com/schedules/${schedule}`);
       const data = await response.json();
+      
+      // Fetch text content
+      if (data.text_url) {
+        try {
+          const textResponse = await fetch(data.text_url);
+          const textContent = await textResponse.text();
+          data.text_content = textContent;
+        } catch (error) {
+          console.error('Error fetching text content:', error);
+        }
+      }
       
       setScheduleDetails(data);
     } catch (error) {
@@ -131,20 +143,13 @@ const Schedule = () => {
             )}
 
             {/* Text Content */}
-            {scheduleDetails.text_url && (
+            {scheduleDetails.text_content && (
               <Card className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-4">
                   Schedule Details
                 </h3>
-                <div className="prose prose-sm max-w-none dark:prose-invert">
-                  <a 
-                    href={scheduleDetails.text_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Download Schedule Document
-                  </a>
+                <div className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-wrap">
+                  {scheduleDetails.text_content}
                 </div>
               </Card>
             )}
