@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { useMockTest, MockTestAnalysis } from '@/hooks/useMockTest';
+import { useMockTest, MockTestAnalysis, Language } from '@/hooks/useMockTest';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
@@ -19,9 +19,11 @@ import {
   Timer,
   BookOpen,
   Target,
-  Brain
+  Brain,
+  Languages
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
@@ -30,6 +32,7 @@ const MockTest: React.FC = () => {
   const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
   const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
   const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState<Language>('hindi');
   
   const {
     mockTestData,
@@ -42,6 +45,7 @@ const MockTest: React.FC = () => {
     previousQuestion,
     getResults,
     resetTest,
+    switchLanguage,
     formatTime,
     getMotivation,
     getAnalysis,
@@ -195,8 +199,25 @@ const MockTest: React.FC = () => {
               </ul>
             </div>
 
+            <div className="space-y-3">
+              <h3 className="font-semibold">Select Language:</h3>
+              <ToggleGroup 
+                type="single" 
+                value={selectedLanguage}
+                onValueChange={(value) => value && setSelectedLanguage(value as Language)}
+                className="justify-start"
+              >
+                <ToggleGroupItem value="hindi" aria-label="Hindi" className="flex-1">
+                  हिंदी (Hindi)
+                </ToggleGroupItem>
+                <ToggleGroupItem value="english" aria-label="English" className="flex-1">
+                  English
+                </ToggleGroupItem>
+              </ToggleGroup>
+            </div>
+
             <Button 
-              onClick={startTest} 
+              onClick={() => startTest(selectedLanguage)} 
               size="lg" 
               className="w-full"
               variant="default"
@@ -355,7 +376,7 @@ const MockTest: React.FC = () => {
       <div className="min-h-screen bg-background">
         {/* Timer Bar */}
         <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-3">
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <Clock className={cn(
@@ -373,7 +394,24 @@ const MockTest: React.FC = () => {
                 Question {testState.currentQuestionIndex + 1} of {testState.questions.length}
               </div>
             </div>
-            <Progress value={progress} className="w-32" />
+            <div className="flex items-center gap-3">
+              <ToggleGroup 
+                type="single" 
+                value={testState.language}
+                onValueChange={(value) => value && switchLanguage(value as Language)}
+                size="sm"
+              >
+                <ToggleGroupItem value="hindi" aria-label="Hindi">
+                  <Languages className="h-4 w-4 mr-1" />
+                  हिं
+                </ToggleGroupItem>
+                <ToggleGroupItem value="english" aria-label="English">
+                  <Languages className="h-4 w-4 mr-1" />
+                  EN
+                </ToggleGroupItem>
+              </ToggleGroup>
+              <Progress value={progress} className="w-32" />
+            </div>
           </div>
         </div>
 
@@ -398,41 +436,64 @@ const MockTest: React.FC = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  <p className="text-lg leading-relaxed">{currentQuestion.question}</p>
-                  
-                  <RadioGroup
-                    value={currentAnswer?.selectedOption || ''}
-                    onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
-                    className="space-y-3"
-                  >
-                    {currentQuestion.options && Array.isArray(currentQuestion.options) ? (
-                      currentQuestion.options.map((option, index) => {
-                        const isImageUrl = typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://'));
+                  {(() => {
+                    const questionText = testState.language === 'hindi' 
+                      ? currentQuestion['question-hindi'] 
+                      : currentQuestion['question-english'];
+                    const options = testState.language === 'hindi'
+                      ? currentQuestion['options-hindi']
+                      : currentQuestion['options-english'];
+                    
+                    const isQuestionImage = questionText.startsWith('http://') || questionText.startsWith('https://');
+                    
+                    return (
+                      <>
+                        {isQuestionImage ? (
+                          <img 
+                            src={questionText} 
+                            alt="Question" 
+                            className="max-w-full h-auto rounded-lg"
+                          />
+                        ) : (
+                          <p className="text-lg leading-relaxed">{questionText}</p>
+                        )}
                         
-                        return (
-                          <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
-                            <RadioGroupItem value={option} id={`option-${index}`} />
-                            <Label 
-                              htmlFor={`option-${index}`} 
-                              className="flex-1 cursor-pointer text-base"
-                            >
-                              {isImageUrl ? (
-                                <img 
-                                  src={option} 
-                                  alt={`Option ${index + 1}`} 
-                                  className="max-w-full h-auto rounded-md max-h-32 object-contain"
-                                />
-                              ) : (
-                                option
-                              )}
-                            </Label>
-                          </div>
-                        );
-                      })
-                    ) : (
-                      <p className="text-destructive">Invalid question format</p>
-                    )}
-                  </RadioGroup>
+                        <RadioGroup
+                          value={currentAnswer?.selectedOption || ''}
+                          onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
+                          className="space-y-3"
+                        >
+                          {options && Array.isArray(options) ? (
+                            options.map((option, index) => {
+                              const isImageUrl = typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://'));
+                              
+                              return (
+                                <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
+                                  <RadioGroupItem value={option} id={`option-${index}`} />
+                                  <Label 
+                                    htmlFor={`option-${index}`} 
+                                    className="flex-1 cursor-pointer text-base"
+                                  >
+                                    {isImageUrl ? (
+                                      <img 
+                                        src={option} 
+                                        alt={`Option ${index + 1}`} 
+                                        className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                                      />
+                                    ) : (
+                                      option
+                                    )}
+                                  </Label>
+                                </div>
+                              );
+                            })
+                          ) : (
+                            <p className="text-destructive">Invalid question format</p>
+                          )}
+                        </RadioGroup>
+                      </>
+                    );
+                  })()}
                 </CardContent>
               </Card>
             ) : (

@@ -4,11 +4,16 @@ import { useAuth } from '@/contexts/AuthContext';
 import type { Database } from '@/integrations/supabase/types';
 
 export interface Question {
-  question: string;
-  options: string[];
-  answer: string;
-  pyq: boolean;
-  pyqDetails: {
+  'question-hindi': string;
+  'question-english': string;
+  'options-hindi': string[];
+  'options-english': string[];
+  'answer-hindi': string;
+  'answer-english': string;
+  'solution-hindi': string;
+  'solution-english': string;
+  pyq?: boolean;
+  pyqDetails?: {
     year: number | null;
     paper: string;
   };
@@ -30,6 +35,8 @@ export interface TestQuestion extends Question {
   section: string;
 }
 
+export type Language = 'hindi' | 'english';
+
 export interface UserAnswer {
   questionId: number;
   selectedOption: string;
@@ -45,6 +52,7 @@ export interface TestState {
   isCompleted: boolean;
   startTime: Date | null;
   endTime: Date | null;
+  language: Language;
 }
 
 export interface MockTestAnalysis {
@@ -67,6 +75,7 @@ export const useMockTest = (testFileName?: string) => {
     isCompleted: false,
     startTime: null,
     endTime: null,
+    language: 'hindi',
   });
 
   // Load mock test data and previous results
@@ -183,29 +192,15 @@ export const useMockTest = (testFileName?: string) => {
 
     mockTestData.mockTest.forEach((section) => {
       section.questions.forEach((question: any) => {
-        // Handle both array and object formats for options
-        let options: string[] = [];
-        let answer: string = '';
-        
-        if (Array.isArray(question.options)) {
-          // Options is already an array
-          options = question.options;
-          answer = question.answer || question.correct_option_text || '';
-        } else if (typeof question.options === 'object' && question.options !== null) {
-          // Options is an object with keys A, B, C, D
-          options = Object.values(question.options);
-          // Map correct_answer (A, B, C, D) to the actual option text
-          if (question.correct_answer && question.options[question.correct_answer]) {
-            answer = question.options[question.correct_answer];
-          } else {
-            answer = question.correct_option_text || '';
-          }
-        }
-        
         allQuestions.push({
-          question: question.question,
-          options,
-          answer,
+          'question-hindi': question['question-hindi'] || '',
+          'question-english': question['question-english'] || '',
+          'options-hindi': question['options-hindi'] || [],
+          'options-english': question['options-english'] || [],
+          'answer-hindi': question['answer-hindi'] || '',
+          'answer-english': question['answer-english'] || '',
+          'solution-hindi': question['solution-hindi'] || '',
+          'solution-english': question['solution-english'] || '',
           pyq: question.pyq || false,
           pyqDetails: question.pyqDetails || { year: null, paper: '' },
           id: questionId++,
@@ -217,7 +212,7 @@ export const useMockTest = (testFileName?: string) => {
     return allQuestions;
   };
 
-  const startTest = () => {
+  const startTest = (language: Language = 'hindi') => {
     const questions = generateQuestions();
     setTestState({
       questions,
@@ -228,6 +223,7 @@ export const useMockTest = (testFileName?: string) => {
       isCompleted: false,
       startTime: new Date(),
       endTime: null,
+      language,
     });
   };
 
@@ -248,7 +244,10 @@ export const useMockTest = (testFileName?: string) => {
     const question = testState.questions.find(q => q.id === questionId);
     if (!question) return;
 
-    const isCorrect = question.answer === selectedOption;
+    const correctAnswer = testState.language === 'hindi' 
+      ? question['answer-hindi'] 
+      : question['answer-english'];
+    const isCorrect = correctAnswer === selectedOption;
     
     setTestState(prev => ({
       ...prev,
@@ -419,6 +418,13 @@ export const useMockTest = (testFileName?: string) => {
     };
   };
 
+  const switchLanguage = (language: Language) => {
+    setTestState(prev => ({
+      ...prev,
+      language,
+    }));
+  };
+
   const resetTest = () => {
     setTestState({
       questions: [],
@@ -429,6 +435,7 @@ export const useMockTest = (testFileName?: string) => {
       isCompleted: false,
       startTime: null,
       endTime: null,
+      language: 'hindi',
     });
   };
 
@@ -516,6 +523,7 @@ export const useMockTest = (testFileName?: string) => {
     previousQuestion,
     getResults,
     resetTest,
+    switchLanguage,
     formatTime,
     getMotivation,
     getAnalysis,
