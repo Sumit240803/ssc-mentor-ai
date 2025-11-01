@@ -26,7 +26,7 @@ const MockTestsList: React.FC = () => {
     const loadMockTests = async () => {
       try {
         // List of mock test files (you can expand this list as you add more tests)
-        const testFiles = ['mock-test-1.json'];
+        const testFiles = ['Complete_mock-test_1.json', 'Complete_mock-test_2.json'];
         
         const testsData = await Promise.all(
           testFiles.map(async (fileName) => {

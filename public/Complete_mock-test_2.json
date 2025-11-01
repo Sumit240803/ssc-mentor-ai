@@ -1,0 +1,861 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+              "question-hindi": "किस भारतीय राज्य के पूर्व मुख्यमंत्री श्री कर्पूरी ठाकुर को मरणोपरांत भारत रत्न से सम्मानित किया गया है?",
+              "question-english" : "Which Indian state's former Chief Minister Shri Karpoori Thakur has been posthumously awarded the Bharat Ratna?",
+              "options-hindi": ["(a) उत्तर प्रदेश", "(b) बिहार", "(c) राजस्थान", "(d) मध्य प्रदेश"],
+              "options-english": ["(a) Uttar Pradesh", "(b) Bihar", "(c) Rajasthan", "(d) Madhya Pradesh"],
+              "answer-hindi": "सही उत्तर: (b) बिहार",
+              "answer-english": "Correct Answer: (b) Bihar",
+              "solution-hindi": "समाधान: बिहार के पूर्व मुख्यमंत्री श्री कर्पूरी ठाकुर को जनवरी 2024 में मरणोपरांत भारत का सर्वोच्च नागरिक पुरस्कार भारत रत्न प्रदान किया गया। वह एक समाजवादी नेता थे जो पिछड़े वर्गों के उत्थान के लिए अपने काम के लिए जाने जाते थे।",
+              "solution-english": "Solution: Shri Karpoori Thakur, a former Chief Minister of Bihar, was posthumously awarded the Bharat Ratna, India's highest civilian award, in January 2024. He was a socialist leader known for his work for the upliftment of the backward classes."
+            },
+            {
+              "question-hindi": "मॉन्ट्रियल प्रोटोकॉल पर निम्नलिखित में से किस वर्ष हस्ताक्षर किए गए थे?",
+              "question-english" : "In which of the following years was the Montreal Protocol signed?",
+              "options-hindi": ["(a) 1985", "(b) 1989", "(c) 1987", "(d) 1982"],
+              "options-english": ["(a) 1985", "(b) 1989", "(c) 1987", "(d) 1982"],
+              "answer-hindi": "सही उत्तर: (c) 1987",
+              "answer-english": "Correct Answer: (c) 1987",
+              "solution-hindi": "समाधान: ओजोन परत को नष्ट करने वाले पदार्थों पर मॉन्ट्रियल प्रोटोकॉल पर 16 सितंबर, 1987 को हस्ताक्षर किए गए थे। यह ओजोन परत को नष्ट करने वाले कई पदार्थों के उत्पादन को चरणबद्ध तरीके से समाप्त करके ओजोन परत की रक्षा के लिए डिज़ाइन की गई एक अंतरराष्ट्रीय संधि है।",
+              "solution-english": "Solution: The Montreal Protocol on Substances that Deplete the Ozone Layer was signed on September 16, 1987. It is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances that are responsible for ozone depletion."
+            },
+            {
+              "question-hindi": "अशोक चक्र में कितनी तीलियाँ होती हैं?",
+              "question-english" : "How many spokes are features in the Ashoka Chakra?",
+              "options-hindi": ["(a) 24", "(b) 25", "(c) 26", "(d) 12"],
+              "options-english": ["(a) 24", "(b) 25", "(c) 26", "(d) 12"],
+              "answer-hindi": "सही उत्तर: (a) 24",
+              "answer-english": "Correct Answer: (a) 24",
+              "solution-hindi": "समाधान: अशोक चक्र, एक धर्म चक्र (धर्म का पहिया), में 24 तीलियाँ होती हैं। ये 24 तीलियाँ दिन के 24 घंटों का प्रतिनिधित्व करती हैं, जो जीवन की निरंतर प्रगति और गति का प्रतीक हैं।",
+              "solution-english": "Solution: The Ashoka Chakra, a Dharma Chakra (wheel of dharma), has 24 spokes. These 24 spokes represent the 24 hours of the day, symbolizing the continuous progress and movement of life."
+            },{
+              "question-hindi": " मानव शरीर का सामान्य रक्तचाप _____ होता है।",
+              "question-english" : "Normal blood pressure of human body is _____",
+              "options-hindi": ["(a) 60/120", "(b) 70/120", "(c) 80/120", "(d) 90/120"],
+              "options-english": ["(a) 60/120", "(b) 70/120", "(c) 80/120", "(d) 90/120"],
+              "answer-hindi": "सही उत्तर: (c) 80/120",
+              "answer-english": "Correct Answer: (c) 80/120",
+              "solution-hindi": "समाधान: सामान्य रक्तचाप आमतौर पर 120/80 mmHg (पारा के मिलीमीटर) के आसपास माना जाता है। ऊपरी संख्या (120) सिस्टोलिक दबाव है, और निचली संख्या (80) डायस्टोलिक दबाव है।",
+              "solution-english": "Solution: Normal blood pressure is generally considered to be around 120/80 mmHg (millimeters of mercury). The top number (120) is the systolic pressure, and the bottom number (80) is the diastolic pressure."
+            },{
+              "question-hindi": "भारतीय विज्ञान संस्थान, बैंगलोर के संस्थापक कौन थे?",
+              "question-english" : "Who was the founder of Indian Institute of Science, Bangalore?",
+              "options-hindi": ["(a) विश्वेश्वरय्या", "(b) जमशेदजी टाटा", "(c) सीवी रमन", "(d) विक्रम साराभाई"],
+              "options-english": ["(a) Vishveshvarayya", "(b) Jamsetji Tata", "c) CV Raman", "(d) Vikram Sarabhai"],
+              "answer-hindi": "सही उत्तर: (b) जमशेदजी टाटा",
+              "answer-english": "Correct Answer: (b) Jamsetji Tata",
+              "solution-hindi": "समाधान: बैंगलोर में भारतीय विज्ञान संस्थान (IISc) की कल्पना एक भारतीय अग्रणी उद्योगपति जमशेदजी नुसरवानजी टाटा ने की थी। उनकी दृष्टि के बाद यह संस्थान 1909 में स्थापित किया गया था।",
+              "solution-english": "Solution: The Indian Institute of Science (IISc) in Bangalore was conceived by Jamsetji Nusserwanji Tata, an Indian pioneer industrialist. The institute was established in 1909 following his vision."
+            },{
+              "question-hindi": "भारत में किस तारीख को आतंकवाद विरोधी दिवस के रूप में मनाया जाता है?",
+              "question-english" : "India, which date is being observed as Anti-Terrorism Day?",
+              "options-hindi": ["(a) 31 जनवरी", "(b) 26 नवंबर", "(c) 30 जनवरी", "(d) 21 मई"],
+              "options-english": ["(a) 31 January", "(b) 26 November", "(c) 30 January", "(d) 21 May"],
+              "answer-hindi": "सही उत्तर: (d) 21 मई",
+              "answer-english": "Correct Answer: (d) 21 May",
+              "solution-hindi": "समाधान: भारत में हर साल 21 मई को आतंकवाद विरोधी दिवस मनाया जाता है। यह दिन पूर्व प्रधान मंत्री राजीव गांधी की पुण्यतिथि के रूप में मनाया जाता है, जिनकी 21 मई, 1991 को एक आतंकवादी कृत्य में हत्या कर दी गई थी।",
+              "solution-english": "Solution: Anti-Terrorism Day in India is observed annually on May 21st. This day commemorates the death anniversary of former Prime Minister Rajiv Gandhi, who was assassinated on May 21, 1991, by a terrorist act."
+            },{
+              "question-hindi": " प्रकाश संश्लेषण के दौरान पौधे निम्नलिखित में से किसका उपयोग करते हैं?",
+              "question-english" : "Which of the following is used by plants during photosynthesis?",
+              "options-hindi": ["(a) सौर ऊर्जा", "(b) ऊष्मा ऊर्जा", "(c) गतिज ऊर्जा", "(d) रासायनिक ऊर्जा"],
+              "options-english": ["(a) Solar energy", "(b) Heat energy", "(c) Kinetic energy", "(d) Chemical energy"],
+              "answer-hindi": "सही उत्तर: (a) सौर ऊर्जा",
+              "answer-english": "Correct Answer: (a) Solar energy",
+              "solution-hindi": "समाधान: पौधे प्रकाश संश्लेषण की प्रक्रिया के दौरान सूर्य से सौर ऊर्जा (प्रकाश ऊर्जा) का उपयोग करते हैं। यह प्रकाश ऊर्जा रासायनिक ऊर्जा में परिवर्तित हो जाती है, जो ग्लूकोज अणुओं में संग्रहीत होती है।",
+              "solution-english": "Solution: Plants utilize solar energy (light energy) from the sun during the process of photosynthesis. This light energy is converted into chemical energy, which is stored in glucose molecules."
+            },{
+              "question-hindi": "पंडित बिरजू महाराज को 1986 में निम्नलिखित में से कौन सा पुरस्कार मिला था?",
+              "question-english" : "Pandit Birju Maharaj received which of the following awards in 1986?",
+              "options-hindi": ["(a) पद्म भूषण", "(b) पद्म श्री", "(c) पद्म विभूषण", "(d) कालिदास सम्मान"],
+              "options-english": ["(a) Padma Bhushan", "(b) Padma Shri", "(c) Padma Vibhushan", "(d) Kalidas Samman"],
+              "answer-hindi": "सही उत्तर: (c) पद्म विभूषण",
+              "answer-english": "Correct Answer: (c) Padma Vibhushan",
+              "solution-hindi": "समाधान: कथक maestro पंडित बिरजू महाराज को 1986 में भारत के दूसरे सर्वोच्च नागरिक पुरस्कार पद्म विभूषण से सम्मानित किया गया था",
+              "solution-english": "Solution: Kathak maestro Pandit Birju Maharaj was awarded the Padma Vibhushan, India's second-highest civilian award, in 1986."
+            },{
+              "question-hindi": " उष्णकटिबंधीय पर्णपाती वनों को किस नाम से भी जाना जाता है?",
+              "question-english" : "Tropical deciduous forests are also known as?",
+              "options-hindi": ["(a) मानसून वन", "(b) मैंग्रोव वन", "(c) पर्वतीय वन", "(d) उपरोक्त में से कोई नहीं"],
+              "options-english": ["(a) Monsoon Forests", "(b) Mangrove Forests", "(c) Montane Forests", "(d) None of the above"],
+              "answer-hindi": "सही उत्तर: (a) मानसून वन",
+              "answer-english": "Correct Answer: (a) Monsoon Forests",
+              "solution-hindi": "समाधान: उष्णकटिबंधीय पर्णपाती वनों को आमतौर पर मानसून वन के रूप में भी जाना जाता है। इन वनों की विशेषता ऐसे पेड़ होते हैं जो मौसमी रूप से, विशेष रूप से शुष्क मौसम के दौरान अपनी पत्तियां गिराते हैं।",
+              "solution-english": "Solution: Tropical deciduous forests are also commonly known as Monsoon Forests. These forests are characterized by trees that shed their leaves seasonally, typically during the dry season."
+            },{
+              "question-hindi": " वह मौर्य शासक जिसने अपनी आधिकारिक घोषणाओं में 'पियदसी' नाम का प्रयोग किया था, वह था:",
+              "question-english" : "The Mauryan ruler who used the name 'Piyadasi' in his official declarations was",
+              "options-hindi": ["(a) बिम्बिसार", "(b) अशोक", "(c) चंद्रगुप्त मौर्य", "(d) बृहद्रथ"],
+              "options-english": ["(a) Bimbisara", "(b) Ashoka", "(c) Chandragupta Maurya", "(d) Brihaddrata"],
+              "answer-hindi": "सही उत्तर: (b) अशोक",
+              "answer-english": "Correct Answer: (b) Ashoka",
+              "solution-hindi": "समाधान: सम्राट अशोक, एक प्रमुख मौर्य शासक, अक्सर अपने शिलालेखों और आधिकारिक घोषणाओं में खुद को 'देवनंप्रिय प्रियदसी' (देवताओं का प्रिय, सुखद दिखने वाला) कहते थे।",
+              "solution-english": "Solution: Emperor Ashoka, a prominent Mauryan ruler, often referred to himself as 'Devanampriya Priyadasi' (Beloved of the Gods, of amiable appearance) in his edicts and official declarations."
+            },{
+              "question-hindi": " भारत के पहले सभी लड़कियों के सैनिक स्कूल का उद्घाटन जनवरी 2024 में कहाँ किया गया था?",
+              "question-english" : "Where was India's first all-girls Sainik School inaugurated in January 2024?",
+              "options-hindi": ["(a) लखनऊ, उत्तर प्रदेश", "(b) सिलीगुड़ी, पश्चिम बंगाल", "(c) वृंदावन, उत्तर प्रदेश", "(d) जयपुर, राजस्थान"],
+              "options-english": ["(a) Lucknow, Uttar Pradesh", "(b) Siliguri, West Bengal", "(c) Vrindavan, Uttar Pradesh", "(d) Jaipur, Rajasthan"],
+              "answer-hindi": "सही उत्तर: (c) वृंदावन, उत्तर प्रदेश",
+              "answer-english": "Correct Answer: (c) Vrindavan, Uttar Pradesh",
+              "solution-hindi": "समाधान: भारत के पहले सभी लड़कियों के सैनिक स्कूल, जिसका नाम 'संविद गुरुकुलम गर्ल्स सैनिक स्कूल' है, का उद्घाटन जनवरी 2024 में वृंदावन, मथुरा जिले, उत्तर प्रदेश में किया गया था।",
+              "solution-english": "Solution: India's first all-girls Sainik School, named 'Samvid Gurukulam Girls Sainik School,' was inaugurated in Vrindavan, Mathura district, Uttar Pradesh, in January 2024."
+            },{
+              "question-hindi": "लेंस से बनी एक छवि जिसे स्क्रीन पर प्रक्षेपित किया जा सकता है, कहलाती है:",
+              "question-english" : "An image formed with a lens that can be projected onto a screen is called:",
+              "options-hindi": ["(a) एक उद्देश्य", "(b) एक काल्पनिक छवि", "(c) एक आभासी छवि", "(d) एक वास्तविक छवि"],
+              "options-english": ["(a) an objective", "(b) an imaginary image", "(c) a virtual image", "(d) a real image"],
+              "answer-hindi": "सही उत्तर: (d) एक वास्तविक छवि",
+              "answer-english": "Correct Answer: (d) a real image",
+              "solution-hindi": "समाधान: एक वास्तविक छवि प्रकाश किरणों के वास्तविक अभिसरण से बनी एक छवि होती है। वास्तविक छवियों को स्क्रीन पर प्रक्षेपित किया जा सकता है, आभासी छवियों के विपरीत।",
+              "solution-english": "Solution: A real image is an image formed by the actual convergence of light rays. Real images can be projected onto a screen, unlike virtual images."
+            },{
+              "question-hindi": " माचिस की तीली में निम्नलिखित में से किसका उपयोग किया जाता है?",
+              "question-english" : "Which of the following is used in match stick?",
+              "options-hindi": ["(a) कार्बन", "(b) लाल फास्फोरस", "(c) जस्ता", "(d) सोडियम"],
+              "options-english": ["(a) Carbon", "(b) Red phosphorus", "(c) Zinc", "(d) Sodium"],
+              "answer-hindi": "सही उत्तर: (b) लाल फास्फोरस",
+              "answer-english": "Correct Answer: (b) Red phosphorus",
+              "solution-hindi": "समाधान: लाल फास्फोरस सुरक्षा माचिस की स्ट्राइकिंग सतह और कुछ माचिस की तीलियों में इस्तेमाल होने वाला एक प्रमुख घटक है। जब इसे रगड़ा जाता है, तो घर्षण लाल फास्फोरस की थोड़ी मात्रा को सफेद फास्फोरस में परिवर्तित करता है, जो जलता है और माचिस की तीली को प्रज्वलित करता है।",
+              "solution-english": "Solution: Red phosphorus is a key component used in the striking surface of safety matches and in some match heads. When struck, the friction converts a small amount of red phosphorus into white phosphorus, which ignites and sets off the match head."
+            },{
+              "question-hindi": "ग्राम पंचायत निम्नलिखित में से किसके अधीन कार्य करती है?",
+              "question-english" : "Gram Panchayat works under which one of the following?",
+              "options-hindi": ["(a) क्षेत्र की नगर समिति", "(b) जिला परिषद", "(c) ग्राम सभा", "(d) पंचायत समिति"],
+              "options-english": ["(a) Municipal Committee of the area", "(b) Zila Parishad", "(c) Gram Sabha", "(d) Panchayat Samiti"],
+              "answer-hindi": "सही उत्तर: (c) ग्राम सभा",
+              "answer-english": "Correct Answer: (c) Gram Sabha",
+              "solution-hindi": "समाधान: ग्राम पंचायत ग्राम सभा के समग्र पर्यवेक्षण और मार्गदर्शन में कार्य करती है। ग्राम सभा, जिसमें गांव के सभी वयस्क निवासी शामिल होते हैं, वह सामान्य निकाय है जो ग्राम पंचायत की योजनाओं और बजट को मंजूरी देता है।",
+              "solution-english": "Solution: The Gram Panchayat works under the overall supervision and guidance of the Gram Sabha. The Gram Sabha, which consists of all adult residents of the village, is the general body that approves the plans and budgets of the Gram Panchayat."
+            },{
+              "question-hindi": " रेलवे ने सीट अधिभोग को अधिकतम करने के लिए निम्नलिखित में से किसे पेश किया?",
+              "question-english" : "Railways introduced which of the following to maximise seat occupancy?",
+              "options-hindi": ["(a) आदर्श सीट जानकारी", "(b) आदर्श ट्रेन प्रोफाइल", "(c) रिक्त सीट प्रोफाइल", "(d) अधिभोग सर्वेक्षण"],
+              "options-english": ["(a) Ideal Seat Info", "(b) Ideal Train Profile", "(c) Vacant Seat Profile", "(d) Occupancy Survey"],
+              "answer-hindi": "सही उत्तर: (b) आदर्श ट्रेन प्रोफाइल",
+              "answer-english": "Correct Answer: (b) Ideal Train Profile",
+              "solution-hindi": "समाधान: भारतीय रेलवे ने 'आदर्श ट्रेन प्रोफाइल' प्रणाली शुरू की ताकि सीट अधिभोग को अधिकतम किया जा सके और बर्थ के आवंटन को अनुकूलित किया जा सके, खासकर पहले चार्ट तैयार होने के बाद। यह प्रणाली यात्रियों को खाली सीटों की पहचान करने और उन्हें उपलब्ध कराने में मदद करती है।",
+              "solution-english": "Solution: Indian Railways introduced the 'Ideal Train Profile' system to help maximize seat occupancy and optimize the allocation of berths, especially after the first chart preparation. This system helps in identifying and making available vacant seats to passengers."
+            },{
+              "question-hindi": " भारत में सार्वजनिक क्षेत्र के उद्यमों में विनिवेश प्रक्रिया किस वर्ष शुरू हुई थी?",
+              "question-english" : "In which year did the disinvestment process in Public Sector Enterprises in India start?",
+              "options-hindi": ["(a) 2018", "(b) 2000", "(c) 1990", "(d) 1991"],
+              "options-english": ["(a) 2018", "(b) 2000", "(c) 1990", "(d) 1991"],
+              "answer-hindi": "सही उत्तर: (d) 1991",
+              "answer-english": "Correct Answer: (d) 1991",
+              "solution-hindi": "समाधान: भारत में सार्वजनिक क्षेत्र के उद्यमों (PSEs) में विनिवेश प्रक्रिया औपचारिक रूप से 1991-92 में शुरू हुई, जो उस अवधि के दौरान शुरू किए गए आर्थिक सुधारों का हिस्सा थी।",
+              "solution-english": "Solution: The disinvestment process in Public Sector Enterprises (PSEs) in India officially began in 1991-92, as part of the economic reforms initiated during that period."
+            },{
+              "question-hindi": " निम्नलिखित में से कौन भारत के आर्थिक क्षेत्र की प्राथमिक गतिविधि का एक उदाहरण है?",
+              "question-english" : "Which of the following is an example of primary activity of the economic sector of India?",
+              "options-hindi": ["(a) वानिकी", "(b) परिवहन", "(c) संचार", "(d) कपड़ा बुनाई"],
+              "options-english": ["(a) Forestry", "(b) Transport", "(c) Communication", "(d) Cloth weaving"],
+              "answer-hindi": "सही उत्तर: (a) वानिकी",
+              "answer-english": "Correct Answer: (a) Forestry",
+              "solution-hindi": "समाधान: प्राथमिक गतिविधियों में प्राकृतिक संसाधनों का सीधा निष्कर्षण और उत्पादन शामिल है। वानिकी, कृषि, मछली पकड़ना, खनन और उत्खनन के साथ, प्राथमिक क्षेत्र की गतिविधियों के उदाहरण हैं। परिवहन और संचार तृतीयक क्षेत्र से संबंधित हैं, जबकि कपड़ा बुनाई एक द्वितीयक क्षेत्र की गतिविधि है।",
+              "solution-english": "Solution: Primary activities involve the direct extraction and production of natural resources. Forestry, along with agriculture, fishing, mining, and quarrying, are examples of primary sector activities. Transport and communication belong to the tertiary sector, while cloth weaving is a secondary sector activity."
+            },{
+              "question-hindi": " पेरिस 2024 ओलंपिक खेलों का शुभंकर क्या है?",
+              "question-english" : "What is the mascot of the Paris 2024 Olympic Games?",
+              "options-hindi": ["(a) द ईगल्स", "(b) द ओलंपस", "(c) द ज़्यूस", "(d) द फ्राइजेज"],
+              "options-english": ["(a) The Eagles", "(b) The Olympus", "(c) The Zeus", "(d) The Phryges"],
+              "answer-hindi": "सही उत्तर: (d) द फ्राइजेज",
+              "answer-english": "Correct Answer: (d) The Phryges",
+              "solution-hindi": "समाधान: पेरिस 2024 ओलंपिक और पैरालंपिक खेलों के शुभंकर 'द फ्राइजेज' कहलाते हैं, जो पारंपरिक छोटी फ्राइजियन टोपी पर आधारित हैं।",
+              "solution-english": "Solution: The mascots for the Paris 2024 Olympic and Paralympic Games are called 'The Phryges,' which are based on the traditional small Phrygian caps."
+            },{
+              "question-hindi": "'एन अनकॉमन लव: द अर्ली लाइफ ऑफ सुधा एंड नारायण मूर्ति' पुस्तक के लेखक कौन हैं?",
+              "question-english" : "Who authored “An Uncommon Love: The Early Life of Sudha and Narayana Murthy?",
+              "options-hindi": ["(a) नारायण मूर्ति", "(b) सुधा मूर्ति", "(c) चित्रा बनर्जी दिवाकरुणी", "(d) विक्रम सेठ"],
+              "options-english": ["(a) Narayana Murthy", "(b) Sudha Murthy", "(c) Chitra Banerjee Divakaruni", "(d) Vikram Seth"],
+              "answer-hindi": "सही उत्तर: (c) चित्रा बनर्जी दिवाकरुणी",
+              "answer-english": "Correct Answer: (c) Chitra Banerjee Divakaruni",
+              "solution-hindi": "समाधान: 'एन अनकॉमन लव: द अर्ली लाइफ ऑफ सुधा एंड नारायण मूर्ति' पुस्तक चित्रा बनर्जी दिवाकरुणी द्वारा लिखी गई थी।",
+              "solution-english": "Solution: The book 'An Uncommon Love: The Early Life of Sudha and Narayana Murthy' was authored by Chitra Banerjee Divakaruni."
+            },{
+              "question-hindi": " कोशिकांगों का निम्नलिखित में से कौन सा भाग कोशिका द्रव्य में नहीं पाया जाता है?",
+              "question-english" : "Which one of the following part of the cell organelles is not found in cytoplasm?",
+              "options-hindi": ["(a) राइबोसोम", "(b) माइटोकॉन्ड्रिया", "(c) कोशिका झिल्ली", "(d) लाइसोसोम"],
+              "options-english": ["(a) Ribosomes", "(b) Mitochondria", "(c) Cell Membrane", "(d) Lysosomes"],
+              "answer-hindi": "सही उत्तर: (c) कोशिका झिल्ली",
+              "answer-english": "Correct Answer: (c) Cell Membrane",
+              "solution-hindi": "समाधान: कोशिका झिल्ली (जिसे प्लाज्मा झिल्ली भी कहा जाता है) कोशिका की बाहरी सीमा बनाती है और कोशिका द्रव्य को घेरती है, लेकिन यह कोशिका द्रव्य के भीतर नहीं होती है। राइबोसोम, माइटोकॉन्ड्रिया और लाइसोसोम सभी कोशिकांग हैं जो कोशिका द्रव्य में निलंबित पाए जाते हैं।",
+              "solution-english": "Solution: The cell membrane (also known as the plasma membrane) forms the outer boundary of the cell and encloses the cytoplasm, but it is not within the cytoplasm. Ribosomes, mitochondria, and lysosomes are all organelles found suspended within the cytoplasm."
+            },{
+              "question-hindi": " रक्त के थक्के जमने के लिए निम्नलिखित में से कौन सा विटामिन आवश्यक है?",
+              "question-english" : "Which of the following vitamin is necessary for clotting of blood?",
+              "options-hindi": ["(a) विटामिन K", "(b) विटामिन A", "(c) विटामिन C", "(d) विटामिन B"],
+              "options-english": ["(a) Vitamin K", "(b) Vitamin A", "(c) Vitamin C", "(d) Vitamin B"],
+              "answer-hindi": "सही उत्तर: (a) विटामिन K",
+              "answer-english": "Correct Answer: (a) Vitamin K",
+              "solution-hindi": "समाधान: विटामिन K रक्त के थक्के जमने (जमावट) में महत्वपूर्ण भूमिका निभाता है। यह प्रोथ्रोम्बिन सहित कई प्रोटीनों के संश्लेषण के लिए आवश्यक है, जो थक्के जमने की प्रक्रिया के लिए आवश्यक हैं।",
+              "solution-english": "Solution: Vitamin K plays a crucial role in blood clotting (coagulation). It is essential for the synthesis of several proteins, including prothrombin, which are necessary for the clotting process."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन अपने नाटकों 'ययाति' और 'तुगलक' के लिए सबसे अच्छी तरह से जाने जाते हैं?",
+              "question-english" : "Who among the following is best known for his plays 'Yayati' and 'Tughlaq'?",
+              "options-hindi": ["(a) विजू खोटे", "(b) श्रीराम लागू", "(c) गिरीश कर्नाड", "(d) मोहम्मद ज़हूर खय्याम"],
+              "options-english": ["(a) Viju Khote", "(b) Shreeram Lagoo", "(c) Girish Karnad", "(d) Mohammed Zahur Khayyam"],
+              "answer-hindi": "सही उत्तर: (c) गिरीश कर्नाड",
+              "answer-english": "Correct Answer: (c) Girish Karnad",
+              "solution-hindi": "समाधान: गिरीश कर्नाड एक प्रसिद्ध भारतीय अभिनेता, फिल्म निर्देशक, कन्नड़ लेखक, नाटककार और एक रोड्स स्कॉलर थे, जो मुख्य रूप से अपने नाटकों जैसे 'ययाति' और 'तुगलक' के लिए जाने जाते थे।",
+              "solution-english": "Solution: Girish Karnad was a renowned Indian actor, film director, Kannada writer, playwright and a Rhodes Scholar, who was primarily known for his plays like 'Yayati' and 'Tughlaq'."
+            },{
+              "question-hindi": " निम्नलिखित में से किसने चेचक का टीका विकसित किया?",
+              "question-english" : "Who among the following developed the smallpox vaccine?",
+              "options-hindi": ["(a) अलेक्जेंडर फ्लेमिंग", "(b) अल्बर्ट आइंस्टीन", "(c) एडवर्ड जेनर", "(d) लुई पाश्चर"],
+              "options-english": ["(a) Alexander Fleming", "(b) Albert Einstein", "(c) Edward Jenner", "(d) Louis Pasteur"],
+              "answer-hindi": "सही उत्तर: (c) एडवर्ड जेनर",
+              "answer-english": "Correct Answer: (c) Edward Jenner",
+              "solution-hindi": "समाधान: एडवर्ड जेनर, एक अंग्रेजी चिकित्सक और वैज्ञानिक, को 1796 में चेचक के लिए दुनिया का पहला टीका विकसित करने का श्रेय दिया जाता है।",
+              "solution-english": "Solution: Edward Jenner, an English physician and scientist, is credited with developing the world's first vaccine, which was for smallpox, in 1796."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा पादप ऊतक कोशिका विभाजन में सक्षम है?",
+              "question-english" : "Which of the following plant tissues is capable of cell division?",
+              "options-hindi": ["(a) मेरिस्टम", "(b) जाइलम", "(c) पैरेन्काइमा", "(d) स्क्लेरेन्काइमा"],
+              "options-english": ["(a) Meristem", "(b) Xylem", "(c) Parenchyma", "(d) Sclerenchyma"],
+              "answer-hindi": "सही उत्तर: (a) मेरिस्टम",
+              "answer-english": "Correct Answer: (a) Meristem",
+              "solution-hindi": "समाधान: मेरिस्टेमेटिक ऊतक, या मेरिस्टम, पौधों में ऐसे क्षेत्र होते हैं जहाँ कोशिकाएँ सक्रिय रूप से विभाजित होती हैं। ये ऊतक पौधे की लंबाई और घेरे में वृद्धि के लिए जिम्मेदार होते हैं। जाइलम, पैरेन्काइमा और स्क्लेरेन्काइमा स्थायी ऊतक हैं, और उनकी कोशिकाएँ आमतौर पर विभाजित नहीं होती हैं।",
+              "solution-english": "Solution: Meristematic tissues, or meristems, are regions in plants where cells are actively dividing. These tissues are responsible for the plant's growth in length and girth. Xylem, parenchyma, and sclerenchyma are permanent tissues, and their cells generally do not divide."
+            },{
+              "question-hindi": "किस वर्ष के बजट में पहली बार जीएसटी का उल्लेख किया गया था?",
+              "question-english" : "In which year budget was GST first mentioned?",
+              "options-hindi": ["(a) 2006-07", "(b) 2013-14", "(c) 1998-99", "(d) 2015-16"],
+              "options-english": ["(a) 2006-07", "(b) 2013-14", "(c) 1998-99", "(d) 2015-16"],
+              "answer-hindi": "सही उत्तर: (a) 2006-07",
+              "answer-english": "Correct Answer: (a) 2006-07",
+              "solution-hindi": "समाधान: भारत में वस्तु एवं सेवा कर (GST) का विचार पहली बार 2006-07 में तत्कालीन केंद्रीय वित्त मंत्री पी. चिदंबरम द्वारा 2006-07 के अपने बजट भाषण के दौरान रखा गया था।",
+              "solution-english": "Solution: The idea of Goods and Services Tax (GST) in India was first mooted in 2006-07 by the then Union Finance Minister, P. Chidambaram, during his budget speech for the year 2006-07."
+            },{
+              "question-hindi": "हर साल 11 जुलाई को _____ के रूप में मनाया जाता है।",
+              "question-english" : "11 July is observed as _____ every year.",
+              "options-hindi": ["(a) विश्व स्वास्थ्य दिवस", "(b) विश्व पर्यावरण दिवस", "(c) विश्व जनसंख्या दिवस", "(d) विश्व जल दिवस"],
+              "options-english": ["(a) World Health Day", "(b) World Environment Day", "(c) World Population Day", "(d) World Water Day"],
+              "answer-hindi": "सही उत्तर: (c) विश्व जनसंख्या दिवस",
+              "answer-english": "Correct Answer: (c) World Population Day",
+              "solution-hindi": "समाधान: हर साल 11 जुलाई को विश्व जनसंख्या दिवस मनाया जाता है। इस दिन का उद्देश्य वैश्विक जनसंख्या मुद्दों के बारे में जागरूकता बढ़ाना है।",
+              "solution-english": "Solution: World Population Day is observed annually on July 11th. The day aims to raise awareness about global population issues."
+            },{
+              "question-hindi": " जनवरी 2024 में 16वें वित्त आयोग के अध्यक्ष के रूप में किसे नियुक्त किया गया है?",
+              "question-english" : "In January 2024 who has been appointed as the Chairman of the 16th Finance Commission?",
+              "options-hindi": ["(a) अमिताभ कांत", "(b) राजीव कुमार", "(c) अरविंद सुब्रमण्यम", "(d) डॉ. अरविंद पनगढ़िया"],
+              "options-english": ["(a) Amitabh Kant", "(b) Rajiv Kumar", "(c) Arvind Subramanian", "(d) Dr Arvind Panagariya"],
+              "answer-hindi": "सही उत्तर: (d) डॉ. अरविंद पनगढ़िया",
+              "answer-english": "Correct Answer: (d) Dr Arvind Panagariya",
+              "solution-hindi": "समाधान: जनवरी 2024 में, नीति आयोग के पूर्व उपाध्यक्ष डॉ. अरविंद पनगढ़िया को 16वें वित्त आयोग का अध्यक्ष नियुक्त किया गया था।",
+              "solution-english": "Solution: In January 2024, Dr. Arvind Panagariya, former Vice-Chairman of NITI Aayog, was appointed as the Chairman of the 16th Finance Commission."
+            },{
+              "question-hindi": " विश्व व्यापार संगठन (डब्ल्यूटीओ) की पहली महिला और पहली अफ्रीकी महानिदेशक कौन बनी हैं?",
+              "question-english" : "Who has become the first woman and first African Director-General of the World Trade Organization (WTO)",
+              "options-hindi": ["(a) यू माईंग-ही", "(b) अमिना मोहम्मद", "(c) न्गोजी ओकोन्जो-इवेला", "(d) कामेने ओकोन्जो"],
+              "options-english": ["(a) Yoo Myung-hee", "(b) Amina Mohamed", "(c) Ngozi Okonjo-Iweala", "(d) Kamene Okonjo"],
+              "answer-hindi": "सही उत्तर: (c) न्गोजी ओकोन्जो-इवेला",
+              "answer-english": "Correct Answer: (c) Ngozi Okonjo-Iweala",
+              "solution-hindi": "समाधान: न्गोजी ओकोन्जो-इवेला मार्च 2021 में विश्व व्यापार संगठन (डब्ल्यूटीओ) की महानिदेशक के रूप में सेवा करने वाली पहली महिला और पहली अफ्रीकी बनीं।",
+              "solution-english": "Solution: Ngozi Okonjo-Iweala became the first woman and the first African to serve as the Director-General of the World Trade Organization (WTO) in March 2021."
+            },{
+              "question-hindi": " 69वें फिल्मफेयर अवार्ड्स 2024 में सर्वश्रेष्ठ अभिनेता और अभिनेत्री (पुरुष और महिला) का पुरस्कार किसने जीता?",
+              "question-english" : "Who won the Best Actor and Actress in a Leading Role (Male & Female) at the 69th Filmfare Awards 2024?",
+              "options-hindi": ["(a) रणबीर कपूर और आलिया भट्ट", "(b) विक्रांत मैसी और आलिया भट्ट", "(c) शाहरुख खान और दीपिका पादुकोण", "(d) सलमान खान और दीपिका पादुकोण"],
+              "options-english": ["a) Ranbir Kapoor and Alia Bhatt", "(b) Vikrant Massey and Alia Bhatt", "(c) Shahrukh Khan and Deepika Padukone", "(d) Salman Khan and Deepika Padukone"],
+              "answer-hindi": "सही उत्तर: (a) रणबीर कपूर और आलिया भट्ट",
+              "answer-english": "Correct Answer: (a) Ranbir Kapoor and Alia Bhatt",
+              "solution-hindi": "समाधान  69वें फिल्मफेयर अवार्ड्स 2024 में, रणबीर कपूर ने 'एनिमल' के लिए सर्वश्रेष्ठ अभिनेता (पुरुष) का पुरस्कार जीता, और आलिया भट्ट ने 'रॉकी और रानी की प्रेम कहानी' के लिए सर्वश्रेष्ठ अभिनेत्री (महिला) का पुरस्कार जीता।",
+              "solution-english": "Solution: At the 69th Filmfare Awards 2024, Ranbir Kapoor won Best Actor in a Leading Role (Male) for 'Animal,and Alia Bhatt won Best Actress in a Leading Role (Female) for Rocky Aur Rani Kii Prem Kahaani."
+            },{
+              "question-hindi": "निम्नलिखित में से किसने कलकत्ता यूनिटेरियन सोसाइटी की सह-स्थापना की और ब्रह्म समाज की स्थापना की?",
+              "question-english" : "Who among the following co-founded the Calcutta Unitarian Society and founded the Brahma Samaj?",
+              "options-hindi": ["(a) राजा राम मोहन राय", "(b) ईश्वर चंद्र विद्यासागर", "(c) देवेंद्रनाथ टैगोर", "(d) केशव चंद्र सेन"],
+              "options-english": ["(a) Raja Ram Mohan Roy", "(b) Iswar Chandra Vidyasagar", "(c) Debendranath Tagore", "(d) Keshab Chandra Sen"],
+              "answer-hindi": "सही उत्तर: (a) राजा राम मोहन राय",
+              "answer-english": "Correct Answer: (a) Raja Ram Mohan Roy",
+              "solution-hindi": "समाधान: राजा राम मोहन राय, एक प्रमुख समाज सुधारक और धार्मिक सुधारक, ने 1823 में कलकत्ता यूनिटेरियन सोसाइटी की सह-स्थापना की और बाद में 1828 में ब्रह्म समाज (मूल रूप से ब्रह्म सभा) की स्थापना की।",
+              "solution-english": "Solution: Raja Ram Mohan Roy, a prominent social and religious reformer, co-founded the Calcutta Unitarian Society in 1823 and later founded the Brahmo Samaj (originally Brahmo Sabha) in 1828."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा एक वायरल रोग है?",
+              "question-english" : "Which of the following is a viral disease?",
+              "options-hindi": ["(a) तपेदिक", "(b) ज़िका", "(c) कुष्ठ रोग", "(d) टाइफाइड"],
+              "options-english": ["(a) Tuberculosis", "(b) Zika", "(c) Leprosy", "(d) Typhoid"],
+              "answer-hindi": "सही उत्तर: (b) ज़िका",
+              "answer-english": "Correct Answer: (b) Zika",
+              "solution-hindi": "समाधान: ज़िका एक वायरल रोग है जो मुख्य रूप से एडीस मच्छरों द्वारा फैलता है। तपेदिक और कुष्ठ रोग जीवाणु रोग हैं, और टाइफाइड भी एक जीवाणु संक्रमण है।",
+              "solution-english": "Solution: Zika is a viral disease primarily transmitted by Aedes mosquitoes. Tuberculosis and Leprosy are bacterial diseases, and Typhoid is also a bacterial infection."
+            },{
+              "question-hindi": " जनगणना अधिनियम किस वर्ष अधिनियमित किया गया था?",
+              "question-english" : " In which year was the Census Act enacted?",
+              "options-hindi": ["(a) 1894", "(b) 1948", "(c) 1984", "(d) 1872"],
+              "options-english": ["(a) 1894", "(b) 1948", "(c) 1984", "(d) 1872"],
+              "answer-hindi": "सही उत्तर: (b) 1948",
+              "answer-english": "Correct Answer: (b) 1948",
+              "solution-hindi": "समाधान: जनगणना अधिनियम भारत में 1948 में अधिनियमित किया गया था, जो देश में जनगणना करने के लिए कानूनी ढाँचा प्रदान करता है।",
+              "solution-english": "Solution: The Census Act was enacted in India in 1948, providing the legal framework for conducting censuses in the country."
+            },{
+              "question-hindi": "'भारत: लोकतंत्र की जननी' शीर्षक वाली झांकी ने गणतंत्र दिवस समारोह परेड 2024 में शीर्ष स्थान प्राप्त किया। इसे किस मंत्रालय ने बनाया था?",
+              "question-english" : "The tableau titled 'India: Mother of Democracy' secured the top position at the Republic Day Celebration Parade 2024. It was created by which ministry?",
+              "options-hindi": ["(a) गृह मंत्रालय", "(b) संस्कृति मंत्रालय", "(c) रक्षा मंत्रालय", "(d) सूचना एवं प्रसारण मंत्रालय"],
+              "options-english": ["(a) Ministry of Home Affairs", "(b) Ministry of Culture", "(c) Ministry of Defence", "(d) Ministry of Information and Broadcasting"],
+              "answer-hindi": "सही उत्तर: (c) संस्कृति मंत्रालय",
+              "answer-english": "Correct Answer: (c) Ministry of Culture",
+              "solution-hindi": "समाधान: 'भारत: लोकतंत्र की जननी' शीर्षक वाली झांकी, जिसने भारत की समृद्ध लोकतांत्रिक परंपराओं को दर्शाया, ने गणतंत्र दिवस परेड 2024 में शीर्ष स्थान प्राप्त किया और इसे संस्कृति मंत्रालय द्वारा प्रस्तुत किया गया था।",
+              "solution-english": "Solution: The tableau titled 'India: Mother of Democracy,' which depicted the rich democratic traditions of India, secured the top position in the Republic Day Parade 2024 and was presented by the Ministry of Culture."
+            },{
+              "question-hindi": "1920 में असहयोग आंदोलन के साथ और कौन सा आंदोलन संयुक्त हुआ था?",
+              "question-english" : "Which other movement was combined with the non-cooperation movement in 1920?",
+              "options-hindi": ["(a) स्वदेशी आंदोलन", "(b) खिलाफत आंदोलन", "(c) होमरूल आंदोलन", "(d) अगस्त क्रांति"],
+              "options-english": ["(a) Swadeshi Movement", "(b) Khilafat Movement", "(c) Home Rule Movement", "(d) August Kranti"],
+              "answer-hindi": "सही उत्तर: (b) खिलाफत आंदोलन",
+              "answer-english": "Correct Answer: (b) Khilafat Movement",
+              "solution-hindi": "समाधान: 1920 में महात्मा गांधी द्वारा शुरू किया गया असहयोग आंदोलन, खिलाफत आंदोलन के साथ संयुक्त हुआ था। इस गठबंधन का उद्देश्य ब्रिटिश शासन के खिलाफ एक सामान्य संघर्ष में हिंदुओं और मुसलमानों को एकजुट करना था।",
+              "solution-english": "Solution: The Non-Cooperation Movement, launched by Mahatma Gandhi in 1920, was combined with the Khilafat Movement. This alliance aimed to unite Hindus and Muslims in a common struggle against British rule."
+            },{
+              "question-hindi": "उच्च मुद्रास्फीति दर और उच्च बेरोजगारी दर की एक साथ उपस्थिति को _______ कहा जाता है।",
+              "question-english" : "The simultaneous presence of high rate of inflation and high rate of unemployment is called _______.",
+              "options-hindi": ["(a) मंदी", "(b) अपस्फीति", "(c) विमुद्रीकरण", "(d) स्टैगफ्लेशन"],
+              "options-english": ["(a) Depression", "(b) Deflation", "(c) Disinflation", "(d) Stagflation"],
+              "answer-hindi": "सही उत्तर: (d) स्टैगफ्लेशन",
+              "answer-english": "Correct Answer: (d) Stagflation",
+              "solution-hindi": "समाधान: स्टैगफ्लेशन एक आर्थिक घटना है जिसकी विशेषता उच्च मुद्रास्फीति (बढ़ती कीमतें), उच्च बेरोजगारी और स्थिर आर्थिक विकास (कम उत्पादन) का एक साथ होना है।",
+              "solution-english": "Solution: Stagflation is an economic phenomenon characterized by the simultaneous occurrence of high inflation (rising prices), high unemployment, and stagnant economic growth (low output)."
+            },{
+              "question-hindi": "शुद्ध सोना कितने कैरेट का होता है?",
+              "question-english" : "How many carats a pure gold consists of ?",
+              "options-hindi": ["(a) 22 कैरेट", "(b) 18 कैरेट", "(c) 20 कैरेट", "(d) 24 कैरेट"],
+              "options-english": ["(a) 22 carat", "(b) 18 carat", "(c) 20 carat", "(d) 24 carat"],
+              "answer-hindi": "सही उत्तर: (d) 24 कैरेट",
+              "answer-english": "Correct Answer: (d) 24 carat",
+              "solution-hindi": "समाधान: शुद्ध सोने को 24 कैरेट सोना माना जाता है, जिसका अर्थ है कि इसमें 99.9% सोना होता है और यह सोने का सबसे शुद्ध रूप है।",
+              "solution-english": "Solution: Pure gold is considered 24-carat gold, which means it contains 99.9% gold and is the purest form of gold."
+            },{
+              "question-hindi": " ______ 'इंडियाज स्ट्रगल फॉर इंडिपेंडेंस' पुस्तक के मुख्य लेखक और संपादक थे।",
+              "question-english" : "______ was the main author as well as editor of the book 'India's Struggle for Independence'.",
+              "options-hindi": ["(a) जवाहरलाल नेहरू", "(b) बिपन चंद्र", "(c) यास्मीन खान", "(d) रामचंद्र गुहा"],
+              "options-english": ["(a) Jawaharlal Nehru", "(b) Bipan Chandra", "(c) Yasmin Khan", "(d) Ramachandra Guha"],
+              "answer-hindi": "सही उत्तर: (b) बिपन चंद्र",
+              "answer-english": "Correct Answer: (b) Bipan Chandra",
+              "solution-hindi": "समाधान: बिपन चंद्र व्यापक रूप से प्रशंसित पुस्तक 'इंडियाज स्ट्रगल फॉर इंडिपेंडेंस' के मुख्य संपादक और मुख्य लेखकों में से एक थे।",
+              "solution-english": "Solution: Bipan Chandra was the chief editor and one of the main authors of the widely acclaimed book 'India's Struggle for Independence'."
+            },{
+              "question-hindi": "मदुरै में मीनाक्षी मंदिर किस प्रकार के मंदिर का एक उदाहरण है?",
+              "question-english" : "The Meenakshi Temple at Madurai is an example of which type of temple?",
+              "options-hindi": ["(a) द्रविड़", "(b) नागर", "(c) मिथुन", "(d) वेसर"],
+              "options-english": ["(a) Dravida", "(b) Nagara", "(c) Mithunas", "(d) Vesara"],
+              "answer-hindi": "सही उत्तर: (a) द्रविड़",
+              "answer-english": "Correct Answer: (a) Dravida",
+              "solution-hindi": "समाधान: मदुरै, तमिलनाडु में मीनाक्षी अम्मन मंदिर द्रविड़ वास्तुकला का एक उत्कृष्ट उदाहरण है। द्रविड़ शैली अपने ऊँचे गोपुरम (प्रवेश द्वार), कई मंडप (हॉल) और विस्तृत मूर्तियों की विशेषता है।",
+              "solution-english": "Solution: The Meenakshi Amman Temple in Madurai, Tamil Nadu, is a classic example of Dravidian architecture. Dravidian style is characterized by its towering gopurams (entrance towers), multiple mandapas (halls), and elaborate sculptures."
+            },{
+              "question-hindi": " बौद्धों द्वारा निर्मित कन्हेरी गुफाएँ निम्नलिखित में से किस राज्य में स्थित हैं?",
+              "question-english" : "The Kanheri Caves, built by Buddhists, are located in which of the following states?",
+              "options-hindi": ["(a) महाराष्ट्र", "(b) ओडिशा", "(c) राजस्थान", "(d) दिल्ली"],
+              "options-english": ["(a) Maharashtra", "(b) Odisha", "(c) Rajasthan", "(d) Delhi"],
+              "answer-hindi": "सही उत्तर: (a) महाराष्ट्र",
+              "answer-english": "Correct Answer: (a) Maharashtra",
+              "solution-hindi": "समाधान: कन्हेरी गुफाएँ, चट्टानों को काटकर बनाए गए स्मारकों का एक समूह जो बौद्ध विहारों (मठों) के रूप में कार्य करते थे, मुंबई, महाराष्ट्र में साल्सेट द्वीप पर संजय गांधी राष्ट्रीय उद्यान में स्थित हैं।",
+              "solution-english": "Solution: The Kanheri Caves, a group of rock-cut monuments that served as Buddhist Viharas (monasteries), are located in the Sanjay Gandhi National Park on the island of Salsette in Mumbai, Maharashtra."
+            },{
+              "question-hindi": " प्राचीन भारत की टेराकोटा कला को किस राजवंश के संरक्षण में अपनी सर्वश्रेष्ठ पहचान मिली?",
+              "question-english" : "The terracotta art of ancient India was redefined at its best under the patronage of which dynasty?",
+              "options-hindi": ["(a) शुंग राजवंश", "(b) मौर्य राजवंश", "(c) गुप्त राजवंश", "(d) कुषाण राजवंश"],
+              "options-english": ["(a) Sunga Dynasty", "(b) Mauryan Dynasty", "(c) Gupta Dynasty", "(d) Kushan Dynasty"],
+              "answer-hindi": "सही उत्तर: (c) गुप्त राजवंश",
+              "answer-english": "Correct Answer: (c) Gupta Dynasty",
+              "solution-hindi": "समाधान: गुप्त काल (लगभग 320 से 550 ईस्वी) को अक्सर टेराकोटा कला सहित 'भारतीय कला का स्वर्ण युग' कहा जाता है। इस अवधि के दौरान, टेराकोटा ने उत्कृष्ट रूप और विस्तृत विवरणों की विशेषता के साथ उच्च स्तर की उत्कृष्टता प्राप्त की।",
+              "solution-english": "Solution: The Gupta period (c. 320 to 550 CE) is often referred to as the 'Golden Age of Indian Art,' including terracotta art. During this period, terracotta attained a high degree of excellence, characterized by refined forms and elaborate details."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा ऊर्जा स्रोत कोई वायुमंडलीय प्रदूषण उत्पन्न नहीं करता है?",
+              "question-english" : "Which of the following energy sources produces no atmospheric pollution?",
+              "options-hindi": ["(a) परमाणु ऊर्जा", "(b) पेट्रोलियम ऊर्जा", "(c) सौर ऊर्जा", "(d) कोयला ऊर्जा"],
+              "options-english": ["(a) Nuclear Energy", "(b) Petroleum Energy", "(c) Solar Energy", "(d) Coal Energy"],
+              "answer-hindi": "सही उत्तर: (c) सौर ऊर्जा",
+              "answer-english": "Correct Answer: (c) Solar Energy",
+              "solution-hindi": "समाधान: सौर ऊर्जा, जब फोटोवोल्टिक पैनलों या केंद्रित सौर ऊर्जा के माध्यम से उपयोग की जाती है, तो संचालन के दौरान ग्रीनहाउस गैसों या वायुमंडलीय प्रदूषकों का उत्सर्जन किए बिना बिजली उत्पन्न करती है। जबकि परमाणु ऊर्जा के संचालन के दौरान न्यूनतम वायुमंडलीय प्रदूषण होता है, यूरेनियम के खनन और अपशिष्ट निपटान के पर्यावरणीय प्रभाव होते हैं। पेट्रोलियम और कोयला ऊर्जा स्रोत वायुमंडलीय प्रदूषण के प्रमुख योगदानकर्ता हैं।",
+              "solution-english": "Solution: Solar energy, when harnessed through photovoltaic panels or concentrated solar power, produces electricity without emitting greenhouse gases or atmospheric pollutants during operation. While nuclear energy has minimal atmospheric pollution during operation, the mining of uranium and waste disposal have environmental impacts. Petroleum and coal energy sources are major contributors to atmospheric pollution."
+            },{
+              "question-hindi": "कौन सा राज्य इंदिरा गांधी शहरी रोजगार गारंटी योजना से संबंधित है?",
+              "question-english" : "Which state is related to the Indira Gandhi Shahri Rozgar Guarantee Yojana?",
+              "options-hindi": ["(a) अरुणाचल प्रदेश", "(b) पंजाब", "(c) तमिलनाडु", "(d) राजस्थान"],
+              "options-english": ["(a) Arunachal Pradesh", "(b) Punjab", "(c) Tamil Nadu", "(d) Rajasthan"],
+              "answer-hindi": "सही उत्तर: (d) राजस्थान",
+              "answer-english": "Correct Answer: (d) Rajasthan",
+              "solution-hindi": "समाधान: इंदिरा गांधी शहरी रोजगार गारंटी योजना राजस्थान राज्य सरकार द्वारा शुरू की गई एक प्रमुख शहरी रोजगार गारंटी योजना है। इसका उद्देश्य शहरी क्षेत्रों में जरूरतमंद परिवारों को 100 दिनों का रोजगार प्रदान करना है।",
+              "solution-english": "Solution: The Indira Gandhi Shahri Rozgar Guarantee Yojana is a flagship urban employment guarantee scheme launched by the state government of Rajasthan. It aims to provide 100 days of employment to needy families in urban areas."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन एक चालक है?",
+              "question-english" : "Which of the following is a conductor?",
+              "options-hindi": ["(a) प्लास्टिक, पीवीसी", "(b) अभ्रक", "(c) चीनी का घोल", "(d) नमक का घोल"],
+              "options-english": ["(a) Plastic, PVC", "(b) Mica", "(c) Sugar solution", "(d) Salt solution"],
+              "answer-hindi": "सही उत्तर: (d) नमक का घोल",
+              "answer-english": "Correct Answer: (d) Salt solution",
+              "solution-hindi": "समाधान: एक नमक का घोल (उदाहरण के लिए, पानी में घुला हुआ सामान्य नमक) बिजली का संचालन करता है क्योंकि नमक आयनों (चार्ज किए गए कणों) में विघटित हो जाता है जो समाधान के माध्यम से स्वतंत्र रूप से घूम सकते हैं, जिससे विद्युत प्रवाह होता है। प्लास्टिक, पीवीसी और अभ्रक आम तौर पर विद्युत इन्सुलेटर होते हैं, और एक शुद्ध चीनी का घोल भी एक खराब चालक होता है।",
+              "solution-english": "Solution: A salt solution (e.g., common salt dissolved in water) conducts electricity because the salt dissociates into ions (charged particles) that can move freely through the solution, carrying electric current. Plastic, PVC, and mica are generally electrical insulators, and a pure sugar solution is also a poor conductor."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा क्षेत्र भारत के प्रमुख अभ्रक भंडारों में से एक है?",
+              "question-english" : "Which of the following regions is one of the prominent Mica reserves of India?",
+              "options-hindi": ["(a) हजारीबाग पठार", "(b) बस्तर पठार", "(c) अरावली रेंज", "(d) निकोबार द्वीप समूह"],
+              "options-english": ["(a) Hazaribagh plateau", "(b) Bastar plateau", "(c) Aravalli range", "(d) Nicobar islands"],
+              "answer-hindi": "सही उत्तर: (a) हजारीबाग पठार",
+              "answer-english": "Correct Answer: (a) Hazaribagh plateau",
+              "solution-hindi": "समाधान: झारखंड में हजारीबाग पठार भारत में अपने प्रमुख अभ्रक भंडारों के लिए एक प्रसिद्ध क्षेत्र है। भारत विश्व स्तर पर अभ्रक के अग्रणी उत्पादकों में से एक है।",
+              "solution-english": "Solution: The Hazaribagh plateau in Jharkhand is a well-known region for its prominent mica reserves in India. India is one of the leading producers of mica globally."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन शांति के नोबेल पुरस्कार का सबसे युवा विजेता है?",
+              "question-english" : "Who among the following is the Youngest winner of the Nobel Prize in Peace?",
+              "options-hindi": ["(a) नादिया मुराद", "(b) लॉरेंस ब्रैग", "(c) मलाला यूसुफजई", "(d) जोसेफ रोटब्लाट"],
+              "options-english": ["(a) Nadia Murad", "(b) Lawrence Bragg", "(c) Malala Yousafzai", "(d) Joseph Rotblat"],
+              "answer-hindi": "सही उत्तर: (c) मलाला यूसुफजई",
+              "answer-english": "Correct Answer: (c) Malala Yousafzai",
+              "solution-hindi": "समाधान: पाकिस्तान की मलाला यूसुफजई सबसे कम उम्र की नोबेल पुरस्कार विजेता हैं, जिन्होंने 2014 में 17 साल की उम्र में बच्चों और युवाओं के दमन के खिलाफ और सभी बच्चों के शिक्षा के अधिकार के लिए अपने संघर्ष के लिए नोबेल शांति पुरस्कार प्राप्त किया था।",
+              "solution-english": "Solution: Malala Yousafzai of Pakistan is the youngest Nobel Prize laureate, having received the Nobel Peace Prize in 2014 at the age of 17 for her struggle against the suppression of children and young people and for the right of all children to education."
+            },{
+              "question-hindi": "एक इंद्रधनुष हमेशा किस दिशा में बनता है?",
+              "question-english" : "A rainbow is always formed in a direction",
+              "options-hindi": ["(a) सूर्य के ऊपर", "(b) सूर्य के विपरीत", "(c) सूर्य के नीचे", "(d) सूर्य के समान स्तर पर"],
+              "options-english": ["(a) Above the sun", "(b) Opposite to the sun", "(c) Below the sun", "(d) At the same level of the sun"],
+              "answer-hindi": "सही उत्तर: (b) सूर्य के विपरीत",
+              "answer-english": "Correct Answer: (b) Opposite to the sun",
+              "solution-hindi": "समाधान: एक इंद्रधनुष हमेशा आकाश के उस हिस्से में बनता है जो सूर्य के ठीक विपरीत होता है। इंद्रधनुष देखने के लिए, सूर्य आपके पीछे होना चाहिए, और बारिश या धुंध आपके सामने होनी चाहिए।",
+              "solution-english": "Solution: A rainbow is always formed in the part of the sky directly opposite the sun. For you to see a rainbow, the sun must be behind you, and the rain or mist in front of you."
+            },{
+              "question-hindi": "निम्नलिखित में से बेरियम पेरोक्साइड का सूत्र क्या है?",
+              "question-english" : "47) Which of the following is the formula of barium peroxide?",
+              "options-hindi": ["(a) Ba2O2", "(b) BaSO4", "(c) BaO", "(d) BaO2"],
+              "options-english": ["(a) Ba2O2", "(b) BaSO4", "(c) BaO", "(d) BaO2"],
+              "answer-hindi": "सही उत्तर: (d) BaO2",
+              "answer-english": "Correct Answer: (d) BaO2",
+              "solution-hindi": "समाधान: बेरियम पेरोक्साइड का रासायनिक सूत्र BaO2 है। BaSO4 बेरियम सल्फेट है, और BaO बेरियम ऑक्साइड है।",
+              "solution-english": "Solution: The chemical formula for barium peroxide is BaO2. BaSO4 is barium sulfate, and BaO is barium oxide."
+            },{
+              "question-hindi": "लोहे में जंग लगना एक ______ है।",
+              "question-english" : "Rusting of Iron is a ______",
+              "options-hindi": ["(a) भौतिक परिवर्तन", "(b) रासायनिक परिवर्तन", "(c) जैव रासायनिक परिवर्तन", "(d) विद्युत रासायनिक परिवर्तन"],
+              "options-english": ["(a) Physical Change", "(b) Chemical change", "(c) Biochemical change", "(d) Electrochemical change"],
+              "answer-hindi": "सही उत्तर: (d) विद्युत रासायनिक परिवर्तन",
+              "answer-english": "Correct Answer: (d) Electrochemical change",
+              "solution-hindi": "समाधान: लोहे में जंग लगना एक विद्युत रासायनिक प्रक्रिया है जहाँ लोहा ऑक्सीजन और पानी के साथ प्रतिक्रिया करके हाइड्रेटेड आयरन (III) ऑक्साइड बनाता है, जिसे आमतौर पर जंग के रूप में जाना जाता है। इसमें ऑक्सीकरण और कमी दोनों प्रतिक्रियाएँ शामिल हैं, जिससे यह एक विद्युत रासायनिक परिवर्तन बन जाता है। यह एक प्रकार का रासायनिक परिवर्तन भी है।",
+              "solution-english": "Solution: Rusting of iron is an electrochemical process where iron reacts with oxygen and water to form hydrated iron (III) oxide, commonly known as rust. This involves both oxidation and reduction reactions, making it an electrochemical change. It is also a type of chemical change."
+            },{
+              "question-hindi": " निम्नलिखित में से कौन प्रधान मंत्री की सलाह पर लोकसभा को उसके कार्यकाल की समाप्ति से पहले भंग कर सकता है?",
+              "question-english" : "Who among the following can dissolve the Lok Sabha on the advice of the Prime Minister before the expiry of its term?",
+              "options-hindi": ["(a) उपराष्ट्रपति", "(b) राज्यसभा के अध्यक्ष", "(c) लोकसभा के अध्यक्ष", "(d) राष्ट्रपति"],
+              "options-english": ["(a) The Vice-President", "(b) The Speaker of Rajya Sabha", "(c) The Speaker of Lok Sabha", "(d) The President"],
+              "answer-hindi": "सही उत्तर: (d) राष्ट्रपति",
+              "answer-english": "Correct Answer: (d) The President",
+              "solution-hindi": "समाधान: भारत के राष्ट्रपति के पास लोकसभा (संसद के निचले सदन) को उसके कार्यकाल की समाप्ति से पहले भंग करने की शक्ति है, लेकिन इस शक्ति का प्रयोग प्रधान मंत्री की अध्यक्षता वाली मंत्रिपरिषद की सहायता और सलाह पर किया जाता है।",
+              "solution-english": "Solution: The President of India has the power to dissolve the Lok Sabha (the lower house of Parliament) before the expiry of its term, but this power is exercised on the aid and advice of the Council of Ministers headed by the Prime Minister."
+            },{
+              "question-hindi": "काजीरंगा राष्ट्रीय उद्यान कहाँ स्थित है?",
+              "question-english" : "Where is the Kaziranga National Park located?",
+              "options-hindi": ["(a) आंध्र प्रदेश", "(b) असम", "(c) बिहार", "(d) अंडमान निकोबार"],
+              "options-english": ["(a) Andhra Pradesh", "(b) Assam", "(c) Bihar", "(d) Andaman Nicobar"],
+              "answer-hindi": "सही उत्तर: (b) असम",
+              "answer-english": "Correct Answer: (b) Assam",
+              "solution-hindi": "समाधान: काजीरंगा राष्ट्रीय उद्यान, एक यूनेस्को विश्व धरोहर स्थल जो एक सींग वाले गैंडों की आबादी के लिए प्रसिद्ध है, भारत के असम राज्य में स्थित है।",
+              "solution-english": "Solution: Kaziranga National Park, a UNESCO World Heritage Site famous for its population of one-horned rhinoceroses, is located in the state of Assam, India."
+            }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+    "question-hindi": "उस विकल्प का चयन करें जो दिए गए शब्दों के सही क्रम का प्रतिनिधित्व करता है जैसा कि वे एक अंग्रेजी शब्दकोश में दिखाई देंगे। 1 Monetary (मौद्रिक) 2 Monarch (सम्राट) 3 Mongrel (दोगला) 4 Monastery (मठ) 5 Mongoose (नेवला)",
+    "question-english": "Select the option that represents the correct order of the given words as they would appear in an English dictionary. 1 Monetary 2 Monarch 3 Mongrel 4 Monastery 5 Mongoose",
+    "options-hindi": ["2, 4, 1, 3, 5", "2, 4, 3, 5, 1", "4, 2, 1, 5, 3", "4, 2, 5, 3, 1"],
+    "options-english": ["2, 4, 1, 3, 5", "2, 4, 3, 5, 1", "4, 2, 1, 5, 3", "4, 2, 5, 3, 1"],
+    "answer-hindi": "(b) 2, 4, 3, 5, 1",
+    "answer-english": "(b) 2, 4, 3, 5, 1",
+    "solution-hindi": "शब्दों को वर्णानुक्रम में व्यवस्थित किया गया है: Monarch, Monastery, Mongrel, Mongoose, Monetary।",
+    "solution-english": "The words are arranged in alphabetical order: Monarch, Monastery, Mongrel, Mongoose, Monetary."
+  },
+  {
+    "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं। (24, 8, 48) (36, 12, 72)",
+    "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (24, 8, 48) (36, 12, 72)",
+    "options-hindi": ["(42, 16, 84)", "(39, 13, 78)", "(28, 9, 54)", "(45, 15, 80)"],
+    "options-english": ["(42, 16, 84)", "(39, 13, 78)", "(28, 9, 54)", "(45, 15, 80)"],
+    "answer-hindi": "(b) (39, 13, 78)",
+    "answer-english": "(b) (39, 13, 78)",
+    "solution-hindi": "तर्क: (पहली संख्या ÷ 3 = दूसरी संख्या) और (पहली संख्या × 2 = तीसरी संख्या)।",
+    "solution-english": "Logic: (First Number ÷ 3 = Second Number) and (First Number × 2 = Third Number)."
+  },
+  {
+    "question-hindi": "उस विकल्प का चयन करें जिसमें शब्द दिए गए शब्दों के सेट द्वारा साझा किए गए समान संबंध को साझा करते हैं। कार : सेडान : हैचबैक",
+    "question-english": "Select the alternative in which the words share the same relationship as that shared by the given set of words. Car : Sedan : Hatchback",
+    "options-hindi": ["फूल : गुलाब : कमल", "पेड़ : शाखा : पत्ती", "फर्नीचर : कुर्सी : मेज", "वाहन : सड़क : इंजन"],
+    "options-english": ["Flower : Rose : Lotus", "Tree : Branch : Leaf", "Furniture : Chair : Table", "Vehicle : Road : Engine"],
+    "answer-hindi": "(c) फर्नीचर : कुर्सी : मेज",
+    "answer-english": "(c) Furniture : Chair : Table",
+    "solution-hindi": "सेडान और हैचबैक कार के प्रकार हैं। इसी तरह कुर्सी और मेज फर्नीचर के प्रकार हैं।",
+    "solution-english": "Sedan and Hatchback are types of Cars. Similarly, Chair and Table are types of Furniture."
+  },
+  {
+    "question-hindi": "एक तस्वीर की ओर इशारा करते हुए, एक महिला कहती है, 'वह मेरे दादा के इकलौते बेटे का बेटा है।' तस्वीर में दिख रहा आदमी महिला से कैसे संबंधित है?",
+    "question-english": "Pointing to a photograph, a woman says, 'He is the son of my grandfather’s only son.' How is the man in the photograph related to the woman?",
+    "options-hindi": ["पिता", "भाई", "चाचा", "चचेरा भाई"],
+    "options-english": ["Father", "Brother", "Uncle", "Cousin"],
+    "answer-hindi": "(b) भाई",
+    "answer-english": "(b) Brother",
+    "solution-hindi": "मेरे दादा का इकलौता बेटा मेरे पिता है। मेरे पिता का बेटा मेरा भाई है।",
+    "solution-english": "My grandfather’s only son is my father. The son of my father is my brother."
+  },
+  {
+    "question-hindi": "FLM : HJO :: PUS : ?",
+    "question-english": "FLM : HJO :: PUS : ?",
+    "options-hindi": ["RRT", "RSU", "QST", "RSR"],
+    "options-english": ["RRT", "RSU", "QST", "RSR"],
+    "answer-hindi": "(b) RSU",
+    "answer-english": "(b) RSU",
+    "solution-hindi": "F(+2)=H, L(-2)=J, M(+2)=O. इसी तरह P(+2)=R, U(-2)=S, S(+2)=U।",
+    "solution-english": "F(+2)=H, L(-2)=J, M(+2)=O. Similarly, P(+2)=R, U(-2)=S, S(+2)=U."
+  },
+  {
+    "question-hindi": "दिए गए विकल्पों में से तीन समान हैं, लेकिन एक अलग है। बाकी से अलग विकल्प चुनें।",
+    "question-english": "Out of the given options, three are similar in a certain manner. However, one is different. Select the odd one.",
+    "options-hindi": ["दौड़ना", "तैरना", "नाचना", "सांस लेना"],
+    "options-english": ["Running", "Swimming", "Dancing", "Breathing"],
+    "answer-hindi": "(d) सांस लेना",
+    "answer-english": "(d) Breathing",
+    "solution-hindi": "दौड़ना, तैरना, नाचना शारीरिक गतिविधियाँ हैं। सांस लेना एक जैविक प्रक्रिया है।",
+    "solution-english": "Running, Swimming, and Dancing are physical activities. Breathing is a biological process."
+  },
+  {
+    "question-hindi": "तीन विकल्प समान हैं, जबकि एक बाकी से अलग है। विषम को चुनें।",
+    "question-english": "Of the given options, three are similar in a certain manner. However, one option is NOT like the other three. Select the option which is different from the rest.",
+    "options-hindi": ["ACE", "GIK", "MOP", "TVX"],
+    "options-english": ["ACE", "GIK", "MOP", "TVX"],
+    "answer-hindi": "(c) MOP",
+    "answer-english": "(c) MOP",
+    "solution-hindi": "अन्य सभी +2 पैटर्न का पालन करते हैं। M(+2)=O, O(+1)=P।",
+    "solution-english": "All others follow a +2 pattern. M(+2)=O, O(+1)=P."
+  },
+  {
+    "question-hindi": "नीचे दिए गए चार में से चार किसी तरह समान हैं। इनमें से कौन समूह से संबंधित नहीं है?",
+    "question-english": "Four of the following given below are similar in some way and form a group. Which of these does not belong to the group?",
+    "options-hindi": ["BFJ", "RVI", "LPT", "HLD"],
+    "options-english": ["BFJ", "RVI", "LPT", "HLD"],
+    "answer-hindi": "(b) RVI",
+    "answer-english": "(b) RVI",
+    "solution-hindi": "(b) को छोड़कर अन्य सभी विकल्पों में अक्षर समान अंतराल से आगे बढ़ते हैं।",
+    "solution-english": "Except (b), all options follow a consistent alphabetical gap pattern."
+  },
+  {
+    "question-hindi": "चार अक्षर समूहों में से तीन एक जैसे हैं, और एक अलग है। विषम को चुनें।",
+    "question-english": "Three of the following four letter-clusters are alike in a certain way and one is different. Choose the odd one.",
+    "options-hindi": ["CXDW", "GTRQ", "AZBY", "EVFU"],
+    "options-english": ["CXDW", "GTRQ", "AZBY", "EVFU"],
+    "answer-hindi": "(b) GTRQ",
+    "answer-english": "(b) GTRQ",
+    "solution-hindi": "पहले तीन में अक्षर जोड़े विपरीत हैं (A-Z, B-Y, C-X, D-W)। GTRQ में ऐसा नहीं है।",
+    "solution-english": "In the first three, letters are opposite pairs (A-Z, B-Y, etc.). GTRQ breaks the pattern."
+  },
+  {
+    "question-hindi": "उस विकल्प का चयन करें जिसमें दो शब्द बाकी विकल्पों से भिन्न संबंध साझा करते हैं।",
+    "question-english": "Select the option in which the two words share a different relationship from that shared by the two words in the rest of the options.",
+    "options-hindi": ["जीत - हार", "गर्म - ठंडा", "ऊपर - नीचे", "तेज - त्वरित"],
+    "options-english": ["Win - Lose", "Hot - Cold", "Up - Down", "Fast - Quick"],
+    "answer-hindi": "(d) तेज - त्वरित",
+    "answer-english": "(d) Fast - Quick",
+    "solution-hindi": "अन्य सभी जोड़े विलोम हैं। 'तेज' और 'त्वरित' समानार्थी शब्द हैं।",
+    "solution-english": "All other pairs are antonyms. 'Fast' and 'Quick' are synonyms."
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q11.png",
+  "question-english": "Three of the given four figures are similar in a certain manner while one is different. Pick the odd one out.",
+  "question-hindi": "दिए गए चार आरेखों में से तीन किसी न किसी प्रकार से समान हैं जबकि एक अलग है। भिन्न आरेख का चयन करें।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "D",
+  "answer-hindi": "D",
+  "solution-english": "In figures A, C, and D, the shapes inside are divided vertically, while in figure B the shape is divided horizontally. Hence, option B is the odd one out.",
+  "solution-hindi": "आरेख A, C और D में अंदर का आकार लंबवत रूप से विभाजित है, जबकि आरेख B में आकार क्षैतिज रूप से विभाजित है। इसलिए, विकल्प B भिन्न है।"
+},{
+  "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (64, 8, 48) (100, 10, 80) (5, 8, 39) (7, 10, 69)",
+  "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं। (64, 8, 48) (100, 10, 80) (5, 8, 39) (7, 10, 69)",
+  "options-english": ["(6, 9, 53)", "(4, 11, 43)", "(8, 12, 95)", "(9, 11, 98)"],
+  "options-hindi": ["(6, 9, 53)", "(4, 11, 43)", "(8, 12, 95)", "(9, 11, 98)"],
+  "answer-english": "(a) (6, 9, 53)",
+  "answer-hindi": "(a) (6, 9, 53)",
+  "solution-english": "(First Number × Second Number) - 1 = Third Number. 5 × 8 - 1 = 39; 7 × 10 - 1 = 69; 6 × 9 - 1 = 53.",
+  "solution-hindi": "(पहली संख्या × दूसरी संख्या) - 1 = तीसरी संख्या। 5 × 8 - 1 = 39; 7 × 10 - 1 = 69; 6 × 9 - 1 = 53."
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q13.png",
+  "question-english": "Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the odd figure.",
+  "question-hindi": "निम्नलिखित पाँच आरेखों में से चार किसी न किसी प्रकार से समान हैं और एक उस प्रकार से भिन्न है। भिन्न आरेख का चयन करें।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "In all figures except option C, the face is upright and aligned correctly. In option C, the face is tilted differently. Hence, option C is the odd one out.",
+  "solution-hindi": "सभी आरेखों में चेहरे सीधे और सही दिशा में हैं, केवल विकल्प C में चेहरा अलग कोण पर झुका हुआ है। इसलिए, विकल्प C भिन्न है।"
+},{
+  "question-english": "A cube is cut into 125 smaller cubes of equal size. How many cubes have no surface painted?",
+  "question-hindi": "एक घन को समान आकार के 125 छोटे घनों में काटा जाता है। कितने घनों की कोई सतह रंगी नहीं है?",
+  "options-english": ["9", "16", "27", "64"],
+  "options-hindi": ["9", "16", "27", "64"],
+  "answer-english": "(c) 27",
+  "answer-hindi": "(c) 27",
+  "solution-english": "The total number of smaller cubes is 125. Therefore, n³ = 125, which means n = 5. The number of cubes with no surface painted is calculated as (n-2)³ = (5-2)³ = 3³ = 27.",
+  "solution-hindi": "छोटे घनों की कुल संख्या 125 है। इसलिए, n³ = 125, जिसका अर्थ है n = 5। बिना किसी सतह के रंगे घनों की संख्या की गणना (n-2)³ = (5-2)³ = 3³ = 27 के रूप में की जाती है।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q15.png",
+  "question-english": "How many triangles are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "B",
+  "answer-hindi": "B",
+  "solution-english": "By counting all small, medium, and large triangles, there are a total of 18 triangles in the given figure.",
+  "solution-hindi": "सभी छोटे, मध्यम और बड़े त्रिभुजों को गिनने पर, दिए गए चित्र में कुल 18 त्रिभुज हैं।"
+},{
+  "question-english": "In a certain code language, 'SMART' is coded as 191311820 and 'STYLE' is coded as 192025125. How will 'GREAT' be coded in that language?",
+  "question-hindi": "एक निश्चित कूट भाषा में, 'SMART' को 191311820 और 'STYLE' को 192025125 के रूप में कोडित किया गया है। उस भाषा में 'GREAT' को कैसे कोडित किया जाएगा?",
+  "options-english": ["7185120", "7185120", "7185120", "7185120"],
+  "options-hindi": ["7185120", "7185120", "7185120", "7185120"],
+  "answer-english": "(a) 7185120",
+  "answer-hindi": "(a) 7185120",
+  "solution-english": "The letters are replaced by their corresponding alphabetical position numbers. G=7, R=18, E=5, A=1, T=20.",
+  "solution-hindi": "अक्षरों को उनके संबंधित वर्णानुक्रमिक स्थिति संख्या से बदल दिया जाता है। G=7, R=18, E=5, A=1, T=20।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q17.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q17.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+    "question-english": "In a certain code language, ‘BRIGHT’ is written as ‘CSJHIU’ and ‘JOINT’ is written as ‘KPJOU’. How will ‘WATER’ be written in that language?",
+    "question-hindi": "एक निश्चित कूट भाषा में, 'BRIGHT' को 'CSJHIU' और 'JOINT' को 'KPJOU' लिखा जाता है। उस भाषा में 'WATER' को कैसे लिखा जाएगा?",
+    "options-english": ["XBUFS", "XBVFS", "YBVFS", "XBUFR"],
+    "options-hindi": ["XBUFS", "XBVFS", "YBVFS", "XBUFR"],
+    "answer-english": "(a) XBUFS",
+    "answer-hindi": "(a) XBUFS",
+    "solution-english": "Each letter is shifted one position forward in the alphabet. W+1 = X, A+1 = B, T+1 = U, E+1 = F, R+1 = S.",
+    "solution-hindi": "प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे बढ़ाया जाता है। W+1 = X, A+1 = B, T+1 = U, E+1 = F, R+1 = S।"
+  },
+  {
+    "question-english": "If PINK is coded as OHOJ, then how will BLUE be coded?",
+    "question-hindi": "यदि PINK को OHOJ के रूप में कोडित किया गया है, तो BLUE को कैसे कोडित किया जाएगा?",
+    "options-english": ["AKTD", "AKUD", "AKTC", "ALTD"],
+    "options-hindi": ["AKTD", "AKUD", "AKTC", "ALTD"],
+    "answer-english": "(b) AKUD",
+    "answer-hindi": "(b) AKUD",
+    "solution-english": "The pattern is -1, -1, +1, -1. P-1=O, I-1=H, N+1=O, K-1=J. Similarly, B-1=A, L-1=K, U+1=V, E-1=D.",
+    "solution-hindi": "पैटर्न -1, -1, +1, -1 है। P-1=O, I-1=H, N+1=O, K-1=J। इसी तरह, B-1=A, L-1=K, U+1=V, E-1=D।"
+  },
+  {
+    "question-english": "If + means –, – means ×, × means ÷, and ÷ means +, what will come in place of the question mark (?) in the following equation: 30 - 5 + 4 x 10 ÷ 5 = ?",
+    "question-hindi": "यदि + का अर्थ ‘-’, ‘-’ का अर्थ ×, × का अर्थ ÷, और ÷ का अर्थ + है, तो निम्नलिखित समीकरण में प्रश्न चिह्न (?) के स्थान पर क्या आएगा: 30 - 5 + 4 x 10 ÷ 5 = ?",
+    "options-english": ["33", "153", "149", "151"],
+    "options-hindi": ["33", "153", "149", "151"],
+    "answer-english": "(d) 151",
+    "answer-hindi": "(d) 151",
+    "solution-english": "After replacing the symbols: 30 × 5 – 4 ÷ 10 + 5. Using BODMAS, evaluate accordingly. Final result: 151.",
+    "solution-hindi": "प्रतीकों को बदलने के बाद: 30 × 5 – 4 ÷ 10 + 5। BODMAS का उपयोग करके हल करें। अंतिम परिणाम: 151।"
+  },
+  {
+    "question-english": "A, B, C, D, E, F, G and H are sitting around a circle facing the centre. D is second to the left of F and third to the right of H. A is second to the right of F and an immediate neighbor of H. C is second to the right of B and F is third to the right of B. G is not an immediate neighbor of F. Which of the following is correct?",
+    "question-hindi": "A, B, C, D, E, F, G और H केंद्र की ओर मुख करके एक वृत्त के चारों ओर बैठे हैं। D, F के बाएं से दूसरा है और H के दाएं से तीसरा है। A, F के दाएं से दूसरा है और H का तत्काल पड़ोसी है। C, B के दाएं से दूसरा है और F, B के दाएं से तीसरा है। G, F का तत्काल पड़ोसी नहीं है। निम्नलिखित में से कौन सा सही है?",
+    "options-english": ["C is to the immediate left of A", "A is to the immediate right of H", "G is second to the right of D", "B is second to the right of H"],
+    "options-hindi": ["C, A के तत्काल बाएं है", "A, H के तत्काल दाएं है", "G, D के दाएं से दूसरा है", "B, H के दाएं से दूसरा है"],
+    "answer-english": "(b) A is to the immediate right of H",
+    "answer-hindi": "(b) A, H के तत्काल दाएं है",
+    "solution-english": "Based on the seating arrangement derived from the given conditions, the clockwise order is H, A, G, F, C, E, D, B. Hence, A is to the immediate right of H.",
+    "solution-hindi": "दी गई शर्तों से प्राप्त बैठने की व्यवस्था के आधार पर, दक्षिणावर्त क्रम H, A, G, F, C, E, D, B है। अतः A, H के तत्काल दाएं है।"
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q22.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q22.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "'DEAL' is coded as '4513' and 'IDLE' is coded as '9435'. What is the code for 'L'?",
+  "question-hindi": "'DEAL' को '4513' और 'IDLE' को '9435' के रूप में कोडित किया गया है। 'L' के लिए कोड क्या है?",
+  "options-english": ["3", "4", "5", "9"],
+  "options-hindi": ["3", "4", "5", "9"],
+  "answer-english": "(a) 3",
+  "answer-hindi": "(a) 3",
+  "solution-english": "By comparing the codes for DEAL and IDLE, the common letter 'L' corresponds to the common number '3'.",
+  "solution-hindi": "DEAL और IDLE के कोड की तुलना करके, सामान्य अक्षर 'L' सामान्य संख्या '3' से मेल खाता है।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q24.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q24.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q25.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q25.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+}
+
+          ]
+    },
+    {
+      "section": "Mathematics",
+          
+  "questions": [
+    {
+      "question-hindi": "एक दुकानदार अपने ग्राहकों को 10% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि किसी वस्तु की लागत दुकानदार को ₹4,500 है, तो उसका अंकित मूल्य क्या है?",
+      "question-english": "A shopkeeper offers his customers a discount of 10% and still makes a profit of 20%. If an item costs the shopkeeper ₹4,500, what is its marked price?",
+      "options-hindi": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
+      "options-english": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
+      "answer-hindi": "सही उत्तर: (a) ₹6,000",
+      "answer-english": "Correct Answer: (a) ₹6,000",
+      "solution-hindi": "• लागत मूल्य (CP) = ₹4,500\n• लाभ = 20%\n• विक्रय मूल्य (SP) = CP × (1 + लाभ/100) = 4500 × 1.20 = ₹5,400\n• छूट = 10%\n• अंकित मूल्य (MP) = SP / (1 - छूट/100) = 5400 / 0.90 = ₹6,000",
+      "solution-english": "• Cost Price (CP) = ₹4,500\n• Profit = 20%\n• Selling Price (SP) = CP × (1 + Profit/100) = 4500 × 1.20 = ₹5,400\n• Discount = 10%\n• Marked Price (MP) = SP / (1 - Discount/100) = 5400 / 0.90 = ₹6,000"
+    },
+    {
+      "question-hindi": "दो संख्याओं का LCM (लघुत्तम समापवर्त्य) उनके HCF (महत्तम समापवर्तक) का 15 गुना है। यदि एक संख्या 75 है और LCM तथा HCF का योग 240 है, तो दूसरी संख्या क्या है?",
+      "question-english": "The LCM of two numbers is 15 times their HCF. If one of the numbers is 75 and the sum of the LCM and HCF is 240, then what is the other number?",
+      "options-hindi": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
+      "options-english": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
+      "answer-hindi": "सही उत्तर: (b) 45",
+      "answer-english": "Correct Answer: (b) 45",
+      "solution-hindi": "• L = 15H और L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15\n• L = 15 × 15 = 225\n• 75 × (दूसरी संख्या) = 15 × 225 → दूसरी संख्या = 3375 / 75 = 45",
+      "solution-english": "• L = 15H and L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15\n• L = 15 × 15 = 225\n• 75 × (Second Number) = 15 × 225 → Second Number = 3375 / 75 = 45"
+    },
+    {
+      "question-hindi": "एक त्रिभुज का क्षेत्रफल एक वर्ग के क्षेत्रफल का एक-तिहाई है। वर्ग की परिधि 240 सेमी है। त्रिभुज का क्षेत्रफल (सेमी² में) क्या है?",
+      "question-english": "The area of a triangle is one-third the area of a square. The perimeter of the square is 240 cm. What is the area of the triangle (in cm²)?",
+      "options-hindi": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
+      "options-english": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
+      "answer-hindi": "सही उत्तर: (a) 1200",
+      "answer-english": "Correct Answer: (a) 1200",
+      "solution-hindi": "• वर्ग की परिधि = 4 × भुजा = 240 सेमी → भुजा = 60 सेमी\n• वर्ग का क्षेत्रफल = भुजा² = 60² = 3600 सेमी²\n• त्रिभुज का क्षेत्रफल = (1/3) × वर्ग का क्षेत्रफल = (1/3) × 3600 = 1200 सेमी²",
+      "solution-english": "• Perimeter of square = 4 × side = 240 cm → side = 60 cm\n• Area of square = side² = 60² = 3600 cm²\n• Area of triangle = (1/3) × Area of square = (1/3) × 3600 = 1200 cm²"
+    },
+    {
+      "question-hindi": "दो उम्मीदवारों के बीच एक चुनाव में, 80% मतदाताओं ने अपने मत डाले, जिनमें से 5% मत अवैध घोषित कर दिए गए। यदि जीतने वाले उम्मीदवार को वैध मतों का 65% मिला और पात्र मतदाताओं की कुल संख्या 20,000 थी, तो जीतने वाले उम्मीदवार को कितने मत मिले?",
+      "question-english": "In an election between two candidates, 80% of the voters cast their votes, out of which 5% of the votes were declared invalid. If the winning candidate got 65% of the valid votes and the total number of eligible voters was 20,000, how many votes did the winning candidate receive?",
+      "options-hindi": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
+      "options-english": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
+      "answer-hindi": "सही उत्तर: (a) 9880",
+      "answer-english": "Correct Answer: (a) 9880",
+      "solution-hindi": "• कुल मतदाता = 20,000\n• डाले गए मत = 20,000 का 80% = 16,000\n• अवैध मत = 16,000 का 5% = 800\n• वैध मत = 16,000 - 800 = 15,200\n• जीतने वाले उम्मीदवार के मत = 15,200 का 65% = 0.65 × 15,200 = 9,880",
+      "solution-english": "• Total voters = 20,000\n• Votes cast = 80% of 20,000 = 16,000\n• Invalid votes = 5% of 16,000 = 800\n• Valid votes = 16,000 - 800 = 15,200\n• Winning candidate's votes = 65% of 15,200 = 0.65 × 15,200 = 9,880"
+    }
+  ]
+          
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा MS Word 365 में Save as विकल्प के लिए एक शॉर्टकट कुंजी है?",
+              "question-english" : "Which of the following is a shortcut key for Save as option in MS Word 365?",
+              "options-hindi": ["A). F12", "B). F2", "C). F11", "D). F1"],
+              "options-english": ["A). F12", "B). F2", "C). F11", "D). F1"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: माइक्रोसॉफ्ट वर्ड में F12 कुंजी दबाने से सीधे 'Save As' डायलॉग बॉक्स खुल जाएगा, जिससे आप वर्तमान दस्तावेज़ को एक नए नाम से या एक नए स्थान पर सहेज सकते हैं।",
+              "solution-english": "Solution: Pressing the F12 key in Microsoft Word will directly open the 'Save As' dialog box, allowing you to save the current document with a new name or to a new location."
+            },
+            {
+              "question-hindi": "MS Excel 365 में एक्सेल शीट में पंक्तियों को हटाने से संबंधित निम्नलिखित में से कौन सा कथन सही है?",
+              "question-english" : "In MS Excel 365 which of the following statements related to deleting rows in an excel sheet is correct?",
+              "options-hindi": ["A). यदि आप एक साथ कई पंक्तियों को हटाना चाहते हैं, तो बस पंक्ति संख्याओं पर क्लिक करके और खींचकर पंक्तियों का चयन करें, और फिर 'Ctrl' और '+' दबाएं।", "B). यदि आप एक साथ कई पंक्तियों को हटाना चाहते हैं, तो बस पंक्ति संख्याओं पर क्लिक करके और खींचकर पंक्तियों का चयन करें, और फिर 'Ctrl' और '-' दबाएं।", "C). यदि आप एक साथ कई पंक्तियों को हटाना चाहते हैं, तो बस पंक्ति संख्याओं पर क्लिक करके और खींचकर पंक्तियों का चयन करें, और फिर 'Ctrl' और 'Enter' दबाएं।", "D). यदि आप एक साथ कई पंक्तियों को हटाना चाहते हैं, तो बस पंक्ति संख्याओं पर क्लिक करके और खींचकर पंक्तियों का चयन करें, और फिर 'Ctrl' और 'space' दबाएं।"],
+              "options-english": ["A). If you want to delete multiple rows at once, simply select the rows by clicking and dragging over the row numbers, and then press ‘Ctrl’ and ‘+’.", "B). If you want to delete multiple rows at once, simply select the rows by clicking and dragging over the row numbers, and then press ‘Ctrl’ and ‘−‘.", "C). If you want to delete multiple rows at once, simply select the rows by clicking and dragging over the row numbers, and then press ‘Ctrl’ and ‘Enter’.", "D). If you want to delete multiple rows at once, simply select the rows by clicking and dragging over the row numbers, and then press ‘Ctrl’ and ‘space’."],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: एक या अधिक पूरी पंक्तियों का चयन करने के बाद, कीबोर्ड शॉर्टकट Ctrl + - (माइनस चिह्न) दबाने से चयनित पंक्तियाँ हट जाएंगी। इसके विपरीत, Ctrl + + (प्लस चिह्न) दबाने से नई पंक्तियाँ सम्मिलित होंगी।",
+              "solution-english": "Solution: After selecting one or more entire rows, pressing the keyboard shortcut Ctrl + - (minus sign) will delete the selected rows. Conversely, pressing Ctrl + + (plus sign) would insert new rows."
+            },
+            {
+              "question-hindi": "MS Word 365 में फॉर्मेटिंग कॉपी करने के लिए निम्न में से किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+              "question-english" : "Which of the following shortcut keys is used to copy formatting in MS Word 365?",
+              "options-hindi": ["A). Ctrl + Shift + D", "B). Ctrl + Shift + V", "C). Ctrl + Shift + C", "D). Ctrl + Shift + A"],
+              "options-english": ["A). Ctrl + Shift + D", "B). Ctrl + Shift + V", "C). Ctrl + Shift + C", "D). Ctrl + Shift + A"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + Shift + C का उपयोग चयनित टेक्स्ट से फॉर्मेटिंग (फ़ॉन्ट, आकार, रंग, आदि) को कॉपी करने के लिए किया जाता है। फिर आप इस कॉपी की गई फॉर्मेटिंग को पेस्ट फॉर्मेटिंग शॉर्टकट, Ctrl + Shift + V का उपयोग करके अन्य टेक्स्ट पर लागू कर सकते हैं।",
+              "solution-english": "Solution: The shortcut Ctrl + Shift + C is used to copy the formatting (font, size, color, etc.) from the selected text. You can then apply this copied formatting to other text using the paste formatting shortcut, Ctrl + Shift + V."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 के रिबन पर कौन से मेनू टैब में टेक्स्ट फॉर्मेटिंग और संपादन के लिए विकल्प होते हैं?",
+              "question-english" : "Which menu tab on Microsoft Word's 365 ribbon contains options for text formatting and editing?",
+              "options-hindi": ["A). View", "B). Insert", "C). Home", "D). File"],
+              "options-english": ["A). View", "B). Insert", "C). Home", "D). File"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: Home टैब सभी प्राथमिक टेक्स्ट फॉर्मेटिंग और संपादन कमांड के लिए केंद्रीय स्थान के रूप में कार्य करता है, जैसे कि फ़ॉन्ट समायोजन, पैराग्राफ संरेखण, शैलियाँ, और क्लिपबोर्ड संचालन (कट, कॉपी, पेस्ट)।",
+              "solution-english": "Solution: The Home tab serves as the central location for all primary text formatting and editing commands, such as font adjustments, paragraph alignment, styles, and clipboard operations (cut, copy, paste)."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 में 'फ़ॉन्ट कलर' विकल्प का उद्देश्य क्या है?",
+              "question-english" : "What is the purpose of the ‘Font Color’ option in Microsoft Word 365?",
+              "options-hindi": ["A). टेक्स्ट का रंग बदलना", "B). फ़ॉन्ट का आकार बदलना", "C). टेक्स्ट पर पृष्ठभूमि का रंग लागू करना", "D). फ़ॉन्ट शैली बदलना"],
+              "options-english": ["A). Changing the colour of the text", "B). Changing the font size", "C). Applying a background colour to text", "D). Changing the font style"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: 'फ़ॉन्ट कलर' विकल्प का उपयोग विशेष रूप से टेक्स्ट वर्णों का रंग बदलने के लिए किया जाता है। पृष्ठभूमि का रंग लागू करना 'टेक्स्ट हाइलाइट कलर' टूल का उपयोग करके किया जाता है।",
+              "solution-english": "Solution: The ‘Font Color’ option is used specifically for changing the colour of the text characters themselves. Applying a background color is done using the 'Text Highlight Color' tool."
+            },
+            {
+              "question-hindi": "किसी ईमेल क्लाइंट में साइन इन करने के लिए आमतौर पर क्या जानकारी आवश्यक होती है?",
+              "question-english" : "What information is typically required to sign in to an email client?",
+              "options-hindi": ["A). पूरा नाम और जन्म तिथि", "B). सोशल मीडिया अकाउंट विवरण", "C). फ़ोन नंबर और पता", "D). ईमेल पता और पासवर्ड"],
+              "options-english": ["A). Full name and date of birth", "B). Social media account details", "C). Phone number and address", "D). Email address and password"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: एक ईमेल खाते तक पहुँचने के लिए मानक सुरक्षा प्रोटोकॉल के लिए उपयोगकर्ता को अपना अद्वितीय ईमेल पता (जो उपयोगकर्ता नाम के रूप में कार्य करता है) और प्रमाणीकरण के लिए संबंधित पासवर्ड प्रदान करना आवश्यक है।",
+              "solution-english": "Solution: Standard security protocol for accessing an email account requires the user to provide their unique email address (which acts as the username) and the corresponding password for authentication."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सी सेवा उपयोगकर्ताओं को ऑनलाइन उत्पाद खरीदने और बेचने की अनुमति देती है?",
+              "question-english" : "Which of the following services allows users to buy and sell products online?",
+              "options-hindi": ["A). वीडियो कॉन्फ्रेंसिंग", "B). इंस्टेंट मैसेजिंग", "C). स्ट्रीमिंग", "D). ई-कॉमर्स"],
+              "options-english": ["A). Video conferencing", "B). Instant messaging", "C). Streaming", "D). E-commerce"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: ई-कॉमर्स (इलेक्ट्रॉनिक कॉमर्स) इंटरनेट का उपयोग करके वस्तुओं या सेवाओं की खरीद और बिक्री, और इन लेनदेन को निष्पादित करने के लिए धन और डेटा के हस्तांतरण के लिए एक व्यापक शब्द है।",
+              "solution-english": "Solution: E-commerce (Electronic Commerce) is the broad term for the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, MS-Excel स्प्रेडशीट में एक कॉलम को हटाने के लिए निम्नलिखित में से कौन सा सही क्रम है?",
+              "question-english" : "In MS Excel 365, which of the following is the correct sequence for deleting a column in MS-Excel spreadsheet?",
+              "options-hindi": ["•A). सेल का चयन करें << बायाँ क्लिक करें << हटाएं << पूरा कॉलम", "B). सेल का चयन करें << दायाँ क्लिक करें << हटाएं << पूरा कॉलम", "C). सेल का चयन करें << बायाँ क्लिक करें << हटाएं << पूरी पंक्ति", "D). सेल का चयन करें << दायाँ क्लिक करें << हटाएं << पूरी पंक्ति"],
+              "options-english": ["A). Select the cell<<Left click<<Delete<<Entire Column", "B). Select the cell<<Right click<<Delete<<Entire Column", "C). Select the cell<<Left click<<Delete<<Entire Row", "D). Select the cell<<Right click<<Delete<<Entire Row"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: एक कॉलम को हटाने के लिए, आप उस कॉलम के भीतर किसी भी सेल का चयन कर सकते हैं, फिर संदर्भ मेनू लाने के लिए दायाँ-क्लिक करें, 'Delete' विकल्प चुनें, और अंत में बाद के डायलॉग बॉक्स से 'Entire Column' का चयन करें।",
+              "solution-english": "Solution: To delete a column, you can select any cell within that column, then right-click to bring up the context menu, choose the ‘Delete’ option, and finally select ‘Entire Column’ from the subsequent dialog box."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा MS Word 365 दस्तावेज़ के हेडर या फुटर में एक सामान्य तत्व है?",
+              "question-english" : "Which of the following is a common element in an MS Word 365 document's header or footer?",
+              "options-hindi": ["A). फ़ॉन्ट का रंग", "B). पृष्ठ संख्या", "C). दस्तावेज़ का शीर्षक", "D). बुलेट पॉइंट्स"],
+              "options-english": ["A). Font colour", "B). Page number", "C). Document title", "D). Bullet points"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: हेडर और फुटर प्रत्येक पृष्ठ के शीर्ष और नीचे के खंड होते हैं। वे आमतौर पर ऐसी जानकारी के लिए उपयोग किए जाते हैं जो हर पृष्ठ पर दोहराई जाती है, जैसे कि पृष्ठ संख्या, दस्तावेज़ का शीर्षक, लेखक का नाम, या तारीख।",
+              "solution-english": "Solution: Headers and footers are sections at the top and bottom of each page. They are commonly used for information that repeats on every page, such as the page number, document title, author's name, or date."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, निम्नलिखित में से कौन सा MS-Excel में एक स्प्रेडशीट खोलने का एक तरीका नहीं है?",
+              "question-english" : "In MS Excel 365, which of the following is NOT a method to open a spreadsheet in MS-Excel?",
+              "options-hindi": ["A). Ctrl + N", "B). Shift + Ctrl + N", "C). Alt + F + O", "D). File -> open"],
+              "options-english": ["A). Ctrl + N", "B). Shift + Ctrl + N", "C). Alt + F + O", "D). File -> open"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: Shift + Ctrl + N एक्सेल में स्प्रेडशीट खोलने के लिए एक मानक शॉर्टकट नहीं है।",
+              "solution-english": "Solution: Shift + Ctrl + N is not a standard shortcut for opening a spreadsheet in Excel."
+            }
+          ]
+    }
+  ]
+}
