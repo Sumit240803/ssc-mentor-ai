@@ -50,6 +50,7 @@ export interface TestState {
   timeRemaining: number;
   isActive: boolean;
   isCompleted: boolean;
+  isReviewMode: boolean;
   startTime: Date | null;
   endTime: Date | null;
   language: Language;
@@ -73,6 +74,7 @@ export const useMockTest = (testFileName?: string) => {
     timeRemaining: 90 * 60, // Default 90 minutes
     isActive: false,
     isCompleted: false,
+    isReviewMode: false,
     startTime: null,
     endTime: null,
     language: 'hindi',
@@ -221,6 +223,7 @@ export const useMockTest = (testFileName?: string) => {
       timeRemaining: mockTestData ? mockTestData.duration * 60 : 90 * 60,
       isActive: true,
       isCompleted: false,
+      isReviewMode: false,
       startTime: new Date(),
       endTime: null,
       language,
@@ -433,10 +436,19 @@ export const useMockTest = (testFileName?: string) => {
       timeRemaining: mockTestData ? mockTestData.duration * 60 : 90 * 60,
       isActive: false,
       isCompleted: false,
+      isReviewMode: false,
       startTime: null,
       endTime: null,
       language: 'hindi',
     });
+  };
+
+  const enterReviewMode = () => {
+    setTestState(prev => ({
+      ...prev,
+      isReviewMode: true,
+      currentQuestionIndex: 0,
+    }));
   };
 
   const formatTime = (seconds: number) => {
@@ -523,6 +535,7 @@ export const useMockTest = (testFileName?: string) => {
     previousQuestion,
     getResults,
     resetTest,
+    enterReviewMode,
     switchLanguage,
     formatTime,
     getMotivation,

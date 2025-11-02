@@ -45,6 +45,7 @@ const MockTest: React.FC = () => {
     previousQuestion,
     getResults,
     resetTest,
+    enterReviewMode,
     switchLanguage,
     formatTime,
     getMotivation,
@@ -230,8 +231,8 @@ const MockTest: React.FC = () => {
     );
   }
 
-  // Test Interface
-  if (testState.isActive || testState.isCompleted) {
+  // Test Interface or Review Mode
+  if (testState.isActive || testState.isReviewMode) {
     const currentQuestion = testState.questions[testState.currentQuestionIndex];
     const currentAnswer = testState.userAnswers[currentQuestion?.id];
     const progress = ((testState.currentQuestionIndex + 1) / testState.questions.length) * 100;
@@ -299,10 +300,13 @@ const MockTest: React.FC = () => {
                 </div>
 
                 <div className="flex gap-4 justify-center">
+                  <Button onClick={enterReviewMode} variant="default">
+                    Review Answers
+                  </Button>
                   <Button onClick={() => navigate('/mock-tests')} variant="outline">
                     Back to Tests
                   </Button>
-                  <Button onClick={() => navigate('/lectures')}>
+                  <Button onClick={() => navigate('/lectures')} variant="outline">
                     Back to Lectures
                   </Button>
                 </div>
@@ -371,45 +375,54 @@ const MockTest: React.FC = () => {
       );
     }
 
-    // Active Test Interface
+    // Active Test or Review Interface
     return (
       <div className="min-h-screen bg-background">
-        {/* Timer Bar */}
+        {/* Timer Bar or Review Header */}
         <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-3">
             <div className="flex items-center gap-4">
-              <div className="flex items-center gap-2">
-                <Clock className={cn(
-                  "h-5 w-5",
-                  testState.timeRemaining < 300 ? "text-destructive animate-pulse" : "text-primary"
-                )} />
-                <span className={cn(
-                  "font-mono font-semibold text-lg",
-                  testState.timeRemaining < 300 && "text-destructive"
-                )}>
-                  {formatTime(testState.timeRemaining)}
-                </span>
-              </div>
+              {testState.isReviewMode ? (
+                <div className="flex items-center gap-2">
+                  <BookOpen className="h-5 w-5 text-primary" />
+                  <span className="font-semibold text-lg">Review Mode</span>
+                </div>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <Clock className={cn(
+                    "h-5 w-5",
+                    testState.timeRemaining < 300 ? "text-destructive animate-pulse" : "text-primary"
+                  )} />
+                  <span className={cn(
+                    "font-mono font-semibold text-lg",
+                    testState.timeRemaining < 300 && "text-destructive"
+                  )}>
+                    {formatTime(testState.timeRemaining)}
+                  </span>
+                </div>
+              )}
               <div className="text-sm text-muted-foreground">
                 Question {testState.currentQuestionIndex + 1} of {testState.questions.length}
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <ToggleGroup 
-                type="single" 
-                value={testState.language}
-                onValueChange={(value) => value && switchLanguage(value as Language)}
-                size="sm"
-              >
-                <ToggleGroupItem value="hindi" aria-label="Hindi">
-                  <Languages className="h-4 w-4 mr-1" />
-                  हिं
-                </ToggleGroupItem>
-                <ToggleGroupItem value="english" aria-label="English">
-                  <Languages className="h-4 w-4 mr-1" />
-                  EN
-                </ToggleGroupItem>
-              </ToggleGroup>
+              {!testState.isReviewMode && (
+                <ToggleGroup 
+                  type="single" 
+                  value={testState.language}
+                  onValueChange={(value) => value && switchLanguage(value as Language)}
+                  size="sm"
+                >
+                  <ToggleGroupItem value="hindi" aria-label="Hindi">
+                    <Languages className="h-4 w-4 mr-1" />
+                    हिं
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="english" aria-label="English">
+                    <Languages className="h-4 w-4 mr-1" />
+                    EN
+                  </ToggleGroupItem>
+                </ToggleGroup>
+              )}
               <Progress value={progress} className="w-32" />
             </div>
           </div>
@@ -463,37 +476,87 @@ const MockTest: React.FC = () => {
                           onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
                           className="space-y-3"
                         >
-                          {options && Array.isArray(options) ? (
-                            options.map((option, index) => {
-                              const isImageUrl = typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://'));
-                              
-                              return (
-                                <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
-                                  <RadioGroupItem value={option} id={`option-${index}`} />
-                                  <Label 
-                                    htmlFor={`option-${index}`} 
-                                    className="flex-1 cursor-pointer text-base"
-                                  >
-                                    {isImageUrl ? (
+                        {testState.isReviewMode ? (
+                          options.map((option, index) => {
+                            const correctAnswer = testState.language === 'hindi' 
+                              ? currentQuestion['answer-hindi']
+                              : currentQuestion['answer-english'];
+                            const isCorrectOption = option === correctAnswer;
+                            const isSelectedOption = currentAnswer?.selectedOption === option;
+                            const isWrongSelection = isSelectedOption && !currentAnswer?.isCorrect;
+                            
+                            return (
+                              <div 
+                                key={index} 
+                                className={cn(
+                                  "p-4 rounded-lg border-2 transition-colors",
+                                  isCorrectOption && "border-green-500 bg-green-50 dark:bg-green-950",
+                                  isWrongSelection && "border-red-500 bg-red-50 dark:bg-red-950",
+                                  !isCorrectOption && !isWrongSelection && "border-border"
+                                )}
+                              >
+                                <div className="flex items-center gap-3">
+                                  {isCorrectOption && <CheckCircle className="h-5 w-5 text-green-600" />}
+                                  {isWrongSelection && <XCircle className="h-5 w-5 text-red-600" />}
+                                  <div className="flex-1">
+                                    {typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://')) ? (
                                       <img 
                                         src={option} 
                                         alt={`Option ${index + 1}`} 
                                         className="max-w-full h-auto rounded-md max-h-32 object-contain"
                                       />
                                     ) : (
-                                      option
+                                      <span className="text-base">{option}</span>
                                     )}
-                                  </Label>
+                                  </div>
                                 </div>
-                              );
-                            })
-                          ) : (
-                            <p className="text-destructive">Invalid question format</p>
-                          )}
+                              </div>
+                            );
+                          })
+                        ) : (
+                          options.map((option, index) => {
+                            const isImageUrl = typeof option === 'string' && (option.startsWith('http://') || option.startsWith('https://'));
+                            
+                            return (
+                              <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border hover:bg-accent/50 transition-colors">
+                                <RadioGroupItem value={option} id={`option-${index}`} />
+                                <Label 
+                                  htmlFor={`option-${index}`} 
+                                  className="flex-1 cursor-pointer text-base"
+                                >
+                                  {isImageUrl ? (
+                                    <img 
+                                      src={option} 
+                                      alt={`Option ${index + 1}`} 
+                                      className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                                    />
+                                  ) : (
+                                    option
+                                  )}
+                                </Label>
+                              </div>
+                            );
+                          })
+                        )}
                         </RadioGroup>
                       </>
                     );
                   })()}
+                  
+                  {/* Solution Section (Review Mode Only) */}
+                  {testState.isReviewMode && (
+                    <div className="mt-6 p-4 bg-muted rounded-lg border-l-4 border-primary">
+                      <h4 className="font-semibold mb-2 flex items-center gap-2">
+                        <Brain className="h-5 w-5 text-primary" />
+                        Solution:
+                      </h4>
+                      <p className="text-sm leading-relaxed">
+                        {testState.language === 'hindi' 
+                          ? currentQuestion['solution-hindi']
+                          : currentQuestion['solution-english']}
+                      </p>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             ) : (
@@ -515,9 +578,17 @@ const MockTest: React.FC = () => {
                 Previous
               </Button>
               
-              <Button onClick={submitTest} variant="destructive">
-                Submit Test
-              </Button>
+              {testState.isReviewMode ? (
+                testState.currentQuestionIndex === testState.questions.length - 1 ? (
+                  <Button onClick={() => navigate('/mock-tests')} variant="default">
+                    Back to Mock Tests
+                  </Button>
+                ) : null
+              ) : (
+                <Button onClick={submitTest} variant="destructive">
+                  Submit Test
+                </Button>
+              )}
               
               <Button
                 onClick={nextQuestion}
@@ -538,13 +609,22 @@ const MockTest: React.FC = () => {
               <CardContent>
                 <div className="grid grid-cols-5 gap-2">
                   {testState.questions.map((question, index) => {
-                    const isAnswered = testState.userAnswers[question.id];
+                    const userAnswer = testState.userAnswers[question.id];
                     const isCurrent = index === testState.currentQuestionIndex;
+                    const isWrong = testState.isReviewMode && userAnswer && !userAnswer.isCorrect;
                     
                     return (
                       <Button
                         key={question.id}
-                        variant={isCurrent ? "default" : isAnswered ? "secondary" : "outline"}
+                        variant={
+                          isCurrent 
+                            ? "default" 
+                            : isWrong
+                            ? "destructive"
+                            : userAnswer 
+                            ? "secondary" 
+                            : "outline"
+                        }
                         size="sm"
                         className={cn(
                           "h-8 w-8 p-0 text-xs",
