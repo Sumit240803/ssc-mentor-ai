@@ -231,17 +231,11 @@ const MockTest: React.FC = () => {
     );
   }
 
-  // Test Interface or Review Mode
-  if (testState.isActive || testState.isReviewMode) {
-    const currentQuestion = testState.questions[testState.currentQuestionIndex];
-    const currentAnswer = testState.userAnswers[currentQuestion?.id];
-    const progress = ((testState.currentQuestionIndex + 1) / testState.questions.length) * 100;
-
-    // Results Screen
-    if (testState.isCompleted) {
-      const results = getResults();
-      
-      return (
+  // Results Screen (after submission)
+  if (testState.isCompleted && !testState.isReviewMode) {
+    const results = getResults();
+    
+    return (
         <div className="min-h-screen bg-gradient-subtle p-4">
           <div className="max-w-4xl mx-auto space-y-6">
             <Card>
@@ -370,12 +364,17 @@ const MockTest: React.FC = () => {
                 )}
               </CardContent>
             </Card>
-          </div>
         </div>
-      );
-    }
+      </div>
+    );
+  }
 
-    // Active Test or Review Interface
+  // Active Test Interface or Review Mode
+  if (testState.isActive || testState.isReviewMode) {
+    const currentQuestion = testState.questions[testState.currentQuestionIndex];
+    const currentAnswer = testState.userAnswers[currentQuestion?.id];
+    const progress = ((testState.currentQuestionIndex + 1) / testState.questions.length) * 100;
+
     return (
       <div className="min-h-screen bg-background">
         {/* Timer Bar or Review Header */}
