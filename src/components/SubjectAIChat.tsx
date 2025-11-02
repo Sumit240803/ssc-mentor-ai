@@ -6,6 +6,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { MessageCircle, Send, Bot, User } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useToast } from "@/hooks/use-toast";
+import ReactMarkdown from "react-markdown";
 
 interface Message {
   id: string;
@@ -130,9 +131,15 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
                       : "bg-muted"
                   }`}
                 >
-                  <p className="text-sm whitespace-pre-wrap break-words">
-                    {message.content}
-                  </p>
+                  {message.type === "ai" ? (
+                    <div className="text-sm prose prose-sm dark:prose-invert max-w-none">
+                      <ReactMarkdown>{message.content}</ReactMarkdown>
+                    </div>
+                  ) : (
+                    <p className="text-sm whitespace-pre-wrap break-words">
+                      {message.content}
+                    </p>
+                  )}
                 </div>
                 {message.type === "user" && (
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center">
