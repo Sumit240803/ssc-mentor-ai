@@ -25,8 +25,20 @@ const MockTestsList: React.FC = () => {
   useEffect(() => {
     const loadMockTests = async () => {
       try {
-        // List of mock test files (you can expand this list as you add more tests)
-        const testFiles = ['Complete_mock-test_1.json', 'Complete_mock-test_2.json'];
+        // List of mock test files
+        const testFiles = [
+          'Complete_mock-test_1.json',
+          'Complete_mock-test_2.json',
+          'Complete mock-test 3.json',
+          'Complete mock-test 4.json',
+          'Complete Mock Test 5.json',
+          'Complete Mock Test 6.json',
+          'Complete Mock Test 7.json',
+          'Complete Mock Test 8.json',
+          'Complete Mock Test 9.json',
+          'Complete mock-test 10.json',
+          'Complete mock-test 11.json'
+        ];
         
         const testsData = await Promise.all(
           testFiles.map(async (fileName) => {
