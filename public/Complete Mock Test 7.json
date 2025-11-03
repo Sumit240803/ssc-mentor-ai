@@ -1,0 +1,1026 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+              "question-hindi": " उस्ताद असद अली खान ____ के माहिरों में से एक थे।",
+              "question-english" : " Ustad Asad Ali Khan was one of the masters of the ____.",
+              "options-hindi": ["(a) मृदंगम", "(b) रुद्र वीणा", "(c) सारंगी", "(d) तानपुरा"],
+              "options-english": ["(a) mridangam", "(b) rudra veena", "(c) sarangi", "(d) tanpura"],
+              "answer-hindi": "(b) रुद्र वीणा",
+              "answer-english": "(b) rudra veena",
+              "solution-hindi": "उस्ताद असद अली खान (1937 - 2011) एक प्रसिद्ध भारतीय शास्त्रीय संगीतकार थे जो रुद्र वीणा में विशेषज्ञता रखते थे। वह ध्रुपद शैली के माहिर थे और खंदरबानी घराने से ताल्लुक रखते थे। उन्हें शास्त्रीय संगीत में उनके योगदान के लिए 2008 में भारत सरकार द्वारा पद्म भूषण से सम्मानित किया गया था।",
+              "solution-english": "Ustad Asad Ali Khan (1937 – 2011) was a renowned Indian classical musician who specialized in the rudra veena. He was a master of the Dhrupad genre and belonged to the Khandarbani Gharana. He was awarded the Padma Bhushan by the Government of India in 2008 for his contributions to classical music."
+            },
+            {
+              "question-hindi": " मुख्य न्यायाधीश डी.वाई. चंद्रचूड़ द्वारा भारत के 51वें मुख्य न्यायाधीश के रूप में किसे नियुक्त किया गया है?",
+              "question-english" : "Who has been appointed as the 51st Chief Justice of India by Chief Justice D.Y. Chandrachud?",
+              "options-hindi": ["(a) न्यायमूर्ति संजीव खन्ना", "(b) न्यायमूर्ति बी. वी. नागरत्ना", "(c) न्यायमूर्ति सूर्यकांत", "(d) न्यायमूर्ति प्रशांत कुमार मिश्रा"],
+              "options-english": ["(a) Justice Sanjiv Khanna", "(b) Justice B. V. Nagarathna", "(c) Justice Surya Kant", "(d) Justice Prashant Kumar Mishra"],
+              "answer-hindi": "(a) न्यायमूर्ति संजीव खन्ना",
+              "answer-english": "(a) Justice Sanjiv Khanna",
+              "solution-hindi": "न्यायमूर्ति संजीव खन्ना मौजूदा मुख्य न्यायाधीश डी.वाई. चंद्रचूड़ के बाद भारत के 51वें मुख्य न्यायाधीश बनने की कतार में हैं। उत्तराधिकार वरिष्ठता पर आधारित है।",
+              "solution-english": "Justice Sanjiv Khanna is in line to become the 51st Chief Justice of India, succeeding the current Chief Justice D.Y. Chandrachud. The succession is based on seniority."
+            },
+            {
+              "question-hindi": " प्रतिष्ठित भारतीय शास्त्रीय नृत्यांगना यामिनी कृष्णमूर्ति का हाल ही में 83 वर्ष की आयु में निधन हो गया। उन्हें पद्म विभूषण किस वर्ष मिला?",
+              "question-english" : " Yamini Krishnamurthy, the iconic Indian classical dancer, recently passed away at 83. In which year did she receive the Padma Vibhushan?",
+              "options-hindi": ["(a) 1968", "(b) 1977", "(c) 2001", "(d) 2016"],
+              "options-english": ["(a) 1968", "(b) 1977", "(c) 2001", "(d) 2016"],
+              "answer-hindi": "(d) 2016",
+              "answer-english": "(d) 2016",
+              "solution-hindi": "भरतनाट्यम और कुचिपुड़ी में अपनी विशेषज्ञता के लिए जानी जाने वाली एक प्रसिद्ध भारतीय शास्त्रीय नृत्यांगना यामिनी कृष्णमूर्ति का 2024 में 83 वर्ष की आयु में निधन हो गया। उन्हें कला में उनके असाधारण योगदान के लिए 2016 में पद्म विभूषण से सम्मानित किया गया, जो भारत का दूसरा सबसे बड़ा नागरिक पुरस्कार है। उन्हें पहले 1968 में पद्म श्री और 2001 में पद्म भूषण मिला था।",
+              "solution-english": "Yamini Krishnamurthy, a celebrated Indian classical dancer known for her expertise in Bharatanatyam and Kuchipudi, passed away in 2024 at the age of 83. She was honored with the Padma Vibhushan in 2016, the second-highest civilian award in India, for her exceptional contributions to the arts. She had previously received the Padma Shri in 1968 and the Padma Bhushan in 2001."
+            },
+            {
+              "question-hindi": "आईसीसी पुरुष टी20 विश्व कप 2024 में उपविजेता कौन था?",
+              "question-english" : " Who was the runner-up in the ICC Men's T20 World Cup 2024?",
+              "options-hindi": ["(a) भारत", "(b) दक्षिण अफ्रीका", "(c) इंग्लैंड", "(d) अफगानिस्तान"],
+              "options-english": ["(a) India", "(b) South Africa", "(c) England", "(d) Afghanistan"],
+              "answer-hindi": "(b) दक्षिण अफ्रीका",
+              "answer-english": "(b) South Africa",
+              "solution-hindi": "आईसीसी पुरुष टी20 विश्व कप 2024 के फाइनल में, भारत ने दक्षिण अफ्रीका को हराकर चैंपियनशिप जीती। इसलिए, दक्षिण अफ्रीका उपविजेता रहा।",
+              "solution-english": "In the ICC Men's T20 World Cup 2024 final, India defeated South Africa to win the championship. Therefore, South Africa was the runner-up."
+            },
+            {
+              "question-hindi": " बौद्ध परंपराओं के अनुसार, बुद्ध का सारथी कौन था?",
+              "question-english" : "According to Buddhist traditions, who was Charioteer of Buddha?",
+              "options-hindi": ["(a) चन्ना", "(b) कंथक", "(c) देवदत्त", "(d) चुंडा छिपाना"],
+              "options-english": ["(a) Channa", "(b) Kanthaka", "(c) Devdatta", "(d) Chunda Hide"],
+              "answer-hindi": "(a) चन्ना",
+              "answer-english": "(a) Channa",
+              "solution-hindi": "बौद्ध परंपराओं के अनुसार, चन्ना सिद्धार्थ गौतम के शाही सारथी थे। चन्ना ही थे जो सिद्धार्थ के साथ महल की दीवारों से परे उनकी यात्राओं पर गए थे, जिसके दौरान सिद्धार्थ ने vieillesse, बीमारी और मृत्यु का सामना किया, जिससे उन्हें अपनी आध्यात्मिक खोज शुरू करने की प्रेरणा मिली। कंथक बुद्ध का घोड़ा था।",
+              "solution-english": "According to Buddhist traditions, Channa was Siddhartha Gautama's royal charioteer. It was Channa who accompanied Siddhartha on his outings beyond the palace walls, during which Siddhartha encountered old age, sickness, and death, leading him to embark on his spiritual quest. Kanthaka was Buddha's horse."
+            },
+            {
+              "question-hindi": " उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति कौन करता है?",
+              "question-english" : " Who appoints the Chief Justice of High Court?",
+              "options-hindi": ["(a) राष्ट्रपति", "(b) राज्यपाल", "(c) प्रधानमंत्री", "(d) मुख्यमंत्री"],
+              "options-english": ["(a) President", "(b) Governor", "(c) Prime Minister", "(d) Chief Minister"],
+              "answer-hindi": "(a) राष्ट्रपति",
+              "answer-english": "(a) President",
+              "solution-hindi": "भारत में एक उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति भारत के राष्ट्रपति द्वारा की जाती है। यह नियुक्ति भारत के मुख्य न्यायाधीश और संबंधित राज्य के राज्यपाल से परामर्श के बाद की जाती है।",
+              "solution-english": "The Chief Justice of a High Court in India is appointed by the President of India. This appointment is made after consulting with the Chief Justice of India and the Governor of the concerned state.The Chief Justice of a High Court in India is appointed by the President of India. This appointment is made after consulting with the Chief Justice of India and the Governor of the concerned state."
+            },
+            {
+              "question-hindi": " राजीव गांधी खेल रत्न पुरस्कार का नाम बदलकर मेजर ध्यानचंद खेल रत्न पुरस्कार कब किया गया?",
+              "question-english" : " When was the Rajiv Gandhi Khel Ratna Award renamed as Major Dhyan Chand Khel Ratna Award?",
+              "options-hindi": ["(a) 6 अगस्त 2022", "(b) 5 जनवरी 2022", "(c) 6 अगस्त 2021", "(d) 5 जनवरी 2021"],
+              "options-english": ["(a) 6th August 2022", "(b) 5th January 2022", "(c) 6th August 2021", "(d) 5th January 2021"],
+              "answer-hindi": "(c) 6 अगस्त 2021",
+              "answer-english": "(c) 6th August 2021",
+              "solution-hindi": "भारत के सर्वोच्च खेल सम्मान, राजीव गांधी खेल रत्न पुरस्कार का नाम बदलकर 6 अगस्त 2021 को मेजर ध्यानचंद खेल रत्न पुरस्कार कर दिया गया। यह बदलाव महान भारतीय हॉकी खिलाड़ी मेजर ध्यानचंद को सम्मानित करने के लिए किया गया था।",
+              "solution-english": "The Rajiv Gandhi Khel Ratna Award, India's highest sporting honor, was renamed the Major Dhyan Chand Khel Ratna Award on 6th August 2021. This change was made to honor the legendary Indian hockey player, Major Dhyan Chand."
+            },
+            {
+              "question-hindi": "अंग्रेजों द्वारा निम्नलिखित में से किसे 'भारतीय अशांति का जनक' कहा गया?",
+              "question-english" : "Who among the following was called the 'Father of Indian Unrest' by Britishers?",
+              "options-hindi": ["(a) लोकमान्य तिलक", "(b) जवाहरलाल नेहरू", "(c) महात्मा गांधी", "(d) सरदार वल्लभभाई पटेल"],
+              "options-english": ["(a) Lokmanya Tilak", "(b) Jawaharlal Nehru", "(c) Mahatma Gandhi", "(d) Sardar Vallabhbhai Patel"],
+              "answer-hindi": "(a) लोकमान्य तिलक",
+              "answer-english": "(a) Lokmanya Tilak",
+              "solution-hindi": "बाल गंगाधर तिलक, जिन्हें अक्सर लोकमान्य तिलक कहा जाता है, को ब्रिटिश पत्रकार वेलेंटाइन चिरोल ने उनके मजबूत राष्ट्रवादी विचारों और ब्रिटिश शासन के खिलाफ जनमत जुटाने में उनकी भूमिका के कारण 'भारतीय अशांति का जनक' कहा था। उन्होंने स्वराज (स्व-शासन) की वकालत की और भारतीय स्वतंत्रता आंदोलन में एक प्रमुख नेता थे।",
+              "solution-english": "Bal Gangadhar Tilak, often referred to as Lokmanya Tilak, was called the 'Father of Indian Unrest' by the British journalist Valentine Chirol due to his strong nationalist views and his role in mobilizing public opinion against British rule. He advocated for Swaraj (self-rule) and was a prominent leader in the Indian independence movement."
+            },
+            {
+              "question-hindi": "आवर्त सारणी में बाएं से दाएं जाने पर तत्वों के विद्युतधनात्मक गुण का क्या होता है?",
+              "question-english" : " What happens to the electropositive character of elements on moving from left to right in a periodic table?",
+              "options-hindi": ["(a) बढ़ता है", "(b) घटता है", "(c) पहले बढ़ता है फिर घटता है", "(d) पहले घटता है फिर बढ़ता है"],
+              "options-english": ["(a) Increases", "(b) Decreases", "(c) First increases then decreases", "(d) First decreases then increases"],
+              "answer-hindi": "(b) घटता है",
+              "answer-english": "(b) Decreases",
+              "solution-hindi": "किसी तत्व का विद्युतधनात्मक गुण इलेक्ट्रॉनों को खोने और धनात्मक आयन बनाने की उसकी प्रवृत्ति है। जैसे-जैसे हम आवर्त सारणी में एक अवधि में बाएं से दाएं बढ़ते हैं, परमाणु आवेश बढ़ता है, और परमाणु त्रिज्या आम तौर पर घट जाती है। इससे नाभिक और संयोजकता इलेक्ट्रॉनों के बीच एक मजबूत आकर्षण होता है, जिससे तत्वों के लिए इलेक्ट्रॉनों को खोना अधिक कठिन हो जाता है। नतीजतन, एक अवधि में विद्युतधनात्मक गुण घटता है।",
+              "solution-english": "The electropositive character of an element is its tendency to lose electrons and form positive ions. As we move from left to right across a period in the periodic table, the nuclear charge increases, and the atomic radius generally decreases. This leads to a stronger attraction between the nucleus and the valence electrons, making it more difficult for elements to lose electrons. Consequently, the electropositive character decreases across a period."
+            },
+            {
+              "question-hindi": " किस पंचवर्षीय योजना में योजना को कृषि से उद्योगों की ओर स्थानांतरित करने की वकालत की गई थी?",
+              "question-english" : " In which Five-Year Plan was advocated planning shifted from agriculture to industries?",
+              "options-hindi": ["(a) तीसरी", "(b) चौथी", "(c) दूसरी", "(d) पांचवीं"],
+              "options-english": ["(a) Third", "(b) Fourth", "(c) Second", "(d) Fifth"],
+              "answer-hindi": "(c) दूसरी",
+              "answer-english": "(c) Second",
+              "solution-hindi": "दूसरी पंचवर्षीय योजना (1956-1961), जिसे महालनोबिस योजना के रूप में भी जाना जाता है, ने भारी उद्योगों पर ध्यान देने के साथ तेजी से औद्योगीकरण पर जोर दिया। जबकि पहली पंचवर्षीय योजना मुख्य रूप से कृषि पर केंद्रित थी, दूसरी योजना ने भारत में आर्थिक विकास की कुंजी के रूप में औद्योगिक विकास की ओर एक महत्वपूर्ण बदलाव को चिह्नित किया।",
+              "solution-english": "The Second Five-Year Plan (1956-1961), also known as the Mahalanobis Plan, emphasized rapid industrialization, with a focus on heavy industries. While the First Five-Year Plan focused primarily on agriculture, the second plan marked a significant shift towards industrial development as the key to economic growth in India."
+            },
+            {
+              "question-hindi": "वस्तु एवं सेवा कर (जीएसटी) - जिसने भारत में वैट, उत्पाद शुल्क और सेवा कर जैसे केंद्रीय और राज्य के अप्रत्यक्ष करों की जगह ले ली है - को कब लागू किया गया था?",
+              "question-english" : " The Goods and Services Tax (GST) – which has replaced the Central and State indirect taxes such as VAT, excise duty and service tax in India – was implemented on:",
+              "options-hindi": ["(a) 2 अक्टूबर 2017", "(b) 15 सितंबर 2017", "(c) 15 अगस्त 2017", "(d) 1 जुलाई 2017"],
+              "options-english": ["(a) 2 October 2017", "(b) 15 September 2017", "(c) 15 August 2017", "(d) 1 July 2017"],
+              "answer-hindi": "(d) 1 जुलाई 2017",
+              "answer-english": "(d) 1 July 2017",
+              "solution-hindi": "वस्तु एवं सेवा कर (जीएसटी), भारत में एक व्यापक अप्रत्यक्ष कर, 1 जुलाई 2017 को देश भर में लागू किया गया था। इसने विभिन्न केंद्रीय और राज्य के अप्रत्यक्ष करों की जगह ले ली, जिसका उद्देश्य कर संरचना को सरल बनाना और एक आम राष्ट्रीय बाजार बनाना था।",
+              "solution-english": "The Goods and Services Tax (GST), a comprehensive indirect tax in India, was implemented nationwide on 1 July 2017. It replaced various central and state indirect taxes, aiming to simplify the tax structure and create a common national market."
+            },
+            {
+              "question-hindi": "अर्थव्यवस्था में सरकारी प्रतिभूतियों के संबंध में निम्नलिखित में से कौन सा कथन सही है? I. यह केंद्र सरकार या राज्य सरकारों द्वारा जारी एक व्यापार योग्य लिखत है। II. उन्हें जोखिम-मुक्त गिल्ट-एज्ड लिखत कहा जाता है।",
+              "question-english" : " Which of the following statements is correct regarding the government securities in the economy? I. It is a tradeable instrument issued by the Central Government or the State Governments. II. They are called risk-free gilt-edged instruments.",
+              "options-hindi": ["(a) न तो I और न ही II", "(b) केवल I", "(c) केवल II", "(d) I और II दोनों"],
+              "options-english": ["(a) Neither I nor II", "(b) Only I", "(c) Only II", "(d) Both I and II"],
+              "answer-hindi": "(d) I और II दोनों",
+              "answer-english": "(d) Both I and II",
+              "solution-hindi": "I. यह केंद्र सरकार या राज्य सरकारों द्वारा जारी एक व्यापार योग्य लिखत है। यह कथन सही है। सरकारी प्रतिभूतियां (जी-सेक) केंद्र सरकार और राज्य सरकारों दोनों द्वारा पैसा उधार लेने के लिए जारी किए गए ऋण साधन हैं। वे बाजार में व्यापार योग्य हैं। II. उन्हें जोखिम-मुक्त गिल्ट-एज्ड लिखत कहा जाता है। यह कथन भी सही है। जी-सेक को 'जोखिम-मुक्त' माना जाता है क्योंकि उनमें चूक का लगभग कोई जोखिम नहीं होता है क्योंकि वे सरकार की कर लगाने और पैसा छापने की क्षमता द्वारा समर्थित होते हैं। 'गिल्ट-एज्ड' उच्च गुणवत्ता वाले निवेश बांडों को संदर्भित करता है, आमतौर पर सरकारी बांड। इसलिए, दोनों कथन सही हैं।",
+              "solution-english": "I. It is a tradeable instrument issued by the Central Government or the State Governments. This statement is correct. Government securities (G-Secs) are debt instruments issued by both the Central Government and State Governments to borrow money. They are tradeable in the market. II. They are called risk-free gilt-edged instruments. This statement is also correct. G-Secs are considered 'risk-free' because they carry virtually no risk of default as they are backed by the government's ability to tax and print money. 'Gilt-edged' refers to high-quality investment bonds, typically government bonds. Therefore, both statements are correct."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से कौन न्यूटन के गति के तीसरे नियम का अनुप्रयोग नहीं है?",
+              "question-english" : " Which among the following is Not an application of Newton's third Law of Motion?",
+              "options-hindi": ["(a) जमीन पर चलता हुआ आदमी", "(b) नाव खेना", "(c) गेंद पकड़ते समय एक फील्डर का हाथ पीछे खींचना", "(d) गेंद का उछलना"],
+              "options-english": ["(a) A man walking on the ground", "(b) Rowing a boat", "(c) A fielder pulling his hand backward while catching a ball", "(d) Bouncing of Ball"],
+              "answer-hindi": "(c) गेंद पकड़ते समय एक फील्डर का हाथ पीछे खींचना",
+              "answer-english": "(c) A fielder pulling his hand backward while catching a ball",
+              "solution-hindi": "न्यूटन की गति का तीसरा नियम कहता है कि प्रत्येक क्रिया के लिए एक समान और विपरीत प्रतिक्रिया होती है। (a) जमीन पर चलता हुआ आदमी: आदमी जमीन को पीछे की ओर धकेलता है (क्रिया), और जमीन आदमी को आगे की ओर धकेलती है (प्रतिक्रिया)। यह एक अनुप्रयोग है। (b) नाव खेना: चप्पू पानी को पीछे की ओर धकेलता है (क्रिया), और पानी नाव को आगे की ओर धकेलता है (प्रतिक्रिया)। यह एक अनुप्रयोग है। (c) गेंद पकड़ते समय एक फील्डर का हाथ पीछे खींचना: यह क्रिया न्यूटन के गति के दूसरे नियम (F=ma या F = Δp/Δt) का एक अनुप्रयोग है, जो विशेष रूप से आवेग से संबंधित है। जिस समय (Δt) में गेंद का संवेग बदलता है (Δp), उसे बढ़ाकर, फील्डर के हाथ पर लगने वाले बल (F) को कम कर दिया जाता है, जिससे चोट कम हो जाती है। यह मुख्य रूप से दो अलग-अलग वस्तुओं के बीच क्रिया-प्रतिक्रिया जोड़े के बारे में नहीं है। (d) गेंद का उछलना: गेंद जमीन पर एक बल लगाती है (क्रिया), और जमीन गेंद पर एक समान और विपरीत बल लगाती है (प्रतिक्रिया), जिससे वह वापस उछलती है। यह एक अनुप्रयोग है। इसलिए, (c) न्यूटन के गति के तीसरे नियम का अनुप्रयोग नहीं है।",
+              "solution-english": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. (a) A man walking on the ground: The man pushes the ground backward (action), and the ground pushes the man forward (reaction). This is an application. (b) Rowing a boat: The oar pushes water backward (action), and the water pushes the boat forward (reaction). This is an application. (c) A fielder pulling his hand backward while catching a ball: This action is an application of Newton's Second Law of Motion (F=ma or F = Δp/Δt), specifically related to impulse. By increasing the time (Δt) over which the momentum of the ball changes (Δp), the force (F) exerted on the fielder's hand is reduced, minimizing injury. It's not primarily about action-reaction pairs between two different objects. (d) Bouncing of Ball: The ball exerts a force on the ground (action), and the ground exerts an equal and opposite force on the ball (reaction), causing it to bounce back. This is an application. Therefore, (c) is not an application of Newton's third law of motion."
+            },
+            {
+              "question-hindi": " 'भारतीय संविधान के जनक' के रूप में किसे जाना जाता है?",
+              "question-english" : " Who is known as the 'Father of the Indian Constitution'?",
+              "options-hindi": ["(a) डॉ. भीमराव अंबेडकर", "(b) लाला लाजपत राय", "(c) इंदिरा गांधी", "(d) महात्मा गांधी"],
+              "options-english": ["(a) Dr. Bhimrao Ambedkar", "(b) Lala Lajpat Rai", "(c) Indira Gandhi", "(d) Mahatma Gandhi"],
+              "answer-hindi": "(a) डॉ. भीमराव अंबेडकर",
+              "answer-english": "(a) Dr. Bhimrao Ambedkar",
+              "solution-hindi": "डॉ. भीमराव अंबेडकर को व्यापक रूप से 'भारतीय संविधान के जनक' के रूप में माना जाता है। उन्होंने संविधान सभा की मसौदा समिति के अध्यक्ष के रूप में कार्य किया और भारत के संविधान का मसौदा तैयार करने में महत्वपूर्ण भूमिका निभाई।",
+              "solution-english": "Dr. Bhimrao Ambedkar is widely regarded as the 'Father of the Indian Constitution'. He served as the chairman of the Drafting Committee of the Constituent Assembly and played a pivotal role in drafting the Constitution of India."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से कौन लगातार दूसरी बार भारत के प्रधानमंत्री नहीं बने?",
+              "question-english" : " Who among the following did not become the Prime Minister of India for the second consecutive time?",
+              "options-hindi": ["(a) अटल बिहारी वाजपेयी", "(b) इंदिरा गांधी", "(c) जवाहर लाल नेहरू", "(d) मनमोहन सिंह"],
+              "options-english": ["(a) Atal Bihari Vajpayee", "(b) Indira Gandhi", "(c) Jawahar Lal Nehru", "(d) Manmohan Singh"],
+              "answer-hindi": "(a) अटल बिहारी वाजपेयी",
+              "answer-english": "(a) Atal Bihari Vajpayee",
+              "solution-hindi": "(a) अटल बिहारी वाजपेयी: उन्होंने तीन कार्यकाल सेवा की। उनका पहला कार्यकाल बहुत छोटा था (1996), फिर उन्होंने 1998-1999 और 1999-2004 तक सेवा की। उन्होंने दूसरों की तरह दो लगातार पूर्ण कार्यकाल सेवा नहीं की। जबकि उनके लगातार गैर-पूर्ण कार्यकाल थे, प्रश्न की भावना आमतौर पर पूर्ण कार्यकाल या स्पष्ट क्रमिक चुनावी जनादेश का अर्थ है। उनकी 1996 की सरकार केवल 13 दिनों तक चली। (b) इंदिरा गांधी: कई लगातार कार्यकालों (1966-1977) तक सेवा की। (c) जवाहर लाल नेहरू: 1947 से 1964 में अपनी मृत्यु तक लगातार पहले प्रधानमंत्री के रूप में कार्य किया। (d) मनमोहन सिंह: दो लगातार कार्यकालों (2004-2009 और 2009-2014) तक सेवा की। 'लगातार दूसरी बार' को ध्यान में रखते हुए अक्सर पूर्ण कार्यकाल या महत्वपूर्ण लगातार अवधियों का अर्थ होता है, वाजपेयी का पहला बहुत छोटा कार्यकाल उन्हें इस संदर्भ में विसंगति बनाता है।",
+              "solution-english": "(a) Atal Bihari Vajpayee: He served three terms. His first term was very short (1996), then he served from 1998-1999 and 1999-2004. He did not serve two consecutive full terms in the way the others did. While he had consecutive non-full terms, the spirit of the question usually implies full terms or clear successive electoral mandates. His 1996 government lasted only 13 days. (b) Indira Gandhi: Served multiple consecutive terms (1966-1977). (c) Jawahar Lal Nehru: Served as the first Prime Minister from 1947 until his death in 1964, continuously. (d) Manmohan Singh: Served two consecutive terms (2004-2009 and 2009-2014). Considering 'second consecutive time' often implies full terms or significant consecutive periods, Vajpayee's first very short term makes him the anomaly in this context."
+            },
+            {
+              "question-hindi": " संगीतकारों और उनके वाद्ययंत्रों की निम्नलिखित में से कौन सी जोड़ी गलत है?",
+              "question-english" : " Which of the following pairs of musicians and their instruments is INCORRECT?",
+              "options-hindi": ["(a) के वैद्यनाथन - सितार", "(b) पं. राम नारायण - सारंगी", "(c) उस्ताद विलायत खान - सितार", "(d) बिस्मिल्लाह खान - शहनाई"],
+              "options-english": ["(a) K Vaidyanathan – Sitar", "(b) Pt. Ram Narayan – Sarangi", "(c) Ustad Vilayat Khan – Sitar", "(d) Bismillah Khan – Shehnai"],
+              "answer-hindi": "(a) के वैद्यनाथन - सितार",
+              "answer-english": "(a) K Vaidyanathan – Sitar",
+              "solution-hindi": "(a) के वैद्यनाथन को मुख्य रूप से कर्नाटक वायलिन वादक के रूप में जाना जाता है, न कि सितार वादक के रूप में। (b) पं. राम नारायण सारंगी के एक महान उस्ताद हैं। (c) उस्ताद विलायत खान सितार के सबसे बड़े प्रतिपादकों में से एक थे। (d) बिस्मिल्लाह खान शहनाई के उस्ताद थे। इसलिए, गलत जोड़ी (a) है।",
+              "solution-english": "(a) K Vaidyanathan is primarily known as a Carnatic violinist, not a Sitar player. (b) Pt. Ram Narayan is a legendary master of the Sarangi. (c) Ustad Vilayat Khan was one of the greatest exponents of the Sitar. (d) Bismillah Khan was a maestro of the Shehnai. Therefore, the incorrect pair is (a)."
+            },
+            {
+              "question-hindi": " ओणम किस भारतीय राज्य में मनाया जाने वाला त्योहार है?",
+              "question-english" : " Onam is a festival celebrated in which Indian state?",
+              "options-hindi": ["(a) कर्नाटक", "(b) केरल", "(c) गोवा", "(d) तमिलनाडु"],
+              "options-english": ["(a) Karnataka", "(b) Kerala", "(c) Goa", "(d) Tamil Nadu"],
+              "answer-hindi": "(b) केरल",
+              "answer-english": "(b) Kerala",
+              "solution-hindi": "ओणम भारत के केरल राज्य में बड़े उत्साह और जोश के साथ मनाया जाने वाला एक प्रमुख वार्षिक फसल उत्सव है। यह पौराणिक राजा महाबली के घर वापसी का स्मरण कराता है।",
+              "solution-english": "Onam is a major annual harvest festival celebrated with great fervor and enthusiasm in the state of Kerala, India. It commemorates the homecoming of the mythical King Mahabali."
+            },
+            {
+              "question-hindi": " संयुक्त राष्ट्र का गठन ____ वर्ष में हुआ था।",
+              "question-english" : "United Nations was formed in the year ____.",
+              "options-hindi": ["(a) 1944", "(b) 1945", "(c) 1947", "(d) 1949"],
+              "options-english": ["(a) 1944", "(b) 1945", "(c) 1947", "(d) 1949"],
+              "answer-hindi": "(b) 1945",
+              "answer-english": "(b) 1945",
+              "solution-hindi": "संयुक्त राष्ट्र (यूएन) का गठन आधिकारिक तौर पर 24 अक्टूबर 1945 को हुआ था, जब सुरक्षा परिषद के पांच स्थायी सदस्यों सहित अधिकांश हस्ताक्षरकर्ताओं द्वारा यूएन चार्टर की पुष्टि की गई थी।",
+              "solution-english": "The United Nations (UN) was officially formed on 24 October 1945, when the UN Charter was ratified by a majority of the signatories, including the five permanent members of the Security Council."
+            },
+            {
+              "question-hindi": " बजट 2024-2025 के अनुसार भारत सरकार के प्रमुख मदों के व्यय को अवरोही क्रम में व्यवस्थित करें:",
+              "question-english" : "Arrange the following options in descending order of Government of India's Expenditure of Major Items as per the Budget 2024-2025:",
+              "options-hindi": ["(a) शिक्षा, स्वास्थ्य, रक्षा, कृषि और संबद्ध गतिविधियाँ", "(b) रक्षा, शिक्षा, स्वास्थ्य, कृषि और संबद्ध गतिविधियाँ", "(c) रक्षा, कृषि और संबद्ध गतिविधियाँ, शिक्षा, स्वास्थ्य", "(d) कृषि और संबद्ध गतिविधियाँ, रक्षा, स्वास्थ्य, शिक्षा"],
+              "options-english": ["(a) Education, Health, Defence, Agriculture and Allied Activities", "(b) Defence, Education, Health, Agriculture and Allied Activities", "(c) Defence, Agriculture and Allied Activities, Education, Health", "(d) Agriculture and Allied Activities, Defence, Health, Education"],
+              "answer-hindi": "(c) रक्षा, कृषि और संबद्ध गतिविधियाँ, शिक्षा, स्वास्थ्य",
+              "answer-english": "(c) Defence, Agriculture and Allied Activities, Education, Health",
+              "solution-hindi": "हाल के रुझानों और बजट आवंटन के आधार पर, रक्षा को आमतौर पर इन श्रेणियों में केंद्रीय बजट का सबसे बड़ा हिस्सा मिलता है, इसके बाद कृषि और संबद्ध गतिविधियों के लिए महत्वपूर्ण आवंटन होता है। शिक्षा और स्वास्थ्य, हालांकि महत्वपूर्ण हैं, आम तौर पर रक्षा की तुलना में छोटे आवंटन होते हैं। इसलिए, अवरोही क्रम सबसे अधिक संभावना होगी: रक्षा, कृषि और संबद्ध गतिविधियाँ, शिक्षा, स्वास्थ्य।",
+              "solution-english": "Based on recent trends and budget allocations, Defence typically receives the largest share of the Union Budget among these categories, followed by significant allocations for agriculture and allied activities. Education and Health, while important, generally have smaller allocations than Defence. Therefore, the descending order would most likely be: Defence, Agriculture and Allied Activities, Education, Health."
+            },
+            {
+              "question-hindi": " लोहड़ी का त्योहार निम्नलिखित में से किसका प्रतीक है?",
+              "question-english" : "The festival of Lohri marks which of the following?",
+              "options-hindi": ["(a) गर्मी का अंत और सर्दियों की शुरुआत", "(b) वसंत का अंत और सर्दियों की शुरुआत", "(c) सर्दियों का अंत और वसंत की शुरुआत", "(d) सर्दियों का अंत और गर्मियों की शुरुआत।"],
+              "options-english": ["(a) End of Summer and the start of winter", "(b) End of spring and the start of winter", "(c) End of winter and the start of spring", "(d) End of winter and the start of summer."],
+              "answer-hindi": "(c) सर्दियों का अंत और वसंत की शुरुआत",
+              "answer-english": "(c) End of winter and the start of spring",
+              "solution-hindi": "लोहड़ी एक लोकप्रिय शीतकालीन फसल उत्सव है जो मुख्य रूप से पंजाब और अन्य उत्तरी भारतीय राज्यों में मनाया जाता है। यह शीतकालीन संक्रांति के बीतने और सर्दियों के अंत का प्रतीक है, जो लंबे दिनों और वसंत की शुरुआत का सूत्रपात करता है। यह पारंपरिक रूप से रबी फसलों की कटाई से जुड़ा है।",
+              "solution-english": "Lohri is a popular winter harvest festival celebrated primarily in Punjab and other northern Indian states. It marks the passing of the winter solstice and the end of winter, ushering in longer days and the start of spring. It is traditionally associated with the harvest of rabi crops."
+            },
+            {
+              "question-hindi": " भारत के संविधान का अनुच्छेद 164 निम्नलिखित में से किससे संबंधित है?",
+              "question-english" : "Article 164 of the Constitution of India deals with which of the following?",
+              "options-hindi": ["(a) राज्यपाल को सहायता और सलाह देने के लिए मंत्रिपरिषद", "(b) मंत्रिपरिषद सामूहिक रूप से विधान सभा के प्रति उत्तरदायी है", "(c) मुख्यमंत्री राज्यपाल और मंत्रिपरिषद के बीच एक कड़ी के रूप में कार्य करता है", "(d) उपराष्ट्रपति को भारत के राष्ट्रपति द्वारा शपथ दिलाई जाती है"],
+              "options-english": ["(a) Council of Ministers to aid and advise Governor", "(b) The Council of Ministers is collectively responsible to the Legislative Assembly", "(c) The Chief Minister acts as a link between the Governor and the Council of Ministers", "(d) The oath is given to the Vice President by the President of India"],
+              "answer-hindi": "(b) मंत्रिपरिषद सामूहिक रूप से विधान सभा के प्रति उत्तरदायी है",
+              "answer-english": "(b) The Council of Ministers is collectively responsible to the Legislative Assembly",
+              "solution-hindi": "भारत के संविधान का अनुच्छेद 164 मुख्य रूप से मंत्रियों से संबंधित प्रावधानों से संबंधित है। विशेष रूप से, अनुच्छेद 164(2) में कहा गया है कि 'मंत्रिपरिषद राज्य की विधान सभा के प्रति सामूहिक रूप से उत्तरदायी होगी।' जबकि अन्य विकल्प राज्य सरकार के भीतर कार्यों से संबंधित हैं, यह विशिष्ट प्रावधान अनुच्छेद 164 में स्पष्ट रूप से व्यक्त किया गया है।",
+              "solution-english": "Article 164 of the Constitution of India mainly deals with the provisions relating to the Ministers. Specifically, Article 164(2) states that 'The Council of Ministers shall be collectively responsible to the Legislative Assembly of the State.' While other options relate to functions within state government, this specific provision is clearly articulated in Article 164."
+            },
+            {
+              "question-hindi": " भारत की जनगणना 2011 के अनुसार, भारत का लिंगानुपात कितना है?",
+              "question-english" : " According to India's census 2011, how much is India's sex ratio?",
+              "options-hindi": ["(a) 940", "(b) 980", "(c) 900", "(d) 943"],
+              "options-english": ["(a) 940", "(b) 980", "(c) 900", "(d) 943"],
+              "answer-hindi": "(d) 943",
+              "answer-english": "(d) 943",
+              "solution-hindi": "भारत की जनगणना 2011 के अनुसार, भारत का लिंगानुपात (प्रति 1000 पुरुषों पर महिलाओं की संख्या) 943 था।",
+              "solution-english": "As per the Census of India 2011, the sex ratio (number of females per 1000 males) for India was 943."
+            },
+            {
+              "question-hindi": " नीतीश कुमार ने नौवीं बार बिहार के मुख्यमंत्री के रूप में कब शपथ ली?",
+              "question-english" : " When was Nitish Kumar sworn in as the Chief Minister of Bihar for the ninth time?",
+              "options-hindi": ["(a) 27 जनवरी 2024", "(b) 28 जनवरी 2024", "(c) 29 जनवरी 2024", "(d) 30 जनवरी 2024"],
+              "options-english": ["(a) 27 January 2024", "(b) 28 January 2024", "(c) 29 January 2024", "(d) 30 January 2024"],
+              "answer-hindi": "(b) 28 जनवरी 2024",
+              "answer-english": "(b) 28 January 2024",
+              "solution-hindi": "नीतीश कुमार ने 28 जनवरी 2024 को नौवीं बार बिहार के मुख्यमंत्री के रूप में शपथ ली, जब उन्होंने महागठबंधन से इस्तीफा दे दिया और भाजपा के नेतृत्व वाले एनडीए के साथ एक नई सरकार बनाई।",
+              "solution-english": "Nitish Kumar was sworn in as the Chief Minister of Bihar for the ninth time on 28 January 2024, after he resigned from the Mahagathbandhan and formed a new government with the BJP-led NDA."
+            },
+            {
+              "question-hindi": " भारत द्वारा 2024 के गणतंत्र दिवस के लिए मुख्य अतिथि के रूप में निम्नलिखित में से किस व्यक्ति को आमंत्रित किया गया?",
+              "question-english" : "Which of the following person invited by India as Chief Guest for 2024 Republic Day?",
+              "options-hindi": ["(a) लुइज़ इनासियो लूला डा सिल्वा", "(b) जियोर्जिया मेलोनी", "(c) ऋषि सुनक", "(d) इमैनुएल मैक्रों"],
+              "options-english": ["(a) Luiz Inácio Lula da Silva", "(b) Giorgia Meloni", "(c) Rishi Sunak", "(d) Emmanuel Macron"],
+              "answer-hindi": "(d) इमैनुएल मैक्रों",
+              "answer-english": "(d) Emmanuel Macron",
+              "solution-hindi": "फ्रांस के राष्ट्रपति, इमैनुएल मैक्रों, 26 जनवरी, 2024 को भारत के 75वें गणतंत्र दिवस समारोह के मुख्य अतिथि थे।",
+              "solution-english": "The President of France, Emmanuel Macron, was the Chief Guest for India's 75th Republic Day celebrations on January 26, 2024."
+            },
+            {
+              "question-hindi": " खेलो इंडिया शीतकालीन खेल 2024 में पदक तालिका में कौन शीर्ष पर रहा?",
+              "question-english" : "Who finished on top of the medal tally at the Khelo India Winter Games 2024?",
+              "options-hindi": ["(a) कर्नाटक", "(b) सेना", "(c) महाराष्ट्र", "(d) हरियाणा"],
+              "options-english": ["(a) Karnataka", "(b) Army", "(c) Maharashtra", "(d) Haryana"],
+              "answer-hindi": "(b) सेना",
+              "answer-english": "(b) Army",
+              "solution-hindi": "भारतीय सेना की टुकड़ी गुलमर्ग और लेह में आयोजित खेलो इंडिया शीतकालीन खेल 2024 में पदक तालिका में शीर्ष पर रही।",
+              "solution-english": "The Indian Army contingent finished on top of the medal tally at the Khelo India Winter Games 2024, held in Gulmarg and Leh."
+            },
+            {
+              "question-hindi": " इंडियन प्रीमियर लीग (आईपीएल) में पहला शतक बनाने वाला भारतीय खिलाड़ी कौन है?",
+              "question-english" : " Who is the Indian player to score the first century in the Indian Premier League (IPL)?",
+              "options-hindi": ["(a) रोहित शर्मा", "(b) विराट कोहली", "(c) शिखर धवन", "(d) मनीष पांडे"],
+              "options-english": ["(a) Rohit Sharma", "(b) Virat Kohli", "(c) Shikhar Dhawan", "(d) Manish Pandey"],
+              "answer-hindi": "(d) मनीष पांडे ",
+              "answer-english": "(d) Manish Pandey",
+              "solution-hindi": "मनीष पांडे इंडियन प्रीमियर लीग (आईपीएल) में शतक बनाने वाले पहले भारतीय खिलाड़ी थे। उन्होंने यह उपलब्धि 2009 के सीज़न में डेक्कन चार्जर्स के खिलाफ रॉयल चैलेंजर्स बैंगलोर के लिए खेलते हुए हासिल की थी।",
+              "solution-english": "Manish Pandey was the first Indian player to score a century in the Indian Premier League (IPL). He achieved this feat playing for Royal Challengers Bangalore against Deccan Chargers in the 2009 season."
+            },
+            {
+              "question-hindi": " बुद्ध और महावीर निम्नलिखित में से किस महाजनपद से जुड़े हैं?",
+              "question-english" : "Buddha and Mahavira are associated with which one of the following Mahajanapadas?",
+              "options-hindi": ["(a) मगध", "(b) उज्जैन", "(c) वज्जि", "(d) कोसल"],
+              "options-english": ["(a) Magadha", "(b) Ujjain", "(c) Vajji", "(d) Kosala"],
+              "answer-hindi": "(c) वज्जि",
+              "answer-english": "(c) Vajji",
+              "solution-hindi": "महावीर (जैन धर्म) और बुद्ध (बौद्ध धर्म) दोनों उस क्षेत्र में सक्रिय थे जिसमें प्राचीन वज्जि महाजनपद (जिसे वृज्जि संघ भी कहा जाता है) शामिल था, विशेष रूप से वैशाली जैसे क्षेत्रों में। बुद्ध ने कोसल और मगध में भी महत्वपूर्ण समय बिताया, लेकिन वज्जि संघ विशेष रूप से महावीर के मूल क्षेत्र और बुद्ध की प्रारंभिक शिक्षाओं के लिए एक महत्वपूर्ण क्षेत्र होने के लिए जाना जाता है।",
+              "solution-english": "Both Mahavira (Jainism) and Buddha (Buddhism) were active in the region that comprised the ancient Vajji Mahajanapada (also known as Vrijji confederacy), particularly in areas like Vaishali. Buddha also spent significant time in Kosala and Magadha, but the Vajji confederacy is particularly noted for being the origin region of Mahavira and a significant area for Buddha's early teachings."
+            },
+            {
+              "question-hindi": " किस देश ने फीफा विश्व कप सबसे अधिक बार जीता है?",
+              "question-english" : "Which country has won the FIFA World Cup the maximum number of times?",
+              "options-hindi": ["(a) इंग्लैंड", "(b) ब्राजील", "(c) जर्मनी", "(d) फ्रांस"],
+              "options-english": ["(a) England", "(b) Brazil", "(c) Germany", "(d) France"],
+              "answer-hindi": "(b) ब्राजील",
+              "answer-english": "(b) Brazil",
+              "solution-hindi": "ब्राजील के नाम सबसे अधिक बार फीफा विश्व कप जीतने का रिकॉर्ड है, जिसके नाम पांच खिताब (1958, 1962, 1970, 1994, 2002) हैं।",
+              "solution-english": "Brazil holds the record for winning the FIFA World Cup the maximum number of times, with five titles (1958, 1962, 1970, 1994, 2002)."
+            },
+            {
+              "question-hindi": " 'नेहरू ट्रॉफी' किस खेल से संबंधित है?",
+              "question-english" : "Which sport is the 'Nehru Trophy' associated with?",
+              "options-hindi": ["(a) टेनिस", "(b) नाव दौड़", "(c) हॉकी", "(d) बैडमिंटन"],
+              "options-english": ["(a) Tennis", "(b) Boat Race", "(c) Hockey", "(d) Badminton"],
+              "answer-hindi": "(b) नाव दौड़",
+              "answer-english": "(b) Boat Race",
+              "solution-hindi": "नेहरू ट्रॉफी प्रसिद्ध रूप से नाव दौड़ (विशेष रूप से नेहरू ट्रॉफी बोट रेस, एक लोकप्रिय वल्लम काली या पारंपरिक सर्प नौका दौड़) से जुड़ी है, जो भारत के केरल के अलाप्पुझा में पुन्नमदा झील पर प्रतिवर्ष आयोजित की जाती है।",
+              "solution-english": "The Nehru Trophy is famously associated with the Boat Race (specifically the Nehru Trophy Boat Race, a popular vallam kali or traditional snake boat race) held annually on the Punnamada Lake in Alappuzha, Kerala, India."
+            },
+            {
+              "question-hindi": " शतरंज में, 'stalemate' क्या है?",
+              "question-english" : "In chess, what is a 'stalemate'?",
+              "options-hindi": ["(a) एक खिलाड़ी के राजा के पास कोई कानूनी चाल नहीं होती है, जिसके परिणामस्वरूप ड्रॉ होता है", "(b) शतरंज के खेल की पहली चाल", "(c) एक स्थिति जब खिलाड़ी का राजा शह में होता है(c) एक स्थिति जब खिलाड़ी का राजा शह में होता है", "(d) एक खिलाड़ी के लिए एक जीत की स्थिति"],
+              "options-english": ["(a) A player's king has no legal moves, resulting in a draw", "(b) The very first move of the chess game", "(c) A position when player's king is in check", "(d) A winning position for one player"],
+              "answer-hindi": "(a) एक खिलाड़ी के राजा के पास कोई कानूनी चाल नहीं होती है, जिसके परिणामस्वरूप ड्रॉ होता है",
+              "answer-english": "(a) A player's king has no legal moves, resulting in a draw",
+              "solution-hindi": "शतरंज में, एक stalemate तब होता है जब जिस खिलाड़ी की बारी चलने की होती है, उसके पास कोई कानूनी चाल नहीं होती है, लेकिन उसका राजा शह में नहीं होता है। इस स्थिति में, खेल को ड्रॉ घोषित कर दिया जाता है।",
+              "solution-english": "In chess, a stalemate occurs when the player whose turn it is to move has no legal moves, but their king is not in check. In this situation, the game is declared a draw."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से कौन सा भारत में 'पूंजीगत लाभ कर' शब्द का सबसे अच्छा वर्णन करता है?",
+              "question-english" : " Which one of the following best describes the term 'capital gains tax' in India?",
+              "options-hindi": ["(a) कॉर्पोरेट बांड से प्राप्त लाभांश पर कर।", "(b) एक वर्ष के दौरान एक पूंजीगत संपत्ति की बिक्री से लाभ पर कर।", "(c) बैंक सावधि जमा से प्राप्त ब्याज पर कर।", "(d) 12 महीने से अधिक समय तक रखे गए शेयरों की बिक्री से लाभ पर कर।"],
+              "options-english": ["(a) Tax on dividend received from corporate bonds", "(b) Tax on profit from the sale of a capital asset during a year.", "(c) Tax on interest received from bank fixed deposits", "(d) Tax on profit from sale of shares held for more 12 months"],
+              "answer-hindi": "(b) एक वर्ष के दौरान एक पूंजीगत संपत्ति की बिक्री से लाभ पर कर।",
+              "answer-english": "(b) Tax on profit from the sale of a capital asset during a year.",
+              "solution-hindi": "भारत में पूंजीगत लाभ कर एक पूंजीगत संपत्ति की बिक्री या हस्तांतरण से होने वाले लाभ या लाभ पर लगाया जाने वाला कर है। एक पूंजीगत संपत्ति में संपत्ति, स्टॉक, बांड, म्यूचुअल फंड, गहने आदि शामिल हो सकते हैं। कर की दर और वर्गीकरण (अल्पकालिक या दीर्घकालिक) संपत्ति के प्रकार और धारण अवधि पर निर्भर करता है। विकल्प (d) पूंजीगत लाभ कर (शेयरों पर दीर्घकालिक पूंजीगत लाभ) का एक विशिष्ट उदाहरण है, लेकिन (b) सबसे व्यापक और सटीक परिभाषा है।",
+              "solution-english": "Capital gains tax in India is a tax levied on the profit or gain arising from the sale or transfer of a capital asset. A capital asset can include property, stocks, bonds, mutual funds, jewelry, etc. The tax rate and classification (short-term or long-term) depend on the type of asset and the holding period. Option (d) is a specific instance of capital gains tax (long-term capital gains on shares), but (b) is the most comprehensive and accurate definition."
+            },
+            {
+              "question-hindi": " कार्यबल की जनसंख्या में ______ वर्ष से ______ वर्ष तक के लोग शामिल हैं।",
+              "question-english" : "The workforce population includes people aged from ______ years to ______ years.",
+              "options-hindi": ["(a) 10, 69", "(b) 15, 59", "(c) 21, 55", "(d) 18, 65"],
+              "options-english": ["(a) 10, 69", "(b) 15, 59", "(c) 21, 55", "(d) 18, 65"],
+              "answer-hindi": "(b) 15, 59",
+              "answer-english": "(b) 15, 59",
+              "solution-hindi": "हालांकि सर्वेक्षण या संगठन के आधार पर परिभाषाएं थोड़ी भिन्न हो सकती हैं, आम तौर पर, कार्यबल या कामकाजी उम्र की आबादी में 15 से 59 वर्ष की आयु के व्यक्ति शामिल माने जाते हैं। यह आयु वर्ग आमतौर पर काम करने में सक्षम और उपलब्ध माना जाता है।",
+              "solution-english": "While definitions can vary slightly depending on the survey or organization, generally, the workforce or working-age population is considered to include individuals aged 15 to 59 years. This age group is typically assumed to be capable of and available for work."
+            },
+            {
+              "question-hindi": " भारत की जनगणना 2011 के अनुसार, भारत में अनुसूचित जनजातियों का जनसंख्या प्रतिशत कितना है?",
+              "question-english" : " According to the Census of India 2011, what is population percentage of Scheduled Tribals in India?",
+              "options-hindi": ["(a) 9.3%", "(b) 8.6%", "(c) 7.5%", "(d) 12.2%"],
+              "options-english": ["(a) 9.3%", "(b) 8.6%", "(c) 7.5%", "(d) 12.2%"],
+              "answer-hindi": "(b) 8.6%",
+              "answer-english": "(b) 8.6%",
+              "solution-hindi": "भारत की जनगणना 2011 के अनुसार, अनुसूचित जनजाति (एसटी) की आबादी देश की कुल आबादी का 8.6% थी।",
+              "solution-english": "According to the Census of India 2011, the Scheduled Tribe (ST) population constituted 8.6% of the total population of the country."
+            },
+            {
+              "question-hindi": " उस पुस्तक का क्या नाम है जिसमें बौद्ध संघों द्वारा बनाए गए नियमों को निर्धारित किया गया था?",
+              "question-english" : " What is the name of the book where the rules made by the Buddhist Sanghas were laid down?",
+              "options-hindi": ["(a) स्तोत्र", "(b) विनय पिटक", "(c) महाभिनिष्क्रमण", "(d) पंचतंत्र"],
+              "options-english": ["(a) Stotra", "(b) Vinaya Pitaka", "(c) Mahabhinishkramana", "(d) Panchatantra"],
+              "answer-hindi": "(b) विनय पिटक",
+              "answer-english": "(b) Vinaya Pitaka",
+              "solution-hindi": "बौद्ध धर्मग्रंथों को मुख्य रूप से तीन मुख्य श्रेणियों में विभाजित किया गया है जिन्हें त्रिपिटक (तीन टोकरियाँ) के नाम से जाना जाता है। विनय पिटक त्रिपिटक का वह हिस्सा है जिसमें भिक्षुओं और ननों के लिए बौद्ध संघ (मठवासी समुदाय) के मठवासी अनुशासन के नियम और विनियम शामिल हैं। स्तोत्र भक्ति भजन हैं। महाभिनिष्क्रमण बुद्ध के महान त्याग को संदर्भित करता है। पंचतंत्र प्राचीन भारतीय पशु दंतकथाओं का एक संग्रह है।",
+              "solution-english": "The Buddhist scriptures are primarily divided into three main categories known as the Tripitaka (Three Baskets). The Vinaya Pitaka is the part of the Tripitaka that contains the rules and regulations for the monastic discipline of the Buddhist Sangha (monastic community) for monks and nuns. Stotra are devotional hymns. Mahabhinishkramana refers to Buddha's Great Renunciation. Panchatantra is a collection of ancient Indian animal fables."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से कौन सा खिलाड़ी टेबल टेनिस से संबंधित है?",
+              "question-english" : " Who among the following players is related to table tennis?",
+              "options-hindi": ["(a) मनीष नरवाल", "(b) मनिका बत्रा", "(c) के श्रीकांत", "(d) पंकज आडवाणी"],
+              "options-english": ["(a) Manish Narwal", "(b) Manika Batra", "(c) K Srikanth", "(d) Pankaj Advani"],
+              "answer-hindi": "(b) मनिका बत्रा",
+              "answer-english": "(b) Manika Batra",
+              "solution-hindi": "(a) मनीष नरवाल एक भारतीय पैरा-शूटर हैं। (b) मनिका बत्रा एक प्रमुख भारतीय टेबल टेनिस खिलाड़ी हैं, जो कई राष्ट्रमंडल खेलों की पदक विजेता हैं। (c) के श्रीकांत एक भारतीय बैडमिंटन खिलाड़ी हैं। (d) पंकज आडवाणी एक भारतीय पेशेवर बिलियर्ड्स और स्नूकर खिलाड़ी हैं।",
+              "solution-english": "(a) Manish Narwal is an Indian para-shooter. (b) Manika Batra is a prominent Indian table tennis player, a multiple Commonwealth Games medalist. (c) K Srikanth is an Indian badminton player. (d) Pankaj Advani is an Indian professional billiards and snooker player."
+            },
+            {
+              "question-hindi": " वित्तीय वर्ष 2024-2025 के लिए प्रधानमंत्री मातृ वंदना योजना के लिए प्रस्तावित बजट आवंटन क्या है?",
+              "question-english" : " What is the proposed budget allocation for the Pradhan Mantri Matru Vandana Yojana for the fiscal year 2024-2025?",
+              "options-hindi": ["(a) 250 करोड़ रुपये", "(b) 319 करोड़ रुपये", "(c) 322 करोड़ रुपये", "(d) 350 करोड़ रुपये"],
+              "options-english": ["(a) Rs 250 crore", "(b) Rs 319 crore", "(c) Rs 322 crore", "(d) Rs 350 crore"],
+              "answer-hindi": "(d) 350 करोड़ रुपये",
+              "answer-english": "(d) Rs 350 crore",
+              "solution-hindi": "केंद्रीय बजट 2024-25 के अनुसार, प्रधानमंत्री मातृ वंदना योजना (पीएमएमवीवाई) के लिए प्रस्तावित बजट आवंटन 350 करोड़ रुपये है। यह योजना गर्भवती महिलाओं और स्तनपान कराने वाली माताओं को मातृत्व लाभ प्रदान करती है।",
+              "solution-english": "As per the Union Budget 2024-25, the proposed budget allocation for the Pradhan Mantri Matru Vandana Yojana (PMMVY) is Rs 350 crore. This scheme provides maternity benefits to pregnant women and lactating mothers."
+            },
+            {
+              "question-hindi": " केंद्रीय वित्त मंत्री निर्मला सीतारमण द्वारा मंगलवार, 23 जुलाई, 2024 को प्रस्तुत केंद्रीय बजट के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+              "question-english" : "Which of the following statements about the Union Budget presented by Union Finance Minister Nirmala Sitharaman on Tuesday, July 23, 2024, is correct?",
+              "options-hindi": ["(a) यह उनका 7वां बजट है", "(b) यह उनका 6वां बजट है", "(c) यह उनका 5वां बजट है", "(d) यह उनका 8वां बजट है"],
+              "options-english": ["(a) It is her 7th budget", "(b) It is her 6th budget", "(c) It is her 5th budget", "(d) It is her 8th budget"],
+              "answer-hindi": "(a) यह उनका 7वां बजट है",
+              "answer-english": "(a) It is her 7th budget",
+              "solution-hindi": "निर्मला सीतारमण ने 23 जुलाई, 2024 को अपना सातवां लगातार केंद्रीय बजट (अंतरिम बजट सहित) प्रस्तुत किया। उन्होंने अपना पहला पूर्ण बजट जुलाई 2019 में प्रस्तुत किया, इसके बाद 2020, 2021, 2022, 2023 में बजट और फरवरी 2024 में एक अंतरिम बजट प्रस्तुत किया। जुलाई 2024 का बजट उनका सातवां होगा।",
+              "solution-english": "Nirmala Sitharaman presented her seventh consecutive Union Budget (including interim budgets) on July 23, 2024. She presented her first full budget in July 2019, followed by budgets in 2020, 2021, 2022, 2023, and an interim budget in February 2024. The July 2024 budget would be her seventh."
+            },
+            {
+              "question-hindi": " भारत के संविधान के निम्नलिखित में से किस अनुच्छेद में वित्तीय आपातकाल का प्रावधान है?",
+              "question-english" : " Which of the following articles of the Constitution of India has a provision for financial emergency?",
+              "options-hindi": ["(a) अनुच्छेद 365", "(b) अनुच्छेद 356", "(c) अनुच्छेद 360", "(d) अनुच्छेद 330"],
+              "options-english": ["(a) Article 365", "(b) Article 356", "(c) Article 360", "(d) Article 330"],
+              "answer-hindi": "(c) अनुच्छेद 360",
+              "answer-english": "(c) Article 360",
+              "solution-hindi": "(a) अनुच्छेद 365 संघ द्वारा दिए गए निर्देशों का पालन करने या उन्हें प्रभावी करने में विफलता के प्रभाव से संबंधित है। (b) अनुच्छेद 356 संवैधानिक तंत्र की विफलता के कारण किसी राज्य में राष्ट्रपति शासन लगाने से संबंधित है। (c) अनुच्छेद 360 भारत में वित्तीय आपातकाल की घोषणा का प्रावधान करता है। (d) अनुच्छेद 330 लोक सभा में अनुसूचित जातियों और अनुसूचित जनजातियों के लिए सीटों के आरक्षण से संबंधित है।",
+              "solution-english": "(a) Article 365 deals with the effect of failure to comply with or to give effect to, directions given by the Union. (b) Article 356 deals with the imposition of President's Rule in a state due to the failure of constitutional machinery. (c) Article 360 provides for the proclamation of a Financial Emergency in India. (d) Article 330 deals with the reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People."
+            },
+            {
+              "question-hindi": " नवरोज उत्सव किससे संबंधित है",
+              "question-english" : " Navroz celebration is associated with",
+              "options-hindi": ["(a) असमिया नव वर्ष", "(b) पारसी नव वर्ष", "(c) लद्दाखी नव वर्ष", "(d) तेलुगु नव वर्ष"],
+              "options-english": ["(a) Assamese New Year", "(b) Parsi New Year", "(c) Ladakhi New Year", "(d) Telugu New Year"],
+              "answer-hindi": "(b) पारसी नव वर्ष",
+              "answer-english": "(b) Parsi New Year",
+              "solution-hindi": "नवरोज (जिसे नौरोज़ भी कहा जाता है) पारसियों (पारसियों) का पारंपरिक नव वर्ष दिवस उत्सव है और इसे दुनिया भर में विभिन्न जातीय समूहों द्वारा वसंत विषुव के रूप में भी मनाया जाता है।",
+              "solution-english": "Navroz (also spelled Nowruz) is the traditional New Year's Day festival of the Parsis (Zoroastrians) and is also celebrated by various ethnic groups worldwide as the spring equinox."
+            },
+            {
+              "question-hindi": " एक फुटबॉल मैच की अवधि (नियमित समय में) क्या है?",
+              "question-english" : " What is the duration of a football match (in regular time)?",
+              "options-hindi": ["(a) 90 मिनट", "(b) 80 मिनट", "(c) 70 मिनट", "(d) 60 मिनट"],
+              "options-english": ["(a) 90 minutes", "(b) 80 minutes", "(c) 70 minutes", "(d) 60 minutes"],
+              "answer-hindi": "(a) 90 मिनट",
+              "answer-english": "(a) 90 minutes",
+              "solution-hindi": "एक मानक फुटबॉल (सॉकर) मैच में 45 मिनट के दो हाफ होते हैं, जो कुल 90 मिनट के नियमित खेल होते हैं, जिसमें चोट का समय और अतिरिक्त समय (यदि लागू हो) शामिल नहीं है।",
+              "solution-english": "A standard football (soccer) match consists of two halves of 45 minutes each, totaling 90 minutes of regular play, excluding injury time and extra time (if applicable)."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से कौन सा भारतीय शास्त्रीय नृत्य पात्रों का प्रतीक करने के लिए चेहरे पर विभिन्न रंगों का उपयोग करता है?",
+              "question-english" : " Which of the following Indian classical dance forms uses various colours on face to symbolise the characters?",
+              "options-hindi": ["(a) ओडिसी", "(b) कथकली", "(c) भरतनाट्यम", "(d) मोहिनीअट्टम"],
+              "options-english": ["(a) Odissi", "(b) Kathakali", "(c) Bharatanatyam", "(d) Mohiniattam"],
+              "answer-hindi": "(b) कथकली",
+              "answer-english": "(b) Kathakali",
+              "solution-hindi": "कथकली, केरल का एक प्रमुख शास्त्रीय भारतीय नृत्य, अपने विस्तृत और रंगीन मेकअप, वेशभूषा और चेहरे के मुखौटों के लिए प्रसिद्ध है। चेहरे पर लगाए गए विभिन्न रंग (उदाहरण के लिए, कुलीन पात्रों के लिए हरा, बुरे के लिए लाल, शिकारियों के लिए काला) पात्रों की प्रकृति को प्रतीकित और वर्गीकृत करने के लिए उपयोग किए जाते हैं।",
+              "solution-english": "Kathakali, a major form of classical Indian dance from Kerala, is renowned for its elaborate and colorful makeup, costumes, and facial masks. The various colors applied to the face (e.g., green for noble characters, red for evil, black for hunters) are used to symbolize and classify the nature of the characters."
+            },
+            {
+              "question-hindi": " माना जाता है कि किस प्रसिद्ध संगीतकार ने तबले का आविष्कार किया था?",
+              "question-english" : " Which famous musician is believed to have invented the Tabla?",
+              "options-hindi": ["(a) तानसेन", "(b) मिर्जा गालिब", "(c) अमीर खुसरो", "(d) फैज अहमद फैज"],
+              "options-english": ["(a) Tansen", "(b) Mirza Ghalib", "(c) Amir Khusrau", "(d) Faiz Ahmed Faiz"],
+              "answer-hindi": "(c) अमीर खुसरो",
+              "answer-english": "(c) Amir Khusrau",
+              "solution-hindi": "अमीर खुसरो (1253-1325 ईस्वी), भारत के एक सूफी संगीतकार, कवि और विद्वान, को तबला, साथ ही साथ सितार और कव्वाली जैसे अन्य संगीत वाद्ययंत्रों और शैलियों के आविष्कार का व्यापक श्रेय दिया जाता है। जबकि तबले की सटीक ऐतिहासिक उत्पत्ति पर बहस होती है, खुसरो का नाम आमतौर पर इसके विकास से जुड़ा हुआ है।",
+              "solution-english": "Amir Khusrau (1253–1325 CE), a Sufi musician, poet, and scholar from India, is widely credited with the invention of the Tabla, as well as other musical instruments and genres like the Sitar and Qawwali. While the exact historical origin of the tabla is debated, Khusrau's name is most commonly associated with its development."
+            },
+            {
+              "question-hindi": " तकनीकी उन्नति और वैज्ञानिक विकास के कारण होने वाली बेरोजगारी को _____ के रूप में जाना जाता है।",
+              "question-english" : " Unemployment caused due to technical advancement and scientific development is known as _____.",
+              "options-hindi": ["(a) तकनीकी बेरोजगारी", "(b) शिक्षित बेरोजगारी", "(c) संरचनात्मक बेरोजगारी", "(d) प्रच्छन्न बेरोजगारी"],
+              "options-english": ["(a) Technological Unemployment", "(b) Educated Unemployment", "(c) Structural Unemployment", "(d) Disguised Unemployment"],
+              "answer-hindi": "(a) तकनीकी बेरोजगारी",
+              "answer-english": "(a) Technological Unemployment",
+              "solution-hindi": "तकनीकी बेरोजगारी तब होती है जब प्रौद्योगिकी में प्रगति (जैसे, स्वचालन, कृत्रिम बुद्धिमत्ता) के कारण मशीनें मानव श्रम की जगह ले लेती हैं, जिससे कुछ नौकरियां अप्रचलित हो जाती हैं। यह तकनीकी परिवर्तन के कारण सीधे होने वाली बेरोजगारी का एक विशिष्ट प्रकार है। शिक्षित बेरोजगारी शिक्षित व्यक्तियों को उपयुक्त नौकरी खोजने में असमर्थ होने को संदर्भित करती है। संरचनात्मक बेरोजगारी श्रमिकों के पास मौजूद कौशल और उपलब्ध नौकरियों के लिए आवश्यक कौशल के बीच एक बेमेल के परिणामस्वरूप होती है। तकनीकी बेरोजगारी संरचनात्मक बेरोजगारी में योगदान कर सकती है। प्रच्छन्न बेरोजगारी तब होती है जब वास्तव में जरूरत से ज्यादा लोग कार्यरत होते हैं, जिसका अर्थ है कि भले ही कुछ श्रमिकों को हटा दिया जाए, उत्पादन में कमी नहीं आएगी।",
+              "solution-english": "Technological unemployment occurs when advancements in technology (e.g., automation, artificial intelligence) lead to machines replacing human labor, making certain jobs obsolete. This is a specific type of unemployment caused directly by technological change.\nEducated unemployment refers to educated individuals being unable to find suitable jobs. Structural unemployment results from a mismatch between the skills workers have and the skills required for available jobs. Technological unemployment can contribute to structural unemployment. Disguised unemployment occurs when more people are employed than are actually needed, meaning that even if some workers are removed, output would not decrease."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से किस विधायी सदन को समाप्त किया जा सकता है?",
+              "question-english" : " Which one of the following legislative house can be abolished?",
+              "options-hindi": ["(a) लोक सभा", "(b) राज्य सभा", "(c) विधान परिषद", "(d) उपरोक्त में से कोई नहीं"],
+              "options-english": ["(a) Lok Sabha", "(b) Rajya Sabha", "(c) Vidhan Parishad", "(d) None of the above"],
+              "answer-hindi": "(c) विधान परिषद",
+              "answer-english": "(c) Vidhan Parishad",
+              "solution-hindi": "(a) लोक सभा (लोगों का सदन) भारतीय संसद का निचला सदन है और इसे समाप्त नहीं किया जा सकता है। इसे अपने कार्यकाल की समाप्ति से पहले भंग किया जा सकता है, लेकिन स्थायी रूप से समाप्त नहीं किया जा सकता है। (b) राज्य सभा (राज्यों की परिषद) भारतीय संसद का ऊपरी सदन है और एक स्थायी निकाय है, जिसका अर्थ है कि इसे भंग या समाप्त नहीं किया जा सकता है। (c) विधान परिषद (विधान परिषद) कुछ भारतीय राज्यों के द्विसदनीय विधानसभाओं में ऊपरी सदन है। भारतीय संविधान का अनुच्छेद 169 राज्य विधान सभा द्वारा एक विशेष बहुमत के साथ पारित एक प्रस्ताव द्वारा और फिर संसद के एक अधिनियम द्वारा राज्यों में विधान परिषदों के निर्माण या उन्मूलन का प्रावधान करता है। (d) इसलिए, विधान परिषद सही उत्तर है।",
+              "solution-english": "(a) Lok Sabha (House of the People) is the lower house of the Indian Parliament and cannot be abolished. It can be dissolved before its term ends, but not abolished permanently. (b) Rajya Sabha (Council of States) is the upper house of the Indian Parliament and is a permanent body, meaning it cannot be dissolved or abolished. (c) Vidhan Parishad (Legislative Council) is the upper house in the bicameral legislatures of some Indian states. Article 169 of the Indian Constitution provides for the creation or abolition of Legislative Councils in states by a resolution passed by the state Legislative Assembly with a special majority, and then by an Act of Parliament. (d) Therefore, Vidhan Parishad is the correct answer."
+            },
+            {
+              "question-hindi": " एक सरकारी कंपनी 'एनएसएफडीसी' का पूर्ण रूप क्या है?",
+              "question-english" : " What is the full form of 'NSFDC', a government company?",
+              "options-hindi": ["(a) राष्ट्रीय अनुसूचित जाति वित्त और विकास निगम", "(b) राष्ट्रीय विज्ञान और फोरेंसिक विकास केंद्र", "(c) वित्त और विकास निगम के लिए राष्ट्रीय सर्वेक्षण", "(d) राष्ट्रीय विज्ञान संघ और विकास निगम"],
+              "options-english": ["(a) National Scheduled Castes Finance and Development Corporation", "(b) National Science and Forensic Development Centre", "(c) National Survey for Finance and Development Corporation", "(d) National Science Federation and Development Corporation"],
+              "answer-hindi": "(a) राष्ट्रीय अनुसूचित जाति वित्त और विकास निगम",
+              "answer-english": "(a) National Scheduled Castes Finance and Development Corporation",
+              "solution-hindi": "एनएसएफडीसी का पूर्ण रूप राष्ट्रीय अनुसूचित जाति वित्त और विकास निगम है। यह सामाजिक न्याय और अधिकारिता मंत्रालय के तहत भारत सरकार का एक उपक्रम है, जो अनुसूचित जातियों से संबंधित व्यक्तियों के आर्थिक सशक्तिकरण के लिए समर्पित है।",
+              "solution-english": "The full form of NSFDC is the National Scheduled Castes Finance and Development Corporation. It is a Government of India undertaking under the Ministry of Social Justice & Empowerment, dedicated to the economic empowerment of persons belonging to Scheduled Castes."
+            },
+            {
+              "question-hindi": " भारत ने रिकॉर्ड पांचवीं बार पुरुष एशियाई चैंपियंस ट्रॉफी जीतने के लिए किस टीम को हराया?",
+              "question-english" : " Which team did India defeat to win the Men's Asian Champions Trophy for a record fifth time?",
+              "options-hindi": ["(a) जापान", "(b) दक्षिण कोरिया", "(c) चीन", "(d) पाकिस्तान"],
+              "options-english": ["(a) Japan", "(b) South Korea", "(c) China", "(d) Pakistan"],
+              "answer-hindi": "(d) पाकिस्तान",
+              "answer-english": "(d) Pakistan",
+              "solution-hindi": "भारत ने 2023 में रिकॉर्ड पांचवीं बार पुरुष एशियाई चैंपियंस ट्रॉफी जीतने के लिए फाइनल में पाकिस्तान को हराया।",
+              "solution-english": "India defeated Pakistan in the final to win the Men's Asian Champions Trophy for a record fifth time in 2023."
+            },
+            {
+              "question-hindi": " आंध्र प्रदेश के मुख्यमंत्री के रूप में किसने शपथ ली? (जून 2024 तक)",
+              "question-english" : " Who was sworn in as the Chief Minister of Andhra Pradesh? (As of June 2024)",
+              "options-hindi": ["(a) पवन कल्याण", "(b) दग्गुबाती पुरंदेश्वरी", "(c) एस अब्दुल नजीर", "(d) नारा चंद्रबाबू नायडू"],
+              "options-english": ["(a) Pawan Kalyan", "(b) Daggubati Purandeswari", "(c) S Abdul Nazeer", "(d) Nara Chandrababu Naidu"],
+              "answer-hindi": "(d) नारा चंद्रबाबू नायडू",
+              "answer-english": "(d) Nara Chandrababu Naidu",
+              "solution-hindi": "जून 2024 में, आंध्र प्रदेश विधानसभा चुनावों के बाद, नारा चंद्रबाबू नायडू ने आंध्र प्रदेश के मुख्यमंत्री के रूप में शपथ ली। वह तेलुगु देशम पार्टी (टीडीपी) के नेता हैं।",
+              "solution-english": "In June 2024, following the Andhra Pradesh Assembly elections, Nara Chandrababu Naidu was sworn in as the Chief Minister of Andhra Pradesh. He is the leader of the Telugu Desam Party (TDP)."
+            },
+            {
+              "question-hindi": " निम्नलिखित में से किस वायसराय के दौरान विधवा पुनर्विवाह अधिनियम पेश किया गया था?",
+              "question-english" : " During which of the following Viceroy Widow Remarriage Act was introduced?",
+              "options-hindi": ["(a) लॉर्ड एमहर्स्ट", "(b) लॉर्ड डलहौजी", "(c) लॉर्ड हार्डिंग- I", "(d) विलियम बेंटिंक"],
+              "options-english": ["(a) Lord Amherst", "(b) Lord Dalhousie", "(c) Lord Hardinge-I", "(d) William Bentinck"],
+              "answer-hindi": "(b) लॉर्ड डलहौजी",
+              "answer-english": "(b) Lord Dalhousie",
+              "solution-hindi": "1856 का हिंदू विधवा पुनर्विवाह अधिनियम लॉर्ड डलहौजी द्वारा तैयार किया गया था, हालांकि यह लॉर्ड कैनिंग के समय में पारित किया गया था। हालांकि, डलहौजी का प्रशासन इसकी शुरुआत और मसौदा तैयार करने में सहायक था। दिए गए विकल्पों में, डलहौजी अधिनियम की शुरूआत/मसौदा तैयार करने के लिए सबसे प्रासंगिक वायसराय है।",
+              "solution-english": "The Hindu Widow's Remarriage Act of 1856 was drafted by Lord Dalhousie, though it was passed during the time of Lord Canning. However, Dalhousie's administration was instrumental in its initiation and drafting. Given the options, Dalhousie is the most relevant Viceroy to the introduction/drafting of the act."
+            },
+            {
+              "question-hindi": " पौधे के निम्नलिखित में से कौन से भाग यौन प्रजनन में भाग लेते हैं?",
+              "question-english" : " Which of the following parts of a plant take part in sexual reproduction?",
+              "options-hindi": ["(a) फल और फूल", "(b) केवल फूल", "(c) फूल, बीज और फल", "(d) फल, शाखा और बीज"],
+              "options-english": ["(a) Fruit and Flower", "(b) Only Flower", "(c) Flower, Seed, and Fruit", "(d) Fruit, Branch, and Seed"],
+              "answer-hindi": "(b) केवल फूल",
+              "answer-english": "(b) Only Flower",
+              "solution-hindi": "फूल वाले पौधों (एंजियोस्पर्म) में, फूल प्रजनन अंग है। इसमें नर प्रजनन भाग (परागकोष) और मादा प्रजनन भाग (स्त्रीकेसर/अंडप) होते हैं जहाँ परागण और निषेचन होता है। फल निषेचन के बाद अंडाशय से विकसित होता है, और बीज बीजांड से विकसित होता है, इसलिए वे यौन प्रजनन के परिणाम हैं, लेकिन वास्तविक प्रक्रिया फूल में होती है। शाखाएं वानस्पतिक भाग हैं।",
+              "solution-english": "In flowering plants (angiosperms), the flower is the reproductive organ. It contains the male reproductive parts (stamens) and female reproductive parts (pistil/carpel) where pollination and fertilization occur. The fruit develops from the ovary after fertilization, and the seed develops from the ovule, so they are results of sexual reproduction, but the actual process takes place in the flower. Branches are vegetative parts."
+            },
+            {
+              "question-hindi": " इंदिरा गांधी शांति, निरस्त्रीकरण और विकास पुरस्कार 2024 से किसे सम्मानित किया गया?",
+              "question-english" : " Who was awarded the Indira Gandhi Prize for Peace, Disarmament and Development 2024?",
+              "options-hindi": ["(a) मिशेल बाचेलेट", "(b) बराक ओबामा", "(c) एंजेला मर्केल", "(d) कोफी अन्नान"],
+              "options-english": ["(a) Michelle Bachelet", "(b) Barack Obama", "(c) Angela Merkel", "(d) Kofi Annan"],
+              "answer-hindi": "(a) मिशेल बाचेलेट",
+              "answer-english": "(a) Michelle Bachelet",
+              "solution-hindi": "चिली की पूर्व राष्ट्रपति और मानवाधिकार के लिए पूर्व संयुक्त राष्ट्र उच्चायुक्त मिशेल बाचेलेट को 2023 के लिए शांति, निरस्त्रीकरण और विकास के लिए इंदिरा गांधी पुरस्कार से सम्मानित किया गया। प्रश्न (2024) के संदर्भ को देखते हुए, यह संभवतः उस वर्ष के लिए 2023 के अंत में घोषित पुरस्कार को संदर्भित करता है।",
+              "solution-english": "Michelle Bachelet, the former President of Chile and former UN High Commissioner for Human Rights, was awarded the Indira Gandhi Prize for Peace, Disarmament and Development for 2023. Given the context of the question (2024), it likely refers to the award announced in late 2023 for that year."
+            }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+      "question-english": "Complete the analogy: ________ : Triangle :: Arc : Circle",
+      "question-hindi": "सादृश्यता पूरी करें: ________ : त्रिभुज :: चाप : वृत्त",
+      "options-english": ["(a) Side", "(b) Perimeter", "(c) Angle", "(d) Vertex"],
+      "options-hindi": ["(a) भुजा", "(b) परिधि/परिमाप", "(c) कोण", "(d) शीर्ष"],
+      "answer-english": "(a) Side",
+      "answer-hindi": "(a) भुजा",
+      "solution-english": "An 'Arc' is part of the boundary (circumference) of a circle; similarly a 'Side' is a part of the boundary (perimeter) of a triangle.",
+      "solution-hindi": "'चाप' वृत्त की परिधि का भाग है; उसी तरह 'भुजा' त्रिभुज की परिधि का भाग है।"
+    },
+    {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q2.png",
+  "question-english": "Gold, Silver, Jewellery",
+  "question-hindi": "सोना, चांदी, आभूषण",
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-english": "(a)",
+  "answer-hindi": "(a)",
+  "solution-english": "Gold and silver are two distinct metals, and jewellery can be made from both. Hence, the Venn diagram shows three intersecting circles where jewellery overlaps with both gold and silver, but gold and silver themselves are separate sets.",
+  "solution-hindi": "सोना और चांदी दो अलग-अलग धातुएँ हैं, और आभूषण दोनों से बनाए जा सकते हैं। इसलिए, वेन आरेख में तीन वृत्त दिखाए गए हैं — आभूषण का वृत्त सोना और चांदी दोनों से आच्छादित होता है, जबकि सोना और चांदी एक-दूसरे से अलग रहते हैं।"
+}
+,
+    {
+      "question-english": "Choose the correct option to complete the series: 8.2, 6.9, 5.6, 4.3, ?, 1.7",
+      "question-hindi": "दी गई श्रृंखला को पूरा करने के लिए सही विकल्प चुनें: 8.2, 6.9, 5.6, 4.3, ?, 1.7",
+      "options-english": ["(a) 3.0", "(b) 2.9", "(c) 3.1", "(d) 2.8"],
+      "options-hindi": ["(a) 3.0", "(b) 2.9", "(c) 3.1", "(d) 2.8"],
+      "answer-english": "(a) 3.0",
+      "answer-hindi": "(a) 3.0",
+      "solution-english": "Each term decreases by 1.3: 8.2 - 1.3 = 6.9, ... 4.3 - 1.3 = 3.0, then 3.0 - 1.3 = 1.7.",
+      "solution-hindi": "प्रत्येक पद से 1.3 घटता जा रहा है: 8.2 - 1.3 = 6.9, ... 4.3 - 1.3 = 3.0, फिर 3.0 - 1.3 = 1.7।"
+    },
+    {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q4.png",
+  "question-english": "How many triangles are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "By counting all small, medium, and large triangles, there are a total of 18 triangles in the given figure.",
+  "solution-hindi": "सभी छोटे, मध्यम और बड़े त्रिभुजों को गिनने पर, दिए गए चित्र में कुल 18 त्रिभुज हैं।"
+},
+    {
+      "question-english": "In a class five boys sit in a straight row facing South. P sits immediate left of R and immediate right of S. T sits immediate right of Q but immediate left of S. Who is sitting in the middle?",
+      "question-hindi": "एक कक्षा में 5 लड़के दक्षिण की ओर मुंह करके एक सीधी पंक्ति में बैठे हैं। P, R के ठीक बाएँ और S के ठीक दाएँ बैठा है। T, Q के ठीक दाएँ और S के ठीक बाएँ बैठा है। पंक्ति के बीच में कौन बैठा है?",
+      "options-english": ["(a) R", "(b) S", "(c) P", "(d) T"],
+      "options-hindi": ["(a) R", "(b) S", "(c) P", "(d) T"],
+      "answer-english": "(b) S",
+      "answer-hindi": "(b) S",
+      "solution-english": "Relative orders combine to Q, T, S, P, R (facing South). Middle position is S.",
+      "solution-hindi": "पोजीशन मिलाने पर (दक्षिण मुखी) क्रम Q, T, S, P, R होता है। बीच वाला S है।"
+    },
+    {
+      "question-english": "Priya's position from left is 25th and from right is 35th in a row of students facing north. Find total students.",
+      "question-hindi": "उत्तर की ओर मुँह करके बैठे छात्रों की पंक्ति में, प्रिय का स्थान बाएँ से 25वाँ और दाएँ से 35वाँ है। कुल छात्रों की संख्या ज्ञात कीजिए।",
+      "options-english": ["(a) 59", "(b) 60", "(c) 58", "(d) 61"],
+      "options-hindi": ["(a) 59", "(b) 60", "(c) 58", "(d) 61"],
+      "answer-english": "(a) 59",
+      "answer-hindi": "(a) 59",
+      "solution-english": "Total = (position from left + position from right) - 1 = 25 + 35 - 1 = 59.",
+      "solution-hindi": "कुल = (बाएँ से स्थान + दाएँ से स्थान) - 1 = 25 + 35 - 1 = 59।"
+    },
+    {
+      "question-english": "Syllogism: All pens are pencils. All pencils are erasers. All erasers are books. Conclusions: I. All books are pens. II. Some books are pencils. Which follows?",
+      "question-hindi": "कथन: सभी पेन पेंसिल हैं। सभी पेंसिल रबर हैं। सभी रबर किताबें हैं। निष्कर्ष: I. सभी किताबें पेन हैं। II. कुछ किताबें पेंसिल हैं। कौन-सा निष्कर्ष लागू होता है?",
+      "options-english": ["(a) Both I and II", "(b) Neither I nor II", "(c) Only I", "(d) Only II"],
+      "options-hindi": ["(a) दोनों I और II", "(b) न तो I न ही II", "(c) केवल I", "(d) केवल II"],
+      "answer-english": "(d) Only II",
+      "answer-hindi": "(d) केवल निष्कर्ष II",
+      "solution-english": "From the chain all pens→pencils→erasers→books, we cannot assert 'All books are pens' (reverse). But since pencils are subset of books, 'Some books are pencils' is valid.",
+      "solution-hindi": "अनुक्रम से सभी पेन पेंसिल/रबर/किताबें हैं; 'सभी किताबें पेन हैं' गलत है। किन्तु 'कुछ किताबें पेंसिल हैं' सत्य है।"
+    },
+    {
+      "question-english": "If A='÷', B='+', C='−', D='×' evaluate: 48 A (18 B 6) C (10 D 2) B 15 = ?",
+      "question-hindi": "यदि A='÷', B='+', C='−', D='×' हो तो गणना करें: 48 A (18 B 6) C (10 D 2) B 15 = ?",
+      "options-english": ["(a) -3", "(b) -5", "(c) 0", "(d) 3"],
+      "options-hindi": ["(a) -3", "(b) -5", "(c) 0", "(d) 3"],
+      "answer-english": "(a) -3",
+      "answer-hindi": "(a) -3",
+      "solution-english": "Replace symbols: 48 ÷ (18+6) - (10×2) + 15 = 48÷24 -20 +15 = 2 -20 +15 = -3.",
+      "solution-hindi": "48 ÷ (18+6) - (10×2) + 15 = 48÷24 -20 +15 = 2 -20 +15 = -3।"
+    },
+    {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q9.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q9.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q11.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q12.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q12.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+    {
+      "question-english": "Which calendar year will be same as 2005?",
+      "question-hindi": "निम्नलिखित में से कौन सा कैलेंडर वर्ष 2005 के कैलेंडर के समान होगा?",
+      "options-english": ["(a) 2010", "(b) 2011", "(c) 2012", "(d) 2013"],
+      "options-hindi": ["(a) 2010", "(b) 2011", "(c) 2012", "(d) 2013"],
+      "answer-english": "(b) 2011",
+      "answer-hindi": "(b) 2011",
+      "solution-english": "Count odd days from 2005 to 2010: 1+1+1+2+1+1 =7 odd days → next (2011) repeats 2005 calendar.",
+      "solution-hindi": "2005→2010 तक के विषम दिनों का योग 7 है, अतः 2011 का कैलेंडर 2005 जैसा होगा।"
+    },
+    {
+      "question-english": "If 'sky'='sea', 'sea'='water', 'water'='air', 'air'='cloud', 'cloud'='river', then what do we drink when thirsty?",
+      "question-hindi": "यदि 'आकाश'='समुद्र', 'समुद्र'='पानी', 'पानी'='हवा', 'हवा'='बादल', 'बादल'='नदी' कहा जाता है, तो प्यासे होने पर हम क्या पीते हैं?",
+      "options-english": ["(a) Water", "(b) Air", "(c) Sea", "(d) River"],
+      "options-hindi": ["(a) पानी", "(b) हवा", "(c) समुद्र", "(d) नदी"],
+      "answer-english": "(b) Air",
+      "answer-hindi": "(b) हवा",
+      "solution-english": "We drink 'water'; coded mapping says 'water' is called 'air'. So answer = 'air'.",
+      "solution-hindi": "हम 'पानी' पीते हैं; दिए अनुसार 'पानी' को 'हवा' कहा गया है। अतः उत्तर 'हवा' है।"
+    },
+   {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q15.png",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '2'.",
+  "question-hindi": "एक ही पासे की तीन विभिन्न स्थितियाँ दिखाई गई हैं। '2' दिखाने वाले फलक के विपरीत फलक पर कौन-सी संख्या है, यह ज्ञात कीजिए।",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-english": "From the figures, the number '2' is adjacent to 3, 6, 1, and 4. Since 2 cannot be opposite any of its adjacent numbers, the number opposite 2 must be 5.",
+  "solution-hindi": "आकृतियों से पता चलता है कि '2' के साथ 3, 6, 1 और 4 जुड़े हुए हैं। चूँकि कोई भी अंक अपने आस-पास के अंकों के विपरीत नहीं होता, इसलिए '2' के विपरीत फलक पर संख्या 5 होगी।"
+}
+,
+    {
+      "question-english": "At what times between 4 and 5 will clock hands be at right angles?",
+      "question-hindi": "4 और 5 बजे के बीच किस समय घड़ी की सुइयाँ समकोण पर होंगी?",
+      "options-english": ["(a) 4:05 5/11", "(b) 4:38 2/11", "(c) Both (a) and (b)", "(d) None"],
+      "options-hindi": ["(a) 4 बजकर 5 5/11 मिनट", "(b) 4 बजकर 38 2/11 मिनट", "(c) दोनों (a) और (b)", "(d) कोई नहीं"],
+      "answer-english": "(c) Both (a) and (b)",
+      "answer-hindi": "(c) दोनों (a) और (b)",
+      "solution-english": "Clock hands are at right angle twice every hour. Using formula yields both 5 5/11 and 38 2/11 minutes past 4.",
+      "solution-hindi": "घड़ी की सुइयाँ एक घंटे में दो बार 90° पर होती हैं; सूत्र से दोनों दिए गए समय प्राप्त होते हैं।"
+    },
+    {
+      "question-english": "Arrange in dictionary order: Grade, Giant, General, Gentle, Grand",
+      "question-hindi": "शब्दों को शब्दकोश क्रम में व्यवस्थित करें: Grade, Giant, General, Gentle, Grand",
+      "options-english": ["(a) 34215", "(b) 32415", "(c) 23415", "(d) 43251"],
+      "options-hindi": ["(a) 34215", "(b) 32415", "(c) 23415", "(d) 43251"],
+      "answer-english": "(a) 34215",
+      "answer-hindi": "(a) 34215",
+      "solution-english": "Order: General (3), Gentle (4), Giant (2), Grade (1), Grand (5) → 3 4 2 1 5.",
+      "solution-hindi": "शुभ्रक्रम: General (3), Gentle (4), Giant (2), Grade (1), Grand (5) → 34215।"
+    },
+    {
+      "question-english": "Select the one different from the other three: 217, 65, 124, 513",
+      "question-hindi": "अन्य तीनों से भिन्न चुनें: 217, 65, 124, 513",
+      "options-english": ["(a) 217", "(b) 65", "(c) 124", "(d) 513"],
+      "options-hindi": ["(a) 217", "(b) 65", "(c) 124", "(d) 513"],
+      "answer-english": "(c) 124",
+      "answer-hindi": "(c) 124",
+      "solution-english": "217=6^3+1, 65=4^3+1, 513=8^3+1, but 124 = 5^3 -1 → odd one out.",
+      "solution-hindi": "217=6³+1, 65=4³+1, 513=8³+1, पर 124=5³-1 → यह अलग है।"
+    },
+    {
+      "question-english": "Priya path: 15 km N, 10 km E, 9 km S, 4 km W, then left and 6 km. Where now relative to start?",
+      "question-hindi": "प्रिया 15 किमी उत्तर, फिर 10 किमी पूर्व, फिर 9 किमी दक्षिण, फिर 4 किमी पश्चिम और फिर बाएँ मुड़कर 6 किमी चलती है। वह अब अपने आरंभिक स्थान से कहाँ है?",
+      "options-english": ["(a) 6 km east", "(b) 6 km west", "(c) 16 km east", "(d) 4 km west"],
+      "options-hindi": ["(a) 6 किमी पूर्व", "(b) 6 किमी पश्चिम", "(c) 16 किमी पूर्व", "(d) 4 किमी पश्चिम"],
+      "answer-english": "(a) 6 km east",
+      "answer-hindi": "(a) 6 किमी पूर्व",
+      "solution-english": "Net north = 15-9-6 = 0 (because final left from west was south 6 cancelling north). Net east = 10-4 = 6 → 6 km east.",
+      "solution-hindi": "शुद्ध उत्तर = 15-9-6 = 0; शुद्ध पूर्व = 10-4 = 6 → अंतिम स्थिति आरंभ से 6 किमी पूर्व।"
+    },
+    {
+      "question-english": "If A and B are sons of D and B is married to C, what is C to A?",
+      "question-hindi": "यदि A और B, D के पुत्र हैं और B का विवाह C से हुआ है, तो C का A से क्या संबंध है?",
+      "options-english": ["(a) Brother-in-law", "(b) Son-in-law", "(c) Sister-in-law", "(d) Mother-in-law"],
+      "options-hindi": ["(a) जीजा/साला/देवर/बहनोई", "(b) दामाद", "(c) भाभी/सिस्टर-इन-लॉ", "(d) सास"],
+      "answer-english": "(c) Sister-in-law",
+      "answer-hindi": "(c) भाभी/सिस्टर-इन-लॉ",
+      "solution-english": "B is A's brother; B's wife C is A's sister-in-law.",
+      "solution-hindi": "B, A का भाई है; B की पत्नी C, A की भाभी/सिस्टर-इन-लॉ है।"
+    },
+    {
+      "question-english": "Statement: A > B = C < D ≤ E < F. Conclusions: I. A > C. II. C < F. Which are true?",
+      "question-hindi": "कथन: A > B = C < D ≤ E < F. निष्कर्ष: I. A > C. II. C < F. कौन-सा सत्य है?",
+      "options-english": ["(a) Only I", "(b) Only II", "(c) Both I and II", "(d) Neither"],
+      "options-hindi": ["(a) केवल I", "(b) केवल II", "(c) I और II दोनों", "(d) कोई नहीं"],
+      "answer-english": "(c) Both I and II",
+      "answer-hindi": "(c) दोनों निष्कर्ष I और II सत्य हैं",
+      "solution-english": "From A > B and B = C → A > C. From C < D ≤ E < F → C < F. Both true.",
+      "solution-hindi": "A > B और B = C से A > C; C < ... < F से C < F. दोनों सही हैं।"
+    },
+    {
+      "question-english": "If 20!12 = 4, 15!5 = 5 and 18!12 = 3, find 24!16 = ?",
+      "question-hindi": "यदि 20!12 = 4, 15!5 = 5 और 18!12 = 3 है, तो 24!16 का मान क्या है?",
+      "options-english": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+      "options-hindi": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+      "answer-english": "(b) 4",
+      "answer-hindi": "(b) 4",
+      "solution-english": "Logic: (first - second)/2. (24-16)/2 = 8/2 = 4.",
+      "solution-hindi": "तर्क: (पहली - दूसरी)/2 → (24-16)/2 = 4।"
+    },
+    {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_19/mock_test_19_Q23.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+    {
+      "question-english": "Which alphabet comes after the fifth alphabet from the 13th alphabet?",
+      "question-hindi": "वर्णमाला श्रेणी में 13वें वर्णमाला से पाँचवें वर्णमाला के बाद कौन सा वर्णमाला आता है?",
+      "options-english": ["(a) S", "(b) T", "(c) R", "(d) U"],
+      "options-hindi": ["(a) S", "(b) T", "(c) R", "(d) U"],
+      "answer-english": "(a) S",
+      "answer-hindi": "(a) S",
+      "solution-english": "13th = M. Fifth after M is R (M+5). The letter after R is S.",
+      "solution-hindi": "13वाँ = M. M के 5 बाद R है; R के बाद S आता है।"
+    },
+    {
+      "question-english": "How many such pairs in the word STUDENT have as many letters between them in the word as between them alphabetically?",
+      "question-hindi": "शब्द 'STUDENT' में कितने ऐसे जोड़े हैं जिनके बीच शब्द में उतने ही अक्षर हैं जितने उनके बीच वर्णमाला में हैं?",
+      "options-english": ["(a) One", "(b) Two", "(c) Three", "(d) None"],
+      "options-hindi": ["(a) एक", "(b) दो", "(c) तीन", "(d) कोई नहीं"],
+      "answer-english": "(b) Two",
+      "answer-hindi": "(b) दो",
+      "solution-english": "Pairs: (S,T) (adjacent) and (D,E) (adjacent) satisfy the condition → 2 pairs.",
+      "solution-hindi": "जोड़े: (S,T) और (D,E) — दोनों शब्द में और वर्णमाला में समान दूरी पर हैं। कुल 2।"
+    }
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+             {
+    "question-english": "The salaries of P and Q together amount to ₹1,50,000. P spends 90% of his salary and Q spends 80% of his. If their savings are the same, then what is P's salary?",
+    "question-hindi": "P और Q का कुल वेतन ₹1,50,000 है। P अपने वेतन का 90% और Q अपने वेतन का 80% खर्च करता है। यदि उनकी बचत समान है, तो P का वेतन कितना है?",
+    "options-english": ["(a) ₹90,000", "(b) ₹1,00,000", "(c) ₹50,000", "(d) ₹75,000"],
+    "options-hindi": ["(a) ₹90,000", "(b) ₹1,00,000", "(c) ₹50,000", "(d) ₹75,000"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Let P's salary be P and Q's be Q. P + Q = 1,50,000. P's savings = 10%, Q's savings = 20%. Since savings are equal, 0.10P = 0.20Q ⇒ P = 2Q. Substituting: 2Q + Q = 1,50,000 ⇒ Q = 50,000 ⇒ P = 1,00,000.",
+    "solution-hindi": "मान लीजिए P का वेतन P और Q का Q है। P + Q = 1,50,000। P की बचत = 10%, Q की बचत = 20%। चूंकि बचत समान है, 0.10P = 0.20Q ⇒ P = 2Q। प्रतिस्थापन करने पर: 2Q + Q = 1,50,000 ⇒ Q = 50,000 ⇒ P = 1,00,000।"
+  },
+  {
+    "question-english": "Lokesh received an amount of ₹12,000 in 5 years, including simple interest, on a principal amount of ₹8,000. What would be the total amount he receives if the interest rate is increased by 3%?",
+    "question-hindi": "लोकेश को ₹8,000 की मूल राशि पर साधारण ब्याज सहित 5 वर्षों में ₹12,000 की राशि प्राप्त हुई। यदि ब्याज दर में 3% की वृद्धि कर दी जाए तो उसे कुल कितनी राशि प्राप्त होगी?",
+    "options-english": ["(a) ₹13,200", "(b) ₹12,800", "(c) ₹13,500", "(d) ₹14,000"],
+    "options-hindi": ["(a) ₹13,200", "(b) ₹12,800", "(c) ₹13,500", "(d) ₹14,000"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "SI = 12,000 - 8,000 = 4,000. Rate = (4000×100)/(8000×5) = 10%. New rate = 13%. New SI = (8000×13×5)/100 = 5,200. New amount = 8,000 + 5,200 = ₹13,200.",
+    "solution-hindi": "साधारण ब्याज = 12,000 - 8,000 = 4,000। दर = (4000×100)/(8000×5) = 10%। नई दर = 13%। नया ब्याज = (8000×13×5)/100 = 5,200। नई कुल राशि = 8,000 + 5,200 = ₹13,200।"
+  },
+  {
+    "question-english": "A cylindrical tube, open at both ends, is made of a metal sheet which is 1 cm thick. Its outer radius is 5 cm and length is 1.5 m. How much metal (in cm³) has been used in making the tube?",
+    "question-hindi": "दोनों सिरों पर खुली एक बेलनाकार ट्यूब 1 सेमी मोटी धातु की चादर से बनी है। इसकी बाहरी त्रिज्या 5 सेमी और लंबाई 1.5 मीटर है। ट्यूब बनाने में कितनी धातु (सेमी³ में) का उपयोग किया गया है?",
+    "options-english": ["(a) 1200π", "(b) 1350π", "(c) 1500π", "(d) 1650π"],
+    "options-hindi": ["(a) 1200π", "(b) 1350π", "(c) 1500π", "(d) 1650π"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Outer radius R=5 cm, inner radius r=4 cm, height=150 cm. Volume=π(R²−r²)h=π(25−16)×150=1350π cm³.",
+    "solution-hindi": "बाहरी त्रिज्या R=5 सेमी, भीतरी त्रिज्या r=4 सेमी, ऊँचाई=150 सेमी। आयतन=π(R²−r²)h=π(25−16)×150=1350π सेमी³।"
+  },
+  {
+    "question-english": "The area of a sector of a circle is 77 cm² and the angle of the sector is 70°. Find the radius of the circle.",
+    "question-hindi": "एक वृत्त के एक त्रिज्यखंड का क्षेत्रफल 77 सेमी² है और त्रिज्यखंड का कोण 70° है। वृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options-english": ["(a) 3√14 cm", "(b) 6√7 cm", "(c) 7√11 cm", "(d) 4√14 cm"],
+    "options-hindi": ["(a) 3√14 सेमी", "(b) 6√7 सेमी", "(c) 7√11 सेमी", "(d) 4√14 सेमी"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "Area = (θ/360)πr² = 77; (70/360)×(22/7)×r² = 77 ⇒ r² = 126 ⇒ r = 3√14 cm.",
+    "solution-hindi": "क्षेत्रफल = (θ/360)πr² = 77; (70/360)×(22/7)×r² = 77 ⇒ r² = 126 ⇒ r = 3√14 सेमी।"
+  },
+  {
+    "question-english": "A group of men can do a job in 25 days. But 15 men did not turn up for the job and the remaining men did the job in 40 days. The original number of men in the group was:",
+    "question-hindi": "पुरुषों का एक समूह किसी काम को 25 दिनों में कर सकता है। लेकिन 15 पुरुष काम पर नहीं आए और शेष पुरुषों ने उस काम को 40 दिनों में पूरा किया। समूह में पुरुषों की मूल संख्या थी:",
+    "options-english": ["(a) 30", "(b) 35", "(c) 40", "(d) 45"],
+    "options-hindi": ["(a) 30", "(b) 35", "(c) 40", "(d) 45"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Let original men = M. Work = M×25 = (M−15)×40 ⇒ 25M=40M−600 ⇒ M=40.",
+    "solution-hindi": "मान लीजिए मूल पुरुषों की संख्या M है। कार्य: M×25 = (M−15)×40 ⇒ 25M=40M−600 ⇒ M=40।"
+  },
+  {
+    "question-english": "Pipes A and B can fill a tank in 20 and 30 minutes respectively. Both are opened together. After 10 minutes, a leak was found and sealed immediately. The tank was full in 5 more minutes. The leak alone can empty the full tank in:",
+    "question-hindi": "पाइप A और B एक टंकी को क्रमशः 20 मिनट और 30 मिनट में भर सकते हैं। दोनों को एक साथ खोला गया। 10 मिनट बाद, एक रिसाव देखा गया जिसे तुरंत सील कर दिया गया। टंकी अगले 5 मिनट में भर गई। अकेला रिसाव टंकी को कितने समय में खाली कर सकता है?",
+    "options-english": ["(a) 30 min", "(b) 35 min", "(c) 40 min", "(d) 45 min"],
+    "options-hindi": ["(a) 30 मिनट", "(b) 35 मिनट", "(c) 40 मिनट", "(d) 45 मिनट"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Let capacity=60 units. A=3 units/min, B=2 units/min. Together=5. For first 10 mins leak active: (5−L)×10 + (5×5)=60 ⇒ 75−10L=60 ⇒ L=1.5 ⇒ leak empties in 40 min.",
+    "solution-hindi": "मान लीजिए क्षमता=60 इकाई। A=3 इकाई/मिनट, B=2 इकाई/मिनट, संयुक्त=5। पहले 10 मिनट रिसाव के साथ: (5−L)×10 + 25=60 ⇒ 75−10L=60 ⇒ L=1.5 ⇒ रिसाव 40 मिनट में टंकी खाली करता है।"
+  },
+  {
+    "question-english": "Ram bought an article for ₹7,200 and spent ₹800 on repairs. He marked it 10% above cost. After giving two successive discounts of 12% and x%, he sold it for ₹6,969.60. Find x.",
+    "question-hindi": "राम ने एक वस्तु ₹7,200 में खरीदी और ₹800 मरम्मत पर खर्च किए। उसने लागत मूल्य से 10% अधिक अंकित किया। 12% और x% की दो क्रमिक छूट देने के बाद ₹6,969.60 में बेचा। x ज्ञात कीजिए।",
+    "options-english": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
+    "options-hindi": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "CP=8000, MP=8800. After 12% discount: 8800×0.88=7744. Final=6969.6 ⇒ discount=774.4 ⇒ x=(774.4/7744)×100=10%.",
+    "solution-hindi": "लागत मूल्य=8000, अंकित मूल्य=8800। 12% छूट के बाद: 8800×0.88=7744। अंतिम मूल्य=6969.6 ⇒ छूट=774.4 ⇒ x=(774.4/7744)×100=10%।"
+  },
+  {
+    "question-english": "What are the last two digits of 3⁵⁰?",
+    "question-hindi": "संख्या 3⁵⁰ के अंतिम दो अंक क्या हैं?",
+    "options-english": ["(a) 03", "(b) 09", "(c) 27", "(d) 49"],
+    "options-hindi": ["(a) 03", "(b) 09", "(c) 27", "(d) 49"],
+    "answer-english": "(d)",
+    "answer-hindi": "(d)",
+    "solution-english": "By Euler theorem φ(100)=40 ⇒ 3⁴⁰≡1 mod 100 ⇒ 3⁵⁰≡3¹⁰ mod 100. 3⁵=243≡43 ⇒ 3¹⁰≡43²=1849≡49 mod 100.",
+    "solution-hindi": "यूलर प्रमेय φ(100)=40 ⇒ 3⁴⁰≡1 mod 100 ⇒ 3⁵⁰≡3¹⁰ mod 100। 3⁵=243≡43 ⇒ 3¹⁰≡43²=1849≡49 mod 100।"
+  },
+  {
+    "question-english": "The average age of a team having 15 players is 22 years. Including the coach, the average increases by 1 year. Find the coach’s age.",
+    "question-hindi": "15 खिलाड़ियों की औसत आयु 22 वर्ष है। कोच को शामिल करने पर औसत 1 वर्ष बढ़ जाता है। कोच की आयु ज्ञात कीजिए।",
+    "options-english": ["(a) 38", "(b) 35", "(c) 40", "(d) 42"],
+    "options-hindi": ["(a) 38", "(b) 35", "(c) 40", "(d) 42"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "Total age=15×22=330. New total=16×23=368. Coach=368−330=38 years.",
+    "solution-hindi": "कुल आयु=15×22=330। नई कुल आयु=16×23=368। कोच की आयु=368−330=38 वर्ष।"
+  },
+  {
+    "question-english": "The average speed of a train is 150% of that of a car. The car covers 900 km in 10 hr. The time for train to cover 810 km is:",
+    "question-hindi": "एक ट्रेन की औसत गति एक कार की औसत गति का 150% है। कार 10 घंटे में 900 किमी तय करती है। ट्रेन द्वारा 810 किमी तय करने का समय ज्ञात कीजिए।",
+    "options-english": ["(a) 5", "(b) 6", "(c) 7", "(d) 8"],
+    "options-hindi": ["(a) 5", "(b) 6", "(c) 7", "(d) 8"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Car speed=900/10=90 km/h. Train=1.5×90=135 km/h. Time=810/135=6 hr.",
+    "solution-hindi": "कार की गति=900/10=90 किमी/घं। ट्रेन की गति=1.5×90=135 किमी/घं। समय=810/135=6 घंटे।"
+  },
+  {
+    "question-english": "Find the LCM of 15, 30, and 50.",
+    "question-hindi": "15, 30 और 50 का लघुत्तम समापवर्त्य ज्ञात कीजिए।",
+    "options-english": ["(a) 100", "(b) 120", "(c) 150", "(d) 300"],
+    "options-hindi": ["(a) 100", "(b) 120", "(c) 150", "(d) 300"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "15=3×5; 30=2×3×5; 50=2×5² ⇒ LCM=2×3×5²=150.",
+    "solution-hindi": "15=3×5; 30=2×3×5; 50=2×5² ⇒ LCM=2×3×5²=150।"
+  },
+  {
+    "question-english": "A gardener plants 20736 trees in such a way that there are as many rows as trees in a row. How many trees in one row?",
+    "question-hindi": "एक माली 20736 पेड़ इस प्रकार लगाता है कि जितनी पंक्तियाँ हैं उतने ही पेड़ एक पंक्ति में हैं। एक पंक्ति में पेड़ों की संख्या ज्ञात कीजिए।",
+    "options-english": ["(a) 134", "(b) 138", "(c) 144", "(d) 146"],
+    "options-hindi": ["(a) 134", "(b) 138", "(c) 144", "(d) 146"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Let rows=x ⇒ x²=20736 ⇒ x=√20736=144.",
+    "solution-hindi": "मान लीजिए पंक्तियाँ=x ⇒ x²=20736 ⇒ x=√20736=144।"
+  },
+  {
+    "question-english": "A discount of 15% on one article equals a discount of 20% on another. The marked prices can be:",
+    "question-hindi": "एक वस्तु पर 15% की छूट दूसरी वस्तु पर 20% की छूट के बराबर है। वस्तुओं का अंकित मूल्य क्या हो सकता है?",
+    "options-english": ["(a) ₹100 and ₹75", "(b) ₹100 and ₹80", "(c) ₹80 and ₹70", "(d) ₹120 and ₹100"],
+    "options-hindi": ["(a) ₹100 और ₹75", "(b) ₹100 और ₹80", "(c) ₹80 और ₹70", "(d) ₹120 और ₹100"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "0.15M1=0.20M2 ⇒ 3M1=4M2 ⇒ M1/M2=4/3 ⇒ Prices ₹100 & ₹75.",
+    "solution-hindi": "0.15M1=0.20M2 ⇒ 3M1=4M2 ⇒ M1/M2=4/3 ⇒ मूल्य ₹100 और ₹75।"
+  },
+  {
+    "question-english": "In a library, 30% of math books equals half the number of physics books. Find ratio of math to physics books.",
+    "question-hindi": "एक पुस्तकालय में गणित की पुस्तकों की संख्या का 30% भौतिकी की पुस्तकों की संख्या के आधे के बराबर है। गणित और भौतिकी पुस्तकों का अनुपात ज्ञात कीजिए।",
+    "options-english": ["(a) 3:5", "(b) 5:3", "(c) 2:3", "(d) 3:2"],
+    "options-hindi": ["(a) 3:5", "(b) 5:3", "(c) 2:3", "(d) 3:2"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "0.3M = 0.5P ⇒ 3M = 5P ⇒ M:P = 5:3.",
+    "solution-hindi": "0.3M = 0.5P ⇒ 3M = 5P ⇒ M:P = 5:3।"
+  },
+  {
+    "question-english": "A boat takes 12 hr to cover 150 km downstream and 90 km upstream. Time for 50 km downstream equals time for 40 km in still water. Find how much more is upstream speed than stream speed.",
+    "question-hindi": "एक नाव 150 किमी धारा के अनुकूल और 90 किमी धारा के प्रतिकूल 12 घंटे में तय करती है। 50 किमी धारा के अनुकूल तय करने का समय शांत जल में 40 किमी तय करने के समय के बराबर है। धारा के प्रतिकूल नाव की गति धारा की गति से कितनी अधिक है?",
+    "options-english": ["(a) 5", "(b) 8", "(c) 10", "(d) 12"],
+    "options-hindi": ["(a) 5", "(b) 8", "(c) 10", "(d) 12"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Let boat=b, stream=s. 50/(b+s)=40/b ⇒ b=4s. Using 150/(b+s)+90/(b−s)=12 ⇒ 30/s+30/s=12 ⇒ s=5, b=20 ⇒ (b−s)−s=10 km/h.",
+    "solution-hindi": "मान लीजिए नाव की गति b और धारा की गति s है। 50/(b+s)=40/b ⇒ b=4s। अब 150/(b+s)+90/(b−s)=12 ⇒ 30/s+30/s=12 ⇒ s=5, b=20 ⇒ (b−s)−s=10 किमी/घंटा।"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "निम्नलिखित में से कौन सी इंटरनेट पर संचार की एक विशेषता नहीं है?",
+              "question-english" : "Which of the following is NOT a characteristic of communication on the internet?",
+              "options-hindi": ["A). यह इंटरैक्टिव है।", "B). यह वैश्विक है।", "C). यह अतुल्यकालिक (asynchronous) है।", "D). यह हमेशा निजी होता है।"],
+              "options-english": ["A). It is interactive.", "B). It is global.", "C). It is asynchronous.", "D). It is always private."],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: इंटरनेट पर संचार स्वाभाविक रूप से निजी नहीं है। जबकि कुछ रूप निजी हैं (जैसे एन्क्रिप्टेड संदेश), इसका अधिकांश भाग सार्वजनिक है (वेबसाइट, सोशल मीडिया, फ़ोरम)। गोपनीयता को सक्रिय रूप से प्रबंधित किया जाना चाहिए और यह सभी इंटरनेट संचार की एक गारंटीकृत विशेषता नहीं है।",
+              "solution-english": "Solution: Communication on the internet is not inherently private. While some forms are private (like encrypted messages), much of it is public (websites, social media, forums). Privacy must be actively managed and is not a guaranteed characteristic of all internet communication."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, यदि आप एक पंक्ति की ऊँचाई को 0 (शून्य) पर सेट करते हैं, तो पंक्ति का क्या होता है?",
+              "question-english" : "In MS Excel 365, if you set a row height to 0 (zero), what happens to the row?",
+              "options-hindi": ["A). यह अंतिम दर्ज किए गए मान पर वापस आ जाता है।", "B). यह एक नए मान के लिए पूछता है।", "C). यह डिफ़ॉल्ट ऊँचाई सेट करता है।", "D). यह पंक्ति को छिपा देता है।"],
+              "options-english": ["A). It returns to the last entered value.", "B). It asks for a new value.", "C). It sets the default height.", "D). It hides the row."],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: एक पंक्ति की ऊँचाई या एक कॉलम की चौड़ाई को 0 पर सेट करना उसे देखने से छिपाने के लिए उपयोग की जाने वाली विधि है। डेटा वर्कशीट में रहता है लेकिन तब तक दिखाई नहीं देता जब तक कि पंक्ति को अनहाइड नहीं किया जाता है।",
+              "solution-english": "Solution: Setting a row's height or a column's width to 0 is the method used to hide it from view. The data remains in the worksheet but is not visible until the row is unhidden."
+            },
+            {
+              "question-hindi": "MS-Word 365 में कौन सी क्रिया, आपको चयनित टेक्स्ट को उसके मूल स्थान से हटाने और उसे क्लिपबोर्ड पर रखने की अनुमति देती है?",
+              "question-english" : "Which action in MS-Word 365, allows you to remove selected text from its original location and place it on the clipboard?",
+              "options-hindi": ["A). सभी का चयन करें", "B). कॉपी", "C). कट", "D). पेस्ट"],
+              "options-english": ["A). Select All", "B). Copy", "C). Cut", "D). Paste"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: कट कमांड चयनित टेक्स्ट या ऑब्जेक्ट को दस्तावेज़ से हटा देता है और उसे क्लिपबोर्ड नामक अस्थायी भंडारण क्षेत्र में ले जाता है, जहाँ से उसे कहीं और पेस्ट किया जा सकता है।",
+              "solution-english": "Solution: The Cut command removes the selected text or object from the document and moves it to the temporary storage area called the clipboard, from where it can be pasted elsewhere."
+            },
+            {
+              "question-hindi": "MS Word 365 में टेक्स्ट पेस्ट करने के लिए निम्नलिखित में से कौन सी शॉर्टकट कुंजी है?",
+              "question-english" : "Which of the following is the shortcut key to Paste text in MS Word 365?",
+              "options-hindi": ["A). Shift+V", "B). Ctrl+V", "C). Ctrl+Shift+V", "D). Ctrl+C"],
+              "options-english": ["A). Shift+V", "B). Ctrl+V", "C). Ctrl+Shift+V", "D). Ctrl+C"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: Ctrl + V पेस्ट कमांड के लिए सार्वभौमिक कीबोर्ड शॉर्टकट है, जो क्लिपबोर्ड की सामग्री को दस्तावेज़ में डालता है।",
+              "solution-english": "Solution: Ctrl + V is the universal keyboard shortcut for the Paste command, which inserts the content of the clipboard into the document."
+            },
+            {
+              "question-hindi": "किसी ईमेल में फ़ाइल संलग्न करने से संबंधित निम्नलिखित में से कौन सा कथन सही है?",
+              "question-english" : "Which of the following statements related to attaching a file to an email is correct?",
+              "options-hindi": ["A). हम एक अनुलग्नक भेजते समय CC फ़ील्ड का उपयोग नहीं कर सकते।", "B). एक अनुलग्नक भेजते समय एक विषय फ़ील्ड लिखना अनिवार्य है।", "C). जीमेल में, यदि आपकी फ़ाइल 25 MB से बड़ी है, तो जीमेल स्वचालित रूप से इसे एक अनुलग्नक के रूप में शामिल करने के बजाय ईमेल में एक Google ड्राइव लिंक जोड़ता है।", "D). हम एक ईमेल अनुलग्नक में एक ऑडियो फ़ाइल संलग्न नहीं कर सकते।"],
+              "options-english": ["A). We can’t use CC field while sending an attachment.", "B). Writing a subject field is mandatory while sending an attachment.", "C). In Gmail, If your file is greater than 25 MB, Gmail automatically adds a Google Drive link in the email instead of including it as an attachment.", "D). We can’t attach an audio file in an email attachment."],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: यह कथन सही है। जीमेल में सीधे अनुलग्नकों के लिए 25 MB की आकार सीमा है। बड़ी फ़ाइलों को संभालने के लिए, यह Google ड्राइव के साथ सहजता से एकीकृत होता है, फ़ाइल को वहां अपलोड करता है और प्राप्तकर्ता के लिए एक्सेस करने के लिए ईमेल में एक साझा करने योग्य लिंक डालता है।",
+              "solution-english": "Solution: This statement is correct. Gmail has a 25 MB size limit for direct attachments. To handle larger files, it seamlessly integrates with Google Drive, uploading the file there and inserting a shareable link into the email for the recipient to access."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365 में, वर्तमान तिथि को प्रदर्शित करने के लिए निम्नलिखित में से किस फ़ंक्शन का उपयोग किया जाता है?",
+              "question-english" : "In Microsoft Excel 365, which of the following functions is used for displaying the current date?",
+              "options-hindi": ["A). टुडे()", "B). नाव()", "C). डे()", "D). टाईम()"],
+              "options-english": ["A). Today()", "B). Now()", "C). Day()", "D). Time()"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: =TODAY() फ़ंक्शन वर्तमान तिथि लौटाता है और जब भी वर्कबुक खोला या पुनर्गणना किया जाता है तो स्वचालित रूप से अपडेट हो जाएगा। =NOW() फ़ंक्शन वर्तमान तिथि और समय लौटाता है।",
+              "solution-english": "Solution: The =TODAY() function returns the current date and will update automatically whenever the workbook is opened or recalculated. The =NOW() function returns the current date and time."
+            },
+            {
+              "question-hindi": "जब हम MS-Word 365 में अक्षर E के साथ कंट्रोल कुंजी दबाते हैं, तो टेक्स्ट का क्या होता है?",
+              "question-english" : "When we press the control key with the letter E, what happens to the text in the MS-Word 365?",
+              "options-hindi": ["A). सामग्री को पृष्ठ पर बाईं ओर संरेखित करता है।", "B). सामग्री को पृष्ठ पर दाईं ओर संरेखित करता है।", "C). सामग्री को पृष्ठ पर केंद्रित करता है।", "D). यह फ़ाइल पर पूरी सामग्री का चयन करता है।"],
+              "options-english": ["A). Left aligns the contents on the page.", "B). Right aligns the contents on the page.", "C). Centers the contents on the page.", "D). It selects the whole content on the file."],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + E का उपयोग चयनित पैराग्राफ या टेक्स्ट पर केंद्र संरेखण लागू करने के लिए किया जाता है।",
+              "solution-english": "Solution: The shortcut Ctrl + E is used to apply Center alignment to the selected paragraph or text."
+            },
+            {
+              "question-hindi": "MS-Word 365 में, कौन सा विकल्प आपको किसी दस्तावेज़ के लेआउट के विभिन्न पहलुओं को अनुकूलित करने की अनुमति देता है, जैसे कि कागज का आकार, मार्जिन, ओरिएंटेशन और पृष्ठ क्रमांकन?",
+              "question-english" : "In MS-Word 365, which option allows you to customize various aspects of a document's layout, such as paper size, margins, orientation, and page numbering?",
+              "options-hindi": ["A). दस्तावेज़ निरीक्षक", "B). नेविगेशन फलक", "C). पेज सेटअप", "D). प्रिंट लेआउट व्यू"],
+              "options-english": ["A). Document Inspector", "B). Navigation Pane", "C). Page Setup", "D). Print Layout View"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: पेज सेटअप विकल्पों का समूह (लेआउट टैब पर पाया जाता है) में दस्तावेज़ के मौलिक लेआउट को नियंत्रित करने के लिए आवश्यक सभी कमांड होते हैं, जिसमें मार्जिन, कागज का आकार, ओरिएंटेशन (पोर्ट्रेट या लैंडस्केप), कॉलम और ब्रेक शामिल हैं।",
+              "solution-english": "Solution: The Page Setup group of options (found on the Layout tab) contains all the commands needed to control the fundamental layout of the document, including margins, paper size, orientation (portrait or landscape), columns, and breaks."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, एक्सेल में सामग्री को फिट करने के लिए किसी कॉलम की चौड़ाई को स्वचालित रूप से समायोजित करने के लिए कीबोर्ड शॉर्टकट क्या है?",
+              "question-english" : "In MS Excel 365,what is the keyboard shortcut to automatically adjust the width of a column to fit the content in Excel?",
+              "options-hindi": ["A). ALT + H फिर O और फिर I", "B). Ctrl + स्पेसबार", "C). Ctrl + W", "D). Ctrl + A"],
+              "options-english": ["A). ALT + H then O and then I", "B). Ctrl + Spacebar", "C). Ctrl + W", "D). Ctrl + A"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: कुंजी प्रेस का यह क्रम रिबन मेनू को नेविगेट करता है: Alt कुंजी युक्तियों को सक्रिय करता है, H होम टैब का चयन करता है, O प्रारूप मेनू का चयन करता है, और I ऑटोफिट कॉलम चौड़ाई कमांड को निष्पादित करता है। एक और सामान्य तरीका कॉलम हेडर की दाहिनी सीमा पर डबल-क्लिक करना है।",
+              "solution-english": "Solution: This sequence of key presses navigates the ribbon menu: Alt activates the key tips, H selects the Home tab, O selects the Format menu, and I executes the AutoFit Column Width command. Another common method is to double-click the right border of the column header."
+            },
+            {
+              "question-hindi": "गूगल डॉक्स जैसे वेब-आधारित दस्तावेज़ संपादक में दस्तावेज़ खोलने का निम्नलिखित में से कौन सा एक सामान्य तरीका नहीं है?",
+              "question-english" : "Which of the following is NOT a common method of opening a document in a web-based document editor like Google Docs?",
+              "options-hindi": ["A). एक टेम्पलेट से एक नया दस्तावेज़ बनाना", "B). अपने कंप्यूटर से दस्तावेज़ अपलोड करना", "C). पूरे दस्तावेज़ को स्क्रैच से टाइप करना", "D). एक वेब लिंक से एक दस्तावेज़ आयात करना"],
+              "options-english": ["A). Creating a new document from a template", "B). Uploading the document from your computer", "C). Typing the entire document from scratch", "D). Importing a document from a web link"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: 'पूरे दस्तावेज़ को स्क्रैच से टाइप करना' एक नए, खाली दस्तावेज़ के भीतर सामग्री बनाने की प्रक्रिया का वर्णन करता है। अन्य विकल्प एक ऐसे दस्तावेज़ को खोलने या शुरू करने के तरीके हैं जो या तो पूर्व-स्वरूपित (टेम्पलेट) है या कहीं और पहले से मौजूद है (अपलोड करना, आयात करना)।",
+              "solution-english": "Solution: 'Typing the entire document from scratch' describes the process of creating content within a new, blank document. The other options are methods of opening or initiating a document that is either pre-formatted (template) or already exists elsewhere (uploading, importing)."
+            }
+          ]
+    }
+  ]
+}

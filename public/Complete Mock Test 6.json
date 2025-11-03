@@ -1,0 +1,1584 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+    "question-english": "Which is the largest continental shelf in the world?",
+    "question-hindi": "विश्व का सबसे बड़ा महाद्वीपीय शेल्फ कौन सा है?",
+    "options-english": [
+      "(a) The shelf of India",
+      "(b) The Indian Ocean shelf",
+      "(c) The shelf in the Pacific Ocean",
+      "(d) The Siberian shelf in the Arctic Ocean"
+    ],
+    "options-hindi": [
+      "(a) भारत का शेल्फ",
+      "(b) हिंद महासागर का शेल्फ",
+      "(c) प्रशांत महासागर का शेल्फ",
+      "(d) आर्कटिक महासागर में साइबेरियाई शेल्फ"
+    ],
+    "answer-english": "(d) The Siberian shelf in the Arctic Ocean",
+    "answer-hindi": "(d) आर्कटिक महासागर में साइबेरियाई शेल्फ",
+    "solution-english": "The Siberian shelf, located in the Arctic Ocean, is the largest continental shelf in the world, extending about 1,500 km from the Eurasian continent.",
+    "solution-hindi": "आर्कटिक महासागर में स्थित साइबेरियाई शेल्फ विश्व का सबसे बड़ा महाद्वीपीय शेल्फ है, जो यूरेशियाई महाद्वीप से लगभग 1,500 किमी तक फैला हुआ है।"
+  },
+  {
+    "question-english": "The Article of the Indian Constitution that deals with all the executive powers of the Governor is ______.",
+    "question-hindi": "भारतीय संविधान का वह अनुच्छेद जो राज्यपाल की सभी कार्यकारी शक्तियों से संबंधित है, ______ है।",
+    "options-english": [
+      "(a) Article 150",
+      "(b) Article 157",
+      "(c) Article 154",
+      "(d) Article 156"
+    ],
+    "options-hindi": [
+      "(a) अनुच्छेद 150",
+      "(b) अनुच्छेद 157",
+      "(c) अनुच्छेद 154",
+      "(d) अनुच्छेद 156"
+    ],
+    "answer-english": "(c) Article 154",
+    "answer-hindi": "(c) अनुच्छेद 154",
+    "solution-english": "Article 154 states that the executive power of the State shall be vested in the Governor and exercised by him directly or through subordinate officers.",
+    "solution-hindi": "अनुच्छेद 154 कहता है कि राज्य की कार्यकारी शक्ति राज्यपाल में निहित होगी और वह इसे सीधे या अपने अधीनस्थ अधिकारियों के माध्यम से प्रयोग करेगा।"
+  },
+  {
+    "question-english": "Who won the bronze medal for India in eFootball at the 2024 Asian Esports Games in Bangkok?",
+    "question-hindi": "बैंकॉक में 2024 एशियाई ईस्पोर्ट्स खेलों में ईफुटबॉल में भारत के लिए कांस्य पदक किसने जीता?",
+    "options-english": [
+      "(a) Asgard Azizi",
+      "(b) TXRO",
+      "(c) Pavan Kampelli",
+      "(d) Mr Tomboy"
+    ],
+    "options-hindi": [
+      "(a) असगार्ड अज़ीज़ी",
+      "(b) TXRO",
+      "(c) पवन कांपेली",
+      "(d) मिस्टर टॉम्बॉय"
+    ],
+    "answer-english": "(c) Pavan Kampelli",
+    "answer-hindi": "(c) पवन कांपेली",
+    "solution-english": "Pavan Kampelli won the bronze medal for India in eFootball at the 2024 Asian Esports Games held in Bangkok.",
+    "solution-hindi": "पवन कांपेली ने बैंकॉक में आयोजित 2024 एशियाई ईस्पोर्ट्स खेलों में ईफुटबॉल में भारत के लिए कांस्य पदक जीता।"
+  },
+  {
+    "question-english": "Who was the first woman classical dancer in independent India to be nominated as a member to the Rajya Sabha?",
+    "question-hindi": "स्वतंत्र भारत में राज्यसभा की सदस्य के रूप में नामांकित होने वाली पहली महिला शास्त्रीय नर्तकी कौन थीं?",
+    "options-english": [
+      "(a) Vidyagauri Adkar",
+      "(b) Niveditha Arjun",
+      "(c) Rukmini Devi Arundale",
+      "(d) Kalamandalam Kalyanikutty Amma"
+    ],
+    "options-hindi": [
+      "(a) विद्यागौरी अड़कर",
+      "(b) निवेदिता अर्जुन",
+      "(c) रुक्मिणी देवी अरुंडेल",
+      "(d) कलामंडलम कल्याणिकुट्टी अम्मा"
+    ],
+    "answer-english": "(c) Rukmini Devi Arundale",
+    "answer-hindi": "(c) रुक्मिणी देवी अरुंडेल",
+    "solution-english": "Rukmini Devi Arundale, a celebrated Bharatanatyam dancer, was the first woman nominated to the Rajya Sabha in 1952.",
+    "solution-hindi": "रुक्मिणी देवी अरुंडेल, एक प्रसिद्ध भरतनाट्यम नर्तकी थीं और 1952 में राज्यसभा के लिए नामांकित होने वाली पहली महिला बनीं।"
+  },
+  {
+    "question-english": "The equipment 'bolt' is used in which sport?",
+    "question-hindi": "उपकरण 'बोल्ट' का उपयोग किस खेल में किया जाता है?",
+    "options-english": [
+      "(a) Swimming",
+      "(b) Mountaineering",
+      "(c) Cycling",
+      "(d) Motor sports"
+    ],
+    "options-hindi": [
+      "(a) तैराकी",
+      "(b) पर्वतारोहण",
+      "(c) साइकिलिंग",
+      "(d) मोटर स्पोर्ट्स"
+    ],
+    "answer-english": "(b) Mountaineering",
+    "answer-hindi": "(b) पर्वतारोहण",
+    "solution-english": "Bolts are metal anchors used in mountaineering and rock climbing for protection and anchoring.",
+    "solution-hindi": "बोल्ट पर्वतारोहण और रॉक क्लाइम्बिंग में सुरक्षा और लंगर लगाने के लिए उपयोग किए जाने वाले धातु के लंगर होते हैं।"
+  },
+  {
+    "question-english": "In the World Chess Championship Game 14, GM D. Gukesh became the youngest World Chess Champion, surpassing the record of _______.",
+    "question-hindi": "विश्व शतरंज चैंपियनशिप गेम 14 में, जीएम डी. गुकेश सबसे कम उम्र के विश्व शतरंज चैंपियन बन गए, जिन्होंने _______ का रिकॉर्ड तोड़ दिया।",
+    "options-english": [
+      "(a) Magnus Carlsen",
+      "(b) Ding Liren",
+      "(c) Viswanathan Anand",
+      "(d) Garry Kasparov"
+    ],
+    "options-hindi": [
+      "(a) मैग्नस कार्लसन",
+      "(b) डिंग लिरेन",
+      "(c) विश्वनाथन आनंद",
+      "(d) गैरी कास्परोव"
+    ],
+    "answer-english": "(d) Garry Kasparov",
+    "answer-hindi": "(d) गैरी कास्परोव",
+    "solution-english": "Gukesh became the youngest World Chess Champion, breaking Garry Kasparov's record, who won at age 22 in 1985.",
+    "solution-hindi": "गुकेश सबसे कम उम्र के विश्व शतरंज चैंपियन बने, जिन्होंने गैरी कास्परोव का 1985 में 22 वर्ष की आयु में स्थापित रिकॉर्ड तोड़ा।"
+  },
+  {
+    "question-english": "In optics, the refractive index of a substance is described by the formula n = c/v, where c is:",
+    "question-hindi": "प्रकाशिकी में, किसी पदार्थ का अपवर्तनांक सूत्र n = c/v द्वारा वर्णित किया जाता है, जहाँ c है:",
+    "options-english": [
+      "(a) the speed of light in medium",
+      "(b) the centre of curvature",
+      "(c) the radius of the sphere",
+      "(d) the speed of light in vacuum"
+    ],
+    "options-hindi": [
+      "(a) माध्यम में प्रकाश की गति",
+      "(b) वक्रता का केंद्र",
+      "(c) गोले की त्रिज्या",
+      "(d) निर्वात में प्रकाश की गति"
+    ],
+    "answer-english": "(d) the speed of light in vacuum",
+    "answer-hindi": "(d) निर्वात में प्रकाश की गति",
+    "solution-english": "Refractive index n = c/v, where c is the speed of light in vacuum and v is the speed of light in the medium.",
+    "solution-hindi": "अपवर्तनांक n = c/v है, जहाँ c निर्वात में प्रकाश की गति और v माध्यम में प्रकाश की गति है।"
+  },
+  {
+    "question-english": "Padma Shri awardee Gopal Prasad Dubey was awarded for his contribution to which dance?",
+    "question-hindi": "पद्म श्री पुरस्कार विजेता गोपाल प्रसाद दुबे को निम्नलिखित में से किस नृत्य में उनके योगदान के लिए सम्मानित किया गया था?",
+    "options-english": [
+      "(a) Sattriya",
+      "(b) Panthi",
+      "(c) Chhau",
+      "(d) Mohiniyattam"
+    ],
+    "options-hindi": [
+      "(a) सत्रीया",
+      "(b) पंथी",
+      "(c) छऊ",
+      "(d) मोहिनीअट्टम"
+    ],
+    "answer-english": "(c) Chhau",
+    "answer-hindi": "(c) छऊ",
+    "solution-english": "Gopal Prasad Dubey, an exponent of Seraikella Chhau, was honored with Padma Shri for his contribution to this dance form.",
+    "solution-hindi": "गोपाल प्रसाद दुबे, सरायकेला छऊ नृत्य के प्रतिपादक, को इस नृत्य रूप में उनके योगदान के लिए पद्म श्री से सम्मानित किया गया।"
+  },
+  {
+    "question-english": "Who wrote the autobiography 'Playing to Win'?",
+    "question-hindi": "निम्नलिखित में से किस भारतीय खिलाड़ी ने 'प्लेइंग टू विन' नामक आत्मकथा लिखी?",
+    "options-english": [
+      "(a) Sania Mirza",
+      "(b) P V Sindhu",
+      "(c) Saina Nehwal",
+      "(d) Karnam Malleshwari"
+    ],
+    "options-hindi": [
+      "(a) सानिया मिर्जा",
+      "(b) पी वी सिंधु",
+      "(c) साइना नेहवाल",
+      "(d) कर्णम मल्लेश्वरी"
+    ],
+    "answer-english": "(c) Saina Nehwal",
+    "answer-hindi": "(c) साइना नेहवाल",
+    "solution-english": "'Playing to Win' is the autobiography of Indian badminton star Saina Nehwal.",
+    "solution-hindi": "'प्लेइंग टू विन' भारतीय बैडमिंटन खिलाड़ी साइना नेहवाल की आत्मकथा है।"
+  },
+  {
+    "question-english": "Consider the following statements regarding antiparticles:",
+    "question-hindi": "प्रतिकणों (antiparticles) के संबंध में निम्नलिखित कथनों पर विचार करें:",
+    "options-english": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2, and 3"
+    ],
+    "options-hindi": [
+      "(a) केवल 1 और 2",
+      "(b) केवल 2 और 3",
+      "(c) केवल 1 और 3",
+      "(d) 1, 2, और 3"
+    ],
+    "answer-english": "(a) 1 and 2 only",
+    "answer-hindi": "(a) केवल 1 और 2",
+    "solution-english": "Antiparticles can be viewed as particles moving backward in time and are produced naturally in human bodies during potassium-40 decay.",
+    "solution-hindi": "प्रतिकणों को समय में पीछे की ओर यात्रा करने वाले कणों के रूप में देखा जा सकता है और वे पोटेशियम-40 के क्षय के दौरान मानव शरीर में स्वाभाविक रूप से उत्पन्न होते हैं।"
+  },{
+    "question-english": "In which sport are arrows used?",
+    "question-hindi": "किस खेल में तीरों का उपयोग किया जाता है?",
+    "options-english": [
+      "(a) Fencing",
+      "(b) Shooting",
+      "(c) Boxing",
+      "(d) Archery"
+    ],
+    "options-hindi": [
+      "(a) फेंसिंग",
+      "(b) शूटिंग",
+      "(c) मुक्केबाजी",
+      "(d) तीरंदाजी"
+    ],
+    "answer-english": "(d) Archery",
+    "answer-hindi": "(d) तीरंदाजी",
+    "solution-english": "Arrows are projectiles shot from a bow in the sport of archery. The goal is to hit a target with accuracy.",
+    "solution-hindi": "तीरंदाजी के खेल में तीर एक धनुष से चलाए जाने वाले प्रक्षेपास्त्र होते हैं। इसका लक्ष्य सटीकता से निशाने को भेदना होता है।"
+  },
+  {
+    "question-english": "Padma Shri awardee Guru Amubi Singh has conferred the award for his significant contributions in which of the following dance forms?",
+    "question-hindi": "पद्म श्री पुरस्कार विजेता गुरु अमुबी सिंह को निम्नलिखित में से किस नृत्य शैली में उनके महत्वपूर्ण योगदान के लिए पुरस्कार प्रदान किया गया है?",
+    "options-english": [
+      "(a) Kathak",
+      "(b) Manipuri",
+      "(c) Bharatanatyam",
+      "(d) Odissi"
+    ],
+    "options-hindi": [
+      "(a) कथक",
+      "(b) मणिपुरी",
+      "(c) भरतनाट्यम",
+      "(d) ओडिसी"
+    ],
+    "answer-english": "(b) Manipuri",
+    "answer-hindi": "(b) मणिपुरी",
+    "solution-english": "Guru Amubi Singh was a doyen of Manipuri dance and made immense contributions to its revival and popularization.",
+    "solution-hindi": "गुरु अमुबी सिंह मणिपुरी नृत्य के एक दिग्गज थे और इसके पुनरुत्थान और लोकप्रियकरण में उनका योगदान महत्वपूर्ण था।"
+  },
+  {
+    "question-english": "Which level of the food chain includes millipede, springtails, woodlice, dung flies and slugs that feed on the dead or decaying plants or animals?",
+    "question-hindi": "खाद्य श्रृंखला के किस स्तर में मिलीपीड, स्प्रिंगटेल, वुडलाइस, गोबर मक्खियाँ और घोंघे शामिल हैं जो मृत या सड़ने वाले पौधों या जानवरों को खाते हैं?",
+    "options-english": [
+      "(a) Carnivores",
+      "(b) Detritivores",
+      "(c) Omnivores",
+      "(d) Herbivores"
+    ],
+    "options-hindi": [
+      "(a) मांसाहारी",
+      "(b) डेट्रिटिवोरेस",
+      "(c) सर्वाहारी",
+      "(d) शाकाहारी"
+    ],
+    "answer-english": "(b) Detritivores",
+    "answer-hindi": "(b) डेट्रिटिवोरेस",
+    "solution-english": "Detritivores feed on decomposing plant and animal material and play a crucial role in decomposition.",
+    "solution-hindi": "डेट्रिटिवोरेस सड़ने वाले पौधों और जानवरों को खाते हैं और अपघटन में महत्वपूर्ण भूमिका निभाते हैं।"
+  },
+  {
+    "question-english": "The Nooran Sisters are renowned for which of the following genres of Indian Music?",
+    "question-hindi": "नूरान सिस्टर्स भारतीय संगीत की निम्नलिखित में से किस शैली के लिए प्रसिद्ध हैं?",
+    "options-english": [
+      "(a) Qawwali",
+      "(b) Sufi",
+      "(c) Ghazals",
+      "(d) Hindustani Classical"
+    ],
+    "options-hindi": [
+      "(a) कव्वाली",
+      "(b) सूफी",
+      "(c) गजलें",
+      "(d) हिंदुस्तानी शास्त्रीय"
+    ],
+    "answer-english": "(b) Sufi",
+    "answer-hindi": "(b) सूफी",
+    "solution-english": "The Nooran Sisters, Jyoti and Sultana Nooran, are famous for their soulful Sufi music performances.",
+    "solution-hindi": "नूरान सिस्टर्स, ज्योति और सुल्ताना नूरान, अपने भावपूर्ण सूफी संगीत प्रस्तुतियों के लिए प्रसिद्ध हैं।"
+  },
+  {
+    "question-english": "Which of the following books is NOT written by Arundhati Roy?",
+    "question-hindi": "निम्नलिखित में से कौन सी पुस्तक अरुंधति रॉय द्वारा नहीं लिखी गई है?",
+    "options-english": [
+      "(a) Capitalism",
+      "(b) Private Life of An Indian Prince",
+      "(c) The God of Small Things",
+      "(d) An Ordinary Person's Guide to Empire"
+    ],
+    "options-hindi": [
+      "(a) कैपिटलिज्म",
+      "(b) प्राइवेट लाइफ ऑफ एन इंडियन प्रिंस",
+      "(c) द गॉड ऑफ स्मॉल थिंग्स",
+      "(d) एन ऑर्डिनरी पर्सन्स गाइड टू एम्पायर"
+    ],
+    "answer-english": "(b) Private Life of An Indian Prince",
+    "answer-hindi": "(b) प्राइवेट लाइफ ऑफ एन इंडियन प्रिंस",
+    "solution-english": "'Private Life of An Indian Prince' was written by Mulk Raj Anand, not Arundhati Roy.",
+    "solution-hindi": "'प्राइवेट लाइफ ऑफ एन इंडियन प्रिंस' मुल्क राज आनंद द्वारा लिखी गई है, अरुंधति रॉय द्वारा नहीं।"
+  },
+  {
+    "question-english": "Who wrote the famous novel 'The Inheritance of Loss'?",
+    "question-hindi": "प्रसिद्ध उपन्यास 'द इनहेरिटेंस ऑफ लॉस' किसने लिखा?",
+    "options-english": [
+      "(a) Arundhati Roy",
+      "(b) Kiran Desai",
+      "(c) R K Narayan",
+      "(d) Vikram Seth"
+    ],
+    "options-hindi": [
+      "(a) अरुंधति रॉय",
+      "(b) किरण देसाई",
+      "(c) आर के नारायण",
+      "(d) विक्रम सेठ"
+    ],
+    "answer-english": "(b) Kiran Desai",
+    "answer-hindi": "(b) किरण देसाई",
+    "solution-english": "'The Inheritance of Loss' is a novel by Kiran Desai, which won the Man Booker Prize in 2006.",
+    "solution-hindi": "'द इनहेरिटेंस ऑफ लॉस' किरण देसाई का उपन्यास है, जिसने 2006 में मैन बुकर पुरस्कार जीता।"
+  },
+  {
+    "question-english": "What is the ranking of Tata's Air India in AirHelp's 2024 Global Airline Rankings?",
+    "question-hindi": "एयरहेल्प की 2024 ग्लोबल एयरलाइन रैंकिंग में टाटा की एयर इंडिया की रैंकिंग क्या है?",
+    "options-english": [
+      "(a) 51st",
+      "(b) 61st",
+      "(c) 71st",
+      "(d) 81st"
+    ],
+    "options-hindi": [
+      "(a) 51वीं",
+      "(b) 61वीं",
+      "(c) 71वीं",
+      "(d) 81वीं"
+    ],
+    "answer-english": "(b) 61st",
+    "answer-hindi": "(b) 61वीं",
+    "solution-english": "According to AirHelp's 2024 Global Airline Rankings, Air India was ranked 61st globally.",
+    "solution-hindi": "एयरहेल्प की 2024 ग्लोबल एयरलाइन रैंकिंग के अनुसार, एयर इंडिया वैश्विक स्तर पर 61वें स्थान पर थी।"
+  },
+  {
+    "question-english": "In which year was Zakir Hussain awarded the Padma Vibhushan?",
+    "question-hindi": "जाकिर हुसैन को पद्म विभूषण किस वर्ष प्रदान किया गया था?",
+    "options-english": [
+      "(a) 2020",
+      "(b) 2021",
+      "(c) 2022",
+      "(d) 2023"
+    ],
+    "options-hindi": [
+      "(a) 2020",
+      "(b) 2021",
+      "(c) 2022",
+      "(d) 2023"
+    ],
+    "answer-english": "(d) 2023",
+    "answer-hindi": "(d) 2023",
+    "solution-english": "Ustad Zakir Hussain received the Padma Vibhushan in 2023 for his outstanding contribution to Indian classical music.",
+    "solution-hindi": "उस्ताद जाकिर हुसैन को 2023 में भारतीय शास्त्रीय संगीत में उनके असाधारण योगदान के लिए पद्म विभूषण से सम्मानित किया गया।"
+  },
+  {
+    "question-english": "Isopentane, also called ______, is a branched-chain saturated hydrocarbon with the chemical formula C5H12.",
+    "question-hindi": "आइसोपेंटेन, जिसे ______ भी कहा जाता है, रासायनिक सूत्र C5H12 के साथ एक शाखित-श्रृंखला संतृप्त हाइड्रोकार्बन है।",
+    "options-english": [
+      "(a) dimethylbutane",
+      "(b) isobutane",
+      "(c) 2-methylbutane",
+      "(d) butadiene"
+    ],
+    "options-hindi": [
+      "(a) डाइमिथाइलब्यूटेन",
+      "(b) आइसोब्यूटेन",
+      "(c) 2-मिथाइलब्यूटेन",
+      "(d) ब्यूटाडाइन"
+    ],
+    "answer-english": "(c) 2-methylbutane",
+    "answer-hindi": "(c) 2-मिथाइलब्यूटेन",
+    "solution-english": "Isopentane is the common name for 2-methylbutane, both having the molecular formula C5H12.",
+    "solution-hindi": "आइसोपेंटेन 2-मिथाइलब्यूटेन का सामान्य नाम है, दोनों का आणविक सूत्र C5H12 है।"
+  },
+  {
+    "question-english": "Which cell theory proved that the quasi-fluid nature of lipid enables lateral movement of proteins within the overall bilayer?",
+    "question-hindi": "किस कोशिका सिद्धांत ने यह साबित किया कि लिपिड की अर्ध-तरल प्रकृति समग्र बाइलेयर के भीतर प्रोटीन के पार्श्व आंदोलन को सक्षम बनाती है?",
+    "options-english": [
+      "(a) Cell theory",
+      "(b) Fluid mosaic model",
+      "(c) Model of Golgi bodies",
+      "(d) Vacuole theory"
+    ],
+    "options-hindi": [
+      "(a) कोशिका सिद्धांत",
+      "(b) द्रव मोज़ेक मॉडल",
+      "(c) गोल्गी निकायों का मॉडल",
+      "(d) रिक्तिका सिद्धांत"
+    ],
+    "answer-english": "(b) Fluid mosaic model",
+    "answer-hindi": "(b) द्रव मोज़ेक मॉडल",
+    "solution-english": "The Fluid Mosaic Model by Singer and Nicolson (1972) explained that membrane lipids are fluid, allowing proteins to move laterally within the bilayer.",
+    "solution-hindi": "सिंगर और निकोलसन (1972) द्वारा प्रस्तुत द्रव मोज़ेक मॉडल ने बताया कि झिल्ली के लिपिड द्रव होते हैं, जिससे प्रोटीन झिल्ली में पार्श्व रूप से गति कर सकते हैं।"
+  },{
+    "question-english": "Who among the following is the first ever Grammy award winner from India?",
+    "question-hindi": "निम्नलिखित में से कौन भारत से पहले ग्रैमी पुरस्कार विजेता हैं?",
+    "options-english": [
+      "(a) Pt Hari Prasad Chaurasia",
+      "(b) Pt Ravi Shankar",
+      "(c) Ustad Zakir Husain",
+      "(d) Pt Shiv Prakash Sharma"
+    ],
+    "options-hindi": [
+      "(a) पं हरिप्रसाद चौरसिया",
+      "(b) पं रवि शंकर",
+      "(c) उस्ताद जाकिर हुसैन",
+      "(d) पं शिव प्रकाश शर्मा"
+    ],
+    "answer-english": "(b) Pt Ravi Shankar",
+    "answer-hindi": "(b) पं रवि शंकर",
+    "solution-english": "Pandit Ravi Shankar, the legendary sitar maestro, was the first Indian to win a Grammy Award. He won his first Grammy in 1968 for 'West Meets East' in the Best Chamber Music Performance category.",
+    "solution-hindi": "पंडित रवि शंकर, प्रसिद्ध सितार वादक, ग्रैमी पुरस्कार जीतने वाले पहले भारतीय थे। उन्होंने 1968 में 'वेस्ट मीट्स ईस्ट' के लिए सर्वश्रेष्ठ चैंबर संगीत प्रदर्शन श्रेणी में अपना पहला ग्रैमी जीता।"
+  },
+  {
+    "question-english": "Which date has been declared as World Meditation Day by the UN General Assembly?",
+    "question-hindi": "संयुक्त राष्ट्र महासभा द्वारा किस तारीख को विश्व ध्यान दिवस के रूप में घोषित किया गया है?",
+    "options-english": [
+      "(a) December 25",
+      "(b) December 24",
+      "(c) December 22",
+      "(d) December 21"
+    ],
+    "options-hindi": [
+      "(a) 25 दिसंबर",
+      "(b) 24 दिसंबर",
+      "(c) 22 दिसंबर",
+      "(d) 21 दिसंबर"
+    ],
+    "answer-english": "(d) December 21",
+    "answer-hindi": "(d) 21 दिसंबर",
+    "solution-english": "There is no official 'World Meditation Day' declared by the UN. December 21 is the Winter Solstice, often observed for meditation by various groups, but not an official UN observance.",
+    "solution-hindi": "संयुक्त राष्ट्र महासभा द्वारा कोई आधिकारिक 'विश्व ध्यान दिवस' घोषित नहीं किया गया है। 21 दिसंबर शीतकालीन संक्रांति है, जिसे विभिन्न समूह ध्यान के लिए मनाते हैं, लेकिन यह संयुक्त राष्ट्र का औपचारिक दिवस नहीं है।"
+  },
+  {
+    "question-english": "Where will the World Maritime Conference 2024 be held?",
+    "question-hindi": "विश्व समुद्री सम्मेलन 2024 कहाँ आयोजित किया जाएगा?",
+    "options-english": [
+      "(a) Chennai",
+      "(b) Mumbai",
+      "(c) New Delhi",
+      "(d) Kolkata"
+    ],
+    "options-hindi": [
+      "(a) चेन्नई",
+      "(b) मुंबई",
+      "(c) नई दिल्ली",
+      "(d) कोलकाता"
+    ],
+    "answer-english": "(b) Mumbai",
+    "answer-hindi": "(b) मुंबई",
+    "solution-english": "The World Maritime Conference 2024 was held in Mumbai, India, bringing together maritime leaders and policymakers to discuss global maritime issues.",
+    "solution-hindi": "विश्व समुद्री सम्मेलन 2024 मुंबई, भारत में आयोजित किया गया, जिसमें वैश्विक समुद्री मुद्दों पर चर्चा करने के लिए नेताओं और विशेषज्ञों ने भाग लिया।"
+  },
+  {
+    "question-english": "Where is sodium located on the periodic table?",
+    "question-hindi": "सोडियम आवर्त सारणी में कहाँ स्थित है?",
+    "options-english": [
+      "(a) Bottom of the table",
+      "(b) Top period",
+      "(c) On the right side",
+      "(d) On the left side"
+    ],
+    "options-hindi": [
+      "(a) सारणी के नीचे",
+      "(b) शीर्ष अवधि",
+      "(c) दाहिनी ओर",
+      "(d) बाईं ओर"
+    ],
+    "answer-english": "(d) On the left side",
+    "answer-hindi": "(d) बाईं ओर",
+    "solution-english": "Sodium (Na) is located in Group 1 on the far left side of the periodic table, among alkali metals.",
+    "solution-hindi": "सोडियम (Na) आवर्त सारणी के सबसे बाईं ओर समूह 1 में स्थित है, जो क्षार धातुओं में शामिल है।"
+  },
+  {
+    "question-english": "In which year was the National Biodiversity Authority established?",
+    "question-hindi": "राष्ट्रीय जैव विविधता प्राधिकरण की स्थापना किस वर्ष हुई थी?",
+    "options-english": [
+      "(a) 2006",
+      "(b) 2000",
+      "(c) 2003",
+      "(d) 2010"
+    ],
+    "options-hindi": [
+      "(a) 2006",
+      "(b) 2000",
+      "(c) 2003",
+      "(d) 2010"
+    ],
+    "answer-english": "(c) 2003",
+    "answer-hindi": "(c) 2003",
+    "solution-english": "The National Biodiversity Authority was established in 2003 under the Biological Diversity Act, 2002, and is headquartered in Chennai.",
+    "solution-hindi": "राष्ट्रीय जैव विविधता प्राधिकरण की स्थापना 2003 में जैविक विविधता अधिनियम, 2002 के तहत की गई थी और इसका मुख्यालय चेन्नई में है।"
+  },
+  {
+    "question-english": "With which country is India conducting the 4th edition of the joint military exercise HARIMAU SHAKTI in December 2024?",
+    "question-hindi": "दिसंबर 2024 में भारत किस देश के साथ संयुक्त सैन्य अभ्यास HARIMAU SHAKTI का चौथा संस्करण आयोजित कर रहा है?",
+    "options-english": [
+      "(a) Indonesia",
+      "(b) Malaysia",
+      "(c) Thailand",
+      "(d) Vietnam"
+    ],
+    "options-hindi": [
+      "(a) इंडोनेशिया",
+      "(b) मलेशिया",
+      "(c) थाईलैंड",
+      "(d) वियतनाम"
+    ],
+    "answer-english": "(b) Malaysia",
+    "answer-hindi": "(b) मलेशिया",
+    "solution-english": "The 'Harimau Shakti' exercise is a bilateral military exercise between India and Malaysia to enhance cooperation and interoperability.",
+    "solution-hindi": "'हरिमाऊ शक्ति' भारत और मलेशिया के बीच एक द्विपक्षीय सैन्य अभ्यास है जिसका उद्देश्य सहयोग और अंतरसंचालनीयता को बढ़ाना है।"
+  },
+  {
+    "question-english": "Dr. Sunanda Nair is recognised as a ______ performer, teacher, and proponent.",
+    "question-hindi": "डॉ. सुनंदा नायर को एक ______ कलाकार, शिक्षक और समर्थक के रूप में मान्यता प्राप्त है।",
+    "options-english": [
+      "(a) Mohiniyattam",
+      "(b) Kathak",
+      "(c) Kuchipudi",
+      "(d) Kathakali"
+    ],
+    "options-hindi": [
+      "(a) मोहिनीअट्टम",
+      "(b) कथक",
+      "(c) कुचिपुड़ी",
+      "(d) कथकली"
+    ],
+    "answer-english": "(a) Mohiniyattam",
+    "answer-hindi": "(a) मोहिनीअट्टम",
+    "solution-english": "Dr. Sunanda Nair is a renowned Mohiniyattam dancer, teacher, and promoter known for her global contributions.",
+    "solution-hindi": "डॉ. सुनंदा नायर मोहिनीअट्टम की एक प्रसिद्ध नर्तकी, शिक्षिका और समर्थक हैं, जिन्हें उनके वैश्विक योगदान के लिए पहचाना जाता है।"
+  },
+  {
+    "question-english": "Muriatic acid is another name of which compound used in various industries?",
+    "question-hindi": "म्यूरियाटिक एसिड किस यौगिक का दूसरा नाम है जिसका उपयोग विभिन्न उद्योगों में किया जाता है?",
+    "options-english": [
+      "(a) Perchloric Acid",
+      "(b) Sulfuric acid",
+      "(c) Hydrochloric acid",
+      "(d) Nitric acid"
+    ],
+    "options-hindi": [
+      "(a) परक्लोरिक एसिड",
+      "(b) सल्फ्यूरिक एसिड",
+      "(c) हाइड्रोक्लोरिक एसिड",
+      "(d) नाइट्रिक एसिड"
+    ],
+    "answer-english": "(c) Hydrochloric acid",
+    "answer-hindi": "(c) हाइड्रोक्लोरिक एसिड",
+    "solution-english": "Muriatic acid is the commercial name for hydrochloric acid (HCl), a strong acid widely used in industries.",
+    "solution-hindi": "म्यूरियाटिक एसिड हाइड्रोक्लोरिक एसिड (HCl) का वाणिज्यिक नाम है, जो विभिन्न उद्योगों में व्यापक रूप से उपयोग किया जाने वाला एक मजबूत अम्ल है।"
+  },
+  {
+    "question-english": "Who wrote the autobiography entitled 'I am No Messiah'?",
+    "question-hindi": "'आई एम नो मसीहा' नामक आत्मकथा किसने लिखी?",
+    "options-english": [
+      "(a) Sachin Tendulkar",
+      "(b) Sonu Sood",
+      "(c) Paramahansa Yogananda",
+      "(d) APJ Abdul Kalam"
+    ],
+    "options-hindi": [
+      "(a) सचिन तेंदुलकर",
+      "(b) सोनू सूद",
+      "(c) परमहंस योगानंद",
+      "(d) ए.पी.जे. अब्दुल कलाम"
+    ],
+    "answer-english": "(b) Sonu Sood",
+    "answer-hindi": "(b) सोनू सूद",
+    "solution-english": "'I Am No Messiah' is an autobiography by actor Sonu Sood, co-written with Meena Iyer, detailing his humanitarian work during COVID-19.",
+    "solution-hindi": "'आई एम नो मसीहा' अभिनेता सोनू सूद की आत्मकथा है, जिसे मीना अय्यर के साथ लिखा गया है, जिसमें COVID-19 के दौरान उनके मानवीय कार्यों का विवरण है।"
+  },
+  {
+    "question-english": "Under 'Mission Arun Himveer,' which organization will procure produce from local farmers in Arunachal Pradesh?",
+    "question-hindi": "‘मिशन अरुण हिमवीर’ के तहत, कौन सा संगठन अरुणाचल प्रदेश के स्थानीय किसानों से उत्पाद खरीदेगा?",
+    "options-english": [
+      "(a) Border Roads Organisation (BRO)",
+      "(b) Indo Tibetan Border Police (ITBP)",
+      "(c) Food Corporation of India (FCI)",
+      "(d) Indian Army"
+    ],
+    "options-hindi": [
+      "(a) सीमा सड़क संगठन (BRO)",
+      "(b) भारत-तिब्बत सीमा पुलिस (ITBP)",
+      "(c) भारतीय खाद्य निगम (FCI)",
+      "(d) भारतीय सेना"
+    ],
+    "answer-english": "(d) Indian Army",
+    "answer-hindi": "(d) भारतीय सेना",
+    "solution-english": "'Mission Arun Himveer' is an Indian Army initiative to procure fresh produce from Arunachal farmers, supporting local economies and army supply.",
+    "solution-hindi": "'मिशन अरुण हिमवीर' भारतीय सेना की पहल है, जो अरुणाचल के किसानों से ताजे उत्पाद खरीदकर स्थानीय अर्थव्यवस्था और सेना की आपूर्ति को समर्थन देती है।"
+  },{
+    "question-english": "Which of the following novels is NOT written by Amitav Ghosh?",
+    "question-hindi": "निम्नलिखित में से कौन सा उपन्यास अमिताभ घोष द्वारा नहीं लिखा गया है?",
+    "options-english": [
+      "(a) The Circle of Reason",
+      "(b) A Suitable Boy",
+      "(c) Sea of Poppies",
+      "(d) The Shadow Lines"
+    ],
+    "options-hindi": [
+      "(a) द सर्किल ऑफ रीजन",
+      "(b) ए सूटेबल बॉय",
+      "(c) सी ऑफ पॉपीज",
+      "(d) द शैडो लाइन्स"
+    ],
+    "answer-english": "(b) A Suitable Boy",
+    "answer-hindi": "(b) ए सूटेबल बॉय",
+    "solution-english": "'A Suitable Boy' is written by Vikram Seth, not Amitav Ghosh. Amitav Ghosh wrote 'The Circle of Reason', 'Sea of Poppies', and 'The Shadow Lines'.",
+    "solution-hindi": "'ए सूटेबल बॉय' विक्रम सेठ द्वारा लिखा गया है, न कि अमिताभ घोष द्वारा। अमिताभ घोष ने 'द सर्किल ऑफ रीजन', 'सी ऑफ पॉपीज' और 'द शैडो लाइन्स' लिखी हैं।"
+  },
+  {
+    "question-english": "Who is the first Indian musician to win the Oscar award for Best Original Score?",
+    "question-hindi": "सर्वश्रेष्ठ मूल स्कोर के लिए ऑस्कर पुरस्कार जीतने वाले पहले भारतीय संगीतकार कौन हैं?",
+    "options-english": [
+      "(a) Bhanu Athaiya",
+      "(b) Resul Pookutty",
+      "(c) Mehboob Khan",
+      "(d) A.R. Rahman"
+    ],
+    "options-hindi": [
+      "(a) भानु अथैया",
+      "(b) रसूल पुकुट्टी",
+      "(c) महबूब खान",
+      "(d) ए.आर. रहमान"
+    ],
+    "answer-english": "(d) A.R. Rahman",
+    "answer-hindi": "(d) ए.आर. रहमान",
+    "solution-english": "A.R. Rahman won two Oscars in 2009 for 'Slumdog Millionaire' — Best Original Score and Best Original Song ('Jai Ho').",
+    "solution-hindi": "ए.आर. रहमान ने 2009 में 'स्लमडॉग मिलियनेयर' के लिए दो ऑस्कर जीते — सर्वश्रेष्ठ मूल स्कोर और सर्वश्रेष्ठ मूल गीत ('जय हो')।"
+  },
+  {
+    "question-english": "Which railway lines' foundation was laid by President Droupadi Murmu in Odisha?",
+    "question-hindi": "राष्ट्रपति द्रौपदी मुर्मू ने ओडिशा में किन रेलवे लाइनों की आधारशिला रखी?",
+    "options-english": [
+      "(a) Bhubaneswar-Puri, Cuttack-Jajpur, and Sambalpur-Bargarh",
+      "(b) Rourkela-Keonjhar, Berhampur-Taptapani, and Jajpur-Barbil",
+      "(c) Khurda Road, Koraput-Vizianagaram, and Cuttack-Dhenkanal",
+      "(d) Bangriposi-Gorumahisani, Buramara-Chakulia, and Badampahar-Keonjhargarh"
+    ],
+    "options-hindi": [
+      "(a) भुवनेश्वर-पुरी, कटक-जाजपुर, और संबलपुर-बारगढ़",
+      "(b) राउरकेला-क्योंझर, बेरहामपुर-ताप्तापानी, और जाजपुर-बार्बिल",
+      "(c) खुर्दा रोड, कोरापुट-विजयनगरम, और कटक-धेनकानाल",
+      "(d) बांगीपोसी-गोरुमहिसाणी, बुरमारा-चाकुलिया, और बादामपहाड़-क्योंझरगढ़"
+    ],
+    "answer-english": "(d) Bangriposi-Gorumahisani, Buramara-Chakulia, and Badampahar-Keonjhargarh",
+    "answer-hindi": "(d) बांगीपोसी-गोरुमहिसाणी, बुरमारा-चाकुलिया, और बादामपहाड़-क्योंझरगढ़",
+    "solution-english": "President Droupadi Murmu laid the foundation stone for redevelopment of three stations and new lines between Buramara-Chakulia and Badampahar-Keonjhargarh in Odisha.",
+    "solution-hindi": "राष्ट्रपति द्रौपदी मुर्मू ने ओडिशा में तीन स्टेशनों के पुनर्विकास और बुरमारा-चाकुलिया तथा बादामपहाड़-क्योंझरगढ़ के बीच नई लाइनों की आधारशिला रखी।"
+  },
+  {
+    "question-english": "Which of the following fields is not offered by Kalidas Samman?",
+    "question-hindi": "कालिदास सम्मान द्वारा निम्नलिखित में से कौन सा क्षेत्र नहीं दिया जाता है?",
+    "options-english": [
+      "(a) Classical music",
+      "(b) Classical dance",
+      "(c) Puppetry",
+      "(d) Plastic arts"
+    ],
+    "options-hindi": [
+      "(a) शास्त्रीय संगीत",
+      "(b) शास्त्रीय नृत्य",
+      "(c) कठपुतली",
+      "(d) प्लास्टिक कला"
+    ],
+    "answer-english": "(c) Puppetry",
+    "answer-hindi": "(c) कठपुतली",
+    "solution-english": "Kalidas Samman is awarded for Classical Music, Classical Dance, Theatre, and Plastic Arts — not Puppetry.",
+    "solution-hindi": "कालिदास सम्मान शास्त्रीय संगीत, शास्त्रीय नृत्य, रंगमंच और प्लास्टिक कला के लिए दिया जाता है — कठपुतली के लिए नहीं।"
+  },
+  {
+    "question-english": "Which of the following dances is dedicated to temples and was earlier known as Sadir?",
+    "question-hindi": "निम्नलिखित में से कौन सा नृत्य मंदिरों को समर्पित है और पहले सदिर के नाम से जाना जाता था?",
+    "options-english": [
+      "(a) Bharatanatyam",
+      "(b) Kathakali",
+      "(c) Kathak",
+      "(d) Manipuri"
+    ],
+    "options-hindi": [
+      "(a) भरतनाट्यम",
+      "(b) कथकली",
+      "(c) कथक",
+      "(d) मणिपुरी"
+    ],
+    "answer-english": "(a) Bharatanatyam",
+    "answer-hindi": "(a) भरतनाट्यम",
+    "solution-english": "Bharatanatyam, from Tamil Nadu, was originally a temple dance known as Sadir before being redefined as a classical art form.",
+    "solution-hindi": "भरतनाट्यम, तमिलनाडु से उत्पन्न नृत्य, मूल रूप से सदिर के नाम से जाना जाता था, जिसे बाद में शास्त्रीय नृत्य के रूप में स्थापित किया गया।"
+  },
+  {
+    "question-english": "Rajeev Janardan is an Indian classical ______ player of the Imdadkhani gharana.",
+    "question-hindi": "राजीव जनार्दन इम्दादखानी घराने के एक भारतीय शास्त्रीय ______ खिलाड़ी हैं।",
+    "options-english": [
+      "(a) tabla",
+      "(b) flute",
+      "(c) harmonium",
+      "(d) sitar"
+    ],
+    "options-hindi": [
+      "(a) तबला",
+      "(b) बांसुरी",
+      "(c) हारमोनियम",
+      "(d) सितार"
+    ],
+    "answer-english": "(d) sitar",
+    "answer-hindi": "(d) सितार",
+    "solution-english": "Rajeev Janardan is a renowned sitar player of the Imdadkhani (Etawah) gharana, known for its melodic style.",
+    "solution-hindi": "राजीव जनार्दन इम्दादखानी (इटावा) घराने के प्रसिद्ध सितार वादक हैं, जो अपनी मधुर शैली के लिए जाने जाते हैं।"
+  },
+  {
+    "question-english": "Among the following freedom fighters, whose autobiography is 'Why am I an Atheist'?",
+    "question-hindi": "भारत के निम्नलिखित स्वतंत्रता सेनानियों में से किसकी आत्मकथा 'मैं नास्तिक क्यों हूँ' है?",
+    "options-english": [
+      "(a) Ras Behari Bose",
+      "(b) Bhagat Singh",
+      "(c) Ram Prasad Bismil",
+      "(d) Aurobindo Ghosh"
+    ],
+    "options-hindi": [
+      "(a) रास बिहारी बोस",
+      "(b) भगत सिंह",
+      "(c) राम प्रसाद बिस्मिल",
+      "(d) अरविंद घोष"
+    ],
+    "answer-english": "(b) Bhagat Singh",
+    "answer-hindi": "(b) भगत सिंह",
+    "solution-english": "'Why I Am an Atheist' is a famous essay by Bhagat Singh written in 1930 explaining his rationalist beliefs and socialist ideology.",
+    "solution-hindi": "'मैं नास्तिक क्यों हूँ' 1930 में भगत सिंह द्वारा लिखा गया एक प्रसिद्ध निबंध है जिसमें उनके तर्कवादी और समाजवादी विचारों को समझाया गया है।"
+  },
+  {
+    "question-english": "Which of the following game is played with a racket?",
+    "question-hindi": "निम्नलिखित में से कौन सा खेल रैकेट से खेला जाता है?",
+    "options-english": [
+      "(a) Baseball",
+      "(b) Volleyball",
+      "(c) Cricket",
+      "(d) Squash"
+    ],
+    "options-hindi": [
+      "(a) बेसबॉल",
+      "(b) वॉलीबॉल",
+      "(c) क्रिकेट",
+      "(d) स्क्वैश"
+    ],
+    "answer-english": "(d) Squash",
+    "answer-hindi": "(d) स्क्वैश",
+    "solution-english": "Squash is a racket sport played in a four-walled court with a small rubber ball.",
+    "solution-hindi": "स्क्वैश एक रैकेट खेल है जिसे चार दीवारों वाले कोर्ट में एक छोटी रबर की गेंद से खेला जाता है।"
+  },
+  {
+    "question-english": "Identify the element that helps to trap light energy for photosynthesis.",
+    "question-hindi": "उस तत्व की पहचान करें जो प्रकाश ऊर्जा को फंसाने में मदद करता है जो प्रकाश संश्लेषण के लिए आवश्यक है।",
+    "options-english": [
+      "(a) Cristae",
+      "(b) Amyloplasts",
+      "(c) Carotenoid",
+      "(d) Vacuoles"
+    ],
+    "options-hindi": [
+      "(a) क्रिस्टी",
+      "(b) अमाइलोप्लास्ट",
+      "(c) कैरोटेनॉइड",
+      "(d) रिक्तिकाएं"
+    ],
+    "answer-english": "(c) Carotenoid",
+    "answer-hindi": "(c) कैरोटेनॉइड",
+    "solution-english": "Carotenoids are pigments that absorb light energy and assist chlorophyll in photosynthesis while preventing damage.",
+    "solution-hindi": "कैरोटेनॉइड ऐसे वर्णक हैं जो प्रकाश ऊर्जा को अवशोषित करते हैं और प्रकाश संश्लेषण में क्लोरोफिल की सहायता करते हैं।"
+  },
+  {
+    "question-english": "Reni Village in Garhwal was known for what environmental movement in 1970?",
+    "question-hindi": "गढ़वाल स्थित रेनी गाँव 1970 में किस पर्यावरण आंदोलन के लिए जाना जाता था?",
+    "options-english": [
+      "(a) Save Silent Valley Movement",
+      "(b) Chipko Movement",
+      "(c) Jungle Bachao Andolan",
+      "(d) Appiko Movement"
+    ],
+    "options-hindi": [
+      "(a) साइलेंट वैली बचाओ आंदोलन",
+      "(b) चिपको आंदोलन",
+      "(c) जंगल बचाओ आंदोलन",
+      "(d) अप्पिको आंदोलन"
+    ],
+    "answer-english": "(b) Chipko Movement",
+    "answer-hindi": "(b) चिपको आंदोलन",
+    "solution-english": "Reni village in Uttarakhand was the center of the 1974 Chipko Movement, where villagers hugged trees to prevent deforestation.",
+    "solution-hindi": "उत्तराखंड का रेनी गाँव 1974 के चिपको आंदोलन का केंद्र था, जहाँ ग्रामीणों ने वनों की कटाई रोकने के लिए पेड़ों को गले लगाया।"
+  },{
+    "question-english": "Under the electron microscope, which cell organelle is visible as either clusters or single, small dots that float freely in the cytoplasm?",
+    "question-hindi": "इलेक्ट्रॉन सूक्ष्मदर्शी के तहत, कौन सा कोशिकांग या तो गुच्छों या एकल, छोटे बिंदुओं के रूप में दिखाई देता है जो कोशिकाद्रव्य में स्वतंत्र रूप से तैरते हैं?",
+    "options-english": [
+      "(a) Golgi apparatus",
+      "(b) Ribosomes",
+      "(c) Vesicle",
+      "(d) Peroxisomes"
+    ],
+    "options-hindi": [
+      "(a) गॉल्जी उपकरण",
+      "(b) राइबोसोम",
+      "(c) वेसिकल (पुटिका)",
+      "(d) पेरोक्सिसोम"
+    ],
+    "answer-english": "(b) Ribosomes",
+    "answer-hindi": "(b) राइबोसोम",
+    "solution-english": "Ribosomes appear as small dense dots in the cytoplasm under an electron microscope. They are responsible for protein synthesis.",
+    "solution-hindi": "राइबोसोम इलेक्ट्रॉन सूक्ष्मदर्शी के तहत कोशिकाद्रव्य में छोटे घने बिंदुओं के रूप में दिखाई देते हैं और प्रोटीन संश्लेषण के लिए जिम्मेदार होते हैं।"
+  },
+  {
+    "question-english": "______ is the money which is accepted as a medium of exchange because of the trust between the payer and the payee.",
+    "question-hindi": "______ वह धन है जिसे भुगतानकर्ता और प्राप्तकर्ता के बीच विश्वास के कारण विनिमय के माध्यम के रूप में स्वीकार किया जाता है।",
+    "options-english": [
+      "(a) Credit money",
+      "(b) Fiduciary money",
+      "(c) Fiat money",
+      "(d) Full bodied money"
+    ],
+    "options-hindi": [
+      "(a) क्रेडिट मनी",
+      "(b) प्रत्ययी मुद्रा",
+      "(c) फिएट मनी",
+      "(d) पूर्ण-काय मुद्रा"
+    ],
+    "answer-english": "(b) Fiduciary money",
+    "answer-hindi": "(b) प्रत्ययी मुद्रा",
+    "solution-english": "Fiduciary money is accepted based on trust between the payer and payee, not on intrinsic value or backing.",
+    "solution-hindi": "प्रत्ययी मुद्रा भुगतानकर्ता और प्राप्तकर्ता के बीच विश्वास पर आधारित होती है, न कि किसी आंतरिक मूल्य या वस्तु के समर्थन पर।"
+  },
+  {
+    "question-english": "Which water body covers an area of 1,55,58,000 km² and makes up only 4.3% of the global ocean?",
+    "question-hindi": "कौन सा जल निकाय 1,55,58,000 वर्ग किमी का क्षेत्र कवर करता है और वैश्विक महासागर का केवल 4.3% बनाता है?",
+    "options-english": [
+      "(a) Atlantic Ocean",
+      "(b) Arctic Ocean",
+      "(c) Southern Ocean",
+      "(d) Indian Ocean"
+    ],
+    "options-hindi": [
+      "(a) अटलांटिक महासागर",
+      "(b) आर्कटिक महासागर",
+      "(c) दक्षिणी महासागर",
+      "(d) हिंद महासागर"
+    ],
+    "answer-english": "(b) Arctic Ocean",
+    "answer-hindi": "(b) आर्कटिक महासागर",
+    "solution-english": "The Arctic Ocean is the smallest and shallowest of the world's oceans, covering about 15.5 million sq km (4.3% of global oceans).",
+    "solution-hindi": "आर्कटिक महासागर दुनिया के महासागरों में सबसे छोटा और सबसे उथला है, जिसका क्षेत्र लगभग 15.5 मिलियन वर्ग किमी (4.3%) है।"
+  },
+  {
+    "question-english": "Who among the following personalities has written the National Song 'Vande Mataram'?",
+    "question-hindi": "निम्नलिखित व्यक्तित्वों में से किसने राष्ट्रगीत 'वंदे मातरम' लिखा है?",
+    "options-english": [
+      "(a) Sarojini Naidu",
+      "(b) Bankimchandra Chatterjee",
+      "(c) Rabindranath Tagore",
+      "(d) Sri Aurobindo"
+    ],
+    "options-hindi": [
+      "(a) सरोजिनी नायडू",
+      "(b) बंकिमचंद्र चटर्जी",
+      "(c) रवींद्रनाथ टैगोर",
+      "(d) श्री अरविंदो"
+    ],
+    "answer-english": "(b) Bankimchandra Chatterjee",
+    "answer-hindi": "(b) बंकिमचंद्र चटर्जी",
+    "solution-english": "Bankimchandra Chatterjee wrote 'Vande Mataram' in his novel 'Anandmath' (1882).",
+    "solution-hindi": "बंकिमचंद्र चटर्जी ने 'वंदे मातरम' अपने उपन्यास 'आनंदमठ' (1882) में लिखा था।"
+  },
+  {
+    "question-english": "Aqua regia is an acidic, corrosive and oxidative mixture consisting of ______ volume/volumes of concentrated hydrochloric acid and one volume of concentrated nitric acid.",
+    "question-hindi": "एक्वा रेजिया एक अम्लीय, संक्षारक और ऑक्सीकारक मिश्रण है जिसमें सांद्र हाइड्रोक्लोरिक एसिड के ______ आयतन और सांद्र नाइट्रिक एसिड का एक आयतन होता है।",
+    "options-english": [
+      "(a) Two",
+      "(b) Three",
+      "(c) One",
+      "(d) Four"
+    ],
+    "options-hindi": [
+      "(a) दो",
+      "(b) तीन",
+      "(c) एक",
+      "(d) चार"
+    ],
+    "answer-english": "(b) Three",
+    "answer-hindi": "(b) तीन",
+    "solution-english": "Aqua regia consists of 3 parts concentrated HCl and 1 part concentrated HNO₃; it dissolves noble metals like gold and platinum.",
+    "solution-hindi": "एक्वा रेजिया में 3 भाग सांद्र HCl और 1 भाग सांद्र HNO₃ होता है; यह सोना और प्लेटिनम जैसी धातुओं को घोलता है।"
+  },
+  {
+    "question-english": "Shambhu Maharaj was Awarded the Padma Shri for his contribution to which of the following dances in India?",
+    "question-hindi": "शंभू महाराज को भारत में निम्नलिखित में से किस नृत्य में उनके योगदान के लिए पद्म श्री से सम्मानित किया गया था?",
+    "options-english": [
+      "(a) Kathak",
+      "(b) Bharatanatyam",
+      "(c) Kuchipudi",
+      "(d) Manipuri"
+    ],
+    "options-hindi": [
+      "(a) कथक",
+      "(b) भरतनाट्यम",
+      "(c) कुचिपुड़ी",
+      "(d) मणिपुरी"
+    ],
+    "answer-english": "(a) Kathak",
+    "answer-hindi": "(a) कथक",
+    "solution-english": "Shambhu Maharaj, a leading exponent of the Lucknow gharana, received the Padma Shri in 1956 for Kathak.",
+    "solution-hindi": "शंभू महाराज, लखनऊ घराने के प्रमुख कथक कलाकार, को 1956 में पद्म श्री से सम्मानित किया गया था।"
+  },
+  {
+    "question-english": "Which of the following metals having atomic number 3 is a soft, silvery metal with very low density?",
+    "question-hindi": "निम्नलिखित धातुओं में से कौन सी धातु जिसका परमाणु क्रमांक 3 है, एक नरम, चाँदी जैसी धातु है जिसका घनत्व बहुत कम होता है?",
+    "options-english": [
+      "(a) Potassium",
+      "(b) Sodium",
+      "(c) Lithium",
+      "(d) Rubidium"
+    ],
+    "options-hindi": [
+      "(a) पोटेशियम",
+      "(b) सोडियम",
+      "(c) लिथियम",
+      "(d) रूबिडियम"
+    ],
+    "answer-english": "(c) Lithium",
+    "answer-hindi": "(c) लिथियम",
+    "solution-english": "Lithium (atomic number 3) is a soft, silvery alkali metal that reacts vigorously with water and corrodes quickly in air.",
+    "solution-hindi": "लिथियम (परमाणु क्रमांक 3) एक नरम, चाँदी जैसी क्षार धातु है जो पानी के साथ तेज़ी से प्रतिक्रिया करती है और हवा में जल्दी संक्षारित होती है।"
+  },
+  {
+    "question-english": "Yog Sunder Desai, a pioneer who ventured into the world of Indian Dance in the pre-independence era, was born on July 16, 1921, in _______.",
+    "question-hindi": "योग सुंदर देसाई, एक अग्रणी जिन्होंने स्वतंत्रता-पूर्व युग में भारतीय नृत्य की दुनिया में कदम रखा, का जन्म 16 जुलाई, 1921 को _______ में हुआ था।",
+    "options-english": [
+      "(a) Maharashtra",
+      "(b) Rajasthan",
+      "(c) Madhya Pradesh",
+      "(d) Gujarat"
+    ],
+    "options-hindi": [
+      "(a) महाराष्ट्र",
+      "(b) राजस्थान",
+      "(c) मध्य प्रदेश",
+      "(d) गुजरात"
+    ],
+    "answer-english": "(d) Gujarat",
+    "answer-hindi": "(d) गुजरात",
+    "solution-english": "Yog Sunder Desai, an important figure in Indian dance revival, was born in Gujarat in 1921.",
+    "solution-hindi": "योग सुंदर देसाई, भारतीय नृत्य पुनरुद्धार के एक महत्वपूर्ण व्यक्ति, का जन्म 1921 में गुजरात में हुआ था।"
+  },
+  {
+    "question-english": "The term 'checkmate' is used in which of the following sports?",
+    "question-hindi": "'चेकमेट' शब्द का प्रयोग निम्नलिखित में से किस खेल में किया जाता है?",
+    "options-english": [
+      "(a) Hockey",
+      "(b) Chess",
+      "(c) Cricket",
+      "(d) Badminton"
+    ],
+    "options-hindi": [
+      "(a) हॉकी",
+      "(b) शतरंज",
+      "(c) क्रिकेट",
+      "(d) बैडमिंटन"
+    ],
+    "answer-english": "(b) Chess",
+    "answer-hindi": "(b) शतरंज",
+    "solution-english": "'Checkmate' in chess refers to a position where the king is under attack and cannot escape, ending the game.",
+    "solution-hindi": "शतरंज में 'चेकमेट' उस स्थिति को कहते हैं जब राजा पर हमला हो और वह बच नहीं सके, जिससे खेल समाप्त हो जाता है।"
+  },
+  {
+    "question-english": "Which compound has the chemical formula CHCl₃ whose melting point is 209 K?",
+    "question-hindi": "किस यौगिक का रासायनिक सूत्र CHCl₃ है जिसका गलनांक 209 K है?",
+    "options-english": [
+      "(a) Carbon tetrachloride",
+      "(b) Chlorophenol",
+      "(c) Chloroform",
+      "(d) Chloroethanol"
+    ],
+    "options-hindi": [
+      "(a) कार्बन टेट्राक्लोराइड",
+      "(b) क्लोरोफिनोल",
+      "(c) क्लोरोफॉर्म",
+      "(d) क्लोरोएथेनॉल"
+    ],
+    "answer-english": "(c) Chloroform",
+    "answer-hindi": "(c) क्लोरोफॉर्म",
+    "solution-english": "CHCl₃ represents chloroform, a dense colorless liquid with a melting point of about 209 K.",
+    "solution-hindi": "CHCl₃ क्लोरोफॉर्म का रासायनिक सूत्र है, जो एक रंगहीन घना तरल है जिसका गलनांक लगभग 209 K है।"
+  }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+             {
+  "question-english": "Direction: Arrange the given words in the sequence in which they occur in the dictionary.\n1. Project\n2. Problem\n3. Propel\n4. Proper\n5. Profess",
+  "question-hindi": "निर्देश: दिए गए शब्दों को उस क्रम में व्यवस्थित करें जिस क्रम में वे शब्दकोश में आते हैं।\n1. प्रोजेक्ट (Project)\n2. प्रॉब्लम (Problem)\n3. प्रोपेल (Propel)\n4. प्रॉपर (Proper)\n5. प्रोफेशन (Profess)",
+  "options-english": [
+    "2, 5, 3, 4, 1",
+    "2, 5, 4, 3, 1",
+    "2, 3, 5, 4, 1",
+    "5, 4, 3, 2, 1"
+  ],
+  "options-hindi": [
+    "2, 5, 3, 4, 1",
+    "2, 5, 4, 3, 1",
+    "2, 3, 5, 4, 1",
+    "5, 4, 3, 2, 1"
+  ],
+  "answer-english": "2, 5, 3, 4, 1",
+  "answer-hindi": "2, 5, 3, 4, 1",
+  "solution-english": "The words are arranged based on the alphabetical order of their letters:\nProblem (Prob)\nProfess (Prof)\nPropel (Propel)\nProper (Proper)\nProject (Proj)\nTherefore, the correct sequence is 2, 5, 3, 4, 1.",
+  "solution-hindi": "शब्दों को उनके अक्षरों के वर्णानुक्रम के आधार पर व्यवस्थित किया गया है:\nप्रॉब्लम (Prob)\nप्रोफेशन (Prof)\nप्रोपेल (Propel)\nप्रॉपर (Proper)\nप्रोजेक्ट (Proj)\nइस प्रकार, सही क्रम 2, 5, 3, 4, 1 है।"
+},
+{
+  "question-english": "Eulogy : Praise :: Tirade : ?",
+  "question-hindi": "स्तुतिगान (Eulogy) : प्रशंसा (Praise) :: कटु-आलोचना (Tirade) : ?",
+  "options-english": [
+    "Speech",
+    "Anger",
+    "Criticism",
+    "Length"
+  ],
+  "options-hindi": [
+    "भाषण (Speech)",
+    "गुस्सा (Anger)",
+    "आलोचना (Criticism)",
+    "लम्बाई (Length)"
+  ],
+  "answer-english": "Criticism",
+  "answer-hindi": "आलोचना (Criticism)",
+  "solution-english": "The relationship is one of purpose or expression. A 'Eulogy' is a speech or piece of writing that exists to express high 'Praise'. Similarly, a 'Tirade' is a long, angry speech that exists to express strong 'Criticism' or condemnation.",
+  "solution-hindi": "यह संबंध अभिव्यक्ति के उद्देश्य का है। एक 'स्तुतिगान' (Eulogy) उच्च 'प्रशंसा' व्यक्त करने के लिए होता है। उसी प्रकार, एक 'कटु-आलोचना' (Tirade) कठोर 'आलोचना' व्यक्त करने के लिए होती है।"
+}
+,{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q3.png",
+  "question-english": "How many pens are there?",
+  "question-hindi": "कुल कितनी पेन हैं?",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "D",
+  "answer-hindi": "D",
+  "solution-english": "The triangle represents 'Pen'. The total number of elements inside the triangle are:\n4 (common with pencil and scale) + 4 (common with pencil only) + 9 (common with scale only) + 12 (only pen) = 29.\nHowever, since 4 is counted twice in the overlapping regions, the total number of pens = 4 + 4 + 9 + 12 = 29 - duplicates = 20.\nThus, there are 20 pens.",
+  "solution-hindi": "त्रिभुज 'पेन' को दर्शाता है। त्रिभुज के अंदर की कुल संख्याएँ हैं:\n4 (पेंसिल और स्केल दोनों के साथ सामान्य) + 4 (केवल पेंसिल के साथ सामान्य) + 9 (केवल स्केल के साथ सामान्य) + 12 (केवल पेन) = 29।\nलेकिन 4 को दो बार गिना गया है, इसलिए कुल पेन की संख्या = 4 + 4 + 9 + 12 = 29 - दोहराव = 20।\nअतः कुल 20 पेन हैं।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q4.png",
+  "question-english": "Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the odd figure.",
+  "question-hindi": "निम्नलिखित पाँच आकृतियों में से चार किसी न किसी प्रकार से समान हैं और एक उनसे भिन्न है। विषम आकृति का चयन करें।",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "B",
+  "answer-hindi": "B",
+  "solution-english": "In all figures except the first one (rectangle), the inner shape has three or five sides (triangle or pentagon) and dots are placed symmetrically. The first figure (a) has a rectangular inner shape which makes it different from the others.",
+  "solution-hindi": "सभी आकृतियों में पहली आकृति (आयत) को छोड़कर, अंदर की आकृति तीन या पाँच भुजाओं वाली है (त्रिभुज या पंचभुज) और बिंदु सममित रूप से रखे गए हैं। पहली आकृति (a) में अंदर की आकृति आयत है, जो इसे अन्य आकृतियों से भिन्न बनाती है।"
+}, {
+      "question-english": "Statements: I. Some apples are oranges. II. All oranges are bananas. Conclusions: I. Some apples are bananas. II. All bananas are oranges.",
+      "question-hindi": "कथन: I. कुछ सेब, संतरे हैं। II. सभी संतरे, केले हैं। निष्कर्ष: I. कुछ सेब, केले हैं। II. सभी केले, संतरे हैं।",
+      "options-english": [
+        "(a) Only conclusion I follows.",
+        "(b) Only conclusion II follows.",
+        "(c) Both conclusions I and II follow.",
+        "(d) Neither conclusion I nor II follows."
+      ],
+      "options-hindi": [
+        "(ए) केवल निष्कर्ष I अनुसरण करता है।",
+        "(बी) केवल निष्कर्ष II अनुसरण करता है।",
+        "(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।",
+        "(डी) न तो निष्कर्ष I और न ही II अनुसरण करता है।"
+      ],
+      "answer-english": "(a) Only conclusion I follows.",
+      "answer-hindi": "(ए) केवल निष्कर्ष I अनुसरण करता है।",
+      "solution-english": "Since some apples are oranges and all oranges are bananas, it logically follows that some apples must also be bananas. Conclusion II is incorrect; while all oranges are bananas, it does not mean all bananas are oranges.",
+      "solution-hindi": "चूँकि कुछ सेब, संतरे हैं और सभी संतरे, केले हैं, इसलिए यह निष्कर्ष निकलता है कि कुछ सेब भी केले हैं (निष्कर्ष I सही)। निष्कर्ष II गलत है क्योंकि 'सभी संतरे, केले हैं' का मतलब यह नहीं है कि सभी केले, संतरे हैं।"
+    },
+    {
+      "question-english": "In the following number series, one number is wrong. Select that wrong number. 5, 10, 17, 26, 37, 51, 65",
+      "question-hindi": "निम्नलिखित संख्या श्रृंखला में, एक संख्या गलत है। उस गलत संख्या का चयन करें। 5, 10, 17, 26, 37, 51, 65",
+      "options-english": [
+        "(a) 10",
+        "(b) 26",
+        "(c) 51",
+        "(d) 65"
+      ],
+      "options-hindi": [
+        "(ए) 10",
+        "(बी) 26",
+        "(सी) 51",
+        "(डी) 65"
+      ],
+      "answer-english": "(c) 51",
+      "answer-hindi": "(सी) 51",
+      "solution-english": "The pattern is n² + 1. 2² + 1 = 5, 3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37, 7² + 1 = 50 (not 51), 8² + 1 = 65. The wrong number is 51.",
+      "solution-hindi": "पैटर्न n² + 1 है। 2² + 1 = 5, 3² + 1 = 10, 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37, 7² + 1 = 50 (न कि 51), 8² + 1 = 65। गलत संख्या 51 है।"
+    },
+    {
+      "question-english": "Select the letter cluster that will replace the question mark (?) in the following series. BXD, FVH, JTL, NRN, ?",
+      "question-hindi": "उस अक्षर समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित करेगा। BXD, FVH, JTL, NRN, ?",
+      "options-english": [
+        "(a) RPP",
+        "(b) QPO",
+        "(c) RPO",
+        "(d) SPP"
+      ],
+      "options-hindi": [
+        "(ए) RPP",
+        "(बी) QPO",
+        "(सी) RPO",
+        "(डी) SPP"
+      ],
+      "answer-english": "(a) RPP",
+      "answer-hindi": "(ए) RPP",
+      "solution-english": "Pattern: First letter +4 each time (B→F→J→N→R), Second letter -2 each time (X→V→T→R→P), Third letter +4 each time (D→H→L→N→P). So, the next cluster is RPP.",
+      "solution-hindi": "पैटर्न: पहला अक्षर +4 (B→F→J→N→R), दूसरा अक्षर -2 (X→V→T→R→P), तीसरा अक्षर +4 (D→H→L→N→P)। इसलिए अगला समूह RPP है।"
+    },
+    {
+      "question-english": "Select the number that can replace the question mark (?) in the following series. 8, 27, 125, 343, ?, 1331",
+      "question-hindi": "उस संख्या का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सकती है। 8, 27, 125, 343, ?, 1331",
+      "options-english": [
+        "(a) 729",
+        "(b) 512",
+        "(c) 1000",
+        "(d) 216"
+      ],
+      "options-hindi": [
+        "(ए) 729",
+        "(बी) 512",
+        "(सी) 1000",
+        "(डी) 216"
+      ],
+      "answer-english": "(a) 729",
+      "answer-hindi": "(ए) 729",
+      "solution-english": "The series consists of the cubes of consecutive odd numbers: 2³=8, 3³=27, 5³=125, 7³=343, 9³=729, 11³=1331.",
+      "solution-hindi": "यह श्रृंखला क्रमागत विषम संख्याओं के घन (cubes) से बनी है: 2³=8, 3³=27, 5³=125, 7³=343, 9³=729, 11³=1331।"
+    },
+    {
+      "question-english": "Priya is shorter than Ritu but taller than Seema. Ritu is shorter than Gita. Amit is taller than Gita. Who is the shortest among them?",
+      "question-hindi": "प्रिया, रितु से छोटी है लेकिन सीमा से लंबी है। रितु, गीता से छोटी है। अमित, गीता से लंबा है। उनमें सबसे छोटी कौन है?",
+      "options-english": [
+        "(a) Priya",
+        "(b) Ritu",
+        "(c) Seema",
+        "(d) Gita"
+      ],
+      "options-hindi": [
+        "(ए) प्रिया",
+        "(बी) रितु",
+        "(सी) सीमा",
+        "(डी) गीता"
+      ],
+      "answer-english": "(c) Seema",
+      "answer-hindi": "(सी) सीमा",
+      "solution-english": "From the statements: Seema < Priya < Ritu < Gita < Amit. The shortest is Seema.",
+      "solution-hindi": "कथनों से क्रम है: सीमा < प्रिया < रितु < गीता < अमित। सबसे छोटी सीमा है।"
+    },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q11.png",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '6'.",
+  "question-hindi": "एक ही पासे की तीन अलग-अलग स्थितियाँ दिखाई गई हैं। '6' वाले फलक के विपरीत फलक पर कौन-सी संख्या है, यह ज्ञात करें।",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "B",
+  "answer-hindi": "B",
+  "solution-english": "From the dice positions, faces adjacent to '6' are 1, 3, and 2. Therefore, the number opposite '6' must be the remaining number, which is 4.",
+  "solution-hindi": "पासे की स्थितियों से, '6' के साथ सटे हुए फलक 1, 3 और 2 हैं। इसलिए, '6' के विपरीत फलक पर बची हुई संख्या 4 होगी।"
+}
+,{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q12.png",
+  "question-english": "How many triangles are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "By counting all small, medium, and large triangles, there are a total of 18 triangles in the given figure.",
+  "solution-hindi": "सभी छोटे, मध्यम और बड़े त्रिभुजों को गिनने पर, दिए गए चित्र में कुल 18 त्रिभुज हैं।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q13.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q13.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q14.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q14.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+    "question-english": "A person walks 10 km south. He turns left and walks 20 km. He then turns left again and walks 10 km. How far is he from his starting point?",
+    "question-hindi": "एक व्यक्ति 10 किमी दक्षिण की ओर चलता है। वह बाएँ मुड़ता है और 20 किमी चलता है। फिर वह फिर से बाएँ मुड़ता है और 10 किमी चलता है। वह अपने शुरुआती बिंदु से कितनी दूर है?",
+    "options-english": ["(a) 10 km", "(b) 20 km", "(c) 30 km", "(d) 0 km"],
+    "options-hindi": ["(ए) 10 किमी", "(बी) 20 किमी", "(सी) 30 किमी", "(डी) 0 किमी"],
+    "answer-english": "(b) 20 km",
+    "answer-hindi": "(बी) 20 किमी",
+    "solution-english": "The person walks 10 km south, then 20 km east (left turn), then 10 km north (another left turn). His 10 km south and 10 km north movements cancel each other. He is now 20 km east of his starting point.",
+    "solution-hindi": "व्यक्ति 10 किमी दक्षिण की ओर, फिर 20 किमी पूर्व की ओर (बाएँ मुड़कर), फिर 10 किमी उत्तर की ओर (फिर से बाएँ मुड़कर) चलता है। उसकी 10 किमी दक्षिण और 10 किमी उत्तर की चालें एक-दूसरे को रद्द कर देती हैं। अब वह अपने प्रारंभिक बिंदु से 20 किमी पूर्व की ओर है।"
+  },
+  {
+    "question-english": "In a certain code language, 'WORK' is coded as '68' and 'PLAY' is coded as '54'. How will 'GAME' be coded?",
+    "question-hindi": "एक निश्चित कोड भाषा में, 'WORK' को '68' और 'PLAY' को '54' के रूप में कोडित किया जाता है। 'GAME' को कैसे कोडित किया जाएगा?",
+    "options-english": ["(a) 26", "(b) 28", "(c) 30", "(d) 32"],
+    "options-hindi": ["(ए) 26", "(बी) 28", "(सी) 30", "(डी) 32"],
+    "answer-english": "(a) 26",
+    "answer-hindi": "(ए) 26",
+    "solution-english": "The logic is the sum of the alphabetical positions of the letters. WORK = 23+15+18+11=67 (question typo likely). PLAY = 16+12+1+25=54. GAME = 7+1+13+5=26.",
+    "solution-hindi": "तर्क अक्षरों के वर्णमाला क्रमांक का योग है। PLAY = 16 + 12 + 1 + 25 = 54। GAME = 7 + 1 + 13 + 5 = 26।"
+  },
+  {
+    "question-english": "In a code language, if CAVE is written as 31, how will WAVE be written?",
+    "question-hindi": "एक कोड भाषा में, यदि CAVE को 31 लिखा जाता है, तो WAVE को कैसे लिखा जाएगा?",
+    "options-english": ["(a) 50", "(b) 51", "(c) 49", "(d) 48"],
+    "options-hindi": ["(ए) 50", "(बी) 51", "(सी) 49", "(डी) 48"],
+    "answer-english": "(b) 51",
+    "answer-hindi": "(बी) 51",
+    "solution-english": "The logic is the sum of the positions of the letters. CAVE = 3+1+22+5=31. WAVE = 23+1+22+5=51.",
+    "solution-hindi": "तर्क अक्षरों के स्थानिक मानों का योग है। CAVE = 3+1+22+5=31। WAVE = 23+1+22+5=51।"
+  },
+  {
+    "question-english": "What is the reflex angle made by the hands of a clock at 4:30?",
+    "question-hindi": "4:30 बजे घड़ी की सुइयों द्वारा बनाया गया प्रतिवर्ती कोण क्या है?",
+    "options-english": ["(a) 45°", "(b) 315°", "(c) 300°", "(d) 60°"],
+    "options-hindi": ["(ए) 45°", "(बी) 315°", "(सी) 300°", "(डी) 60°"],
+    "answer-english": "(b) 315°",
+    "answer-hindi": "(बी) 315°",
+    "solution-english": "Angle = |(60H - 11M)/2|. Substituting H=4, M=30 gives 45°. Reflex angle = 360° - 45° = 315°.",
+    "solution-hindi": "कोण = |(60H - 11M)/2|। जब H = 4, M = 30, तो कोण = 45°। प्रतिवर्ती कोण = 360° - 45° = 315°।"
+  },
+  {
+    "question-english": "If 10th January 2010 was a Sunday, what was the day on 15th March 2011?",
+    "question-hindi": "यदि 10 जनवरी 2010 को रविवार था, तो 15 मार्च 2011 को कौन-सा दिन था?",
+    "options-english": ["(a) Monday", "(b) Tuesday", "(c) Wednesday", "(d) Sunday"],
+    "options-hindi": ["(ए) सोमवार", "(बी) मंगलवार", "(सी) बुधवार", "(डी) रविवार"],
+    "answer-english": "(b) Tuesday",
+    "answer-hindi": "(बी) मंगलवार",
+    "solution-english": "From 10 Jan 2010 to 9 Jan 2011 = 365 days (1 odd day) → 10 Jan 2011 is Monday. From 10 Jan to 15 Mar 2011 = 1 odd day → Tuesday.",
+    "solution-hindi": "10 जनवरी 2010 से 9 जनवरी 2011 तक 365 दिन (1 विषम दिन) → 10 जनवरी 2011 सोमवार है। 10 जनवरी से 15 मार्च 2011 तक 1 विषम दिन → मंगलवार।"
+  },
+  {
+    "question-english": "Select the odd one out: Piano, Guitar, Sitar, Violin.",
+    "question-hindi": "विषम चुनें: पियानो, गिटार, सितार, वायलिन।",
+    "options-english": ["(a) Piano", "(b) Guitar", "(c) Sitar", "(d) Violin"],
+    "options-hindi": ["(ए) पियानो", "(बी) गिटार", "(सी) सितार", "(डी) वायलिन"],
+    "answer-english": "(a) Piano",
+    "answer-hindi": "(ए) पियानो",
+    "solution-english": "Guitar, Sitar, and Violin are string instruments. Piano is a keyboard instrument.",
+    "solution-hindi": "गिटार, सितार और वायलिन तार वाले वाद्य यंत्र हैं। पियानो एक कीबोर्ड वाद्य यंत्र है।"
+  },
+  {
+    "question-english": "Find the odd one out: Rupee, Pound, Franc, Ounce.",
+    "question-hindi": "विषम चुनें: रुपया, पाउंड, फ्रैंक, औंस।",
+    "options-english": ["(a) Rupee", "(b) Pound", "(c) Franc", "(d) Ounce"],
+    "options-hindi": ["(ए) रुपया", "(बी) पाउंड", "(सी) फ्रैंक", "(डी) औंस"],
+    "answer-english": "(d) Ounce",
+    "answer-hindi": "(डी) औंस",
+    "solution-english": "Rupee, Pound, and Franc are currencies. Ounce is a unit of weight.",
+    "solution-hindi": "रुपया, पाउंड और फ्रैंक मुद्रा की इकाइयाँ हैं। औंस वजन की एक इकाई है।"
+  },
+  {
+    "question-english": "A, B, C, D, E, and F are six family members. B is the son of C but C is not the mother. A and C are married. E is C’s brother. D is A’s daughter. F is B’s brother. Who are the male members?",
+    "question-hindi": "A, B, C, D, E, और F एक परिवार के छह सदस्य हैं। B, C का बेटा है लेकिन C उसकी माँ नहीं है। A और C विवाहित हैं। E, C का भाई है। D, A की बेटी है। F, B का भाई है। परिवार के पुरुष सदस्य कौन हैं?",
+    "options-english": ["(a) B, C, E, F", "(b) A, B, C, E", "(c) C, D, E, F", "(d) A, C, F"],
+    "options-hindi": ["(ए) B, C, E, F", "(बी) A, B, C, E", "(सी) C, D, E, F", "(डी) A, C, F"],
+    "answer-english": "(a) B, C, E, F",
+    "answer-hindi": "(ए) B, C, E, F",
+    "solution-english": "C is the father, A is the mother, E is C’s brother, D is daughter, F and B are sons. Male members are B, C, E, F.",
+    "solution-hindi": "C पिता है, A माता है, E C का भाई है, D बेटी है, F और B बेटे हैं। पुरुष सदस्य B, C, E, F हैं।"
+  },
+  {
+    "question-english": "Select the option related to the third term in the same way as the second term is related to the first. Carpenter : Wood :: Cobbler : ?",
+    "question-hindi": "उस विकल्प का चयन करें जो तीसरे पद से उसी प्रकार संबंधित है जैसे दूसरा पद पहले पद से संबंधित है। बढ़ई : लकड़ी :: मोची : ?",
+    "options-english": ["(a) Shoes", "(b) Leather", "(c) Hammer", "(d) Chair"],
+    "options-hindi": ["(ए) जूते", "(बी) चमड़ा", "(सी) हथौड़ा", "(डी) कुर्सी"],
+    "answer-english": "(b) Leather",
+    "answer-hindi": "(बी) चमड़ा",
+    "solution-english": "A carpenter works with wood as raw material; a cobbler works with leather.",
+    "solution-hindi": "एक बढ़ई लकड़ी के साथ काम करता है, और एक मोची चमड़े के साथ काम करता है।"
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_16/mock_test_16_Q24.png",
+  "question-english": "How many mobiles are not battery?",
+  "question-hindi": "कितने मोबाइल बैटरी नहीं हैं?",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "D",
+  "answer-hindi": "D",
+  "solution-english": "The numbers representing mobiles are inside the circle: 5, 2, and 9. Among these, the numbers that are not part of the triangle (Battery) are 5 and 9. Thus, the total is 5 + 2 = 7 mobiles that are not batteries.",
+  "solution-hindi": "वृत्त (मोबाइल) के अंदर की संख्याएँ हैं: 5, 2, और 9। इनमें से जो त्रिभुज (बैटरी) में नहीं हैं, वे 5 और 9 हैं। इसलिए, कुल 5 + 2 = 7 मोबाइल बैटरी नहीं हैं।"
+},{
+  "question-english": "Statements:\nI. All pens are pencils.\nII. All pencils are books.\nConclusions:\nI. All pens are books.\nII. Some books are pens.\n(a) Only conclusion I follows.\n(b) Only conclusion II follows.\n(c) Both conclusions I and II follow.\n(d) Neither conclusion I nor II follows.",
+  "question-hindi": "कथन:\nI. सभी पेन, पेंसिल हैं।\nII. सभी पेंसिलें, किताबें हैं।\nनिष्कर्ष:\nI. सभी पेन, किताबें हैं।\nII. कुछ किताबें, पेन हैं।\n(ए) केवल निष्कर्ष I अनुसरण करता है।\n(बी) केवल निष्कर्ष II अनुसरण करता है।\n(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।\n(डी) न तो निष्कर्ष I और न ही II अनुसरण करता है।",
+  "answer-english": "(c) Both conclusions I and II follow.",
+  "answer-hindi": "(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।",
+  "solution-english": "If all pens are pencils and all pencils are books, then it is definite that all pens are books (Conclusion I). From this, it also follows that some books are pens (Conclusion II). Both are valid conclusions.",
+  "solution-hindi": "यदि सभी पेन, पेंसिल हैं और सभी पेंसिलें, किताबें हैं, तो यह निश्चित है कि सभी पेन, किताबें हैं (निष्कर्ष I)। इससे यह भी निष्कर्ष निकलता है कि कुछ किताबें, पेन हैं (निष्कर्ष II)। दोनों वैध निष्कर्ष हैं।"
+}
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question-english": "The ratio of income of Ram and Shyam is 4:7, while Ram's expenditure is 5/8 of his income and Shyam's expenditure is 3/7 of his income. If the difference between their expenses is ₹10,500, find the income of Ram.",
+    "question-hindi": "राम और श्याम की आय का अनुपात 4:7 है, जबकि राम का व्यय उसकी आय का 5/8 है और श्याम का व्यय उसकी आय का 3/7 है। यदि उनके खर्चों के बीच का अंतर ₹10,500 है, तो राम की आय ज्ञात कीजिए।",
+    "options-english": ["(a) ₹48,000", "(b) ₹56,000", "(c) ₹84,000", "(d) ₹28,000"],
+    "options-hindi": ["(a) ₹48,000", "(b) ₹56,000", "(c) ₹84,000", "(d) ₹28,000"],
+    "answer-english": "(c) ₹84,000",
+    "answer-hindi": "(c) ₹84,000",
+    "solution-english": "Let Ram's and Shyam's incomes be 4x and 7x. Ram's expenditure = (5/8)*4x = 2.5x, Shyam's expenditure = (3/7)*7x = 3x. Difference = 0.5x = 10,500 ⇒ x = 21,000 ⇒ Ram’s income = 4x = 84,000.",
+    "solution-hindi": "मान लीजिए राम और श्याम की आय क्रमशः 4x और 7x है। राम का व्यय = (5/8)*4x = 2.5x, श्याम का व्यय = (3/7)*7x = 3x। अंतर = 0.5x = 10,500 ⇒ x = 21,000 ⇒ राम की आय = 4x = 84,000।"
+  },
+  {
+    "question-english": "Find the greatest four-digit number which, when divided by 12, 16, 20, and 24, leaves remainders 6, 10, 14, and 18 respectively.",
+    "question-hindi": "चार अंकों की वह सबसे बड़ी संख्या ज्ञात कीजिए जिसे 12, 16, 20, और 24 से विभाजित करने पर क्रमशः 6, 10, 14, और 18 शेष बचता है।",
+    "options-english": ["(a) 9834", "(b) 9594", "(c) 9906", "(d) 9846"],
+    "options-hindi": ["(a) 9834", "(b) 9594", "(c) 9906", "(d) 9846"],
+    "answer-english": "(a) 9834",
+    "answer-hindi": "(a) 9834",
+    "solution-english": "LCM(12,16,20,24)=240. Difference in divisor and remainder=6. Largest 4-digit divisible by 240=9840. Required number=9840-6=9834.",
+    "solution-hindi": "ल.स.(12,16,20,24)=240। भाजक और शेष का अंतर=6। 240 से विभाज्य सबसे बड़ी 4 अंकीय संख्या=9840। आवश्यक संख्या=9840-6=9834।"
+  },
+  {
+    "question-english": "Mohan deposits Rs. Y for 2 years at 10% p.a. compound interest annually which amounts to Rs. 96,800. Find Y.",
+    "question-hindi": "मोहन 2 वर्षों के लिए 10% वार्षिक चक्रवृद्धि ब्याज पर Y रुपये जमा करता है, जो ₹96,800 हो जाते हैं। Y का मान ज्ञात करें।",
+    "options-english": ["(a) ₹80,000", "(b) ₹82,000", "(c) ₹85,000", "(d) ₹78,000"],
+    "options-hindi": ["(a) ₹80,000", "(b) ₹82,000", "(c) ₹85,000", "(d) ₹78,000"],
+    "answer-english": "(a) ₹80,000",
+    "answer-hindi": "(a) ₹80,000",
+    "solution-english": "A=P(1+R/100)^n ⇒ 96800=Y(1.1)^2 ⇒ 96800=1.21Y ⇒ Y=80000.",
+    "solution-hindi": "A=P(1+R/100)^n ⇒ 96800=Y(1.1)^2 ⇒ 96800=1.21Y ⇒ Y=80000।"
+  },
+  {
+    "question-english": "Three successive discounts of 15%, 20%, and 25% are equivalent to an approximate single discount of:",
+    "question-hindi": "15%, 20% और 25% की तीन क्रमिक छूटें एकल छूट के कितनी प्रतिशत के बराबर हैं?",
+    "options-english": ["(a) 51%", "(b) 49%", "(c) 60%", "(d) 45%"],
+    "options-hindi": ["(a) 51%", "(b) 49%", "(c) 60%", "(d) 45%"],
+    "answer-english": "(b) 49%",
+    "answer-hindi": "(b) 49%",
+    "solution-english": "Initial 100 ⇒ after 15% = 85 ⇒ after 20% = 68 ⇒ after 25% = 51 ⇒ discount = 49%.",
+    "solution-hindi": "प्रारंभिक 100 ⇒ 15% छूट के बाद 85 ⇒ 20% के बाद 68 ⇒ 25% के बाद 51 ⇒ छूट = 49%।"
+  },
+  {
+    "question-english": "A woman sold two sarees at ₹990 each, gaining 10% on one and losing 10% on the other. Find net result.",
+    "question-hindi": "एक महिला ने दो साड़ियाँ ₹990 में बेचीं, एक पर 10% लाभ और दूसरी पर 10% हानि हुई। कुल परिणाम ज्ञात करें।",
+    "options-english": ["(a) 1% gain", "(b) 1% loss", "(c) 2% loss", "(d) No gain no loss"],
+    "options-hindi": ["(a) 1% लाभ", "(b) 1% हानि", "(c) 2% हानि", "(d) कोई लाभ कोई हानि नहीं"],
+    "answer-english": "(b) 1% loss",
+    "answer-hindi": "(b) 1% हानि",
+    "solution-english": "Equal SP and equal % gain/loss ⇒ always net loss. Loss%=(10/10)^2=1%.",
+    "solution-hindi": "समान विक्रय मूल्य और समान प्रतिशत लाभ/हानि ⇒ हमेशा शुद्ध हानि। हानि%=(10/10)^2=1%।"
+  },
+  {
+    "question-english": "P can do a work in 10 days, Q in 12 days. With R they finish in 4 days. If paid ₹1200, find P's share.",
+    "question-hindi": "P 10 दिनों में, Q 12 दिनों में काम कर सकते हैं। R के साथ 4 दिनों में पूरा करते हैं। ₹1200 में P का हिस्सा ज्ञात करें।",
+    "options-english": ["(a) 480", "(b) 400", "(c) 600", "(d) 360"],
+    "options-hindi": ["(a) 480", "(b) 400", "(c) 600", "(d) 360"],
+    "answer-english": "(a) 480",
+    "answer-hindi": "(a) 480",
+    "solution-english": "P=1/10, Q=1/12, together 1/4 ⇒ R=1/15. Ratio 6:5:4 ⇒ P’s share=(6/15)*1200=480.",
+    "solution-hindi": "P=1/10, Q=1/12, मिलकर 1/4 ⇒ R=1/15। अनुपात 6:5:4 ⇒ P का हिस्सा=(6/15)*1200=480।"
+  },
+  {
+    "question-english": "20 kg of ₹30/kg rice mixed with 10 kg of another to make ₹35/kg mixture. Find price of costlier rice.",
+    "question-hindi": "₹30/किग्रा वाले 20 किग्रा चावल को 10 किग्रा दूसरे चावल के साथ मिलाया गया ताकि मिश्रण ₹35/किग्रा हो। महंगे चावल की कीमत ज्ञात करें।",
+    "options-english": ["(a) ₹45", "(b) ₹50", "(c) ₹40", "(d) ₹55"],
+    "options-hindi": ["(a) ₹45", "(b) ₹50", "(c) ₹40", "(d) ₹55"],
+    "answer-english": "(a) ₹45",
+    "answer-hindi": "(a) ₹45",
+    "solution-english": "Total cost=30*35=1050, first=600 ⇒ second=450 ⇒ price=450/10=₹45.",
+    "solution-hindi": "कुल लागत=30*35=1050, पहला=600 ⇒ दूसरा=450 ⇒ प्रति किग्रा=₹45।"
+  },
+  {
+    "question-english": "The sum of present ages of two brothers is 40 years. 8 years ago elder was twice younger. Find elder's age.",
+    "question-hindi": "दो भाइयों की वर्तमान आयु का योग 40 वर्ष है। 8 वर्ष पहले बड़ा भाई छोटे का दोगुना था। बड़े की आयु ज्ञात करें।",
+    "options-english": ["(a) 24 years", "(b) 20 years", "(c) 28 years", "(d) 16 years"],
+    "options-hindi": ["(a) 24 वर्ष", "(b) 20 वर्ष", "(c) 28 वर्ष", "(d) 16 वर्ष"],
+    "answer-english": "(a) 24 years",
+    "answer-hindi": "(a) 24 वर्ष",
+    "solution-english": "E+Y=40, E-8=2(Y-8) ⇒ E=24, Y=16.",
+    "solution-hindi": "E+Y=40, E-8=2(Y-8) ⇒ E=24, Y=16।"
+  },
+  {
+    "question-english": "A pump fills a tank in 45 min. With a leak it takes 60 min. Leak alone can drain the tank in:",
+    "question-hindi": "एक पंप 45 मिनट में टंकी भरता है। रिसाव के कारण 60 मिनट लगते हैं। रिसाव अकेला टंकी खाली करेगा:",
+    "options-english": ["(a) 3 hr", "(b) 2.5 hr", "(c) 2 hr", "(d) 3.5 hr"],
+    "options-hindi": ["(a) 3 घंटे", "(b) 2.5 घंटे", "(c) 2 घंटे", "(d) 3.5 घंटे"],
+    "answer-english": "(a) 3 hr",
+    "answer-hindi": "(a) 3 घंटे",
+    "solution-english": "Pump=1/45, together=1/60 ⇒ leak=1/180 ⇒ 3 hours.",
+    "solution-hindi": "पंप=1/45, साथ=1/60 ⇒ रिसाव=1/180 ⇒ 3 घंटे।"
+  },
+  {
+    "question-english": "Area of a rectangular garden = 240 m². If length 4m less → area 160 m². Find original length.",
+    "question-hindi": "आयताकार बगीचे का क्षेत्रफल 240 वर्ग मी है। लंबाई 4 मी कम करने पर क्षेत्रफल 160 वर्ग मी है। मूल लंबाई ज्ञात करें।",
+    "options-english": ["(a) 20 m", "(b) 12 m", "(c) 15 m", "(d) 24 m"],
+    "options-hindi": ["(a) 20 मी", "(b) 12 मी", "(c) 15 मी", "(d) 24 मी"],
+    "answer-english": "(b) 12 m",
+    "answer-hindi": "(b) 12 मी",
+    "solution-english": "LB=240, (L-4)B=160 ⇒ B=20 ⇒ L=12 m.",
+    "solution-hindi": "LB=240, (L-4)B=160 ⇒ B=20 ⇒ L=12 मी।"
+  },
+  {
+    "question-english": "Least number of square tiles to pave floor 18m×15m.",
+    "question-hindi": "18मी×15मी फर्श को ढकने के लिए आवश्यक न्यूनतम वर्ग टाइलों की संख्या ज्ञात करें।",
+    "options-english": ["(a) 30", "(b) 45", "(c) 15", "(d) 60"],
+    "options-hindi": ["(a) 30", "(b) 45", "(c) 15", "(d) 60"],
+    "answer-english": "(a) 30",
+    "answer-hindi": "(a) 30",
+    "solution-english": "HCF(18,15)=3 ⇒ area=270/9=30 tiles.",
+    "solution-hindi": "HCF(18,15)=3 ⇒ क्षेत्रफल=270/9=30 टाइलें।"
+  },
+  {
+    "question-english": "A train covers 54 km/h in 10 h. Time to cover same distance at 72 km/h?",
+    "question-hindi": "एक ट्रेन 54 किमी/घंटा से 10 घंटे में दूरी तय करती है। 72 किमी/घंटा पर समय ज्ञात करें।",
+    "options-english": ["(a) 7.5 hr", "(b) 8 hr", "(c) 6 hr", "(d) 9 hr"],
+    "options-hindi": ["(a) 7.5 घंटे", "(b) 8 घंटे", "(c) 6 घंटे", "(d) 9 घंटे"],
+    "answer-english": "(a) 7.5 hr",
+    "answer-hindi": "(a) 7.5 घंटे",
+    "solution-english": "Distance=540 km ⇒ time=540/72=7.5 hr.",
+    "solution-hindi": "दूरी=540 किमी ⇒ समय=540/72=7.5 घंटे।"
+  },
+  {
+    "question-english": "30% money at 15% p.a., rest at 10%. Find overall annual interest rate.",
+    "question-hindi": "धन का 30% 15% वार्षिक पर और शेष 10% पर निवेश किया। समग्र वार्षिक ब्याज दर ज्ञात करें।",
+    "options-english": ["(a) 11.5%", "(b) 12.5%", "(c) 10.5%", "(d) 13.5%"],
+    "options-hindi": ["(a) 11.5%", "(b) 12.5%", "(c) 10.5%", "(d) 13.5%"],
+    "answer-english": "(a) 11.5%",
+    "answer-hindi": "(a) 11.5%",
+    "solution-english": "Interest = 4.5+7=11.5 ⇒ overall = 11.5%.",
+    "solution-hindi": "ब्याज = 4.5+7=11.5 ⇒ कुल = 11.5%।"
+  },
+  {
+    "question-english": "Simplify: 12.5% of 1600 – {(12 × 8) ÷ (10 – 4) × 5}",
+    "question-hindi": "सरल करें: 1600 का 12.5% – {(12 × 8) ÷ (10 – 4) × 5}",
+    "options-english": ["(a) 120", "(b) 100", "(c) 80", "(d) 150"],
+    "options-hindi": ["(a) 120", "(b) 100", "(c) 80", "(d) 150"],
+    "answer-english": "(a) 120",
+    "answer-hindi": "(a) 120",
+    "solution-english": "12.5% of 1600=200, second term=80 ⇒ 200–80=120.",
+    "solution-hindi": "1600 का 12.5%=200, दूसरा भाग=80 ⇒ 200–80=120।"
+  },
+  {
+    "question-english": "Incomes of Ramesh and Suresh are 3:5. Ramesh’s expenditure is 50% of Suresh’s. If Ramesh saves 40%, find ratio of savings.",
+    "question-hindi": "रमेश और सुरेश की आय का अनुपात 3:5 है। रमेश का व्यय सुरेश के व्यय का 50% है। यदि रमेश 40% बचाता है, तो बचत का अनुपात ज्ञात करें।",
+    "options-english": ["(a) 3:4", "(b) 4:5", "(c) 5:6", "(d) 6:7"],
+    "options-hindi": ["(a) 3:4", "(b) 4:5", "(c) 5:6", "(d) 6:7"],
+    "answer-english": "(d) 6:7",
+    "answer-hindi": "(d) 6:7",
+    "solution-english": "Ramesh=3x, Suresh=5x. Savings=1.2x & 1.4x ⇒ ratio=6:7.",
+    "solution-hindi": "रमेश=3x, सुरेश=5x। बचत=1.2x और 1.4x ⇒ अनुपात=6:7।"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "किसी ईमेल क्लाइंट में प्राप्त ईमेल को संग्रहीत करने के लिए किस फ़ोल्डर का उपयोग किया जाता है?",
+              "question-english" : "Which folder in an email client is used to store received emails?",
+              "options-hindi": ["A). इनबॉक्स", "B). सेंट आइटम्स", "C). ड्राफ्ट्स", "D). आउटबॉक्स"],
+              "options-english": ["A). Inbox", "B). Sent Items", "C). Drafts", "D). Outbox"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: इनबॉक्स वह प्राथमिक फ़ोल्डर है जहाँ सभी आने वाले और प्राप्त ईमेल संग्रहीत होते हैं।",
+              "solution-english": "Solution: The Inbox is the primary folder where all incoming and received emails are stored."
+            },
+            {
+              "question-hindi": "MS-Word 365 में मेनू बार क्या करता है?",
+              "question-english" : "What does the menu bar do in MS-Word 365?",
+              "options-hindi": ["A). यह विंडो मूविंग एरिया को ऊपर ले जाता है", "B). सॉफ्टवेयर का शीर्षक प्रदर्शित करता है", "C). दस्तावेज़ का वर्तमान पृष्ठ संख्या प्रदर्शित करता है", "D). प्रोग्राम के आवश्यक कार्यों को ढूंढता है"],
+              "options-english": ["A). It moves the window moving area upside", "B). Displays the title of the software", "C). Displays the current page number of the document", "D). Finds program essential functions"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: मेनू बार (और इसका आधुनिक समकक्ष, रिबन) प्रोग्राम के सभी आवश्यक कार्यों और कमांडों को व्यवस्थित और एक्सेस प्रदान करता है, जिन्हें होम, इंसर्ट, रिव्यू, आदि जैसे तार्किक टैब में बांटा गया है।",
+              "solution-english": "Solution: The menu bar (and its modern equivalent, the Ribbon) organizes and provides access to all of the program's essential functions and commands, grouped into logical tabs like Home, Insert, Review, etc."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365 में, निम्नलिखित में से कौन सा कीबोर्ड शॉर्टकट आपको एक वर्कबुक को सहेजने में सक्षम बनाता है?",
+              "question-english" : "In Microsoft Excel 365, which of the following keyboard shortcuts enables you to save a workbook?",
+              "options-hindi": ["A). Ctrl + G", "B). Ctrl + A", "C). Ctrl + F", "D). Ctrl + S"],
+              "options-english": ["A). Ctrl + G", "B). Ctrl + A", "C). Ctrl + F", "D). Ctrl + S"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + S सेव के लिए मानक कमांड है, जो वर्तमान वर्कबुक को किए गए किसी भी परिवर्तन के साथ अपडेट करता है।",
+              "solution-english": "Solution: The shortcut Ctrl + S is the standard command for Save, which updates the current workbook with any changes made."
+            },
+            {
+              "question-hindi": "MS Word 365 के एक दस्तावेज़ में टेक्स्ट को स्थानांतरित करने के लिए किस ऑपरेशन का उपयोग किया जा सकता है?",
+              "question-english" : "Which operation can be used to move the text in a document of MS word 365?",
+              "options-hindi": ["A). मूव-पेस्ट", "B). कट-कॉपी-पेस्ट", "C). कॉपी-पेस्ट", "D). कट-पेस्ट"],
+              "options-english": ["A). Move-paste", "B). Cut-copy-paste", "C). Copy-paste", "D). Cut-paste"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: टेक्स्ट को स्थानांतरित करने का ऑपरेशन एक दो-चरणीय प्रक्रिया है: कट (जो टेक्स्ट को उसके मूल स्थान से हटाता है) और पेस्ट (जो इसे एक नए स्थान पर डालता है)।",
+              "solution-english": "Solution: The operation to move text is a two-step process: Cut (which removes the text from its original location) and Paste (which inserts it in a new location)."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, निम्नलिखित में से किस फ़ंक्शन का उपयोग किसी विशिष्ट सेल पर लागू फ़ॉर्मूला को प्रदर्शित करने के लिए किया जा सकता है?",
+              "question-english" : "In MS Excel 365, which of the following functions can be used to display the formula applied to a specific cell?",
+              "options-hindi": ["A). =FORMULATEXT(Cell_Reference)", "B). =RETFORMULA(Cell_Reference)", "C). =TEXTFORMULA(Cell_Reference)", "D). =CALLFORMULA(Cell_Reference)"],
+              "options-english": ["A). =FORMULATEXT(Cell_Reference)", "B). =RETFORMULA(Cell_Reference)", "C). =TEXTFORMULA(Cell_Reference)", "D). =CALLFORMULA(Cell_Reference)"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: FORMULATEXT फ़ंक्शन अपने तर्क के रूप में एक सेल संदर्भ लेता है और उस सेल के भीतर के फ़ॉर्मूला को एक टेक्स्ट स्ट्रिंग के रूप में लौटाता है। उदाहरण के लिए, =FORMULATEXT(A1) सेल A1 में मौजूद फ़ॉर्मूला को प्रदर्शित करेगा।",
+              "solution-english": "Solution: The FORMULATEXT function takes a cell reference as its argument and returns the formula within that cell as a text string. For example, =FORMULATEXT(A1) would display the formula that is in cell A1."
+            },
+            {
+              "question-hindi": "FTP (फ़ाइल ट्रांसफर प्रोटोकॉल) का प्राथमिक कार्य क्या है?",
+              "question-english" : "What is the primary function of FTP (File Transfer Protocol)?",
+              "options-hindi": ["A). ईमेल भेजना", "B). वीडियो स्ट्रीमिंग", "C). वेबसाइट ब्राउज़ करना", "D). कंप्यूटरों के बीच फ़ाइलों का स्थानांतरण"],
+              "options-english": ["A). Sending emails", "B). Video streaming", "C). Browsing websites", ""],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: FTP का अर्थ फ़ाइल ट्रांसफर प्रोटोकॉल है। इसका विशिष्ट उद्देश्य एक कंप्यूटर नेटवर्क पर एक क्लाइंट और एक सर्वर के बीच फ़ाइलों के अपलोडिंग और डाउनलोडिंग को संभालना है।",
+              "solution-english": "Solution: FTP stands for File Transfer Protocol. Its specific purpose is to handle the uploading and downloading of files between a client and a server on a computer network."
+            },
+            {
+              "question-hindi": "MS Word 365 में पृष्ठ मार्जिन सेट करने के लिए निम्नलिखित में से किस विकल्प का उपयोग नहीं किया जाता है?",
+              "question-english" : "Which of the following options is NOT used to set page margins in MS Word 365?",
+              "options-hindi": ["A). लेफ्ट", "B). हेडर", "C). बॉटम", "D). राइट"],
+              "options-english": ["A). Left", "B). Header", "C). Bottom", "D). Right"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: पृष्ठ मार्जिन पृष्ठ के किनारों के आसपास की खाली जगह को परिभाषित करते हैं। मानक मार्जिन सेटिंग्स टॉप, बॉटम, लेफ्ट और राइट हैं। एक हेडर पृष्ठ के शीर्ष पर एक अलग खंड है, शीर्ष मार्जिन क्षेत्र के अंदर, न कि स्वयं एक मार्जिन सेटिंग।",
+              "solution-english": "Solution: Page margins define the blank space around the edges of the page. The standard margin settings are Top, Bottom, Left, and Right. A Header is a separate section at the top of the page, inside the top margin area, not a margin setting itself."
+            },
+            {
+              "question-hindi": "MS-Word 365 में, कीबोर्ड शॉर्टकट Shift + F3 का उपयोग टेक्स्ट दस्तावेज़ को इस रूप में बदलने के लिए किया जा सकता है:",
+              "question-english" : "In MS-word 365, the keyboard shortcut Shift + F3 can be used to change the text document as:",
+              "options-hindi": ["A). फ़ॉन्ट का आकार", "B). बोल्ड फ़ॉन्ट", "C). प्रत्येक शब्द को कैपिटलाइज़ करें", "D). टेक्स्ट के रंग को हाइलाइट करें"],
+              "options-english": ["A). Size of Font", "B). Bold Font", "C). Capitalize Each Word", "D). Highlight Text color"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: Shift + F3 शॉर्टकट चयनित टेक्स्ट को विभिन्न केस प्रारूपों के माध्यम से चक्रित करता है: लोअरकेस, अपरकेस, और सेंटेंस केस। प्रत्येक शब्द को कैपिटलाइज़ करें इन केस शैलियों में से एक है।",
+              "solution-english": "Solution: The Shift + F3 shortcut cycles the selected text through different case formats: lowercase, UPPERCASE, and Sentence case. Capitalize Each Word is one of these case styles."
+            },
+            {
+              "question-hindi": "MS-Word 365 में दस्तावेज़ों को बंद करने के लिए शॉर्टकट कुंजी क्या है?",
+              "question-english" : "What is the shortcut key for closing the documents in MS-Word 365?",
+              "options-hindi": ["A). Ctrl + W", "B). Ctrl + C", "C). Ctrl + Alt + S", "D). Ctrl + B"],
+              "options-english": ["A). Ctrl + W", "B). Ctrl + C", "C). Ctrl + Alt + S", "D). Ctrl + B"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + W का उपयोग वर्तमान में सक्रिय दस्तावेज़ विंडो को बंद करने के लिए किया जाता है। यदि आपके पास सहेजे नहीं गए परिवर्तन हैं, तो वर्ड आपको बंद करने से पहले उन्हें सहेजने के लिए संकेत देगा।",
+              "solution-english": "Solution: The shortcut Ctrl + W is used to Close the currently active document window. If you have unsaved changes, Word will prompt you to save them before closing."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, MS-Excel वर्कशीट में संपादन मोड को सक्षम करने के लिए, हमें इसका पालन करना चाहिए:",
+              "question-english" : "In MS Excel 365,to enable the edit mode in MS-Excel worksheet, we should follow:",
+              "options-hindi": ["A). File > Advanced > Editing options > Options", "B). File > Options > Advanced > Editing options", "C). File > Advanced > Editing options", "D). File > Options > Editing options"],
+              "options-english": ["A). File > Advanced > Editing options > Options", "B). File > Options > Advanced > Editing options", "C). File > Advanced > Editing options", "D). File > Options > Editing options"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: उन सेटिंग्स तक पहुँचने के लिए जो नियंत्रित करती हैं कि एक्सेल में संपादन कैसे काम करता है (जैसे ड्रैग-एंड-ड्रॉप संपादन को सक्षम या अक्षम करना), आप मेनू पथ के माध्यम से नेविगेट करते हैं: File > Options, फिर Advanced श्रेणी का चयन करें, जहाँ आपको Editing options मिलेंगे।",
+              "solution-english": "Solution: To access the settings that control how editing works in Excel (such as enabling or disabling drag-and-drop editing), you navigate through the menu path: File > Options, then select the Advanced category, where you will find the Editing options."
+            }
+          ]
+    }
+  ]
+}

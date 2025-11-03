@@ -1,0 +1,913 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+           {
+    "question-english": "In India, which mode of transport provide door to door services?",
+    "question-hindi": "भारत में, कौन सा परिवहन का माध्यम घर-घर तक सेवाएँ प्रदान करता है?",
+    "options-english": ["(a) Railways", "(b) Waterways", "(c) Road transport", "(d) Airways"],
+    "options-hindi": ["(a) रेलवे", "(b) जलमार्ग", "(c) सड़क परिवहन", "(d) वायुमार्ग"],
+    "answer-english": "(c) Road transport",
+    "answer-hindi": "(c) सड़क परिवहन",
+    "solution-english": "Road transport is the only mode that offers door-to-door service, unlike railways, waterways, and airways which operate from fixed terminals.",
+    "solution-hindi": "सड़क परिवहन एकमात्र ऐसा माध्यम है जो घर-घर तक सेवा प्रदान करता है, जबकि रेलवे, जलमार्ग और वायुमार्ग निश्चित टर्मिनलों से संचालित होते हैं।"
+  },
+  {
+    "question-english": "In which year did India adopt a dual exchange rate for the interim period?",
+    "question-hindi": "भारत ने किस वर्ष अंतरिम अवधि के लिए दोहरी विनिमय दर को अपनाया?",
+    "options-english": ["(a) 1992", "(b) 1994", "(c) 1996", "(d) 1990"],
+    "options-hindi": ["(a) 1992", "(b) 1994", "(c) 1996", "(d) 1990"],
+    "answer-english": "(a) 1992",
+    "answer-hindi": "(a) 1992",
+    "solution-english": "India introduced the Liberalised Exchange Rate Management System (LERMS) in 1992, establishing a temporary dual exchange rate before adopting a full market rate in 1993.",
+    "solution-hindi": "भारत ने 1992 में उदारीकृत विनिमय दर प्रबंधन प्रणाली (LERMS) शुरू की, जिसने एक अस्थायी दोहरी विनिमय दर स्थापित की, 1993 में पूर्ण बाजार दर अपनाने से पहले।"
+  },
+  {
+    "question-english": "The Katakhal, Jiri, Chiri, Modhura, Longai, Sonai, Rukni and Singla are the main tributaries of which river?",
+    "question-hindi": "कटखल, जिरी, चिरी, मोधुरा, लोंगई, सोनाई, रुकनी और सिंगला किस नदी की मुख्य सहायक नदियाँ हैं?",
+    "options-english": ["(a) Damodar", "(b) Ghaghra", "(c) Chambal", "(d) Barak"],
+    "options-hindi": ["(a) दामोदर", "(b) घाघरा", "(c) चंबल", "(d) बराक"],
+    "answer-english": "(d) Barak",
+    "answer-hindi": "(d) बराक",
+    "solution-english": "The Barak River originates in Manipur and its main tributaries include Jiri, Chiri, Modhura, Longai, Sonai, Rukni, and Singla.",
+    "solution-hindi": "बराक नदी मणिपुर से निकलती है और इसकी प्रमुख सहायक नदियाँ जिरी, चिरी, मोधुरा, लोंगई, सोनाई, रुकनी और सिंगला हैं।"
+  },
+  {
+    "question-english": "A novel based on the story of a family named 'Fasting, Feasting' was written by whom among the following?",
+    "question-hindi": "'फास्टिंग, फीस्टिंग' नामक एक परिवार की कहानी पर आधारित उपन्यास निम्नलिखित में से किसके द्वारा लिखा गया था?",
+    "options-english": ["(a) Arvind Adiga", "(b) Anita Desai", "(c) Kiran Desai", "(d) Arundhati Roy"],
+    "options-hindi": ["(a) अरविंद अडिगा", "(b) अनीता देसाई", "(c) किरण देसाई", "(d) अरुंधति रॉय"],
+    "answer-english": "(b) Anita Desai",
+    "answer-hindi": "(b) अनीता देसाई",
+    "solution-english": "The novel 'Fasting, Feasting' was written by Anita Desai and was shortlisted for the Booker Prize in 1999.",
+    "solution-hindi": "'फास्टिंग, फीस्टिंग' उपन्यास अनीता देसाई द्वारा लिखा गया था और 1999 में बुकर पुरस्कार के लिए चयनित हुआ था।"
+  },
+  {
+    "question-english": "The period between two FIFA Football World Cups is ________.",
+    "question-hindi": "दो फीफा फुटबॉल विश्व कप के बीच की अवधि ________ होती है।",
+    "options-english": ["(a) 5 years", "(b) 6 years", "(c) 4 years", "(d) 3 years"],
+    "options-hindi": ["(a) 5 वर्ष", "(b) 6 वर्ष", "(c) 4 वर्ष", "(d) 3 वर्ष"],
+    "answer-english": "(c) 4 years",
+    "answer-hindi": "(c) 4 वर्ष",
+    "solution-english": "The FIFA World Cup is held every four years, allowing time for a global qualification process.",
+    "solution-hindi": "फीफा विश्व कप हर चार साल में आयोजित किया जाता है, जिससे विश्वव्यापी योग्यता प्रक्रिया के लिए समय मिलता है।"
+  },
+  {
+    "question-english": "The famous south Indian epic 'Silappadikaram' was originally written in ________ language.",
+    "question-hindi": "प्रसिद्ध दक्षिण भारतीय महाकाव्य 'शिलप्पादिकारम' मूल रूप से ________ भाषा में लिखा गया था।",
+    "options-english": ["(a) Malayalam", "(b) Telugu", "(c) Tamil", "(d) Sanskrit"],
+    "options-hindi": ["(a) मलयालम", "(b) तेलुगु", "(c) तमिल", "(d) संस्कृत"],
+    "answer-english": "(c) Tamil",
+    "answer-hindi": "(c) तमिल",
+    "solution-english": "'Silappadikaram' was written in Tamil by Ilango Adigal and is one of the five great epics of Tamil literature.",
+    "solution-hindi": "'शिलप्पादिकारम' इलांगो आदिगल द्वारा तमिल में लिखा गया था और यह तमिल साहित्य के पांच महान महाकाव्यों में से एक है।"
+  },
+  {
+    "question-english": "What is the slogan of the Pradhan Mantri Jan Dhan Yojana?",
+    "question-hindi": "प्रधानमंत्री जन धन योजना का नारा क्या है?",
+    "options-english": ["(a) Mera Khaata, Bhagya Vidhaata", "(b) Mera Adhikar, Mera Khaata", "(c) Mera Khaata, Mera Adhikar", "(d) Mera Paisa, Mere Bank Me"],
+    "options-hindi": ["(a) मेरा खाता, भाग्य विधाता", "(b) मेरा अधिकार, मेरा खाता", "(c) मेरा खाता, मेरा अधिकार", "(d) मेरा पैसा, मेरे बैंक में"],
+    "answer-english": "(a) Mera Khaata, Bhagya Vidhaata",
+    "answer-hindi": "(a) मेरा खाता, भाग्य विधाता",
+    "solution-english": "The slogan of PMJDY is 'Mera Khaata, Bhagya Vidhaata', meaning 'My Account, the Creator of my Destiny'.",
+    "solution-hindi": "प्रधानमंत्री जन धन योजना का नारा 'मेरा खाता, भाग्य विधाता' है, जिसका अर्थ है 'मेरा खाता, मेरे भाग्य का निर्माता'।"
+  },
+  {
+    "question-english": "Article 39A of the Constitution of India gives the idea of:",
+    "question-hindi": "भारत के संविधान का अनुच्छेद 39A किसका विचार देता है?",
+    "options-english": ["(a) Right to work, to education and to public assistance", "(b) Equal justice and free legal aid", "(c) Humane conditions of work", "(d) Living wage for workers"],
+    "options-hindi": ["(a) कुछ मामलों में काम करने, शिक्षा और सार्वजनिक सहायता का अधिकार", "(b) समान न्याय और मुफ्त कानूनी सहायता", "(c) काम की न्यायसंगत और मानवीय स्थितियाँ", "(d) श्रमिकों के लिए निर्वाह मजदूरी"],
+    "answer-english": "(b) Equal justice and free legal aid",
+    "answer-hindi": "(b) समान न्याय और मुफ्त कानूनी सहायता",
+    "solution-english": "Article 39A directs the state to provide free legal aid to ensure justice is not denied due to economic or other disabilities.",
+    "solution-hindi": "अनुच्छेद 39A राज्य को यह सुनिश्चित करने का निर्देश देता है कि कोई भी नागरिक आर्थिक या अन्य अक्षमताओं के कारण न्याय से वंचित न रहे।"
+  },
+  {
+    "question-english": "The first battle of Panipat was fought between Babur and ________.",
+    "question-hindi": "पानीपत की पहली लड़ाई बाबर और _________ के बीच लड़ी गई थी।",
+    "options-english": ["(a) Muhammad bin Tughlaq", "(b) Ibrahim Lodhi", "(c) Sikandar Lodhi", "(d) Maharana Pratap"],
+    "options-hindi": ["(a) मुहम्मद बिन तुगलक", "(b) इब्राहिम लोधी", "(c) सिकंदर लोधी", "(d) महाराणा प्रताप"],
+    "answer-english": "(b) Ibrahim Lodhi",
+    "answer-hindi": "(b) इब्राहिम लोधी",
+    "solution-english": "The first battle of Panipat in 1526 was fought between Babur and Ibrahim Lodhi, marking the beginning of Mughal rule.",
+    "solution-hindi": "1526 में पानीपत की पहली लड़ाई बाबर और इब्राहिम लोधी के बीच हुई, जिससे मुगल शासन की शुरुआत हुई।"
+  },
+  {
+    "question-english": "The Begumpuri mosque was built during the reign of Sultan ___________.",
+    "question-hindi": "बेगमपुरी मस्जिद सुल्तान ___________ के शासनकाल के दौरान बनाई गई थी।",
+    "options-english": ["(a) Qutbuddin Aybak", "(b) Muhammad Bin Tughluq", "(c) Jalaluddin Khalji", "(d) Ghiyasuddin Balban"],
+    "options-hindi": ["(a) कुतुबुद्दीन ऐबक", "(b) मुहम्मद बिन तुगलक", "(c) जलालुद्दीन खिलजी", "(d) गयासुद्दीन बलबन"],
+    "answer-english": "(b) Muhammad Bin Tughluq",
+    "answer-hindi": "(b) मुहम्मद बिन तुगलक",
+    "solution-english": "The Begumpuri Mosque in Delhi was built during the reign of Muhammad Bin Tughluq (1325–1351).",
+    "solution-hindi": "दिल्ली की बेगमपुरी मस्जिद का निर्माण मुहम्मद बिन तुगलक (1325–1351) के शासनकाल में हुआ था।"
+  },{
+    "question-english": "Who was defeated by Chandragupta Maurya in order to found the Maurya dynasty?",
+    "question-hindi": "मौर्य वंश की स्थापना के लिए चंद्रगुप्त मौर्य ने किसे हराया था?",
+    "options-english": ["(a) Mahapadma Nanda", "(b) Bimbisara", "(c) Dhana Nanda", "(d) Ajatshatru"],
+    "options-hindi": ["(a) महापद्म नंद", "(b) बिंबिसार", "(c) धनानंद", "(d) अजातशत्रु"],
+    "answer-english": "(c) Dhana Nanda",
+    "answer-hindi": "(c) धनानंद",
+    "solution-english": "Chandragupta Maurya, guided by Chanakya, overthrew Dhana Nanda, the last ruler of the Nanda dynasty, around 322 BCE to establish the Mauryan Empire.",
+    "solution-hindi": "चंद्रगुप्त मौर्य ने अपने गुरु चाणक्य के मार्गदर्शन में लगभग 322 ईसा पूर्व में नंद वंश के अंतिम शासक धनानंद को पराजित कर मौर्य साम्राज्य की स्थापना की।"
+  },
+  {
+    "question-english": "Which of the following ministries collaborated with NCERT on a joint mission for the NISHTHA capacity-building programme for Eklavya school teachers and principals?",
+    "question-hindi": "निम्नलिखित में से किस मंत्रालय ने एकलव्य स्कूल के शिक्षकों और प्रधानाचार्यों के लिए निष्ठा क्षमता-निर्माण कार्यक्रम के लिए एनसीईआरटी के साथ सहयोग किया?",
+    "options-english": ["(a) Ministry of Tribal Affairs", "(b) Ministry of Minority Affairs", "(c) Ministry of Education", "(d) Ministry of Skill Development and Entrepreneurship"],
+    "options-hindi": ["(a) जनजातीय कार्य मंत्रालय", "(b) अल्पसंख्यक कार्य मंत्रालय", "(c) शिक्षा मंत्रालय", "(d) कौशल विकास और उद्यमिता मंत्रालय"],
+    "answer-english": "(a) Ministry of Tribal Affairs",
+    "answer-hindi": "(a) जनजातीय कार्य मंत्रालय",
+    "solution-english": "The Ministry of Tribal Affairs collaborated with NCERT to implement the NISHTHA programme for teachers and principals of Eklavya Model Residential Schools.",
+    "solution-hindi": "जनजातीय कार्य मंत्रालय ने एनसीईआरटी के साथ मिलकर एकलव्य मॉडल आवासीय विद्यालयों के शिक्षकों और प्रधानाचार्यों के लिए निष्ठा कार्यक्रम को लागू किया।"
+  },
+  {
+    "question-english": "Ram Sahay Panday got Padma Shri for promoting the dance form 'Raai' from Bundelkhand region. Which State does this dance form belong to?",
+    "question-hindi": "राम सहाय पांडे को बुंदेलखंड क्षेत्र से 'राई' नृत्य शैली को बढ़ावा देने के लिए पद्म श्री मिला। यह नृत्य शैली किस राज्य से संबंधित है?",
+    "options-english": ["(a) Madhya Pradesh", "(b) Chhattisgarh", "(c) Rajasthan", "(d) Bihar"],
+    "options-hindi": ["(a) मध्य प्रदेश", "(b) छत्तीसगढ़", "(c) राजस्थान", "(d) बिहार"],
+    "answer-english": "(a) Madhya Pradesh",
+    "answer-hindi": "(a) मध्य प्रदेश",
+    "solution-english": "Raai is a traditional folk dance of the Bundelkhand region, primarily located in Madhya Pradesh. Ram Sahay Panday was honored with the Padma Shri for popularizing it.",
+    "solution-hindi": "राई बुंदेलखंड क्षेत्र का एक पारंपरिक लोक नृत्य है, जो मुख्य रूप से मध्य प्रदेश में स्थित है। राम सहाय पांडे को इसे लोकप्रिय बनाने के लिए पद्म श्री से सम्मानित किया गया।"
+  },
+  {
+    "question-english": "Which of the following dances of South India is known as peacock dance?",
+    "question-hindi": "दक्षिण भारत के निम्नलिखित नृत्यों में से किसे मोर नृत्य के रूप में जाना जाता है?",
+    "options-english": ["(a) Garadi", "(b) Mayilattam", "(c) Padayani", "(d) Kummi"],
+    "options-hindi": ["(a) गरदी", "(b) मयिलअट्टम", "(c) पदयानी", "(d) कुम्मी"],
+    "answer-english": "(b) Mayilattam",
+    "answer-hindi": "(b) मयिलअट्टम",
+    "solution-english": "Mayilattam, meaning 'peacock dance' in Tamil, is a folk dance performed in Tamil Nadu and Kerala where dancers mimic peacock movements.",
+    "solution-hindi": "मयिलअट्टम, जिसका अर्थ तमिल में 'मोर नृत्य' है, तमिलनाडु और केरल में किया जाने वाला एक लोक नृत्य है जिसमें नर्तक मोर की चाल की नकल करते हैं।"
+  },
+  {
+    "question-english": "R Muthukannammal was conferred the Padma Shri award in 2022. Which of the following is her contribution?",
+    "question-hindi": "आर मुथुकन्नम्माल को 2022 में पद्म श्री पुरस्कार से सम्मानित किया गया था। निम्नलिखित में से उनका क्या योगदान है?",
+    "options-english": ["(a) Custodian of early dance form of Bharatanatyam", "(b) Study of Indian society", "(c) Work with Orissa’s poor and backward communities", "(d) Role in India’s Blue Revolution"],
+    "options-hindi": ["(a) भरतनाट्यम के प्रारंभिक नृत्य रूप की संरक्षक", "(b) भारतीय समाज के अध्ययन में विशेषज्ञता", "(c) उड़ीसा के गरीब और पिछड़े समुदायों के साथ कार्य", "(d) भारत की नीली क्रांति में भूमिका"],
+    "answer-english": "(a) Custodian of early dance form of Bharatanatyam",
+    "answer-hindi": "(a) भरतनाट्यम के प्रारंभिक नृत्य रूप की संरक्षक",
+    "solution-english": "R Muthukannammal, a seventh-generation Sadir dancer, was awarded the Padma Shri in 2022 for preserving the early form of Bharatanatyam.",
+    "solution-hindi": "तमिलनाडु की सातवीं पीढ़ी की सादिर नृत्यांगना आर मुथुकन्नम्माल को भरतनाट्यम के प्रारंभिक रूप को संरक्षित करने के लिए 2022 में पद्म श्री से सम्मानित किया गया।"
+  },
+  {
+    "question-english": "Autotrophs can fix _______.",
+    "question-hindi": "स्वपोषी _______ को स्थिर कर सकते हैं।",
+    "options-english": ["(a) Carbon monoxide", "(b) Carbon dioxide", "(c) Oxygen", "(d) Methane"],
+    "options-hindi": ["(a) कार्बन मोनोऑक्साइड", "(b) कार्बन डाइऑक्साइड", "(c) ऑक्सीजन", "(d) मीथेन"],
+    "answer-english": "(b) Carbon dioxide",
+    "answer-hindi": "(b) कार्बन डाइऑक्साइड",
+    "solution-english": "Autotrophs such as plants fix carbon dioxide through photosynthesis, converting it into organic compounds.",
+    "solution-hindi": "स्वपोषी जैसे पौधे प्रकाश संश्लेषण के माध्यम से कार्बन डाइऑक्साइड को स्थिर करते हैं और इसे कार्बनिक यौगिकों में परिवर्तित करते हैं।"
+  },
+  {
+    "question-english": "In a volleyball game, 'libero' is a ________.",
+    "question-hindi": "वॉलीबॉल के खेल में, 'लिबरो' एक ________ होता है।",
+    "options-english": ["(a) Specialised attacking player", "(b) Specialised defensive player", "(c) Smashing expert", "(d) Blocking expert"],
+    "options-hindi": ["(a) विशेष हमलावर खिलाड़ी", "(b) विशेष रक्षात्मक खिलाड़ी", "(c) स्मैशिंग विशेषज्ञ", "(d) ब्लॉकिंग विशेषज्ञ"],
+    "answer-english": "(b) Specialised defensive player",
+    "answer-hindi": "(b) विशेष रक्षात्मक खिलाड़ी",
+    "solution-english": "The libero is a specialised defensive player in volleyball who excels in receiving and passing.",
+    "solution-hindi": "लिबरो वॉलीबॉल में एक विशेष रक्षात्मक खिलाड़ी होता है जो रिसीव और पासिंग में माहिर होता है।"
+  },
+  {
+    "question-english": "Which of the following statements about Indian river systems is correct?",
+    "question-hindi": "भारतीय नदी प्रणालियों के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+    "options-english": ["(a) The Mahanadi flows only through Chhattisgarh", "(b) Sone River originates in Punjab", "(c) Godavari flows through Haryana", "(d) Yamuna River is a tributary of Ganga River"],
+    "options-hindi": ["(a) महानदी केवल छत्तीसगढ़ से होकर बहती है", "(b) सोन नदी पंजाब में निकलती है", "(c) गोदावरी हरियाणा से होकर बहती है", "(d) यमुना नदी गंगा की सहायक नदी है"],
+    "answer-english": "(d) Yamuna River is a tributary of Ganga River",
+    "answer-hindi": "(d) यमुना नदी गंगा की सहायक नदी है",
+    "solution-english": "The Yamuna River originates from Yamunotri Glacier and joins the Ganga at Prayagraj. It is the Ganga's second-largest tributary.",
+    "solution-hindi": "यमुना नदी यमुनोत्री ग्लेशियर से निकलती है और प्रयागराज में गंगा से मिलती है। यह गंगा की दूसरी सबसे बड़ी सहायक नदी है।"
+  },
+  {
+    "question-english": "Which of the following statements are correct regarding festivals followed in Christianity?",
+    "question-hindi": "ईसाई धर्म में मनाए जाने वाले त्योहारों के संबंध में निम्नलिखित में से कौन से कथन सही हैं?",
+    "options-english": ["(a) B and C only", "(b) A and B only", "(c) A and C only", "(d) A, B and C"],
+    "options-hindi": ["(a) केवल B और C", "(b) केवल A और B", "(c) केवल A और C", "(d) A, B और C"],
+    "answer-english": "(d) A, B and C",
+    "answer-hindi": "(d) A, B और C",
+    "solution-english": "All statements are correct: Good Friday marks the crucifixion of Jesus, and Easter celebrates his resurrection on the third day.",
+    "solution-hindi": "सभी कथन सही हैं: गुड फ्राइडे यीशु के सूली पर चढ़ाए जाने का स्मरण कराता है, और ईस्टर उनके तीसरे दिन पुनरुत्थान का उत्सव है।"
+  },
+  {
+    "question-english": "Who among the following founded the Satnami Movement in central India for the betterment of leather workers?",
+    "question-hindi": "मध्य भारत में चमड़ा श्रमिकों की भलाई के लिए सतनामी आंदोलन की स्थापना निम्नलिखित में से किसने की?",
+    "options-english": ["(a) B.R. Ambedkar", "(b) Swami Vivekananda", "(c) Guru Ghasidas", "(d) Mahatma Gandhi"],
+    "options-hindi": ["(a) बी.आर. अंबेडकर", "(b) स्वामी विवेकानंद", "(c) गुरु घासीदास", "(d) महात्मा गांधी"],
+    "answer-english": "(c) Guru Ghasidas",
+    "answer-hindi": "(c) गुरु घासीदास",
+    "solution-english": "Guru Ghasidas founded the Satnami Movement in Chhattisgarh to promote social equality and uplift leather workers.",
+    "solution-hindi": "गुरु घासीदास ने छत्तीसगढ़ में सामाजिक समानता को बढ़ावा देने और चमड़ा श्रमिकों को uplift करने के लिए सतनामी आंदोलन की स्थापना की।"
+  },{
+    "question-english": "'Freedom is my birth right and I shall have it'. Who among the following said this?",
+    "question-hindi": "'स्वतंत्रता मेरा जन्मसिद्ध अधिकार है और मैं इसे लेकर रहूँगा' यह किसने कहा था?",
+    "options-english": ["(a) Bipin Chandra Pal", "(b) Lala Lajpat Rai", "(c) Aurobindo Ghosh", "(d) Bal Gangadhar Tilak"],
+    "options-hindi": ["(a) बिपिन चंद्र पाल", "(b) लाला लाजपत राय", "(c) अरबिंदो घोष", "(d) बाल गंगाधर तिलक"],
+    "answer-english": "(d) Bal Gangadhar Tilak",
+    "answer-hindi": "(d) बाल गंगाधर तिलक",
+    "solution-english": "The slogan 'Swaraj is my birthright and I shall have it' was coined by Bal Gangadhar Tilak, a leading figure of the Indian freedom movement.",
+    "solution-hindi": "‘स्वराज मेरा जन्मसिद्ध अधिकार है और मैं इसे लेकर रहूँगा’ का नारा बाल गंगाधर तिलक ने दिया था, जो भारतीय स्वतंत्रता आंदोलन के एक प्रमुख नेता थे।"
+  },
+  {
+    "question-english": "Which of the following is NOT a feature of India's parliamentary government?",
+    "question-hindi": "निम्नलिखित में से कौन भारत की संसदीय सरकार की विशेषता नहीं है?",
+    "options-english": ["(a) Membership of ministers in legislature", "(b) Presence of nominal and real executives", "(c) Majority party rule", "(d) Dissolution of the Rajya Sabha"],
+    "options-hindi": ["(a) विधानमंडल में मंत्रियों की सदस्यता", "(b) नाममात्र और वास्तविक कार्यकारियों की उपस्थिति", "(c) बहुमत दल का शासन", "(d) राज्य सभा का विघटन"],
+    "answer-english": "(d) Dissolution of the Rajya Sabha",
+    "answer-hindi": "(d) राज्य सभा का विघटन",
+    "solution-english": "The Rajya Sabha is a permanent house and cannot be dissolved. One-third of its members retire every two years.",
+    "solution-hindi": "राज्य सभा एक स्थायी सदन है और इसे भंग नहीं किया जा सकता। इसके एक-तिहाई सदस्य हर दो साल में सेवानिवृत्त होते हैं।"
+  },
+  {
+    "question-english": "Which of the following is NOT a key player in the microfinance sector?",
+    "question-hindi": "निम्नलिखित में से कौन सूक्ष्म वित्त क्षेत्र में एक प्रमुख खिलाड़ी नहीं है?",
+    "options-english": ["(a) Small finance banks", "(b) Regional rural banks", "(c) IDBI", "(d) Commercial banks"],
+    "options-hindi": ["(a) लघु वित्त बैंक", "(b) क्षेत्रीय ग्रामीण बैंक", "(c) आईडीबीआई", "(d) वाणिज्यिक बैंक"],
+    "answer-english": "(c) IDBI",
+    "answer-hindi": "(c) आईडीबीआई",
+    "solution-english": "IDBI focuses mainly on industrial and large-scale project financing, not microfinance. Small finance, regional rural, and commercial banks are the key players in microfinance.",
+    "solution-hindi": "आईडीबीआई मुख्य रूप से औद्योगिक और बड़े पैमाने की परियोजनाओं के वित्तपोषण पर केंद्रित है, न कि सूक्ष्म वित्त पर। लघु वित्त, क्षेत्रीय ग्रामीण और वाणिज्यिक बैंक सूक्ष्म वित्त में प्रमुख भूमिका निभाते हैं।"
+  },
+  {
+    "question-english": "When was Singer and Nicolson's fluid mosaic model accepted as the foundational model for cell membranes?",
+    "question-hindi": "सिंगर और निकोलसन का फ्लूइड मोज़ेक मॉडल कोशिका झिल्ली के लिए मूलभूत मॉडल के रूप में कब स्वीकार किया गया?",
+    "options-english": ["(a) 1952", "(b) 1942", "(c) 1972", "(d) 1982"],
+    "options-hindi": ["(a) 1952", "(b) 1942", "(c) 1972", "(d) 1982"],
+    "answer-english": "(c) 1972",
+    "answer-hindi": "(c) 1972",
+    "solution-english": "Singer and Nicolson proposed the fluid mosaic model in 1972, describing the cell membrane as a fluid lipid bilayer with embedded proteins.",
+    "solution-hindi": "सिंगर और निकोलसन ने 1972 में फ्लूइड मोज़ेक मॉडल प्रस्तावित किया, जिसमें कोशिका झिल्ली को प्रोटीन एम्बेडेड लिपिड परत के रूप में वर्णित किया गया।"
+  },
+  {
+    "question-english": "In whose presence does the Governor take oath in the absence of the Chief Justice of the High Court?",
+    "question-hindi": "उच्च न्यायालय के मुख्य न्यायाधीश की अनुपस्थिति में राज्यपाल किसकी उपस्थिति में शपथ लेते हैं?",
+    "options-english": ["(a) Senior-most judge of High Court available", "(b) Secretary of State Legislature", "(c) Speaker of State Legislature", "(d) Nominated judge by President"],
+    "options-hindi": ["(a) उपलब्ध उच्च न्यायालय के वरिष्ठतम न्यायाधीश", "(b) राज्य विधानमंडल के सचिव", "(c) राज्य विधानमंडल के अध्यक्ष", "(d) राष्ट्रपति द्वारा मनोनीत न्यायाधीश"],
+    "answer-english": "(a) Senior-most judge of High Court available",
+    "answer-hindi": "(a) उपलब्ध उच्च न्यायालय के वरिष्ठतम न्यायाधीश",
+    "solution-english": "Under Article 159, if the Chief Justice is unavailable, the senior-most judge of the High Court administers the oath to the Governor.",
+    "solution-hindi": "अनुच्छेद 159 के तहत, यदि मुख्य न्यायाधीश अनुपलब्ध हैं, तो उच्च न्यायालय के वरिष्ठतम न्यायाधीश राज्यपाल को शपथ दिलाते हैं।"
+  },
+  {
+    "question-english": "According to the Census of India 2011, which group of states recorded the highest population?",
+    "question-hindi": "भारत की 2011 की जनगणना के अनुसार, किस राज्यों के समूह की जनसंख्या सबसे अधिक थी?",
+    "options-english": ["(a) Maharashtra and Bihar", "(b) Tamil Nadu and Karnataka", "(c) Bihar and West Bengal", "(d) West Bengal and Madhya Pradesh"],
+    "options-hindi": ["(a) महाराष्ट्र और बिहार", "(b) तमिलनाडु और कर्नाटक", "(c) बिहार और पश्चिम बंगाल", "(d) पश्चिम बंगाल और मध्य प्रदेश"],
+    "answer-english": "(a) Maharashtra and Bihar",
+    "answer-hindi": "(a) महाराष्ट्र और बिहार",
+    "solution-english": "As per Census 2011, Maharashtra and Bihar were among the most populous states after Uttar Pradesh, representing the highest population group among the given options.",
+    "solution-hindi": "2011 की जनगणना के अनुसार, उत्तर प्रदेश के बाद महाराष्ट्र और बिहार सबसे अधिक आबादी वाले राज्यों में थे, जो दिए गए विकल्पों में सबसे अधिक जनसंख्या वाले समूह का प्रतिनिधित्व करते हैं।"
+  },
+  {
+    "question-english": "Which of the following statements is true with regard to preference given in most Five-Year Plans in India?",
+    "question-hindi": "भारत में अधिकांश पंचवर्षीय योजनाओं में दी गई प्राथमिकता के संबंध में निम्नलिखित में से कौन सा कथन सही है?",
+    "options-english": ["(a) Investment in basic and heavy industries", "(b) Regulation of financial sector", "(c) Promotion of private sector entrepreneurship", "(d) Control of prices"],
+    "options-hindi": ["(a) बुनियादी और भारी उद्योगों में निवेश", "(b) वित्तीय क्षेत्र का विनियमन", "(c) निजी क्षेत्र की उद्यमिता को बढ़ावा", "(d) कीमतों पर नियंत्रण"],
+    "answer-english": "(a) Investment in basic and heavy industries",
+    "answer-hindi": "(a) बुनियादी और भारी उद्योगों में निवेश",
+    "solution-english": "Most early Five-Year Plans prioritized investment in basic and heavy industries to promote industrial self-reliance, following the Mahalanobis model.",
+    "solution-hindi": "अधिकांश प्रारंभिक पंचवर्षीय योजनाओं ने महालनोबिस मॉडल का अनुसरण करते हुए औद्योगिक आत्मनिर्भरता के लिए बुनियादी और भारी उद्योगों में निवेश को प्राथमिकता दी।"
+  },
+  {
+    "question-english": "Any dispute between the Government of India and one or more States comes under which jurisdiction of the Supreme Court?",
+    "question-hindi": "भारत सरकार और एक या अधिक राज्यों के बीच विवाद सर्वोच्च न्यायालय के किस अधिकार क्षेत्र में आता है?",
+    "options-english": ["(a) Writ", "(b) Exclusive Original", "(c) Advisory", "(d) Appellate"],
+    "options-hindi": ["(a) रिट", "(b) अनन्य मूल", "(c) सलाहकारी", "(d) अपीलीय"],
+    "answer-english": "(b) Exclusive Original",
+    "answer-hindi": "(b) अनन्य मूल",
+    "solution-english": "Article 131 grants the Supreme Court exclusive original jurisdiction over disputes between the Centre and one or more states or between states themselves.",
+    "solution-hindi": "अनुच्छेद 131 सर्वोच्च न्यायालय को केंद्र और एक या अधिक राज्यों या राज्यों के बीच विवादों पर अनन्य मूल अधिकार क्षेत्र प्रदान करता है।"
+  },
+  {
+    "question-english": "Pradhan Mantri Awas Yojana Urban (PMAY-U) was launched in which year?",
+    "question-hindi": "प्रधानमंत्री आवास योजना शहरी (PMAY-U) किस वर्ष शुरू की गई थी?",
+    "options-english": ["(a) 2017", "(b) 2019", "(c) 2021", "(d) 2015"],
+    "options-hindi": ["(a) 2017", "(b) 2019", "(c) 2021", "(d) 2015"],
+    "answer-english": "(d) 2015",
+    "answer-hindi": "(d) 2015",
+    "solution-english": "PMAY-U was launched on June 25, 2015, to provide pucca houses to all eligible urban households.",
+    "solution-hindi": "प्रधानमंत्री आवास योजना-शहरी (PMAY-U) 25 जून 2015 को शुरू की गई थी, ताकि सभी पात्र शहरी परिवारों को पक्का घर प्रदान किया जा सके।"
+  },
+  {
+    "question-english": "The Harappan city of Dholavira was divided into how many parts?",
+    "question-hindi": "हड़प्पा शहर धोलावीरा को कितने भागों में विभाजित किया गया था?",
+    "options-english": ["(a) 4", "(b) 5", "(c) 3", "(d) 2"],
+    "options-hindi": ["(a) 4", "(b) 5", "(c) 3", "(d) 2"],
+    "answer-english": "(c) 3",
+    "answer-hindi": "(c) 3",
+    "solution-english": "Dholavira was divided into three parts — the citadel, the middle town, and the lower town — unlike other Harappan cities which had two divisions.",
+    "solution-hindi": "धोलावीरा को तीन भागों में विभाजित किया गया था — दुर्ग, मध्य नगर और निचला नगर — जबकि अन्य हड़प्पा नगरों में आमतौर पर दो भाग होते थे।"
+  },{
+    "question-english": "Which of the following Articles of the Indian Constitution is related with provision for just and humane conditions of work and maternity relief?",
+    "question-hindi": "भारतीय संविधान के निम्नलिखित में से कौन सा अनुच्छेद काम की न्यायसंगत और मानवीय स्थितियों और मातृत्व राहत के प्रावधान से संबंधित है?",
+    "options-english": ["(a) Article 42", "(b) Article 44", "(c) Article 45", "(d) Article 43"],
+    "options-hindi": ["(a) अनुच्छेद 42", "(b) अनुच्छेद 44", "(c) अनुच्छेद 45", "(d) अनुच्छेद 43"],
+    "answer-english": "(a) Article 42",
+    "answer-hindi": "(a) अनुच्छेद 42",
+    "solution-english": "Article 42, part of the Directive Principles of State Policy, directs the State to make provisions for securing just and humane conditions of work and for providing maternity relief.",
+    "solution-hindi": "अनुच्छेद 42, जो राज्य के नीति निदेशक सिद्धांतों का हिस्सा है, राज्य को काम की न्यायसंगत और मानवीय स्थितियों को सुरक्षित करने और मातृत्व राहत प्रदान करने के लिए प्रावधान करने का निर्देश देता है।"
+  },
+  {
+    "question-english": "Who is the Head of the Secretariat of each house of the Parliament?",
+    "question-hindi": "संसद के प्रत्येक सदन के सचिवालय का प्रमुख कौन होता है?",
+    "options-english": ["(a) President", "(b) Secretary General", "(c) Deputy Speaker", "(d) Speaker"],
+    "options-hindi": ["(a) राष्ट्रपति", "(b) महासचिव", "(c) उपाध्यक्ष", "(d) अध्यक्ष"],
+    "answer-english": "(b) Secretary General",
+    "answer-hindi": "(b) महासचिव",
+    "solution-english": "Each House of Parliament has its own Secretariat. The Secretary General is its administrative head and assists the Presiding Officer in the functioning of the House.",
+    "solution-hindi": "संसद के प्रत्येक सदन का अपना सचिवालय होता है। महासचिव इसका प्रशासनिक प्रमुख होता है और सदन के कार्य संचालन में पीठासीन अधिकारी की सहायता करता है।"
+  },
+  {
+    "question-english": "Who among the following was the first President of the Indian Olympic Association (IOA)?",
+    "question-hindi": "निम्नलिखित में से कौन भारतीय ओलंपिक संघ (IOA) के पहले अध्यक्ष थे?",
+    "options-english": ["(a) Maharaja Bhupinder Singh", "(b) Dr. AG Noehren", "(c) Raja Bhalender Singh", "(d) Sir Dorabji Tata"],
+    "options-hindi": ["(a) महाराजा भूपिंदर सिंह", "(b) डॉ. एजी नोहरेन", "(c) राजा भालेन्द्र सिंह", "(d) सर दोराबजी टाटा"],
+    "answer-english": "(d) Sir Dorabji Tata",
+    "answer-hindi": "(d) सर दोराबजी टाटा",
+    "solution-english": "The Indian Olympic Association was founded in 1927 with Sir Dorabji Tata as its first President and Dr. A.G. Noehren as the founding Secretary.",
+    "solution-hindi": "भारतीय ओलंपिक संघ की स्थापना 1927 में हुई थी, इसके पहले अध्यक्ष सर दोराबजी टाटा और संस्थापक सचिव डॉ. ए.जी. नोहरेन थे।"
+  },
+  {
+    "question-english": "National Investment Fund in India is a corpus fund that mobilises its financial receipts from _____________",
+    "question-hindi": "भारत में राष्ट्रीय निवेश कोष एक कोष निधि है जो अपनी वित्तीय प्राप्तियाँ _____________ से जुटाता है।",
+    "options-english": ["(a) profits of Central Public Sector Undertakings", "(b) proceeds from disinvestment of Central Public Sector Undertakings", "(c) savings of General Provident Fund", "(d) contributory pension scheme"],
+    "options-hindi": ["(a) केंद्रीय सार्वजनिक क्षेत्र के उपक्रमों के मुनाफे की आय", "(b) केंद्रीय सार्वजनिक क्षेत्र के उपक्रमों के विनिवेश से प्राप्त आय", "(c) सामान्य भविष्य निधि की बचत", "(d) अंशदायी पेंशन योजना"],
+    "answer-english": "(b) proceeds from disinvestment of Central Public Sector Undertakings",
+    "answer-hindi": "(b) केंद्रीय सार्वजनिक क्षेत्र के उपक्रमों के विनिवेश से प्राप्त आय",
+    "solution-english": "The National Investment Fund was established in 2005 to manage proceeds from disinvestment of CPSEs for use in social sector schemes and capitalizing profitable enterprises.",
+    "solution-hindi": "राष्ट्रीय निवेश कोष (NIF) की स्थापना 2005 में सीपीएसई के विनिवेश से प्राप्त धन को सामाजिक क्षेत्र की योजनाओं और लाभदायक उपक्रमों के पूंजीकरण के लिए प्रबंधित करने हेतु की गई थी।"
+  },
+  {
+    "question-english": "Identify the crop which is grown in Rabi season in North India from the following.",
+    "question-hindi": "निम्नलिखित में से उस फसल की पहचान करें जो उत्तर भारत में रबी के मौसम में उगाई जाती है।",
+    "options-english": ["(a) Cotton", "(b) Gram", "(c) Rice", "(d) Bajra"],
+    "options-hindi": ["(a) कपास", "(b) चना", "(c) चावल", "(d) बाजरा"],
+    "answer-english": "(b) Gram",
+    "answer-hindi": "(b) चना",
+    "solution-english": "Gram (chana) is a major Rabi crop grown in North India, sown in winter and harvested in summer.",
+    "solution-hindi": "चना उत्तर भारत में उगाई जाने वाली प्रमुख रबी फसल है, जिसे सर्दियों में बोया और गर्मियों में काटा जाता है।"
+  },
+  {
+    "question-english": "In 1932, the Poona Pact was signed between Mahatma Gandhi and _________",
+    "question-hindi": "1932 में, पूना पैक्ट पर महात्मा गांधी और _________ के बीच हस्ताक्षर किए गए थे।",
+    "options-english": ["(a) Dr. Babasaheb Ambedkar", "(b) C. Natesa Mudaliar", "(c) Taravath Madhavan Nair", "(d) Ramaswami Naicker-Periyar"],
+    "options-hindi": ["(a) डॉ. बाबासाहेब अंबेडकर", "(b) सी. नटेसा मुदलियार", "(c) तारवाथ माधवन नायर", "(d) रामास्वामी नायकर-पेरियार"],
+    "answer-english": "(a) Dr. Babasaheb Ambedkar",
+    "answer-hindi": "(a) डॉ. बाबासाहेब अंबेडकर",
+    "solution-english": "The Poona Pact was signed in 1932 between Mahatma Gandhi and Dr. B.R. Ambedkar to end Gandhi’s fast against separate electorates for the depressed classes.",
+    "solution-hindi": "1932 में महात्मा गांधी और डॉ. बी.आर. अंबेडकर के बीच पूना पैक्ट पर हस्ताक्षर किए गए ताकि गांधी के दलित वर्गों के लिए अलग निर्वाचक मंडल के विरोध में अनशन को समाप्त किया जा सके।"
+  },
+  {
+    "question-english": "When did India host the Asian Games for the first time?",
+    "question-hindi": "भारत ने पहली बार एशियाई खेलों की मेजबानी कब की?",
+    "options-english": ["(a) 1990", "(b) 1951", "(c) 1962", "(d) 1954"],
+    "options-hindi": ["(a) 1990", "(b) 1951", "(c) 1962", "(d) 1954"],
+    "answer-english": "(b) 1951",
+    "answer-hindi": "(b) 1951",
+    "solution-english": "India hosted the first Asian Games in 1951 in New Delhi and again in 1982, also in New Delhi.",
+    "solution-hindi": "भारत ने 1951 में नई दिल्ली में पहले एशियाई खेलों की मेजबानी की और 1982 में भी एक बार फिर नई दिल्ली में खेलों की मेजबानी की।"
+  },
+  {
+    "question-english": "The Hindi novel 'Indrajal' is written by:",
+    "question-hindi": "हिंदी उपन्यास 'इंद्रजाल' किसके द्वारा लिखा गया है?",
+    "options-english": ["(a) Harivansh Rai Bachchan", "(b) Jaishankar Prasad", "(c) Namvar Singh", "(d) Ramdhari Singh Dinkar"],
+    "options-hindi": ["(a) हरिवंश राय बच्चन", "(b) जयशंकर प्रसाद", "(c) नामवर सिंह", "(d) रामधारी सिंह दिनकर"],
+    "answer-english": "(b) Jaishankar Prasad",
+    "answer-hindi": "(b) जयशंकर प्रसाद",
+    "solution-english": "'Indrajal' is a famous Hindi short story collection written by Jaishankar Prasad, a leading figure of modern Hindi literature and Chhayavaad poetry.",
+    "solution-hindi": "'इंद्रजाल' जयशंकर प्रसाद द्वारा लिखित एक प्रसिद्ध हिंदी लघु कथा संग्रह है, जो आधुनिक हिंदी साहित्य और छायावाद के प्रमुख कवि थे।"
+  },
+  {
+    "question-english": "Rafflesia arnoldii is famous because:",
+    "question-hindi": "रैफलेसिया अर्नोल्डी किस लिए प्रसिद्ध है?",
+    "options-english": ["(a) it has the thickest trunk", "(b) it is the tallest plant", "(c) it has the largest leaves", "(d) it has the largest flower"],
+    "options-hindi": ["(a) इसका तना सबसे मोटा होता है", "(b) यह सबसे लंबा पौधा है", "(c) इसकी पत्तियाँ सबसे बड़ी होती हैं", "(d) इसका फूल सबसे बड़ा होता है"],
+    "answer-english": "(d) it has the largest flower",
+    "answer-hindi": "(d) इसका फूल सबसे बड़ा होता है",
+    "solution-english": "Rafflesia arnoldii produces the largest single flower in the world, up to one meter across, and emits a foul odor to attract pollinators.",
+    "solution-hindi": "रैफलेसिया अर्नोल्डी दुनिया का सबसे बड़ा एकल फूल उत्पन्न करता है, जो लगभग एक मीटर चौड़ा हो सकता है और परागणकर्ताओं को आकर्षित करने के लिए दुर्गंध छोड़ता है।"
+  },
+  {
+    "question-english": "Ajita Srivastava is a famous folk singer from _________ and she received the Padma Shri in 2022.",
+    "question-hindi": "अजिता श्रीवास्तव _________ की एक प्रसिद्ध लोक गायिका हैं और उन्हें 2022 में पद्म श्री मिला।",
+    "options-english": ["(a) Maharashtra", "(b) Gujarat", "(c) Uttar Pradesh", "(d) Madhya Pradesh"],
+    "options-hindi": ["(a) महाराष्ट्र", "(b) गुजरात", "(c) उत्तर प्रदेश", "(d) मध्य प्रदेश"],
+    "answer-english": "(c) Uttar Pradesh",
+    "answer-hindi": "(c) उत्तर प्रदेश",
+    "solution-english": "Ajita Srivastava, a folk singer from Mirzapur, Uttar Pradesh, received the Padma Shri in 2022 for popularizing and preserving the Kajari folk tradition.",
+    "solution-hindi": "मिर्जापुर, उत्तर प्रदेश की लोक गायिका अजिता श्रीवास्तव को 2022 में कजरी लोक परंपरा को लोकप्रिय और संरक्षित करने के लिए पद्म श्री से सम्मानित किया गया।"
+  }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+    "question-english": "Which of the following numbers will replace the question mark (?) in the given series? 7, 21, 18, 54, 51, 153, ?",
+    "question-hindi": "निम्नलिखित में से कौन सी संख्या दी गई श्रृंखला में प्रश्न चिह्न (?) का स्थान लेगी? 7, 21, 18, 54, 51, 153, ?",
+    "options-english": ["150", "156", "147", "160"],
+    "options-hindi": ["150", "156", "147", "160"],
+    "answer-english": "150",
+    "answer-hindi": "150",
+    "solution-english": "The series alternates between multiplying by 3 and subtracting 3. 7×3=21, 21−3=18, 18×3=54, 54−3=51, 51×3=153, 153−3=150.",
+    "solution-hindi": "श्रृंखला 3 से गुणा करने और 3 घटाने के बीच वैकल्पिक है। 7×3=21, 21−3=18, 18×3=54, 54−3=51, 51×3=153, 153−3=150।"
+  },
+  {
+    "question-english": "In a certain code language, ‘CAT’ is coded as 24 and ‘DOG’ is coded as 26. How is ‘PIG’ coded?",
+    "question-hindi": "एक निश्चित कूट भाषा में, ‘CAT’ को 24 और ‘DOG’ को 26 के रूप में कूटबद्ध किया गया है। ‘PIG’ को कैसे कूटबद्ध किया गया है?",
+    "options-english": ["32", "30", "34", "36"],
+    "options-hindi": ["32", "30", "34", "36"],
+    "answer-english": "32",
+    "answer-hindi": "32",
+    "solution-english": "The sum of the alphabetical positions of letters: C(3)+A(1)+T(20)=24, D(4)+O(15)+G(7)=26, P(16)+I(9)+G(7)=32.",
+    "solution-hindi": "अक्षरों की वर्णमाला स्थिति का योग: C(3)+A(1)+T(20)=24, D(4)+O(15)+G(7)=26, P(16)+I(9)+G(7)=32।"
+  },
+  {
+    "question-english": "If P denotes ‘multiplied by’, T denotes ‘subtracted from’, M denotes ‘added to’ and B denotes ‘divided by’, then find: 28 B 7 P 8 T 6 M 4 = ?",
+    "question-hindi": "यदि P का अर्थ 'गुणा', T का अर्थ 'घटाना', M का अर्थ 'जोड़ना' और B का अर्थ 'भाग देना' है, तो 28 B 7 P 8 T 6 M 4 = ?",
+    "options-english": ["30", "32", "34", "36"],
+    "options-hindi": ["30", "32", "34", "36"],
+    "answer-english": "30",
+    "answer-hindi": "30",
+    "solution-english": "28 ÷ 7 × 8 - 6 + 4 = 4 × 8 - 6 + 4 = 32 - 6 + 4 = 30.",
+    "solution-hindi": "28 ÷ 7 × 8 - 6 + 4 = 4 × 8 - 6 + 4 = 32 - 6 + 4 = 30।"
+  },
+  {
+    "question-english": "If 1st January 2001 was a Monday, what was the day of the week on 31st December 2005?",
+    "question-hindi": "यदि 1 जनवरी 2001 को सोमवार था, तो 31 दिसंबर 2005 को सप्ताह का कौन सा दिन था?",
+    "options-english": ["Friday", "Saturday", "Sunday", "Monday"],
+    "options-hindi": ["शुक्रवार", "शनिवार", "रविवार", "सोमवार"],
+    "answer-english": "Sunday",
+    "answer-hindi": "रविवार",
+    "solution-english": "Odd days: 2001→1, 2002→1, 2003→1, 2004→2, 2005→1. Total=6 odd days. Monday+6=Sunday.",
+    "solution-hindi": "विषम दिन: 2001→1, 2002→1, 2003→1, 2004→2, 2005→1. कुल=6 विषम दिन। सोमवार+6=रविवार।"
+  },
+  {
+    "question-english": "Find the next term in the series: B2E, D5H, F8K, H11N, ?",
+    "question-hindi": "श्रृंखला में अगला पद ज्ञात कीजिए: B2E, D5H, F8K, H11N, ?",
+    "options-english": ["J14Q", "I14Q", "J14P", "J15Q"],
+    "options-hindi": ["J14Q", "I14Q", "J14P", "J15Q"],
+    "answer-english": "J14Q",
+    "answer-hindi": "J14Q",
+    "solution-english": "Letters increase by +2, numbers by +3, and last letters by +3. So next is J14Q.",
+    "solution-hindi": "पहले अक्षर +2, संख्याएँ +3, और अंतिम अक्षर +3 बढ़ते हैं। इसलिए अगला पद J14Q है।"
+  },
+  {
+    "question-english": "If 'red' is called 'yellow', 'yellow' is called 'blue', 'blue' is called 'white', and 'white' is called 'black', what is the color of the clear sky?",
+    "question-hindi": "यदि 'लाल' को 'पीला' कहा जाता है, 'पीला' को 'नीला', 'नीला' को 'सफेद', और 'सफेद' को 'काला' कहा जाता है, तो साफ आकाश का रंग क्या है?",
+    "options-english": ["Yellow", "Blue", "White", "Black"],
+    "options-hindi": ["पीला", "नीला", "सफेद", "काला"],
+    "answer-english": "White",
+    "answer-hindi": "सफेद",
+    "solution-english": "The sky is blue, and in this code language, 'blue' is called 'white'.",
+    "solution-hindi": "आकाश का रंग नीला है, और इस कूट भाषा में 'नीला' को 'सफेद' कहा जाता है।"
+  },
+  {
+    "question-english": "In a row of boys, if A is 10th from the left and B is 9th from the right and they interchange their positions, A becomes 15th from the left. How many boys are there in the row?",
+    "question-hindi": "लड़कों की एक पंक्ति में, यदि A बाईं ओर से 10वें और B दाईं ओर से 9वें स्थान पर है और वे अपनी स्थिति बदल लेते हैं, तो A बाईं ओर से 15वां हो जाता है। पंक्ति में कितने लड़के हैं?",
+    "options-english": ["23", "27", "30", "32"],
+    "options-hindi": ["23", "27", "30", "32"],
+    "answer-english": "23",
+    "answer-hindi": "23",
+    "solution-english": "Total boys = (15 + 9) - 1 = 23.",
+    "solution-hindi": "कुल लड़के = (15 + 9) - 1 = 23।"
+  },
+  {
+    "question-english": "Statements: All pens are pencils. No pencil is a marker. Conclusions: I. No pen is a marker. II. Some pencils are pens.",
+    "question-hindi": "कथन: सभी पेन पेंसिल हैं। कोई पेंसिल मार्कर नहीं है। निष्कर्ष: I. कोई पेन मार्कर नहीं है। II. कुछ पेंसिल पेन हैं।",
+    "options-english": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+    "options-hindi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है"],
+    "answer-english": "Both I and II follow",
+    "answer-hindi": "I और II दोनों अनुसरण करते हैं",
+    "solution-english": "All pens are pencils and no pencil is a marker ⇒ No pen is a marker (I follows). Some pencils are pens (II follows).",
+    "solution-hindi": "सभी पेन पेंसिल हैं और कोई पेंसिल मार्कर नहीं है ⇒ कोई पेन मार्कर नहीं है (I अनुसरण करता है)। कुछ पेंसिल पेन हैं (II अनुसरण करता है)।"
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q9.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q9.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_11.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q12.png",
+  "question-english": "Select the option that is related to the third figure in the same way as the second figure is related to the first figure.",
+  "question-hindi": "उस विकल्प का चयन करें जो तीसरे चित्र से उसी प्रकार संबंधित है जैसे दूसरा चित्र पहले चित्र से संबंधित है।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+   "answer-english": "A",
+   "answer-hindi": "A",
+  "solution-english": "In the first pair, the outer square changes into a circle while the inner design remains similar. Following the same pattern, the outer pentagon should change into an oval while keeping the inner shape similar. Hence, option C is correct.",
+  "solution-hindi": "पहले जोड़े में, बाहरी वर्ग एक वृत्त में बदल जाता है जबकि आंतरिक संरचना समान रहती है। उसी पैटर्न का पालन करते हुए, बाहरी पंचभुज को अंडाकार में बदलना चाहिए जबकि अंदरूनी आकार समान रहना चाहिए। इसलिए विकल्प C सही है।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q13.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_13.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+    "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (9, 15, 21) (12, 20, 28)",
+    "question-hindi": "उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित समुच्चयों की संख्याएँ हैं। (9, 15, 21) (12, 20, 28)",
+    "options-english": ["(6, 10, 14)", "(5, 10, 15)", "(7, 12, 17)", "(10, 15, 20)"],
+    "options-hindi": ["(6, 10, 14)", "(5, 10, 15)", "(7, 12, 17)", "(10, 15, 20)"],
+    "answer-english": "(6, 10, 14)",
+    "answer-hindi": "(6, 10, 14)",
+    "solution-english": "(9, 15, 21) = (3×3, 3×5, 3×7); (12, 20, 28) = (4×3, 4×5, 4×7). The logic is (3x, 5x, 7x). For x=2, we get (6, 10, 14).",
+    "solution-hindi": "(9, 15, 21) = (3×3, 3×5, 3×7); (12, 20, 28) = (4×3, 4×5, 4×7)। तर्क है (3x, 5x, 7x)। x=2 के लिए हमें (6, 10, 14) मिलता है।"
+  },
+  {
+    "question-english": "Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
+    "question-hindi": "एक तस्वीर की ओर इशारा करते हुए, एक व्यक्ति ने कहा, 'मेरा कोई भाई या बहन नहीं है, लेकिन उस आदमी का पिता मेरे पिता का बेटा है।' यह किसकी तस्वीर थी?",
+    "options-english": ["His own", "His son's", "His father's", "His nephew's"],
+    "options-hindi": ["उसकी अपनी", "उसके बेटे की", "उसके पिता की", "उसके भतीजे की"],
+    "answer-english": "His son's",
+    "answer-hindi": "उसके बेटे की",
+    "solution-english": "The man has no siblings, so 'my father's son' refers to himself. Hence, 'that man's father is me' means the photograph is of his son.",
+    "solution-hindi": "उस व्यक्ति का कोई भाई या बहन नहीं है, इसलिए 'मेरे पिता का बेटा' स्वयं वह व्यक्ति है। अतः 'उस व्यक्ति का पिता मैं हूँ' का अर्थ है कि तस्वीर उसके बेटे की है।"
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q16.png",
+  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
+  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(c)",
+  "answer-english": "(c)",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q17.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_17.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "If 5th of the month falls two days after Monday, what day of the week will precede the 19th of the month?",
+  "question-hindi": "यदि महीने की 5 तारीख सोमवार के दो दिन बाद पड़ती है, तो महीने की 19 तारीख से पहले सप्ताह का कौन सा दिन होगा?",
+  "options-english": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+  "options-hindi": ["मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार"],
+  "answer-english": "Tuesday",
+  "answer-hindi": "मंगलवार",
+  "solution-english": "Two days after Monday is Wednesday, so the 5th is Wednesday. The 19th is 14 days (two weeks) after the 5th, so it is also Wednesday. The day before the 19th (the 18th) will therefore be Tuesday.",
+  "solution-hindi": "सोमवार के दो दिन बाद बुधवार होता है, इसलिए 5 तारीख बुधवार है। 19 तारीख 14 दिन (दो सप्ताह) बाद होगी, इसलिए वह भी बुधवार होगी। 19 तारीख से पहले का दिन (18 तारीख) मंगलवार होगा।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q19.png",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'.",
+  "question-hindi": "एक ही पासे की तीन विभिन्न स्थितियाँ दिखाई गई हैं। उस फलक पर संख्या ज्ञात कीजिए जो '1' दिखाने वाले फलक के विपरीत है।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi":  ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "From the three positions, the faces adjacent to '1' are 6, 5, 4, and 2. Since a face cannot be adjacent to its opposite, the remaining number 3 must be opposite to '1'.",
+  "solution-hindi": "तीनों स्थितियों से यह स्पष्ट है कि '1' के आस-पास के फलक 6, 5, 4 और 2 हैं। चूंकि विपरीत फलक आस-पास नहीं हो सकता, इसलिए शेष संख्या 3, '1' के विपरीत होगी।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q20.png",
+  "question-english": "Find the total number of squares in the figure.",
+  "question-hindi": "चित्र में कुल वर्गों की संख्या ज्ञात कीजिए।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "The figure consists of 4 small squares, 4 medium squares formed by combining two small ones, and 2 large outer squares. Hence, the total number of squares = 4 + 4 + 2 = 10.",
+  "solution-hindi": "चित्र में 4 छोटे वर्ग, 4 मध्यम वर्ग (दो छोटे वर्गों को मिलाकर बने), और 2 बड़े बाहरी वर्ग हैं। इसलिए कुल वर्गों की संख्या = 4 + 4 + 2 = 10।"
+},{
+  "question-english": "Select the pair that has a similar relationship as the original pair. Odometer : Mileage",
+  "question-hindi": "उस जोड़ी का चयन करें जिसका मूल जोड़ी के समान संबंध है। ओडोमीटर : माइलेज",
+  "options-english": ["Scale : Length", "Thermometer : Temperature", "Compass : Direction", "Barometer : Pressure"],
+  "options-hindi": ["पैमाना : लंबाई", "थर्मामीटर : तापमान", "कम्पास : दिशा", "बैरोमीटर : दबाव"],
+  "answer-english": "Thermometer : Temperature",
+  "answer-hindi": "थर्मामीटर : तापमान",
+  "solution-english": "An odometer is an instrument used to measure mileage. A thermometer is an instrument used to measure temperature. While the others are also instruments and what they measure, mileage is a form of distance, similar to length. However, 'mileage' is the specific quantity an odometer measures, and 'temperature' is what a thermometer measures. Thus, Thermometer : Temperature is the best fit.",
+  "solution-hindi": "ओडोमीटर माइलेज मापने के लिए उपयोग किया जाने वाला एक उपकरण है। थर्मामीटर तापमान मापने के लिए उपयोग किया जाने वाला एक उपकरण है। अन्य उपकरण भी कुछ मापते हैं, लेकिन माइलेज विशेष रूप से ओडोमीटर से मापा जाता है, और तापमान विशेष रूप से थर्मामीटर से। इसलिए, 'थर्मामीटर : तापमान' सबसे उपयुक्त जोड़ी है।"
+},
+{
+  "question-english": "The position of how many letters will remain unchanged if each of the letters in the word 'WONDERFUL' is arranged in alphabetical order?",
+  "question-hindi": "यदि 'WONDERFUL' शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया जाए तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?",
+  "options-english": ["None", "One", "Two", "Three"],
+  "options-hindi": ["कोई नहीं", "एक", "दो", "तीन"],
+  "answer-english": "One",
+  "answer-hindi": "एक",
+  "solution-english": "The original word: W O N D E R F U L. Alphabetical order: D E F L N O R U W. Comparing both, only the letter 'U' remains in its original 8th position. Therefore, one letter remains unchanged.",
+  "solution-hindi": "मूल शब्द: W O N D E R F U L. वर्णानुक्रम में व्यवस्थित शब्द: D E F L N O R U W. तुलना करने पर केवल 'U' अक्षर अपनी मूल स्थिति (8वीं) में रहता है। इसलिए, केवल एक अक्षर अपरिवर्तित रहता है।"
+},
+{
+  "question-english": "In a certain code language, if ‘246’ means ‘art and craft’, ‘637’ means ‘craft is good’, and ‘782’ means ‘good art gallery’, which digit stands for ‘is’?",
+  "question-hindi": "एक निश्चित कूट भाषा में, यदि ‘246’ का अर्थ ‘कला और शिल्प’ है, ‘637’ का अर्थ ‘शिल्प अच्छा है’, और ‘782’ का अर्थ ‘अच्छी कला दीर्घा’ है, तो ‘है’ के लिए कौन सा अंक है?",
+  "options-english": ["2", "3", "6", "7"],
+  "options-hindi": ["2", "3", "6", "7"],
+  "answer-english": "3",
+  "answer-hindi": "3",
+  "solution-english": "'craft' is common in ‘246’ and ‘637’; common digit 6 = 'craft'. 'good' is common in ‘637’ and ‘782’; common digit 7 = 'good'. In ‘637’, 6 = 'craft', 7 = 'good', leaving 3 = 'is'.",
+  "solution-hindi": "'246' और '637' में 'शिल्प' सामान्य है, और सामान्य अंक 6 है। इसलिए 6 = 'शिल्प'। '637' और '782' में 'अच्छा' सामान्य है, और सामान्य अंक 7 है। इसलिए 7 = 'अच्छा'। अब '637' में शेष अंक 3 बचता है, जिसका अर्थ 'है' है।"
+},
+{
+  "question-english": "In the following series, which pair of letters is next? AB, DE, HI, MN, ?",
+  "question-hindi": "निम्नलिखित श्रृंखला में, अक्षरों की अगली जोड़ी कौन सी है? AB, DE, HI, MN, ?",
+  "options-english": ["RS", "ST", "TU", "UV"],
+  "options-hindi": ["RS", "ST", "TU", "UV"],
+  "answer-english": "ST",
+  "answer-hindi": "ST",
+  "solution-english": "The series has pairs of consecutive letters with increasing gaps. AB (skip 1 letter), DE (skip 2), HI (skip 3), MN (skip 4). After MN, skip O,P,Q,R (4 letters), next is S,T. So, the next pair is ST.",
+  "solution-hindi": "श्रृंखला में अक्षरों की जोड़ी लगातार है और जोड़ों के बीच का अंतर बढ़ता जा रहा है। AB (1 अक्षर छोड़ा), DE (2), HI (3), MN (4)। अब MN के बाद O,P,Q,R छोड़े जाते हैं, अगला जोड़ा S,T होगा। इसलिए अगली जोड़ी ST है।"
+},
+{
+  "question-english": "Arrange the given words in the sequence in which they occur in the dictionary: Noble, Nobility, Nobble, Nobler",
+  "question-hindi": "दिए गए शब्दों को उस क्रम में व्यवस्थित करें जिसमें वे शब्दकोश में आते हैं: Noble, Nobility, Nobble, Nobler",
+  "options-english": ["3, 2, 4, 1", "2, 3, 1, 4", "4, 2, 1, 3", "3, 2, 1, 4"],
+  "options-hindi": ["3, 2, 4, 1", "2, 3, 1, 4", "4, 2, 1, 3", "3, 2, 1, 4"],
+  "answer-english": "3, 2, 1, 4",
+  "answer-hindi": "3, 2, 1, 4",
+  "solution-english": "All words begin with 'Nob'. Comparing next letters: Nobble (b), Nobility (i), Noble (l), Nobler (l). Dictionary order: Nobble → Nobility → Noble → Nobler. Hence, 3, 2, 1, 4.",
+  "solution-hindi": "सभी शब्द 'Nob' से शुरू होते हैं। अगला अक्षर देखने पर: Nobble (b), Nobility (i), Noble (l), Nobler (l)। शब्दकोश क्रम में: Nobble → Nobility → Noble → Nobler। अतः क्रम 3, 2, 1, 4 है।"
+}
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+             {
+    "question-english": "If 5 men and 9 boys can do a piece of work in 10 days, while 6 men and 12 boys can do the same work in 8 days, then the time taken by 3 men and 3 boys for doing the same piece of work will be:",
+    "question-hindi": "यदि 5 पुरुष और 9 लड़के किसी काम को 10 दिनों में कर सकते हैं, जबकि 6 पुरुष और 12 लड़के उसी काम को 8 दिनों में कर सकते हैं, तो 3 पुरुषों और 3 लड़कों द्वारा उसी काम को करने में लिया गया समय होगा:",
+    "options-english": ["(a) 20 days", "(b) 25 days", "(c) 30 days", "(d) 35 days"],
+    "options-hindi": ["(a) 20 दिन", "(b) 25 दिन", "(c) 30 दिन", "(d) 35 दिन"],
+    "answer-english": "(a) 20 days",
+    "answer-hindi": "(a) 20 दिन",
+    "solution-english": "Let one man's work/day be m and one boy's be b. (5m+9b)*10=(6m+12b)*8 ⇒ m=3b. Total work=(5*3b+9b)*10=240b. Work of (3m+3b)=12b/day ⇒ time=240b/12b=20 days.",
+    "solution-hindi": "मान लीजिए एक आदमी का कार्य/दिन m है और एक लड़के का b। (5m+9b)*10=(6m+12b)*8 ⇒ m=3b। कुल कार्य=(5*3b+9b)*10=240b। (3m+3b)=12b प्रतिदिन ⇒ समय=240b/12b=20 दिन।"
+  },
+  {
+    "question-english": "A car runs at 75 kmph for 300 km and then at 100 kmph for 500 km. Find the average speed.",
+    "question-hindi": "एक कार 300 किमी की दूरी 75 किमी/घं पर और 500 किमी की दूरी 100 किमी/घं पर तय करती है। औसत गति ज्ञात कीजिए।",
+    "options-english": ["(a) 88.89 kmph", "(b) 90 kmph", "(c) 92.5 kmph", "(d) 85 kmph"],
+    "options-hindi": ["(a) 88.89 किमी/घं", "(b) 90 किमी/घं", "(c) 92.5 किमी/घं", "(d) 85 किमी/घं"],
+    "answer-english": "(a) 88.89 kmph",
+    "answer-hindi": "(a) 88.89 किमी/घं",
+    "solution-english": "Time=300/75+500/100=4+5=9 hrs. Total dist=800. Avg=800/9=88.89 kmph.",
+    "solution-hindi": "समय=300/75+500/100=9 घंटे। कुल दूरी=800 किमी। औसत=800/9=88.89 किमी/घं।"
+  },
+  {
+    "question-english": "A rectangular sheet of 20π cm × 15 cm is rolled along its length to form a cylinder. Find its radius.",
+    "question-hindi": "20π सेमी × 15 सेमी की एक आयताकार शीट को उसकी लंबाई के अनुदिश बेलन बनाने हेतु मोड़ा जाता है। त्रिज्या ज्ञात करें।",
+    "options-english": ["(a) 5 cm", "(b) 10 cm", "(c) 15 cm", "(d) 20 cm"],
+    "options-hindi": ["(a) 5 सेमी", "(b) 10 सेमी", "(c) 15 सेमी", "(d) 20 सेमी"],
+    "answer-english": "(b) 10 cm",
+    "answer-hindi": "(b) 10 सेमी",
+    "solution-english": "2πr=20π ⇒ r=10 cm.",
+    "solution-hindi": "2πr=20π ⇒ r=10 सेमी।"
+  },
+  {
+    "question-english": "The average age of 11 players increases by 4 months when two aged 18 & 20 are replaced. Find average age of new players.",
+    "question-hindi": "11 खिलाड़ियों की औसत आयु 4 महीने बढ़ जाती है जब 18 और 20 वर्ष के दो खिलाड़ियों को बदला जाता है। नए खिलाड़ियों की औसत आयु ज्ञात कीजिए।",
+    "options-english": ["(a) 20 yrs 10 mo", "(b) 21 yrs", "(c) 21 yrs 10 mo", "(d) 22 yrs"],
+    "options-hindi": ["(a) 20 वर्ष 10 महीने", "(b) 21 वर्ष", "(c) 21 वर्ष 10 महीने", "(d) 22 वर्ष"],
+    "answer-english": "(a) 20 yrs 10 mo",
+    "answer-hindi": "(a) 20 वर्ष 10 महीने",
+    "solution-english": "Increase=11×4=44 mo=3y8m. New players' total=38+3y8m=41y8m. Avg=20y10m.",
+    "solution-hindi": "वृद्धि=11×4=44 माह=3व8म। नई कुल आयु=38+3व8म=41व8म। औसत=20व10म।"
+  },
+  {
+    "question-english": "Find the difference between the greatest and smallest 5-digit numbers using 0,2,4,6,8 once.",
+    "question-hindi": "0,2,4,6,8 का एक बार प्रयोग कर प्राप्त पाँच अंकों की सबसे बड़ी और सबसे छोटी संख्या का अंतर ज्ञात कीजिए।",
+    "options-english": ["(a) 65952", "(b) 61776", "(c) 65952", "(d) 83952"],
+    "options-hindi": ["(a) 65952", "(b) 61776", "(c) 65952", "(d) 83952"],
+    "answer-english": "(c) 65952",
+    "answer-hindi": "(c) 65952",
+    "solution-english": "Greatest=86420, Smallest=20468 ⇒ Diff=65952.",
+    "solution-hindi": "सबसे बड़ी संख्या=86420, सबसे छोटी=20468 ⇒ अंतर=65952।"
+  },
+  {
+    "question-english": "A boat travels 180 km upstream and downstream. Speed of boat=25, current=5. Find total time.",
+    "question-hindi": "एक नाव 180 किमी धारा के प्रतिकूल और अनुकूल चलती है। नाव की गति 25, धारा 5। कुल समय ज्ञात करें।",
+    "options-english": ["(a) 12 hr", "(b) 15 hr", "(c) 18 hr", "(d) 20 hr"],
+    "options-hindi": ["(a) 12 घंटे", "(b) 15 घंटे", "(c) 18 घंटे", "(d) 20 घंटे"],
+    "answer-english": "(b) 15 hr",
+    "answer-hindi": "(b) 15 घंटे",
+    "solution-english": "Downstream=30→6 hr, Upstream=20→9 hr ⇒ Total=15 hr.",
+    "solution-hindi": "धारा के अनुकूल=30→6 घंटे, प्रतिकूल=20→9 घंटे ⇒ कुल=15 घंटे।"
+  },
+  {
+    "question-english": "Find the unit digit of 7^341.",
+    "question-hindi": "7^341 का इकाई अंक ज्ञात कीजिए।",
+    "options-english": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+    "options-hindi": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+    "answer-english": "(c) 7",
+    "answer-hindi": "(c) 7",
+    "solution-english": "Cycle (7,9,3,1). 341 mod 4=1 ⇒ 1st digit=7.",
+    "solution-hindi": "चक्रीयता (7,9,3,1)। 341÷4 शेष 1 ⇒ पहला अंक 7।"
+  },
+  {
+    "question-english": "The difference between a 40% discount and two successive 20% discounts is ₹80. Find bill amount.",
+    "question-hindi": "40% की छूट और 20%-20% की दो क्रमिक छूटों के बीच का अंतर ₹80 है। बिल की राशि ज्ञात करें।",
+    "options-english": ["(a) 1000", "(b) 1500", "(c) 2000", "(d) 2500"],
+    "options-hindi": ["(a) ₹1,000", "(b) ₹1,500", "(c) ₹2,000", "(d) ₹2,500"],
+    "answer-english": "(c) 2000",
+    "answer-hindi": "(c) ₹2,000",
+    "solution-english": "Successive discount=36%, diff=4%⇒0.04x=80⇒x=2000.",
+    "solution-hindi": "क्रमिक छूट=36%, अंतर=4%⇒0.04x=80⇒x=2000।"
+  },
+  {
+    "question-english": "Find the length of plank that can measure 3m60cm, 4m80cm, 6m exactly.",
+    "question-hindi": "उस तख्ते की लंबाई ज्ञात करें जो 3मी60सेमी, 4मी80सेमी और 6मी को ठीक-ठीक माप सके।",
+    "options-english": ["(a) 60 cm", "(b) 90 cm", "(c) 120 cm", "(d) 150 cm"],
+    "options-hindi": ["(a) 60 सेमी", "(b) 90 सेमी", "(c) 120 सेमी", "(d) 150 सेमी"],
+    "answer-english": "(c) 120 cm",
+    "answer-hindi": "(c) 120 सेमी",
+    "solution-english": "Lengths=360,480,600 cm. HCF=120 cm.",
+    "solution-hindi": "लंबाई=360,480,600 सेमी। HCF=120 सेमी।"
+  },
+  {
+    "question-english": "A cylindrical tank (diameter 28m) plastered inside at ₹100/m² costs ₹1,14,400. Find height. (π=22/7)",
+    "question-hindi": "28 मी व्यास की बेलनाकार टंकी के अंदर ₹100/मी² की दर से ₹1,14,400 खर्च हुए। ऊँचाई ज्ञात करें। (π=22/7)",
+    "options-english": ["(a) 5 m", "(b) 6 m", "(c) 7 m", "(d) 8 m"],
+    "options-hindi": ["(a) 5 मी", "(b) 6 मी", "(c) 7 मी", "(d) 8 मी"],
+    "answer-english": "(b) 6 m",
+    "answer-hindi": "(b) 6 मी",
+    "solution-english": "r=14, Area=1144=πr²+2πrh ⇒ h=6m.",
+    "solution-hindi": "r=14, क्षेत्र=1144=πr²+2πrh ⇒ h=6 मी।"
+  },
+  {
+    "question-english": "Two taps fill in 8h and 12h, third empties in 24h. All open together, find fill time.",
+    "question-hindi": "दो नल 8 और 12 घंटे में भरते हैं, तीसरा 24 घंटे में खाली करता है। तीनों खुले हों तो समय ज्ञात करें।",
+    "options-english": ["(a) 6", "(b) 7", "(c) 8", "(d) 9"],
+    "options-hindi": ["(a) 6", "(b) 7", "(c) 8", "(d) 9"],
+    "answer-english": "(a) 6",
+    "answer-hindi": "(a) 6",
+    "solution-english": "1/8+1/12−1/24=1/6 ⇒ time=6 h.",
+    "solution-hindi": "1/8+1/12−1/24=1/6 ⇒ समय=6 घंटे।"
+  },
+  {
+    "question-english": "Amit spends 25% on rent, 60% of rest on expenses, saves ₹4500. Find income.",
+    "question-hindi": "अमित अपनी आय का 25% किराए पर, शेष का 60% खर्च करता है और ₹4500 बचाता है। कुल आय ज्ञात करें।",
+    "options-english": ["(a) 12000", "(b) 15000", "(c) 18000", "(d) 20000"],
+    "options-hindi": ["(a) ₹12,000", "(b) ₹15,000", "(c) ₹18,000", "(d) ₹20,000"],
+    "answer-english": "(b) 15000",
+    "answer-hindi": "(b) ₹15,000",
+    "solution-english": "Savings=0.30x=4500 ⇒ x=15000.",
+    "solution-hindi": "बचत=0.30x=4500 ⇒ x=15000।"
+  },
+  {
+    "question-english": "A sum becomes 4 times itself at simple interest when time=rate. Find rate.",
+    "question-hindi": "एक राशि साधारण ब्याज पर चार गुनी हो जाती है, जब समय दर के बराबर है। दर ज्ञात करें।",
+    "options-english": ["(a) 10√3%", "(b) 15%", "(c) 10√2%", "(d) 17.32%"],
+    "options-hindi": ["(a) 10√3%", "(b) 15%", "(c) 10√2%", "(d) 17.32%"],
+    "answer-english": "(d) 17.32%",
+    "answer-hindi": "(d) 17.32%",
+    "solution-english": "3P=(P*R²)/100 ⇒ R²=300 ⇒ R=√300=17.32%.",
+    "solution-hindi": "3P=(P*R²)/100 ⇒ R²=300 ⇒ R=√300=17.32%।"
+  },
+  {
+    "question-english": "A ₹500 item sold for ₹360 after two discounts; first 20%. Find second discount.",
+    "question-hindi": "₹500 की वस्तु दो छूटों के बाद ₹360 में बेची गई; पहली 20%। दूसरी छूट ज्ञात करें।",
+    "options-english": ["(a) 10%", "(b) 12%", "(c) 15%", "(d) 18%"],
+    "options-hindi": ["(a) 10%", "(b) 12%", "(c) 15%", "(d) 18%"],
+    "answer-english": "(a) 10%",
+    "answer-hindi": "(a) 10%",
+    "solution-english": "After 20%, price=400. Second=(40/400)*100=10%.",
+    "solution-hindi": "पहली छूट के बाद मूल्य=400। दूसरी=(40/400)*100=10%।"
+  },
+  {
+    "question-english": "In an election, votes ratio 2:5:3, 10% invalid, 2nd got 4500. Find total voters.",
+    "question-hindi": "एक चुनाव में मत 2:5:3 के अनुपात में, 10% अवैध, दूसरे को 4500 मत मिले। कुल मतदाता ज्ञात करें।",
+    "options-english": ["(a) 9000", "(b) 10000", "(c) 11000", "(d) 12000"],
+    "options-hindi": ["(a) 9,000", "(b) 10,000", "(c) 11,000", "(d) 12,000"],
+    "answer-english": "(b) 10000",
+    "answer-hindi": "(b) 10,000",
+    "solution-english": "5x=4500 ⇒ x=900 ⇒ valid=9000=0.9V ⇒ V=10000.",
+    "solution-hindi": "5x=4500 ⇒ x=900 ⇒ वैध=9000=0.9V ⇒ V=10000।"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 में, 'B' आइकन आमतौर पर क्या दर्शाता है?",
+              "question-english" : "81 In Microsoft Word 365, what does the ‘B’ icon usually represent?",
+              "options-hindi": ["A). बुलेट पॉइंट्स", "B). पेज ब्रेक", "C). बोल्ड स्वरूपण", "D). इटैलिक स्वरूपण"],
+              "options-english": ["A). Bullet points", "B). Page break", "C). Bold formatting", "D). Italic formatting"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: 'B' आइकन, जो होम टैब पर फ़ॉन्ट समूह में स्थित है, का उपयोग टेक्स्ट पर बोल्ड स्वरूपण लागू करने के लिए किया जाता है, जिससे यह गहरा और मोटा दिखाई देता है।",
+              "solution-english": "Solution: The ‘B’ icon, located in the Font group on the Home tab, is used to apply Bold formatting to text, making it appear darker and thicker."
+            },
+            {
+              "question-hindi": "एक नया ईमेल लिखते समय, प्राथमिक प्राप्तकर्ता का ईमेल पता दर्ज करने के लिए सामान्य स्थान कहाँ होता है?",
+              "question-english" : "In the process of composing a new email, where is the usual location for entering the primary recipient's email address?",
+              "options-hindi": ["A). सब्जेक्ट लाइन", "B). 'To' फ़ील्ड", "C). 'CC' फ़ील्ड", "D). ईमेल का मुख्य भाग"],
+              "options-english": ["A). Subject line", "B). ‘To’ field", "C). ‘CC’ field", "D). Body of the email"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: एक ईमेल के मुख्य प्राप्तकर्ताओं को 'To' फ़ील्ड में दर्ज किया जाता है। 'CC' (कार्बन कॉपी) फ़ील्ड अतिरिक्त प्राप्तकर्ताओं के लिए है जिन्हें ईमेल प्राप्त करना चाहिए लेकिन वे प्राथमिक दर्शक नहीं हैं।",
+              "solution-english": "Solution: The main recipients of an email are entered into the ‘To’ field. The 'CC' (Carbon Copy) field is for additional recipients who should receive the email but are not the primary audience."
+            },
+            {
+              "question-hindi": "83 MS Excel 365 में, MS Excel में डेटा पेस्ट करने के लिए निम्नलिखित में से कौन सी सही शॉर्टकट कुंजी है?",
+              "question-english" : "In MS Excel 365, which of the following is the correct shortcut key used to paste data in MS Excel?",
+              "options-hindi": ["A). Ctrl + V", "B). Alt + V", "C). Shift + V", "D). Ctrl + C"],
+              "options-english": ["A). Ctrl + V", "B). Alt + V", "C). Shift + V", "D). Ctrl + C"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + V पेस्ट के लिए मानक कमांड है, जो क्लिपबोर्ड पर कॉपी या कट किए गए किसी भी डेटा को चयनित सेल में डालता है।",
+              "solution-english": "Solution: The shortcut Ctrl + V is the standard command for Paste, which inserts any data that has been copied or cut to the clipboard into the selected cell(s)."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन से आइकन MS Word 365 में डिज़ाइन मेनू का हिस्सा हैं?",
+              "question-english" : "Which of the following icons are a part of the Design menu in MS Word 365?",
+              "options-hindi": ["A). थीम, रंग, फ़ॉन्ट, प्रभाव और पृष्ठ सीमाओं को बदलने के लिए आइकन", "B). वर्तनी और व्याकरण जांच, थिसॉरस और शब्द गणना के लिए आइकन", "C). ज़ूम इन और आउट, प्रिंट लेआउट, विंडोज़ स्विच करने और विंडोज़ को विभाजित करने के लिए आइकन", "D). फ़ॉन्ट आकार, शैली, संरेखण और सीमाओं को बदलने के लिए आइकन"],
+              "options-english": ["A). Icons to change themes, colours, fonts, effects and page borders", "B). Icons for spelling and grammar check, thesaurus and word count", "C). Icons for zooming in and out, print layout, switching windows and splitting windows", "D). Icons to change font size, style, alignment and borders"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: डिज़ाइन टैब पूरे दस्तावेज़ के समग्र रूप और अनुभव पर केंद्रित है। इसमें दस्तावेज़-व्यापी सेटिंग्स जैसे थीम, स्टाइल सेट, रंग, फ़ॉन्ट, पैराग्राफ स्पेसिंग, प्रभाव और पृष्ठ सीमाओं के लिए नियंत्रण होते हैं।",
+              "solution-english": "Solution: The Design tab focuses on the overall look and feel of the entire document. It contains controls for document-wide settings like Themes, style sets, colors, fonts, paragraph spacing, effects, and page borders."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से, MS-Word 365 में आपको बुलेट और नंबरिंग किस टैब के अंतर्गत मिलेगा?",
+              "question-english" : "Among the following, under which tab will you find the Bullets and Numbering in MS-Word 365?",
+              "options-hindi": ["A). पेज लेआउट", "B). इंसर्ट", "C). रेफरेंसेज", "D). होम"],
+              "options-english": ["A). Page Layout", "B). Insert", "C). References", "D). Home"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: बुलेटेड और नंबर्ड सूचियाँ बनाने के विकल्प होम टैब पर पैराग्राफ समूह में स्थित हैं।",
+              "solution-english": "Solution: The options to create Bulleted and Numbered lists are located in the Paragraph group on the Home tab."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365 में डेटा को सॉर्ट करने का उद्देश्य क्या है?",
+              "question-english" : "What is the purpose of sorting data in Microsoft Excel 365?",
+              "options-hindi": ["A). केवल सेलों पर स्वरूपण लागू करना", "B). डेटा का औसत निकालना", "C). मानों के आधार पर डेटा को एक विशिष्ट क्रम में व्यवस्थित करना", "D). चार्ट और ग्राफ़ बनाना"],
+              "options-english": ["A). To apply formatting to the cells only", "B). To calculate averages of the data", "C). To organise data in a specific order based on values", "D). To create charts and graphs"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: सॉर्टिंग का प्राथमिक उद्देश्य डेटा को एक विशिष्ट क्रम में व्यवस्थित करना है (जैसे कि वर्णानुक्रम में, संख्यात्मक रूप से, या तिथि के अनुसार) ताकि इसे पढ़ना, विश्लेषण करना और विशिष्ट जानकारी खोजना आसान हो सके।",
+              "solution-english": "Solution: The primary purpose of sorting is to organize data in a specific order (such as alphabetically, numerically, or by date) to make it easier to read, analyze, and find specific information."
+            },
+            {
+              "question-hindi": "MS Word 365 में एक नया खाली दस्तावेज़ बनाने के लिए आमतौर पर किस कीबोर्ड शॉर्टकट का उपयोग किया जाता है?",
+              "question-english" : "Which keyboard shortcut is commonly used to create a new blank document in MS Word 365?",
+              "options-hindi": ["A). Ctrl + C", "B). Ctrl + N", "C). Ctrl + S", "D). Ctrl + O"],
+              "options-english": ["A). Ctrl + C", "B). Ctrl + N", "C). Ctrl + S", "D). Ctrl + O"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + N का उपयोग वर्ड में एक नया खाली दस्तावेज़ बनाने के लिए किया जाता है।",
+              "solution-english": "Solution: The shortcut Ctrl + N is used to create a New blank document in Word."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा कीबोर्ड शॉर्टकट आपको MS Excel 365 में डेटा कॉपी करने में मदद करता है?",
+              "question-english" : "Which of the following keyboard shortcuts helps you copy data in MS Excel 365?",
+              "options-hindi": ["A). Ctrl + C", "B). Ctrl + Z", "C). Ctrl + X", "D). Ctrl + Y"],
+              "options-english": ["A). Ctrl + C", "B). Ctrl + Z", "C). Ctrl + X", "D). Ctrl + Y"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: Ctrl + C कॉपी कमांड के लिए शॉर्टकट है, जो चयनित सेलों की सामग्री को डुप्लिकेट करता है और उन्हें क्लिपबोर्ड पर रखता है।",
+              "solution-english": "Solution: Ctrl + C is the shortcut for the Copy command, which duplicates the contents of the selected cells and places them on the clipboard."
+            },
+            {
+              "question-hindi": "संदर्भ मेनू में कौन सा विकल्प आपको माइक्रोसॉफ्ट वर्ड 365 में स्वरूपण हटाकर कॉपी किए गए टेक्स्ट को पेस्ट करने की अनुमति देता है?",
+              "question-english" : "Which option in the context menu allows you to paste the copied text with formatting removed in Microsoft Word 365?",
+              "options-hindi": ["A). पेस्ट", "B). प्लेन टेक्स्ट के रूप में पेस्ट करें", "C). पेस्ट स्पेशल", "D). बिना स्वरूपित टेक्स्ट के रूप में पेस्ट करें"],
+              "options-english": ["A). Paste", "B). Paste as Plain Text", "C). Paste Special", "D). Paste as Unformatted Text"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: जब आप पेस्ट करने के लिए राइट-क्लिक करते हैं, तो वर्ड कई पेस्ट विकल्प प्रदान करता है। 'प्लेन टेक्स्ट के रूप में पेस्ट करें' (या कभी-कभी 'केवल टेक्स्ट रखें', जो 'A' आइकन द्वारा दर्शाया जाता है) नामक विकल्प टेक्स्ट को उसके किसी भी मूल स्वरूपण के बिना डालेगा, ताकि यह गंतव्य के स्वरूपण से मेल खाए।",
+              "solution-english": "Solution: When you right-click to paste, Word provides several paste options. The option labeled ‘Paste as Plain Text’ (or sometimes 'Keep Text Only', represented by an 'A' icon) will insert the text without any of its original formatting, so it matches the formatting of the destination."
+            },
+            {
+              "question-hindi": "इंटरनेट एक्सेस के संदर्भ में 'ISP' का क्या अर्थ है?",
+              "question-english" : "What does ‘ISP’ stand for in the context of internet access?",
+              "options-hindi": ["A). इंटरनेट सर्विस प्रोवाइडर", "B). इंटरनेशनल सिक्योरिटी प्रोटोकॉल", "C). इंटरनेट सिस्टम प्रोटोकॉल", "D). इंटरनेट सिक्योरिटी प्रोग्राम"],
+              "options-english": ["A). Internet Service Provider", "B). International Security Protocol", "C). Internet System Protocol", "D). Internet Security Program"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: ISP, इंटरनेट सर्विस प्रोवाइडर का संक्षिप्त रूप है, वह कंपनी जिसे आप अपने इंटरनेट कनेक्शन के लिए भुगतान करते हैं।",
+              "solution-english": "Solution: ISP is the acronym for Internet Service Provider, the company you pay for your internet connection."
+            }
+          ]
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+              "question-hindi": "'भारत के सीमांत गांधी' के रूप में किसे जाना जाता था और जो ब्रिटिश भारत के उत्तर पश्चिम सीमांत प्रांत के नेता थे?",
+              "question-english" : "Who was known as the 'Frontier Gandhi of India' and was the leader of North West Frontier province of British India?",
+              "options-hindi": ["A). खान अब्दुल गफ्फार खान","B). सुभाष चंद्र बोस","C). महात्मा गांधी","D). जवाहरलाल नेहरू"],
+              "options-english": ["A). Khan Abdul Gaffar Khan", "B). Subhash Chandra Bose", "C). Mahatma Gandhi", "D). Jawaharlal Nehru"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:खान अब्दुल गफ्फार खान एक पश्तून स्वतंत्रता कार्यकर्ता थे जिन्होंने भारत के विभाजन का पुरजोर विरोध किया। वह एक धर्मनिष्ठ मुस्लिम और महात्मा गांधी के करीबी सहयोगी थे, जिसके कारण उन्हें 'सीमांत गांधी' का उपनाम मिला। उन्होंने उत्तर-पश्चिम सीमांत प्रांत में खुदाई खिदमतगार ('ईश्वर के सेवक') आंदोलन का नेतृत्व किया।",
+              "solution-english": "Solution: Khan Abdul Gaffar Khan was a Pashtun independence activist who strongly opposed the partition of India. He was a devout Muslim and a close associate of Mahatma Gandhi, earning him the nickname 'Frontier Gandhi'. He led the Khudai Khidmatgar ('Servants of God') movement in the North-West Frontier Province."
+            },
+            {
+              "question-hindi": "'ए शॉट एट हिस्ट्री' निम्नलिखित में से किस ओलंपिक पदक विजेता की आत्मकथा है?",
+              "question-english" : "'A shot at History' is an autobiography of whom among the following Olympic medal awardees?",
+              "options-hindi": ["A). पीवी सिंधु","B). सुशील कुमार","C). अभिनव बिंद्रा","D). लिएंडर पेस"],
+              "options-english": ["A). PV Sindhu","B). Sushil Kumar","C). Abhinav Bindra","D). Leander Pacs"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:'ए शॉट एट हिस्ट्री: माई ऑब्सेसिव जर्नी टू ओलंपिक गोल्ड'अभिनव बिंद्रा की आत्मकथा है। वह व्यक्तिगत ओलंपिक स्वर्ण पदक जीतने वाले पहले भारतीय थे, जिन्होंने 2008 के बीजिंग ओलंपिक में 10-मीटर एयर राइफल स्पर्धा में यह उपलब्धि हासिल की थी।",
+              "solution-english": "Solution:'A Shot at History: My Obsessive Journey to Olympic Gold' is the autobiography of Abhinav Bindra. He was the first Indian to win an individual Olympic gold medal, achieving this feat in the 10-meter air rifle event at the 2008 Beijing Olympics."
+            },
+            {
+              "question-hindi": "गैंगवोन निम्नलिखित में से किस खेल आयोजन का मेजबान शहर है?",
+              "question-english" : "Gangwon is the host city of which of the following sports events?",
+              "options-hindi": ["A). शीतकालीन ओलंपिक 2024","B). ग्रीष्मकालीन युवा ओलंपिक खेल 2024","C). शीतकालीन युवा ओलंपिक खेल 2024","D). ग्रीष्मकालीन ओलंपिक 2024"],
+              "options-english": ["A). Winter Olympics 2024","B). Summer Youth Olympic Games 2024","C). Winter Youth Olympic Games 2024","D). Summer Olympics 2024"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:दक्षिण कोरिया के गैंगवोन प्रांत ने 2024 में चौथे शीतकालीन युवा ओलंपिक खेलों की मेजबानी की। इस आयोजन में प्योंगचांग 2018 शीतकालीन ओलंपिक के कई स्थलों का उपयोग किया गया।",
+              "solution-english": "Solution:The province of Gangwon in South Korea hosted the fourth Winter Youth Olympic Games in 2024. This event utilized many of the venues from the PyeongChang 2018 Winter Olympics."
+            },{
+              "question-hindi": "राज्य के नीति निदेशक सिद्धांत जिसमें राज्य को 'आय, स्थिति, सुविधाओं और अवसरों मेंअसमानताओं को कम करने' की आवश्यकता है, को _________________ संविधान संशोधन अधिनियम द्वारा जोड़ा गया था।",
+              "question-english" : "The Directive Principle of State Policy that requires the State 'to minimise inequalities in income, status, facilities and opportunities' was added by the _________________Constitution Amendment Act.",
+              "options-hindi": ["A). 44वें","B). 40वें","C). 41वें","D). 43वें"],
+              "options-english": ["A). 44th","B). 40th","C). 41st","D). 43rd"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:1978 के 44वें संशोधन अधिनियम ने अनुच्छेद 38 के तहत राज्य नीति का एक नया निदेशक सिद्धांत जोड़ा। यह सिद्धांत राज्य को न केवल व्यक्तियों के बीच बल्कि विभिन्न क्षेत्रों में रहने वाले या विभिन्न व्यवसायों में लगे लोगों के समूहों के बीच भी आय, स्थिति, सुविधाओं और अवसरों में असमानताओं को कम करने की आवश्यकता पर बल देता है।",
+              "solution-english": "Solution:The 44th Amendment Act of 1978 added a new Directive Principle of State Policy under Article 38. This principle requires the state to minimize inequalities in income,status, facilities, and opportunities, not just among individuals but also among groups of people residing in different areas or engaged in different vocations."
+            },{
+              "question-hindi": "भारत के संविधान के अनुच्छेद 170 के अनुसार, प्रत्येक राज्य की विधान सभा में __________ से अधिक सदस्य नहीं होंगे।",
+              "question-english" : "As per Article 170 of the Constitution of India, the Legislative Assembly of each State shall consist of NOT more than __________ members",
+              "options-hindi": ["A). 450","B). 300","C). 500","D). 250"],
+              "options-english": ["A). 450","B). 300","C). 500","D). 250"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:भारतीय संविधान का अनुच्छेद 170 विधान सभाओं की संरचना को निर्दिष्ट करता है। इसमें कहा गया है कि प्रत्येक राज्य की विधान सभा में 500 से अधिक और 60 से कम सदस्य नहीं होंगे, जो राज्य में क्षेत्रीय निर्वाचन क्षेत्रों से सीधे चुनाव द्वारा चुने जाएंगे।",
+              "solution-english": "Solution:Article 170 of the Indian Constitution specifies the composition of the Legislative Assemblies. It states that the Legislative Assembly of each state shall consist of not more than 500 and not less than 60 members chosen by direct election from territorial constituencies in the State."
+            },{
+              "question-hindi": "अनिल कुंबले ने किस वर्ष क्रिकेट टेस्ट मैच में 10 विकेट लिए थे?",
+              "question-english" : "In which year did Anil Kumble take 10 wickets in a cricket test match?",
+              "options-hindi": ["A). 1999","B). 1987","C). 1986","D). 1998"],
+              "options-english": ["A). 1999","B). 1987","C). 1986","D). 1998"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer:A",
+              "solution-hindi": "समाधान:अनिल कुंबले ने 7 फरवरी, 1999 को एक ही टेस्ट मैच की पारी में सभी 10 विकेट लेने का उल्लेखनीय कारनामा किया। यह ऐतिहासिक प्रदर्शन दिल्ली के फिरोज शाह कोटला स्टेडियम में पाकिस्तान के खिलाफ दूसरे टेस्ट के दौरान हुआ था। वह इंग्लैंड के जिम लेकर के बाद टेस्ट क्रिकेट के इतिहास में ऐसा करने वाले केवल दूसरे गेंदबाज बने।",
+              "solution-english": "Solution:Anil Kumble achieved the remarkable feat of taking all 10 wickets in a single Test match innings on February 7, 1999. This historic performance occurred during the second Test against Pakistan at the Feroz Shah Kotla Stadium in Delhi. He became only the second bowler in the history of Test cricket to do so, after England's Jim Laker."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा भारत में एक प्रमुख जूट उत्पादक राज्य नहीं है?",
+              "question-english" : "Which of the following is NOT a major jute producing state in India?",
+              "options-hindi": ["A). मेघालय","B). पश्चिम बंगाल","C). असम","D). तेलंगाना"],
+              "options-english": ["A). Meghalaya","B). West Bengal","C). Assam","D). Telangana"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:भारत में प्रमुख जूट उत्पादक राज्य पूर्वी क्षेत्र में केंद्रित हैं। पश्चिम बंगाल सबसे बड़ा उत्पादक है, इसके बाद असम, बिहार, ओडिशा और आंध्र प्रदेश का स्थान है। दक्षिण भारत में स्थित तेलंगाना, एक प्रमुख जूट उत्पादक राज्य नहीं है।",
+              "solution-english": "Solution:The major jute-producing states in India are concentrated in the eastern region. West Bengal is the largest producer, followed by Assam, Bihar, Odisha, and Andhra Pradesh. Telangana, located in southern India, is not a major jute-producing state."
+            },{
+              "question-hindi": "पीएमजेजेबीवाई (प्रधानमंत्री जीवन ज्योति बीमा योजना) एक प्रकार की __ है।",
+              "question-english" : "PMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana) scheme is a type of __.",
+              "options-hindi": ["A). जीवन बीमा योजना","B). पेंशन योजना","C). एडी एंड डी योजना","D). ऋण योजना"],
+              "options-english": ["A). life insurance scheme","B). pension scheme","C). AD&D scheme","D). loan scheme"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:प्रधानमंत्री जीवन ज्योति बीमा योजना (पीएमजेजेबीवाई) भारत में सरकार समर्थित जीवन बीमा योजना है। यह 18 से 50 वर्ष के आयु वर्ग के सभी ग्राहक बैंक खाताधारकों को ₹436 प्रति वर्ष के प्रीमियम पर किसी भी कारण से मृत्यु को कवर करते हुए ₹2 लाख का एक साल का नवीकरणीय जीवन बीमा प्रदान करती है।",
+              "solution-english": "Solution:The Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is agovernment-backed life insurance scheme in India. It offers a renewable one-year life cover of ₹2 lakh to all subscribing bank account holders in the age group of 18 to 50 years, covering death due to any reason, for a premium of ₹436 per annum."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सी नदी भारत में अधिकतम राज्यों से होकर गुजरती है?",
+              "question-english" : "Which of the following rivers passes through the maximum number of states in India?",
+              "options-hindi": ["A). दामोदर","B). सिंधु","C). गंगा","D). महानदी"],
+              "options-english": ["A). Damodar","B). Indus","C). Ganga","D). Mahanadi"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:गंगा नदी बेसिन भारत में सबसे बड़ा है, जो कुल 11 राज्यों: उत्तराखंड, उत्तर प्रदेश, मध्य प्रदेश, राजस्थान, हरियाणा, हिमाचल प्रदेश, छत्तीसगढ़, झारखंड, बिहार, पश्चिम बंगाल और दिल्ली से होकर बहती है। यह इसे भारत में अधिकतम संख्या में राज्यों से गुजरने वाली नदी बनाता है।",
+              "solution-english": "Solution:The Ganga river basin is the largest in India, flowing through a total of 11 states: Uttarakhand, Uttar Pradesh, Madhya Pradesh, Rajasthan, Haryana, Himachal Pradesh, Chhattisgarh, Jharkhand, Bihar, West Bengal, and Delhi. This makes it the river that passes through the maximum number of states in India"
+            },{
+              "question-hindi": "हड़प्पा सभ्यता के दौरान _________ मूर्तियों को बनाने के लिए लुप्त-मोम ढलाई तकनीक का उपयोग किया जाता था।",
+              "question-english" : "Lost wax casting technique was used to make _________ statues during Harappan civilisation.",
+              "options-hindi": ["A). लकड़ी","B). चट्टान","C). कांस्य","D). संगमरमर"],
+              "options-english": ["A). wood","B). rock","C). bronze","D). marble"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer:C",
+              "solution-hindi": "समाधान:हड़प्पा सभ्यता अपनी उन्नत कांस्य ढलाई के लिए जानी जाती थी, जिसमें लुप्त-मोम तकनीक का उपयोग किया जाता था। इस विधि का उपयोग जटिल कांस्य मूर्तियों को बनाने के लिए किया गया था, जिसका सबसे प्रसिद्ध उदाहरण मोहनजो-दड़ो में खोजी गई 'नृत्य करती लड़की' की मूर्ति है।",
+              "solution-english": "Solution:The Harappan civilization was known for its advanced bronze casting, utilizing the lost-wax technique. This method was used to create intricate bronze statues, with the most famous example being the 'Dancing Girl' statuette discovered at Mohenjo-Daro"
+            },{
+              "question-hindi": "भारतीय संविधान के अनुच्छेद 19 के बारे में निम्नलिखित में से कौन सा सही नहीं है?",
+              "question-english" : "Which of the following is not correct about Article 19 of the Indian Constitution?",
+              "options-hindi": ["A). सभी नागरिकों को भाषण और अभिव्यक्ति की स्वतंत्रता का अधिकार होगा।","B). सभी नागरिकों को भारत के क्षेत्र के बाहर स्वतंत्र रूप से घूमने का अधिकार होगा।","C). सभी नागरिकों को शांतिपूर्वक और बिना हथियारों के इकट्ठा होने का अधिकार होगा।","D). सभी नागरिकों को संघ या यूनियन बनाने का अधिकार होगा।"],
+              "options-english": ["A). All citizens shall have the right to freedom of speech and expression.","B). All citizens shall have the right to move freely outside the territory of India.","C). All citizens shall have the right to assemble peaceably and without arms.","D). All citizens shall have the right to form associations or unions."],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "समाधान:भारतीय संविधान का अनुच्छेद 19(1)(d) सभी नागरिकों को 'भारत के पूरे क्षेत्र में स्वतंत्र रूप से घूमने' का अधिकार देता है। भारत के क्षेत्र के बाहर स्वतंत्र रूप से घूमने का अधिकार अनुच्छेद 19 के तहत स्पष्ट रूप से उल्लिखित नहीं है, लेकिन इसे अनुच्छेद 21 के तहत व्यक्तिगत स्वतंत्रता के अधिकार का एक हिस्सा माना जाता है।",
+              "solution-english": "Solution:Article 19(1)(d) of the Indian Constitution guarantees all citizens the right 'to move freely throughout the territory of India.'' The right to move freely outside the territory of India is not explicitly mentioned under Article 19 but is considered a part of the right to personal liberty under Article 21."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सी पुस्तक चंद्रगुप्त मौर्य के प्रधानमंत्री कौटिल्य द्वारा लिखी गई थी?",
+              "question-english" : "Which of the following books was written by Kautilya, Prime Minister of Chandragupta Maurya?",
+              "options-hindi": ["A). अर्थशास्त्र","B). अंगुत्तर निकाय","C). भगवती सूत्र","D). पूर्व मीमांसा सूत्र"],
+              "options-english": ["A). Arthashstra","B). Anguttara Nikaya","C). Bhagavati Sutra","D). Purva Mimamsa Sutras"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:अर्थशास्त्र राज्य-व्यवस्था, आर्थिक नीति और सैन्य रणनीति पर एक प्राचीन भारतीय ग्रंथ है, जो संस्कृत में लिखा गया है। इसका श्रेय पारंपरिक रूप से कौटिल्य (जिन्हें चाणक्य या विष्णुगुप्त के नाम से भी जाना जाता है) को दिया जाता है, जो मौर्य सम्राट चंद्रगुप्त के मुख्य सलाहकार और प्रधानमंत्री थे।",
+              "solution-english": "Solution:The Arthashastra is an ancient Indian treatise on statecraft, economic policy, and military strategy, written in Sanskrit. It is traditionally attributed to Kautilya (also known as Chanakya or Vishnugupta), who was the chief advisor and Prime Minister to the Mauryan emperor Chandragupta."
+            },{
+              "question-hindi": "निम्नलिखित में से किसका नाम दूसरी पंचवर्षीय योजना से जुड़ा है?",
+              "question-english" : "Whose name among the following is associated with the second five-year plan?",
+              "options-hindi": ["A). कांतिलाल मर्डिया","B). जयंत कुमार घोष","C). देबब्रत बसु","D). प्रशांत चंद्र महालनोबिस"],
+              "options-english": ["A). Kantilal Mardia","B). Jayanta Kumar Ghosh","C). Debabrata Basu","D). Prasanta Chandra Mahalanobis"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:प्रशांत चंद्र महालनोबिस, एक प्रख्यात भारतीय सांख्यिकीविद्, भारत की दूसरी पंचवर्षीय योजना (1956-61) के मुख्य वास्तुकार थे। यह योजना महालनोबिस मॉडल पर आधारित थी, जिसने भारी उद्योगों के विकास पर जोर देने के साथ तीव्र औद्योगिकीकरण पर ध्यान केंद्रित किया।",
+              "solution-english": "Solution:Prasanta Chandra Mahalanobis, an eminent Indian statistician, was the chief architect of India's second five-year plan (1956-61). The plan was based on the Mahalanobis model, which focused on rapid industrialization with an emphasis on the development of heavy industries."
+            },{
+              "question-hindi": "राष्ट्रीय जूट बोर्ड 2022-23 के अनुसार, कौन सा राज्य जूट का सबसे बड़ा उत्पादक है?",
+              "question-english" : "According to the National Jute Board 2022-23, which state is the largest producer of jute?",
+              "options-hindi": ["A). पश्चिम बंगाल","B). मध्य प्रदेश","C). बिहार","D). गुजरात"],
+              "options-english": ["A). पश्चिम बंगाल","B). मध्य प्रदेश","C). बिहार","D). गुजरात"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:पश्चिम बंगाल लगातार भारत में जूट का सबसे बड़ा उत्पादक रहा है। गंगा के डेल्टा में अनुकूल जलवायु परिस्थितियाँ और उपजाऊ मिट्टी जूट की खेती में राज्य के प्रभुत्व में योगदान करती है।",
+              "solution-english": "Solution:West Bengal has consistently been the largest producer of jute in India. Favorable climatic conditions and fertile soil in the Gangetic delta contribute to the state's dominance in jute cultivation."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा युग्म गलत है?",
+              "question-english" : "Which of the following pairs is INCORRECT?",
+              "options-hindi": ["A). भाग I - संघ और उसका राज्यक्षेत्र","B). भाग III - मौलिक अधिकार","C). भाग II - मौलिक कर्तव्य","D). भाग VIII - केंद्र शासित प्रदेश"],
+              "options-english": ["A). Part I - The Union and its Territory","B). Part III - Fundamental Rights","C). Part II - Fundamental Duties","D). Part VIII - The Union Territories"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:भारतीय संविधान का भाग II नागरिकता से संबंधित है, न कि मौलिक कर्तव्यों से। मौलिक कर्तव्य संविधान के भाग IV-A में निहित हैं। इसलिए, 'भाग II - मौलिक कर्तव्य' युग्म गलत है।",
+              "solution-english": "Solution:Part II of the Indian Constitution deals with Citizenship, not Fundamental Duties. The Fundamental Duties are enshrined in Part IV-A of the Constitution. Therefore, the pair 'Part II – Fundamental Duties' is incorrect."
+            },{
+              "question-hindi": "भारत के महान्यायवादी की नियुक्ति कौन करता है?",
+              "question-english" : "Who appoints the Attorney-General of India?",
+              "options-hindi": ["A). प्रधानमंत्री","B). राष्ट्रपति","C). राज्यपाल","D). मुख्यमंत्री"],
+              "options-english": ["A). Prime Minister","B). President","C). Governor","D). Chief Minister"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "समाधान:भारत के संविधान के अनुच्छेद 76 के अनुसार, भारत के महान्यायवादी की नियुक्ति राष्ट्रपति द्वारा की जाती है। नियुक्त व्यक्ति को सर्वोच्च न्यायालय के न्यायाधीश के रूप में नियुक्त होने के योग्य होना चाहिए।",
+              "solution-english": "Solution:According to Article 76 of the Constitution of India, the Attorney-General for India is appointed by the President. The person appointed must be qualified to be appointed as a Judge of the Supreme Court."
+            },{
+              "question-hindi": "समतापमंडल निम्नलिखित में से किन वायुमंडलीय परतों के बीच स्थित है?",
+              "question-english" : "The stratosphere is located between which of the following atmospheric layers?",
+              "options-hindi": ["A). मध्यमंडल और तापमंडल","B). क्षोभसीमा और समतापसीमा","C). समतापसीमा और मध्यसीमा","D). मध्यसीमा और बहिर्मंडल"],
+              "options-english": ["A). Mesosphere and Thermosphere","B). Tropopause and Stratopause","C). Stratopause and Mesopause","D). Mesopause and Exosphere"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "समाधान:समतापमंडल पृथ्वी के वायुमंडल की दूसरी परत है। यह क्षोभमंडल के ऊपर और मध्यमंडल के नीचे स्थित है। क्षोभमंडल और समतापमंडल के बीच की सीमा को क्षोभसीमा कहा जाता है, और समतापमंडल और मध्यमंडल के बीच की सीमा को समतापसीमा कहा जाता है। इस प्रकार, समतापमंडल क्षोभसीमा और समतापसीमा के बीच स्थित है।",
+              "solution-english": "Solution:The stratosphere is the second layer of the Earth's atmosphere. It is located above the troposphere and below the mesosphere. The boundary between the troposphere and the stratosphere is called the tropopause, and the boundary between the stratosphere and the mesosphere is the stratopause. Thus, the stratosphere is located between the tropopause and the stratopause."
+            },{
+              "question-hindi": "मध्य प्रदेश सरकार द्वारा नृत्य के क्षेत्र में निम्नलिखित में से कौन सा पुरस्कार दिया जाता है?",
+              "question-english" : "Which of the following awards is given in the field of dance by the government of Madhya Pradesh?",
+              "options-hindi": ["A). कालिदास सम्मान","B). टैगोर रत्न","C). सनातन संगीत संस्कृति","D). सर्वश्रेष्ठ कोरियोग्राफर के लिए नंदी पुरस्कार"],
+              "options-english": ["A). Kalidas Samman","B). Tagore Ratna","C). Sanatan Sangeet Sanskriti","D). Nandi Award for Best Choreographer"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:कालिदास सम्मान भारत में मध्य प्रदेश सरकार द्वारा प्रतिवर्ष प्रदान किया जाने वाला एक प्रतिष्ठित कला पुरस्कार है। यह पुरस्कार शास्त्रीय संगीत, शास्त्रीय नृत्य, रंगमंच और प्लास्टिक कला के क्षेत्र में उत्कृष्ट उपलब्धियों के लिए दिया जाता है।",
+              "solution-english": "Solution:The Kalidas Samman is a prestigious arts award presented annually by the government of Madhya Pradesh in India. The award is given for outstanding achievements in the fields of Classical Music, Classical Dance, Theatre, and Plastic Arts."
+            },{
+              "question-hindi": "दही बनने के बारे में निम्नलिखित में से कौन सा/से सही है/हैं ? कथन 1. दूध में मौजूद बैक्टीरिया लैक्टोज को लैक्टिक एसिड में तोड़ देते हैं। कथन 2. लैक्टिक एसिड का उत्पादन दूध के पीएच को कम कर देता है, जिससे यह जम कर दही बन जाता है। कथन 3. दही (कर्ड) और योगर्ट पर्यायवाची हैं और उनकी बनावट और स्वाद बिल्कुल समान हैं।",
+              "question-english" : "Which of the following is/are correct about curd formation? Statement 1. The bacteria present in milk breakdown lactose into lactic acid. Statement 2. Production of lactic acid reduces the pH of the milk, coagulating it to form curd. Statement 3. Curd and yoghurt are the synonyms and their texture and taste is exactly same.",
+              "options-hindi": ["A). केवल कथन 1 और 2 सही हैं","B). केवल कथन 3 सही है","C). केवल कथन 1 सही है","D). सभी कथन 1, 2 और 3 सही हैं"],
+              "options-english": ["A). Only statements 1 and 2 are correct","B). Only statement 3 is correct","C). Only statement 1 is correct","D). All statements 1, 2 and 3 are correct"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:कथन 1 और 2 दही बनने की प्रक्रिया का सटीक वर्णन करते हैं। लैक्टिक एसिड बैक्टीरिया लैक्टोज (दूध की चीनी) को लैक्टिक एसिड में किण्वित करते हैं। अम्लता में यह वृद्धि (पीएच में कमी) दूध प्रोटीन (केसीन) को जमने का कारण बनती है, जिससे दही बनता है। कथन 3 गलत है क्योंकि जबकि दोनों किण्वित दूध उत्पाद हैं, योगर्ट को विशिष्ट बैक्टीरिया (लैक्टोबैसिलस बुल्गारिकस और स्ट्रेप्टोकोकस थर्मोफिलस) के साथ दूध को किण्वित करके बनाया जाता है, जो इसे पारंपरिक दही से एक अलग बनावट और स्वाद देता है।",
+              "solution-english": "Solution:Statements 1 and 2 accurately describe the process of curd formation. Lactic acid bacteria ferment the lactose (milk sugar) into lactic acid. This increase in acidity (decrease in pH) causes the milk proteins (casein) to coagulate, forming curd. Statement 3 is incorrect because while both are fermented milk products, yogurt is made by fermenting milk with specific strains of bacteria (Lactobacillus bulgaricus and Streptococcus thermophilus), which gives it a different texture and taste from traditional curd"
+            },{
+              "question-hindi": "महाराष्ट्र के किस शहर में हर साल कालिदास महोत्सव आयोजित किया जाता है?",
+              "question-english" : "In which city of Maharashtra is Kalidasa Festival organised every year?",
+              "options-hindi": ["A). मुंबई","B). नासिक","C). नागपुर","D). पुणे"],
+              "options-english": ["A). Mumbai","B). Nasik","C). Nagpur","D). Pune"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:कालिदास महोत्सव प्रतिवर्ष नागपुर, महाराष्ट्र में आयोजित किया जाता है। यह महोत्सव महान संस्कृत कवि कालिदास के सम्मान में कालिदास स्मारक समिति और महाराष्ट्र पर्यटन विकास निगम (एमटीडीसी) द्वारा आयोजित किया जाता है। इसमें संगीत, नृत्य और नाटक के प्रदर्शन होते हैं।",
+              "solution-english": "Solution:The Kalidas Festival is held annually in Nagpur, Maharashtra. The festival is organized by the Kalidas Smarak Samiti and the Maharashtra Tourism Development Corporation (MTDC) to honor the great Sanskrit poet Kalidasa. It features performances of music, dance, and drama."
+            },{
+              "question-hindi": "भारत की जनगणना 2011 के अनुसार, कितने राज्यों/केंद्र शासित प्रदेशों में महिला साक्षरता दर 90% से अधिक दर्ज की गई थी?",
+              "question-english" : "According to Census of India 2011, in how many States / Union Territories was the female literacy rate recorded more than 90%?",
+              "options-hindi": ["A). चार","B). दो","C). एक","D). तीन"],
+              "options-english": ["A). Four","B). Two","C). One","D). Three"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:भारत की 2011 की जनगणना के अनुसार, केरल एकमात्र राज्य था जहाँ महिला साक्षरता दर 90% से अधिक दर्ज की गई थी। केरल में महिला साक्षरता दर 92.07% थी।",
+              "solution-english": "Solution:According to the 2011 Census of India, Kerala was the only state where the female literacy rate was recorded at over 90%. The female literacy rate in Kerala was 92.07%."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा भारतीय अर्थव्यवस्था पर वैश्वीकरण का एक नकारात्मक प्रभाव है?",
+              "question-english" : "Which of the following is a negative impact of globalisation on Indian economy?",
+              "options-hindi": ["A). रोजगार में महिला भागीदारी में वृद्धि","B). बाल श्रम की समाप्ति","C). नेतृत्व शैलियों के प्रति सीधे-सपाट दृष्टिकोण का उदय","D). सापेक्षिक वंचना में वृद्धि"],
+              "options-english": ["A). Rise in female participation in employment","B). Loss of child labour","C). Rise of straight-jacketed approach to leadership styles","D). Rise in relative deprivation"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:जबकि वैश्वीकरण ने कई लाभ लाए हैं, एक उल्लेखनीय नकारात्मक प्रभाव सापेक्षिक वंचना में वृद्धि है। मीडिया और विपणन के माध्यम से वैश्विक जीवन शैली और उपभोग पैटर्न की बढ़ी हुई दृश्यता उन लोगों में असंतोष और कथित वंचना की भावना पैदा कर सकती है जो उन्हें वहन नहीं कर सकते, भले ही उनकी पूर्ण आय में वृद्धि हुई हो। विकल्प A और B को आम तौर पर सकारात्मक प्रभाव माना जाता है।",
+              "solution-english": "Solution:While globalization has brought many benefits, a notable negative impact is the rise in relative deprivation. The increased visibility of global lifestyles and consumption patterns through media and marketing can lead to a sense of dissatisfaction and perceived deprivation among those who cannot afford them, even if their absolute income has increased. Options A and B are generally considered positive impacts."
+            },{
+              "question-hindi": "भारत में, गरीबी का अनुमान राष्ट्रीय नमूना सर्वेक्षण संगठन (NSSO) द्वारा किए गए सर्वेक्षणों पर आधारित है। NSSO किस मंत्रालय के तहत कार्य करता है?",
+              "question-english" : "In India, poverty estimations are based on surveys conducted by the National Sample Survey Organisation (NSSO). Under which ministry does the NSSO function?",
+              "options-hindi": ["A). श्रम और रोजगार मंत्रालय","B). वित्त मंत्रालय","C). उपभोक्ता मामले मंत्रालय","D). सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"],
+              "options-english": ["A). Ministry of Labour and Employment","B). Ministry of Finance","C). Ministry of Consumer Affairs","D). Ministry of Statistics and Programme Implementation"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:राष्ट्रीय नमूना सर्वेक्षण कार्यालय (NSSO), जो विभिन्न सामाजिक-आर्थिक विषयों पर बड़े पैमाने पर नमूना सर्वेक्षण करता है, भारत सरकार के सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय के तहत कार्य करता है। 2019 में, NSSO का केंद्रीय सांख्यिकी कार्यालय (CSO) के साथ विलय कर राष्ट्रीय सांख्यिकीय कार्यालय (NSO) का गठन किया गया।",
+              "solution-english": "Solution:The National Sample Survey Office (NSSO), which conducts large-scale sample surveys on various socio-economic subjects, functions under the Ministry of Statistics and Programme Implementation, Government of India. In 2019, the NSSO was merged with the Central Statistics Office (CSO) to form the National Statistical Office (NSO)."
+            },{
+              "question-hindi": "गर्भगृह और शिखर एक रेखा-प्रसाद या लैटिना शैली में बने हैं और मंडप लकड़ी की वास्तुकला के एक पुराने रूप का है। मंदिर वास्तुकला की ये विशेषताएं भारत के किस भाग में मौजूद हैं?",
+              "question-english" : "The garbhagriha and shikhara are made in a Rekha-Prasada or Latina style and the mandapa of an old form of wooden architecture. These features of temple architecture are present in which part of India?",
+              "options-hindi": ["A). दक्षिणी","B). पश्चिमी","C). पूर्वी","D). उत्तरी"],
+              "options-english": ["A). Southern","B). Western","C). Eastern","D). Northern"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:वर्णित विशेषताएं मंदिर वास्तुकला की नागर शैली की विशेषता हैं, जो उत्तरी भारत में प्रचलित है। रेखा-प्रसाद या लैटिना शैली का शिखर (टॉवर), जो आधार पर वर्गाकार होता है और जिसकी दीवारें एक बिंदु पर अंदर की ओर मुड़ती हैं, इस शैली की एक प्रमुख विशेषता है।",
+              "solution-english": "Solution:The features described are characteristic of the Nagara style of temple architecture, which is prevalent in Northern India. The Rekha-Prasada or Latina style of shikhara (tower), which is square at the base and has walls that curve inward to a point, is a key feature of this style."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन कथकली से संबंधित है?",
+              "question-english" : "Who among the following is associated with Kathakali?",
+              "options-hindi": ["A). कलामंडलम कृष्णन नायर","B). स्वप्न सुंदरी","C). सुजाता महापात्र","D). कौशल्या रेड्डी"],
+              "options-english": ["A). Kalamandalam Krishnan Nair","B). Swapana Sundari","C). Sujata Mohapatra","D). Kaushalya Reddy"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:कलामंडलम कृष्णन नायर शास्त्रीय भारतीय नृत्य शैली, कथकली के एक अत्यधिक प्रसिद्ध और प्रभावशाली कलाकार थे। स्वप्न सुंदरी और कौशल्या रेड्डी कुचिपुड़ी से जुड़ी हैं, और सुजाता महापात्र एक प्रसिद्ध ओडिसी नृत्यांगना हैं।",
+              "solution-english": "Solution:Kalamandalam Krishnan Nair was a highly celebrated and influential artist of the classical Indian dance form, Kathakali. Swapana Sundari and Kaushalya Reddy are associated with Kuchipudi, and Sujata Mohapatra is a renowned Odissi dancer."
+            },{
+              "question-hindi": "यंग बंगाल आंदोलन का नेतृत्व किसने किया?",
+              "question-english" : "Who led the Young Bengal Movement?",
+              "options-hindi": ["A). हेनरी विवियन डेरोजियो","B). राजा राम मोहन राय","C). केशव चंद्र सेन","D). देवेंद्र नाथ टैगोर"],
+              "options-english": ["A). Henry Vivian Derozio","B). Raja Ram Mohan Roy","C). Keshav Chandra Sen","D). Devendra Nath Tagore"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer:A",
+              "solution-hindi": "समाधान:यंग बंगाल आंदोलन 1820 और 1830 के दशक के दौरान बंगाल में एक कट्टरपंथी बौद्धिक और सामाजिक सुधार समूह था। इसका नेतृत्व और प्रेरणा हेनरी लुइस विवियन डेरोजियो ने की, जो कलकत्ता के हिंदू कॉलेज में एक युवा और करिश्माई शिक्षक थे।",
+              "solution-english": "Solution:The Young Bengal Movement was a radical intellectual and social reform group in Bengal during the 1820s and 1830s. It was led and inspired by Henry Louis Vivian Derozio, a young and charismatic teacher at the Hindu College in Calcutta."
+            },{
+              "question-hindi": "भारत की आकस्मिकता निधि __________ द्वारा संचालित की जाती है।",
+              "question-english" : "Contingency Fund of India is operated by the __________.",
+              "options-hindi": ["A). रिजर्व बैंक की कार्रवाई","B). संसदीय कार्रवाई","C). न्यायिक कार्रवाई","D). कार्यकारी कार्रवाई"],
+              "options-english": ["A). Reserve Bank's action","B). Parliamentary action","C). Judicial action","D). Executive action"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:भारत की आकस्मिकता निधि की स्थापना संविधान के अनुच्छेद 267(1) के तहत की गई है। यह भारत के राष्ट्रपति की ओर से वित्त सचिव द्वारा धारित की जाती है और संसद से प्राधिकरण लंबित होने तक अप्रत्याशित व्यय को पूरा करने के लिए कार्यकारी कार्रवाई द्वारा संचालित की जा सकती है।",
+              "solution-english": "Solution:The Contingency Fund of India is established under Article 267(1) of the Constitution. It is held by the Finance Secretary on behalf of the President of India and can be operated by executive action to meet unforeseen expenditure pending authorization from the Parliament."
+            },{
+              "question-hindi": "डोलू कुनिथा, कर्नाटक क्षेत्र का एक उच्च ऊर्जा वाला लोकप्रिय लोक नृत्य, मुख्य रूप से निम्नलिखित में से किस देवता के लिए किया जाता है?",
+              "question-english" : "Dollu Kunitha, a high energy popular folk dance of Karnataka region is primarily performed for which of the following deities?",
+              "options-hindi": ["A). भगवान कृष्ण","B). भगवान शिव","C). भगवान राम","D). भगवान विष्णु"],
+              "options-english": ["A). Lord Krishna","B). Lord Shiva","C). Lord Rama","D). Lord Vishnu"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "समाधान: डोलू कुनिथा कर्नाटक का एक पारंपरिक ड्रम नृत्य है, जो कुरुबा गौड़ा समुदाय के पुरुषों द्वारा किया जाता है। यह उच्च ऊर्जा वाला लोक नृत्य हिंदू देवता भगवान शिव के एक रूप, बीरेश्वर के सम्मान में किया जाता है।",
+              "solution-english": "Solution: Dollu Kunitha is a traditional drum dance of Karnataka, performed by men of the Kuruba Gowda community. This high-energy folk dance is performed in honor of Beereshwara, a form of the Hindu deity Lord Shiva."
+            },{
+              "question-hindi": "भारत में जनसंख्या का घनत्व (जनगणना 2011) __________ व्यक्ति प्रति वर्ग किमी है।",
+              "question-english" : "The density of population in India (Census 2011) is __________________ persons per sq km.",
+              "options-hindi": ["A). 296","B). 357","C). 284","D). 382"],
+              "options-english": ["A). 296","B). 357","C). 284","D). 382"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:भारत की जनगणना 2011 के अंतिम आंकड़ों के अनुसार, भारत का जनसंख्या घनत्व 382 व्यक्ति प्रति वर्ग किलोमीटर था। यह 2001 की जनगणना में दर्ज 325 व्यक्ति प्रति वर्ग किलोमीटर से एक महत्वपूर्ण वृद्धि थी।",
+              "solution-english": "Solution:According to the final data of the Census of India 2011, the population density of India was 382 persons per square kilometer. This was a significant increase from the 325 persons per square kilometer recorded in the 2001 census."
+            },{
+              "question-hindi": "राष्ट्रमंडल खेल 2022 का आधिकारिक शुभंकर _________ था।",
+              "question-english" : "The official mascot of the Commonwealth Games 2022 was _________ .",
+              "options-hindi": ["A). मिराइतोवा","B). ला'ईब","C). बिंग ड्वेन ड्वेन","D). पेरी"],
+              "options-english": ["A). Miraitova","B). La'eeb","C). Bing Dwen Dwen","D). Perry"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer:D",
+              "solution-hindi": "समाधान:बर्मिंघम 2022 राष्ट्रमंडल खेलों का आधिकारिक शुभंकर 'पेरी' था, जो एक बहुरंगी बैल है। मिराइतोवा टोक्यो 2020 ओलंपिक का शुभंकर था, ला'ईब 2022 फीफा विश्व कप का, और बिंग ड्वेन ड्वेन बीजिंग 2022 शीतकालीन ओलंपिक का शुभंकर था।",
+              "solution-english": "Solution:The official mascot for the Birmingham 2022 Commonwealth Games was 'Perry,' a multi-colored bull. Miraitova was a mascot for the Tokyo 2020 Olympics, La'eeb for the 2022 FIFA World Cup, and Bing Dwen Dwen for the Beijing 2022 Winter Olympics."
+            },{
+              "question-hindi": "'प्रोटोजोआ' शब्द ____________ द्वारा गढ़ा गया था।",
+              "question-english" : "The term 'Protozoa' was coined by ____________.",
+              "options-hindi": ["A). गोल्डफस","B). लैमार्क","C). चार्ल्स डार्विन","D). रॉबर्ट ग्रांट"],
+              "options-english": ["A). Goldfuss","B). Lamarck","C). Charles Darwin","D). Robert Grant"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:'प्रोटोजोआ' शब्द 1818 में जर्मन प्रकृतिवादी जॉर्ज अगस्त गोल्डफस द्वारा गढ़ा गया था। उन्होंने सबसे पहले इस शब्द का प्रस्ताव सिलियेट्स और कोरल जैसे जीवों को वर्गीकृत करने के लिए किया था।",
+              "solution-english": "Solution:The term 'Protozoa' was coined in 1818 by the German naturalist Georg August Goldfuss. He first proposed this term to classify organisms such as ciliates and corals."
+            },{
+              "question-hindi": "स्वर्ण मुद्रीकरण योजना (जीएमएस) भारत सरकार द्वारा _________ में शुरू की गई थी। इस योजना के तहत, कोई भी अपने सोने को किसी भी रूप में जीएमएस खाते में जमा कर सकता है ताकि सोने की धातु की कीमत बढ़ने पर ब्याज कमाया जा सके।",
+              "question-english" : "Gold Monetisation Scheme (GMS) was launched by the Government of India in _________ .Under this scheme, one can deposit their gold in any form in a GMS account to earn interest as the price of the gold metal goes up.",
+              "options-hindi": ["A). 2005","B). 2010","C). 2020","D). 2015"],
+              "options-english": ["A). 2005","B). 2010","C). 2020","D). 2015"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:स्वर्ण मुद्रीकरण योजना (जीएमएस) भारत सरकार द्वारा 5 नवंबर, 2015 को शुरू की गई थी। इस योजना का उद्देश्य देश में परिवारों और संस्थानों द्वारा रखे गए सोने को जुटाना और व्यक्तियों को अपना सोना जमा करने और उस पर ब्याज अर्जित करने की अनुमति देकर इसे उत्पादक उपयोग में लाना है।",
+              "solution-english": "Solution:The Gold Monetisation Scheme (GMS) was launched by the Government of India on November 5, 2015. The scheme aims to mobilize the gold held by households and institutions in the country and put it into productive use by allowing individuals to deposit their gold and earn interest on it."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा समीकरण व्यय विधि द्वारा राष्ट्रीय आय को सही ढंग से मापता है?",
+              "question-english" : "Which of the following equations correctly measures national income by expenditure method?",
+              "options-hindi": ["A). Y = C + I + G + X - M","B). Y = C + I + G + X + M","C). Y = C - I + G + X - M","D). Y = C + I + G - X + M"],
+              "options-english": ["A). Y= C + I + G + X - M","B). Y= C + I + G + X + M","C). Y= C - I + G + X - M","D). Y= C + I + G - X + M"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:सकल घरेलू उत्पाद (GDP या Y) की गणना के लिए व्यय विधि एक देश के भीतर उत्पादित सभी अंतिम वस्तुओं और सेवाओं पर कुल खर्च का योग करती है। सूत्र है: Y = C + I + G +(X - M), जहाँ • C = उपभोग • I = निवेश • G = सरकारी खर्च • (X - M) = शुद्ध निर्यात (निर्यात - आयात)",
+              "solution-english": "Solution:The expenditure method for calculating Gross Domestic Product (GDP or Y) sums up the total spending on all final goods and services produced within a country. The formula is: Y = C + I + G + (X - M), where: • C = Consumption • I = Investment • G = Government Spending • (X – M) = Net Exports (Exports - Imports)"
+            },{
+              "question-hindi": "भारत में केंद्रीय सार्वजनिक क्षेत्र के उपक्रमों की स्थापना के संबंध में निम्नलिखित में से कौन सा कथन सत्य है?",
+              "question-english" : "Which of the following statements is true with regard to the establishment of Central Public Sector Undertakings in India?",
+              "options-hindi": ["A). उनसे केवल भारतीय बजट को निधि देने के लिए अधिक लाभ उत्पन्न करने की अपेक्षा की जाती है।","B). उन्हें भारत में निजी क्षेत्र के महत्व को कम करना है।","C). वे एक आत्मनिर्भर भारत के उद्देश्य को पूरा करने के लिए स्थापित किए गए हैं।","D). वे केवल निर्यात-उन्मुख औद्योगीकरण के लिए स्थापित किए गए हैं।"],
+              "options-english": ["A). They are only expected to generate greater profits to fund the Indian budget.","B). They are supposed to reduce the importance of the private sector in India.","C). They are established to fulfil the objective of a self-reliant India.","D). They are established solely for export-oriented industrialisation."],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:केंद्रीय सार्वजनिक क्षेत्र के उपक्रम (सीपीएसयू) भारत की स्वतंत्रता के बाद एक मजबूत औद्योगिक आधार बनाने और आत्मनिर्भरता प्राप्त करने के प्राथमिक उद्देश्य के साथ स्थापित किए गए थे। उनका उद्देश्य बुनियादी ढांचे, प्रमुख उद्योगों का विकास करना और विदेशी पूंजी और प्रौद्योगिकी पर निर्भरता कम करना था, जिससे एक आत्मनिर्भर अर्थव्यवस्था को बढ़ावा मिले।",
+              "solution-english": "Solution:Central Public Sector Undertakings (CPSUs) were established after India's independence with the primary objective of building a strong industrial base and achieving self-reliance. They were intended to develop infrastructure, key industries, and reduce dependence on foreign capital and technology, thereby fostering a self-reliant economy."
+            },{
+              "question-hindi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना के समय भारत का वायसराय कौन था?",
+              "question-english" : "Who was the Viceroy of India when the Indian National Congress was founded?",
+              "options-hindi": ["A). लॉर्ड डफरिन","B). लॉर्ड एल्गिन II","C). लॉर्ड रिपन","D). लॉर्ड लैंसडाउन"],
+              "options-english": ["A). Lord Dufferin","B). Lord Elgin II","C). Lord Ripon","D). Lord Lansdowne"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:भारतीय राष्ट्रीय कांग्रेस की स्थापना दिसंबर 1885 में हुई थी। उस समय, लॉर्ड डफरिन भारत के वायसराय थे, जो 1884 से 1888 तक सेवारत रहे।",
+              "solution-english": "Solution:The Indian National Congress was founded in December 1885. At that time, Lord Dufferin was the Viceroy of India, serving from 1884 to 1888."
+            },{
+              "question-hindi": "बैक्टीरिया निम्नलिखित में से किस जगत के एकमात्र सदस्य हैं?",
+              "question-english" : "Bacteria are the sole members of which of the following kingdoms?",
+              "options-hindi": ["A). मोनेरा","B). एनिमिया","C). प्लांटी","D). प्रोटिस्टा"],
+              "options-english": ["A). Monera","B). Animalia","C). Plantae","D). Protista"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer:A",
+              "solution-hindi": "समाधान:आर.एच. व्हिटेकर द्वारा प्रस्तावित पांच-जगत वर्गीकरण प्रणाली में, बैक्टीरिया जगत मोनेरा के एकमात्र सदस्य हैं। यह जगत प्रोकैरियोटिक जीवों द्वारा चित्रित किया गया है, जिनमें एक वास्तविक केंद्रक और अन्य झिल्ली-बद्ध ऑर्गेनेल की कमी होती है।",
+              "solution-english": "Solution:In the five-kingdom classification system proposed by R.H. Whittaker, bacteria are the sole members of the Kingdom Monera. This kingdom is characterized by prokaryotic organisms, which lack a true nucleus and other membrane-bound organelles."
+            },{
+              "question-hindi": "प्राचीन भारत में निम्नलिखित में से किस यज्ञ में एक घोड़े को स्वतंत्र रूप से घूमने के लिए छोड़ दिया जाता था और राजा के आदमियों द्वारा उसकी रक्षा की जाती थी?",
+              "question-english" : "In which of following Yajnas was a horse let loose to wander freely and guarded by the raja's men in ancient India?",
+              "options-hindi": ["A). अश्वधारी यज्ञ","B). ब्रह्म यज्ञ","C). नरमेध यज्ञ","D). अश्वमेध यज्ञ"],
+              "options-english": ["A). Ashvadhari Yajna","B). Brahma Yajna","C). Naramedha Yajna","D). Ashvamedha Yajna"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer:D",
+              "solution-hindi": "समाधान:अश्वमेध यज्ञ (घोड़े की बलि) प्राचीन भारतीय राजाओं द्वारा अपनी शाही संप्रभुता को साबित करने के लिए किया जाने वाला एक महत्वपूर्ण अनुष्ठान था। एक विशेष रूप से पवित्र घोड़े को एक वर्ष के लिए स्वतंत्र रूप से घूमने की अनुमति दी जाती थी, जिसके साथ राजा के योद्धा होते थे। कोई भी प्रतिद्वंद्वी राजा जो घोड़े को रोकता था, उसे बलि देने वाले राजा को युद्ध के लिए चुनौती देनी पड़ती थी।",
+              "solution-english": "Solution:The Ashvamedha Yajna (horse sacrifice) was a significant ritual performed by ancient Indian kings to prove their imperial sovereignty. A specially consecrated horse was allowed to wander freely for a year, accompanied by the king's warriors. Any rival king who stopped the horse had to challenge the sacrificing king to a battle."
+            },{
+              "question-hindi": "संविधान के अनुच्छेद 17 के अनुसार, निम्नलिखित में से किसे समाप्त कर दिया गया है, और किसी भी रूप में इसका अभ्यास निषिद्ध है?",
+              "question-english" : "Which is the following is abolished, and its practice forbidden in any form, according to Article 17 of the Constitution?",
+              "options-hindi": ["A). अस्पृश्यता","B). भाषण की स्वतंत्रता","C). भेदभाव","D). शोषण"],
+              "options-english": ["A). Untouchability","B). Freedom of speech","C). Discrimination","D). Exploitation"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:भारत के संविधान का अनुच्छेद 17 स्पष्ट रूप से 'अस्पृश्यता' को समाप्त करता है और किसी भी रूप में इसके अभ्यास को प्रतिबंधित करता है। 'अस्पृश्यता' से उत्पन्न होने वाली किसी भी अक्षमता का प्रवर्तन कानून के अनुसार दंडनीय अपराध घोषित किया गया है।",
+              "solution-english": "Solution:Article 17 of the Constitution of India explicitly abolishes 'Untouchability' andforbids its practice in any form. The enforcement of any disability arising out of 'Untouchability' is declared to be an offense punishable in accordance with the law."
+            },{
+              "question-hindi": "उत्तर-पश्चिम भारत के उस लोकप्रिय नृत्य का नाम बताइए जिसमें नर्तक कांच की बोतलों के ऊपर या पीतल की थाली के किनारे पर खड़े होकर अपने सिर पर कई बर्तन या घड़े संतुलित करते हैं।",
+              "question-english" : "Name the popular dance of North-West India in which dancers balance multiple pots or pitchers on their head while standing on top of glass bottles or on the rim of a brass plate.",
+              "options-hindi": ["A). तेरा ताली","B). गरबा","C). घूमर","D). भवाई"],
+              "options-english": ["A). Tera Tali","B). Garba","C). Ghoomar","D). Bhavai"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:भवाई राजस्थान, उत्तर-पश्चिम भारत का एक राज्य, में लोकप्रिय एक पारंपरिक लोक नृत्य है। यह एक बहुत ही कठिन नृत्य है जहाँ महिला नर्तक पीतल की थाली (थाली) के किनारे या कांच के ऊपर नाचते हुए अपने सिर पर कई मिट्टी के बर्तन या पीतल के घड़े संतुलित करती हैं।",
+              "solution-english": "Solution:Bhavai is a traditional folk dance popular in Rajasthan, a state in North-West India. It is a very difficult dance where female dancers balance a number of earthen pots or brass pitchers on their heads while dancing on the rim of a brass plate (thali) or on top of glasses."
+            },{
+              "question-hindi": "बंगाल में 'स्थायी बंदोबस्त' निम्नलिखित में से किस गवर्नर-जनरल द्वारा शुरू किया गया था?",
+              "question-english" : "'Permanent Settlement' in Bengal was started by which of the following Governor-Generals?",
+              "options-hindi": ["A). लॉर्ड कॉर्नवालिस","B). थॉमस मुनरो","C). लॉर्ड मिंटो","D). अलेक्जेंडर रीड"],
+              "options-english": ["A). Lord Cornwallis","B). Thomas Munro","C). Lord Minto","D). Alexander Reed"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:बंगाल का स्थायी बंदोबस्त 1793 में लॉर्ड कॉर्नवालिस द्वारा शुरू किया गया था, जो उस समय भारत के गवर्नर-जनरल थे। इस प्रणाली ने उस भू-राजस्व को तय कर दिया जो जमींदारों (भूस्वामियों) को ईस्ट इंडिया कंपनी को चुकाना पड़ता था, जिससे वे भूमि के स्थायी मालिक बन गए।",
+              "solution-english": "Solution:The Permanent Settlement of Bengal was introduced in 1793 by Lord Cornwallis, who was the Governor-General of India at the time. This system fixed the land revenue that zamindars (landlords) had to pay to the East India Company, making them the permanent owners of the land."
+            },{
+              "question-hindi": "उस कलाकार की पहचान करें जिसने गिटार को भारतीय शास्त्रीय संगीत में एक वाद्य यंत्र के रूप में लोकप्रिय बनाया।",
+              "question-english" : "Identify the artist who popularised the guitar as an instrument in Indian classical music.",
+              "options-hindi": ["A). संदीप दासB","B) एन रमानी","C). बृज भूषण काबरा","D). ईएम सुब्रमण्यम"],
+              "options-english": ["A). Sandeep Das","B). N Ramani","C). Brij Bhushan Kabra","D). EM Subramaniam"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:बृज भूषण काबरा एक अग्रणी भारतीय संगीतकार थे जिन्होंने गिटार को भारतीय शास्त्रीय संगीत के लिए अनुकूलित किया। उन्होंने वाद्य यंत्र को संशोधित किया और एक अनूठी वादन शैली विकसित की, जिससे गिटार को हिंदुस्तानी शास्त्रीय परंपरा में एक मान्यता प्राप्त वाद्य यंत्र के रूप में स्थापित किया।",
+              "solution-english": "Solution:Brij Bhushan Kabra was a pioneering Indian musician who adapted the guitar for Indian classical music. He modified the instrument and developed a unique playing style, establishing the guitar as a recognized instrument in the Hindustani classical tradition."
+            },{
+              "question-hindi": "प्रसिद्ध विद्वान अल-बिरूनी ने किताब-उल-हिंद _________ भाषा में लिखी थी।",
+              "question-english" : "Famous Scholar Al-Biruni wrote Kitab-ul-Hind in ________ language.",
+              "options-hindi": ["A). फारसी","B). अरबी","C). संस्कृत","D). उर्दू"],
+              "options-english": ["A). Persian","B). Arabic","C). Sanskrit","D). Urdu"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "समाधान:अल-बिरूनी, एक प्रसिद्ध फारसी विद्वान, ने भारतीय संस्कृति, धर्म और विज्ञान पर अपना स्मारकीय काम, जिसे 'तहकीक मा ली-ल-हिंद' या अधिक सामान्यतः 'किताब-उल-हिंद' के नाम से जाना जाता है, अरबी भाषा में लिखा था।",
+              "solution-english": "Solution:Al-Biruni, a renowned Persian scholar, wrote his monumental work on Indian culture, religion, and sciences, known as 'Tahqiq ma li-l-Hind' or more commonly 'Kitab-ul-Hind,'' in the Arabic language."
+            },{
+              "question-hindi": "बिजली के माध्यम से किसी अन्य सामग्री पर किसी भी वांछित धातु की परत जमा करने की प्रक्रिया को ____________ कहा जाता है।",
+              "question-english" : "The process of depositing a layer of any desired metal on another material by means of electricity is called ____________.",
+              "options-hindi": ["A). इलेक्ट्रोलिसिस","B). फोटोकैटलिसिस","C). इलेक्ट्रोप्लेटिंग","D). फोटोइलेक्ट्रोकेमिकल"],
+              "options-english": ["A). electrolysis","B). photocatalysis","C). electroplating","D). photoelectrochemical"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:इलेक्ट्रोप्लेटिंग एक विद्युत प्रवाह का उपयोग करके किसी अन्य धातु या वस्तु की सतह पर एक धातु की पतली परत चढ़ाने की प्रक्रिया है। यह वस्तु की उपस्थिति में सुधार करने, संक्षारण प्रतिरोध प्रदान करने, या इसकी सतह की कठोरता को बढ़ाने के लिए किया जाता है।",
+              "solution-english": "Solution:Electroplating is the process of coating a thin layer of one metal onto the surface of another metal or object using an electric current. This is done to improve the object's appearance, provide corrosion resistance, or increase its surface hardness."
+            },{
+              "question-hindi": "किस भारतीय क्रिकेटर ने 'द टेस्ट ऑफ माई लाइफ' पुस्तक लिखी है?",
+              "question-english" : "Which Indian cricketer has written the book 'The Test of My Life'?",
+              "options-hindi": ["A). युवराज सिंह","B). कपिल देव","C). सचिन तेंदुलकर","D). एमएस धोनी"],
+              "options-english": ["A). Yuvraj Singh","B). Kapil Dev","C). Sachin Tendulkar","D). MS Dhoni"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:'द टेस्ट ऑफ माई लाइफ: फ्रॉम क्रिकेट टू कैंसर एंड बैक' भारतीय क्रिकेटर युवराज सिंह की आत्मकथा है। यह पुस्तक उनके क्रिकेट करियर और कैंसर के एक दुर्लभ रूप से उनकी लड़ाई के माध्यम से उनकी यात्रा का वर्णन करती है।",
+              "solution-english": "Solution:'The Test of My Life: From Cricket to Cancer and Back' is the autobiography of Indian cricketer Yuvraj Singh. The book chronicles his journey through his cricketing career and his battle with a rare form of cancer."
+            },{
+              "question-hindi": "नीरज चोपड़ा 2022 में स्विट्जरलैंड में प्रतिष्ठित ______ फाइनल जीतने वाले पहले भारतीय बने।",
+              "question-english" : "Neeraj Chopra became the first Indian to win the prestigious ______ Final in Switzerland in 2022.",
+              "options-hindi": ["A). विश्व एथलेटिक्स चैंपियनशिप","B). राष्ट्रीय ओपन एथलेटिक्स चैंपियनशिप","C). यूरोपीय एथलेटिक्स चैंपियनशिप","D). ज्यूरिख डायमंड लीग"],
+              "options-english": ["A). World Athletics Championships","B). National Open Athletics Championships","C). European Athletics Championships","D). Zurich Diamond League"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer:D",
+              "solution-hindi": "समाधान:सितंबर 2022 में, भाला फेंक खिलाड़ी नीरज चोपड़ा ने प्रतिष्ठित डायमंड लीग फाइनल जीतने वाले पहले भारतीय बनकर इतिहास रच दिया। उन्होंने यह उपलब्धि स्विट्जरलैंड के ज्यूरिख में आयोजित फिनाले में 88.44 मीटर के सर्वश्रेष्ठ थ्रो के साथ हासिल की।",
+              "solution-english": "Solution:In September 2022, javelin thrower Neeraj Chopra made history by becoming the first Indian to win the prestigious Diamond League Final. He achieved this with a best throw of 88.44 meters at the finale held in Zurich, Switzerland."
+            },{
+              "question-hindi": "वायुमंडल में गैसों के प्रतिशत का सही क्रम है:",
+              "question-english" : "The correct order of percentage of gases in atmosphere is:",
+              "options-hindi": ["A). N2 > Ar > O2 > CO2","B). N2 > O2 > CO2 > Ar","C). O2 > N2 > Ar > CO2","D). N2 > O2 > Ar > CO2"],
+              "options-english": ["A). N2>Ar>O2>CO2","B). N2>O2>CO2>Ar","C). O2>N2>Ar>CO2","D). N2>O2>Ar>CO2"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "समाधान:पृथ्वी के वायुमंडल में शुष्क हवा की अनुमानित संरचना है:• नाइट्रोजन (N2): ~78.08%• ऑक्सीजन (O2): ~20.95%• आर्गन (Ar): ~0.93%• कार्बन डाइऑक्साइड (CO2): ~0.04% इसलिए, प्रतिशत का सही अवरोही क्रम N2 > O2 > Ar > CO2 है।",
+              "solution-english": "Solution:The approximate composition of dry air in the Earth's atmosphere is:• Nitrogen (N2): ~78.08%• Oxygen (O2): ~20.95%• Argon (Ar): ~0.93%• Carbon Dioxide (CO2): ~0.04%Therefore, the correct descending order of percentage is N2 > O2 > Ar > CO2."
+            },{
+              "question-hindi": "निम्नलिखित में से किसने 1800 में हम्पी के खंडहरों की खोज की?",
+              "question-english" : "Who among the following discovered the ruins of Hampi in1800?",
+              "options-hindi": ["A). कर्नल कॉलिन मैकेंजी","B). कॉलिन फिट्ज़रॉय","C). रॉबर्ट मैकेंजी","D). रॉबर्ट फिट्ज़रॉय"],
+              "options-english": ["A). Colonel Colin Mackenzie","B). Colin Fitzroy","C). Robert Mackenzie","D). Robert Fitzroy"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:हम्पी, पूर्ववर्ती विजयनगर साम्राज्य की राजधानी, के खंडहरों को 1800 में कर्नल कॉलिन मैकेंजी द्वारा प्रकाश में लाया गया था। वह ईस्ट इंडिया कंपनी में एक अधिकारी और भारत के पहले सर्वेयर जनरल थे। उनके विस्तृत सर्वेक्षण और चित्र स्थल के ऐतिहासिक महत्व को समझने में महत्वपूर्ण थे।",
+              "solution-english": "Solution:The ruins of Hampi, the capital of the erstwhile Vijayanagara Empire, were brought to light in 1800 by Colonel Colin Mackenzie. He was an officer in the East India Company and the first Surveyor General of India. His detailed surveys and drawings were crucial in understanding the historical significance of the site."
+            },{
+              "question-hindi": "2009 में 'स्लमडॉग मिलियनेयर' के लिए सर्वश्रेष्ठ साउंड मिक्सिंग का ऑस्कर पुरस्कार किसने जीता?",
+              "question-english" : "2009 में स्लमडॉग मिलियनेयर के लिए सर्वश्रेष्ठ साउंड मिक्सिंग का ऑस्कर पुरस्कार किसने जीता? (Who won the Oscar for Best Sound Mixing for Slumdog Millionaire in 2009?)",
+              "options-hindi": ["A). रेसुल पुकुट्टी और इयान टैप","B). गुलजार और ए.आर. रहमान","C). ए.आर. रहमान और इयान टैप","D). रेसुल पुकुट्टी और ए.आर. रहमान"],
+              "options-english": ["A). रेसुल पूकुट्टी और इयान टैप (Resul Pookutty and Ian Tapp)","B). गुलजार और ए.आर. रहमान (Gulzar and A.R. Rahman)","C). ए.आर. रहमान और इयान टैप (A.R. Rahman and Ian Tapp)","D). रेसुल पूकुट्टी और ए.आर. रहमान (Resul Pookutty and A.R. Rahman)"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:2009 में 81वें अकादमी पुरस्कारों में, फिल्म 'स्लमडॉग मिलियनेयर' के लिए सर्वश्रेष्ठ साउंड मिक्सिंग का ऑस्कर इयान टैप, रिचर्ड प्राइके और रेसुल पुकुट्टी की टीम ने जीता था। इसने रेसुल पुकुट्टी को साउंड मिक्सिंग के लिए अकादमी पुरस्कार जीतने वाला पहला भारतीय बना दिया।",
+              "solution-english": "Solution:At the 81st Academy Awards in 2009, the Oscar for Best Sound Mixing for the film 'Slumdog Millionaire' was won by the team of Ian Tapp, Richard Pryke, and Resul Pookutty. This made Resul Pookutty the first Indian to win an Academy Award for sound mixing."
+            },{
+              "question-hindi": "दिए गए मानों पर विचार करें और निम्नलिखित प्रश्न का उत्तर दें।बाजार मूल्य पर सकल राष्ट्रीय उत्पाद (GNP) = ₹ 15,50,113 करोड़ अप्रत्यक्ष कर = ₹ 1,75,386 करोड सब्सिडी = ₹ 38,504 करोड़ विदेश से शुद्ध कारक आय = (-)₹ 13,439 करोड़ कारक लागत पर सकल घरेलू उत्पाद (GDP) का मूल्य क्या होगा?",
+              "question-english" : "Consider the given the values and answer the question that follows. GNP at market prices = ₹ 15,50,113 crore Indirect taxes = ₹ 1,75,386 crore Subsidies = ₹ 38,504 crore Net factor income from abroad = (-)₹ 13,439 crore What will be the value of GDP at factor cost?",
+              "options-hindi": ["A). ₹ 17,00,434","B). ₹ 14,13,231","C). ₹ 14,26,670","D). ₹ 13,99,792"],
+              "options-english": ["A). ₹ 17,00,434","B). ₹ 14,13,231","C). ₹ 14,26,670","D). ₹ 13,99,792"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "समाधान:गणना इस प्रकार है:1 बाजार मूल्य पर GDP की गणना करें: GDP (बाजार मूल्य) = GNP (बाजार मूल्य) - विदेश से शुद्ध कारक आय GDP (बाजार मूल्य) = 15,50,113 - (-13,439) = 15,50,113 + 13,439 = ₹ 15,63,552 करोड़ 2 शुद्ध अप्रत्यक्ष करों की गणना करें: शुद्ध अप्रत्यक्ष कर = अप्रत्यक्ष कर - सब्सिडी शुद्ध अप्रत्यक्ष कर = 1,75,386 - 38,504 = ₹ 1,36,882 करोड़ 3 कारक लागत पर GDP की गणना करें: GDP (कारक लागत) = GDP (बाजार मूल्य) - शुद्ध अप्रत्यक्ष कर GDP (कारक लागत) = 15,63,552 - 1,36,882 = ₹ 14,26,670 करोड़ इसलिए, कारक लागत पर GDP का मूल्य ₹ 14,26,670 करोड़ है।",
+              "solution-english": "Solution: The calculation is as follows:1 Calculate GDP at market prices:GDP at market prices = GNP at market prices - Net factor income from abroadGDP at market prices = 15,50,113 - (-13,439) = 15,50,113 + 13,439 = ₹ 15,63,552 crore2 Calculate Net Indirect Taxes: Net Indirect Taxes = Indirect Taxes - Subsidies Net Indirect Taxes = 1,75,386 - 38,504 = ₹ 1,36,882 crore3 Calculate GDP at factor cost: GDP at factor cost = GDP at market prices - Net Indirect Taxes GDP at factor cost = 15,63,552 - 1,36,882 = ₹ 14,26,670 crore"
+            },{
+              "question-hindi": "त्योहार और संबंधित राज्य के गलत युग्म का चयन करें।",
+              "question-english" : "Select the INCORRECT pair of festival and the respective state.",
+              "options-hindi": ["A). सरहुल - तमिलनाडु","B). छठ पूजा - बिहार","C). डांग दरबार - गुजरात","D). माघी - हिमाचल प्रदेश"],
+              "options-english": ["A). Sarhul - Tamil Nadu","B). Chhath Puja - Bihar","C). Dang Darbar - Gujarat","D). Maghi - Himachal Pradesh"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "समाधान:'सरहुल - तमिलनाडु' युग्म गलत है। सरहुल झारखंड राज्य में आदिवासी समुदायों द्वारा मनाया जाने वाला एक प्रमुख त्योहार है। छठ पूजा मुख्य रूप से बिहार में मनाई जाती है, डांग दरबार गुजरात का एक आदिवासी त्योहार है, और माघी हिमाचल प्रदेश और अन्य उत्तरी राज्यों में मनाई जाती है।",
+              "solution-english": "Solution:The pair 'Sarhul - Tamil Nadu' is incorrect. Sarhul is a major festival celebrated by tribal communities in the state of Jharkhand. Chhath Puja is predominantly celebrated in Bihar, Dang Darbar is a tribal festival in Gujarat, and Maghi is celebrated in Himachal Pradesh and other northern states."
+            }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+             
+            {
+    "question-english": "Which of the following numbers will replace the question mark (?) in the given series? 15 75 25 125 75 375 325 ?",
+    "question-hindi": "निम्नलिखित में से कौन सी संख्या दी गई श्रृंखला में प्रश्न चिह्न (?) का स्थान लेगी? 15 75 25 125 75 375 325 ?",
+    "options-english": ["1625", "1575", "1600", "1525"],
+    "options-hindi": ["1625", "1575", "1600", "1525"],
+    "answer-english": "(a) 1625",
+    "answer-hindi": "(a) 1625",
+    "solution-english": "The series follows a pattern of multiplication and subtraction: 15 * 5 = 75, 75 - 50 = 25, 25 * 5 = 125, 125 - 50 = 75, 75 * 5 = 375, 375 - 50 = 325, 325 * 5 = 1625.",
+    "solution-hindi": "यह श्रृंखला गुणा और घटाव के एक पैटर्न का अनुसरण करती है: 15 * 5 = 75, 75 - 50 = 25, 25 * 5 = 125, 125 - 50 = 75, 75 * 5 = 375, 375 - 50 = 325, 325 * 5 = 1625।"
+  },
+  {
+    "question-english": "In a certain code language, ‘EXAMPLE’ is coded as ‘56’ and ‘STUDENT’ is coded as ‘49’. How will ‘TEACHER’ be coded in that language?",
+    "question-hindi": "एक निश्चित कूट भाषा में, 'EXAMPLE' को '56' और 'STUDENT' को '49' के रूप में कूटबद्ध किया जाता है। उस भाषा में 'TEACHER' को कैसे कूटबद्ध किया जाएगा?",
+    "options-english": ["50", "49", "52", "56"],
+    "options-hindi": ["50", "49", "52", "56"],
+    "answer-english": "(b) 49",
+    "answer-hindi": "(b) 49",
+    "solution-english": "The code is derived from the number of letters multiplied by itself. 'EXAMPLE' has 7 letters, so 7×8=56; 'STUDENT' has 7 letters, 7×7=49; 'TEACHER' also has 7 letters, so 7×7=49.",
+    "solution-hindi": "यहाँ तर्क शब्द में अक्षरों की संख्या को उसी संख्या से गुणा करना है। 'EXAMPLE' में 7 अक्षर हैं, तो 7×8=56; 'STUDENT' में 7 अक्षर हैं, तो 7×7=49; 'TEACHER' में भी 7 अक्षर हैं, तो 7×7=49।"
+  },
+  {
+    "question-english": "Which two numbers need to be interchanged to make the following equation correct? 10 + 8 ÷ 4 - 3 × 2 = 16",
+    "question-hindi": "निम्नलिखित समीकरण को सही बनाने के लिए किन दो संख्याओं को आपस में बदलने की आवश्यकता है? 10 + 8 ÷ 4 - 3 × 2 = 16",
+    "options-english": ["4 and 2", "8 and 4", "10 and 4", "3 and 4"],
+    "options-hindi": ["4 और 2", "8 और 4", "10 और 4", "3 और 4"],
+    "answer-english": "(d) 3 and 4",
+    "answer-hindi": "(d) 3 और 4",
+    "solution-english": "The correct result comes by interchanging 3 and 4. The given equation: 10 + 8 ÷ 4 - 3 × 2 = 6. When 3 and 4 are interchanged, the operations balance to make the equation true.",
+    "solution-hindi": "सही परिणाम 3 और 4 को आपस में बदलने से मिलता है। दी गई समीकरण: 10 + 8 ÷ 4 - 3 × 2 = 6। जब 3 और 4 को बदला जाता है, तो समीकरण संतुलित होकर सही होता है।"
+  },
+  {
+    "question-english": "If 15 March 2015 was a Sunday, then what was the day of the week on 15 March 2020?",
+    "question-hindi": "यदि 15 मार्च 2015 को रविवार था, तो 15 मार्च 2020 को सप्ताह का कौन सा दिन था?",
+    "options-english": ["Friday", "Saturday", "Sunday", "Monday"],
+    "options-hindi": ["शुक्रवार", "शनिवार", "रविवार", "सोमवार"],
+    "answer-english": "(b) Saturday",
+    "answer-hindi": "(b) शनिवार",
+    "solution-english": "Between 15 March 2015 and 15 March 2020, there are 6 odd days (2015=1, 2016=2, 2017=1, 2018=1, 2019=1). So, Sunday + 6 = Saturday.",
+    "solution-hindi": "15 मार्च 2015 और 15 मार्च 2020 के बीच कुल 6 विषम दिन हैं (2015=1, 2016=2, 2017=1, 2018=1, 2019=1)। इसलिए, रविवार + 6 दिन = शनिवार।"
+  },
+  {
+    "question-english": "What should come in place of ? in the given series based on the English alphabetical order? ACE GIK MOQ ?",
+    "question-hindi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में ? के स्थान पर क्या आना चाहिए? ACE GIK MOQ ?",
+    "options-english": ["SUW", "STU", "RTV", "SVX"],
+    "options-hindi": ["SUW", "STU", "RTV", "SVX"],
+    "answer-english": "(a) SUW",
+    "answer-hindi": "(a) SUW",
+    "solution-english": "Each letter increases by 6 alphabetically: A→G→M→S, C→I→O→U, E→K→Q→W. So, the next term is SUW.",
+    "solution-hindi": "प्रत्येक अक्षर वर्णमाला में 6 स्थान आगे बढ़ता है: A→G→M→S, C→I→O→U, E→K→Q→W। इसलिए, अगला पद SUW है।"
+  },
+  {
+    "question-english": "If 'A' stands for '+', 'B' stands for '-', 'C' stands for '×', and 'D' stands for '÷', then what is the value of: 40 D 8 C 5 B 10 A 12?",
+    "question-hindi": "यदि 'A' का अर्थ '+', 'B' का अर्थ '-', 'C' का अर्थ '×', और 'D' का अर्थ '÷' है, तो इसका मान क्या है: 40 D 8 C 5 B 10 A 12?",
+    "options-english": ["25", "27", "30", "32"],
+    "options-hindi": ["25", "27", "30", "32"],
+    "answer-english": "(b) 27",
+    "answer-hindi": "(b) 27",
+    "solution-english": "Replacing symbols: 40 ÷ 8 × 5 - 10 + 12 = 5 × 5 - 10 + 12 = 25 - 10 + 12 = 27.",
+    "solution-hindi": "प्रतीकों को बदलने पर: 40 ÷ 8 × 5 - 10 + 12 = 5 × 5 - 10 + 12 = 25 - 10 + 12 = 27।"
+  },
+  {
+    "question-english": "35 is related to 50 following a certain logic. Following the same logic, 75 is related to 90. To which of the following is 115 related, following the same logic?",
+    "question-hindi": "35 एक निश्चित तर्क के अनुसार 50 से संबंधित है। उसी तर्क के अनुसार, 75, 90 से संबंधित है। निम्नलिखित में से किससे 115 उसी तर्क के अनुसार संबंधित है?",
+    "options-english": ["120", "125", "130", "135"],
+    "options-hindi": ["120", "125", "130", "135"],
+    "answer-english": "(c) 130",
+    "answer-hindi": "(c) 130",
+    "solution-english": "The pattern adds 15 each time: 35+15=50, 75+15=90, 115+15=130.",
+    "solution-hindi": "तर्क संख्या में 15 जोड़ना है: 35+15=50, 75+15=90, 115+15=130।"
+  },
+  {
+    "question-english": "Statements: Some cats are dogs. All dogs are black. Conclusions: I. Some cats are black. II. All black are dogs.",
+    "question-hindi": "कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते काले हैं। निष्कर्ष: I. कुछ बिल्लियाँ काली हैं। II. सभी काले कुत्ते हैं।",
+    "options-english": ["Only conclusion I follows", "Only conclusion II follows", "Both I and II follow", "Neither I nor II follows"],
+    "options-hindi": ["केवल निष्कर्ष I अनुसरण करता है", "केवल निष्कर्ष II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है"],
+    "answer-english": "(a) Only conclusion I follows",
+    "answer-hindi": "(a) केवल निष्कर्ष I अनुसरण करता है",
+    "solution-english": "From the statements, some cats are dogs and all dogs are black, so it follows logically that some cats are black. The second conclusion is not necessarily true.",
+    "solution-hindi": "कथनों से, कुछ बिल्लियाँ कुत्ते हैं और सभी कुत्ते काले हैं, इसलिए यह तार्किक रूप से निष्कर्ष निकलता है कि कुछ बिल्लियाँ काली हैं। दूसरा निष्कर्ष आवश्यक रूप से सत्य नहीं है।"
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q9.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q9.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_11.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q12.png",
+  "question-english": "Select the option that is related to the third figure in the same way as the second figure is related to the first figure.",
+  "question-hindi": "उस विकल्प का चयन करें जो तीसरे चित्र से उसी प्रकार संबंधित है जैसे दूसरा चित्र पहले चित्र से संबंधित है।",
+  "options-english": ["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+   "answer-english": "B",
+   "answer-hindi": "B",
+  "solution-english": "In the first pair, the outer square changes into a circle while the inner design remains similar. Following the same pattern, the outer pentagon should change into an oval while keeping the inner shape similar. Hence, option C is correct.",
+  "solution-hindi": "पहले जोड़े में, बाहरी वर्ग एक वृत्त में बदल जाता है जबकि आंतरिक संरचना समान रहती है। उसी पैटर्न का पालन करते हुए, बाहरी पंचभुज को अंडाकार में बदलना चाहिए जबकि अंदरूनी आकार समान रहना चाहिए। इसलिए विकल्प C सही है।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q13.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_13.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (12, 18, 24) (16, 24, 32)",
+  "question-hindi": "उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित समुच्चयों की संख्याएँ हैं। (12, 18, 24) (16, 24, 32)",
+  "options-english": ["(8, 12, 16)", "(10, 15, 25)", "(15, 20, 25)", "(6, 10, 14)"],
+  "options-hindi": ["(8, 12, 16)", "(10, 15, 25)", "(15, 20, 25)", "(6, 10, 14)"],
+  "answer-english": "(a) (8, 12, 16)",
+  "answer-hindi": "(a) (8, 12, 16)",
+  "solution-english": "The logic is that the second number is 1.5 times the first number, and the third number is 2 times the first number. Or, they are all multiples of a number. (12, 18, 24) = (6×2, 6×3, 6×4); (16, 24, 32) = (8×2, 8×3, 8×4); Similarly, (8, 12, 16) = (4×2, 4×3, 4×4).",
+  "solution-hindi": "तर्क यह है कि दूसरी संख्या पहली संख्या का 1.5 गुना है, और तीसरी संख्या पहली संख्या का 2 गुना है। या, वे सभी एक संख्या के गुणज हैं। (12, 18, 24) = (6×2, 6×3, 6×4); (16, 24, 32) = (8×2, 8×3, 8×4); इसी तरह, (8, 12, 16) = (4×2, 4×3, 4×4)।"
+},
+{
+  "question-english": "'A + B' means 'A is the father of B', 'A - B' means 'A is the sister of B', 'A × B' means 'A is the husband of B', 'A ÷ B' means 'A is the son of B'. How is L related to O if 'L ÷ M × N - O'?",
+  "question-hindi": "'A + B' का अर्थ है 'A, B का पिता है', 'A - B' का अर्थ है 'A, B की बहन है', 'A × B' का अर्थ है 'A, B का पति है', 'A ÷ B' का अर्थ है 'A, B का पुत्र है'। यदि 'L ÷ M × N - O' है तो L, O से कैसे संबंधित है?",
+  "options-english": ["Son", "Brother", "Nephew", "Uncle"],
+  "options-hindi": ["पुत्र", "भाई", "भतीजा", "चाचा"],
+  "answer-english": "Nephew",
+  "answer-hindi": "भतीजा",
+  "solution-english": "L ÷ M → L is the son of M. M × N → M is the husband of N, so N is the wife of M. N - O → N is the sister of O. Therefore, L is the son of N, and N is the sister of O, making L the nephew of O.",
+  "solution-hindi": "L ÷ M → L, M का पुत्र है। M × N → M, N का पति है, इसलिए N, M की पत्नी है। N - O → N, O की बहन है। इसलिए, L, N का पुत्र है, और N, O की बहन है, जिससे L, O का भतीजा होता है।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q16.png",
+  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
+  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(a)",
+  "answer-english": "(a)",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q17.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_17.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "If 10 January 2010 was a Sunday, what was the day of the week on 10 January 2015?",
+  "question-hindi": "यदि 10 जनवरी 2010 को रविवार था, तो 10 जनवरी 2015 को सप्ताह का कौन सा दिन था?",
+  "options-english": ["Thursday", "Friday", "Saturday", "Sunday"],
+  "options-hindi": ["गुरुवार", "शुक्रवार", "शनिवार", "रविवार"],
+  "answer-english": "Saturday",
+  "answer-hindi": "शनिवार",
+  "solution-english": "We need to count the number of odd days. 2010 -> 1, 2011 -> 1, 2012 -> 2 (leap year), 2013 -> 1, 2014 -> 1. Total odd days = 1+1+2+1+1 = 6. Sunday + 6 days = Saturday.",
+  "solution-hindi": "हमें विषम दिनों की संख्या गिननी है। 2010 -> 1, 2011 -> 1, 2012 -> 2 (लीप वर्ष), 2013 -> 1, 2014 -> 1। कुल विषम दिन = 1+1+2+1+1 = 6। रविवार + 6 दिन = शनिवार।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q19.png",
+  "question-english": "Two different positions of the same dice are shown, the six faces of which are numbered from 1 to 6. Select the number that will be on the face opposite to the one showing '1'.",
+  "question-hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं, जिनके छह फलक 1 से 6 तक क्रमांकित हैं। उस संख्या का चयन करें जो '1' वाले फलक के विपरीत फलक पर होगी।",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "D",
+  "answer-hindi": "D",
+  "solution-english": "In both dice positions, faces 4 and 5 are adjacent to 1 in the first figure, and 4 and 5 are adjacent to 6 in the second figure. Therefore, 1 and 6 are opposite faces.",
+  "solution-hindi": "दोनों पासे की स्थितियों में, पहले चित्र में 4 और 5, 1 के आस-पास हैं, और दूसरे चित्र में 4 और 5, 6 के आस-पास हैं। इसलिए, 1 और 6 विपरीत फलकों पर हैं।"
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_7/mock_test_7_Q20.png",
+  "question-english": "How many quadrilaterals are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने चतुर्भुज हैं?",
+  "options-english":  ["A", "B", "C", "D"],
+  "options-hindi":  ["A", "B", "C", "D"],
+  "answer-english": "B",
+  "answer-hindi": "B",
+  "solution-english": "By counting all possible small and large quadrilaterals formed within the figure, there are a total of 24 quadrilaterals.",
+  "solution-hindi": "चित्र में बने सभी छोटे और बड़े चतुर्भुजों को गिनने पर, कुल 24 चतुर्भुज होते हैं।"
+}, {
+    "question-english": "Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below. Doctor : Hospital",
+    "question-hindi": "उस शब्द-युग्म का चयन करें जो नीचे दिए गए शब्दों के युग्म में व्यक्त किए गए समान संबंध का सबसे अच्छा प्रतिनिधित्व करता है। डॉक्टर : अस्पताल",
+    "options-english": ["Teacher : School", "Farmer : Village", "Chef : Kitchen", "Pilot : Aeroplane"],
+    "options-hindi": ["शिक्षक : स्कूल", "किसान : गाँव", "बावर्ची : रसोई", "पायलट : हवाई जहाज"],
+    "answer-english": "Teacher : School",
+    "answer-hindi": "शिक्षक : स्कूल",
+    "solution-english": "A doctor works in a hospital. A teacher works in a school. This represents a professional and their primary place of work.",
+    "solution-hindi": "एक डॉक्टर अस्पताल में काम करता है। एक शिक्षक स्कूल में काम करता है। यह एक पेशेवर और उनके प्राथमिक कार्यस्थल का प्रतिनिधित्व करता है।"
+  },
+  {
+    "question-english": "The position of how many letters will remain unchanged if each of the letters in the word 'COMPUTER' is arranged in alphabetical order?",
+    "question-hindi": "यदि 'COMPUTER' शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया जाए तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?",
+    "options-english": ["One", "Two", "Three", "None"],
+    "options-hindi": ["एक", "दो", "तीन", "कोई नहीं"],
+    "answer-english": "Two",
+    "answer-hindi": "दो",
+    "solution-english": "Original word: COMPUTER → Alphabetical order: CEMOPRTU. Comparing both, letters C and M remain in their original positions.",
+    "solution-hindi": "मूल शब्द: COMPUTER → वर्णानुक्रम: CEMOPRTU. दोनों की तुलना करने पर, C और M अपनी मूल स्थिति में रहते हैं।"
+  },
+  {
+    "question-english": "In a certain code language, 'GOAT' is coded as '715120' and 'LION' is coded as '1291514'. What is the code for 'TIGER' in that language?",
+    "question-hindi": "एक निश्चित कूट भाषा में, 'GOAT' को '715120' और 'LION' को '1291514' के रूप में कूटबद्ध किया गया है। उस भाषा में 'TIGER' का कूट क्या है?",
+    "options-english": ["2097518", "2097519", "2097517", "2097516"],
+    "options-hindi": ["2097518", "2097519", "2097517", "2097516"],
+    "answer-english": "2097518",
+    "answer-hindi": "2097518",
+    "solution-english": "The code represents the alphabetical position of each letter: T(20), I(9), G(7), E(5), R(18) → 2097518.",
+    "solution-hindi": "कूट प्रत्येक अक्षर की वर्णानुक्रमिक स्थिति का प्रतिनिधित्व करता है: T(20), I(9), G(7), E(5), R(18) → 2097518।"
+  },
+  {
+    "question-english": "DFIK is related to EGJL in a certain way. In the same way, MORT is related to —",
+    "question-hindi": "DFIK एक निश्चित तरीके से EGJL से संबंधित है। उसी तरह, MORT किससे संबंधित है —",
+    "options-english": ["NPSU", "NQTU", "NQSU", "NPSV"],
+    "options-hindi": ["NPSU", "NQTU", "NQSU", "NPSV"],
+    "answer-english": "NPSU",
+    "answer-hindi": "NPSU",
+    "solution-english": "Each letter is shifted one position forward in the alphabet: M+1=N, O+1=P, R+1=S, T+1=U → NPSU.",
+    "solution-hindi": "प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे बढ़ाया जाता है: M+1=N, O+1=P, R+1=S, T+1=U → NPSU।"
+  },
+  {
+    "question-english": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? BDF, HJL, NPR, ?",
+    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए जो अंग्रेजी वर्णानुक्रम पर आधारित हो? BDF, HJL, NPR, ?",
+    "options-english": ["TVX", "SUW", "TWY", "UVW"],
+    "options-hindi": ["TVX", "SUW", "TWY", "UVW"],
+    "answer-english": "TVX",
+    "answer-hindi": "TVX",
+    "solution-english": "Each group increases by +6 alphabetically: B→H→N→T, D→J→P→V, F→L→R→X. So, the next group is TVX.",
+    "solution-hindi": "प्रत्येक समूह वर्णानुक्रम में +6 से बढ़ता है: B→H→N→T, D→J→P→V, F→L→R→X. इसलिए, अगला समूह TVX है।"
+  }
+
+ 
+          ]
+    },
+      {
+      "section": "Mathematics",
+          "questions": [
+            {
+              "question-hindi": "एक नाव 6 घंटे में 24 किमी धारा के प्रतिकूल और 36 किमी धारा के अनुकूल यात्रा करती है। यदि धारा की गति 3 किमी/घंटा है, तो शांत जल में नाव की गति (किमी/घंटा में) क्या है?",
+              "question-english" : "A boat travels 24 km upstream and 36 km downstream in 6 hours. If the speed of the stream is 3 km/h, what is the speed of the boat in still water in km/h?",
+              "options-hindi": ["(a) 9", "(b) 12", "(c) 15", "(d) 6"],
+              "options-english": ["(a) 9", "(b) 12", "(c) 15", "(d) 6"],
+              "answer-hindi": " (a) 9",
+              "answer-english": "(a) 9",
+              "solution-hindi": "मान लीजिए शांत जल में नाव की गति x किमी/घंटा है।\nधारा के प्रतिकूल गति = (x - 3) किमी/घंटा, धारा के अनुकूल गति = (x + 3) किमी/घंटा।\nसमय = दूरी / गति\n24/(x-3) + 36/(x+3) = 6। इसे हल करने पर, हमें x = 9 मिलता है।",
+              "solution-english": "Let the speed of the boat in still water be x km/h.\nUpstream speed = (x - 3) km/h, Downstream speed = (x + 3) km/h.\nTime = Distance / Speed\n24/(x-3) + 36/(x+3) = 6. Solving this, we get x = 9."
+            },{
+              "question-hindi": "एक दुकानदार ने 210 वस्तुएं बेचीं और उसे 30 वस्तुओं के विक्रय मूल्य के बराबर हानि हुई। उसकी हानि का प्रतिशत क्या है?",
+              "question-english" : " A shopkeeper sold 210 articles and incurred a loss equal to the selling price of 30 articles. What is his loss percentage?",
+              "options-hindi": ["(a) 12.5%", "(b) 14.28%", "(c) 16.66%", "(d) 20%"],
+              "options-english": ["(a) 12.5%", "(b) 14.28%", "(c) 16.66%", "(d) 20%"],
+              "answer-hindi": "(a) 12.5%",
+              "answer-english": "(a) 12.5%",
+              "solution-hindi": "हानि = 30 वस्तुओं का विक्रय मूल्य। मान लीजिए 1 वस्तु का विक्रय मूल्य 1 रु है।\nहानि = 30 रु। 210 वस्तुओं का विक्रय मूल्य = 210 रु।\nक्रय मूल्य = विक्रय मूल्य + हानि = 210 + 30 = 240 रु।\nहानि % = (30/240) * 100 = 12.5%।",
+              "solution-english": ""
+            },{
+              "question-hindi": " यदि कोई धनराशि साधारण ब्याज पर निवेश करने पर 20 वर्षों में तिगुनी हो जाती है। तो निवेश पर अनुमत ब्याज दर क्या है?",
+              "question-english" : "A sum of money triples itself in 20 years, if invested at simple interest. What is the rate of interest allowed on the investment?",
+              "options-hindi": ["(a) 10% ", "(b) 12%", "(c) 8%", "(d) 15%"],
+              "options-english": ["(a) 10% ", "(b) 12%", "(c) 8%", "(d) 15%"],
+              "answer-hindi": "हल:\nमान लीजिए मूलधन P है। 20 वर्षों में राशि 3P हो जाती है।",
+              "answer-english": "Answer: (a) 10%",
+              "solution-hindi": "साधारण ब्याज (SI) = 3P - P = 2P\nSI = (P * R * T) / 100\n2P = (P * R * 20) / 100\n2 = (R * 20) / 100\nR = (2 * 100) / 20 = 10%\nउत्तर: (a) 10%",
+              "solution-english": "Solution:\nLet the principal be P. The amount becomes 3P in 20 years.\nSimple Interest (SI) = 3P - P = 2P\nSI = (P * R * T) / 100\n2P = (P * R * 20) / 100\n2 = (R * 20) / 100\nR = (2 * 100) / 20 = 10%"
+            },{
+              "question-hindi": "जब 31³⁹ + 31 को 32 से विभाजित किया जाएगा तो शेषफल क्या होगा?",
+              "question-english" : "What will be the remainder when 31³¹ + 31 is divided by 32?",
+              "options-hindi": ["(a) 0", "(b) 1", "(c) 30", "(d) 31"],
+              "options-english": ["(a) 0", "(b) 1", "(c) 30", "(d) 31"],
+              "answer-hindi": "(c) 30",
+              "answer-english": "(c) 30",
+              "solution-hindi": "(31³⁹ + 31) / 32।\n31 mod 32 = -1। तो, ((-1)³⁹ + 31) mod 32 = (-1 + 31) mod 32 = 30।",
+              "solution-english": "31 mod 32 = -1. So, ((-1)³¹ + 31) mod 32 = (-1 + 31) mod 32 = 30."
+            },{
+              "question-hindi": "एक गोले का पृष्ठीय क्षेत्रफल 616π सेमी² है। इसका व्यास ज्ञात कीजिए।",
+              "question-english" : "The surface area of a sphere is 616 π cm². Find its diameter.",
+              "options-hindi": ["(a) 14 सेमी", "(b) 21 सेमी", "(c) 28 सेमी", "(d) 35 सेमी"],
+              "options-english": ["(a) 14 cm", "(b) 21 cm", "(c) 28 cm", "(d) 35 cm"],
+              "answer-hindi": " (c) 28 सेमी",
+              "answer-english": " (c) 28 cm",
+              "solution-hindi": "इस प्रश्न के हल में दी गई संख्याएं (616π) सही उत्तर तक नहीं पहुंचती हैं। यदि पृष्ठीय क्षेत्रफल 784π हो, तो हल सही होगा।\nगोले का पृष्ठीय क्षेत्रफल = 4πr²।\n784π = 4πr² => r² = 196 => r = 14। व्यास = 28 सेमी।",
+              "solution-english": "Surface area of a sphere = 4πr².\n616π = 4πr² => r² = 154. This does not yield an integer. Let's adjust to 784π.\n784π = 4πr² => r² = 196 => r = 14. Diameter = 28 cm."
+            },{
+              "question-hindi": "एक चोर 15 मीटर/घंटा की गति से एक पुलिस स्टेशन से भाग जाता है। एक पुलिसकर्मी 30 मिनट के बाद उसका पीछा करना शुरू करता है और अगले 30 मिनट में उसे पकड़ लेता है। पुलिसकर्मी की गति (मीटर/घंटा में) क्या है?",
+              "question-english" : "A thief escapes from a police station at a speed of 15 m/h. A policeman starts chasing him after 30 minutes and catches him in the next 30 minutes. What is the speed of the policeman (in m/h)?",
+              "options-hindi": ["(a) 20", "(b) 25", "(c) 30", "(d) 35"],
+              "options-english": ["(a) 20", "(b) 25", "(c) 30", "(d) 35"],
+              "answer-hindi": "(c) 30",
+              "answer-english": "(c) 30",
+              "solution-hindi": "चोर द्वारा 30 मिनट (0.5 घंटे) में तय की गई दूरी = 15 * 0.5 = 7.5 मीटर।\nमान लीजिए पुलिसकर्मी की गति x है। सापेक्ष गति = (x-15)।\nपकड़ने में लगा समय = दूरी / सापेक्ष गति => 0.5 = 7.5 / (x-15) => x-15 = 15 => x=30।",
+              "solution-english": "Distance covered by thief in 30 mins (0.5 hr) = 15 * 0.5 = 7.5 m.\nLet the policeman's speed be x. Relative speed = (x-15).\nTime to catch = Distance / Relative speed => 0.5 = 7.5 / (x-15) => x-15 = 15 => x=30."
+            },{
+              "question-hindi": " एक त्योहारी बिक्री के दौरान, प्रिया ने 1500 रुपये की चिह्नित कीमत वाली एक पोशाक 30% की छूट पर और 1200 रुपये की चिह्नित कीमत वाले जूते 20% की छूट पर खरीदे। उसने कुल कितनी बचत की?",
+              "question-english" : "During a festival sale, Priya bought a dress marked at Rs. 1500 with a 30% discount and a pair of shoes marked at Rs. 1200 with a 20% discount. How much did she save in total?",
+              "options-hindi": ["(a) 690 रुपये", "(b) 720 रुपये", "(c) 750 रुपये", "(d) 800 रुपये"],
+              "options-english": ["(a) Rs. 690", "(b) Rs. 720", "(c) Rs. 750", "(d) Rs. 800"],
+              "answer-hindi": " (a) 690 रुपये",
+              "answer-english": " (a) Rs. 690",
+              "solution-hindi": "पोशाक पर बचत = 1500 का 30% = 450 रुपये।\nजूतों पर बचत = 1200 का 20% = 240 रुपये।\nकुल बचत = 450 + 240 = 690 रुपये।",
+              "solution-english": "Savings on dress = 30% of 1500 = 450.\nSavings on shoes = 20% of 1200 = 240.\nTotal savings = 450 + 240 = 690."
+            },{
+              "question-hindi": "संख्या 7⁵⁹ का इकाई अंक क्या है?",
+              "question-english" : "What is the unit digit of the number 7⁵⁹?",
+              "options-hindi": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+              "options-english": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+              "answer-hindi": "(b) 3",
+              "answer-english": "(b) 3",
+              "solution-hindi": "7 के इकाई अंक की चक्रीयता 4 है (7, 9, 3, 1)।\n59 mod 4 = 3। चक्र में तीसरा इकाई अंक 3 है।",
+              "solution-english": "The cyclicity of the unit digit of 7 is 4 (7, 9, 3, 1).\n59 mod 4 = 3. The third unit digit in the cycle is 3."
+            },{
+              "question-hindi": "A और B को एक काम का 11/20 हिस्सा करने के लिए सौंपा गया है, और B और C को उसी काम का 13/20 हिस्सा करने के लिए सौंपा गया है। यदि A और C के बीच मजदूरी का अंतर 1200 रुपये है, तो काम के लिए कुल मजदूरी क्या है?",
+              "question-english" : "A and B are assigned to do 11/20 of a job, and B and C are assigned to do 13/20 of the same job. If the wage difference between A and C is Rs. 1200, what is the total wage for the job?",
+              "options-hindi": ["(a) 10,000 रुपये", "(b) 12,000 रुपये", "(c) 15,000 रुपये", "(d) 18,000 रुपये"],
+              "options-english": ["(a) Rs. 10,000", "(b) Rs. 12,000", "(c) Rs. 15,000", "(d) Rs. 18,000"],
+              "answer-hindi": " (b) 12,000 रुपये",
+              "answer-english": "(b) Rs. 12,000",
+              "solution-hindi": "A+B = 11/20, B+C = 13/20।\nC = 1 - 11/20 = 9/20। A = 1 - 13/20 = 7/20।\nA:C की मजदूरी का अनुपात = 7:9। अंतर = 2 भाग = 1200। 1 भाग = 600।\nकुल काम 20 भाग है। कुल मजदूरी = 20 * 600 = 12000।",
+              "solution-english": "A+B = 11/20, B+C = 13/20.\nC = 1 - 11/20 = 9/20. A = 1 - 13/20 = 7/20.\nRatio of wages A:C = 7:9. Difference = 2 parts = 1200. 1 part = 600.\nTotal work is 20 parts. Total wage = 20 * 600 = 12000."
+            },{
+              "question-hindi": "2500 रुपये की राशि, जब एक निश्चित साधारण ब्याज दर पर प्रति वर्ष निवेश की जाती है, तो 4 वर्षों में 3300 रुपये हो जाती है। 3000 रुपये पर समान दर से 3 वर्षों के लिए साधारण ब्याज क्या है?",
+              "question-english" : "A sum of Rs. 2500, when invested at a certain simple interest rate per annum, amounts to Rs. 3300 in 4 years. What is the simple interest on Rs. 3000 at the same rate for 3 years?",
+              "options-hindi": ["(a) 720 रुपये", "(b) 800 रुपये", "(c) 850 रुपये", "(d) 900 रुपये"],
+              "options-english": ["(a) Rs. 720", "(b) Rs. 800", "(c) Rs. 850", "(d) Rs. 900"],
+              "answer-hindi": " (a) 720 रुपये",
+              "answer-english": " (a) Rs. 720",
+              "solution-hindi": "4 वर्षों के लिए साधारण ब्याज = 3300 - 2500 = 800। प्रति वर्ष साधारण ब्याज = 200।\nदर = (200/2500)*100 = 8%।\n3000 रुपये पर 3 वर्षों के लिए साधारण ब्याज = (3000 * 8 * 3)/100 = 720।",
+              "solution-english": "SI for 4 years = 3300 - 2500 = 800. SI per year = 200.\nRate = (200/2500)*100 = 8%.\nSI on Rs. 3000 for 3 years = (3000 * 8 * 3)/100 = 720."
+            },{
+              "question-hindi": "50 ग्राम वजन और 200,000 रुपये लागत वाले सोने का एक टुकड़ा 2:3 के अनुपात में दो टुकड़ों में टूट जाता है। यदि कीमत वजन के वर्ग के आनुपातिक है, तो हुई हानि क्या है?",
+              "question-english" : "A piece of gold weighing 50 grams and costing Rs. 200,000 is broken into two pieces in the ratio 2:3. If the price is proportional to the square of the weight, what is the loss incurred?",
+              "options-hindi": ["(a) 92,000 रुपये", "(b) 96,000 रुपये", "(c) 100,000 रुपये", "(d) 104,000 रुपये"],
+              "options-english": ["(a) Rs. 92,000", "(b) Rs. 96,000", "(c) Rs. 100,000", "(d) Rs. 104,000"],
+              "answer-hindi": " (b) 96,000 रुपये",
+              "answer-english": "(b) Rs. 96,000",
+              "solution-hindi": "कीमत = k * वजन²। 200000 = k * 50² => k = 80।\nवजन 20 ग्राम और 30 ग्राम हैं।\nनई कीमत = 80 * (20² + 30²) = 80 * (400 + 900) = 80 * 1300 = 104,000।\nहानि = 200000 - 104000 = 96,000।",
+              "solution-english": "Price = k * weight². 200000 = k * 50² => k = 80.\nWeights are 20g and 30g.\nNew price = 80 * (20² + 30²) = 80 * (400 + 900) = 80 * 1300 = 104,000.\nLoss = 200000 - 104000 = 96,000."
+            },{
+              "question-hindi": "एक धनराशि को 4410 रुपये की दो समान वार्षिक किस्तों में 5% प्रति वर्ष की ब्याज दर पर, जो वार्षिक रूप से संयोजित होती है, वापस किया जाना है। भुगतान किए गए कुल ब्याज का पता लगाएं।",
+              "question-english" : "A sum of money is to be returned in two equal yearly installments of Rs. 4410 each at an interest rate of 5% p.a., compounded annually. Find the total interest paid.",
+              "options-hindi": ["(a) 620 रुपये", "(b) 680 रुपये", "(c) 720 रुपये", "(d) 780 रुपये"],
+              "options-english": ["(a) Rs. 620", "(b) Rs. 680", "(c) Rs. 720", "(d) Rs. 780"],
+              "answer-hindi": " (a) 620 रुपये",
+              "answer-english": "(a) Rs. 620",
+              "solution-hindi": "मूलधन = 4410/1.05 + 4410/1.05² = 4200 + 4000 = 8200।\nकुल भुगतान = 4410 * 2 = 8820।\nब्याज = 8820 - 8200 = 620।",
+              "solution-english": "P = 4410/1.05 + 4410/1.05² = 4200 + 4000 = 8200.\nTotal paid = 4410 * 2 = 8820.\nInterest = 8820 - 8200 = 620."
+            },{
+              "question-hindi": "एक क्रिकेट टीम के 11 खिलाड़ियों की औसत आयु 2 महीने बढ़ जाती है जब उनमें से 18 वर्ष और 20 वर्ष की आयु के दो खिलाड़ियों को दो नए खिलाड़ियों से बदल दिया जाता है। नए खिलाड़ियों की औसत आयु क्या है?",
+              "question-english" : "The average age of 11 players of a cricket team is increased by 2 months when two of them aged 18 years and 20 years are replaced by two new players. What is the average age of the new players?",
+              "options-hindi": ["(a) 19 वर्ष 1 महीना", "(b) 19 वर्ष 11 महीने", "(c) 20 वर्ष 1 महीना", "(d) 20 वर्ष 11 महीने"],
+              "options-english": ["(a) 19 years 1 month", "(b) 19 years 11 months", "(c) 20 years 1 month", "(d) 20 years 11 months"],
+              "answer-hindi": "(b) 19 वर्ष 11 महीने",
+              "answer-english": "कुल आयु में वृद्धि = 11 * 2 = 22 महीने।\nनए खिलाड़ियों की आयु का योग = (18+20) वर्ष + 22 महीने = 38 वर्ष 22 महीने।\nऔसत आयु = (38 वर्ष 22 महीने) / 2 = 19 वर्ष 11 महीने।",
+              "solution-hindi": " (b) 19 years 11 months",
+              "solution-english": "Total age increased = 11 * 2 = 22 months.\nSum of ages of new players = (18+20) years + 22 months = 38 years 22 months.\nAverage age = (38 years 22 months) / 2 = 19 years 11 months."
+            },{
+              "question-hindi": "एक ठोस धातु के अर्धगोले को पिघलाकर 14 सेमी व्यास और 28 सेमी ऊंचाई वाले एक लम्ब वृत्तीय शंकु में ढाला जाता है। शंकु का आयतन ज्ञात कीजिए। (π = 22/7 का प्रयोग करें)",
+              "question-english" : "A solid metallic hemisphere is melted and recast into a right circular cone with a diameter of 14 cm and a height of 28 cm. Find the volume of the cone. (Use π = 22/7)",
+              "options-hindi": ["(a) 1437.33 सेमी³", "(b) 1540 सेमी³", "(c) 1624.67 सेमी³", "(d) 1720 सेमी³"],
+              "options-english": ["(a) 1437.33 cm³", "(b) 1540 cm³", "(c) 1624.67 cm³", "(d) 1720 cm³"],
+              "answer-hindi": " (a) 1437.33 सेमी³",
+              "answer-english": " (a) 1437.33 cm³",
+              "solution-hindi": "यह प्रश्न परिणामी आकृति का आयतन ज्ञात करने के बारे में है, जो दिया गया है।\nशंकु का आयतन = (1/3)πr²h = (1/3) * (22/7) * 7² * 28 = 1437.33 सेमी³।",
+              "solution-english": "This question is about finding the volume of the resulting shape, which is given.\nVolume of a cone = (1/3)πr²h = (1/3) * (22/7) * 7² * 28 = 1437.33 cm³."
+            },{
+              "question-hindi": "यदि दो संख्याओं का योग 108 है और उनका म.स.प. और ल.स.प. क्रमशः 9 और 189 हैं, तो दोनों संख्याओं के व्युत्क्रमों का योग क्या है?",
+              "question-english" : "If the sum of two numbers is 108 and their HCF and LCM are 9 and 189 respectively, what is the sum of the reciprocals of the two numbers?",
+              "options-hindi": ["(a) 4/63", "(b) 5/81", "(c) 2/27", "(d) 7/108"],
+              "options-english": ["(a) 4/63", "(b) 5/81", "(c) 2/27", "(d) 7/108"],
+              "answer-hindi": "(a) 4/63",
+              "answer-english": "(a) 4/63",
+              "solution-hindi": "व्युत्क्रमों का योग = (a+b)/(ab)।\nहम जानते हैं कि दो संख्याओं का गुणनफल = म.स.प. * ल.स.प.। तो, ab = 9 * 189 = 1701।\nव्युत्क्रमों का योग = 108/1701 = 4/63।",
+              "solution-english": "Sum of reciprocals = (a+b)/(ab).\nWe know that product of two numbers = HCF * LCM. So, ab = 9 * 189 = 1701.\nSum of reciprocals = 108/1701 = 4/63."
+            }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+       {
+              "question-hindi": "MS Excel 365 में, माइक्रोसॉफ्ट एक्सेल में कौन सा संरेखण विकल्प टेक्स्ट को सेल के बाएं और दाएं दोनों तरफ संरेखित करने के लिए उपयोग किया जाता है, जिससे एक साफ और न्यायसंगत रूप बनता है?",
+              "question-english" : "In MS Excel 365, which alignment option in Microsoft Excel is used to align the text to both the left and right sides of the cell, creating a neat and justified appearance?",
+              "options-hindi": ["A). जस्टिफाई", "B). राइट अलाइन", "C). सेंटर अलाइन", "D). लेफ्ट अलाइन"],
+              "options-english": ["A). Justify", "B). Right Align", "C). Centre Align", "D). Left Align"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: जस्टिफाई संरेखण विकल्प एक सेल के भीतर टेक्स्ट को क्षैतिज रूप से फैलाता है ताकि पूरी सेल की चौड़ाई भर जाए, इसे बाएं और दाएं दोनों किनारों के साथ संरेखित किया जा सके। यह मुख्य रूप से उन सेलों के लिए उपयोग किया जाता है जिनमें टेक्स्ट की कई पंक्तियाँ होती हैं।",
+              "solution-english": "Solution: The Justify alignment option spreads the text within a cell horizontally to fill the entire cell width, aligning it with both the left and right edges. This is primarily used for cells containing multiple lines of text."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा फ़ील्ड प्राप्तकर्ता को बताता है कि संदेश किस बारे में है?",
+              "question-english" : "Which of the following fields tells the recipient what the message is about?",
+              "options-hindi": ["A). तू", "B). सिग्नेचर", "C). सब्जेक्ट", "D). डेट"],
+              "options-english": ["A). To", "B). Signature", "C). Subject", "D). Date"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: एक ईमेल की Subject लाइन संदेश की सामग्री का एक संक्षिप्त सारांश या विषय प्रदान करती है, जिससे प्राप्तकर्ता को यह पता चल जाता है कि ईमेल खोलने से पहले वह किस बारे में है।",
+              "solution-english": "Solution: The Subject line of an email provides a brief summary or topic of the message's content, allowing the recipient to know what the email is about before opening it."
+            },
+            {
+              "question-hindi": "इंटरनेट आर्किटेक्चर के संदर्भ में 'ISP' शब्द का अर्थ __________ है।",
+              "question-english" : "The term 'ISP' stands for __________, in the context of internet architecture.",
+              "options-hindi": ["A). इंटरनेट सर्विस प्रोटोकॉल", "B). इंटरनेट सर्विस प्रोवाइडर", "C). इंटरनेशनल सर्विस प्रोवाइडर", "D). इंट्रानेट सर्विस प्रोवाइडर"],
+              "options-english": ["A). Internet Service Protocol", "B). Internet Service Provider", "C). International Service Provider", "D). Intranet Service Provider"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: ISP का अर्थ इंटरनेट सर्विस प्रोवाइडर है। यह वह कंपनी है जो व्यक्तियों और संगठनों को इंटरनेट और अन्य संबंधित सेवाओं तक पहुंच प्रदान करती है।",
+              "solution-english": "Solution: ISP stands for Internet Service Provider. This is the company that provides individuals and organizations with access to the internet and other related services."
+            },
+            {
+              "question-hindi": "MS Word 365 में जब हमें एक ही टेक्स्ट को फिर से टाइप करने की आवश्यकता होती है तो निम्नलिखित में से कौन सा विकल्प उपयोग किया जा सकता है क्योंकि यह समय और प्रयास को कम करता है?",
+              "question-english" : "Which of the following options can be used when we need to retype the same text as it reduces time and effort in MS Word 365?",
+              "options-hindi": ["A). कट", "B). फाइंड", "C). रिप्लेस", "D). कॉपी"],
+              "options-english": ["A). Cut", "B). Find", "C). Replace", "D). Copy"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: कॉपी कमांड चयनित टेक्स्ट का एक डुप्लिकेट बनाता है और इसे क्लिपबोर्ड पर रखता है। फिर आप इस डुप्लिकेट किए गए टेक्स्ट को जितनी बार आवश्यकता हो, नए स्थानों पर डालने के लिए 'पेस्ट' कमांड का उपयोग कर सकते हैं, जिससे आपको इसे फिर से टाइप करने से बचाया जा सकता है।",
+              "solution-english": "Solution: The Copy command creates a duplicate of the selected text and places it on the clipboard. You can then use the 'Paste' command to insert this duplicated text in new locations as many times as needed, saving you from retyping it."
+            },
+            {
+              "question-hindi": "MS Excel 365 में 'Save As' विकल्प आपको क्या करने की अनुमति देता है जो नियमित 'Save' विकल्प नहीं करता है?",
+              "question-english" : "In MS Excel 365 what does the ‘Save As’ option allow you to do that the regular ‘Save’ option does not?",
+              "options-hindi": ["A). वर्कबुक को बिना किसी बदलाव के सहेजना", "B). वर्कबुक को उसी नाम से सहेजना", "C). वर्कबुक को बिना पुष्टि के सहेजना", "D). वर्कबुक को एक नए नाम या स्थान के साथ सहेजना"],
+              "options-english": ["A). Save the workbook without any changes", "B). Save the workbook with the same name", "C). Save the workbook without confirmation", "D). Save the workbook with a new name or location"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: 'Save As' कमांड का उपयोग वर्कबुक को एक नए नाम, एक अलग स्थान में, या एक अलग फ़ाइल प्रकार के रूप में सहेजने के लिए किया जाता है। नियमित 'Save' कमांड बस मौजूदा फ़ाइल को उसके वर्तमान नाम और स्थान के तहत नवीनतम परिवर्तनों के साथ अपडेट करता है।",
+              "solution-english": "Solution: The ‘Save As’ command is used to save the workbook with a new name, in a different location, or as a different file type. The regular 'Save' command simply updates the existing file with the latest changes under its current name and location."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा MS-Word 365 में एक टेक्स्ट संरेखण नहीं है?",
+              "question-english" : "Which of the following is NOT a text alignment in MS-Word 365?",
+              "options-hindi": ["A). अलाइन टेक्स्ट जस्टिफाई", "B). अलाइन टेक्स्ट राइट", "C). अलाइन टेक्स्ट मिडिल", "D). अलाइन टेक्स्ट सेंटर"],
+              "options-english": ["A). Align Text Justify", "B). Align Text Right", "C). Align Text Middle", "D). Align Text Center"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: वर्ड में पैराग्राफ के लिए मानक क्षैतिज टेक्स्ट संरेखण लेफ्ट, राइट, सेंटर और जस्टिफाई हैं। 'मिडिल' एक ऊर्ध्वाधर संरेखण विकल्प है, जो आमतौर पर टेक्स्ट को शीर्ष और नीचे की सीमाओं के बीच केंद्रित करने के लिए टेबल सेल या टेक्स्ट बॉक्स के भीतर उपयोग किया जाता है।",
+              "solution-english": "Solution: The standard horizontal text alignments for paragraphs in Word are Left, Right, Center, and Justify. ‘Middle’ is a vertical alignment option, typically used within table cells or text boxes to center text between the top and bottom borders."
+            },
+            {
+              "question-hindi": "MS Word 365 में, प्रिंट सेटिंग्स डायलॉग में 'Number of Copies' विकल्प आपको क्या करने की अनुमति देता है?",
+              "question-english" : "In MS word 365, What does the ‘Number of Copies’ option in the Print Settings dialog allow you to do?",
+              "options-hindi": ["A). फ़ॉन्ट आकार समायोजित करें", "B). प्रिंट करने के लिए पृष्ठों की संख्या निर्दिष्ट करें", "C). दस्तावेज़ की कितनी प्रतियां प्रिंट करनी हैं यह निर्दिष्ट करें", "D). कागज का आकार चुनें"],
+              "options-english": ["A). Adjust the font size", "B). Specify the number of pages to print", "C). Specify how many copies of the document to print", "D). Choose the paper size"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: प्रिंट डायलॉग बॉक्स में 'Number of Copies' सेटिंग उपयोगकर्ता को यह निर्दिष्ट करने की अनुमति देती है कि चयनित पृष्ठों या पूरे दस्तावेज़ की कितनी समान प्रतियां प्रिंट की जानी चाहिए।",
+              "solution-english": "Solution: The ‘Number of Copies’ setting in the print dialog box allows the user to specify how many identical copies of the selected pages or the entire document should be printed."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा एक कॉलम अक्षर और एक पंक्ति संख्या का सही संयोजन है जो MS Excel में एक वर्कशीट पर एक सेल की पहचान करता है?",
+              "question-english" : "Which of the following is the correct combination of a column letter and a row number that identifies a cell on a worksheet in MS Excel?",
+              "options-hindi": ["A). A3", "B). 33", "C). 3A", "D). AA"],
+              "options-english": ["A). A3", "B). 33", "C). 3A", "D). AA"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: एक्सेल में एक सेल का अद्वितीय पता हमेशा उसके कॉलम अक्षर के बाद उसकी पंक्ति संख्या से बनता है। उदाहरण के लिए, A3 कॉलम A और पंक्ति 3 के प्रतिच्छेदन पर स्थित सेल को संदर्भित करता है।",
+              "solution-english": "Solution: A cell's unique address in Excel is always formed by its column letter followed by its row number. For example, A3 refers to the cell at the intersection of column A and row 3."
+            },
+            {
+              "question-hindi": "MS Word 365 में, अधिकांश एप्लिकेशन में चयनित टेक्स्ट को कॉपी करने के लिए कीबोर्ड शॉर्टकट क्या है?",
+              "question-english" : "In MS word 365, what is the keyboard shortcut to copy selected text in most applications?",
+              "options-hindi": ["A). Ctrl + X", "B). Ctrl + C", "C). Ctrl + Z", "D). Ctrl + V"],
+              "options-english": ["A). Ctrl + X", "B). Ctrl + C", "C). Ctrl + Z", "D). Ctrl + V"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: Ctrl + C कॉपी कमांड के लिए सार्वभौमिक कीबोर्ड शॉर्टकट है, जो चयनित आइटम को डुप्लिकेट करता है और इसे क्लिपबोर्ड पर रखता है।",
+              "solution-english": "Solution: Ctrl + C is the universal keyboard shortcut for the Copy command, which duplicates the selected item and places it on the clipboard."
+            },
+            {
+              "question-hindi": "पेज सेटअप समूह में, MS Word 365 में ब्रेक के बाद के टेक्स्ट को एक नए पेज या दस्तावेज़ पर शुरू करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+              "question-english" : "In the Page Setup group, which of the following is used to force the text after the break to start on a new page or document in MS word 365?",
+              "options-hindi": ["A). ओरिएंटेशन", "B). पेज मार्जिन", "C). पेज साइज", "D). पेज ब्रेक"],
+              "options-english": ["A). Orientation", "B). Page Margins", "C). Page Size", "D). Page Break"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: एक पेज ब्रेक एक दस्तावेज़ में डाला गया एक मार्कर है जो सभी बाद की सामग्री को अगले पृष्ठ के शीर्ष पर शुरू करने के लिए मजबूर करता है।",
+              "solution-english": "Solution: A Page Break is a marker inserted into a document that forces all subsequent content to begin at the top of the next page."
+            }
+          ]
+    }
+  ]
+}

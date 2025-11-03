@@ -1,0 +1,1164 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+              "question-hindi": "कोशिका के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+              "question-english" : "Which of the following statements about cell is correct?",
+              "options-hindi": ["क) जीवाणु कोशिका में सेलूलोज़ होता है।", "ख) एक कोशिका की कोशिका झिल्ली कठोर और दृढ़ होती है।", "ग) एक कोशिका का पावरहाउस प्लास्टिड होता है।", "घ) कोशिका जीवन की एक कार्यात्मक इकाई है।"],
+              "options-english": ["A). Bacterial cell contains cellulose", "B). Cell membrane of a cell is hard and rigid", "C). Powerhouse of a cell is plastid", "D). Cell is a functional unit of life."],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:एक कोशिका सभी ज्ञात जीवों की मूल संरचनात्मक और कार्यात्मक इकाई है। यह जीवन की सबसे छोटी इकाई है जो स्वतंत्र रूप से प्रतिकृति बना सकती है। अन्य कथन गलत हैं। बैक्टीरिया की कोशिका भित्ति पेप्टिडोग्लाइकन से बनी होती है, सेलूलोज़ से नहीं। कोशिका झिल्ली एक लचीली संरचना है, कठोर और दृढ़ नहीं। कोशिका का पावरहाउस माइटोकॉन्ड्रियन है, प्लास्टिड नहीं।",
+              "solution-english": "Solution:A cell is the basic structural and functional unit of all known organisms. It is the smallest unit of life that can replicate independently. The other statements are incorrect. The cell wall of bacteria is made of peptidoglycan, not cellulose. The cell membrane is a flexible structure, not hard and rigid. The powerhouse of the cell is the mitochondrion, not the plastid."
+            },
+
+
+            {
+              "question-hindi": "प्रसिद्ध आत्मकथा 'द स्टोरी ऑफ माई लाइफ' के लेखक कौन हैं?",
+              "question-english" : "Who is the writer of the famous autobiography 'The Story of My Life'?",
+              "options-hindi": ["क) ऐनी फ्रैंक", "ख) स्टीव जॉब्स", "ग) महात्मा गांधी", "घ) हेलेन केलर"],
+              "options-english": ["A). Anne Frank", "B). Steve Jobs", "C). Mahatma Gandhi", "D). Helen Keller"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:द स्टोरी ऑफ माई लाइफ हेलेन केलर की आत्मकथा है, जो एक अमेरिकी लेखक, राजनीतिक कार्यकर्ता और व्याख्याता थीं। उन्होंने रेडक्लिफ कॉलेज में अपने समय के दौरान यह पुस्तक लिखी थी, और यह पहली बार 1903 में प्रकाशित हुई थी। पुस्तक उनके प्रारंभिक जीवन, विशेष रूप से उनकी शिक्षिका ऐनी सुलिवन के साथ उनके अनुभवों का विवरण देती है।",
+              "solution-english": "Solution:The Story of My Life is the autobiography of Helen Keller, an American author, political activist, and lecturer. She wrote the book during her time at Radcliffe College, and it was first published in 1903. The book details her early life, particularly her experiences with her teacher Anne Sullivan."
+            },
+
+
+            {
+              "question-hindi": "हमारे शरीर का कौन सा अंग पाचन के लिए जिम्मेदार है?",
+              "question-english" : "Which part of our body is responsible for digestion?",
+              "options-hindi": ["क) हृदय", "ख) गुर्दा", "ग) जठर ग्रंथियां", "घ) हाथ"],
+              "options-english": ["A). Heart", "B). Kidney", "C). Gastric glands", "D). Hands"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:पेट की परत में स्थित जठर ग्रंथियां, जठर रस स्रावित करके पाचन में महत्वपूर्ण भूमिका निभाती हैं। इस रस में पेप्सिन और हाइड्रोक्लोरिक एसिड जैसे एंजाइम होते हैं, जो भोजन को तोड़ने में मदद करते हैं। हृदय रक्त पंप करता है, गुर्दे रक्त से अपशिष्ट को फ़िल्टर करते हैं, और हाथों का उपयोग खाने के लिए किया जाता है, लेकिन वे पाचन की आंतरिक प्रक्रिया में शामिल नहीं होते हैं।",
+              "solution-english": "Solution:The gastric glands, located in the lining of the stomach, play a crucial role in digestion by secreting gastric juice. This juice contains enzymes like pepsin and hydrochloric acid, which help break down food. The heart pumps blood, the kidneys filter waste from the blood, and hands are used for eating but are not involved in the internal process of digestion."
+            },
+
+
+            {
+              "question-hindi": "हरिषेण द्वारा लिखित इलाहाबाद के स्तंभ पर शिलालेख किस भाषा में है?",
+              "question-english" : "The inscription on the pillar of Allahabad written by Harishena is in which language?",
+              "options-hindi": ["क) फारसी", "ख) प्राकृत", "ग) पाली", "घ) संस्कृत"],
+              "options-english": ["A). Persian", "B). Prakrit", "C). Pali", "D). Sanskrit"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:इलाहाबाद स्तंभ शिलालेख, जिसे प्रयाग प्रशस्ति के नाम से भी जाना जाता है, गुप्त सम्राट समुद्रगुप्त के दरबारी कवि हरिषेण द्वारा रचित एक प्रशस्ति (प्रशंसा) है। यह ब्राह्मी लिपि का उपयोग करते हुए शास्त्रीय संस्कृत में लिखा गया है।",
+              "solution-english": "Solution:The Allahabad Pillar inscription, also known as the Prayag Prashasti, is a prashasti (eulogy) composed by Harishena, the court poet of the Gupta emperor Samudragupta. It is written in classical Sanskrit, using the Brahmi script."
+            },
+
+           
+            {
+              "question-hindi": "______ का उद्देश्य शहरी बेघरों के लिए आश्रय (एसयूएच) योजना के तहत चरणबद्ध तरीके से आवश्यक सेवाओं से लैस स्थायी आश्रय प्रदान करना है।",
+              "question-english" : "______ aims to provide permanent shelter equipped with essential services to the urban homeless in a phased manner under the Scheme of Shelter for Urban Homeless (SUH).",
+              "options-hindi": ["क) ग्रामीण आवास योजना", "ख) राष्ट्रीय शहरी आजीविका मिशन (एनयूएलएम)", "ग) प्रधानमंत्री आवास योजना", "घ) राजीव आवास योजना"],
+              "options-english": ["A). Gramin Awas Yojana", "B). National Urban Livelihoods Mission (NULM", "C). Pradhan Mantri Awas Yoja", "D). Rajiv Awas Yojana"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "D). Rajiv Awas Yojana",
+              "solution-hindi": "हल:राष्ट्रीय शहरी आजीविका मिशन (एनयूएलएम) में शहरी बेघरों के लिए आश्रय (एसयूएच) नामक एक घटक है। इस योजना का उद्देश्य शहरी बेघर आबादी के लिए आवश्यक सेवाओं के साथ स्थायी, सभी मौसमों के लिए आश्रय प्रदान करना है।",
+              "solution-english": "Solution:The National Urban Livelihoods Mission (NULM) has a component called the Scheme of Shelter for Urban Homeless (SUH). This scheme aims to provide permanent, all-weather shelters with essential services for the urban homeless population."
+            },
+
+            {
+              "question-hindi": "निम्नलिखित में से कौन सी नीति निजीकरण को बढ़ावा देती है?/nक. विनिवेश ख. आउटसोर्सिंग ग. शहरीकरण",
+              "question-english" : "Which of the following is a policy that promotes privatisation?/nA. Disinvestment B.  Outsourcing C. Urbanisation",
+              "options-hindi": ["क) केवल क", "ख) सभी - क, ख और ग", "ग) केवल क और ख", "घ) क और ग दोनों"],
+              "options-english": ["A). Only A", "B). All – A, B and C", "C). Only A and B", "D). Both A and C"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:निजीकरण में एक सार्वजनिक क्षेत्र के उद्यम के स्वामित्व या प्रबंधन को निजी क्षेत्र में स्थानांतरित करना शामिल है। विनिवेश (सार्वजनिक क्षेत्र की इकाइयों में सरकारी शेयरों को बेचना) और आउटसोर्सिंग (निजी फर्मों को सेवाओं का अनुबंध करना) दो प्रमुख नीतियां हैं जो निजीकरण को बढ़ावा देती हैं। शहरीकरण ग्रामीण से शहरी क्षेत्रों में जनसंख्या के स्थानांतरण की प्रक्रिया है और यह एक निजीकरण नीति नहीं है।",
+              "solution-english": "Solution:Privatisation involves transferring ownership or management of a public sector enterprise to the private sector. Disinvestment (selling off government shares in public sector units) and outsourcing (contracting out services to private firms) are two key policies that promote privatisation. Urbanisation is the process of population shift from rural to urban areas and is not a privatisation policy."
+            },
+
+            {
+              "question-hindi": "किस संविधान संशोधन अधिनियम ने यह प्रावधान किया कि सभी नागरिकों को सहकारी समितियां बनाने का मौलिक अधिकार होगा?",
+              "question-english" : "Which Constitution Amendment Act provided that all the citizens shall have the fundamental right to form co-operative societies?",
+              "options-hindi": ["क) 91वां संशोधन अधिनियम", "ख) 99वां संशोधन अधिनियम", "ग) 89वां संशोधन अधिनियम", "घ) 97वां संशोधन अधिनियम"],
+              "options-english": ["A). 91st Amendment Act", "B). 99th Amendment Act", "C). 89th Amendment Act", "D). 97th Amendment Act"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "D). 97th Amendment Act",
+              "solution-hindi": "हल:2011 के 97वें संवैधानिक संशोधन अधिनियम ने सहकारी समितियों को संवैधानिक दर्जा और संरक्षण प्रदान किया। इसने सहकारी समितियों के गठन के अधिकार को अनुच्छेद 19(1)(ग) के तहत एक मौलिक अधिकार बना दिया।",
+              "solution-english": "Solution:The 97th Constitutional Amendment Act of 2011 granted constitutional status and protection to co-operative societies. It made the right to form co-operative societies a fundamental right under Article 19(1)(c)."
+            },
+
+
+            {
+              "question-hindi": "राष्ट्रीय आय लेखांकन की किस विधि में उत्पादन केंद्रों को प्राथमिक, द्वितीयक और तृतीयक क्षेत्रों में वर्गीकृत करना शामिल है?",
+              "question-english" : "Which method of national income accounting involves classifying production centres into primary, secondary and tertiary sectors?",
+              "options-hindi": ["क) अवशिष्ट दृष्टिकोण", "ख) उत्पादन दृष्टिको", "ग) आय दृष्टिकोण", "घ) व्यय दृष्टिकोण"],
+              "options-english": ["A). Residual approach", "B). Production approach", "", "D). Expenditure approach"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:राष्ट्रीय आय की गणना के लिए उत्पादन (या मूल्य वर्धित) दृष्टिकोण घरेलू अर्थव्यवस्था में प्रत्येक उत्पादक इकाई के योगदान को मापता है। इसमें आर्थिक गतिविधियों को तीन क्षेत्रों में वर्गीकृत करना शामिल है: प्राथमिक (कृषि, खनन), द्वितीयक (विनिर्माण, निर्माण), और तृतीयक (सेवाएं)।",
+              "solution-english": "Solution:The Production (or Value Added) approach to calculating national income measures the contribution of each producing unit in the domestic economy. It involves classifying economic activities into three sectors: primary (agriculture, mining), secondary (manufacturing, construction), and tertiary (services)."
+            },
+
+
+            {
+              "question-hindi": "श्यामजी कृष्णवर्मा ने भारत की मुक्ति के लिए इंडिया होम रूल सोसाइटी की स्थापना की, जिसे लोकप्रिय रूप से इंडिया हाउस के नाम से जाना जाता है, किस स्थान पर की?",
+              "question-english" : "Shyamji Krishnavarma set up the India Home Rule society popularly known as India House for India’s liberation at which place?",
+              "options-hindi": ["क) पेरिस", "ख) बर्लिन", "ग) सैन फ्रांसिस्को", "घ) लंदन"],
+              "options-english": ["A). Paris", "B). Berlin", "C). San Francisco", "D). London"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:1905 में, एक भारतीय राष्ट्रवादी श्यामजी कृष्णवर्मा ने लंदन में इंडिया होम रूल सोसाइटी की स्थापना की, जिसे इंडिया हाउस के नाम से जाना जाता है। यह ब्रिटेन में कट्टरपंथी भारतीय राष्ट्रवादियों के लिए एक बैठक स्थल और केंद्र के रूप में कार्य करता था।",
+              "solution-english": "Solution:In 1905, Shyamji Krishnavarma, an Indian nationalist, established the India Home Rule Society, famously known as India House, in London. It served as a meeting place and hub for radical Indian nationalists in Britain."
+            },
+
+
+            {
+              "question-hindi": "भारतीय संविधान के किस अनुच्छेद में उल्लेख है कि 'मंत्रियों द्वारा राज्यपाल को दी गई सलाह की किसी भी अदालत में जांच नहीं की जाएगी'?",
+              "question-english" : "Which Article of the Indian Constitution mentions that 'The advice tendered by Ministers to the Governor shall NOT be inquired into in any court'?",
+              "options-hindi": ["क) अनुच्छेद 167", "ख) अनुच्छेद 161", "ग) अनुच्छेद 168", "घ) अनुच्छेद 163"],
+              "options-english": ["A). Article 167", "B). Article 161", "C). Article 168", "D). Article 163"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:भारतीय संविधान के अनुच्छेद 163(3) में स्पष्ट रूप से कहा गया है कि इस प्रश्न की किसी भी अदालत में जांच नहीं की जाएगी कि क्या कोई, और यदि हां, तो क्या, मंत्रियों द्वारा राज्यपाल को सलाह दी गई थी। यह अनुच्छेद राज्यपाल की सहायता और सलाह देने में मंत्रिपरिषद की भूमिका से संबंधित है।",
+              "solution-english": "Solution:Article 163(3) of the Indian Constitution explicitly states that The question whether any, and if so what, advice was tendered by Ministers to the Governor shall not be inquired into in any court. This article deals with the Council of Ministers' role in aiding and advising the Governor."
+            },
+
+
+            {
+              "question-hindi": "निम्नलिखित में से किस वर्ष में तेलंगाना विधान सभा की स्थापना की गई थी?",
+              "question-english" : "In which of the following years was the Telangana Legislative Assembly established?",
+              "options-hindi": ["क) 2010", "ख) 2014", "ग) 2012", "घ) 2013"],
+              "options-english": ["A). 2010", "B). 2014", "C). 2012 ", "D). 2013"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:तेलंगाना विधान सभा की स्थापना 2014 में आंध्र प्रदेश के विभाजन के बाद की गई थी। आंध्र प्रदेश पुनर्गठन अधिनियम, 2014 के कारण 2 जून, 2014 को तेलंगाना एक अलग राज्य के रूप में अपनी स्वयं की विधान सभा के साथ बनाया गया।",
+              "solution-english": "Solution:The Telangana Legislative Assembly was established in 2014 following the bifurcation of Andhra Pradesh. The Andhra Pradesh Reorganisation Act, 2014, led to the creation of Telangana as a separate state on June 2, 2014, with its own legislative assembly."
+            },
+
+
+            {
+              "question-hindi": "एक क्रिकेट मैच में, एक ओवर में गेंदों की संख्या _________ होती है।",
+              "question-english" : "In a cricket match, the number of balls in an over is _________ .",
+              "options-hindi": ["क) 5", "ख) 8", "ग) 7", "घ) 6"],
+              "options-english": ["A). 5", "B). 8", "C). 7", "D). 6"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:क्रिकेट के खेल में, एक ओवर में एक ही गेंदबाज द्वारा पिच के एक छोर से दूसरे छोर पर बल्लेबाज को फेंकी गई छह कानूनी गेंदें होती हैं।",
+              "solution-english": "Solution:In the sport of cricket, an over consists of six legal deliveries (balls) bowled by a single bowler from one end of the pitch to the batsman at the other end."
+            },
+
+
+            {
+              "question-hindi": "जब एक कोशिका विभाजित नहीं हो रही होती है, तो उसके केंद्रक में अत्यधिक विस्तारित और विस्तृत न्यूक्लियोप्रोटीन फाइबर होते हैं। इसे क्या कहा जाता है?",
+              "question-english" : "When a cell is not dividing, its nucleus has highly extended and elaborate nucleoprotein fibres. What is it called?",
+              "options-hindi": ["क) फाइब्रोमैटिन", "ख) ट्यूबुलिन", "ग) ब्रोमैटिन", "घ) क्रोमैटिन"],
+              "options-english": ["A). Fibromatin", "B). Tubulin", "C). Bromatin", "D). Chromatin"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:कोशिका चक्र के इंटरफेज (अविभाजित चरण) के दौरान, आनुवंशिक सामग्री डीएनए और प्रोटीन के एक परिसर के रूप में मौजूद होती है जिसे क्रोमैटिन कहा जाता है। ये केंद्रक के भीतर लंबे, पतले और उलझे हुए फाइबर होते हैं। कोशिका विभाजन के दौरान, क्रोमैटिन संघनित होकर दृश्यमान गुणसूत्र बनाता है।",
+              "solution-english": "Solution:During the interphase (the non-dividing phase) of the cell cycle, the genetic material exists as a complex of DNA and proteins called chromatin. These are long, thin, and tangled fibres within the nucleus. During cell division, the chromatin condenses to form visible chromosomes."
+            },
+
+
+
+            {
+              "question-hindi": "अल्लाह रक्खा, साबिर खान, पंडित किशन महाराज, पंडित ज्ञान प्रकाश घोष और संदीप दास निम्नलिखित में से किस वाद्य यंत्र के प्रसिद्ध वादक हैं?",
+              "question-english" : "Allah Rakha, Sabir Khan, Pandit Kishan Maharaj, Pandit Jnan Prakash Ghosh and Sandeep Das are noted players of which of the following instruments?",
+              "options-hindi": ["क) पखावज", "ख) तबला", "ग) घटम", "घ) मृदंगम"],
+              "options-english": ["). Pakhawaj", "B). Tabla", "C). Ghatam", "D). Mridangam"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:सूचीबद्ध सभी संगीतकार - उस्ताद अल्लाह रक्खा, उस्ताद साबिर खान, पंडित किशन महाराज, पंडित ज्ञान प्रकाश घोष, और संदीप दास - तबला के प्रसिद्ध और प्रशंसित प्रतिपादक हैं, जो भारतीय उपमहाद्वीप से छोटे हाथ के ड्रम की एक जोड़ी है।",
+              "solution-english": "Solution:All the musicians listed – Ustad Allah Rakha, Ustad Sabir Khan, Pandit Kishan Maharaj, Pandit Jnan Prakash Ghosh, and Sandeep Das – are renowned and celebrated exponents of the tabla, a pair of small hand drums from the Indian subcontinent."
+            },
+
+
+            {
+              "question-hindi": "जनगणना 2011 के अनुसार, किस केंद्र शासित प्रदेश में पुरुष साक्षरता दर सबसे अधिक है?",
+              "question-english" : "According to Census 2011, which union territory has the highest male literacy rate?",
+              "options-hindi": ["क) लक्षद्वीप", "ख) दमन और दीव", "ग) दिल्ली", "घ) पुडुचेरी"],
+              "options-english": ["A). Lakshadweep", "B). Daman & Diu", "C). Delhi", "D). Puducherry"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:भारत की 2011 की जनगणना के अनुसार, लक्षद्वीप के केंद्र शासित प्रदेश में सभी केंद्र शासित प्रदेशों में पुरुष साक्षरता दर सबसे अधिक 95.56% थी।",
+              "solution-english": "Solution:As per the 2011 Census of India, the union territory of Lakshadweep had the highest male literacy rate among all union territories, at 95.56%."
+            },
+
+
+            {
+              "question-hindi": "सुजाता महापात्र किस भारतीय शास्त्रीय नृत्य शैली से जुड़ी हैं?",
+              "question-english" : "With which Indian classical dance form is Sujata Mohapatra associated?",
+              "options-hindi": ["क) भरतनाट्यम", "ख) कथक", "ग) सत्त्रिया", "घ) ओडिसी"],
+              "options-english": ["A). Bharatanatyam", "B). Kathak", "C). Sattriya", "D). Odissi"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:सुजाता महापात्र ओडिसी की एक प्रतिष्ठित और प्रशंसित नृत्यांगना हैं, जो भारत की आठ प्रमुख शास्त्रीय नृत्य शैलियों में से एक है। वह प्रसिद्ध ओडिसी वादक गुरु केलुचरण महापात्र की शिष्या और बहू हैं।",
+              "solution-english": "Solution:Sujata Mohapatra is a distinguished and acclaimed dancer of Odissi, one of the eight major classical dance forms of India. She is the disciple and daughter-in-law of the legendary Odissi maestro, Guru Kelucharan Mohapatra."
+            },
+
+
+            {
+              "question-hindi": "मकर ध्वज दारोघा को किस नृत्य शैली के लिए पद्म श्री से सम्मानित किया गया था?",
+              "question-english" : "Makar Dhwaja Darogha was honoured with the Padma Shri for which form of dance?",
+              "options-hindi": ["क) कालबेलिया", "ख) मोहिनीअट्टम", "ग) छऊ", "घ) कथक"],
+              "options-english": ["A). Kalbelia", "B). Mohiniattam", "C). Chhau", "D). Kathak"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:गुरु मकर ध्वज दारोघा छऊ नृत्य के एक प्रसिद्ध कलाकार थे, जो मार्शल और लोक परंपराओं के साथ एक अर्ध-शास्त्रीय भारतीय नृत्य है। छऊ नृत्य शैली को संरक्षित और बढ़ावा देने में उनके महत्वपूर्ण योगदान के लिए उन्हें 2011 में पद्म श्री से सम्मानित किया गया था।",
+              "solution-english": "Solution:Guru Makar Dhwaja Darogha was a renowned artist of the Chhau dance, a semi-classical Indian dance with martial and folk traditions. He was awarded the Padma Shri in 2011 for his significant contributions to preserving and promoting the Chhau dance form."
+            },
+
+
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा भारतीय राज्य अपने व्यापक चाय बागानों के लिए जाना जाता है?",
+              "question-english" : "Which of the following Indian states is known for its extensive tea plantations?",
+              "options-hindi": ["क) पंजाब", "ख) राजस्थान", "ग) असम", "घ) गुजरात"],
+              "options-english": ["A). Punjab", "B). Rajasthan", "C). Assam", "D). Gujarat"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:असम भारत में सबसे बड़ा चाय उत्पादक राज्य है और अपनी उच्च गुणवत्ता वाली असम चाय के लिए विश्व प्रसिद्ध है। राज्य में चाय बागानों से ढके विशाल क्षेत्र हैं, जो वैश्विक चाय उद्योग में महत्वपूर्ण योगदान देते हैं।",
+              "solution-english": "Solution:Assam is the largest tea-producing state in India and is world-famous for its high-quality Assam tea. The state has vast areas covered with tea gardens, contributing significantly to the global tea industry."
+            },
+
+
+            {
+              "question-hindi": "भारत के संविधान में निम्नलिखित में से कौन सी विशेषता भारत सरकार अधिनियम, 1935 से ली गई है?",
+              "question-english" : "Which of the following features in the Constitution of India has been taken from the Government of India Act, 1935?",
+              "options-hindi": ["क) संघीय योजना", "ख) गणतंत्र का विचार", "ग) संसद के दोनों सदनों की संयुक्त बैठक", "घ) आपातकाल के दौरान मौलिक अधिकारों का निलंबन"],
+              "options-english": ["A). Federal Scheme", "B). Idea of Republic", "C). Joint sitting of the two houses of the Parliament", "D). Suspension of fundamental rights during emergency"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:भारत के संविधान ने भारत सरकार अधिनियम, 1935 से कई प्रमुख विशेषताएं उधार लीं। इनमें से सबसे महत्वपूर्ण संघीय योजना है, जो केंद्र सरकार और राज्यों के बीच शक्तियों के विभाजन के साथ शासन की संरचना की रूपरेखा तैयार करती है।",
+              "solution-english": "Solution:The Constitution of India borrowed several key features from the Government of India Act, 1935. The most significant among these is the Federal Scheme, which outlines the structure of governance with a division of powers between the central government and the states."
+            },
+
+
+            {
+              "question-hindi": "निम्नलिखित में से कौन तुर्की शासक था जिसने 1398 में लूटने के इरादे से भारत पर आक्रमण किया था?",
+              "question-english" : "Who among the following was the Turkish ruler who invaded India with intent to rob in 1398?",
+              "options-hindi": ["क) शाहरुख मिर्जा", "ख) गुयुक खान", "ग) तैमूर लंग", "घ) चंगेज खान"],
+              "options-english": ["A). Shahrukh Mirza", "B). Guyuk Khan", "C). Timur Lang", "D). Genghis Khan"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:तैमूर, जिसे तैमूर लंग के नाम से भी जाना जाता है, एक तुर्को-मंगोल विजेता था जिसने 1398 में भारत पर आक्रमण किया था। उसका प्राथमिक उद्देश्य दिल्ली सल्तनत की संपत्ति को लूटना था। उसने दिल्ली को लूटा और नष्ट कर दिया, जिससे भारी तबाही हुई।",
+              "solution-english": "Solution:Timur, also known as Tamerlane or Timur Lang, was a Turco-Mongol conqueror who invaded India in 1398. His primary motive was to plunder the wealth of the Delhi Sultanate. He sacked and destroyed Delhi, causing immense devastation."
+            },
+
+
+            {
+              "question-hindi": "एलईआरएमएस प्रणाली के तहत, विदेशी मुद्रा आय का कितना प्रतिशत आधिकारिक दर पर परिवर्तित किया जा सकता है?",
+              "question-english" : "Under the LERMS system, what percentage of foreign exchange earnings can be converted at the official rate?",
+              "options-hindi": ["क) 20", "ख) 25", "ग) 40", "घ) 35"],
+              "options-english": ["A). 20", "B). 25", "C). 40", "D). 35"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:एलईआरएमएस, उदारीकृत विनिमय दर प्रबंधन प्रणाली, भारत में 1992 में शुरू की गई थी। इस दोहरी विनिमय दर प्रणाली के तहत, विदेशी मुद्रा आय का 40% सरकार द्वारा निर्धारित आधिकारिक विनिमय दर पर सरेंडर करना पड़ता था, जबकि शेष 60% को बाजार द्वारा निर्धारित दर पर परिवर्तित किया जा सकता था।",
+              "solution-english": "Solution:LERMS, the Liberalised Exchange Rate Management System, was introduced in India in 1992. Under this dual exchange rate system, 40% of foreign exchange earnings had to be surrendered at the government-determined official exchange rate, while the remaining 60% could be converted at the market-determined rate."
+            },
+
+            {
+              "question-hindi": "महाबोधि मंदिर इनमें से किस राज्य में है?",
+              "question-english" : "The Mahabodhi Temple is in which of these states?",
+              "options-hindi": ["क) उत्तर प्रदेश", "ख) छत्तीसगढ़", "ग) बिहार", "घ) मध्य प्रदेश"],
+              "options-english": ["A). Uttar Pradesh", "B). Chhattisgarh", "C). Bihar", "D). Madhya Pradesh"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:महाबोधि मंदिर, एक यूनेस्को विश्व धरोहर स्थल, बोधगया में, बिहार राज्य में स्थित है। यह वह स्थान है जहां सिद्धार्थ गौतम, बुद्ध को ज्ञान प्राप्त हुआ था।",
+              "solution-english": "Solution:The Mahabodhi Temple, a UNESCO World Heritage Site, is located in Bodh Gaya, in the state of Bihar. It is the place where Siddhartha Gautama, the Buddha, is said to have attained enlightenment."
+            },
+
+
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा खिलाड़ी तलवारबाजी से संबंधित है?",
+              "question-english" : "Which of the following players is associated with fencing?",
+              "options-hindi": ["क) नवजीत कौर ढिल्लों", "ख) सीए भवानी देवी", "ग) हिमा दास", "घ) पारुल चौधरी"],
+              "options-english": ["A). Navjeet Kaur Dhillon", "B). CA Bhavani Devi", "C). Hima Das", "D). Parul Chaudhari"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:चडलवादा आनंद सुंदररमन भवानी देवी, या सी.ए. भवानी देवी, एक भारतीय कृपाण तलवारबाज हैं। उन्होंने ओलंपिक खेलों के लिए क्वालीफाई करने वाली पहली भारतीय तलवारबाज बनकर इतिहास रचा।",
+              "solution-english": "Solution:Chadalavada Anandha Sundhararaman Bhavani Devi, or C.A. Bhavani Devi, is an Indian sabre fencer. She made history by becoming the first Indian fencer to qualify for the Olympic Games."
+            },
+
+
+            {
+              "question-hindi": "किस भारतीय राज्य में दुनिया की सबसे लंबी राजमार्ग सुरंग है (जुलाई 2023 तक)?",
+              "question-english" : "Which Indian state has the world's longest highway tunnel (as of July 2023)?",
+              "options-hindi": ["क) हिमाचल प्रदेश", "ख) राजस्थान", "ग) गुजरात", "घ) पश्चिम बंगाल"],
+              "options-english": ["A). Himachal Pradesh", "B). Rajasthan", "C). Gujarat", "D). West Bengal"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:हिमाचल प्रदेश में स्थित अटल सुरंग, 10,000 फीट (3,048 मीटर) से ऊपर दुनिया की सबसे लंबी राजमार्ग सुरंग है। यह 9.02 किलोमीटर तक फैली है और मनाली को लाहौल-स्पीति घाटी से जोड़ती है।",
+              "solution-english": "Solution:The Atal Tunnel, located in Himachal Pradesh, is the world's longest highway tunnel above 10,000 feet (3,048 meters). It spans 9.02 kilometers and connects Manali to the Lahaul-Spiti Valley."
+            },
+
+
+            {
+              "question-hindi": "1915 में एमके गांधी के भारत लौटने के बाद, निम्नलिखित में से किसने उन्हें भूमि और उसके लोगों को जानने के लिए भारत भर में यात्रा करने की सलाह दी?",
+              "question-english" : "After MK Gandhi’s returning to India in 1915, who among the following advised him to travel around India to know the land and its people?",
+              "options-hindi": ["क) बिपिन चंद्र पाल", "ख) गोपाल कृष्ण गोखले", "ग) बाल गंगाधर तिलक", "घ) चित्तरंजन दास"],
+              "options-english": ["A). Bipin Chandra Pal", "B). Gopal Krishna Gokhale", "C). Bal Gangadhar Tilak", "). Chittaranjan Das"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:1915 में महात्मा गांधी के दक्षिण अफ्रीका से भारत लौटने पर, यह उनके राजनीतिक गुरु गोपाल कृष्ण गोखले थे, जिन्होंने उन्हें ब्रिटिश भारत में एक वर्ष बिताने की सलाह दी थी। इसका उद्देश्य भारतीय राजनीति में प्रवेश करने से पहले खुद को देश और उसके लोगों की वास्तविकता से परिचित कराना था।",
+              "solution-english": "Solution:Upon Mahatma Gandhi's return to India from South Africa in 1915, it was his political mentor, Gopal Krishna Gokhale, who advised him to spend a year traveling across British India. The purpose was to familiarize himself with the reality of the country and its people before entering Indian politics."
+            },
+
+
+            {
+              "question-hindi": "पूर्वोत्तर भारत में, अहोम हर साल 31 जनवरी को अपने पूर्वजों की पूजा करने के लिए एक आम जगह पर इस त्योहार को सभी पारंपरिक वेशभूषा और धूमधाम से मनाते हैं। त्योहार को पहचानें।",
+              "question-english" : "In northeast India, the Ahoms celebrate this festival in a common place to worship their ancestors on 31st January every year with all traditional costumes and fanfare. Identify the festival.",
+              "options-hindi": ["क) जोनबील मेला", "ख) रोंगकर", "ग) मे दम मे फी", "घ) डोलजात्रा"],
+              "options-english": ["A). Jonbeel Mela", "B). Rongker", "C). Me Dam Me Phi", "D). Doljatra"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:मे-दम-मे-फी असम के अहोम समुदाय का सबसे महत्वपूर्ण पैतृक पूजा उत्सव है। यह हर साल 31 जनवरी को दिवंगत लोगों के प्रति सम्मान दिखाने और समाज में उनके योगदान को याद करने के लिए मनाया जाता है।",
+              "solution-english": "Solution:Me-Dam-Me-Phi is the most significant ancestral worship festival of the Ahom community in Assam. It is celebrated annually on January 31st to show respect to the departed and to remember their contribution to society."
+            },
+
+
+            {
+              "question-hindi": "वेम्पति चिन्ना सत्यम ने वर्ष 1998 में किस नृत्य शैली के लिए पद्म भूषण जीता?",
+              "question-english" : "Vempati Chinna Satyam won the Padma Bhushan in the year 1998 for which form of dance?",
+              "options-hindi": ["क) कथकली", "ख) भरतनाट्यम", "ग) कुचिपुड़ी", "घ) कथक"],
+              "options-english": ["A). Kathakali", "B). Bharatnatyam", "C). Kuchipudi", "D). Kathak"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:गुरु वेम्पति चिन्ना सत्यम एक महान भारतीय नर्तक और कुचिपुड़ी नृत्य शैली के उस्ताद थे। उन्हें दुनिया भर में नृत्य शैली को लोकप्रिय बनाने का श्रेय दिया जाता है। उनके अपार योगदान के लिए, उन्हें 1998 में भारत के तीसरे सबसे बड़े नागरिक पुरस्कार पद्म भूषण से सम्मानित किया गया था।",
+              "solution-english": "Solution:Guru Vempati Chinna Satyam was a legendary Indian dancer and a master of the Kuchipudi dance form. He is credited with popularizing the dance form worldwide. For his immense contributions, he was honored with the Padma Bhushan, India's third-highest civilian award, in 1998."
+            },
+
+
+
+            {
+              "question-hindi": "एलोरा का कैलाश मंदिर और महाबलीपुरम के रथ मंदिर किस प्रकार की मंदिर वास्तुकला के उदाहरण हैं?",
+              "question-english" : "Kailash temple at Ellora and the Ratha temples of Mahabalipuram are examples of which type of temple architecture?",
+              "options-hindi": ["क) रॉक-कट", "ख) निम्न मंच", "ग) अखंड", "घ) पंचायतन"],
+              "options-english": ["A). Rock-cut", "B). Low platform", "C). Monolithic", "D). Panchayatan"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:एलोरा में कैलाश मंदिर और महाबलीपुरम में रथ (रथ) मंदिर दोनों भारतीय रॉक-कट वास्तुकला के प्रमुख उदाहरण हैं। इन मंदिरों का निर्माण पत्थरों से नहीं किया गया था, बल्कि उन्हें एक ही, ठोस प्राकृतिक चट्टान से उकेरा गया था। जबकि वे अखंड (एक ही पत्थर से उकेरे गए) भी हैं, रॉक-कट व्यापक स्थापत्य शैली है जिसका वे प्रतिनिधित्व करते हैं।",
+              "solution-english": "Solution:Both the Kailash Temple at Ellora and the Ratha (chariot) temples at Mahabalipuram are prime examples of Indian rock-cut architecture. These temples were not constructed by building up with stones but were carved out of a single, solid natural rock. While they are also monolithic (carved from a single stone), rock-cut is the broader architectural style they represent."
+            },
+
+
+            {
+              "question-hindi": "क्रिकेटर रवि शास्त्री ने रणजी ट्रॉफी टूर्नामेंट में ________ टीम का प्रतिनिधित्व किया।",
+              "question-english" : "Cricketer Ravi Shastri represented the ________ team in the Ranji Trophy tournament.",
+              "options-hindi": ["क) कर्नाटक", "ख) दिल्ली", "ग) कलकत्ता", "घ) मुंबई"],
+              "options-english": ["A). Karnataka", "B). Delhi", "C). Calcutta", "D). Mumbai"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:पूर्व भारतीय क्रिकेटर और कोच रवि शास्त्री ने घरेलू रणजी ट्रॉफी टूर्नामेंट में बॉम्बे (अब मुंबई) के लिए खेला। वह 1980 के दशक की प्रमुख बॉम्बे टीम के प्रमुख खिलाड़ी थे।",
+              "solution-english": "Solution:Ravi Shastri, the former Indian cricketer and coach, played for Bombay (now Mumbai) in the domestic Ranji Trophy tournament. He was a key player for the dominant Bombay team of the 1980s."
+            },
+
+
+            {
+              "question-hindi": "निजीकरण के अर्थ के संबंध में निम्नलिखित कथनों पर विचार करें। /n(i) सार्वजनिक क्षेत्र के उद्यमों के स्वामित्व का निजी क्षेत्र के उद्यमियों को हस्तांतरण न करना। (ii) सार्वजनिक क्षेत्र के उद्यमों के प्रबंधन का निजी क्षेत्र के उद्यमियों को हस्तांतरण। सही उत्तर चुनें।",
+              "question-english" : "Consider the following statements with respect to the meaning of privatisation./n(i) Non-transfer of ownership of public sector enterprises to the entrepreneurs in the private sector.(ii) Transfer of Management of public sector enterprises to the entrepreneurs in the private sector.Choose the correct answer.",
+              "options-hindi": ["क) (i) और (ii) दोनों सत्य हैं", "ख) (i) और (ii) दोनों असत्य हैं", "ग) केवल (i) सत्य है", "घ) केवल (ii) सत्य है"],
+              "options-english": ["A). Both (i) and (ii) are true", "B). Both (i) and (ii) are false", "C). Only (i) is true", "D). Only (ii) is true"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:निजीकरण में सार्वजनिक क्षेत्र से निजी क्षेत्र में स्वामित्व का हस्तांतरण या प्रबंधन का हस्तांतरण (या दोनों) शामिल हो सकता है। कथन (i) गलत है क्योंकि स्वामित्व का हस्तांतरण निजीकरण का एक प्राथमिक रूप है। कथन (ii) सही है क्योंकि निजी संस्थाओं को प्रबंधन नियंत्रण हस्तांतरित करना भी निजीकरण का एक रूप है।",
+              "solution-english": "Solution:Privatisation can involve either the transfer of ownership or the transfer of management (or both) from the public sector to the private sector. Statement (i) is incorrect because the transfer of ownership is a primary form of privatisation. Statement (ii) is correct as transferring management control to private entities is also a form of privatisation."
+            },
+
+
+
+            {
+              "question-hindi": "निम्नलिखित में से कौन सा गुप्त काल के दौरान कालिदास द्वारा लिखित राजा दुष्यंत की प्रेम कहानी पर आधारित एक नाटक था?",
+              "question-english" : "Which of the following was a drama based on the love story of King Dushyanta, written by Kalidasa during the Gupta period?",
+              "options-hindi": ["क) कुमारसंभव", "ख) रघुवंश", "ग) विक्रमोर्वशी", "घ) अभिज्ञानशाकुंतला"],
+              "options-english": ["A). Kumarasambhava", "B). Raghuvamsa", "C). Vikramorvashi", "C). Vikramorvashi"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:अभिज्ञानशाकुंतला, जिसे अक्सर महान संस्कृत कवि कालिदास की सर्वश्रेष्ठ कृति माना जाता है, एक नाटक है जो राजा दुष्यंत और शकुंतला की प्रेम कहानी का वर्णन करता है। कुमारसंभव और रघुवंश महाकाव्य हैं, नाटक नहीं।",
+              "solution-english": "Solution:Abhijnanashakuntala, often regarded as the finest work of the great Sanskrit poet Kalidasa, is a play (drama) that narrates the love story of King Dushyanta and Shakuntala. Kumarasambhava and Raghuvamsa are epic poems, not dramas."
+            },
+
+
+
+            {
+              "question-hindi": "आई.के. गुजराल, भारत के पूर्व प्रधानमंत्रियों में से एक, ने निम्नलिखित में से कौन सी आत्मकथा लिखी है?",
+              "question-english" : "IK Gujral, one of the former PMs of India, has written which of the following autobiographies?",
+              "options-hindi": ["क) फ्रॉम कॉरिडोर्स ऑफ पावर", "ख) मैटर्स ऑफ डिसक्रिशन", "ग) लिविंग हिस्ट्री", "घ) माई टाइम्स"],
+              "options-english": ["A). From Corridors of Power", "B). Matters of Discretion", "C). Living History", "D). My Times"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "हल:मैटर्स ऑफ डिसक्रिशन: एन ऑटोबायोग्राफी इंदर कुमार (आई.के.) गुजराल द्वारा लिखी गई थी, जिन्होंने भारत के 12वें प्रधानमंत्री के रूप में कार्य किया था। यह पुस्तक उनके जीवन और राजनीतिक करियर में अंतर्दृष्टि प्रदान करती है।",
+              "solution-hindi": "Correct Answer: B",
+              "solution-english": "Solution:Matters of Discretion: An Autobiography was written by Inder Kumar (I.K.) Gujral, who served as the 12th Prime Minister of India. The book provides insights into his life and political career."
+            },
+
+
+
+                {
+              "question-hindi": "प्रसिद्ध रत्नजड़ित सिंहासन, जिसे लोकप्रिय रूप से मयूर सिंहासन के नाम से जाना जाता है, का निर्माण ________ द्वारा करवाया गया था।",
+              "question-english" : "The famous jewelled throne, popularly known as the Peacock throne, was commissioned by ________.",
+              "options-hindi": ["क) अकबर", "ख) औरंगजेब", "ग) हुमायूँ", "घ) शाहजहाँ"],
+              "options-english": ["A). Akbar", "B). Aurangzeb", "C). Humayun", "D). Shah Jahan"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "D). Shah Jahan",
+              "solution-hindi": "हल:मयूर सिंहासन 17वीं शताब्दी की शुरुआत में मुगल सम्राट शाहजहाँ द्वारा बनवाया गया एक शानदार, रत्नजड़ित सिंहासन था। यह मुगल भव्यता का प्रतीक था और दिल्ली के लाल किले में दीवान-ए-खास (निजी दर्शकों का हॉल) में रखा गया था।",
+              "solution-english": "Solution:The Peacock Throne was a magnificent, jewel-encrusted throne commissioned in the early 17th century by the Mughal emperor Shah Jahan. It was a symbol of Mughal grandeur and was housed in the Diwan-i-Khas (Hall of Private Audiences) in the Red Fort of Delhi."
+            },
+
+
+
+
+    {
+              "question-hindi": "निम्नलिखित में से कौन सा दोहरा विस्थापन अभिक्रिया का एक उदाहरण है?",
+              "question-english" : "Which of the following is an example of double displacement reaction?",
+              "options-hindi": ["क) 2Pb(NO₃)₂ (s) + ऊष्मा → 2PbO (s) + 4NO₂ (g) + O₂ (g)", "ख) ZnO + C → Zn + CO", "ग) Fe(s) + CuSO₄ (aq) → FeSO₄ (aq) + Cu (s)", "घ) Na₂SO₄ (aq) + BaCl₂ (aq) → BaSO₄ (s) + 2NaCl (aq)"],
+              "options-english": ["A). 2Pb(NO₃)₂ (s) + Heat → 2PbO (s) + 4NO₂ (g) + O₂ (g)", "B). ZnO + C → Zn + CO", "C). Fe(s) + CuSO₄ (aq) → FeSO₄ (aq) + Cu (s)", "D). Na₂SO₄ (aq) + BaCl₂ (aq) → BaSO₄ (s) + 2NaCl (aq)"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:एक दोहरा विस्थापन अभिक्रिया एक प्रकार की अभिक्रिया है जहां दो अभिकारक दो नए यौगिक बनाने के लिए आयनों का आदान-प्रदान करते हैं। विकल्प डी में, सोडियम सल्फेट (Na₂SO₄) और बेरियम क्लोराइड (BaCl₂) अपने आयनों (Na⁺ के साथ Ba²⁺ और SO₄²⁻ के साथ Cl⁻) का आदान-प्रदान करके बेरियम सल्फेट (BaSO₄) और सोडियम क्लोराइड (NaCl) बनाते हैं।",
+              "solution-english": "Solution:A double displacement reaction is a type of reaction where two reactants exchange ions to form two new compounds. In option D, sodium sulfate (Na₂SO₄) and barium chloride (BaCl₂) exchange their ions (Na⁺ with Ba²⁺ and SO₄²⁻ with Cl⁻) to form barium sulfate (BaSO₄) and sodium chloride (NaCl)."
+            },
+
+
+
+                {
+              "question-hindi": "भारतीय संविधान के किस अनुच्छेद में यह उल्लेख है कि राज्य का यह दायित्व होगा कि वह कलात्मक या ऐतिहासिक रुचि के प्रत्येक स्मारक या स्थान या वस्तु की रक्षा करे?",
+              "question-english" : "Which Article of the Indian Constitution mentions that it shall be the obligation of the State to protect every monument or place or object of artistic or historic interest?",
+              "options-hindi": ["क) अनुच्छेद 49", "ख) अनुच्छेद 51", "ग) अनुच्छेद 45", "घ) अनुच्छेद 47"],
+              "options-english": ["A). Article 49", "B). Article 51", "C). Article 45", "C). Article 45"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:भारत के संविधान का अनुच्छेद 49, जो राज्य के नीति निदेशक सिद्धांतों का एक हिस्सा है, में कहा गया है कि राज्य का यह दायित्व होगा कि वह कलात्मक या ऐतिहासिक रुचि के प्रत्येक स्मारक या स्थान या वस्तु की रक्षा करे, जिसे संसद द्वारा बनाए गए कानून द्वारा या उसके तहत राष्ट्रीय महत्व का घोषित किया गया हो, लूटपाट, विरूपण, विनाश, निष्कासन, निपटान या निर्यात से, जैसा भी मामला हो।",
+              "solution-english": "Solution:Article 49 of the Constitution of India, which is a part of the Directive Principles of State Policy, states that It shall be the obligation of the State to protect every monument or place or object of artistic or historic interest, declared by or under law made by Parliament to be of national importance, from spoliation, disfigurement, destruction, removal, disposal or export, as the case may be."
+            },
+
+
+
+                {
+              "question-hindi": "निम्नलिखित में से कौन सा जोड़ा गलत है?",
+              "question-english" : "Which of the following pairs is INCORRECT?",
+              "options-hindi": ["क) तीसरी पंचवर्षीय योजना - गाडगिल योजना", "ख) चौथी पंचवर्षीय योजना - गरीबी हटाओ लक्ष्य", "ग) पहली पंचवर्षीय योजना - कृषि विकास", "घ) दूसरी पंचवर्षीय योजना - नेहरू महालनोबिस मॉडल"],
+              "options-english": ["A). Third Five-Year Plan – Gadgil Yojana", "B). Fourth Five-Year Plan – Garibi Hatao target", "C). First Five-Year Plan – Agricultural development", "D). Second Five-Year Plan – Nehru Mahalanobis model"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:गरीबी हटाओ का नारा और लक्ष्य पांचवीं पंचवर्षीय योजना (1974-1979) से प्रमुख रूप से जुड़ा था, चौथी से नहीं। चौथी पंचवर्षीय योजना का मुख्य उद्देश्य स्थिरता के साथ विकास और आत्मनिर्भरता की प्रगतिशील उपलब्धि था। अन्य जोड़े सही ढंग से मेल खाते हैं।",
+              "solution-english": "Solution:The slogan and goal of Garibi Hatao (Eradicate Poverty) was prominently associated with the Fifth Five-Year Plan (1974–1979), not the Fourth. The Fourth Five-Year Plan's main objective was growth with stability and progressive achievement of self-reliance. The other pairs are correctly matched."
+            },
+
+
+
+                {
+              "question-hindi": "भारतीय भूवैज्ञानिक सर्वेक्षण (जीएसआई) की स्थापना 1851 में मुख्य रूप से ________ के लिए कोयला भंडार खोजने के लिए की गई थी।",
+              "question-english" : "The Geological Survey of India (GSI) was set up in 1851 primarily to find coal deposits for ________.",
+              "options-hindi": ["क) जापान को निर्यात", "ख) कपड़ा मिलें", "ग) रेलवे", "घ) समुद्री परिवहन"],
+              "options-english": ["A). export to Japan", "B). textile miles", "C). railways", "D). marine transport"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:भारतीय भूवैज्ञानिक सर्वेक्षण (जीएसआई) की स्थापना 1851 में नव विकसित रेलवे प्रणाली की ईंधन मांगों को पूरा करने के लिए भारत के पूर्वी हिस्सों में कोयला भंडार का पता लगाने और उनका आकलन करने के प्राथमिक उद्देश्य से की गई थी।",
+              "solution-english": "Solution:The Geological Survey of India (GSI) was established in 1851 with the primary objective of locating and assessing coal deposits in the eastern parts of India to meet the fuel demands of the newly developing railway system."
+            },
+
+
+
+
+                {
+              "question-hindi": "मतदान की आयु 21 वर्ष से घटाकर 18 वर्ष ________ संवैधानिक संशोधन अधिनियम 1988 द्वारा कर दी गई थी।",
+              "question-english" : "The voting age was reduced from 21 years to 18 years by the ________ Constitutional Amendment Act of 1988.",
+              "options-hindi": ["क) 61वां", "ख) 71वां", "ग) 51वां", "घ) 41वां"],
+              "options-english": ["A). 61st", "A). 61st", "C). 51st", "D). 41st"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:61वें संवैधानिक संशोधन अधिनियम, 1988 ने संविधान के अनुच्छेद 326 में संशोधन करके लोकसभा और राज्य विधानसभाओं के चुनावों के लिए मतदान की आयु 21 वर्ष से घटाकर 18 वर्ष कर दी।",
+              "solution-english": "Solution:The 61st Constitutional Amendment Act, 1988, amended Article 326 of the Constitution to lower the voting age for elections to the Lok Sabha and state legislative assemblies from 21 years to 18 years."
+            },
+
+
+
+                {
+              "question-hindi": "निम्नलिखित में से कौन सौर मंडल में 0.03 के अल्बेडो के साथ सबसे गहरा, या सबसे कम परावर्तक वस्तु है?",
+              "question-english" : "Which of the following is the darkest, or least reflective object in the Solar System with an albedo of 0.03?",
+              "options-hindi": ["क) 9पी/टेम्पेल 1", "ख) 1पी/हैली", "ग) 2पी/एन्के", "घ) 19पी/बोरेली"],
+              "options-english": ["A). 9P/Tempel 1", "B). 1P/Halley", "C). 2P/Encke", "D). 19P/Borrelly"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:हैली के धूमकेतु (1पी/हैली) का केंद्रक सौर मंडल की सबसे गहरी वस्तुओं में से एक है। इसका अल्बेडो लगभग 0.03 है, जिसका अर्थ है कि यह उस पर पड़ने वाले सूर्य के प्रकाश का केवल 3% ही परावर्तित करता है। यह कोयले से भी गहरा है।",
+              "solution-english": "Solution:The nucleus of Halley's Comet (1P/Halley) is one of the darkest objects in the solar system. It has an albedo of approximately 0.03, meaning it reflects only about 3% of the sunlight that hits it. This is darker than coal."
+            },
+
+
+
+                {
+              "question-hindi": "कराईकुडी आर मणि भारत के प्रसिद्ध ________ वादक हैं।",
+              "question-english" : "Karaikudi R Mani is India's renowned player of the _________.",
+              "options-hindi": ["क) सितार", "ख) मृदंगम", "ग) संतूर", "घ) वायलिन"],
+              "options-english": ["A). sitar", "B). mridangam", "C). santoor", "D). violin"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:दिवंगत गुरु कराईकुडी आर. मणि मृदंगम के एक महान और अत्यधिक प्रशंसित वादक थे, जो दक्षिण भारत के कर्नाटक संगीत में प्राथमिक लयबद्ध वाद्य यंत्र है।",
+              "solution-english": "Solution:The late Guru Karaikudi R. Mani was a legendary and highly acclaimed virtuoso of the mridangam, a double-sided drum that is the primary rhythmic instrument in Carnatic music of Southern India."
+            },
+
+
+
+                {
+              "question-hindi": "किस उदार वायसराय ने नगर पालिकाओं के लिए स्थानीय स्वशासन अधिनियमित किया और 1878 के अलोकप्रिय वर्नाक्युलर प्रेस एक्ट को निरस्त कर दिया?",
+              "question-english" : "Which liberal Viceroy enacted local self-government for municipalities and repealed the unpopular Vernacular Press Act of 1878?",
+              "options-hindi": ["क) लॉर्ड लिटन", "ख) लॉर्ड रिपन", "ग) लॉर्ड डफरिन", "घ) लॉर्ड इल्बर्ट"],
+              "options-english": ["A). Lord Lytton", "B). Lord Ripon", "C). Lord Dufferin", "D). Lord Ilbert"],
+              "answer-hindi": "सही उत्तर: ख",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल:लॉर्ड रिपन, जिन्होंने 1880 से 1884 तक भारत के वायसराय के रूप में कार्य किया, अपनी उदार नीतियों के लिए जाने जाते हैं। उन्होंने 1882 में स्थानीय स्वशासन के लिए एक प्रस्ताव पेश किया, जिससे उन्हें भारत में स्थानीय स्वशासन का जनक की उपाधि मिली। उन्होंने 1882 में विवादास्पद वर्नाक्युलर प्रेस एक्ट को भी निरस्त कर दिया, जिसे उनके पूर्ववर्ती लॉर्ड लिटन ने अधिनियमित किया था।",
+              "solution-english": "Solution:Lord Ripon, who served as the Viceroy of India from 1880 to 1884, is known for his liberal policies. He introduced a resolution for local self-government in 1882, earning him the title Father of Local Self-Government in India. He also repealed the controversial Vernacular Press Act in 1882, which had been enacted by his predecessor, Lord Lytton."
+            },
+
+
+
+                {
+              "question-hindi": "निम्नलिखित में से किस खिलाड़ी ने 2021 में हॉकी में मेजर ध्यानचंद खेल रत्न पुरस्कार जीता?",
+              "question-english" : "",
+              "options-hindi": ["क) सुमित अंतिल", "ख) रवि कुमार दहिया", "ग) पीआर श्रीजेश", "घ) लवलीना बोरगोहेन"],
+              "options-english": ["A). Sumit Antil", "B). Ravi Kumar Dahiya", "C). PR Sreejesh", "D). Lovlina Borgohain"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:भारतीय राष्ट्रीय हॉकी टीम के गोलकीपर और पूर्व कप्तान पी. आर. श्रीजेश को हॉकी के खेल में उनके उत्कृष्ट योगदान के लिए 2021 में मेजर ध्यानचंद खेल रत्न पुरस्कार से सम्मानित किया गया।",
+              "solution-english": "Solution:P. R. Sreejesh, the goalkeeper and former captain of the Indian national hockey team, was awarded the Major Dhyan Chand Khel Ratna Award in 2021 for his outstanding contributions to the sport of hockey."
+            },
+
+
+
+                {
+              "question-hindi": "बाह्य ऋण के संदर्भ में, ईसीबी का क्या अर्थ है?",
+              "question-english" : "In the context of external debt, what do ECBs stands for?",
+              "options-hindi": ["क) बाह्य सामान्य उधार", "ख) आवश्यक वाणिज्यिक उधा ", "ग) बाह्य वाणिज्यिक उधार", "घ) आवश्यक सामान्य उधार"],
+              "options-english": ["A). External Common Borrowings", "B). Essential Commercial Borrowings", "C). External Commercial Borrowings", "D). Essential Common Borrowings"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:वित्त और अर्थशास्त्र में, ईसीबी का अर्थ बाह्य वाणिज्यिक उधार है। ये भारत में पात्र निवासी संस्थाओं द्वारा मान्यता प्राप्त अनिवासी उधारदाताओं से उठाए गए ऋण हैं, आमतौर पर विदेशी मुद्रा में।",
+              "solution-english": "Solution:In finance and economics, ECB stands for External Commercial Borrowings. These are loans raised by eligible resident entities in India from recognized non-resident lenders, typically in foreign currency."
+            },
+
+
+
+                {
+              "question-hindi": "श्रीमंत शंकर देव इनमें से किस नृत्य शैली से जुड़े हैं?",
+              "question-english" : "Srimanta Sankar Dev is associated with which of these dance forms?",
+              "options-hindi": ["क) कथक", "ख) मणिपुरी", "ग) सत्त्रिया", "घ) ओडिसी"],
+              "options-english": ["A). Kathak", "B). Manipuri", "C). Sattriya", "D). Odissi"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:श्रीमंत शंकर देव, 15वीं-16वीं शताब्दी के एक असमिया बहुज्ञ, संत और सामाजिक-धार्मिक सुधारक, को सत्त्रिया नृत्य शैली बनाने और विकसित करने का श्रेय दिया जाता है। इसकी उत्पत्ति असम के सत्रों (मठों) में नव-वैष्णव आंदोलन के एक भाग के रूप में हुई थी।",
+              "solution-english": "Solution:Srimanta Sankar Dev, a 15th-16th century Assamese polymath, saint, and social-religious reformer, is credited with creating and developing the Sattriya dance form. It originated as a part of the neo-Vaishnavite movement in the sattras (monasteries) of Assam."
+            },
+
+
+
+                {
+              "question-hindi": "भारत सरकार के वित्त मंत्रालय द्वारा जारी आर्थिक सर्वेक्षण 2013-14 के अनुसार, 2011-2012 में भारत में कितने प्रतिशत लोग गरीबी रेखा से नीचे थे?",
+              "question-english" : "What percentage of people were below the poverty line in India in 2011-2012 as per the Economic Survey 2013-14, released by the Ministry of Finance, Government of India?",
+              "options-hindi": ["क) 21.9%", "ख) 18.7%", "ग) 10.2%", "घ) 12.4%"],
+              "options-english": ["A). 21.9%", "B). 18.7%", "C). 10.2%", "D). 12.4%"],
+              "answer-hindi": "सही उत्तर: क",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल:तेंदुलकर पद्धति पर आधारित 2011-12 के गरीबी अनुमानों के अनुसार, भारत में गरीबी अनुपात 21.9% था। यह डेटा आर्थिक सर्वेक्षण सहित सरकारी रिपोर्टों में व्यापक रूप से उद्धृत किया गया था।",
+              "solution-english": "Solution:According to the poverty estimates for 2011-12, based on the Tendulkar methodology, the poverty ratio in India was 21.9%. This data was widely cited in government reports, including the Economic Survey."
+            },
+
+
+                {
+              "question-hindi": "बिहू त्योहार प्रमुख रूप से इनमें से किस राज्य में मनाया जाता है?",
+              "question-english" : "Bihu festival is majorly celebrated in which of these states?",
+              "options-hindi": ["क) महाराष्ट्र", "ख) गोवा", "ग) असम", "घ) केरल"],
+              "options-english": ["A). Maharashtra", "B). Goa", "C). Assam", "D). Kerala"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:बिहू असम में सबसे महत्वपूर्ण और व्यापक रूप से मनाया जाने वाला त्योहार है। यह तीन अलग-अलग त्योहारों के एक समूह को संदर्भित करता है: रोंगाली या बोहाग बिहू (अप्रैल में), कोंगाली या काटी बिहू (अक्टूबर में), और भोगाली या माघ बिहू (जनवरी में), जो सभी कृषि से संबंधित हैं।",
+              "solution-english": "Solution:Bihu is the most important and widely celebrated festival in Assam. It refers to a set of three different festivals: Rongali or Bohag Bihu (in April), Kongali or Kati Bihu (in October), and Bhogali or Magh Bihu (in January), all of which are related to agriculture."
+            },
+
+
+
+                {
+              "question-hindi": "मुद्रा आपूर्ति के निम्नलिखित में से किस माप को 'समाज के कुल मौद्रिक संसाधन' के रूप में भी जाना जाता है?",
+              "question-english" : "Which of the following measures of the money supply is also known as the 'aggregate monetary resources of the society'?",
+              "options-hindi": ["क) एम2", "ख) एम4", "ग) एम3", "घ) एम1"],
+              "options-english": ["A). M2","B). M4", "C). M3", "D). M1"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "D). M1",
+              "solution-hindi": "हल:भारत की मुद्रा आपूर्ति के उपायों के संदर्भ में, एम3 को 'कुल मौद्रिक संसाधन' या व्यापक धन के रूप में जाना जाता है। इसकी गणना एम1 (जनता के पास मुद्रा + मांग जमा) + बैंकिंग प्रणाली की शुद्ध सावधि जमा के रूप में की जाती है।",
+              "solution-english": "Solution:In the context of India's money supply measures, M3 is referred to as 'aggregate monetary resources' or broad money. It is calculated as M1 (currency with the public + demand deposits) + Net time deposits of the banking system."
+            },
+
+
+
+                {
+              "question-hindi": "निम्नलिखित में से कौन पृथ्वी के आंतरिक भाग का एक हिस्सा है?",
+              "question-english" : "Which of the following is a part of the earth's interior?",
+              "options-hindi": ["क) क्षोभमंडल", "ख) बाह्य वायुमंडल", "ग) समतापमंडल", "घ) दुर्बलतामंडल"],
+              "options-english": ["A). Troposphere", "B). Thermosphere", "C). Stratosphere", "D). Asthenosphere"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:क्षोभमंडल, समतापमंडल और बाह्य वायुमंडल पृथ्वी के वायुमंडल की परतें हैं। दुर्बलतामंडल पृथ्वी के आंतरिक भाग के ऊपरी मेंटल में एक नमनीय और यांत्रिक रूप से कमजोर परत है, जो स्थलमंडल के ठीक नीचे स्थित है।",
+              "solution-english": "Solution:The Troposphere, Stratosphere, and Thermosphere are layers of the Earth's atmosphere. The Asthenosphere is a ductile and mechanically weak layer in the upper mantle of the Earth's interior, located just below the lithosphere."
+            },
+
+
+
+                {
+              "question-hindi": "निम्नलिखित में से कौन 1867 में स्थापित एक सुधारवादी समाज 'प्रार्थना समाज' से संबंधित नहीं है?",
+              "question-english" : "Who among the following is NOT associated with 'Prarthana Samaj', a reformist society established in 1867?",
+              "options-hindi": ["क) गोविंद रानाडे", "ख) आरजी भंडारकर", "ग) आत्माराम पांडुरंग", "घ) बाल गंगाधर तिलक"],
+              "options-english": ["A). Govind Ranade", "A). Govind Ranade", "C). Atmaram Pandurang", "D). Bal Gangadhar Tilak"],
+              "answer-hindi": "सही उत्तर: घ",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल:प्रार्थना समाज की स्थापना 1867 में आत्माराम पांडुरंग ने की थी। महादेव गोविंद रानाडे और आर.जी. भंडारकर इससे जुड़े अन्य प्रमुख नेता थे। एक राष्ट्रवादी नेता बाल गंगाधर तिलक, प्रार्थना समाज की स्थापना या नेतृत्व से जुड़े नहीं थे।",
+              "solution-english": "Solution:The Prarthana Samaj was founded by Atmaram Pandurang in 1867. Mahadev Govind Ranade and R.G. Bhandarkar were other prominent leaders associated with it. Bal Gangadhar Tilak, a nationalist leader, was not associated with the founding or leadership of the Prarthana Samaj."
+            },
+
+
+
+                {
+              "question-hindi": "भारत के संविधान की निम्नलिखित में से किस अनुसूची को न्यायिक समीक्षा से छूट प्राप्त है?",
+              "question-english" : "Which of the following Schedules of the Constitution of India have immunity from Judicial Review?",
+              "options-hindi": ["क) चौथी", "ख) दसवीं", "ग) नौवीं", "घ) छठी"],
+              "options-english": ["A). 4th", "B). 10th", "C). 9th", "D). 6th"],
+              "answer-hindi": "सही उत्तर: ग",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल:नौवीं अनुसूची को 1951 में पहले संशोधन द्वारा संविधान में जोड़ा गया था। इसे इसमें शामिल कानूनों को इस आधार पर अदालत में चुनौती दिए जाने से बचाने के लिए बनाया गया था कि वे मौलिक अधिकारों का उल्लंघन करते हैं। हालांकि, सुप्रीम कोर्ट ने 2007 (आई.आर. कोएल्हो मामले) में फैसला सुनाया कि 24 अप्रैल, 1973 के बाद नौवीं अनुसूची में रखे गए कानून न्यायिक समीक्षा के लिए खुले हैं यदि वे संविधान की मूल संरचना का उल्लंघन करते हैं। इस फैसले के बावजूद, अनुसूची का मूल इरादा और सामान्य समझ न्यायिक जांच से छूट का इसका प्रावधान है।",
+              "solution-english": "Solution:The Ninth Schedule was added to the Constitution by the First Amendment in 1951. It was created to protect laws included in it from being challenged in court on the grounds that they violated fundamental rights. However, the Supreme Court ruled in 2007 (I.R. Coelho case) that laws placed in the Ninth Schedule after April 24, 1973, are open to judicial review if they violate the basic structure of the Constitution. Despite this ruling, the original intent and general understanding of the schedule is its provision for immunity from judicial scrutiny."
+ 
+            }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+             {
+      "question-english": "Complete the analogy: ________ : Cuboid :: Side : Square",
+      "question-hindi": "सादृश्यता पूरी करें: ________ : घनाभ :: भुजा : वर्ग",
+      "options-english": ["(a) Edge", "(b) Face", "(c) Vertex", "(d) Diagonal"],
+      "options-hindi": ["(a) किनारा/कोर", "(b) फलक", "(c) शीर्ष", "(d) विकर्ण"],
+      "answer-english": "(a) Edge",
+      "answer-hindi": "(a) किनारा/कोर",
+      "solution-english": "A 'Side' is a line segment forming the boundary of a 'Square' (2D shape). Similarly, an 'Edge' forms the boundary of a 'Cuboid' (3D shape).",
+      "solution-hindi": "‘भुजा’ एक ‘वर्ग’ (2D आकृति) की सीमा बनाती है। इसी तरह ‘किनारा/कोर’ एक ‘घनाभ’ (3D आकृति) की सीमा बनाता है।"
+    },
+    {
+  "question-english": "Humans, Professionals, Girls",
+  "question-hindi": "मनुष्य, पेशेवर, लड़कियाँ",
+  "options-english": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+  ],
+  "options-hindi": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+  ],
+  "answer-english": "(c)",
+  "answer-hindi": "(c)",
+  "solution-english": "Some girls are humans, some girls are professionals, and some professionals are humans. Thus, all three categories partially overlap — represented by three intersecting circles.",
+  "solution-hindi": "कुछ लड़कियाँ मनुष्य हैं, कुछ लड़कियाँ पेशेवर हैं, और कुछ पेशेवर मनुष्य हैं। इसलिए सभी तीन समूह आंशिक रूप से एक-दूसरे से मिलते हैं — जो तीन आपस में कटने वाले वृत्तों द्वारा दर्शाया गया है।"
+}
+,
+    {
+      "question-english": "Choose the correct option to complete the series: 11.5, 10.1, 8.7, 7.3, ?, 4.5",
+      "question-hindi": "दी गई श्रृंखला को पूरा करने के लिए सही विकल्प चुनें: 11.5, 10.1, 8.7, 7.3, ?, 4.5",
+      "options-english": ["(a) 6.0", "(b) 5.8", "(c) 5.9", "(d) 6.1"],
+      "options-hindi": ["(a) 6.0", "(b) 5.8", "(c) 5.9", "(d) 6.1"],
+      "answer-english": "(c) 5.9",
+      "answer-hindi": "(c) 5.9",
+      "solution-english": "The pattern is subtraction of 1.4 from each term. 11.5–1.4=10.1, 10.1–1.4=8.7, 8.7–1.4=7.3, 7.3–1.4=5.9, 5.9–1.4=4.5.",
+      "solution-hindi": "पैटर्न प्रत्येक पद से 1.4 का घटाव है: 11.5–1.4=10.1, 10.1–1.4=8.7, 8.7–1.4=7.3, 7.3–1.4=5.9, 5.9–1.4=4.5।"
+    },
+    {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q4.png",
+  "question-english": "How many quadrilaterals are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कुल कितने चतुर्भुज (quadrilaterals) हैं?",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-english": "Count all distinct 4-sided figures formed by the lines (including small unit rectangles, combos of adjacent units, and larger rectangles made from multiple small units).\n1) Small unit quadrilaterals (the smallest rectangles): 11.\n2) Two-unit (adjacent) quadrilaterals (horizontal or vertical pairs): 6.\n3) Larger combined quadrilaterals (spanning 3 or more small cells, or 2×2 type blocks): 3.\nTotal = 11 + 6 + 3 = 20. Then include the outer boundary rectangle (the whole figure) → 21.\n(Therefore answer = 21.)",
+  "solution-hindi": "रेखाओं से बनने वाले सभी अलग-अलग 4-भुजों की गिनती करें (छोटे यूनिट आयत, पास के यूनिटों के संयोजन, और कई यूनिट से बने बड़े आयत)।\n1) सबसे छोटे यूनिट चतुर्भुज: 11।\n2) दो-यूनिट (सन्निहित) चतुर्भुज (आड़ा/लंबवत): 6।\n3) बड़े संयोजित चतुर्भुज (3 या अधिक यूनिट को कवर करने वाले या 2×2 प्रकार के ब्लॉक): 3।\nयोग = 11 + 6 + 3 = 20। फिर समग्र बाहरी आयत (पूरे चित्र) जोड़ें → 21।\n(इसलिए उत्तर = 21।)"
+}
+,
+    {
+      "question-english": "In a row of 5 people facing North, M is second to the left of P. N is to the immediate right of O. Q is at one end and is a neighbour of O. Who is in the middle?",
+      "question-hindi": "उत्तर की ओर मुँह करके बैठे 5 लोगों की एक पंक्ति में, M, P के बाएँ से दूसरा है। N, O के ठीक दाएँ है। Q एक सिरे पर है और O का निकटतम पड़ोसी है। बीच में कौन है?",
+      "options-english": ["(a) O", "(b) N", "(c) M", "(d) P"],
+      "options-hindi": ["(a) O", "(b) N", "(c) M", "(d) P"],
+      "answer-english": "(b) N",
+      "answer-hindi": "(b) N",
+      "solution-english": "Combining clues → Q,O,N,M,P (facing North). The middle person is N.",
+      "solution-hindi": "संकेतों को मिलाने पर क्रम Q,O,N,M,P बनता है (उत्तरमुखी)। बीच वाला व्यक्ति N है।"
+    },
+    {
+      "question-english": "A red car is 15th from the start and 20th from the end. How many cars are there in total?",
+      "question-hindi": "कारों की एक पंक्ति में, एक लाल कार शुरुआती सिरे से 15वीं और अंतिम सिरे से 20वीं है। कुल कारें कितनी हैं?",
+      "options-english": ["(a) 33", "(b) 34", "(c) 35", "(d) 36"],
+      "options-hindi": ["(a) 33", "(b) 34", "(c) 35", "(d) 36"],
+      "answer-english": "(b) 34",
+      "answer-hindi": "(b) 34",
+      "solution-english": "Total = (from start + from end) - 1 = 15 + 20 - 1 = 34.",
+      "solution-hindi": "कुल = (शुरुआत से स्थान + अंत से स्थान) - 1 = 15 + 20 - 1 = 34।"
+    },
+    {
+      "question-english": "Statements: Some cats are dogs. All dogs are goats. No goat is a cow. Conclusions: I. Some cats are goats. II. No dog is a cow.",
+      "question-hindi": "कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते बकरियाँ हैं। कोई बकरी गाय नहीं है। निष्कर्ष: I. कुछ बिल्लियाँ बकरियाँ हैं। II. कोई कुत्ता गाय नहीं है।",
+      "options-english": ["(a) Only I", "(b) Only II", "(c) Neither", "(d) Both I and II"],
+      "options-hindi": ["(a) केवल I", "(b) केवल II", "(c) कोई नहीं", "(d) दोनों I और II"],
+      "answer-english": "(d) Both I and II",
+      "answer-hindi": "(d) दोनों I और II",
+      "solution-english": "I: Cats→Dogs→Goats → Some cats are goats (true). II: Dogs→Goats and no Goat→Cow → No dog is cow (true).",
+      "solution-hindi": "I: कुछ बिल्लियाँ कुत्ते हैं और सभी कुत्ते बकरियाँ हैं → कुछ बिल्लियाँ बकरियाँ हैं। II: कोई बकरी गाय नहीं है → कोई कुत्ता गाय नहीं है। दोनों सत्य हैं।"
+    },
+    {
+      "question-english": "If '+' means '÷', '–' means '×', '×' means '+', '÷' means '–', find value of 40 + 8 – 2 × 6 ÷ 10 = ?",
+      "question-hindi": "यदि '+' का अर्थ '÷', '–' का अर्थ '×', '×' का अर्थ '+', और '÷' का अर्थ '–' है, तो 40 + 8 – 2 × 6 ÷ 10 = ? का मान ज्ञात करें।",
+      "options-english": ["(a) 10", "(b) 5", "(c) 6", "(d) 8"],
+      "options-hindi": ["(a) 10", "(b) 5", "(c) 6", "(d) 8"],
+      "answer-english": "(c) 6",
+      "answer-hindi": "(c) 6",
+      "solution-english": "Replace → 40 ÷ 8 × 2 + 6 - 10 = 5 × 2 + 6 -10 = 10 + 6 -10 = 6.",
+      "solution-hindi": "चिह्न बदलें → 40 ÷ 8 × 2 + 6 -10 = 5 × 2 + 6 -10 = 10 + 6 -10 = 6।"
+    },
+    {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q9.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q9.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q11.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q12.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q12.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+    {
+      "question-english": "Which calendar year will be the same as 2010?",
+      "question-hindi": "निम्नलिखित में से कौन सा कैलेंडर वर्ष 2010 के कैलेंडर के समान होगा?",
+      "options-english": ["(a) 2018", "(b) 2019", "(c) 2020", "(d) 2021"],
+      "options-hindi": ["(a) 2018", "(b) 2019", "(c) 2020", "(d) 2021"],
+      "answer-english": "(d) 2021",
+      "answer-hindi": "(d) 2021",
+      "solution-english": "From 2010 to 2020, total odd days = 14 (multiple of 7). Thus, the next year, 2021, has the same calendar as 2010.",
+      "solution-hindi": "2010 से 2020 तक कुल विषम दिन 14 (7 का गुणक) हैं। इसलिए अगला वर्ष 2021, 2010 के समान कैलेंडर वाला होगा।"
+    },
+    {
+      "question-english": "If 'pen' is 'book', 'book' is 'pencil', 'pencil' is 'eraser', and 'eraser' is 'sharpener', then what do we use to write on paper?",
+      "question-hindi": "यदि 'पेन' 'किताब' है, 'किताब' 'पेंसिल' है, 'पेंसिल' 'रबर' है, और 'रबर' 'शार्पनर' है, तो हम कागज पर लिखने के लिए क्या उपयोग करते हैं?",
+      "options-english": ["(a) book", "(b) pencil", "(c) eraser", "(d) sharpener"],
+      "options-hindi": ["(a) किताब", "(b) पेंसिल", "(c) रबर", "(d) शार्पनर"],
+      "answer-english": "(a) book",
+      "answer-hindi": "(a) किताब",
+      "solution-english": "We normally use a pen to write; in code, 'pen' is 'book'. Hence, answer = book.",
+      "solution-hindi": "हम सामान्यतः 'पेन' से लिखते हैं; कोड में 'पेन' = 'किताब' है। अतः उत्तर 'किताब' है।"
+    },
+    {
+        "question-image":"https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q15.png",
+  "question-english": "Six letters M, N, O, P, Q, and R are written on different faces of a dice. Two positions of this dice are shown in the figure. Find the letter on the face opposite to a vowel.",
+  "question-hindi": "छः अक्षर M, N, O, P, Q और R पासे के विभिन्न फलक पर लिखे गए हैं। इस पासे की दो स्थितियाँ चित्र में दिखाई गई हैं। स्वर के विपरीत फलक पर कौन सा अक्षर है, यह ज्ञात करें।",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-english": "",
+  "solution-hindi": ""
+}
+,
+    {
+      "question-english": "At what time between 8 and 9 will the hands of a clock be in a straight line but not together?",
+      "question-hindi": "8 और 9 बजे के बीच किस समय घड़ी की सुइयाँ एक सीधी रेखा में होंगी, लेकिन एक साथ नहीं?",
+      "options-english": ["(a) 8:10 10/11", "(b) 8:11 10/11", "(c) 8:12 10/11", "(d) 8:9 10/11"],
+      "options-hindi": ["(a) 8 बजकर 10 10/11 मिनट", "(b) 8 बजकर 11 10/11 मिनट", "(c) 8 बजकर 12 10/11 मिनट", "(d) 8 बजकर 9 10/11 मिनट"],
+      "answer-english": "(a) 8:10 10/11",
+      "answer-hindi": "(a) 8 बजकर 10 10/11 मिनट",
+      "solution-english": "‘Straight line but not together’ means 180°. Formula: T = (2/11)(H×30−180). For 8:00, T = (2/11)(240−180) = 10 10/11 min.",
+      "solution-hindi": "‘एक सीधी रेखा में लेकिन एक साथ नहीं’ का अर्थ 180° कोण है। सूत्र: T = (2/11)(H×30−180)। 8:00 पर T = (2/11)(240−180) = 10 10/11 मिनट।"
+    },
+    {
+      "question-english": "Arrange the given words in the sequence in which they occur in the dictionary: Market, Marble, Margin, Marquee, Marmalade.",
+      "question-hindi": "दिए गए शब्दों को शब्दकोश के क्रम में व्यवस्थित करें: Market, Marble, Margin, Marquee, Marmalade.",
+      "options-english": ["(a) 23514", "(b) 23154", "(c) 32154", "(d) 23145"],
+      "options-hindi": ["(a) 23514", "(b) 23154", "(c) 32154", "(d) 23145"],
+      "answer-english": "(b) 23154",
+      "answer-hindi": "(b) 23154",
+      "solution-english": "Order: Marble (Marb), Margin (Marg), Market (Mark), Marmalade (Marm), Marquee (Marq) → 2,3,1,5,4.",
+      "solution-hindi": "क्रम: Marble (Marb), Margin (Marg), Market (Mark), Marmalade (Marm), Marquee (Marq) → 2,3,1,5,4।"
+    },
+    {
+      "question-english": "Select the one which is different from the other three: 730, 344, 511, 126.",
+      "question-hindi": "अन्य तीनों से भिन्न चुनें: 730, 344, 511, 126।",
+      "options-english": ["(a) 730", "(b) 344", "(c) 511", "(d) 126"],
+      "options-hindi": ["(a) 730", "(b) 344", "(c) 511", "(d) 126"],
+      "answer-english": "(c) 511",
+      "answer-hindi": "(c) 511",
+      "solution-english": "Pattern n³ + 1. 730=9³+1, 344=7³+1, 126=5³+1; 511=8³−1, hence different.",
+      "solution-hindi": "पैटर्न n³ + 1 है। 730=9³+1, 344=7³+1, 126=5³+1; 511=8³−1 → अलग है।"
+    },
+    {
+      "question-english": "A man walks 10 km East, then South 10 km, then West 10 km. Where is he now with reference to his starting point?",
+      "question-hindi": "एक आदमी 10 किमी पूर्व, फिर 10 किमी दक्षिण, फिर 10 किमी पश्चिम चलता है। वह अब अपने प्रारंभिक स्थान से कहाँ है?",
+      "options-english": ["(a) 10 km North", "(b) 10 km South", "(c) 10 km East", "(d) At starting point"],
+      "options-hindi": ["(a) 10 किमी उत्तर", "(b) 10 किमी दक्षिण", "(c) 10 किमी पूर्व", "(d) शुरुआती स्थान पर"],
+      "answer-english": "(b) 10 km South",
+      "answer-hindi": "(b) 10 किमी दक्षिण",
+      "solution-english": "Net East-West displacement = 0. Only Southward movement = 10 km. So he is 10 km South.",
+      "solution-hindi": "पूर्व-पश्चिम दिशा में कुल दूरी 0 है। केवल दक्षिण की ओर 10 किमी बढ़ा। अतः वह 10 किमी दक्षिण में है।"
+    },
+    {
+      "question-english": "P is the brother of Q. R is the mother of Q. S is the father of R. How is S related to P?",
+      "question-hindi": "P, Q का भाई है। R, Q की माँ है। S, R का पिता है। S, P से किस प्रकार संबंधित है?",
+      "options-english": ["(a) Grandfather", "(b) Maternal Grandfather", "(c) Father", "(d) Uncle"],
+      "options-hindi": ["(a) दादा/नाना", "(b) नाना", "(c) पिता", "(d) चाचा/मामा"],
+      "answer-english": "(b) Maternal Grandfather",
+      "answer-hindi": "(b) नाना",
+      "solution-english": "R is mother of P. S is R's father → Maternal Grandfather.",
+      "solution-hindi": "R, P की माँ है। S, R का पिता है → नाना।"
+    },{
+      "question-english": "In the following question, which of the two conclusions is/are true? Statement: P ≤ Q < R = S ≥ T > U Conclusions: I. P < S II. R > U",
+      "question-hindi": "निम्नलिखित प्रश्न में, कौन सा/से निष्कर्ष सत्य है/हैं? कथन: P ≤ Q < R = S ≥ T > U निष्कर्ष: I. P < S II. R > U",
+      "options-english": [
+        "(a) Only conclusion I is true",
+        "(b) Both conclusions I and II are true",
+        "(c) Only conclusion II is true",
+        "(d) Neither conclusion I nor II is true"
+      ],
+      "options-hindi": [
+        "(a) केवल निष्कर्ष I सत्य है",
+        "(b) दोनों निष्कर्ष I और II सत्य हैं",
+        "(c) केवल निष्कर्ष II सत्य है",
+        "(d) न तो निष्कर्ष I और न ही II सत्य है"
+      ],
+      "answer-english": "(b) Both conclusions I and II are true",
+      "answer-hindi": "(b) दोनों निष्कर्ष I और II सत्य हैं",
+      "solution-english": "Conclusion I: From P ≤ Q < R = S, we can infer P < S. True. Conclusion II: R = S ≥ T > U implies R > U. True.",
+      "solution-hindi": "निष्कर्ष I: P ≤ Q < R = S से P < S निष्कर्ष निकलता है। सत्य। निष्कर्ष II: R = S ≥ T > U से R > U निष्कर्ष निकलता है। सत्य।"
+    },
+    {
+      "question-english": "If 18!10 = 4, 10!4 = 3 and 4!8 = -2, then find the value of 20!12.",
+      "question-hindi": "यदि 18!10 = 4, 10!4 = 3 और 4!8 = -2 है, तो 20!12 का मान ज्ञात कीजिए।",
+      "options-english": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+      "options-hindi": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+      "answer-english": "(b) 4",
+      "answer-hindi": "(b) 4",
+      "solution-english": "Logic: (First number ÷ 2) - (Second number ÷ 2). 20!12 = (20/2) - (12/2) = 10 - 6 = 4.",
+      "solution-hindi": "तर्क: (पहली संख्या ÷ 2) - (दूसरी संख्या ÷ 2)। 20!12 = (20/2) - (12/2) = 10 - 6 = 4।"
+    },
+    {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_20/mock_test_20_Q23.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+    {
+      "question-english": "Which alphabet is seventh to the left of the 18th alphabet from the left end in the alphabet series?",
+      "question-hindi": "वर्णमाला श्रृंखला में बाएँ सिरे से 18वें वर्ण के बाएँ से सातवाँ वर्ण कौन सा है?",
+      "options-english": ["(a) K", "(b) L", "(c) J", "(d) M"],
+      "options-hindi": ["(a) K", "(b) L", "(c) J", "(d) M"],
+      "answer-english": "(a) K",
+      "answer-hindi": "(a) K",
+      "solution-english": "18th alphabet from left is R. 7th to its left = 18 - 7 = 11th alphabet = K.",
+      "solution-hindi": "बाएँ से 18वाँ वर्ण R है। उसके बाएँ से सातवाँ वर्ण = 18 - 7 = 11वाँ वर्ण, अर्थात K।"
+    },
+    {
+      "question-english": "How many pairs of letters are there in the word 'REASONING' which have as many letters between them in the word (in both directions) as in the English alphabetical series?",
+      "question-hindi": "शब्द 'REASONING' में ऐसे कितने अक्षर युग्म हैं जिनके बीच शब्द में (दोनों दिशाओं में) उतने ही अक्षर हैं जितने उनके बीच अंग्रेजी वर्णमाला में हैं?",
+      "options-english": ["(a) One", "(b) Two", "(c) Three", "(d) More than three"],
+      "options-hindi": ["(a) एक", "(b) दो", "(c) तीन", "(d) तीन से अधिक"],
+      "answer-english": "(c) Three",
+      "answer-hindi": "(c) तीन",
+      "solution-english": "Word: REASONING. Pairs: (R, S), (N, O), (G, I) — all have matching letter gaps. Total = 3 pairs.",
+      "solution-hindi": "शब्द: REASONING। युग्म: (R, S), (N, O), (G, I) — सभी में समान अक्षर अंतर है। कुल = 3 युग्म।"
+    }
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question-english": "The ratio of income of Sita and Gita is 5:8, while Sita's expenditure is 3/5 of her income and Gita's expenditure is 1/2 of her income. If the difference between their expenses is ₹5,000, find the income of Gita.",
+    "question-hindi": "सीता और गीता की आय का अनुपात 5:8 है, जबकि सीता का व्यय उसकी आय का 3/5 है और गीता का व्यय उसकी आय का 1/2 है। यदि उनके खर्चों के बीच का अंतर ₹5,000 है, तो गीता की आय ज्ञात कीजिए।",
+    "options-english": ["(a) ₹40,000", "(b) ₹64,000", "(c) ₹80,000", "(d) ₹50,000"],
+    "options-hindi": ["(a) ₹40,000", "(b) ₹64,000", "(c) ₹80,000", "(d) ₹50,000"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "Let incomes be 5x and 8x. Sita's expenditure = (3/5)*5x = 3x. Gita's expenditure = (1/2)*8x = 4x. Difference = 4x - 3x = x = 5,000. Gita's income = 8x = ₹40,000.",
+    "solution-hindi": "मान लीजिए आय 5x और 8x है। सीता का व्यय = (3/5)*5x = 3x। गीता का व्यय = (1/2)*8x = 4x। अंतर = 4x - 3x = x = ₹5,000। गीता की आय = ₹40,000।"
+  },
+  {
+    "question-english": "Find the greatest number of four digits which, when divided by 10, 15, 20, and 25, leaves the remainders 4, 9, 14, and 19 respectively.",
+    "question-hindi": "चार अंकों की वह सबसे बड़ी संख्या ज्ञात कीजिए जिसे 10, 15, 20, और 25 से विभाजित करने पर क्रमशः 4, 9, 14, और 19 शेष बचता है।",
+    "options-english": ["(a) 9894", "(b) 9906", "(c) 9600", "(d) 9594"],
+    "options-hindi": ["(a) 9894", "(b) 9906", "(c) 9600", "(d) 9594"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "LCM of 10, 15, 20, 25 = 300. Difference = 6. 9999 ÷ 300 leaves remainder 99. Required number = 9900 - 6 = 9894.",
+    "solution-hindi": "10, 15, 20, 25 का ल.स. 300 है। अंतर = 6। 9999 ÷ 300 का शेषफल 99 है। आवश्यक संख्या = 9900 - 6 = 9894।"
+  },
+  {
+    "question-english": "A sum of Rs. Z is deposited for 2 years at 5% per annum compounded interest annually, which amounts to Rs. 44,100. What is the value of 'Z'?",
+    "question-hindi": "एक राशि Z को 2 साल के लिए 5% वार्षिक चक्रवृद्धि ब्याज पर जमा किया जाता है, जो ₹44,100 हो जाती है। 'Z' का मान क्या है?",
+    "options-english": ["(a) ₹40,000", "(b) ₹42,000", "(c) ₹38,000", "(d) ₹39,500"],
+    "options-hindi": ["(a) ₹40,000", "(b) ₹42,000", "(c) ₹38,000", "(d) ₹39,500"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "44,100 = Z(1 + 5/100)^2 = Z(1.05)^2 = Z × 1.1025. Z = 44,100 / 1.1025 = ₹40,000.",
+    "solution-hindi": "44,100 = Z(1 + 5/100)^2 = Z(1.05)^2 = Z × 1.1025। Z = 44,100 / 1.1025 = ₹40,000।"
+  },
+  {
+    "question-english": "Three successive discounts of 5%, 10%, and 20% are equivalent to a single discount of:",
+    "question-hindi": "5%, 10% और 20% की तीन क्रमिक छूटें किस एकल छूट के बराबर हैं?",
+    "options-english": ["(a) 31.6%", "(b) 32%", "(c) 35%", "(d) 34.4%"],
+    "options-hindi": ["(a) 31.6%", "(b) 32%", "(c) 35%", "(d) 34.4%"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "Price after successive discounts = 100 × 0.95 × 0.90 × 0.80 = 68.4. Single discount = 31.6%.",
+    "solution-hindi": "छूट के बाद मूल्य = 100 × 0.95 × 0.90 × 0.80 = 68.4। एकल छूट = 31.6%।"
+  },
+  {
+    "question-english": "A shopkeeper sold two tables, each for ₹1,500. He gained 20% on one and lost 20% on the other. Find the overall result.",
+    "question-hindi": "एक दुकानदार ने दो मेजें, प्रत्येक को ₹1,500 में बेचा। एक पर 20% लाभ और दूसरे पर 20% हानि हुई। कुल परिणाम ज्ञात कीजिए।",
+    "options-english": ["(a) 4% gain", "(b) 4% loss", "(c) 5% loss", "(d) No gain no loss"],
+    "options-hindi": ["(a) 4% लाभ", "(b) 4% हानि", "(c) 5% हानि", "(d) कोई लाभ कोई हानि नहीं"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "When gain% = loss%, net result is always a loss. Loss% = (common % /10)^2 = (20/10)^2 = 4% loss.",
+    "solution-hindi": "जब लाभ% = हानि% होता है, तो हमेशा शुद्ध हानि होती है। हानि% = (समान% /10)^2 = (20/10)^2 = 4% हानि।"
+  },
+  {
+    "question-english": "Anil can do a work in 15 days, Sunil in 20 days, and with Charan they finish in 6 days. If they get ₹1,500, how much does Charan get?",
+    "question-hindi": "अनिल 15 दिनों में, सुनील 20 दिनों में, और चरण की मदद से वे 6 दिनों में कार्य पूरा करते हैं। यदि ₹1,500 मिलते हैं, तो चरण को कितना मिलेगा?",
+    "options-english": ["(a) 300", "(b) 450", "(c) 250", "(d) 375"],
+    "options-hindi": ["(a) 300", "(b) 450", "(c) 250", "(d) 375"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Anil=1/15, Sunil=1/20, A+S+C=1/6 ⇒ C=1/6-(1/15+1/20)=1/20. Ratio=4:3:3. Charan’s share=(3/10)*1500=₹450.",
+    "solution-hindi": "अनिल=1/15, सुनील=1/20, कुल=1/6 ⇒ चरण=1/6-(1/15+1/20)=1/20। अनुपात=4:3:3 ⇒ चरण का हिस्सा=(3/10)*1500=₹450।"
+  },
+  {
+    "question-english": "15 kg of ₹40/kg sugar is mixed with 10 kg of another sugar to get a mixture worth ₹45/kg. Find the price of the costlier sugar.",
+    "question-hindi": "₹40 प्रति किलो वाली 15 किलो चीनी को 10 किलो दूसरी चीनी के साथ मिलाया गया ताकि मिश्रण ₹45 प्रति किलो का बने। महंगी चीनी की कीमत ज्ञात करें।",
+    "options-english": ["(a) ₹50", "(b) ₹52.50", "(c) ₹55", "(d) ₹48"],
+    "options-hindi": ["(a) ₹50", "(b) ₹52.50", "(c) ₹55", "(d) ₹48"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Total cost = 25×45=1125. Cost of first=15×40=600. Second=1125-600=525. Price per kg=525/10=₹52.50.",
+    "solution-hindi": "कुल लागत = 25×45=1125। पहली=15×40=600। दूसरी=1125-600=525। प्रति किलो=525/10=₹52.50।"
+  },
+  {
+    "question-english": "The sum of present ages of a father and son is 60 years. 10 years ago, father’s age was 4 times son’s age. Find the son’s current age.",
+    "question-hindi": "एक पिता और पुत्र की वर्तमान आयु का योग 60 वर्ष है। 10 वर्ष पहले पिता की आयु पुत्र की आयु की चार गुना थी। पुत्र की वर्तमान आयु क्या है?",
+    "options-english": ["(a) 18 years", "(b) 20 years", "(c) 22 years", "(d) 24 years"],
+    "options-hindi": ["(a) 18 वर्ष", "(b) 20 वर्ष", "(c) 22 वर्ष", "(d) 24 वर्ष"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "F+S=60, F-10=4(S-10) ⇒ F-4S=-30 ⇒ 5S=90 ⇒ S=18 years.",
+    "solution-hindi": "पि+पु=60, पि-10=4(पु-10) ⇒ पि-4पु=-30 ⇒ 5पु=90 ⇒ पु=18 वर्ष।"
+  },
+  {
+    "question-english": "A pipe fills a tank in 30 min. Due to a leak, it takes 40 min. How long will the leak empty the full tank?",
+    "question-hindi": "एक पाइप 30 मिनट में टंकी भर सकता है। रिसाव के कारण 40 मिनट लगते हैं। रिसाव टंकी को खाली करने में कितना समय लेगा?",
+    "options-english": ["(a) 100 min", "(b) 110 min", "(c) 120 min", "(d) 90 min"],
+    "options-hindi": ["(a) 100 मिनट", "(b) 110 मिनट", "(c) 120 मिनट", "(d) 90 मिनट"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Leak’s work = 1/30 - 1/40 = 1/120 ⇒ Time = 120 min.",
+    "solution-hindi": "रिसाव का कार्य = 1/30 - 1/40 = 1/120 ⇒ समय = 120 मिनट।"
+  },
+  {
+    "question-english": "The area of a rectangular plot is 300 m². If length had been 5 m more, area would be 400 m². Find original length.",
+    "question-hindi": "एक आयताकार भूखंड का क्षेत्रफल 300 वर्ग मीटर है। यदि लंबाई 5 मीटर अधिक होती, तो क्षेत्रफल 400 वर्ग मीटर होता। मूल लंबाई ज्ञात करें।",
+    "options-english": ["(a) 15 m", "(b) 20 m", "(c) 25 m", "(d) 10 m"],
+    "options-hindi": ["(a) 15 मीटर", "(b) 20 मीटर", "(c) 25 मीटर", "(d) 10 मीटर"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "L×B=300, (L+5)×B=400 ⇒ 5B=100 ⇒ B=20 ⇒ L=15 m.",
+    "solution-hindi": "L×B=300, (L+5)×B=400 ⇒ 5B=100 ⇒ B=20 ⇒ L=15 मीटर।"
+  },
+  {
+    "question-english": "What is the least number of square tiles required to pave a floor of 20m by 16m?",
+    "question-hindi": "20 मीटर लंबे और 16 मीटर चौड़े हॉल को पक्का करने के लिए आवश्यक वर्गाकार टाइलों की न्यूनतम संख्या क्या है?",
+    "options-english": ["(a) 20", "(b) 24", "(c) 30", "(d) 16"],
+    "options-hindi": ["(a) 20", "(b) 24", "(c) 30", "(d) 16"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "HCF(20,16)=4 ⇒ Tiles=(20×16)/(4×4)=320/16=20.",
+    "solution-hindi": "म.स.(20,16)=4 ⇒ टाइलें=(20×16)/(4×4)=320/16=20।"
+  },
+  {
+    "question-english": "A scooter runs 45 km/hr for 8 hr. Find time at 60 km/hr for same distance.",
+    "question-hindi": "एक स्कूटर 45 किमी/घंटा की गति से 8 घंटे में दूरी तय करता है। वही दूरी 60 किमी/घंटा की गति से तय करने में समय ज्ञात करें।",
+    "options-english": ["(a) 5 hr", "(b) 6 hr", "(c) 7 hr", "(d) 5.5 hr"],
+    "options-hindi": ["(a) 5 घंटे", "(b) 6 घंटे", "(c) 7 घंटे", "(d) 5.5 घंटे"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Distance=45×8=360 km ⇒ Time=360/60=6 hr.",
+    "solution-hindi": "दूरी=45×8=360 किमी ⇒ समय=360/60=6 घंटे।"
+  },
+  {
+    "question-english": "An investor invests 60% at 10% and rest at 12%. Find total annual interest rate.",
+    "question-hindi": "एक निवेशक अपनी पूंजी का 60% 10% पर और शेष 12% पर निवेश करता है। कुल वार्षिक ब्याज दर ज्ञात करें।",
+    "options-english": ["(a) 10.8%", "(b) 11.2%", "(c) 10.5%", "(d) 11%"],
+    "options-hindi": ["(a) 10.8%", "(b) 11.2%", "(c) 10.5%", "(d) 11%"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "Rate=(0.6×10)+(0.4×12)=6+4.8=10.8%.",
+    "solution-hindi": "कुल दर=(0.6×10)+(0.4×12)=6+4.8=10.8%।"
+  },
+  {
+    "question-english": "Simplify: 25% of 800 – {(15 × 6) ÷ (12 – 3) × 2}",
+    "question-hindi": "सरल कीजिए: 800 का 25% - {(15 × 6) ÷ (12 - 3) × 2}",
+    "options-english": ["(a) 180", "(b) 200", "(c) 160", "(d) 150"],
+    "options-hindi": ["(a) 180", "(b) 200", "(c) 160", "(d) 150"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "25% of 800=200, {(15×6)/(12-3)×2}={(90)/(9)×2}=20 ⇒ Expression=200-20=180.",
+    "solution-hindi": "800 का 25%=200, {(15×6)/(12-3)×2}={(90)/(9)×2}=20 ⇒ व्यंजक=200-20=180।"
+  },
+  {
+    "question-english": "The incomes of X and Y are in ratio 4:5. X's expenditure is 75% of Y's. If X saves 25% of his income, find the ratio of their savings.",
+    "question-hindi": "X और Y की आय का अनुपात 4:5 है। X का व्यय Y के व्यय का 75% है। यदि X अपनी आय का 25% बचाता है, तो उनकी बचत का अनुपात ज्ञात करें।",
+    "options-english": ["(a)", "(b)", "(c)", "(d)"],
+    "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+    "answer-english": "1:1",
+    "answer-hindi": "1:1",
+    "solution-english": "X=4a, Y=5a. X saves 25% of 4a=a. X spends 3a. X exp=0.75Y exp ⇒ b=4a. Y saves=5a-4a=a ⇒ ratio=1:1.",
+    "solution-hindi": "X=4a, Y=5a. X की बचत=4a का 25%=a। X व्यय=3a। X व्यय=0.75Y व्यय ⇒ b=4a। Y बचत=5a-4a=a ⇒ अनुपात=1:1।"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "MS Excel 365 में, MS Excel में मैन्युअल रूप से पंक्ति की ऊँचाई को ऑटो फिट करने के लिए निम्नलिखित में से किस कीबोर्ड शॉर्टकट का उपयोग किया जाता है?",
+              "question-english" : "In MS Excel 365, Which of the following keyboard shortcuts is used to auto fit row height manually in MS Excel?",
+              "options-hindi": ["A). Alt + O + C + N", "B). Alt + H + O + H", "C). Alt + H + O + A", "D). Alt + O + C + W"],
+              "options-english": ["A). Alt + O + C + N", "B). Alt + H + O + H", "C). Alt + H + O + A", "D). Alt + O + C + W"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: जबकि 'ऑटो फिट... मैन्युअल रूप से' वाक्यांश विरोधाभासी है, शॉर्टकट Alt + H + O + H मैन्युअल रूप से एक विशिष्ट पंक्ति की ऊँचाई सेट करने के लिए डायलॉग बॉक्स खोलता है। पंक्ति की ऊँचाई को ऑटोफिट करने के लिए सही शॉर्टकट Alt + H + O + A है। दिए गए उत्तर विकल्पों को देखते हुए, प्रश्न संभवतः मैन्युअल ऊँचाई सेटिंग शॉर्टकट के बारे में पूछ रहा है।",
+              "solution-english": "Solution: While the phrasing 'auto fit...manually' is contradictory, the shortcut Alt + H + O + H opens the dialog box to manually set a specific row height. The correct shortcut for AutoFitting the row height is Alt + H + O + A. Given the answer choices, the question is likely asking for the manual height setting shortcut."
+            },
+            {
+              "question-hindi": "MS-Word 365 में, कौन सा टेक्स्ट संरेखण विकल्प आमतौर पर कानूनी दस्तावेजों के लिए उपयोग किया जाता है, क्योंकि यह टेक्स्ट को बाएं और दाएं दोनों मार्जिन के साथ संरेखित करता है, जिससे दाहिनी ओर एक दांतेदार किनारा बनता है?",
+              "question-english" : "In MS-Word 365, which text alignment option is commonly used for legal documents, as it aligns the text along both the left and right margins, leaving a jagged edge on the right side?",
+              "options-hindi": ["A). राइट अलाइन", "B). सेंटर अलाइन", "C). जस्टिफाई", "D). लेफ्ट अलाइन"],
+              "options-english": ["A). Right Align", "B). Center Align", "C). Justify", "D). Left Align"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: जस्टिफाई संरेखण का उपयोग अक्सर औपचारिक और कानूनी दस्तावेजों में किया जाता है। यह टेक्स्ट को बाएं और दाएं दोनों मार्जिन में संरेखित करता है, जिससे एक साफ, ब्लॉक जैसा रूप बनता है। (नोट: प्रश्न का विवरण 'दाहिनी ओर एक दांतेदार किनारा छोड़ना' वास्तव में लेफ्ट अलाइन का वर्णन करता है, लेकिन जस्टिफाई कानूनी दस्तावेजों के लिए सामान्य पसंद है और यह दोनों मार्जिन में संरेखित होता है, जो पहले खंड का मुख्य भाग है)।",
+              "solution-english": "Solution: Justify alignment is frequently used in formal and legal documents. It aligns text to both the left and right margins, creating a neat, block-like appearance. (Note: The question's description 'leaving a jagged edge on the right side' actually describes Left Align, but Justify is the common choice for legal documents and aligns to both margins, which is the key part of the first clause)."
+            },
+            {
+              "question-hindi": "कौन सा प्रोटोकॉल उपयोगकर्ताओं को इंटरनेट पर रीयल-टाइम वॉयस और वीडियो कॉल करने की अनुमति देता है?",
+              "question-english" : "Which protocol allows users to make real-time voice and video calls over the internet?",
+              "options-hindi": ["A). DNS", "B). FTP", "C). Email", "D). VoIP"],
+              "options-english": ["A). DNS", "B). FTP", "C). Email", "D). VoIP"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: VoIP, जिसका अर्थ वॉयस ओवर इंटरनेट प्रोटोकॉल है, प्रौद्योगिकियों और प्रोटोकॉल का एक सेट है जो इंटरनेट पर रीयल-टाइम वॉयस और वीडियो संचार को सक्षम बनाता है।",
+              "solution-english": "Solution: VoIP, which stands for Voice over Internet Protocol, is the set of technologies and protocols that enables real-time voice and video communication over the internet."
+            },
+            {
+              "question-hindi": "94 MS-Word 365 में केंद्र-संरेखित टेक्स्ट बनाने के लिए निम्नलिखित में से किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+              "question-english" : "Which of the following shortcut keys is used to make Centre-aligned text in MS-Word 365?",
+              "options-hindi": ["A). Ctrl + R", "B). Ctrl + C", "C). Ctrl + J", "D). Ctrl + E"],
+              "options-english": ["A). Ctrl + R", "B). Ctrl + C", "C). Ctrl + J", "D). Ctrl + E"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: शॉर्टकट Ctrl + E वर्तमान पैराग्राफ पर केंद्र संरेखण लागू करता है।",
+              "solution-english": "Solution: The shortcut Ctrl + E applies Center alignment to the current paragraph."
+            },
+            {
+              "question-hindi": "जब आप किसी ईमेल का 'रिप्लाई' करते हैं, तो इसका क्या मतलब है?",
+              "question-english" : "When you ‘reply’ to an email, what does it mean?",
+              "options-hindi": ["A). आप ईमेल को किसी भिन्न प्राप्तकर्ता को भेज रहे हैं।", "B). आप वही ईमेल मूल प्रेषक को वापस भेज रहे हैं।", "C). आप ईमेल हटा रहे हैं।", "D). आप उसी प्राप्तकर्ता को एक नया ईमेल भेज रहे हैं।"],
+              "options-english": ["A). You're sending the email to a different recipient.", "B). You're sending the same email back to the original sender.", "C). You're deleting the email.", "D). You're sending a new email to the same recipient."],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: 'रिप्लाई' फ़ंक्शन का उपयोग करने से एक नया संदेश बनता है जो मूल प्रेषक को पूर्व-संबोधित होता है, जिससे आप सीधे उन्हें प्रतिक्रिया भेज सकते हैं।",
+              "solution-english": "Solution: Using the 'Reply' function creates a new message that is pre-addressed to the original sender, allowing you to send a response directly back to them."
+            },
+            {
+              "question-hindi": "MS Word 365 में किसी वर्ड दस्तावेज़ को खोलने के लिए निम्नलिखित में से किस मेनू का उपयोग किया जाता है?",
+              "question-english" : "In MS Word 365 which of the following menus is used to open a word document?",
+              "options-hindi": ["A). पावर", "B). कंट्रोल पैनल", "C). स्टार्ट", "D). मोज़िला"],
+              "options-english": ["A). Power", "B). Control panel", "C). Start", "D). Mozilla"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: विंडोज ऑपरेटिंग सिस्टम से, स्टार्ट मेनू माइक्रोसॉफ्ट वर्ड जैसे एप्लिकेशन को खोजने और लॉन्च करने या हाल ही में खोले गए दस्तावेज़ों को खोजने के लिए प्राथमिक एक्सेस प्वाइंट है।",
+              "solution-english": "Solution: From the Windows operating system, the Start Menu is the primary access point for finding and launching applications like Microsoft Word or for finding recently opened documents."
+            },
+            {
+              "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 में, ऑटोकरेक्ट सुविधा का उपयोग _______ के लिए किया जाता है।",
+              "question-english" : "In Microsoft Word 365, the AutoCorrect feature is used for _______.",
+              "options-hindi": ["A). सूत्र", "B). छोटे दोहराव वाले पाठ", "C). बाहरी मार्जिन पाठ", "D). गलत वर्तनी वाला पाठ"],
+              "options-english": ["A). formulas", "B). short repetitive text", "C). outside margin text", "D). misspelled text"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: ऑटोकरेक्ट सुविधा का प्राथमिक उद्देश्य टाइप करते समय सामान्य टाइपिंग और वर्तनी की त्रुटियों को स्वचालित रूप से ठीक करना है (जैसे, 'teh' को 'the' में बदलना)। इसे संक्षिप्त रूपों को लंबे पाठ में विस्तारित करने के लिए भी कॉन्फ़िगर किया जा सकता है।",
+              "solution-english": "Solution: The primary purpose of the AutoCorrect feature is to automatically fix common typing and spelling errors as you type (e.g., changing 'teh' to 'the'). It can also be configured to expand abbreviations into longer text."
+            },
+            {
+              "question-hindi": "यदि हम किसी तालिका को हटाना चाहते हैं तो MS Word 365 में निम्नलिखित में से किस टैब का उपयोग किया जाता है?",
+              "question-english" : "Which of the following tabs is used in MS Word 365 if we want to delete a table?",
+              "options-hindi": ["A). फ़ाइल टैब", "B). लेआउट टैब", "C). एडिट टैब", "D). इंसर्ट टैब"],
+              "options-english": ["A). File tab", "B). Layout tab", "C). Edit tab", "D). Insert tab"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: जब आप वर्ड में किसी तालिका का चयन करते हैं, तो दो प्रासंगिक टैब दिखाई देते हैं: 'टेबल डिज़ाइन' और 'लेआउट'। 'डिलीट' कमांड, जो आपको सेल, पंक्तियों, स्तंभों या पूरी तालिका को हटाने की अनुमति देता है, लेआउट टैब पर पाया जाता है।",
+              "solution-english": "Solution: When you select a table in Word, two contextual tabs appear: 'Table Design' and 'Layout'. The 'Delete' command, which allows you to delete cells, rows, columns, or the entire table, is found on the Layout tab."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, MS Excel में किसी मौजूदा स्प्रेडशीट को खोलने के लिए निम्नलिखित में से कौन सी सही शॉर्टकट कुंजी है?",
+              "question-english" : "In MS Excel 365, which of the following is the correct shortcut key to open an existing spreadsheet in MS Excel?",
+              "options-hindi": ["A). ऑल्टरनेट (Alt) + O दबाएं", "B). कंट्रोल (Ctrl) + O दबाएं", "C). कंट्रोल (Ctrl) + N दबाएं", "D). ऑल्टरनेट (Alt) + N दबाएं"],
+              "options-english": ["A). Press Alternate (Alt) + O", "B). Press Control (Ctrl) + O", "C). Press Control (Ctrl) + N", "D). Press Alternate (Alt) + N"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: कीबोर्ड शॉर्टकट Ctrl + O का उपयोग फ़ाइल डायलॉग बॉक्स को खोलने के लिए किया जाता है, जिससे आप किसी मौजूदा वर्कबुक को ब्राउज़ और खोल सकते हैं।",
+              "solution-english": "Solution: The keyboard shortcut Ctrl + O is used to Open the file dialog box, allowing you to browse for and open an existing workbook."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, निम्नलिखित में से किस समूह में MS-Excel 365 के रिबन के होम टैब में इंसर्ट और डिलीट कमांड होते हैं?",
+              "question-english" : "In MS Excel 365, which of the following groups contains the Insert and Delete command in the Home tab of the ribbon in MS-Excel 365?",
+              "options-hindi": ["A). एडिटिंग", "B). सेल्स", "C). फॉन्ट", "D). अलाइनमेंट"],
+              "options-english": ["A). Editing", "B). Cells", "C). Font", "D). Alignment"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: एक्सेल में होम टैब पर, सेल, पंक्तियों और स्तंभों को डालने और हटाने के कमांड सेल्स समूह के भीतर स्थित होते हैं।",
+              "solution-english": "Solution: On the Home tab in Excel, the commands for inserting and deleting cells, rows, and columns are located within the Cells group."
+            }
+          ]
+    }
+  ]
+}

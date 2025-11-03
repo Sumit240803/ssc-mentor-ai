@@ -1,0 +1,979 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+              "question-hindi": "सरदार सरोवर निम्नलिखित में से किस राज्य को सिंचाई के लिए पानी उपलब्ध कराएगा?",
+              "question-english" : ") Sardar Sarovar will provide water for irrigation to which of the following states?",
+              "options-hindi": ["(a) गुजरात - मध्य प्रदेश", "(b) महाराष्ट्र - आंध्र प्रदेश", "(c) गुजरात - राजस्थान", "(d) राजस्थान - पंजाब"],
+              "options-english": ["(a) Gujarat - Madhya Pradesh", "(b) Maharashtra - Andhra Pradesh", "(c) Gujarat - Rajasthan", "(d) Rajasthan - Punjab"],
+              "answer-hindi": "सही उत्तर: (c) गुजरात - राजस्थान",
+              "answer-english": "Correct Answer: (c) Gujarat - Rajasthan",
+              "solution-hindi": "समाधान: सरदार सरोवर बांध नर्मदा नदी पर, नवागाम, गुजरात के पास स्थित एक गुरुत्वाकर्षण बांध है। यह दुनिया के सबसे बड़े बांधों में से एक है और इसका मुख्य उद्देश्य चार भारतीय राज्यों - गुजरात, मध्य प्रदेश, महाराष्ट्र और राजस्थान को सिंचाई और पीने का पानी उपलब्ध कराना है। दिए गए विकल्पों में से, गुजरात और राजस्थान सीधे इसकी सिंचाई सुविधाओं से लाभान्वित हो रहे हैं।",
+              "solution-english": "Solution: The Sardar Sarovar Dam is a gravity dam on the Narmada River near Navagam, Gujarat. It is one of the largest dams in the world and its main purpose is to provide water for irrigation and drinking to four Indian states: Gujarat, Madhya Pradesh, Maharashtra, and Rajasthan. Among the given options, Gujarat and Rajasthan are the states directly benefiting from its irrigation facilities."
+            },
+            {
+              "question-hindi": "निम्नलिखित घटनाओं में से सही कालानुक्रमिक क्रम कौन सा है?",
+              "question-english" : "Which is the correct chronological order among the following events?",
+              "options-hindi": ["(a) साइमन कमीशन, पूना पैक्ट, वेवेल प्लान", "(b) साइमन कमीशन, वेवेल प्लान, पूना पैक्ट", "(c) वेवेल प्लान, साइमन कमीशन, पूना पैक्ट", "(d) पूना पैक्ट, साइमन कमीशन, वेवेल प्लान"],
+              "options-english": ["(a) Simon Commission, Poona Pact, Wavell Plan", "(b) Simon Commission, Wavell Plan, Poona Pact", "(c) Wavell Plan, Simon Commission, Poona Pact", "(d) Poona Pact, Simon Commission, Wavell Plan."],
+              "answer-hindi": "सही उत्तर: (a) साइमन कमीशन, पूना पैक्ट, वेवेल प्लान",
+              "answer-english": "Correct Answer: (a) Simon Commission, Poona Pact, Wavell Plan",
+              "solution-hindi": "समाधान: आइए इन घटनाओं के घटित होने के वर्षों पर नज़र डालते हैं:\nसाइमन कमीशन: नवंबर 1927 में नियुक्त किया गया, 1928 में भारत आया।\nपूना पैक्ट: सितंबर 1932 में हस्ताक्षरित।\n वेवेल प्लान: जून 1945 में प्रस्तावित।इसलिए, सही कालानुक्रमिक क्रम साइमन कमीशन, पूना पैक्ट, और फिर वेवेल प्लान है।",
+              "solution-english": "Solution: Let's look at the years these events occurred: Simon Commission: Appointed in November 1927, arrived in India in 1928.\nPoona Pact: Signed in September 1932.\nWavell Plan: Proposed in June 1945.\nTherefore, the correct chronological order is Simon Commission, Poona Pact, and then Wavell Plan."
+            },
+            {
+              "question-hindi": "असम सरकार ने हाल ही में महिला शिक्षा को बढ़ावा देने और छात्राओं के बीच ड्रॉपआउट दरों को कम करने के लिए एक वजीफा योजना शुरू की है। इस पहल का नाम क्या है, जो विभिन्न शैक्षिक स्तरों पर छात्रों के लिए मासिक वजीफा राशि वितरित करती है, जैसे उच्च माध्यमिक के लिए ₹1,000, डिग्री के लिए ₹1,250, स्नातकोत्तर के लिए ₹2,500?",
+              "question-english" : "The Assam government recently launched a stipend scheme to promote women's education and reduce dropout rates among female students. What is the name of this initiative, which provides the monthly stipend amounts distributed for students in different educational levels such as ₹1,000 for higher secondary, ₹1,250 for degree, ₹2,500 for post-graduation?",
+              "options-hindi": ["(a) कन्याश्री प्रकल्प", "(b) लक्ष्मी योजना", "(c) लाडली बेटी पढ़ाओ योजना", "(d) निजुत मोइना"],
+              "options-english": ["(a) Kanyashree Prakalpa", "(b) Laxmi Scheme", "(c) Ladli Beti Padhao Yojna", "(d) Nijut Moina"],
+              "answer-hindi": "सही उत्तर: (d) निजुत मोइना",
+              "answer-english": "Correct Answer: (d) Nijut Moina",
+              "solution-hindi": "समाधान: असम सरकार ने अक्टूबर 2024 में 'निजुत मोइना' योजना शुरू की, जिसका उद्देश्य बालिकाओं की शिक्षा को बढ़ावा देना और स्कूल छोड़ने वालों को रोकना है। यह योजना विभिन्न शैक्षिक स्तरों पर छात्राओं को मासिक वजीफा प्रदान करती है: उच्च माध्यमिक के लिए ₹1,000, डिग्री के लिए ₹1,250 और स्नातकोत्तर के लिए ₹2,500।\nकन्याश्री प्रकल्प पश्चिम बंगाल सरकार की एक समान योजना है।\nलाडली बेटी पढ़ाओ योजना एक सामान्य शब्द है जो अक्सर बेटी बचाओ बेटी पढ़ाओ जैसी योजनाओं से जुड़ा होता है, जो एक केंद्र सरकार की पहल है।\nलक्ष्मी योजना इस संदर्भ में एक व्यापक रूप से मान्यता प्राप्त शैक्षिक वजीफा योजना नहीं है।",
+              "solution-english": "Solution: The Assam government launched the 'Nijut Moina' scheme in October 2024 to promote girl child education and prevent school dropouts. This scheme offers monthly stipends to female students at various educational levels: ₹1,000 for higher secondary, ₹1,250 for degree, and ₹2,500 for post-graduation.\nKanyashree Prakalpa is a similar scheme by the West Bengal government.\nLadli Beti Padhao Yojana is a general term often associated with schemes like Beti Bachao Beti Padhao, which is a central government initiative.\nLaxmi Scheme is not a widely recognized educational stipend scheme in this context."
+            },{
+              "question-hindi": "प्लाज्मा झिल्ली किस कार्बनिक अणु से बनी होती है?    ",
+              "question-english" : "Plasma membrane is made up of which organic molecule?",
+              "options-hindi": ["(a) कार्बोहाइड्रेट", "(b) विटामिन", "(c) लिपिड और प्रोटीन", "(d) रफेज"],
+              "options-english": ["(a) Carbohydrates", "(b) Vitamin", "(c) Lipids and protein", "(d) Roughage"],
+              "answer-hindi": "सही उत्तर: (c) लिपिड और प्रोटीन",
+              "answer-english": "Correct Answer: (c) Lipids and protein",
+              "solution-hindi": "समाधान: प्लाज्मा झिल्ली (या कोशिका झिल्ली) मुख्य रूप से एक लिपिड बाइलेयर से बनी होती है जिसमें विभिन्न प्रोटीन इसमें अंतर्निहित होते हैं या इसकी सतहों से जुड़े होते हैं। इसे द्रव मोज़ेक मॉडल के रूप में जाना जाता है। जबकि कार्बोहाइड्रेट भी मौजूद होते हैं, वे आमतौर पर बाहरी सतह पर लिपिड (ग्लाइकोलिपिड्स) या प्रोटीन (ग्लाइकोप्रोटीन) से जुड़े होते हैं, और विटामिन और रफेज प्लाज्मा झिल्ली के संरचनात्मक घटक नहीं होते हैं।",
+              "solution-english": "Solution: The plasma membrane (or cell membrane) is primarily composed of a lipid bilayer with various proteins embedded within it or associated with its surfaces. This is known as the fluid mosaic model. While carbohydrates are also present, they are usually attached to lipids (glycolipids) or proteins (glycoproteins) on the outer surface, and vitamins and roughage are not structural components of the plasma membrane."
+            },{
+              "question-hindi": "होमरूल लीग आंदोलन किस वर्ष शुरू हुआ?",
+              "question-english" : ") Home Rule League movement started in which of the following years?",
+              "options-hindi": ["(a) 1914", "(b) 1913", "(c) 1915", "(d) 1916"],
+              "options-english": ["(a) 1914", "(b) 1913", "(c) 1915", "(d) 1916"],
+              "answer-hindi": "सही उत्तर: (d) 1916",
+              "answer-english": "Correct Answer: (d) 1916",
+              "solution-hindi": "समाधान: भारत में होमरूल लीग आंदोलन 1916 में शुरू हुआ। दो मुख्य होमरूल लीग थीं:\nएक बाल गंगाधर तिलक के नेतृत्व में, अप्रैल 1916 में शुरू हुई।\nदूसरी एनी बेसेंट के नेतृत्व में, सितंबर 1916 में शुरू हुई।",
+              "solution-english": "Solution: The Home Rule League movement in India was launched in 1916. There were two main Home Rule Leagues:\nOne led by Bal Gangadhar Tilak, launched in April 1916.\nThe other led by Annie Besant, launched in September 1916."
+            },{
+              "question-hindi": "'सुंदरबंस नेशनल पार्क' किसके लिए प्रसिद्ध है?",
+              "question-english" : "The 'Sunderbans National Park' is famous for",
+              "options-hindi": ["(a) रॉयल बंगाल टाइगर", "(b) एशियाई शेर", "(c) नीलगिरि तहर", "(d) एक सींग वाला गैंडा"],
+              "options-english": ["(a) Royal Bengal Tiger", "(b) Asiatic lion", "(c) Nilgiri Tahr", "(d) One-horned rhino"],
+              "answer-hindi": "सही उत्तर: (a) रॉयल बंगाल टाइगर",
+              "answer-english": "Correct Answer: (a) Royal Bengal Tiger",
+              "solution-hindi": "समाधान: सुंदरबंस नेशनल पार्क, जो पश्चिम बंगाल, भारत के सुंदरबंस डेल्टा में स्थित है, अपनी रॉयल बंगाल टाइगर्स की आबादी के लिए विश्व प्रसिद्ध है। यह एक यूनेस्को विश्व धरोहर स्थल और एक महत्वपूर्ण बाघ आवास है।\nएशियाई शेर गिर वन राष्ट्रीय उद्यान, गुजरात में पाए जाते हैं।\nनीलगिरि तहर एक लुप्तप्राय पर्वतीय बकरी है जो दक्षिण भारत की नीलगिरि पहाड़ियों में पाई जाती है।\nएक सींग वाले गैंडे मुख्य रूप से काजीरंगा राष्ट्रीय उद्यान, असम में पाए जाते हैं।",
+              "solution-english": "Solution: The Sundarbans National Park, located in the Sundarbans Delta in West Bengal, India, is world-renowned for its population of Royal Bengal Tigers. It is a UNESCO World Heritage Site and a critical tiger habitat.\nAsiatic lions are found in Gir Forest National Park, Gujarat.\nNilgiri Tahr is an endangered mountain goat found in the Nilgiri Hills of South India.\nOne-horned rhinos are primarily found in Kaziranga National Park, Assam."
+            },{
+              "question-hindi": ") ग्रामीण अवसंरचना विकास कोष (RIDF) निम्नलिखित में से किस संस्थान के तहत स्थापित किया गया था?",
+              "question-english" : "Rural Infrastructure Development Fund (RIDF) was instituted under which the following Institute?",
+              "options-hindi": ["(a) नाबार्ड", "(b) आरबीआई", "(c) भारत सरकार", "(d) वित्त मंत्रालय"],
+              "options-english": ["(a) NABARD", "(b) RBI", "(c) Government of India", "(d) Finance Ministry"],
+              "answer-hindi": "सही उत्तर: (a) नाबार्ड",
+              "answer-english": "Correct Answer: (a) NABARD",
+              "solution-hindi": "समाधान: ग्रामीण अवसंरचना विकास कोष (RIDF) की स्थापना 1995-96 में भारत सरकार द्वारा की गई थी, लेकिन इसे राष्ट्रीय कृषि और ग्रामीण विकास बैंक (नाबार्ड) द्वारा बनाए रखा जाता है। नाबार्ड इस कोष का प्रबंधन करता है, जिसका उद्देश्य विभिन्न ग्रामीण अवसंरचना परियोजनाओं के लिए राज्य सरकारों और राज्य के स्वामित्व वाले निगमों को वित्तीय सहायता प्रदान करना है।",
+              "solution-english": "Solution: The Rural Infrastructure Development Fund (RIDF) was established in 1995-96 by the Government of India, but it is maintained by the National Bank for Agriculture and Rural Development (NABARD). NABARD manages the fund, which aims to provide financial support to state governments and state-owned corporations for various rural infrastructure projects."
+            },{
+              "question-hindi": "घर्षण द्वारा किया गया कार्य नष्ट नहीं होता बल्कि ______ ऊर्जा के रूप में स्थानांतरित हो जाता है।",
+              "question-english" : "The work done by friction is NOT lost but is transferred as ______ energy.",
+              "options-hindi": ["(a) रासायनिक", "(b) घर्षणात्मक", "(c) परमाणु", "(d) ऊष्मा"],
+              "options-english": ["(a) chemical", "(b) frictional", "(c) nuclear", "(d) heat"],
+              "answer-hindi": "सही उत्तर: (d) ऊष्मा",
+              "answer-english": "Correct Answer: (d) heat",
+              "solution-hindi": "समाधान: जब घर्षण के विरुद्ध कार्य किया जाता है, तो ऊर्जा नष्ट नहीं होती बल्कि दूसरे रूप में परिवर्तित हो जाती है। यह परिवर्तन ऊष्मा ऊर्जा के उत्पादन में परिणत होता है। उदाहरण के लिए, जब आप अपने हाथों को एक साथ रगड़ते हैं, तो घर्षण उन्हें गर्म कर देता है।",
+              "solution-english": "Solution: When work is done against friction, the energy is not lost but is converted into another form. This conversion results in the generation of heat energy. For example, when you rub your hands together, friction causes them to warm up."
+            },{
+              "question-hindi": "गर्मी के मौसम में, घर की छत और बाहरी सतह को सफेद रंग से रंगा जाता है क्योंकि:",
+              "question-english" : "In summer season, the top and outer surface of the house are painted white because:",
+              "options-hindi": ["(a) एक सफेद सतह अधिक ऊष्मा ऊर्जा को परावर्तित करती है और कम ऊष्मा ऊर्जा को अवशोषित करती है।", "(b) सफेद सतह अधिक ऊष्मा ऊर्जा को अवशोषित करती है और कम ऊष्मा ऊर्जा को परावर्तित करती है।", "(c) यह सस्ता और लंबे समय तक चलने वाला होता है।", "(d) यह इमारत को बेहतर रूप देता है।"],
+              "options-english": ["(a) A white surface reflects more heat energy and absorbs less heat energy.", "(b) White surface absorbs more heat energy and reflects less heat energy.", "(c) It is cheaper and long lasting.", "(d) It gives better appearance to the build"],
+              "answer-hindi": "सही उत्तर: (a) एक सफेद सतह अधिक ऊष्मा ऊर्जा को परावर्तित करती है और कम ऊष्मा ऊर्जा को अवशोषित करती है।",
+              "answer-english": "Correct Answer: (a) A white surface reflects more heat energy and absorbs less heat energy.",
+              "solution-hindi": "समाधान: सफेद सतहें प्रकाश और ऊष्मा की उत्कृष्ट परावर्तक होती हैं, और खराब अवशोषक होती हैं। गर्मियों में, घर की छत और बाहरी सतहों को सफेद रंग से रंगना सौर विकिरण के एक महत्वपूर्ण हिस्से को परावर्तित करने में मदद करता है, जिससे ऊष्मा को अवशोषित होने और घर के अंदर स्थानांतरित होने से रोका जा सकता है, जिससे अंदरूनी हिस्सा ठंडा रहता है।",
+              "solution-english": "Solution: White surfaces are excellent reflectors of light and heat, and poor absorbers. In summer, painting the top and outer surfaces of a house white helps to reflect a significant portion of the solar radiation, thereby preventing the heat from being absorbed and transferred into the house, keeping the interior cooler."
+            },{
+              "question-hindi": "टीपू सुल्तान किस आंग्ल-मैसूर युद्ध में और किस वर्ष मारे गए थे?",
+              "question-english" : ") In which Anglo - Mysore war and in which year was Tipu Sultan killed?",
+              "options-hindi": ["(a) तीसरा, 1792", "(b) तीसरा, 1798", "(c) चौथा, 1799", "(d) चौथा, 1805"],
+              "options-english": ["(a) Third, 1792", "(b) Third, 1798", "(c) Fourth, 1799", "(d) Fourth, 1805"],
+              "answer-hindi": "सही उत्तर: (c) चौथा, 1799",
+              "answer-english": "Correct Answer: (c) Fourth, 1799",
+              "solution-hindi": "समाधान: मैसूर के शासक टीपू सुल्तान चौथे आंग्ल-मैसूर युद्ध में 1799 में मारे गए थे। यह युद्ध श्रीरंगपट्टनम की घेराबंदी के साथ समाप्त हुआ, जहां टीपू सुल्तान ने बहादुरी से लड़ाई लड़ी और अपनी राजधानी की रक्षा करते हुए मारे गए।",
+              "solution-english": "Solution: Tipu Sultan, the ruler of Mysore, was killed in the Fourth Anglo-Mysore War in 1799. The war ended with the siege of Srirangapatna, where Tipu Sultan bravely fought and died defending his capital."
+            },{
+              "question-hindi": "अकाली आंदोलन किससे संबंधित था?",
+              "question-english" : "The Akali movement was associated with",
+              "options-hindi": ["(a) यंग बंगाल आंदोलन", "(b) प्रार्थना समाज", "(c) थियोसोफिकल आंदोलन", "(d) सिख सुधार आंदोलन"],
+              "options-english": ["(a) Young Bengal Movement", "(b) Prarthana Samaj", "(c) Theosophical Movement", "(d) Sikh Reform Movement"],
+              "answer-hindi": "सही उत्तर: (d) सिख सुधार आंदोलन",
+              "answer-english": "Correct Answer: (d) Sikh Reform Movement",
+              "solution-hindi": "समाधान: अकाली आंदोलन (जिसे गुरुद्वारा सुधार आंदोलन भी कहा जाता है) 20वीं सदी की शुरुआत में उभरा एक महत्वपूर्ण सिख सुधार आंदोलन था। इसका प्राथमिक उद्देश्य सिख गुरुद्वारों (मंदिरों) के प्रबंधन में सुधार करना था, जो अक्सर भ्रष्ट महंतों (पुजारियों) द्वारा नियंत्रित होते थे, और उन्हें एक निर्वाचित निकाय के माध्यम से सिख समुदाय के नियंत्रण में लाना था।",
+              "solution-english": "Solution: The Akali movement (also known as the Gurdwara Reform Movement) was a significant Sikh reform movement that emerged in the early 20th century. Its primary objective was to reform the management of Sikh Gurdwaras (shrines), which were often controlled by corrupt mahants (priests), and bring them under the control of the Sikh community through an elected body."
+            },{
+              "question-hindi": "1919 में भारत में हुई निम्नलिखित में से कौन सी एक बड़ी घटना थी?",
+              "question-english" : "Which of the following was a major incident to happen in India in the year 1919?",
+              "options-hindi": ["(a) दांडी मार्च", "(b) जलियांवाला बाग हत्याकांड", "(c) असहयोग आंदोलन", "(d) स्वदेशी आंदोलन"],
+              "options-english": ["(a) Dandi March", "(b) Jallianwala Bagh Massacre", "(c) Non Cooperation Movement", "(d) Swadeshi Movement"],
+              "answer-hindi": "सही उत्तर: (b) जलियांवाला बाग हत्याकांड",
+              "answer-english": "Correct Answer: (b) Jallianwala Bagh Massacre",
+              "solution-hindi": "समाधान:\nजलियांवाला बाग हत्याकांड: यह भयानक घटना 13 अप्रैल, 1919 को अमृतसर, पंजाब में हुई थी, जहाँ ब्रिटिश सैनिकों ने भारतीयों की एक बड़ी, निहत्थी सभा पर गोली चला दी थी, जिसमें सैकड़ों लोग मारे गए थे।\nदांडी मार्च: मार्च-अप्रैल 1930।\nअसहयोग आंदोलन: 1920 में शुरू हुआ।\nस्वदेशी आंदोलन: 1905 में शुरू हुआ। इस प्रकार, जलियांवाला बाग हत्याकांड 1919 में हुई प्रमुख घटना है।",
+              "solution-english": "Solution:\nJallianwala Bagh Massacre: This horrific event occurred on April 13, 1919, in Amritsar, Punjab, where British troops fired on a large, unarmed gathering of Indians, killing hundreds.\nDandi March: March-April 1930.\nNon-Cooperation Movement: Launched in 1920.\nSwadeshi Movement: Started in 1905.\nThus, the Jallianwala Bagh Massacre is the major incident that happened in 1919."
+            },{
+              "question-hindi": "हमारे सौरमंडल का सबसे चमकीला ग्रह कौन सा है?",
+              "question-english" : "Brightest planet of our solar system is",
+              "options-hindi": ["(a) मंगल", "(b) शुक्र", "(c) बृहस्पति", "(d) बुध"],
+              "options-english": ["(a) Mars", "(b) Venus", "(c) Jupiter", "(d) Mercury"],
+              "answer-hindi": "सही उत्तर: (b) शुक्र",
+              "answer-english": "Correct Answer: (b) Venus",
+              "solution-hindi": "समाधान: पृथ्वी से देखे जाने पर शुक्र हमारे सौरमंडल का सबसे चमकीला ग्रह है। यह इसके घने वातावरण के कारण है, जो मुख्य रूप से कार्बन डाइऑक्साइड से बना है, जो बड़ी मात्रा में सूर्य के प्रकाश को परावर्तित करता है। इसे अक्सर 'सुबह का तारा' या 'शाम का तारा' कहा जाता है।",
+              "solution-english": "Solution: Venus is the brightest planet in our solar system as seen from Earth. This is due to its dense atmosphere, composed mainly of carbon dioxide, which reflects a large amount of sunlight. It is often referred to as the 'morning star' or 'evening star.'"
+            },{
+              "question-hindi": "सार्क का मुख्यालय कहाँ स्थित है?",
+              "question-english" : "Where is the headquarters of SAARC located?",
+              "options-hindi": ["(a) बीजिंग, चीन", "(b) नई दिल्ली, भारत", "(c) काठमांडू, नेपाल", "(d) इस्लामाबाद, पाकिस्तान"],
+              "options-english": ["(a) Beijing, China", "(b) New Delhi, India", "(c) Kathmandu, Nepal", "(d) Islamabad, Pakistan"],
+              "answer-hindi": "सही उत्तर: (c) काठमांडू, नेपाल",
+              "answer-english": "Correct Answer: (c) Kathmandu, Nepal",
+              "solution-hindi": "समाधान: दक्षिण एशियाई क्षेत्रीय सहयोग संगठन (सार्क) का मुख्यालय काठमांडू, नेपाल में स्थित है। सार्क दक्षिण एशिया के राज्यों का एक क्षेत्रीय अंतरसरकारी संगठन और भू-राजनीतिक संघ है।",
+              "solution-english": "Solution: The headquarters of the South Asian Association for Regional Cooperation (SAARC) is located in Kathmandu, Nepal. SAARC is a regional intergovernmental organization and geopolitical union of states in South Asia."
+            },{
+              "question-hindi": "मगध के निम्नलिखित शासकों को उनके शासन के कालानुक्रमिक क्रम में रखें: A. बिंदुसार, B. बिम्बिसार, C. अशोक, D. अजातशत्रु",
+              "question-english" : "Place the following ruler of Magadha in their chronological order of rule: A. Bindusara, B. Bimbisara, C. Ashoka, D. Ajatasatru",
+              "options-hindi": ["(a) A, C, D, B", "(b) B, A, D, C", "(c) B, D, A, C", "(d) D, C, B, A"],
+              "options-english": ["(a) A, C, D, B", "(b) B, A, D, C", "(c) B, D, A, C", "(d) D, C, B, A"],
+              "answer-hindi": "सही उत्तर: (c) B, D, A, C",
+              "answer-english": "Correct Answer: (c) B, D, A, C",
+              "solution-hindi": "समाधान: आइए हर्यंक और मौर्य राजवंशों के इन शासकों के कालानुक्रमिक क्रम पर नज़र डालते हैं:\nबिम्बिसार (B): हर्यंक राजवंश के संस्थापक, लगभग 544 से 492 ईसा पूर्व तक शासन किया।\nअजातशत्रु (D): बिम्बिसार का पुत्र, लगभग 492 से 460 ईसा पूर्व तक शासन किया।\nबिंदुसार (A): चंद्रगुप्त मौर्य का पुत्र और अशोक का पिता, मौर्य साम्राज्य पर लगभग 297 से 273 ईसा पूर्व तक शासन किया।\nअशोक (C): चंद्रगुप्त मौर्य का पोता और बिंदुसार का पुत्र, मौर्य साम्राज्य पर लगभग 268 से 232 ईसा पूर्व तक शासन किया। इसलिए, सही कालानुक्रमिक क्रम बिम्बिसार, अजातशत्रु, बिंदुसार, अशोक (B, D, A, C) है।",
+              "solution-english": "Solution: Let's look at the chronological order of these rulers, primarily from the Haryanka and Mauryan dynasties:\nBimbisara (B): Founder of the Haryanka dynasty, ruled from c. 544 to 492 BCE.\nAjatasatru (D): Son of Bimbisara, ruled from c. 492 to 460 BCE.\nBindusara (A): Son of Chandragupta Maurya and father of Ashoka, ruled the Mauryan Empire from c. 297 to 273 BCE.\nAshoka (C): Grandson of Chandragupta Maurya and son of Bindusara, ruled the Mauryan Empire from c. 268 to 232 BCE.\nTherefore, the correct chronological order is Bimbisara, Ajatasatru, Bindusara, Ashoka (B, D, A, C)."
+            },{
+              "question-hindi": "इंडियन ऑयल के नए अध्यक्ष के रूप में किसे नियुक्त किया गया है? (नवंबर 2024)    ",
+              "question-english" : "Who has been appointed as the new chairman of IndianOil? (Nov 2024)",
+              "options-hindi": ["(a) श्रीकांत माधव वैद्य", "(b) रमेश कुमार अग्रवाल", "(c) संजीव कुमार शर्मा", "(d) अरविंद सिंह साहनी"],
+              "options-english": ["(a) Shrikant Madhav Vaidya", "(b) Ramesh Kumar Agarwal", "(c) Sanjeev Kumar Sharma", "(d) Arvindar Singh Sahney"],
+              "answer-hindi": "सही उत्तर: (a) श्रीकांत माधव वैद्य",
+              "answer-english": "Correct Answer: (a) Shrikant Madhav Vaidya",
+              "solution-hindi": "समाधान: नवंबर 2024 तक, श्रीकांत माधव वैद्य इंडियन ऑयल कॉर्पोरेशन लिमिटेड (इंडियन ऑयल) के वर्तमान अध्यक्ष हैं। उन्होंने जुलाई 2020 में पदभार संभाला था। प्रश्न एक संभावित भविष्य की नियुक्ति या नवंबर 2024 में सटीक तिथि के आधार पर एक वर्तमान नियुक्ति का तात्पर्य है। हालांकि, श्रीकांत माधव वैद्य इस अवधि में लंबे समय से अध्यक्ष हैं।",
+              "solution-english": "Solution: As of November 2024, Shrikant Madhav Vaidya is the current Chairman of Indian Oil Corporation Limited (IndianOil). He assumed office in July 2020. The question implies a potential future appointment or a current one depending on the exact date in November 2024. However, Shrikant Madhav Vaidya is the long-standing chairman in this period."
+            },{
+              "question-hindi": "भारत के नए नियंत्रक और महालेखा परीक्षक (CAG) के रूप में किसे नियुक्त किया गया है? (नवंबर 2024)",
+              "question-english" : "Who has been appointed as the new Comptroller and Auditor General (CAG) of India? (Nov 2024)",
+              "options-hindi": ["(a) के. संजय मूर्ति", "(b) राजीव महर्षि", "(c) शशि कांत शर्मा", "(d) राधा रमण सिंह चौहान"],
+              "options-english": ["(a) K. Sanjay Murthy", "(b) Rajiv Mehrishi", "(c) Shashi Kant Sharma", "(d) Radha Raman Singh Chaouhan"],
+              "answer-hindi": "सही उत्तर: (b) राजीव महर्षि",
+              "answer-english": "Correct Answer: (b) Rajiv Mehrishi",
+              "solution-hindi": "समाधान: राजीव महर्षि सितंबर 2017 से अगस्त 2020 तक भारत के नियंत्रक और महालेखा परीक्षक (CAG) थे। हालांकि, नवंबर 2024 तक वर्तमान CAG गिरीश चंद्र मुर्मू हैं, जिन्होंने अगस्त 2020 में पदभार संभाला था। दिए गए विकल्पों में, राजीव महर्षि सबसे हाल के पिछले CAG हैं। यदि प्रश्न नवंबर 2024 के लिए एक वर्तमान CAG का तात्पर्य है, तो कोई भी विकल्प सही नहीं है। यदि यह एक ऐतिहासिक संदर्भ में उस समय सीमा के आसपास नियुक्त एक नए CAG को संदर्भित करता है, तो राजीव महर्षि ने शशि कांत शर्मा के बाद और जी.सी. मुर्मू से पहले सेवा दी थी। बहुविकल्पीय प्रारूप में दिए गए विकल्पों को देखते हुए, और नवंबर 2024 में विशिष्ट 'नई' नियुक्ति पर आगे के संदर्भ के बिना, एक अस्पष्टता हो सकती है। हालांकि, यदि विकल्पों में से एक CAG की तलाश की जा रही है, तो राजीव महर्षि दिए गए पूर्व CAGs में सबसे हाल के हैं। यह प्रश्न की वर्तमानता या विकल्पों के साथ एक संभावित मुद्दे को उजागर करता है।",
+              "solution-english": "Solution: Rajiv Mehrishi was the Comptroller and Auditor General (CAG) of India from September 2017 to August 2020. However, the current CAG as of November 2024 is Girish Chandra Murmu, who took office in August 2020. Given the options, Rajiv Mehrishi is the most recent past CAG listed. If the question implies a current CAG for Nov 2024, none of the options are correct. If it refers to a new CAG appointed around that time frame in a historical context among the options provided, Rajiv Mehrishi served after Shashi Kant Sharma and before G.C. Murmu. Given the options provided in a multiple-choice format, and without further context on the specific 'new' appointment in Nov 2024, there might be an ambiguity. However, if looking for a CAG among the options, Rajiv Mehrishi is a prominent former CAG. Let's assume the question implicitly refers to a past appointment if the current one isn't listed.\nGirish Chandra Murmu is the current CAG.\nRajiv Mehrishi (2017-2020)\nShashi Kant Sharma (2013-2017)\nWithout the current CAG (G.C. Murmu) as an option, this question might be outdated or require selecting the 'most recent' from the given choices. If the question implies a newly appointed one in Nov 2024 that has to be from the given options, it is incorrect. But if it's asking for a CAG from the list, Mehrishi is the most recent among the former ones listed. This highlights a potential issue with the question's currency or options."
+            },{
+              "question-hindi": "एशिया के सबसे बड़े और दुनिया के सबसे ऊंचे इमेजिंग चेरेंकोव टेलीस्कोप, MACE, का उद्घाटन कहाँ किया गया था?",
+              "question-english" : "Where was Asia's largest and the world's highest imaging Cherenkov telescope, MACE, inaugurated?",
+              "options-hindi": ["(a) लेह", "(b) लद्दाख", "(c) श्रीनगर", "(d) शिमला"],
+              "options-english": ["(a) Leh","(b) Ladakh","(c) Srinagar","(d) Shimla"],
+              "answer-hindi": "सही उत्तर: (b) लद्दाख",
+              "answer-english": "Correct Answer: (b) Ladakh",
+              "solution-hindi": "समाधान: एशिया के सबसे बड़े और दुनिया के सबसे ऊंचे इमेजिंग चेरेंकोव टेलीस्कोप, MACE (मेजर एटमॉस्फेरिक चेरेंकोव एक्सपेरिमेंट), का उद्घाटन लद्दाख के केंद्र शासित प्रदेश में हानले में किया गया था। हानले अपनी उच्च ऊंचाई और स्पष्ट आसमान के लिए जाना जाता है, जो इसे खगोलीय अवलोकन के लिए एक आदर्श स्थान बनाता है।",
+              "solution-english": "Solution: Asia's largest and the world's highest imaging Cherenkov telescope, MACE (Major Atmospheric Cherenkov Experiment), was inaugurated at Hanle, in the Union Territory of Ladakh. Hanle is known for its high altitude and clear skies, making it an ideal location for astronomical observations."
+            },{
+              "question-hindi": ") फुल क्रीम, स्किम्ड आदि दूध की विभिन्न किस्में बाजार में उपलब्ध हैं। स्किम्ड दूध बनाने के लिए किस तकनीक का उपयोग किया जाता है:",
+              "question-english" : ") Different varieties of milk like full cream, skimmed, etc. are available in the market. The technique used for preparing skimmed milk is:",
+              "options-hindi": ["(a) विलायक निष्कर्षण","(b) सेंट्रीफ्यूगेशन","(c) वाष्पीकरण","(d) प्रभाजी आसवन"],
+              "options-english": ["(a) Solvent extraction","(b) Centrifugation","(c) Evaporation","(d) Fractional distillation"],
+              "answer-hindi": "सही उत्तर: (b) सेंट्रीफ्यूगेशन",
+              "answer-english": "Correct Answer: (b) Centrifugation",
+              "solution-hindi": "समाधान: सेंट्रीफ्यूगेशन स्किम्ड दूध तैयार करने के लिए इस्तेमाल की जाने वाली प्रक्रिया है। इस प्रक्रिया में, दूध को उच्च गति पर घुमाया जाता है, जिससे केन्द्रापसारक बल के कारण हल्के वसा के कण (क्रीम) घने स्किम्ड दूध से अलग हो जाते हैं।\nविलायक निष्कर्षण का उपयोग विलायक का उपयोग करके घटकों को अलग करने के लिए किया जाता है।\nवाष्पीकरण एक घोल से पानी को हटाता है।\nप्रभाजी आसवन विभिन्न क्वथनांक वाले तरल पदार्थों को अलग करता है।",
+              "solution-english": "Solution: Centrifugation is the process used to prepare skimmed milk. In this process, milk is spun at high speed, which separates the lighter fat globules (cream) from the denser skim milk due to centrifugal force.\nSolvent extraction is used for separating components using solvents.\nEvaporation removes water from a solution.\nFractional distillation separates liquids with different boiling points."
+            },{
+              "question-hindi": ") समान कला में कंपन करते हुए, माध्यम के किन्हीं दो निकटतम कणों के बीच की दूरी ______ होती है।",
+              "question-english" : "Vibrating in the same phase, the distance between any two nearest particles of the medium is _______.",
+              "options-hindi": ["(a) तरंगदैर्ध्य","(b) आवृत्ति","(c) वेग","(d) आयाम"],
+              "options-english": ["(a) Wavelength","(b) Frequency","(c) Velocity","(d) Dimension"],
+              "answer-hindi": "सही उत्तर: (a) तरंगदैर्ध्य",
+              "answer-english": "Correct Answer: (a) Wavelength",
+              "solution-hindi": "समाधान: तरंग यांत्रिकी में, तरंगदैर्ध्य को एक आवधिक तरंग की स्थानिक अवधि के रूप में परिभाषित किया जाता है - वह दूरी जिस पर तरंग का आकार दोहराता है। यह समान कला के लगातार संबंधित बिंदुओं के बीच की दूरी है, जैसे दो आसन्न शिखर, गर्त, या शून्य क्रॉसिंग।",
+              "solution-english": "Solution: In wave mechanics, the wavelength is defined as the spatial period of a periodic wave – the distance over which the wave's shape repeats. It is the distance between consecutive corresponding points of the same phase, such as two adjacent crests, troughs, or zero crossings."
+            },{
+              "question-hindi": "निम्नलिखित में से किस शब्द का संबंध 'घ्राण' से है?",
+              "question-english" : ") With which of the following is the term 'Olfactory' associated?",
+              "options-hindi": ["(a) महसूस करना","(b) देखना","(c) सूंघना","(d) सुनना"],
+              "options-english": ["(a) Feel","(b) See","(c) Smell","(d) Hear"],
+              "answer-hindi": "सही उत्तर: (c) सूंघना",
+              "answer-english": "Correct Answer: (c) Smell",
+              "solution-hindi": "समाधान: 'घ्राण' शब्द सूंघने की इंद्रिय को संदर्भित करता है। शरीर में घ्राण प्रणाली गंध का पता लगाने और उसे संसाधित करने के लिए जिम्मेदार है।",
+              "solution-english": "Solution: The term 'Olfactory' refers to the sense of smell. The olfactory system in the body is responsible for detecting and processing odors."
+            },{
+              "question-hindi": "वाहन के पश्चदृश्य दर्पणों को क्या उत्पन्न करना चाहिए:",
+              "question-english" : "The rearview mirrors of the vehicle should produce:",
+              "options-hindi": ["(a) उलटा और छोटा प्रतिबिंब","(b) बड़ा और उलटा प्रतिबिंब","(c) बड़ा और सीधा प्रतिबिंब","(d) छोटा, आभासी और सीधा प्रतिबिंब"],
+              "options-english": ["(a) Inverted and diminished image","(b) Enlarged and inverted image","(c) Enlarged and erect image","(d) Diminished, virtual and erect image"],
+              "answer-hindi": "सही उत्तर: (d) छोटा, आभासी और सीधा प्रतिबिंब",
+              "answer-english": "Correct Answer: (d) Diminished, virtual and erect image",
+              "solution-hindi": "समाधान: वाहनों में पश्चदृश्य दर्पण आमतौर पर उत्तल दर्पण होते हैं। उत्तल दर्पण हमेशा ऐसे प्रतिबिंब बनाते हैं जो:\nछोटा (वस्तु से छोटा) होता है - यह दृश्य के व्यापक क्षेत्र की अनुमति देता है, पीछे के अधिक यातायात को दर्शाता है।\nआभासी (प्रकाश किरणें वास्तव में प्रतिबिंब स्थान पर अभिसरित नहीं होती हैं, यह दर्पण के पीछे दिखाई देता है)।\nसीधा (सीधा) होता है - यह ड्राइवरों के लिए वस्तुओं के अभिविन्यास को सही ढंग से समझने के लिए महत्वपूर्ण है।",
+              "solution-english": "Solution: Rearview mirrors in vehicles are typically convex mirrors. Convex mirrors always produce images that are:`\nDiminished (smaller than the object) - This allows a wider field of view, showing more of the traffic behind.\nVirtual (the light rays do not actually converge at the image location, it appears behind the mirror).\nErect (upright) - This is crucial for drivers to correctly perceive the orientation of objects."
+            },{
+              "question-hindi": "वायु प्रदूषण के संदर्भ में, SPM का अर्थ है:-",
+              "question-english" : "In the context of Air Pollution, SPM refers to:-",
+              "options-hindi": ["(a) ठोस कण पदार्थ","(b) धुएं का प्रदूषण माप","(c) निलंबित प्रदूषक पदार्थ","(d) निलंबित कण पदार्थ"],
+              "options-english": ["(a) Solid Particle Matter","(b) Smoke Pollution Measure","(c) Suspended Polluting Matter","(d) Suspended Particulate Matter"],
+              "answer-hindi": "सही उत्तर: (d) निलंबित कण पदार्थ",
+              "answer-english": "Correct Answer: (d) Suspended Particulate Matter",
+              "solution-hindi": "समाधान: वायु प्रदूषण के संदर्भ में, SPM का अर्थ निलंबित कण पदार्थ है। ये वायुमंडल में निलंबित सूक्ष्म ठोस या तरल कण होते हैं, जो वायु प्रदूषण में योगदान करते हैं और स्वास्थ्य पर प्रतिकूल प्रभाव डाल सकते हैं।",
+              "solution-english": "Solution: In the context of air pollution, SPM stands for Suspended Particulate Matter. These are microscopic solid or liquid particles suspended in the atmosphere, which contribute to air pollution and can have adverse health effects."
+            },{
+              "question-hindi": "_______ युद्ध के दौरान विशिष्ट वीरता के कृत्यों को प्रदर्शित करने के लिए दिया जाने वाला सर्वोच्च सैन्य अलंकरण है।",
+              "question-english" : "_______ is the highest military decoration awarded for displaying distinguished acts of valour during war.",
+              "options-hindi": ["(a) महावीर चक्र","(b) सेना पदक","(c) परम वीर चक्र","(d) शौर्य चक्र"],
+              "options-english": ["(a) Mahavir Chakra","(b) Sena Medal","(c) Param Vir Chakra","(d) Shaurya Chakra"],
+              "answer-hindi": "सही उत्तर: (c) परम वीर चक्र",
+              "answer-english": "Correct Answer: (c) Param Vir Chakra",
+              "solution-hindi": "समाधान: परम वीर चक्र भारत का सर्वोच्च सैन्य अलंकरण है, जो दुश्मन की उपस्थिति में, चाहे भूमि पर, समुद्र में, या हवा में, सबसे विशिष्ट बहादुरी या वीरता या आत्म-बलिदान के कुछ साहसी या उत्कृष्ट कार्य के लिए प्रदान किया जाता है।\nमहावीर चक्र दूसरा सर्वोच्च है।\nशौर्य चक्र दुश्मन के सामने के अलावा अन्य वीरता के लिए प्रदान किया जाता है।\nसेना पदक कर्तव्य के प्रति असाधारण समर्पण या साहस के कृत्यों के लिए प्रदान किया जाता है।",
+              "solution-english": "Solution: The Param Vir Chakra is India's highest military decoration, awarded for the most conspicuous bravery or some daring or pre-eminent act of valour or self-sacrifice, in the presence of the enemy, whether on land, at sea, or in the air.\nMahavir Chakra is the second-highest.\nShaurya Chakra is awarded for gallantry otherwise than in the face of the enemy.\nSena Medal is awarded for acts of exceptional devotion to duty or courage."
+            },{
+              "question-hindi": "भारत रत्न से सम्मानित होने वाले एकमात्र पाकिस्तानी नागरिक कौन थे?",
+              "question-english" : "Who was the only Pakistani national who was awarded the Bharat Ratna?",
+              "options-hindi": ["(a) खान अब्दुल गफ्फार खान","(b) नवाज शरीफ","(c) बेनजीर भुट्टो","(d) इमरान खान"],
+              "options-english": ["(a) Khan Abdul Ghaffar Khan","(b) Nawaz Sharif","(c) Benazir Bhutto","(d) Imran Khan"],
+              "answer-hindi": "सही उत्तर: (a) खान अब्दुल गफ्फार खान",
+              "answer-english": "Correct Answer: (a) Khan Abdul Ghaffar Khan",
+              "solution-hindi": "समाधान: खान अब्दुल गफ्फार खान, जिन्हें 'सीमांत गांधी' के नाम से भी जाना जाता है, भारत के सर्वोच्च नागरिक सम्मान, भारत रत्न से सम्मानित होने वाले एकमात्र पाकिस्तानी नागरिक थे, जो उन्हें 1987 में मिला था। वह भारत में ब्रिटिश औपनिवेशिक शासन के खिलाफ एक पश्तून स्वतंत्रता कार्यकर्ता और अहिंसा के समर्थक थे।",
+              "solution-english": "Solution: Khan Abdul Ghaffar Khan, also known as 'Frontier Gandhi', was the only Pakistani national to be awarded India's highest civilian honor, the Bharat Ratna, in 1987. He was a Pashtun independence activist against British colonial rule in India and a proponent of nonviolence."
+            },{
+              "question-hindi": "भारतीय संघ किस पैटर्न पर आधारित है?",
+              "question-english" : "The Indian Federation is based on the pattern of _______.",
+              "options-hindi": ["(a) स्विट्जरलैंड","(b) संयुक्त राज्य अमेरिका","(c) रूस","(d) कनाडा"],
+              "options-english": ["(a) Switzerland","(b) USA","(c) Russia","(d) Canada"],
+              "answer-hindi": "सही उत्तर: (d) कनाडा",
+              "answer-english": "Correct Answer: (d) Canada",
+              "solution-hindi": "समाधान: भारतीय संघीय प्रणाली को अक्सर 'अर्ध-संघीय' प्रणाली के रूप में वर्णित किया जाता है, और इसमें कनाडाई मॉडल के साथ महत्वपूर्ण समानताएं हैं। कनाडा से उधार ली गई प्रमुख विशेषताओं में शामिल हैं:\nएक मजबूत केंद्र।\nकेंद्र द्वारा राज्य राज्यपालों की नियुक्ति।\nअवशिष्ट शक्तियाँ केंद्र के पास रहती हैं।\nएकात्मक पूर्वाग्रह के साथ शक्तियों का वितरण। जबकि भारत में अन्य संघों के तत्व हैं, कनाडाई पैटर्न को इसकी अद्वितीय संघीय संरचना के लिए सबसे करीबी मॉडल माना जाता है।",
+              "solution-english": "Solution: The Indian federal system is often described as a 'quasi-federal' system, and it has significant similarities to the Canadian model. Key features borrowed from Canada include:\nA strong center.\nThe appointment of state governors by the center.\nVestigial powers resting with the center.\nDistribution of powers with a unitary bias.\nWhile India has elements from other federations, the Canadian pattern is considered the closest model for its unique federal structure."
+            },{
+              "question-hindi": "निम्नलिखित में से किस ग्रह का कोई प्राकृतिक उपग्रह नहीं है?",
+              "question-english" : ") Which of the following planets does not have natural satellite?",
+              "options-hindi": ["(a) मंगल","(b) पृथ्वी","(c) बृहस्पति","(d) शुक्र"],
+              "options-english": ["(a) Mars","(b) Earth","(c) Jupiter","(d) Venus"],
+              "answer-hindi": "सही उत्तर: (d) शुक्र",
+              "answer-english": "Correct Answer: (d) Venus",
+              "solution-hindi": "समाधान: हमारे सौरमंडल के आठ ग्रहों में से केवल दो का कोई प्राकृतिक उपग्रह (चंद्रमा) नहीं है: बुध और शुक्र।\nमंगल के दो चंद्रमा हैं (फोबोस और डीमोस)।\nपृथ्वी का एक चंद्रमा है।\nबृहस्पति के कई चंद्रमा हैं (जैसे गैनीमेड, कैलिस्टो, आयो, यूरोपा)।",
+              "solution-english": "Solution: Out of the eight planets in our solar system, only two do not have any natural satellites (moons): Mercury and Venus.\nMars has two moons (Phobos and Deimos).\nEarth has one moon.\nJupiter has numerous moons (e.g., Ganymede, Callisto, Io, Europa)."
+            },{
+              "question-hindi": "कलमकारी पेंटिंग किस राज्य से संबंधित है?",
+              "question-english" : "Kalamkari painting is related to which state?",
+              "options-hindi": ["(a) आंध्र प्रदेश","(b) मणिपुर","(c) पश्चिम बंगाल","(d) महाराष्ट्र"],
+              "options-english": ["(a) Andhra Pradesh","(b) Manipur","(c) West Bengal","(d) Maharashtra"],
+              "answer-hindi": "सही उत्तर: (a) आंध्र प्रदेश",
+              "answer-english": "Correct Answer: (a) Andhra Pradesh",
+              "solution-hindi": "समाधान: कलमकारी भारत के कुछ हिस्सों में उत्पादित हाथ से पेंट किए गए या ब्लॉक-प्रिंटेड सूती वस्त्र का एक प्रकार है। इसका अभ्यास मुख्य रूप से आंध्र प्रदेश राज्य में किया जाता है, विशेष रूप से श्रीकालाहस्ती और मछलीपट्टनम शैलियों में।",
+              "solution-english": "Solution: Kalamkari is a type of hand-painted or block-printed cotton textile produced in parts of India. It is predominantly practiced in the state of Andhra Pradesh, particularly in the Srikalahasti and Machilipatnam styles."
+            },{
+              "question-hindi": "_______ को 'कोशिका का पावर हाउस' कहा जाता है।",
+              "question-english" : "_______ is called 'the power house of the cell'.",
+              "options-hindi": ["(a) कोशिका झिल्ली","(b) नाभिक","(c) माइटोकॉन्ड्रिया","(d) गोल्गी बॉडीज"],
+              "options-english": ["(a) Cell membrane","(b) Nucleus","(c) Mitochondria","(d) Golgi bodies"],
+              "answer-hindi": "सही उत्तर: (c) माइटोकॉन्ड्रिया",
+              "answer-english": "Correct Answer: (c) Mitochondria",
+              "solution-hindi": "समाधान: माइटोकॉन्ड्रिया को प्रसिद्ध रूप से 'कोशिका का पावर हाउस' के रूप में जाना जाता है क्योंकि वे कोशिका के अधिकांश एडेनोसिन ट्राइफॉस्फेट (एटीपी) की आपूर्ति उत्पन्न करने के लिए जिम्मेदार होते हैं, जिसका उपयोग रासायनिक ऊर्जा के स्रोत के रूप में, कोशिकीय श्वसन के माध्यम से किया जाता है।\nकोशिका झिल्ली नियंत्रित करती है कि कोशिका में क्या प्रवेश करता है और क्या निकलता है।\nनाभिक में कोशिका की आनुवंशिक सामग्री होती है।\nगोल्गी बॉडीज प्रोटीन और लिपिड को संशोधित करने, छांटने और पैकेजिंग में शामिल होते हैं।",
+              "solution-english": "Solution: Mitochondria are famously known as the 'powerhouses of the cell' because they are responsible for generating most of the cell's supply of adenosine triphosphate (ATP), which is used as a source of chemical energy, through cellular respiration.\nThe cell membrane controls what enters and leaves the cell.\nThe nucleus contains the cell's genetic material.\nGolgi bodies are involved in modifying, sorting, and packaging proteins and lipids."
+            },{
+              "question-hindi": ") 'भारत का लौह पुरुष' किसे कहा जाता है?",
+              "question-english" : "Who is called the 'The iron man of India'? ",
+              "options-hindi": ["(a) वल्लभभाई पटेल","(b) एम.के. गांधी","(c) बाल गंगाधर तिलक","(d) जवाहरलाल नेहरू"],
+              "options-english": ["(a) Vallabhai Patel","(b) M.K Gandhi","(c) Bal Gangadhar Tilak","(d) Jawaharlal Nehru"],
+              "answer-hindi": "सही उत्तर: (a) वल्लभभाई पटेल",
+              "answer-english": "Correct Answer: (a) Vallabhai Patel",
+              "solution-hindi": "समाधान: सरदार वल्लभभाई पटेल को व्यापक रूप से 'भारत का लौह पुरुष' (भारत का लोह पुरुष) के रूप में जाना जाता है। उन्होंने अपनी दृढ़ इच्छाशक्ति, दृढ़ संकल्प और स्वतंत्रता के बाद कई रियासतों को भारतीय संघ में एकीकृत करने में महत्वपूर्ण भूमिका के कारण यह उपाधि अर्जित की।",
+              "solution-english": "Solution: Sardar Vallabhbhai Patel is widely known as the 'Iron Man of India' (Bharat ka Loh Purush). He earned this title due to his strong will, determination, and instrumental role in integrating the numerous princely states into the Indian Union after independence."
+            },{
+              "question-hindi": "हमारे राष्ट्रीय ध्वज में केसरिया रंग क्या दर्शाता है?",
+              "question-english" : "Saffron colour in our National Flag represents",
+              "options-hindi": ["(a) शक्ति और साहस","(b) सत्य और साहस","(c) उर्वरता और विकास","(d) शक्ति और सत्य"],
+              "options-english": ["(a) Strength & courage","(b) Truth & courage","(c) Fertility & growth","(d) Strength & truth"],
+              "answer-hindi": "सही उत्तर: (a) शक्ति और साहस",
+              "answer-english": "Correct Answer: (a) Strength & courage",
+              "solution-hindi": "समाधान: भारतीय राष्ट्रीय ध्वज में, शीर्ष केसरिया पट्टी शक्ति और साहस का प्रतीक है। सफेद मध्य पट्टी शांति और सत्य का प्रतिनिधित्व करती है, और निचली हरी पट्टी भूमि की उर्वरता, विकास और शुभता का प्रतीक है।",
+              "solution-english": "Solution: In the Indian National Flag, the top saffron band signifies strength and courage. The white middle band represents peace and truth, and the bottom green band signifies fertility, growth, and auspiciousness of the land."
+            },{
+              "question-hindi": "17वें शहरी गतिशीलता भारत सम्मेलन 2024 में 'सर्वश्रेष्ठ सार्वजनिक परिवहन प्रणाली वाले शहर' का खिताब किस शहर को दिया गया?",
+              "question-english" : "Which city was awarded the title of 'City with the Best Public Transport System' at the 17th Urban Mobility India Conference 2024?",
+              "options-hindi": ["(a) जम्मू","(b) भुवनेश्वर","(c) श्रीनगर","(d) गुरुग्राम"],
+              "options-english": ["(a) Jammu","(b) Bhubaneswar","(c) Srinagar","(d) Gurugram"],
+              "answer-hindi": "सही उत्तर: (b) भुवनेश्वर",
+              "answer-english": "Correct Answer: (b) Bhubaneswar",
+              "solution-hindi": "समाधान: 2024 में 17वें शहरी गतिशीलता भारत सम्मेलन और एक्सपो में, भुवनेश्वर को 'सर्वश्रेष्ठ सार्वजनिक परिवहन प्रणाली वाले शहर' का खिताब दिया गया। यह मान्यता शहरी गतिशीलता में सुधार के लिए इसके प्रयासों को उजागर करती है।",
+              "solution-english": "Solution: At the 17th Urban Mobility India Conference and Expo in 2024, Bhubaneswar was awarded the title of 'City with the Best Public Transport System'. This recognition highlights its efforts in improving urban mobility."
+            },{
+              "question-hindi": "कैबिनेट कमेटी ऑन सिक्योरिटी (CCS) द्वारा हाल ही में मिली मंजूरी के अनुसार आंध्र प्रदेश में नई मिसाइल परीक्षण रेंज कहाँ विकसित की जाएगी?",
+              "question-english" : "Where in Andhra Pradesh will the new missile testing range be developed as per the recent approval by the Cabinet Committee on Security (CCS)?",
+              "options-hindi": ["(a) विशाखापत्तनम","(b) कलैकुंडा","(c) काकीनाडा","(d) नागयालंक"],
+              "options-english": ["(a) Visakhapatnam","(b) Kalaikunda","(c) Kakinada","(d) Nagayalanka"],
+              "answer-hindi": "सही उत्तर: (d) नागयालंक",
+              "answer-english": "Correct Answer: (d) Nagayalanka",
+              "solution-hindi": "समाधान: कैबिनेट कमेटी ऑन सिक्योरिटी (CCS) ने हाल ही में आंध्र प्रदेश के कृष्णा जिले में स्थित नागयालंक में एक नई मिसाइल परीक्षण रेंज के विकास को मंजूरी दी है। यह स्थल एक रणनीतिक परीक्षण सुविधा के रूप में कार्य करने का इरादा रखता है।",
+              "solution-english": "Solution: The Cabinet Committee on Security (CCS) recently approved the development of a new missile testing range in Nagayalanka, located in the Krishna district of Andhra Pradesh. This site is intended to serve as a strategic test facility."
+            },{
+              "question-hindi": "15-16 अक्टूबर 2024 को इस्लामाबाद में एससीओ प्रमुखों के सरकारी बैठक के लिए पाकिस्तान की ऐतिहासिक यात्रा पर कौन जा रहा है?",
+              "question-english" : "Who is set to make a historic visit to Pakistan for the SCO Heads of Government meeting in Islamabad on October 15-16, 2024?",
+              "options-hindi": ["(a) अश्विनी वैष्णव","(b) सुब्रह्मण्यम जयशंकर","(c) नरेंद्र मोदी","(d) पीयूष गोयल"],
+              "options-english": ["(a) Ashwini Vaishnaw","(b) Subrahmanyam Jaishankar","(c) Narendra Modi","(d) Piyush Goyal"],
+              "answer-hindi": "सही उत्तर: (b) सुब्रह्मण्यम जयशंकर",
+              "answer-english": "Correct Answer: (b) Subrahmanyam Jaishankar",
+              "solution-hindi": "समाधान: अक्टूबर 2024 में, यह बताया गया था कि विदेश मंत्री एस. जयशंकर शंघाई सहयोग संगठन (एससीओ) प्रमुखों के सरकारी बैठक के लिए पाकिस्तान की ऐतिहासिक यात्रा पर जाने वाले थे। दोनों देशों के बीच तनावपूर्ण संबंधों को देखते हुए यह एक महत्वपूर्ण राजनयिक घटना होगी।",
+              "solution-english": "Solution: In October 2024, it was reported that External Affairs Minister S. Jaishankar was set to make a historic visit to Pakistan for the Shanghai Cooperation Organization (SCO) Heads of Government meeting. This would be a significant diplomatic event given the strained relations between the two countries."
+            },{
+              "question-hindi": "नई दिल्ली में 7वीं आईएसए असेंबली के दौरान अंतर्राष्ट्रीय सौर गठबंधन (ISA) के तीसरे महानिदेशक के रूप में किसे नियुक्त किया गया था?",
+              "question-english" : "Who was recently appointed as the third Director General of the International Solar Alliance (ISA) during the 7th ISA Assembly in New Delhi?",
+              "options-hindi": ["(a) डॉ. अजय माथुर","(b) सुरेश प्रभु","(c) आशीष खन्ना","(d) पीयूष गोयल"],
+              "options-english": ["(a) Dr. Ajay Mathur","(b) Suresh Prabhu","(c) Ashish Khanna","(d) Piyush Goyal"],
+              "answer-hindi": "सही उत्तर: (a) डॉ. अजय माथुर",
+              "answer-english": "Correct Answer: (a) Dr. Ajay Mathur",
+              "solution-hindi": "समाधान: डॉ. अजय माथुर को नई दिल्ली में आयोजित 7वीं आईएसए असेंबली के दौरान अंतर्राष्ट्रीय सौर गठबंधन (ISA) के महानिदेशक के रूप में फिर से नियुक्त किया गया था। उन्होंने उपेंद्र त्रिपाठी के उत्तराधिकारी के रूप में दूसरे महानिदेशक के रूप में कार्य किया। प्रश्न में 'तीसरे महानिदेशक' का उल्लेख किया गया है जो डॉ. माथुर की जगह एक नई नियुक्ति का संकेत दे सकता है, लेकिन हाल की जानकारी के आधार पर, वह 7वीं असेंबली के दौरान महानिदेशक थे। यह मानते हुए कि प्रश्न 7वीं असेंबली के दौरान या लगभग के महानिदेशक के लिए सही ढंग से पूछ रहा है, डॉ. अजय माथुर सही उत्तर हैं।",
+              "solution-english": "Solution: Dr. Ajay Mathur was re-appointed as the Director General of the International Solar Alliance (ISA) during the 7th ISA Assembly held in New Delhi. He served as the second Director General, succeeding Upendra Tripathy. The question states 'third Director General' which might imply a new appointment replacing Dr. Mathur, but based on recent information, he was the DG during the 7th assembly. Assuming the question is correctly asking for the DG during or around the 7th assembly, Dr. Ajay Mathur is the correct answer."
+            },{
+              "question-hindi": "'सत्यमेव जयते' का सर्वप्रथम पाठ किसने किया था?",
+              "question-english" : "'Satyameva jayate' was first recited by",
+              "options-hindi": ["(a) बंकिम चंद्र चटर्जी","(b) लोकमान्य तिलक","(c) लाल बहादुर शास्त्री","(d) मदन मोहन मालवीय"],
+              "options-english": ["(a) Bankim Chandra Chatterjee","(b) Lokmanya Tilak","(c) Lal Bahadur Shastri","(d) Madan Mohan Malavya"],
+              "answer-hindi": "सही उत्तर: (d) मदन मोहन मालवीय",
+              "answer-english": "Correct Answer: (d) Madan Mohan Malavya",
+              "solution-hindi": "समाधान: 'सत्यमेव जयते' (सत्य की ही जीत होती है) प्राचीन भारतीय धर्मग्रंथ मुंडक उपनिषद का एक मंत्र है। इसे मदन मोहन मालवीय ने 1918 में एक राष्ट्रीय आदर्श वाक्य के रूप में लोकप्रिय बनाया और प्रमुखता में लाया। वे इसे अपनाने में महत्वपूर्ण थे।",
+              "solution-english": "Solution: The phrase 'Satyameva Jayate' (Truth alone triumphs) is a mantra from the ancient Indian scripture Mundaka Upanishad. It was popularized and brought into prominence as a national motto by Madan Mohan Malaviya in 1918. He was instrumental in its adoption."
+            },{
+              "question-hindi": "फ्रांसीसी ईस्ट इंडिया कंपनी ने भारत में अपनी पहली फैक्ट्री कहाँ स्थापित की थी?",
+              "question-english" : "Where did the French East India Company first establish its factory in India?",
+              "options-hindi": ["(a) कालीकट","(b) सूरत","(c) पांडिचेरी","(d) मछलीपट्टनम"],
+              "options-english": ["(a) Calicut","(b) Surat","(c) Pondicherry","(d) Masulipatnam"],
+              "answer-hindi": "सही उत्तर: (b) सूरत",
+              "answer-english": "Correct Answer: (b) Surat",
+              "solution-hindi": "समाधान: फ्रांसीसी ईस्ट इंडिया कंपनी ने भारत में अपनी पहली फैक्ट्री सूरत में 1668 में फ्रांकोइस कैरोन के नेतृत्व में स्थापित की थी। उस समय सूरत एक प्रमुख व्यापारिक बंदरगाह था।",
+              "solution-english": "Solution: The French East India Company first established its factory in India at Surat in 1668, under the leadership of Francois Caron. Surat was a prominent trading port at the time."
+            },{
+              "question-hindi": "चंद्रयान-3 मिशन की सफलता के लिए प्रतिष्ठित अंतर्राष्ट्रीय अंतरिक्ष यात्री संघ (IAF) विश्व अंतरिक्ष पुरस्कार से किसे सम्मानित किया गया?",
+              "question-english" : "Who was awarded the prestigious International Astronautical Federation (IAF) World Space Award for the success of the Chandrayaan-3 mission?",
+              "options-hindi": ["(a) के. सिवन","(b) ए. एस. किरण कुमार","(c) डॉ. एस. सोमनाथ","(d) जी. माधवन नायर"],
+              "options-english": ["(a) K. Sivan","(b) A. S. Kiran Kumar","(c) Dr. S. Somnath","(d) G. Madhavan Nair"],
+              "answer-hindi": "सही उत्तर: (c) डॉ. एस. सोमनाथ",
+              "answer-english": "Correct Answer: (c) Dr. S. Somnath",
+              "solution-hindi": "समाधान: इसरो (भारतीय अंतरिक्ष अनुसंधान संगठन) के अध्यक्ष डॉ. एस. सोमनाथ को चंद्रयान-3 मिशन की उल्लेखनीय सफलता के लिए प्रतिष्ठित अंतर्राष्ट्रीय अंतरिक्ष यात्री संघ (IAF) विश्व अंतरिक्ष पुरस्कार से सम्मानित किया गया।",
+              "solution-english": "Solution: Dr. S. Somnath, the Chairman of ISRO (Indian Space Research Organisation), was awarded the prestigious International Astronautical Federation (IAF) World Space Award for the remarkable success of the Chandrayaan-3 mission."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सी घटना सबसे पहले हुई थी?",
+              "question-english" : "Which of the following event happened first?",
+              "options-hindi": ["(a) मोंटागु-चेम्सफोर्ड सुधार","(b) साइमन कमीशन","(c) मिंटो-मॉर्ले सुधार","(d) सांप्रदायिक अधिनिर्णय"],
+              "options-english": ["(a) Montagu-Chelmsford Reforms","(b) Simon Commission","(c) Minto Morley Reforms","(d) Communal Award"],
+              "answer-hindi": "सही उत्तर: (c) मिंटो-मॉर्ले सुधार",
+              "answer-english": "Correct Answer: (c) Minto Morley Reforms",
+              "solution-hindi": "समाधान: आइए इन घटनाओं के वर्षों को सूचीबद्ध करते हैं:\nमिंटो-मॉर्ले सुधार (भारतीय परिषद अधिनियम 1909): 1909\nमोंटागु-चेम्सफोर्ड सुधार (भारत सरकार अधिनियम 1919): 1919\nसाइमन कमीशन: 1927 में नियुक्त, 1928 में भारत आया।\nसांप्रदायिक अधिनिर्णय: अगस्त 1932। इसलिए, मिंटो-मॉर्ले सुधार सबसे पहले हुआ था।",
+              "solution-english": "Solution: Let's list the years of these events:\nMinto-Morley Reforms (Indian Councils Act 1909): 1909\nMontagu-Chelmsford Reforms (Government of India Act 1919): 1919\nSimon Commission: Appointed in 1927, arrived in India in 1928.\nCommunal Award: August 1932.\nTherefore, the Minto-Morley Reforms happened first."
+            },{
+              "question-hindi": "सिंधु घाटी सभ्यता की लिपि ______ थी।",
+              "question-english" : "The script of Indus Valley Civilization is/was _______.",
+              "options-hindi": ["(a) ब्राह्मी","(b) पाली","(c) द्रविड़","(d) यह अभी भी अपठित है"],
+              "options-english": ["(a) Brahmi","(b) Pali","(c) Dravidian","(d) It is still undeciphered"],
+              "answer-hindi": "सही उत्तर: (d) यह अभी भी अपठित है",
+              "answer-english": "Correct Answer: (d) It is still undeciphered",
+              "solution-hindi": "समाधान: सिंधु घाटी सभ्यता द्वारा उपयोग की जाने वाली लिपि (जिसे हड़प्पा लिपि के रूप में भी जाना जाता है) दुनिया की प्रमुख अपठित लिपियों में से एक है। कई प्रयासों के बावजूद, विद्वान अभी तक इसे पूरी तरह से समझ नहीं पाए हैं, इसलिए इसकी भाषा और अर्थ काफी हद तक अज्ञात हैं।\nब्राह्मी और पाली बहुत बाद की लिपियाँ हैं।\nद्रविड़ एक भाषा परिवार को संदर्भित करता है, न कि एक विशिष्ट लिपि को, हालांकि कुछ सिद्धांत IVC लिपि को द्रविड़ भाषाओं से जोड़ते हैं।",
+              "solution-english": "Solution: The script used by the Indus Valley Civilization (also known as the Harappan script) is one of the world's major undeciphered scripts. Despite numerous attempts, scholars have not yet been able to fully decipher it, so its language and meaning remain largely unknown.\nBrahmi and Pali are much later scripts.\nDravidian refers to a language family, not a specific script, though some theories link the IVC script to Dravidian languages."
+            },{
+              "question-hindi": "ब्रह्म समाज की स्थापना किसकी सबसे बड़ी उपलब्धि थी?",
+              "question-english" : "Whose greatest achievement was the setting up of the Brahmo Samaj?",
+              "options-hindi": ["(a) बी.आर. अम्बेडकर","(b) अरविंद घोष","(c) राजा राम मोहन राय","(d) विवेकानंद"],
+              "options-english": ["(a) B.R Ambedkar","(b) Aurobindo Gosh","(c) Raja Ram Mohan Roy","(d) Vivekanandha"],
+              "answer-hindi": "सही उत्तर: (c) राजा राम मोहन राय",
+              "answer-english": "Correct Answer: (c) Raja Ram Mohan Roy",
+              "solution-hindi": "समाधान: ब्रह्म समाज हिंदू धर्म का एक सुधारवादी आंदोलन था। इसकी स्थापना राजा राम मोहन राय ने 1828 में 'ब्रह्म सभा' के रूप में की थी और बाद में इसका नाम बदलकर ब्रह्म समाज कर दिया गया। इसका उद्देश्य हिंदू धर्म को शुद्ध करना और एकेश्वरवाद, सामाजिक सुधारों और तर्कसंगत सोच की वकालत करना था।",
+              "solution-english": "Solution: The Brahmo Samaj was a reformist movement of the Hindu religion. It was founded by Raja Ram Mohan Roy in 1828 as 'Brahmo Sabha' and later renamed Brahmo Samaj. It aimed to purify Hinduism and advocate for monotheism, social reforms, and rational thinking."
+            },{
+              "question-hindi": "उज्जैन कुंभ मेला किस नदी के तट पर आयोजित किया जाता है?",
+              "question-english" : ") The Ujjain Kumbh Fair is organized on the bank of which river?",
+              "options-hindi": ["(a) कावेरी\n(b) ताप्ती\n(c) शिप्रा\n(d) नर्मदा"],
+              "options-english": ["(a) Kaveri","(b) Tapti","(c) Shipra","(d) Narmada"],
+              "answer-hindi": "सही उत्तर: (c) शिप्रा",
+              "answer-english": "Correct Answer: (c) Shipra",
+              "solution-hindi": "समाधान: उज्जैन में कुंभ मेला, जिसे सिंहस्थ कुंभ मेला भी कहा जाता है, मध्य प्रदेश में शिप्रा नदी (जिसे क्षिप्रा भी कहा जाता है) के तट पर आयोजित किया जाता है।",
+              "solution-english": "Solution: The Kumbh Mela in Ujjain, also known as Simhastha Kumbh Mela, is held on the banks of the Shipra River (also spelled Kshipra) in Madhya Pradesh."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा राष्ट्रीय राजमार्ग दिल्ली को कोलकाता से जोड़ता है?",
+              "question-english" : "Which of the following National Highway connects Delhi to Kolkata?",
+              "options-hindi": ["(a) NH-1","(b) NH-2 (now NH-19)","(c) NH-8","(d) NH-24"],
+              "options-english": ["(a) NH-1","(b) NH-2 (now NH-19)","(c) NH-8","(d) NH-24"],
+              "answer-hindi": "सही उत्तर: (b) NH-2 (अब NH-19)",
+              "answer-english": "Correct Answer: (b) NH-2 (now NH-19)",
+              "solution-hindi": "समाधान: पुराना NH-2 ऐतिहासिक रूप से दिल्ली-कोलकाता रोड के रूप में जाना जाता था और ग्रैंड ट्रंक रोड का एक प्रमुख हिस्सा था। इसे अब भारत में राष्ट्रीय राजमार्गों की नई नंबरिंग प्रणाली के तहत NH-19 के रूप में फिर से नंबर दिया गया है।\nNH-1 (पुराना) दिल्ली को अमृतसर से जोड़ता था।\nNH-8 दिल्ली को मुंबई से जोड़ता था।",
+              "solution-english": "Solution: The old NH-2 was historically known as the Delhi-Kolkata road and was a major part of the Grand Trunk Road. It has since been renumbered as NH-19 under the new numbering system for National Highways in India.\nNH-1 (old) connected Delhi to Amritsar.\nNH-8 connected Delhi to Mumbai."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सा पर्वत सबसे पुराना है?",
+              "question-english" : "Which of the following mountains is the oldest?",
+              "options-hindi": ["(a) डाइनारिक आल्प्स","(b) अरावली","(c) तियान शान","(d) सतपुड़ा"],
+              "options-english": ["(a) Dinaric Alps","(b) Aravalli","(c) Tian Shan","(d) Satpura"],
+              "answer-hindi": "सही उत्तर: (b) अरावली",
+              "answer-english": "Correct Answer: (b) Aravalli",
+              "solution-hindi": "समाधान: भारत में अरावली रेंज को दुनिया की सबसे पुरानी वलित पर्वत श्रृंखलाओं में से एक माना जाता है। इसका निर्माण प्रागैतिहासिक युग में हुआ था, जो इसे अन्य विकल्पों की तुलना में काफी पुराना बनाता है।\nडाइनारिक आल्प्स अल्पाइन ओजेनी का हिस्सा हैं, जो बहुत छोटे हैं।\nतियान शान भी अपेक्षाकृत छोटे हैं, जो टेक्टोनिक प्लेटों के टकराव से बने हैं।\nसतपुड़ा रेंज भी भारत में एक पुरानी ब्लॉक पर्वत श्रृंखला है, लेकिन अरावली को आमतौर पर पुराना बताया जाता है।",
+              "solution-english": "Solution: The Aravalli Range in India is considered one of the oldest fold mountain ranges in the world. Its formation dates back to the Precambrian era, making it significantly older than the other options.\nDinaric Alps are part of the Alpine orogeny, much younger.\nTian Shan are also relatively younger, formed by the collision of tectonic plates.\nSatpura Range is also an old block mountain range in India, but the Aravallis are generally cited as older."
+            },{
+              "question-hindi": "सिंधु घाटी सभ्यता की खोज सबसे पहले किस स्थल पर हुई थी?",
+              "question-english" : "Which of the following was the first site where Indus Valley Civilization was discovered?",
+              "options-hindi": ["(a) अमरी","(b) कोटदीजी","(c) हड़प्पा","(d) मोहनजोदड़ो"],
+              "options-english": ["(a) Amri","(b) Kotdiji","(c) Harappa","(d) Mohenjodaro"],
+              "answer-hindi": "सही उत्तर: (c) हड़प्पा",
+              "answer-english": "Correct Answer: (c) Harappa",
+              "solution-hindi": "समाधान: सिंधु घाटी सभ्यता की खोज और खुदाई वाला पहला स्थल हड़प्पा था, जिसकी खुदाई 1921 में दया राम साहनी ने की थी। इस प्रारंभिक खोज के कारण सभ्यता को अक्सर हड़प्पा सभ्यता के रूप में संदर्भित किया जाता है। मोहनजोदड़ो की खोज 1922 में हुई थी।",
+              "solution-english": "Solution: The first site of the Indus Valley Civilization to be discovered and excavated was Harappa in 1921 by Daya Ram Sahni. The civilization itself is often referred to as the Harappan Civilization because of this initial discovery. Mohenjodaro was discovered in 1922."
+            },{
+              "question-hindi": "दीपा कर्माकर, जिन्होंने हाल ही में अपनी सेवानिवृत्ति की घोषणा की, किस खेल से संबंधित हैं?",
+              "question-english" : "Dipa Karmakar, who recently announced her retirement, is associated with which sport?",
+              "options-hindi": ["(a) बैडमिंटन","(b) जिम्नास्टिक","(c) टेनिस","(d) भारोत्तोलन"],
+              "options-english": ["(a) Badminton","(b) Gymnastics","(c) Tennis","(d) Weightlifting"],
+              "answer-hindi": "सही उत्तर: (b) जिम्नास्टिक",
+              "answer-english": "Correct Answer: (b) Gymnastics",
+              "solution-hindi": "समाधान: दीपा कर्माकर एक प्रसिद्ध भारतीय कलात्मक जिम्नास्ट हैं। उन्होंने ओलंपिक (रियो 2016) में प्रतिस्पर्धा करने वाली पहली भारतीय महिला जिम्नास्ट के रूप में और प्रोडुनोवा वॉल्ट को सफलतापूर्वक करने के लिए अंतरराष्ट्रीय ख्याति प्राप्त की। उन्होंने 2024 की शुरुआत में खेल से अपनी सेवानिवृत्ति की घोषणा की।",
+              "solution-english": "Solution: Dipa Karmakar is a renowned Indian artistic gymnast. She gained international fame as the first Indian female gymnast to compete in the Olympics (Rio 2016) and for successfully performing the Produnova vault. She announced her retirement from the sport in early 2024."
+            },{
+              "question-hindi": ") किस कांग्रेस अधिवेशन में 'पूर्ण स्वराज' की मांग को अपनाया गया था?",
+              "question-english" : "In which Congress Session, was the demand for 'Purna Swaraj' adopted?",
+              "options-hindi": ["(a) सूरत अधिवेशन","(b) लाहौर अधिवेशन","(c) कानपुर अधिवेशन","(d) कराची अधिवेशन"],
+              "options-english": ["(a) Surat Session","(b) Lahore Session","(c) Kanpur Session","(d) Karachi Session"],
+              "answer-hindi": "सही उत्तर: (b) लाहौर अधिवेशन",
+              "answer-english": "Correct Answer: (b) Lahore Session",
+              "solution-hindi": "समाधान: भारतीय राष्ट्रीय कांग्रेस के ऐतिहासिक लाहौर अधिवेशन, जो 1929 में जवाहरलाल नेहरू की अध्यक्षता में आयोजित हुआ था, ने भारत के लिए 'पूर्ण स्वराज' या पूर्ण स्वतंत्रता के प्रस्ताव को पारित किया। इसने 26 जनवरी, 1930 को पहला स्वतंत्रता दिवस भी घोषित किया।",
+              "solution-english": "Solution: The historic Lahore Session of the Indian National Congress, held in 1929, under the presidency of Jawaharlal Nehru, passed the resolution for 'Purna Swaraj' or complete independence for India. It also declared January 26, 1930, as the first Independence Day."
+            },{
+              "question-hindi": "किस घटना के कारण गांधीजी द्वारा असहयोग-खिलाफत आंदोलन समाप्त कर दिया गया था?",
+              "question-english" : "Which event led to the termination of Non-Cooperation - Khilafat Movement by Gandhiji?",
+              "options-hindi": ["(a) रॉलेट एक्ट का पारित होना","(b) बाल गंगाधर तिलक की मृत्यु","(c) जलियांवाला बाग हत्याकांड","(d) चौरी-चौरा घटना"],
+              "options-english": ["(a) Passing of Rowlatt Act","(b) Death of Bal Gangadhar Tilak","(c) Jallianwala Bagh Massacre","(d) Chauri - Chaura Incident"],
+              "answer-hindi": "सही उत्तर: (d) चौरी-चौरा घटना",
+              "answer-english": "Correct Answer: (d) Chauri - Chaura Incident",
+              "solution-hindi": "समाधान: महात्मा गांधी ने फरवरी 1922 में चौरी-चौरा घटना के बाद असहयोग आंदोलन को अचानक वापस ले लिया था। इस घटना में, प्रदर्शनकारियों के एक बड़े समूह का पुलिस के साथ संघर्ष हुआ, जिसके परिणामस्वरूप एक पुलिस स्टेशन में आग लगा दी गई और कई पुलिसकर्मी मारे गए। अहिंसा में दृढ़ विश्वास रखने वाले गांधीजी इस हिंसक घटना से बहुत व्यथित हुए थे।",
+              "solution-english": "Solution: Mahatma Gandhi abruptly called off the Non-Cooperation Movement in February 1922 following the Chauri-Chaura Incident. In this incident, a large group of protesters clashed with police, leading to the setting ablaze of a police station and the death of several policemen. Gandhi, a staunch believer in non-violence, was deeply disturbed by this violent turn of events."
+            },{
+              "question-hindi": "निम्नलिखित में से कौन सी गैस हमें सूर्य की हानिकारक किरणों से बचाती है?",
+              "question-english" : "Which of the following gases protects us from harmful sun rays?",
+              "options-hindi": ["(a) कार्बन डाइऑक्साइड","(b) नाइट्रोजन","(c) ओजोन","(d) ऑक्सीजन"],
+              "options-english": ["(a) Carbon dioxide","(b) Nitrogen","(c) Ozone","(d) Oxygen"],
+              "answer-hindi": "सही उत्तर: (c) ओजोन",
+              "answer-english": "Correct Answer: (c) Ozone",
+              "solution-hindi": "समाधान: पृथ्वी के समताप मंडल में स्थित ओजोन परत एक प्राकृतिक ढाल के रूप में कार्य करती है, जो सूर्य की अधिकांश हानिकारक पराबैंगनी (यूवी) विकिरण को पृथ्वी की सतह तक पहुँचने से पहले अवशोषित कर लेती है। ओजोन परत के बिना, यूवी विकिरण काफी अधिक शक्तिशाली होगा, जिससे जीवन के लिए गंभीर खतरा पैदा होगा।",
+              "solution-english": "Solution: The ozone layer, located in the Earth's stratosphere, acts as a natural shield, absorbing most of the Sun's harmful ultraviolet (UV) radiation before it reaches the Earth's surface. Without the ozone layer, UV radiation would be significantly stronger, posing severe threats to life."
+            },{
+              "question-hindi": "एक परमाणु के _______ में मौजूद इलेक्ट्रॉनों को संयोजी इलेक्ट्रॉन के रूप में जाना जाता है।",
+              "question-english" : "The electrons present in the _______ of an atom are known as the valence electrons.",
+              "options-hindi": ["(a) सबसे बाहरी कोश","(b) दूसरा कोश","(c) पहला कोश","(d) उपान्तिम कोश"],
+              "options-english": ["(a) Outermost shell","(b) Second shell","(c) First shell","(d) Penultimate shell"],
+              "answer-hindi": "सही उत्तर: (a) सबसे बाहरी कोश",
+              "answer-english": "Correct Answer: (a) Outermost shell",
+              "solution-hindi": "समाधान: संयोजी इलेक्ट्रॉन वे इलेक्ट्रॉन होते हैं जो एक परमाणु के सबसे बाहरी इलेक्ट्रॉन कोश में स्थित होते हैं। ये वे इलेक्ट्रॉन होते हैं जो रासायनिक बंधन में शामिल होते हैं और बड़े पैमाने पर परमाणु के रासायनिक गुणों को निर्धारित करते हैं।",
+              "solution-english": "Solution: Valence electrons are the electrons that are located in the outermost electron shell of an atom. These are the electrons that are involved in chemical bonding and largely determine the atom's chemical properties."
+            }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q1.png",
+  "question-english": "Two different positions of the same dice are shown, having letters B, C, D, E, F, and G written on its faces. Which letter is on the face opposite to the face having E on it?",
+  "question-hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं, जिनके चेहरों पर B, C, D, E, F और G अक्षर लिखे हुए हैं। E वाले चेहरे के विपरीत चेहरे पर कौन सा अक्षर है?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "C",
+  "answer-hindi": "C",
+  "solution-english": "From the first dice, we see E, C, and G are adjacent. From the second dice, we see C, D, and F are adjacent. Since C is common and E and D do not appear together, they must be on opposite faces. Hence, the letter opposite to E is D.",
+  "solution-hindi": "पहले पासे में E, C और G एक-दूसरे के समीप हैं। दूसरे पासे में C, D और F एक-दूसरे के समीप हैं। चूंकि C सामान्य है और E तथा D साथ नहीं दिखाई देते, इसलिए वे विपरीत चेहरों पर होंगे। अतः E के विपरीत चेहरा D है।"
+}, {
+    "question-english": "What should come in place of the question mark (?) in the given series? 512, 511, 503, 476, 412, ?",
+    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? 512, 511, 503, 476, 412, ?",
+    "options-english": ["347", "287", "312", "257"],
+    "options-hindi": ["347", "287", "312", "257"],
+    "answer-english": "287",
+    "answer-hindi": "287",
+    "solution-english": "The pattern is based on subtracting cubes of natural numbers: 512 - 1³ = 511; 511 - 2³ = 503; 503 - 3³ = 476; 476 - 4³ = 412; 412 - 5³ = 287.",
+    "solution-hindi": "यह पैटर्न प्राकृतिक संख्याओं के घन को घटाने पर आधारित है: 512 - 1³ = 511; 511 - 2³ = 503; 503 - 3³ = 476; 476 - 4³ = 412; 412 - 5³ = 287।"
+  },
+  {
+    "question-english": "What will come in the place of '?' in the following equation, if 'x' and '+' are interchanged and '÷' and '-' are interchanged? 72 x 8 ÷ 12 + 6 - 4 = ?",
+    "question-hindi": "यदि 'x' और '+' को आपस में बदल दिया जाए और '÷' और '-' को आपस में बदल दिया जाए, तो निम्नलिखित समीकरण में '?' के स्थान पर क्या आएगा? 72 x 8 ÷ 12 + 6 - 4 = ?",
+    "options-english": ["72", "74", "76", "78"],
+    "options-hindi": ["72", "74", "76", "78"],
+    "answer-english": "72",
+    "answer-hindi": "72",
+    "solution-english": "After interchanging ('x' ↔ '+', '÷' ↔ '-'), the equation becomes: 72 + 8 - 12 ÷ 6 x 4. Solving by BODMAS: 12 ÷ 6 = 2, then 2 x 4 = 8 → 72 + 8 - 8 = 72.",
+    "solution-hindi": "('x' ↔ '+', '÷' ↔ '-') को बदलने के बाद, समीकरण बनता है: 72 + 8 - 12 ÷ 6 x 4। BODMAS नियम के अनुसार हल करें: 12 ÷ 6 = 2, फिर 2 x 4 = 8 → 72 + 8 - 8 = 72।"
+  },
+  {
+    "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets: (10, 26, 4) and (20, 69, 7).",
+    "question-hindi": "उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित समुच्चयों की संख्याएँ हैं: (10, 26, 4) और (20, 69, 7)।",
+    "options-english": ["(12, 35, 5)", "(8, 70, 8)", "(15, 51, 6)", "(19, 45, 9)"],
+    "options-hindi": ["(12, 35, 5)", "(8, 70, 8)", "(15, 51, 6)", "(19, 45, 9)"],
+    "answer-english": "(15, 51, 6)",
+    "answer-hindi": "(15, 51, 6)",
+    "solution-english": "The logic is: First number + (Third number)² = Second number. For (10, 26, 4): 10 + 4² = 26; For (20, 69, 7): 20 + 7² = 69; For (15, 51, 6): 15 + 6² = 51.",
+    "solution-hindi": "तर्क है: पहली संख्या + (तीसरी संख्या)² = दूसरी संख्या। (10, 26, 4): 10 + 4² = 26; (20, 69, 7): 20 + 7² = 69; (15, 51, 6): 15 + 6² = 51।"
+  },
+  {
+    "question-english": "If 10 February 2021 was a Wednesday, what day of the week was it on 25 May 2022?",
+    "question-hindi": "यदि 10 फरवरी 2021 को बुधवार था, तो 25 मई 2022 को सप्ताह का कौन सा दिन था?",
+    "options-english": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "options-hindi": ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार"],
+    "answer-english": "Wednesday",
+    "answer-hindi": "बुधवार",
+    "solution-english": "10 Feb 2021 to 9 Feb 2022 = 365 days = 52 weeks + 1 odd day → 10 Feb 2022 was Thursday. From 10 Feb to 25 May 2022 = 104 days = 14 weeks + 6 days → Thursday + 6 days = Wednesday.",
+    "solution-hindi": "10 फरवरी 2021 से 9 फरवरी 2022 = 365 दिन = 52 सप्ताह + 1 विषम दिन → 10 फरवरी 2022 गुरुवार था। 10 फरवरी से 25 मई 2022 = 104 दिन = 14 सप्ताह + 6 दिन → गुरुवार + 6 दिन = बुधवार।"
+  },
+  {
+    "question-english": "'P + Q' means 'P is the mother of Q', 'P - Q' means 'P is the father of Q', 'P x Q' means 'P is the sister of Q', and 'P ÷ Q' means 'P is the brother of Q'. What does 'M ÷ N - O x P' mean?",
+    "question-hindi": "'P + Q' का अर्थ है 'P, Q की माँ है', 'P - Q' का अर्थ है 'P, Q का पिता है', 'P x Q' का अर्थ है 'P, Q की बहन है', और 'P ÷ Q' का अर्थ है 'P, Q का भाई है'। 'M ÷ N - O x P' का क्या अर्थ है?",
+    "options-english": ["M is the son of O's father", "M is the maternal uncle of P", "M is the paternal uncle of P", "M is the brother of P's father"],
+    "options-hindi": ["M, O के पिता का पुत्र है", "M, P का मामा है", "M, P का चाचा है", "M, P के पिता का भाई है"],
+    "answer-english": "M is the brother of P's father",
+    "answer-hindi": "M, P के पिता का भाई है",
+    "solution-english": "M ÷ N → M is brother of N. N - O → N is father of O. O x P → O is sister of P. Hence, M is brother of N, who is father of O and P. So, M is the brother of P's father.",
+    "solution-hindi": "M ÷ N → M, N का भाई है। N - O → N, O का पिता है। O x P → O, P की बहन है। अतः M, N का भाई है जो O और P का पिता है। इसलिए, M, P के पिता का भाई है।"
+  },
+  {
+    "question-english": "BEAUTY is related to YVFGZB in a certain way. In the same way, SECURE is related to HVXFIV. To which of the following is MASTER related?",
+    "question-hindi": "BEAUTY एक निश्चित तरीके से YVFGZB से संबंधित है। उसी तरह, SECURE, HVXFIV से संबंधित है। निम्नलिखित में से किससे MASTER संबंधित है?",
+    "options-english": ["NZHGVI", "MZHGVI", "NZHGIV", "NZGHVI"],
+    "options-hindi": ["NZHGVI", "MZHGVI", "NZHGIV", "NZGHVI"],
+    "answer-english": "NZHGVI",
+    "answer-hindi": "NZHGVI",
+    "solution-english": "The logic is reverse alphabet pairing (A-Z, B-Y, C-X, etc.). For MASTER → M→N, A→Z, S→H, T→G, E→V, R→I → NZHGVI.",
+    "solution-hindi": "तर्क विपरीत वर्णमाला जोड़ी (A-Z, B-Y, C-X आदि) है। MASTER के लिए: M→N, A→Z, S→H, T→G, E→V, R→I → NZHGVI।"
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q8.png",
+  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
+  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(c)",
+  "answer-english": "(c)",
+  "solution-hindi": "",
+  "solution-english": ""
+}, {
+    "question-english": "What should come in place of the question mark (?) in the given series? 11, 13, 17, 19, 23, ?",
+    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? 11, 13, 17, 19, 23, ?",
+    "options-english": ["25", "27", "29", "31"],
+    "options-hindi": ["25", "27", "29", "31"],
+    "answer-english": "29",
+    "answer-hindi": "29",
+    "solution-english": "The series consists of consecutive prime numbers starting from 11. The prime number after 23 is 29.",
+    "solution-hindi": "श्रृंखला में 11 से शुरू होने वाली लगातार अभाज्य संख्याएँ हैं। 23 के बाद अगली अभाज्य संख्या 29 है।"
+  },
+  {
+    "question-english": "In a certain code language, 'sun is very bright' is written as 'ro po to so' and 'bright stars shine' is written as 'do ro jo'. How is 'bright' written in the given language?",
+    "question-hindi": "एक निश्चित कूट भाषा में, 'sun is very bright' को 'ro po to so' लिखा जाता है और 'bright stars shine' को 'do ro jo' लिखा जाता है। दी गई भाषा में 'bright' को कैसे लिखा जाता है?",
+    "options-english": ["ro", "po", "to", "so"],
+    "options-hindi": ["ro", "po", "to", "so"],
+    "answer-english": "ro",
+    "answer-hindi": "ro",
+    "solution-english": "The word 'bright' is common in both sentences. The code 'ro' is common in both coded messages. Therefore, 'bright' is coded as 'ro'.",
+    "solution-hindi": "'bright' शब्द दोनों वाक्यों में आम है। 'ro' कोड दोनों कोडित संदेशों में आम है। इसलिए, 'bright' को 'ro' के रूप में कोडित किया गया है।"
+  },
+  {
+    "question-english": "Select the letter-cluster pair that best represents a similar relationship to the one expressed in the pairs of letter-clusters given below. STOP : POTS :: WARD : DRAW",
+    "question-hindi": "उस अक्षर-समूह जोड़ी का चयन करें जो नीचे दिए गए अक्षर-समूहों के जोड़ों में व्यक्त किए गए समान संबंध का सबसे अच्छा प्रतिनिधित्व करता है। STOP : POTS :: WARD : DRAW",
+    "options-english": ["FLOW : FOWL", "FLOW : WOLF", "FLOW : LOWF", "FLOW : FLOW"],
+    "options-hindi": ["FLOW : FOWL", "FLOW : WOLF", "FLOW : LOWF", "FLOW : FLOW"],
+    "answer-english": "FLOW : WOLF",
+    "answer-hindi": "FLOW : WOLF",
+    "solution-english": "The logic is that the second letter-cluster is the complete reverse of the first. 'STOP' → 'POTS', 'WARD' → 'DRAW'. Following the same pattern, 'FLOW' → 'WOLF'.",
+    "solution-hindi": "तर्क यह है कि दूसरा अक्षर-समूह पहले का पूर्ण उल्टा है। 'STOP' → 'POTS', 'WARD' → 'DRAW'। उसी पैटर्न का पालन करते हुए, 'FLOW' → 'WOLF'।"
+  },
+  {
+    "question-english": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? ACE, GIK, MOQ, ?",
+    "question-hindi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? ACE, GIK, MOQ, ?",
+    "options-english": ["SUW", "STU", "RTV", "SUT"],
+    "options-hindi": ["SUW", "STU", "RTV", "SUT"],
+    "answer-english": "SUW",
+    "answer-hindi": "SUW",
+    "solution-english": "Each letter in the cluster is separated by one letter (A(B)C(D)E, G(H)I(J)K, M(N)O(P)Q). The first letters follow A (+6) → G (+6) → M (+6) → S. Hence, the next cluster is S(T)U(V)W → SUW.",
+    "solution-hindi": "समूह में प्रत्येक अक्षर को एक अक्षर से अलग किया गया है (A(B)C(D)E, G(H)I(J)K, M(N)O(P)Q)। पहले अक्षर एक श्रृंखला में हैं: A (+6) → G (+6) → M (+6) → S। इसलिए अगला समूह S(T)U(V)W → SUW है।"
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q13.png",
+  "question-english": "How many triangles are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi": ["A", "B", "C", "D"],
+  "answer-english": "A",
+  "answer-hindi": "A",
+  "solution-english": "By counting all small, medium, and large triangles, there are a total of 18 triangles in the given figure.",
+  "solution-hindi": "सभी छोटे, मध्यम और बड़े त्रिभुजों को गिनने पर, दिए गए चित्र में कुल 18 त्रिभुज हैं।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q14.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q14.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "Each of the letters in the word CREATIVE is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter which is third from the left and the one which is third from the right in the new letter cluster thus formed?",
+  "question-hindi": "CREATIVE शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया गया है। इस प्रकार बने नए अक्षर समूह में बाईं ओर से तीसरे और दाईं ओर से तीसरे अक्षर के बीच अंग्रेजी वर्णमाला श्रृंखला में कितने अक्षर हैं?",
+  "options-english": ["10", "11", "12", "13"],
+  "options-hindi": ["10", "11", "12", "13"],
+  "answer-english": "13",
+  "answer-hindi": "13",
+  "solution-english": "The word is CREATIVE. In alphabetical order: A, C, E, E, I, R, T, V. Third from the left is E. Third from the right is R. E is the 5th letter and R is the 18th letter in the English alphabet. Number of letters between them = (18 - 5) = 13 (including one endpoint). Hence, the answer is 13.",
+  "solution-hindi": "शब्द है CREATIVE। वर्णानुक्रम में: A, C, E, E, I, R, T, V। बाईं ओर से तीसरा अक्षर E है और दाईं ओर से तीसरा अक्षर R है। E अंग्रेजी वर्णमाला का 5वाँ अक्षर है और R 18वाँ। उनके बीच अक्षरों की संख्या = (18 - 5) = 13 (एक अंत बिंदु सहित)। इसलिए उत्तर 13 है।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q16.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q16.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+}, {
+    "question-english": "'GROUP' is related to 'FQNTO' in a certain way. In the same way, 'CRIME' is related to 'BQLND'. To which of the following is 'TIGER' related, following the same logic?",
+    "question-hindi": "'GROUP' एक निश्चित तरीके से 'FQNTO' से संबंधित है। उसी तरह, 'CRIME' 'BQLND' से संबंधित है। उसी तर्क का पालन करते हुए, 'TIGER' किससे संबंधित है?",
+    "options-english": ["SHFDQ", "UHDQS", "SHEDQ", "UHFES"],
+    "options-hindi": ["SHFDQ", "UHDQS", "SHEDQ", "UHFES"],
+    "answer-english": "SHFDQ",
+    "answer-hindi": "SHFDQ",
+    "solution-english": "Each letter is replaced by the preceding letter in the English alphabet. G→F, R→Q, O→N, U→T, P→O. Applying the same logic to TIGER: T→S, I→H, G→F, E→D, R→Q. Thus, TIGER becomes SHFDQ.",
+    "solution-hindi": "प्रत्येक अक्षर को अंग्रेजी वर्णमाला में उसके पिछले अक्षर से बदला गया है। G→F, R→Q, O→N, U→T, P→O। उसी तर्क को TIGER पर लागू करने पर: T→S, I→H, G→F, E→D, R→Q। इसलिए TIGER का रूप SHFDQ होगा।"
+  },
+  {
+    "question-english": "Which letter-cluster will replace the question mark (?) to complete the given series? AZBY, CXDW, EVFU, ?",
+    "question-hindi": "दी गई श्रृंखला को पूरा करने के लिए कौन सा अक्षर-समूह प्रश्न चिह्न (?) की जगह लेगा? AZBY, CXDW, EVFU, ?",
+    "options-english": ["GTHS", "GHTS", "SGTH", "GTSH"],
+    "options-hindi": ["GTHS", "GHTS", "SGTH", "GTSH"],
+    "answer-english": "GTHS",
+    "answer-hindi": "GTHS",
+    "solution-english": "The first letter increases by 2: A→C→E→G. The second letter decreases by 2: Z→X→V→T. The third increases by 2: B→D→F→H. The fourth decreases by 2: Y→W→U→S. Thus, the next cluster is GTHS.",
+    "solution-hindi": "पहला अक्षर 2 से बढ़ता है: A→C→E→G। दूसरा अक्षर 2 से घटता है: Z→X→V→T। तीसरा अक्षर 2 से बढ़ता है: B→D→F→H। चौथा अक्षर 2 से घटता है: Y→W→U→S। इसलिए अगला समूह GTHS होगा।"
+  },
+  {
+    "question-english": "Three of the following four are alike in a certain way and thus form a group. Which one does NOT belong to that group? CFI, GJL, KMP, RUX.",
+    "question-hindi": "निम्नलिखित चार में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है? CFI, GJL, KMP, RUX.",
+    "options-english": ["CFI", "GJL", "KMP", "RUX"],
+    "options-hindi": ["CFI", "GJL", "KMP", "RUX"],
+    "answer-english": "KMP",
+    "answer-hindi": "KMP",
+    "solution-english": "In CFI and RUX, the difference between consecutive letters is +3. C→F(+3), F→I(+3); R→U(+3), U→X(+3). In KMP, the difference is +2 and +3, making it inconsistent. Therefore, KMP is the odd one out.",
+    "solution-hindi": "CFI और RUX में क्रमिक अक्षरों के बीच का अंतर +3 है। C→F(+3), F→I(+3); R→U(+3), U→X(+3)। जबकि KMP में अंतर +2 और +3 है, जो असंगत है। इसलिए KMP अलग है।"
+  },
+  {
+    "question-english": "If 'A' stands for '+', 'B' stands for '-', 'C' stands for '×', and 'D' stands for '÷', what will come in place of the question mark (?) in the equation: 50 D 5 C 10 B 25 A 15 = ?",
+    "question-hindi": "यदि 'A' का अर्थ '+', 'B' का अर्थ '-', 'C' का अर्थ '×', और 'D' का अर्थ '÷' है, तो समीकरण 50 D 5 C 10 B 25 A 15 = ? में प्रश्न चिह्न (?) के स्थान पर क्या आएगा?",
+    "options-english": ["90", "100", "80", "75"],
+    "options-hindi": ["90", "100", "80", "75"],
+    "answer-english": "90",
+    "answer-hindi": "90",
+    "solution-english": "Substituting the symbols: 50 ÷ 5 × 10 - 25 + 15. Applying BODMAS: 10 × 10 - 25 + 15 = 100 - 25 + 15 = 90.",
+    "solution-hindi": "चिह्नों को प्रतिस्थापित करने पर समीकरण बनता है: 50 ÷ 5 × 10 - 25 + 15। BODMAS के अनुसार हल करने पर: 10 × 10 - 25 + 15 = 100 - 25 + 15 = 90।"
+  },
+  {
+    "question-english": "Select the word-pair that best represents a similar relationship to the one expressed in the pair 'Doctor : Hospital'.",
+    "question-hindi": "उस शब्द-जोड़ी का चयन करें जो नीचे दी गई शब्द-जोड़ी 'डॉक्टर : अस्पताल' में व्यक्त संबंध का सबसे अच्छा प्रतिनिधित्व करती है।",
+    "options-english": ["Teacher : Student", "Chef : Kitchen", "Farmer : Village", "Pilot : Sky"],
+    "options-hindi": ["शिक्षक : छात्र", "बावर्ची : रसोई", "किसान : गाँव", "पायलट : आकाश"],
+    "answer-english": "Chef : Kitchen",
+    "answer-hindi": "बावर्ची : रसोई",
+    "solution-english": "A doctor’s primary workplace is a hospital. Similarly, a chef’s primary workplace is a kitchen.",
+    "solution-hindi": "डॉक्टर का मुख्य कार्यस्थल अस्पताल होता है। इसी तरह, बावर्ची का मुख्य कार्यस्थल रसोई होता है।"
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q22.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q22.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q23.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "Two statements are given followed by two conclusions numbered I and II. Statements: All pens are pencils. Some pencils are markers. Conclusions: I. Some markers are pens. II. Some pencils are pens.",
+  "question-hindi": "दो कथन दिए गए हैं जिनके बाद दो निष्कर्ष I और II दिए गए हैं। कथन: सभी पेन पेंसिल हैं। कुछ पेंसिल मार्कर हैं। निष्कर्ष: I. कुछ मार्कर पेन हैं। II. कुछ पेंसिल पेन हैं।",
+  "options-english": [
+    "Only conclusion I follows.",
+    "Only conclusion II follows.",
+    "Both I and II follow.",
+    "Neither I nor II follows."
+  ],
+  "options-hindi": [
+    "केवल निष्कर्ष I अनुसरण करता है।",
+    "केवल निष्कर्ष II अनुसरण करता है।",
+    "I और II दोनों अनुसरण करते हैं।",
+    "न तो I और न ही II अनुसरण करता है।"
+  ],
+  "answer-english": "Only conclusion II follows.",
+  "answer-hindi": "केवल निष्कर्ष II अनुसरण करता है।",
+  "solution-english": "From 'All pens are pencils', we can conclude that 'Some pencils are pens'. So, conclusion II is valid. There is no direct relationship between markers and pens, so we cannot conclude that 'Some markers are pens'. Thus, conclusion I is not valid.",
+  "solution-hindi": "'सभी पेन पेंसिल हैं' से, हम यह निष्कर्ष निकाल सकते हैं कि 'कुछ पेंसिल पेन हैं'। तो, निष्कर्ष II मान्य है। मार्कर और पेन के बीच कोई सीधा संबंध नहीं है, इसलिए हम यह निष्कर्ष नहीं निकाल सकते कि 'कुछ मार्कर पेन हैं'। इस प्रकार, निष्कर्ष I मान्य नहीं है।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q25.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_13/mock_test_13_Q25.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+}
+
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question-english": "If 4 men and 6 boys can do a piece of work in 8 days, while 3 men and 7 boys can do the same work in 10 days, then the time taken by 10 boys for doing the same piece of work will be:",
+    "question-hindi": "यदि 4 पुरुष और 6 लड़के किसी काम को 8 दिनों में कर सकते हैं, जबकि 3 पुरुष और 7 लड़के उसी काम को 10 दिनों में कर सकते हैं, तो 10 लड़कों द्वारा उसी काम को करने में लिया गया समय होगा:",
+    "options-english": ["(a) 20 days", "(b) 35 days", "(c) 40 days", "(d) 45 days"],
+    "options-hindi": ["(a) 20 दिन", "(b) 35 दिन", "(c) 40 दिन", "(d) 45 दिन"],
+    "answer-english": "(c) 40 days",
+    "answer-hindi": "(c) 40 दिन",
+    "solution-english": "Let one man's work per day be m and one boy's work per day be b. (4m+6b)*8=(3m+7b)*10 ⇒ m=11b. Total work=(4*11b+6b)*8=400b. 10 boys' one-day work=10b. Time=400b/10b=40 days.",
+    "solution-hindi": "मान लीजिए एक आदमी का एक दिन का काम m है और एक लड़के का b है। (4m+6b)*8=(3m+7b)*10 ⇒ m=11b। कुल कार्य=(4*11b+6b)*8=400b। 10 लड़कों द्वारा एक दिन में किया गया कार्य=10b। समय=400b/10b=40 दिन।"
+  },
+  {
+    "question-english": "A train runs at a speed of 80 kmph to cover 320 km and then at 110 kmph to cover 440 km. Find the average speed for the whole journey.",
+    "question-hindi": "एक ट्रेन 320 किमी की दूरी 80 किमी/घंटा की गति से और 440 किमी की दूरी 110 किमी/घंटा की गति से तय करती है। पूरी यात्रा की औसत गति ज्ञात कीजिए।",
+    "options-english": ["(a) 95 kmph", "(b) 96 kmph", "(c) 100 kmph", "(d) 90 kmph"],
+    "options-hindi": ["(a) 95 किमी/घंटा", "(b) 96 किमी/घंटा", "(c) 100 किमी/घंटा", "(d) 90 किमी/घंटा"],
+    "answer-english": "(a) 95 kmph",
+    "answer-hindi": "(a) 95 किमी/घंटा",
+    "solution-english": "Time₁=320/80=4 hrs, Time₂=440/110=4 hrs. Total distance=760 km, Total time=8 hrs. Average speed=760/8=95 kmph.",
+    "solution-hindi": "पहले भाग में समय=320/80=4 घंटे, दूसरे भाग में=440/110=4 घंटे। कुल दूरी=760 किमी, कुल समय=8 घंटे। औसत गति=760/8=95 किमी/घंटा।"
+  },
+  {
+    "question-english": "A rectangular sheet of paper of length 12π cm and width 8 cm is rolled along its length to form a cylinder. Find the radius of the cylinder.",
+    "question-hindi": "12π सेमी लंबाई और 8 सेमी चौड़ाई वाले कागज की एक आयताकार शीट को उसकी लंबाई के अनुदिश बेलन बनाने के लिए मोड़ा जाता है। बेलन की त्रिज्या ज्ञात कीजिए।",
+    "options-english": ["(a) 6 cm", "(b) 8 cm", "(c) 12 cm", "(d) 4 cm"],
+    "options-hindi": ["(a) 6 सेमी", "(b) 8 सेमी", "(c) 12 सेमी", "(d) 4 सेमी"],
+    "answer-english": "(a) 6 cm",
+    "answer-hindi": "(a) 6 सेमी",
+    "solution-english": "Circumference=2πr=12π ⇒ r=6 cm.",
+    "solution-hindi": "परिधि=2πr=12π ⇒ r=6 सेमी।"
+  },
+  {
+    "question-english": "The average age of 11 players of a cricket team increases by 3 months when two of them aged 22 and 24 years are replaced by two new players. Find the average age of the new players.",
+    "question-hindi": "एक क्रिकेट टीम के 11 खिलाड़ियों की औसत आयु 3 महीने बढ़ जाती है जब 22 और 24 वर्ष की आयु वाले दो खिलाड़ियों को दो नए खिलाड़ियों से बदल दिया जाता है। नए खिलाड़ियों की औसत आयु ज्ञात कीजिए।",
+    "options-english": ["(a) 23 yrs 6 mo", "(b) 24 yrs 3 mo", "(c) 25 yrs", "(d) 24 yrs 4.5 mo"],
+    "options-hindi": ["(a) 23 वर्ष 6 महीने", "(b) 24 वर्ष 3 महीने", "(c) 25 वर्ष", "(d) 24 वर्ष 4.5 महीने"],
+    "answer-english": "(d) 24 yrs 4.5 mo",
+    "answer-hindi": "(d) 24 वर्ष 4.5 महीने",
+    "solution-english": "Increase=11*3=33 months=2 yrs 9 mo. New players' total=46+2y9m=48y9m. Avg=24y4.5m.",
+    "solution-hindi": "वृद्धि=11×3=33 महीने=2 वर्ष 9 माह। नए खिलाड़ियों की कुल आयु=46+2व9म=48व9म। औसत=24व4.5म।"
+  },
+  {
+    "question-english": "The difference between the greatest and smallest 5-digit numbers formed using 0,1,2,3,5 exactly once is:",
+    "question-hindi": "0, 1, 2, 3, 5 का एक बार उपयोग करके प्राप्त पांच अंकों की सबसे बड़ी और सबसे छोटी संख्या के बीच का अंतर है:",
+    "options-english": ["(a) 42975", "(b) 51975", "(c) 41976", "(d) 52975"],
+    "options-hindi": ["(a) 42975", "(b) 51975", "(c) 41976", "(d) 52975"],
+    "answer-english": "(a) 42975",
+    "answer-hindi": "(a) 42975",
+    "solution-english": "Greatest=53210, Smallest=10235, Diff=42975.",
+    "solution-hindi": "सबसे बड़ी संख्या=53210, सबसे छोटी=10235, अंतर=42975।"
+  },
+  {
+    "question-english": "A boat travels 315 km upstream and downstream each. Speed of boat=40 km/h, current=5 km/h. Find total time.",
+    "question-hindi": "एक नाव 315 किमी धारा के अनुकूल और 315 किमी धारा के प्रतिकूल चलती है। नाव की गति 40 किमी/घंटा और धारा की गति 5 किमी/घंटा है। कुल समय ज्ञात कीजिए।",
+    "options-english": ["(a) 16 hr", "(b) 18 hr", "(c) 20 hr", "(d) 22 hr"],
+    "options-hindi": ["(a) 16 घंटे", "(b) 18 घंटे", "(c) 20 घंटे", "(d) 22 घंटे"],
+    "answer-english": "(a) 16 hr",
+    "answer-hindi": "(a) 16 घंटे",
+    "solution-english": "Downstream=45→7 hr, Upstream=35→9 hr, Total=16 hr.",
+    "solution-hindi": "धारा के अनुकूल=45 किमी/घं→7 घंटे, प्रतिकूल=35 किमी/घं→9 घंटे, कुल=16 घंटे।"
+  },
+  {
+    "question-english": "Find the unit digit of 3^522.",
+    "question-hindi": "3^522 का इकाई अंक ज्ञात कीजिए।",
+    "options-english": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+    "options-hindi": ["(a) 1", "(b) 3", "(c) 7", "(d) 9"],
+    "answer-english": "(d) 9",
+    "answer-hindi": "(d) 9",
+    "solution-english": "Cycle (3,9,7,1). 522 mod 4=2 ⇒ 2nd digit=9.",
+    "solution-hindi": "चक्रीयता (3,9,7,1)। 522÷4 का शेष 2 ⇒ दूसरा अंक 9।"
+  },
+  {
+    "question-english": "The difference between a 30% discount and successive discounts of 10% and 20% on a bill is ₹40. Find the bill amount.",
+    "question-hindi": "एक बिल पर 30% की छूट और 10% व 20% की क्रमिक छूट के बीच का अंतर ₹40 है। बिल की राशि ज्ञात कीजिए।",
+    "options-english": ["(a) 1000", "(b) 1500", "(c) 2000", "(d) 2500"],
+    "options-hindi": ["(a) ₹1,000", "(b) ₹1,500", "(c) ₹2,000", "(d) ₹2,500"],
+    "answer-english": "(c) 2000",
+    "answer-hindi": "(c) ₹2,000",
+    "solution-english": "Equivalent successive discount=28%. Diff=2% of x=₹40 ⇒ x=2000.",
+    "solution-hindi": "समतुल्य क्रमिक छूट=28%, अंतर=2% ⇒ 0.02x=40 ⇒ x=2000।"
+  },
+  {
+    "question-english": "Find the length of the plank that measures exactly 4.5 m, 5.5 m, and 6.5 m.",
+    "question-hindi": "उस तख्ते की लंबाई ज्ञात कीजिए जो 4.5 मी, 5.5 मी, और 6.5 मी लंबाइयों को ठीक-ठीक माप सके।",
+    "options-english": ["(a) 25 cm", "(b) 50 cm", "(c) 75 cm", "(d) 100 cm"],
+    "options-hindi": ["(a) 25 सेमी", "(b) 50 सेमी", "(c) 75 सेमी", "(d) 100 सेमी"],
+    "answer-english": "(b) 50 cm",
+    "answer-hindi": "(b) 50 सेमी",
+    "solution-english": "Lengths=450,550,650 cm. HCF=50 cm.",
+    "solution-hindi": "लंबाइयाँ=450,550,650 सेमी। HCF=50 सेमी।"
+  },
+  {
+    "question-english": "A cylindrical tank (diameter 14 m) costs ₹96,800 to plaster inside at ₹200/m². Find height. (π=22/7)",
+    "question-hindi": "14 मी व्यास वाली एक बेलनाकार टंकी के अंदर ₹200/मी² की दर से ₹96,800 में पलस्तर किया गया। ऊंचाई ज्ञात कीजिए। (π=22/7)",
+    "options-english": ["(a) 6 m", "(b) 7.5 m", "(c) 8 m", "(d) 9 m"],
+    "options-hindi": ["(a) 6 मी", "(b) 7.5 मी", "(c) 8 मी", "(d) 9 मी"],
+    "answer-english": "(b) 7.5 m",
+    "answer-hindi": "(b) 7.5 मी",
+    "solution-english": "r=7, Area=96800/200=484=πr²+2πrh ⇒ h=7.5 m.",
+    "solution-hindi": "r=7, क्षेत्र=484=πr²+2πrh ⇒ h=7.5 मी।"
+  },
+  {
+    "question-english": "Two taps fill a cistern in 10 h & 15 h, third empties in 30 h. If all open together, find time to fill.",
+    "question-hindi": "दो नल 10 घंटे और 15 घंटे में टंकी भरते हैं, तीसरा 30 घंटे में खाली करता है। यदि सभी एक साथ खुले हों, तो टंकी भरने का समय ज्ञात कीजिए।",
+    "options-english": ["(a) 7.5", "(b) 8", "(c) 9", "(d) 12"],
+    "options-hindi": ["(a) 7.5", "(b) 8", "(c) 9", "(d) 12"],
+    "answer-english": "(a) 7.5",
+    "answer-hindi": "(a) 7.5",
+    "solution-english": "1/10+1/15−1/30=2/15 ⇒ Time=15/2=7.5 h.",
+    "solution-hindi": "1/10+1/15−1/30=2/15 ⇒ समय=15/2=7.5 घंटे।"
+  },
+  {
+    "question-english": "Rohan spends 30% on rent, 50% of rest on household, saves ₹2800. Find income.",
+    "question-hindi": "रोहन अपनी आय का 30% किराए पर, शेष का 50% घरेलू खर्च पर खर्च करता है और ₹2800 बचाता है। उसकी कुल आय ज्ञात कीजिए।",
+    "options-english": ["(a) 7000", "(b) 8000", "(c) 9000", "(d) 10000"],
+    "options-hindi": ["(a) ₹7,000", "(b) ₹8,000", "(c) ₹9,000", "(d) ₹10,000"],
+    "answer-english": "(b) 8000",
+    "answer-hindi": "(b) ₹8,000",
+    "solution-english": "Savings=0.35x=2800 ⇒ x=8000.",
+    "solution-hindi": "बचत=0.35x=2800 ⇒ x=8000।"
+  },
+  {
+    "question-english": "A sum becomes 5 times at simple interest when time=rate. Find rate.",
+    "question-hindi": "एक राशि साधारण ब्याज पर स्वयं की पाँच गुनी हो जाती है, जब समय दर के बराबर है। दर ज्ञात कीजिए।",
+    "options-english": ["(a) 10%", "(b) 15%", "(c) 20%", "(d) 25%"],
+    "options-hindi": ["(a) 10%", "(b) 15%", "(c) 20%", "(d) 25%"],
+    "answer-english": "(c) 20%",
+    "answer-hindi": "(c) 20%",
+    "solution-english": "4P=(P*R²)/100 ⇒ R²=400 ⇒ R=20%.",
+    "solution-hindi": "4P=(P*R²)/100 ⇒ R²=400 ⇒ R=20%।"
+  },
+  {
+    "question-english": "A ₹200 toy sold for ₹144 after two discounts; first 10%. Find second discount.",
+    "question-hindi": "₹200 का खिलौना दो छूटों के बाद ₹144 में बेचा गया; पहली 10%। दूसरी छूट ज्ञात कीजिए।",
+    "options-english": ["(a) 15%", "(b) 18%", "(c) 20%", "(d) 22%"],
+    "options-hindi": ["(a) 15%", "(b) 18%", "(c) 20%", "(d) 22%"],
+    "answer-english": "(c) 20%",
+    "answer-hindi": "(c) 20%",
+    "solution-english": "After 10%, price=180. Second discount=(36/180)*100=20%.",
+    "solution-hindi": "पहली छूट के बाद मूल्य=180। दूसरी छूट=(36/180)*100=20%।"
+  },
+  {
+    "question-english": "In an election, votes ratio 3:4:1, 20% invalid, winner got 3200. Find total voters.",
+    "question-hindi": "एक चुनाव में मत 3:4:1 के अनुपात में, 20% अवैध, विजेता को 3200 मत मिले। कुल मतदाता ज्ञात कीजिए।",
+    "options-english": ["(a) 8000", "(b) 9000", "(c) 10000", "(d) 12000"],
+    "options-hindi": ["(a) 8,000", "(b) 9,000", "(c) 10,000", "(d) 12,000"],
+    "answer-english": "(a) 8000",
+    "answer-hindi": "(a) 8,000",
+    "solution-english": "4x=3200 ⇒ x=800 ⇒ valid=6400=0.8V ⇒ V=8000.",
+    "solution-hindi": "4x=3200 ⇒ x=800 ⇒ वैध=6400=0.8V ⇒ V=8000।"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+            {
+              "question-hindi": "निम्नलिखित में से किसका उपयोग MS-Word 365 के एक शब्द दस्तावेज़ में टेक्स्ट को एक स्थान से दूसरे स्थान पर ले जाने के लिए किया जाता है?",
+              "question-english" : "Which of the following is used to move text from one location to another in a word document of MS-Word 365?",
+              "options-hindi": ["A). टेक्स्ट को वांछित स्थान पर कट और पेस्ट करें", "B). चयनित टेक्स्ट को कॉपी करें", "C). टेक्स्ट को वांछित स्थान पर कॉपी और पेस्ट करें", "D). चयनित टेक्स्ट को चुनें और कट करें"],
+              "options-english": ["A). Cut and paste the text at desired location", "B). Copy the selected text", "C). Copy and paste the text at desired location", "D). Select and cut the selected text"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: टेक्स्ट को स्थानांतरित करने के लिए, आपको पहले इसे उसके मूल स्थान से कट कमांड का उपयोग करके हटाना होगा (जो इसे क्लिपबोर्ड पर रखता है) और फिर इसे पेस्ट कमांड का उपयोग करके नए स्थान पर डालना होगा।",
+              "solution-english": "Solution: To move text, you must first remove it from its original location using the Cut command (which places it on the clipboard) and then insert it into the new location using the Paste command."
+            },
+            {
+              "question-hindi": "आप माइक्रोसॉफ्ट वर्ड 365 दस्तावेज़ को कैसे प्रिंट करते हैं?",
+              "question-english" : "How do you print a Microsoft Word 365 document?",
+              "options-hindi": ["A). रेडी प्रिंटर कमांड का चयन करें", "B). प्रिंट कमांड का चयन करें और फिर 'ओके' चुनें", "C). प्रिंट कमांड का चयन करें", "D). रेडी प्रिंटर कमांड का चयन करें और फिर 'ओके' चुनें"],
+              "options-english": ["A). Select the Ready Printer command", "B). Select the Print command and then select ‘Ok’", "C). Select the Print command", "D).Select the Ready Printer command and then select ‘Ok’"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: प्रिंटिंग के लिए मानक प्रक्रिया पहले प्रिंट कमांड तक पहुंचना है (आमतौर पर फ़ाइल > प्रिंट या Ctrl + P के माध्यम से)। यह प्रिंट सेटिंग्स विंडो खोलता है जहां आप समायोजन कर सकते हैं। क्रिया को अंतिम रूप देने और दस्तावेज़ को प्रिंटर पर भेजने के लिए, आपको फिर 'ओके' या 'प्रिंट' बटन पर क्लिक करना होगा।",
+              "solution-english": "Solution: The standard procedure for printing is to first access the Print command (usually via File > Print or Ctrl + P). This opens the print settings window where you can make adjustments. To finalize the action and send the document to the printer, you must then click the ‘Ok’ or ‘Print’ button."
+            },
+            {
+              "question-hindi": "MS Excel 365 में निम्नलिखित में से कौन सा कीबोर्ड शॉर्टकट हमें एक नई स्प्रेडशीट खोलने की अनुमति देगा?",
+              "question-english" : "In MS Excel 365 which of the following keyboard shortcuts in MS Excel will allow us to open a new spreadsheet?",
+              "options-hindi": ["A). Shift + N", "B). Alt + O", "C). Ctrl + O", "D). Ctrl + N"],
+              "options-english": ["A). Shift + N", "B). Alt + O", "C). Ctrl + O", "D). Ctrl + N"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: कीबोर्ड शॉर्टकट Ctrl + N का उपयोग एक्सेल में एक नई खाली वर्कबुक (स्प्रेडशीट) बनाने के लिए किया जाता है।",
+              "solution-english": "Solution: The keyboard shortcut Ctrl + N is used to create a New blank workbook (spreadsheet) in Excel."
+            },
+            {
+              "question-hindi": "MS Word 365 से संबंधित निम्नलिखित में से कौन सा/से कथन सही है/हैं?\n1'सेव' आपको पहले से सहेजी गई फ़ाइल को नई सामग्री के साथ अपडेट करने की अनुमति देता है।\n2'सेव ऐज़' आपको एक नई फ़ाइल या किसी मौजूदा फ़ाइल को उसी नाम या किसी भिन्न नाम के साथ एक नए स्थान पर सहेजने की अनुमति देता है।",
+              "question-english" : "Which of the following statements related to MS Word 365 is/are correct?\n1) ‘Save’ allows you to update a previously saved file with new content.\n2) ‘Save As’ allows you to save a new file or an existing file to a new place with the same name or a different name.",
+              "options-hindi": ["A). (1) और (2) दोनों", "B). केवल (2)", "C). न तो (1) और न ही (2)", "D). केवल (1)"],
+              "options-english": ["A). Both (1) and (2)", "B). Only (2)", "C). Neither (1) nor (2)", "D). Only (1)"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: दोनों कथन सही हैं। 'सेव' (Ctrl+S) वर्तमान फ़ाइल को नवीनतम परिवर्तनों के साथ ओवरराइट करता है। 'सेव ऐज़' (F12) एक नई फ़ाइल या मौजूदा फ़ाइल की एक प्रतिलिपि बनाता है जिसमें संभावित रूप से एक नया नाम, स्थान या प्रारूप होता है।",
+              "solution-english": "Solution: Both statements are correct. 'Save' (Ctrl+S) overwrites the current file with the latest changes. 'Save As' (F12) creates a new file or a copy of the existing file with a potentially new name, location, or format."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, माइक्रोसॉफ्ट एक्सेल में एक टेबल बनाने का निम्नलिखित में से कौन सा लाभ नहीं है?",
+              "question-english" : "In MS Excel 365, which of the following is NOT a benefit of creating a table in Microsoft Excel?",
+              "options-hindi": ["A). बढ़ी हुई डेटा अखंडता और सटीकता", "B). बढ़ी हुई दृश्य अपील और स्वरूपण", "C). स्वचालित फ़िल्टरिंग और सॉर्टिंग विकल्प", "D). बेहतर गणना क्षमताएं"],
+              "options-english": ["A). Increased data integrity and accuracy", "B). Enhanced visual appeal and formatting", "C). Automatic filtering and sorting options", "D). Improved calculation capabilities"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: जबकि एक टेबल का उपयोग करने से त्रुटियों को कम करने में मदद मिल सकती है (जैसे, फ़ार्मुलों को स्वतः भरकर), इसके प्राथमिक लाभ फिल्टर का स्वचालित समावेश, दृश्य अपील के लिए बैंडेड पंक्तियाँ, और संरचित संदर्भों के माध्यम से बेहतर गणनाएँ हैं। डेटा अखंडता और सटीकता को डेटा सत्यापन नियमों जैसी सुविधाओं द्वारा अधिक सीधे नियंत्रित किया जाता है, जिनका उपयोग टेबल के साथ या बिना किया जा सकता है। इसलिए, इसे विकल्पों में से सबसे कम प्रत्यक्ष लाभ माना जाता है।",
+              "solution-english": "Solution: While using a table can help reduce errors (e.g., by auto-filling formulas), its primary benefits are the automatic inclusion of filters, banded rows for visual appeal, and improved calculations via structured references. Data integrity and accuracy are more directly controlled by features like Data Validation rules, which can be used with or without tables. Therefore, it is considered the least direct benefit among the options."
+            },
+            {
+              "question-hindi": "आपस में जुड़े कंप्यूटर और उपकरणों का एक वैश्विक नेटवर्क ______________ कहलाता है।",
+              "question-english" : "A global network of interconnected computers and devices is called ______________.",
+              "options-hindi": ["A). ईथरनेट", "B). इंटरनेट", "C). मैनेट", "D). इंट्रानेट"],
+              "options-english": ["A). Ethernet", "B). Internet", "C). Manet", "D). Intranet"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: यह इंटरनेट की परिभाषा है, कंप्यूटर नेटवर्क की एक विश्वव्यापी प्रणाली जो उपयोगकर्ताओं को जानकारी और संसाधनों को साझा करने में सक्षम बनाती है।",
+              "solution-english": "Solution: This is the definition of the Internet, a worldwide system of computer networks that enables users to share information and resources."
+            },
+            {
+              "question-hindi": "MS Excel 365 में, माइक्रोसॉफ्ट एक्सेल 365 में चयनित पंक्ति के ऊपर एक नई पंक्ति डालने के लिए, आपको किस कमांड का उपयोग करना चाहिए?",
+              "question-english" : "In MS Excel 365, to insert a new row above the selected row in Microsoft Excel 365, which command should you use?",
+              "options-hindi": ["A). पंक्ति हटाएं", "B). कॉलम डालें", "C). पंक्ति डालें", "D). कॉलम हटाएं"],
+              "options-english": ["A). Delete Row", "B). Insert Column", "C). Insert Row", "D). Delete Column"],
+              "answer-hindi": "सही उत्तर: C",
+              "answer-english": "Correct Answer: C",
+              "solution-hindi": "हल: एक नई पंक्ति जोड़ने के लिए, आप उस पंक्ति का चयन करेंगे जहां आप चाहते हैं कि नई पंक्ति ऊपर दिखाई दे, फिर पंक्ति डालें कमांड का उपयोग करें (अक्सर पंक्ति हेडर पर राइट-क्लिक करके और 'इन्सर्ट' का चयन करके)।",
+              "solution-english": "Solution: To add a new row, you would select the row where you want the new one to appear above, then use the Insert Row command (often by right-clicking the row header and selecting 'Insert')."
+            },
+            {
+              "question-hindi": "टेक्स्ट को सुपरस्क्रिप्ट में बदलने के लिए निम्नलिखित में से कौन सा विकल्प सही है?",
+              "question-english" : "Which of the following is the correct option to convert text into superscript?",
+              "options-hindi": ["A). Shift+S", "B). Ctrl+Shift+U", "C). Ctrl+Shift+S", "D). Ctrl+Shift+ +"],
+              "options-english": ["A). Shift+S", "B). Ctrl+Shift+U", "C). Ctrl+Shift+S", "D). Ctrl+Shift+ +"],
+              "answer-hindi": "सही उत्तर: D",
+              "answer-english": "Correct Answer: D",
+              "solution-hindi": "हल: सुपरस्क्रिप्ट स्वरूपण (टेक्स्ट को बेसलाइन से ऊपर उठाना, जैसे x² में) लागू करने के लिए कीबोर्ड शॉर्टकट Ctrl + Shift + + (कंट्रोल, शिफ्ट और प्लस चिह्न) है।",
+              "solution-english": "Solution: The keyboard shortcut to apply superscript formatting (raising text above the baseline, like in x²) is Ctrl + Shift + + (Control, Shift, and the Plus sign)."
+            },
+            {
+              "question-hindi": "निम्नलिखित में से कौन सी एक ईमेल पते की सही संरचना है?",
+              "question-english" : "Which of the following is the correct structure of an email address?",
+              "options-hindi": ["A). name@domain.com", "B). name_domain.com", "C). name.com", "D). name@com_domain"],
+              "options-english": ["A). name@domain.com", "B). name_domain.com", "C). name.com", "D). name@com_domain"],
+              "answer-hindi": "सही उत्तर: A",
+              "answer-english": "Correct Answer: A",
+              "solution-hindi": "हल: एक ईमेल पते का सार्वभौमिक प्रारूप एक स्थानीय भाग (उपयोगकर्ता का नाम या पहचानकर्ता), उसके बाद @ प्रतीक, उसके बाद ईमेल प्रदाता का डोमेन नाम (जैसे, name@domain.com) है।",
+              "solution-english": "Solution: The universal format for an email address is a local part (the user's name or identifier), followed by the @ symbol, followed by the domain name of the email provider (e.g., name@domain.com)"
+            },
+            {
+              "question-hindi": "MS Word 365 में यदि आप किसी दस्तावेज़ के पृष्ठ 1, 3, और 5 को प्रिंट करना चाहते हैं, तो आपको निम्नलिखित में से कौन सी पृष्ठ श्रेणी का चयन करना चाहिए?",
+              "question-english" : "In MS Word 365 If you want to print pages 1, 3, and 5 of a document, which of the following page ranges should you select?",
+              "options-hindi": ["A). 1, 3-5", "B). 1, 3, 5", "C). 1-5", "D). 1-3, 5"],
+              "options-english": ["A). 1, 3-5", "B). 1, 3, 5", "C). 1-5", "D). 1-3, 5"],
+              "answer-hindi": "सही उत्तर: B",
+              "answer-english": "Correct Answer: B",
+              "solution-hindi": "हल: गैर-लगातार पृष्ठों को प्रिंट करने के लिए, आप पृष्ठ संख्याओं को अल्पविराम से अलग करके टाइप करते हैं। पृष्ठों की एक सतत श्रेणी को प्रिंट करने के लिए, आप एक हाइफ़न का उपयोग करते हैं (जैसे, 3-5 का अर्थ है पृष्ठ 3, 4, और 5)। इसलिए, पृष्ठ 1, 3, और 5 के लिए, सही प्रविष्टि 1, 3, 5 है।",
+              "solution-english": "Solution: To print non-consecutive pages, you type the page numbers separated by commas. To print a continuous range of pages, you use a hyphen (e.g., 3-5 means pages 3, 4, and 5). Therefore, for pages 1, 3, and 5, the correct entry is 1, 3, 5."
+            }
+          ]
+    }
+  ]
+}
