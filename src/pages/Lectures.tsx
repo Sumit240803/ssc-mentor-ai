@@ -9,7 +9,6 @@ import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { RtfViewer } from "@/components/RtfViewer";
 
 interface FileItem {
   file_name: string;
@@ -31,15 +30,6 @@ const Lectures = () => {
   const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
-  const [rtfViewerState, setRtfViewerState] = useState<{
-    isOpen: boolean;
-    url: string;
-    fileName: string;
-  }>({
-    isOpen: false,
-    url: "",
-    fileName: "",
-  });
 
   // Check if there's a subject parameter in the URL
   useEffect(() => {
@@ -93,27 +83,11 @@ const Lectures = () => {
   };
 
   const handleFileClick = (file: FileItem, topic: LectureTopic) => {
-    // Check if it's an RTF file
-    if (file.type?.includes('rtf') || file.file_name?.toLowerCase().endsWith('.rtf')) {
-      setRtfViewerState({
-        isOpen: true,
-        url: file.url,
-        fileName: file.file_name,
-      });
-    } else {
-      // For audio files and other types, navigate to detail page
-      navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
-    }
+    navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
-      <RtfViewer
-        url={rtfViewerState.url}
-        fileName={rtfViewerState.fileName}
-        isOpen={rtfViewerState.isOpen}
-        onClose={() => setRtfViewerState({ isOpen: false, url: "", fileName: "" })}
-      />
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
