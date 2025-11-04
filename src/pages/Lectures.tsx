@@ -27,7 +27,7 @@ interface LectureTopic {
 const Lectures = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const { subjects, loading, getLecturesBySubject, getPaginationInfo, fetchLecturesBySubject, isLoadingSubject } = useLectures();
+  const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
 
@@ -86,13 +86,6 @@ const Lectures = () => {
     navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
   };
 
-  const handleLoadMore = (subject: string) => {
-    const pagination = getPaginationInfo(subject);
-    if (pagination && pagination.page < pagination.total_pages) {
-      fetchLecturesBySubject(subject, pagination.page + 1);
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
       <div className="max-w-7xl mx-auto">
@@ -121,7 +114,6 @@ const Lectures = () => {
 
           {subjects.map((subject) => {
             const subjectLectures = getLecturesBySubject(subject);
-            const pagination = getPaginationInfo(subject);
             const isLoading = isLoadingSubject(subject);
             const { withSections, withoutSections } = groupLecturesBySection(subjectLectures);
             const sections = Object.keys(withSections);
@@ -227,26 +219,6 @@ const Lectures = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                           {withoutSections.map(renderTopicCard)}
                         </div>
-                      </div>
-                    )}
-                    
-                    {pagination && pagination.page < pagination.total_pages && (
-                      <div className="flex justify-center mt-8">
-                        <Button
-                          onClick={() => handleLoadMore(subject)}
-                          disabled={isLoading}
-                          variant="outline"
-                          size="lg"
-                        >
-                          {isLoading ? (
-                            <>
-                              <LoadingSpinner size="sm" className="mr-2" />
-                              Loading...
-                            </>
-                          ) : (
-                            `Load More (${pagination.page} / ${pagination.total_pages})`
-                          )}
-                        </Button>
                       </div>
                     )}
                   </>
