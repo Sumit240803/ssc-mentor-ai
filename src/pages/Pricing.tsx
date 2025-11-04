@@ -150,13 +150,11 @@ const Pricing = () => {
 
   const features = [
     { icon: Brain, text: "AI-Powered Personalized Learning Paths", premium: true },
-    { icon: Video, text: "Premium HD Video Lectures with AI Summaries", premium: true },
     { icon: Bot, text: "24/7 AI Mentor & Doubt Resolution", premium: true },
     { icon: Target, text: "AI-Driven Progress Analytics & Insights", premium: true },
     { icon: Zap, text: "Smart Practice Questions with AI Explanations", premium: true },
     { icon: Award, text: "AI-Verified Course Completion Certificates", premium: true },
     { icon: Users, text: "Live Interactive Sessions with AI Assistance", premium: true },
-    { icon: Check, text: "Lifetime Access to All AI Features", premium: true },
     { icon: Check, text: "Download AI-Generated Study Materials", premium: true },
     { icon: CheckCircle, text: "Priority AI Support & Updates", premium: true },
   ];
