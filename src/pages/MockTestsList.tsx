@@ -43,7 +43,7 @@ const MockTestsList: React.FC = () => {
         const testsData = await Promise.all(
           testFiles.map(async (fileName) => {
             try {
-              const response = await fetch(`/${fileName}`);
+              const response = await fetch(`/${encodeURIComponent(fileName)}`);
               const data = await response.json();
               
               // Calculate total questions
