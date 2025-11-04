@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones, FolderOpen } from "lucide-react";
 import { useLectures } from "@/hooks/useLectures";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
@@ -26,16 +26,22 @@ interface LectureTopic {
 
 const Lectures = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const { subjects, loading, getLecturesBySubject, getPaginationInfo, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
 
+  // Check if there's a subject parameter in the URL
   useEffect(() => {
-    if (subjects.length > 0 && !activeSubject) {
+    const subjectParam = searchParams.get("subject");
+    if (subjectParam && subjects.includes(subjectParam)) {
+      setActiveSubject(subjectParam);
+      fetchLecturesBySubject(subjectParam);
+    } else if (subjects.length > 0 && !activeSubject) {
       setActiveSubject(subjects[0]);
       fetchLecturesBySubject(subjects[0]);
     }
-  }, [subjects]);
+  }, [subjects, searchParams]);
 
   const groupLecturesBySection = (lectures: LectureTopic[]) => {
     const withSections: Record<string, LectureTopic[]> = {};

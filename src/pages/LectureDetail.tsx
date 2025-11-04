@@ -77,7 +77,7 @@ const LectureDetail = () => {
   };
 
   const handleBack = () => {
-    navigate("/lectures");
+    navigate(`/lectures?subject=${encodeURIComponent(subject)}`);
   };
 
   if (loading) {

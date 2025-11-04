@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { LoadingSpinner } from '@/components/ui/loading-spinner';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { 
   Clock, 
   ChevronLeft, 
@@ -54,6 +55,7 @@ const MockTest: React.FC = () => {
     nextQuestion,
     previousQuestion,
     getResults,
+    calculateSectionWiseScores,
     resetTest,
     enterReviewMode,
     switchLanguage,
@@ -300,6 +302,51 @@ const MockTest: React.FC = () => {
                     <Target className="h-8 w-8 text-blue-600 mx-auto mb-2" />
                     <div className="font-semibold text-blue-700 dark:text-blue-300">{results.answeredQuestions}</div>
                     <div className="text-xs text-blue-600 dark:text-blue-400">Attempted</div>
+                  </div>
+                </div>
+
+                {/* Section-wise Performance Table */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-semibold mb-4 text-foreground">Section-wise Performance</h3>
+                  <div className="border rounded-lg overflow-hidden">
+                    <Table>
+                      <TableHeader>
+                        <TableRow className="bg-muted/50">
+                          <TableHead className="font-semibold">Section</TableHead>
+                          <TableHead className="text-center font-semibold">Total Questions</TableHead>
+                          <TableHead className="text-center font-semibold">Correct</TableHead>
+                          <TableHead className="text-center font-semibold">Incorrect</TableHead>
+                          <TableHead className="text-center font-semibold">Score</TableHead>
+                          <TableHead className="text-center font-semibold">Percentage</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {Object.entries(calculateSectionWiseScores()).map(([section, data]) => (
+                          <TableRow key={section}>
+                            <TableCell className="font-medium">{section}</TableCell>
+                            <TableCell className="text-center">{data.total}</TableCell>
+                            <TableCell className="text-center">
+                              <span className="text-green-600 dark:text-green-400 font-semibold">
+                                {data.correct}
+                              </span>
+                            </TableCell>
+                            <TableCell className="text-center">
+                              <span className="text-red-600 dark:text-red-400 font-semibold">
+                                {data.incorrect}
+                              </span>
+                            </TableCell>
+                            <TableCell className="text-center font-semibold">
+                              {data.score.toFixed(2)}
+                            </TableCell>
+                            <TableCell className="text-center">
+                              <Badge variant={data.percentage >= 60 ? "default" : "destructive"}>
+                                {data.percentage}%
+                              </Badge>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
                   </div>
                 </div>
 

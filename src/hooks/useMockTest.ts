@@ -308,26 +308,31 @@ export const useMockTest = (testFileName?: string) => {
   };
 
   const calculateSectionWiseScores = () => {
-    const sectionScores: Record<string, { correct: number; total: number; percentage: number }> = {};
+    const sectionScores: Record<string, { correct: number; incorrect: number; total: number; score: number; percentage: number }> = {};
     
     testState.questions.forEach((question) => {
       const sectionName = question.section;
       if (!sectionScores[sectionName]) {
-        sectionScores[sectionName] = { correct: 0, total: 0, percentage: 0 };
+        sectionScores[sectionName] = { correct: 0, incorrect: 0, total: 0, score: 0, percentage: 0 };
       }
       
       sectionScores[sectionName].total++;
       
       const userAnswer = testState.userAnswers[question.id];
-      if (userAnswer && userAnswer.isCorrect) {
-        sectionScores[sectionName].correct++;
+      if (userAnswer) {
+        if (userAnswer.isCorrect) {
+          sectionScores[sectionName].correct++;
+        } else {
+          sectionScores[sectionName].incorrect++;
+        }
       }
     });
     
-    // Calculate percentages
+    // Calculate scores with negative marking (+1 for correct, -0.25 for incorrect)
     Object.keys(sectionScores).forEach(section => {
-      const score = sectionScores[section];
-      score.percentage = Math.round((score.correct / score.total) * 100);
+      const sectionData = sectionScores[section];
+      sectionData.score = sectionData.correct * 1 + sectionData.incorrect * (-0.25);
+      sectionData.percentage = Math.round((sectionData.score / sectionData.total) * 100);
     });
     
     return sectionScores;
@@ -422,6 +427,9 @@ export const useMockTest = (testFileName?: string) => {
     const incorrectAnswers = Object.values(testState.userAnswers).filter(answer => !answer.isCorrect).length;
     const unansweredQuestions = totalQuestions - answeredQuestions;
     
+    // Calculate score with negative marking: +1 for correct, -0.25 for incorrect
+    const score = correctAnswers * 1 + incorrectAnswers * (-0.25);
+    
     const timeTaken = testState.startTime && testState.endTime 
       ? Math.floor((testState.endTime.getTime() - testState.startTime.getTime()) / 1000)
       : (mockTestData ? mockTestData.duration * 60 : 90 * 60) - testState.timeRemaining;
@@ -432,8 +440,8 @@ export const useMockTest = (testFileName?: string) => {
       correctAnswers,
       incorrectAnswers,
       unansweredQuestions,
-      score: correctAnswers,
-      percentage: Math.round((correctAnswers / totalQuestions) * 100),
+      score,
+      percentage: Math.round((score / totalQuestions) * 100),
       timeTaken,
     };
   };
@@ -554,6 +562,7 @@ export const useMockTest = (testFileName?: string) => {
     nextQuestion,
     previousQuestion,
     getResults,
+    calculateSectionWiseScores,
     resetTest,
     enterReviewMode,
     switchLanguage,
