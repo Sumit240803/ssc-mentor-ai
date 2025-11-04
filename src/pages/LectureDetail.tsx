@@ -6,6 +6,8 @@ import { ArrowLeft, FileText, Volume2 } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AudioPlayer } from "@/components/AudioPlayer";
+// @ts-ignore
+import { parseRtf } from "rtf-parser";
 
 const LectureDetail = () => {
   const [searchParams] = useSearchParams();
@@ -27,12 +29,64 @@ const LectureDetail = () => {
     }
   }, [url, type]);
 
+  const convertRtfToHtml = (rtfText: string): string => {
+    try {
+      const parsed = parseRtf(rtfText);
+      let html = '';
+      
+      const processNode = (node: any): string => {
+        if (!node) return '';
+        
+        if (typeof node === 'string') {
+          return node;
+        }
+        
+        if (node.type === 'paragraph') {
+          const content = node.content?.map(processNode).join('') || '';
+          return `<p>${content}</p>`;
+        }
+        
+        if (node.type === 'span') {
+          let content = node.content?.map(processNode).join('') || node.value || '';
+          if (node.style?.bold) content = `<strong>${content}</strong>`;
+          if (node.style?.italic) content = `<em>${content}</em>`;
+          if (node.style?.underline) content = `<u>${content}</u>`;
+          return content;
+        }
+        
+        if (Array.isArray(node)) {
+          return node.map(processNode).join('');
+        }
+        
+        return '';
+      };
+      
+      if (parsed.content) {
+        html = Array.isArray(parsed.content) 
+          ? parsed.content.map(processNode).join('')
+          : processNode(parsed.content);
+      }
+      
+      return html || rtfText;
+    } catch (error) {
+      console.error("Error parsing RTF:", error);
+      return rtfText;
+    }
+  };
+
   const fetchTextContent = async () => {
     try {
       setLoading(true);
       const response = await fetch(url);
       const text = await response.text();
-      setContent(text);
+      
+      // Check if content is RTF
+      if (text.trim().startsWith('{\\rtf')) {
+        const htmlContent = convertRtfToHtml(text);
+        setContent(htmlContent);
+      } else {
+        setContent(text);
+      }
     } catch (error) {
       console.error("Error fetching content:", error);
       setContent("Failed to load content");
@@ -91,9 +145,16 @@ const LectureDetail = () => {
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
-                    <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
-                      {content}
-                    </div>
+                    {content.includes('<p>') || content.includes('<strong>') ? (
+                      <div 
+                        className="font-sans text-base leading-loose tracking-wide"
+                        dangerouslySetInnerHTML={{ __html: content }}
+                      />
+                    ) : (
+                      <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
+                        {content}
+                      </div>
+                    )}
                   </div>
                 </div>
               </ScrollArea>
