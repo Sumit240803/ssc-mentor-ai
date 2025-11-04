@@ -49,9 +49,14 @@ const MockTestsList: React.FC = () => {
                 0,
               );
 
+              // Extract test number from filename for fallback
+              const testNumberMatch = fileName.match(/(\d+)/);
+              const testNumber = testNumberMatch ? testNumberMatch[1] : '';
+              const fallbackName = testNumber ? `Mock Test ${testNumber}` : 'Mock Test';
+
               return {
                 fileName,
-                testName: data.testName || `Mock Test`,
+                testName: data.testName || fallbackName,
                 duration: data.duration || 90,
                 totalQuestions,
               };
