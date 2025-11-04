@@ -51,6 +51,7 @@ export interface TestState {
   isActive: boolean;
   isCompleted: boolean;
   isReviewMode: boolean;
+  isPaused: boolean;
   startTime: Date | null;
   endTime: Date | null;
   language: Language;
@@ -75,6 +76,7 @@ export const useMockTest = (testFileName?: string) => {
     isActive: false,
     isCompleted: false,
     isReviewMode: false,
+    isPaused: false,
     startTime: null,
     endTime: null,
     language: 'hindi',
@@ -149,11 +151,11 @@ export const useMockTest = (testFileName?: string) => {
   useEffect(() => {
     let interval: NodeJS.Timeout | undefined;
 
-    if (testState.isActive && !testState.isCompleted) {
+    if (testState.isActive && !testState.isCompleted && !testState.isPaused) {
       console.log('Timer started with', testState.timeRemaining, 'seconds');
       interval = setInterval(() => {
         setTestState(prev => {
-          if (!prev.isActive || prev.isCompleted) {
+          if (!prev.isActive || prev.isCompleted || prev.isPaused) {
             return prev;
           }
           
@@ -184,7 +186,7 @@ export const useMockTest = (testFileName?: string) => {
         clearInterval(interval);
       }
     };
-  }, [testState.isActive, testState.isCompleted]);
+  }, [testState.isActive, testState.isCompleted, testState.isPaused]);
 
   const generateQuestions = (): TestQuestion[] => {
     if (!mockTestData) return [];
@@ -224,10 +226,25 @@ export const useMockTest = (testFileName?: string) => {
       isActive: true,
       isCompleted: false,
       isReviewMode: false,
+      isPaused: false,
       startTime: new Date(),
       endTime: null,
       language,
     });
+  };
+
+  const pauseTest = () => {
+    setTestState(prev => ({
+      ...prev,
+      isPaused: true,
+    }));
+  };
+
+  const resumeTest = () => {
+    setTestState(prev => ({
+      ...prev,
+      isPaused: false,
+    }));
   };
 
   const submitTest = async () => {
@@ -437,6 +454,7 @@ export const useMockTest = (testFileName?: string) => {
       isActive: false,
       isCompleted: false,
       isReviewMode: false,
+      isPaused: false,
       startTime: null,
       endTime: null,
       language: 'hindi',
@@ -529,6 +547,8 @@ export const useMockTest = (testFileName?: string) => {
     testState,
     startTest,
     submitTest,
+    pauseTest,
+    resumeTest,
     answerQuestion,
     goToQuestion,
     nextQuestion,

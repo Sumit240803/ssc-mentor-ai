@@ -23,7 +23,9 @@ import {
   Languages,
   Flag,
   ZoomIn,
-  ZoomOut
+  ZoomOut,
+  Pause,
+  Play
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
@@ -45,6 +47,8 @@ const MockTest: React.FC = () => {
     testState,
     startTest,
     submitTest,
+    pauseTest,
+    resumeTest,
     answerQuestion,
     goToQuestion,
     nextQuestion,
@@ -474,13 +478,25 @@ const MockTest: React.FC = () => {
               <div className="flex items-center gap-4">
                 <div className="flex gap-2">
                   <Button variant="outline" size="sm">⏮</Button>
-                  <Button variant="outline" size="sm">⏸</Button>
+                  {!testState.isReviewMode && (
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={testState.isPaused ? resumeTest : pauseTest}
+                      title={testState.isPaused ? "Resume Test" : "Pause Test"}
+                    >
+                      {testState.isPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+                    </Button>
+                  )}
                 </div>
                 <div className="text-center">
-                  <div className="text-xs text-muted-foreground">Time Left</div>
+                  <div className="text-xs text-muted-foreground">
+                    {testState.isPaused ? "Paused" : "Time Left"}
+                  </div>
                   <div className={cn(
                     "font-mono font-bold text-xl",
-                    testState.timeRemaining < 300 && "text-destructive"
+                    testState.timeRemaining < 300 && "text-destructive",
+                    testState.isPaused && "text-yellow-600"
                   )}>
                     {formatTime(testState.timeRemaining)}
                   </div>
