@@ -40,17 +40,61 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
     }
   }, [transcript]);
 
-  const handleMicToggle = () => {
-    if (listening) {
-      SpeechRecognition.stopListening();
-    } else {
-      resetTranscript();
-      SpeechRecognition.startListening({ continuous: true });
+  const handleMicToggle = async () => {
+    console.log("Mic button clicked, current listening state:", listening);
+    console.log("Browser supports speech recognition:", browserSupportsSpeechRecognition);
+    
+    if (!browserSupportsSpeechRecognition) {
+      toast({
+        title: "Not Supported",
+        description: "Speech recognition is not supported in your browser. Please try Chrome.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    try {
+      if (listening) {
+        console.log("Stopping speech recognition...");
+        SpeechRecognition.stopListening();
+        toast({
+          title: "Microphone Off",
+          description: "Speech recognition stopped",
+        });
+      } else {
+        // Request microphone permission first
+        console.log("Requesting microphone permission...");
+        await navigator.mediaDevices.getUserMedia({ audio: true });
+        
+        console.log("Starting speech recognition...");
+        resetTranscript();
+        await SpeechRecognition.startListening({ 
+          continuous: true,
+          language: 'en-US'
+        });
+        
+        toast({
+          title: "Microphone On",
+          description: "Start speaking your question",
+        });
+      }
+    } catch (error) {
+      console.error("Speech recognition error:", error);
+      toast({
+        title: "Microphone Error",
+        description: error instanceof Error ? error.message : "Failed to access microphone. Please check permissions.",
+        variant: "destructive",
+      });
     }
   };
 
   const sendMessage = async () => {
     if (!inputMessage.trim()) return;
+
+    // Stop listening when sending message
+    if (listening) {
+      SpeechRecognition.stopListening();
+    }
 
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -61,6 +105,7 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
 
     setMessages((prev) => [...prev, userMessage]);
     setInputMessage("");
+    resetTranscript();
     setIsLoading(true);
 
     try {
