@@ -38,14 +38,21 @@ const Lectures = () => {
   }, [subjects]);
 
   const groupLecturesBySection = (lectures: LectureTopic[]) => {
-    const grouped: Record<string, LectureTopic[]> = {};
+    const withSections: Record<string, LectureTopic[]> = {};
+    const withoutSections: LectureTopic[] = [];
+    
     lectures.forEach(lecture => {
-      if (!grouped[lecture.section]) {
-        grouped[lecture.section] = [];
+      if (lecture.section && lecture.section.trim() !== '') {
+        if (!withSections[lecture.section]) {
+          withSections[lecture.section] = [];
+        }
+        withSections[lecture.section].push(lecture);
+      } else {
+        withoutSections.push(lecture);
       }
-      grouped[lecture.section].push(lecture);
     });
-    return grouped;
+    
+    return { withSections, withoutSections };
   };
 
   const handleTabChange = (subject: string) => {
@@ -110,8 +117,52 @@ const Lectures = () => {
             const subjectLectures = getLecturesBySubject(subject);
             const pagination = getPaginationInfo(subject);
             const isLoading = isLoadingSubject(subject);
-            const groupedLectures = groupLecturesBySection(subjectLectures);
-            const sections = Object.keys(groupedLectures);
+            const { withSections, withoutSections } = groupLecturesBySection(subjectLectures);
+            const sections = Object.keys(withSections);
+            const hasSections = sections.length > 0;
+
+            const renderTopicCard = (topic: LectureTopic, index: number) => {
+              const textFile = topic.files.find(f => !f.type?.includes('audio'));
+              const audioFile = topic.files.find(f => f.type?.includes('audio'));
+
+              return (
+                <Card
+                  key={index}
+                  className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
+                >
+                  <CardHeader className="space-y-3">
+                    <div className="space-y-2">
+                      <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                        {topic.topic}
+                      </CardTitle>
+                    </div>
+                    
+                    <div className="flex flex-col gap-2 pt-2">
+                      {textFile && (
+                        <Button
+                          variant="outline"
+                          className="w-full justify-start gap-2"
+                          onClick={() => handleFileClick(textFile, topic)}
+                        >
+                          <FileText className="h-4 w-4" />
+                          Read Notes
+                        </Button>
+                      )}
+                      {audioFile && (
+                        <Button
+                          variant="outline"
+                          className="w-full justify-start gap-2"
+                          onClick={() => handleFileClick(audioFile, topic)}
+                        >
+                          <Headphones className="h-4 w-4" />
+                          Listen Audio
+                        </Button>
+                      )}
+                    </div>
+                  </CardHeader>
+                </Card>
+              );
+            };
 
             return (
               <TabsContent key={subject} value={subject} className="mt-6">
@@ -133,76 +184,45 @@ const Lectures = () => {
                   </Card>
                 ) : (
                   <>
-                    <Accordion 
-                      type="multiple" 
-                      value={activeSections[subject] || [sections[0]]} 
-                      onValueChange={(value) => setActiveSections(prev => ({ ...prev, [subject]: value }))}
-                      className="space-y-4"
-                    >
-                      {sections.map((section) => (
-                        <AccordionItem 
-                          key={section} 
-                          value={section}
-                          className="border-2 rounded-lg bg-card/50 backdrop-blur-sm px-6"
-                        >
-                          <AccordionTrigger className="hover:no-underline py-4">
-                            <div className="flex items-center gap-3">
-                              <FolderOpen className="h-5 w-5 text-primary" />
-                              <span className="text-lg font-semibold">{section}</span>
-                              <Badge variant="secondary" className="ml-2">
-                                {groupedLectures[section].length} topics
-                              </Badge>
-                            </div>
-                          </AccordionTrigger>
-                          <AccordionContent className="pt-4 pb-6">
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                              {groupedLectures[section].map((topic, index) => {
-                                const textFile = topic.files.find(f => !f.type?.includes('audio'));
-                                const audioFile = topic.files.find(f => f.type?.includes('audio'));
+                    {hasSections && (
+                      <Accordion 
+                        type="multiple" 
+                        value={activeSections[subject] || [sections[0]]} 
+                        onValueChange={(value) => setActiveSections(prev => ({ ...prev, [subject]: value }))}
+                        className="space-y-4"
+                      >
+                        {sections.map((section) => (
+                          <AccordionItem 
+                            key={section} 
+                            value={section}
+                            className="border-2 rounded-lg bg-card/50 backdrop-blur-sm px-6"
+                          >
+                            <AccordionTrigger className="hover:no-underline py-4">
+                              <div className="flex items-center gap-3">
+                                <FolderOpen className="h-5 w-5 text-primary" />
+                                <span className="text-lg font-semibold">{section}</span>
+                                <Badge variant="secondary" className="ml-2">
+                                  {withSections[section].length} topics
+                                </Badge>
+                              </div>
+                            </AccordionTrigger>
+                            <AccordionContent className="pt-4 pb-6">
+                              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {withSections[section].map(renderTopicCard)}
+                              </div>
+                            </AccordionContent>
+                          </AccordionItem>
+                        ))}
+                      </Accordion>
+                    )}
 
-                                return (
-                                  <Card
-                                    key={index}
-                                    className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
-                                  >
-                                    <CardHeader className="space-y-3">
-                                      <div className="space-y-2">
-                                        <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                                          {topic.topic}
-                                        </CardTitle>
-                                      </div>
-                                      
-                                      <div className="flex flex-col gap-2 pt-2">
-                                        {textFile && (
-                                          <Button
-                                            variant="outline"
-                                            className="w-full justify-start gap-2"
-                                            onClick={() => handleFileClick(textFile, topic)}
-                                          >
-                                            <FileText className="h-4 w-4" />
-                                            Read Notes
-                                          </Button>
-                                        )}
-                                        {audioFile && (
-                                          <Button
-                                            variant="outline"
-                                            className="w-full justify-start gap-2"
-                                            onClick={() => handleFileClick(audioFile, topic)}
-                                          >
-                                            <Headphones className="h-4 w-4" />
-                                            Listen Audio
-                                          </Button>
-                                        )}
-                                      </div>
-                                    </CardHeader>
-                                  </Card>
-                                );
-                              })}
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                      ))}
-                    </Accordion>
+                    {withoutSections.length > 0 && (
+                      <div className={hasSections ? "mt-6" : ""}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                          {withoutSections.map(renderTopicCard)}
+                        </div>
+                      </div>
+                    )}
                     
                     {pagination && pagination.page < pagination.total_pages && (
                       <div className="flex justify-center mt-8">
