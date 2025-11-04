@@ -120,8 +120,17 @@ const Lectures = () => {
             const hasSections = sections.length > 0;
 
             const renderTopicCard = (topic: LectureTopic, index: number) => {
-              const textFile = topic.files.find(f => !f.type?.includes('audio'));
-              const audioFile = topic.files.find(f => f.type?.includes('audio'));
+              // Group files by language
+              const englishFiles = topic.files.filter(f => 
+                f.url.includes('/English/') || 
+                (!f.url.includes('/Hindi/') && !f.file_name.toLowerCase().includes('hindi'))
+              );
+              const hindiFiles = topic.files.filter(f => 
+                f.url.includes('/Hindi/') || 
+                f.file_name.toLowerCase().includes('hindi')
+              );
+
+              const hasMultipleLanguages = englishFiles.length > 0 && hindiFiles.length > 0;
 
               return (
                 <Card
@@ -135,26 +144,109 @@ const Lectures = () => {
                       </CardTitle>
                     </div>
                     
-                    <div className="flex flex-col gap-2 pt-2">
-                      {textFile && (
-                        <Button
-                          variant="outline"
-                          className="w-full justify-start gap-2"
-                          onClick={() => handleFileClick(textFile, topic)}
-                        >
-                          <FileText className="h-4 w-4" />
-                          Read Notes
-                        </Button>
-                      )}
-                      {audioFile && (
-                        <Button
-                          variant="outline"
-                          className="w-full justify-start gap-2"
-                          onClick={() => handleFileClick(audioFile, topic)}
-                        >
-                          <Headphones className="h-4 w-4" />
-                          Listen Audio
-                        </Button>
+                    <div className="flex flex-col gap-3 pt-2">
+                      {hasMultipleLanguages ? (
+                        <>
+                          {/* English Section */}
+                          {englishFiles.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-xs font-medium text-muted-foreground px-1">English</p>
+                              <div className="flex gap-2">
+                                {englishFiles.some(f => !f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      englishFiles.find(f => !f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <FileText className="h-4 w-4" />
+                                    Notes
+                                  </Button>
+                                )}
+                                {englishFiles.some(f => f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      englishFiles.find(f => f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <Headphones className="h-4 w-4" />
+                                    Audio
+                                  </Button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                          
+                          {/* Hindi Section */}
+                          {hindiFiles.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-xs font-medium text-muted-foreground px-1">हिंदी (Hindi)</p>
+                              <div className="flex gap-2">
+                                {hindiFiles.some(f => !f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      hindiFiles.find(f => !f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <FileText className="h-4 w-4" />
+                                    Notes
+                                  </Button>
+                                )}
+                                {hindiFiles.some(f => f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      hindiFiles.find(f => f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <Headphones className="h-4 w-4" />
+                                    Audio
+                                  </Button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <>
+                          {/* Single language version (original behavior) */}
+                          {topic.files.some(f => !f.type?.includes('audio')) && (
+                            <Button
+                              variant="outline"
+                              className="w-full justify-start gap-2"
+                              onClick={() => handleFileClick(
+                                topic.files.find(f => !f.type?.includes('audio'))!,
+                                topic
+                              )}
+                            >
+                              <FileText className="h-4 w-4" />
+                              Read Notes
+                            </Button>
+                          )}
+                          {topic.files.some(f => f.type?.includes('audio')) && (
+                            <Button
+                              variant="outline"
+                              className="w-full justify-start gap-2"
+                              onClick={() => handleFileClick(
+                                topic.files.find(f => f.type?.includes('audio'))!,
+                                topic
+                              )}
+                            >
+                              <Headphones className="h-4 w-4" />
+                              Listen Audio
+                            </Button>
+                          )}
+                        </>
                       )}
                     </div>
                   </CardHeader>
