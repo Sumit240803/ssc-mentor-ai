@@ -40,6 +40,8 @@ const MockTestsList: React.FC = () => {
             try {
               const response = await fetch(`/${encodeURIComponent(fileName)}`);
               const data = await response.json();
+              console.log(data);
+              console.log(data.testName);
 
               // Calculate total questions
               const totalQuestions = data.mockTest.reduce(
