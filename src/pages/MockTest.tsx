@@ -452,9 +452,8 @@ const MockTest: React.FC = () => {
         <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
           <div className="px-4 py-2">
             <div className="flex items-center justify-between">
-              {/* Left: Logo & Zoom */}
+              {/* Left: Zoom */}
               <div className="flex items-center gap-4">
-                <span className="text-primary font-bold text-xl">testbook</span>
                 <div className="flex gap-2">
                   <Button variant="outline" size="sm">
                     <ZoomOut className="h-4 w-4" />
