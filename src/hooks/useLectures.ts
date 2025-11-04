@@ -57,8 +57,8 @@ export const useLectures = () => {
     try {
       setLoadingSubjects(prev => ({ ...prev, [subjectName]: true }));
       
-      // Fetch all lectures at once with a limit of 100
-      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}?limit=100`);
+      // Fetch all lectures at once with a limit of 50
+      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}?limit=50`);
       const data = await response.json();
       
       if (data.status === 'success') {
