@@ -34,8 +34,14 @@ export const RtfViewer = ({ url, fileName, isOpen, onClose }: RtfViewerProps) =>
       const rtfText = await response.text();
       console.log("RTF content fetched, parsing...");
       
-      // Basic RTF to HTML conversion
-      const htmlContent = convertRtfToHtml(rtfText);
+      // Dynamic import of rtf-parser
+      const { parseRtfString } = await import('rtf-parser');
+      
+      const parsed = await parseRtfString(rtfText);
+      console.log("Parsed RTF:", parsed);
+      
+      // Convert parsed RTF to HTML
+      const htmlContent = convertParsedRtfToHtml(parsed);
       setContent(htmlContent);
     } catch (error) {
       console.error("Error loading RTF file:", error);
@@ -49,55 +55,54 @@ export const RtfViewer = ({ url, fileName, isOpen, onClose }: RtfViewerProps) =>
     }
   };
 
-  const convertRtfToHtml = (rtf: string): string => {
+  const convertParsedRtfToHtml = (doc: any): string => {
     try {
-      // Remove RTF control words and braces
-      let text = rtf;
-      
-      // Remove RTF header
-      text = text.replace(/\{\\rtf1[^\}]*\}/g, '');
-      
-      // Handle paragraphs
-      text = text.replace(/\\par\s*/g, '<br><br>');
-      text = text.replace(/\\line\s*/g, '<br>');
-      
-      // Handle bold
-      text = text.replace(/\\b\s+([^\\]*?)\\b0/g, '<strong>$1</strong>');
-      
-      // Handle italic
-      text = text.replace(/\\i\s+([^\\]*?)\\i0/g, '<em>$1</em>');
-      
-      // Handle underline
-      text = text.replace(/\\ul\s+([^\\]*?)\\ulnone/g, '<u>$1</u>');
-      
-      // Handle font sizes (approximate conversion)
-      text = text.replace(/\\fs(\d+)\s+/g, (match, size) => {
-        const fontSize = Math.round(parseInt(size) / 2);
-        return `<span style="font-size: ${fontSize}px;">`;
-      });
-      
-      // Remove remaining RTF control words
-      text = text.replace(/\\[a-z]+\d*\s*/gi, '');
-      
-      // Remove curly braces
-      text = text.replace(/[\{\}]/g, '');
-      
-      // Handle bullet points
-      text = text.replace(/·\s*/g, '• ');
-      
-      // Clean up multiple spaces and newlines
-      text = text.replace(/\s+/g, ' ');
-      text = text.replace(/\s*<br>\s*/g, '<br>');
-      
-      // Wrap in paragraphs
-      const paragraphs = text.split('<br><br>')
-        .filter(p => p.trim())
-        .map(p => `<p class="mb-4">${p.trim()}</p>`)
-        .join('');
-      
-      return paragraphs || '<p>No content available</p>';
+      if (!doc || !doc.content) {
+        return '<p>No content available</p>';
+      }
+
+      const processContent = (content: any[]): string => {
+        return content.map(item => {
+          if (typeof item === 'string') {
+            // Handle plain text
+            return item.replace(/\n/g, '<br>');
+          } else if (item.type === 'paragraph') {
+            // Handle paragraphs
+            const paraContent = item.content ? processContent(item.content) : '';
+            return `<p class="mb-4">${paraContent}</p>`;
+          } else if (item.type === 'span') {
+            // Handle styled spans
+            let text = item.value || '';
+            
+            if (item.style) {
+              if (item.style.bold) {
+                text = `<strong>${text}</strong>`;
+              }
+              if (item.style.italic) {
+                text = `<em>${text}</em>`;
+              }
+              if (item.style.underline) {
+                text = `<u>${text}</u>`;
+              }
+              if (item.style.fontSize) {
+                text = `<span style="font-size: ${item.style.fontSize}pt">${text}</span>`;
+              }
+            }
+            
+            return text;
+          } else if (item.content) {
+            // Handle nested content
+            return processContent(item.content);
+          }
+          
+          return '';
+        }).join('');
+      };
+
+      const html = processContent(doc.content);
+      return html || '<p>No content available</p>';
     } catch (error) {
-      console.error("Error parsing RTF:", error);
+      console.error("Error converting RTF to HTML:", error);
       return '<p>Error parsing document content</p>';
     }
   };
@@ -118,7 +123,7 @@ export const RtfViewer = ({ url, fileName, isOpen, onClose }: RtfViewerProps) =>
             </div>
           ) : (
             <div 
-              className="prose prose-sm dark:prose-invert max-w-none"
+              className="prose prose-sm dark:prose-invert max-w-none leading-relaxed"
               dangerouslySetInnerHTML={{ __html: content }}
             />
           )}
