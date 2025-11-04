@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Check, Crown, BookOpen, Video, Users, Award, Brain, Zap, Target, Bot, Sparkles, CheckCircle, Star, ArrowRight } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useNavigate } from 'react-router-dom';
+import { usePaymentStatus } from '@/hooks/usePaymentStatus';
 
 declare global {
   interface Window {
@@ -19,6 +20,14 @@ const Pricing = () => {
   const { toast } = useToast();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
+  const { hasPaid, loading: paymentLoading } = usePaymentStatus();
+
+  // Redirect if user has already paid
+  useEffect(() => {
+    if (!paymentLoading && hasPaid) {
+      navigate('/lectures');
+    }
+  }, [hasPaid, paymentLoading, navigate]);
 
   const handlePayment = async () => {
     console.log('Payment initiated');
