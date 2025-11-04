@@ -28,12 +28,7 @@ const Schedule = () => {
       const response = await fetch('https://sscb-backend-api.onrender.com/schedules/');
       const data = await response.json();
       
-      // Filter out "Information" and keep only hour schedules
-      const hourSchedules = data.schedules.filter((schedule: string) => 
-        schedule.toLowerCase().includes('hour')
-      );
-      
-      setSchedules(hourSchedules);
+      setSchedules(data.schedules);
     } catch (error) {
       console.error('Error fetching schedules:', error);
       toast.error('Failed to load schedules');
