@@ -350,9 +350,12 @@ const MockTest: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-4 justify-center">
+                <div className="flex gap-4 justify-center flex-wrap">
                   <Button onClick={enterReviewMode} variant="default">
                     Review Answers
+                  </Button>
+                  <Button onClick={resetTest} variant="default">
+                    Reattempt Test
                   </Button>
                   <Button onClick={() => navigate('/mock-tests')} variant="outline">
                     Back to Tests
