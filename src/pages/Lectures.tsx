@@ -43,6 +43,32 @@ const Lectures = () => {
     }
   }, [subjects, searchParams]);
 
+  // Helper function to extract serial number from topic name
+  const extractSerialNumber = (topic: string): number | null => {
+    const match = topic.match(/^(\d+)\./);
+    return match ? parseInt(match[1], 10) : null;
+  };
+
+  // Helper function to sort topics by serial number
+  const sortTopicsBySerial = (topics: LectureTopic[]): LectureTopic[] => {
+    return [...topics].sort((a, b) => {
+      const serialA = extractSerialNumber(a.topic);
+      const serialB = extractSerialNumber(b.topic);
+      
+      // If both have serial numbers, sort numerically
+      if (serialA !== null && serialB !== null) {
+        return serialA - serialB;
+      }
+      
+      // If only one has a serial number, put it first
+      if (serialA !== null) return -1;
+      if (serialB !== null) return 1;
+      
+      // If neither has a serial number, keep original order
+      return 0;
+    });
+  };
+
   const groupLecturesBySection = (lectures: LectureTopic[]) => {
     const withSections: Record<string, LectureTopic[]> = {};
     const withoutSections: LectureTopic[] = [];
@@ -58,7 +84,15 @@ const Lectures = () => {
       }
     });
     
-    return { withSections, withoutSections };
+    // Sort topics within each section by serial number
+    Object.keys(withSections).forEach(section => {
+      withSections[section] = sortTopicsBySerial(withSections[section]);
+    });
+    
+    // Sort topics without sections by serial number
+    const sortedWithoutSections = sortTopicsBySerial(withoutSections);
+    
+    return { withSections, withoutSections: sortedWithoutSections };
   };
 
   const handleTabChange = (subject: string) => {
