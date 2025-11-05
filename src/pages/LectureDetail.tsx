@@ -6,6 +6,7 @@ import { ArrowLeft, FileText, Volume2 } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AudioPlayer } from "@/components/AudioPlayer";
+import rtfToHTML from "@iarna/rtf-to-html";
 
 const LectureDetail = () => {
   const [searchParams] = useSearchParams();
@@ -27,44 +28,20 @@ const LectureDetail = () => {
     }
   }, [url, type]);
 
-  const stripRtfFormatting = (rtfText: string): string => {
-    try {
-      let text = rtfText;
-      
-      // Remove RTF header and font table
-      text = text.replace(/\{\\rtf1[^}]*\}/g, '');
-      text = text.replace(/\{\\fonttbl[^}]*\}/g, '');
-      text = text.replace(/\{\\colortbl[^}]*\}/g, '');
-      text = text.replace(/\{\\stylesheet[^}]*\}/g, '');
-      text = text.replace(/\{\\info[^}]*\}/g, '');
-      
-      // Remove control words
-      text = text.replace(/\\[a-z]+\d*\s?/gi, ' ');
-      
-      // Remove braces
-      text = text.replace(/[{}]/g, '');
-      
-      // Clean up multiple spaces and newlines
-      text = text.replace(/\s+/g, ' ');
-      text = text.trim();
-      
-      return text;
-    } catch (error) {
-      console.error("Error stripping RTF:", error);
-      return rtfText;
-    }
-  };
-
   const fetchTextContent = async () => {
     try {
       setLoading(true);
       const response = await fetch(url);
-      const text = await response.text();
+      const arrayBuffer = await response.arrayBuffer();
       
-      // Check if content is RTF
+      // Check if content is RTF by reading the first few bytes
+      const decoder = new TextDecoder('utf-8');
+      const text = decoder.decode(arrayBuffer);
+      
       if (text.trim().startsWith('{\\rtf')) {
-        const plainText = stripRtfFormatting(text);
-        setContent(plainText);
+        // Convert RTF to HTML using the library
+        const htmlContent = await rtfToHTML.fromString(text);
+        setContent(htmlContent);
       } else {
         setContent(text);
       }
@@ -126,9 +103,13 @@ const LectureDetail = () => {
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
-                    <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
-                      {content}
-                    </div>
+                    {content.includes('<') && content.includes('>') ? (
+                      <div dangerouslySetInnerHTML={{ __html: content }} />
+                    ) : (
+                      <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
+                        {content}
+                      </div>
+                    )}
                   </div>
                 </div>
               </ScrollArea>
