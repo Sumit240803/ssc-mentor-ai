@@ -672,16 +672,25 @@ const MockTest: React.FC = () => {
                       ? currentQuestion["options-hindi"]
                       : currentQuestion["options-english"];
 
-                  const isQuestionImage = questionText.startsWith("http://") || questionText.startsWith("https://");
+                  const questionImage = currentQuestion["question-image"];
 
                   return (
                     <>
+                      {questionImage && (
+                        <div className="mb-4">
+                          <img 
+                            src={questionImage} 
+                            alt="Question" 
+                            className="max-w-full h-auto rounded-lg border"
+                            onError={(e) => {
+                              console.error('Failed to load image:', questionImage);
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                      )}
                       <div className="mb-6">
-                        {isQuestionImage ? (
-                          <img src={questionText} alt="Question" className="max-w-full h-auto rounded-lg" />
-                        ) : (
-                          <p className="text-base leading-relaxed">{questionText}</p>
-                        )}
+                        <p className="text-base leading-relaxed">{questionText}</p>
                       </div>
 
                       <RadioGroup
