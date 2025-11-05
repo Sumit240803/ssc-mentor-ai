@@ -91,7 +91,7 @@ const Landing = () => {
           initial="hidden"
           animate="visible"
           custom={0}
-          className="text-5xl md:text-7xl font-bold text-white tracking-tight"
+          className="text-5xl md:text-7xl font-bold text-foreground tracking-tight"
         >
           Prepare Smarter for{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
@@ -104,7 +104,7 @@ const Landing = () => {
           initial="hidden"
           animate="visible"
           custom={1}
-          className="mt-6 max-w-2xl text-lg text-gray-300"
+          className="mt-6 max-w-2xl text-lg text-muted-foreground"
         >
           India’s first AI-powered platform designed exclusively for SSC Delhi
           Police aspirants. Study smarter, stay consistent, and boost your
@@ -126,7 +126,7 @@ const Landing = () => {
           </a>
           <a
             href="#testimonials"
-            className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-300 font-semibold backdrop-blur hover:bg-cyan-400/10 transition"
+            className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-600 dark:text-cyan-300 font-semibold backdrop-blur hover:bg-cyan-400/10 transition"
           >
             Check Demo
           </a>
@@ -152,7 +152,7 @@ const Landing = () => {
               <div className="text-4xl md:text-5xl font-bold text-indigo-400 mb-2">
                 {stat.number}
               </div>
-              <div className="text-gray-400">{stat.label}</div>
+              <div className="text-muted-foreground">{stat.label}</div>
             </motion.div>
           ))}
         </div>
@@ -166,7 +166,7 @@ const Landing = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-white"
+            className="text-4xl md:text-5xl font-bold text-foreground"
           >
             AI Features Built for{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
@@ -179,7 +179,7 @@ const Landing = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="mt-4 text-lg text-gray-400"
+            className="mt-4 text-lg text-muted-foreground"
           >
             Smarter, faster, and more effective exam preparation.
           </motion.p>
@@ -199,10 +199,10 @@ const Landing = () => {
                 <div className="p-4 bg-gradient-to-br from-indigo-500 to-cyan-500 rounded-2xl w-fit mb-6">
                   <feature.icon className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">
+                <h3 className="text-2xl font-bold text-foreground mb-4">
                   {feature.title}
                 </h3>
-                <p className="text-gray-400 leading-relaxed text-lg">
+                <p className="text-muted-foreground leading-relaxed text-lg">
                   {feature.description}
                 </p>
               </Card>
@@ -219,7 +219,7 @@ const Landing = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold text-white"
+            className="text-4xl md:text-5xl font-bold text-foreground"
           >
             Hear from{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
@@ -239,14 +239,14 @@ const Landing = () => {
               custom={i}
               className="p-8 rounded-3xl bg-background/70 backdrop-blur-lg border border-white/10 hover:border-cyan-400/50 transition-all duration-500"
             >
-              <p className="text-gray-300 italic mb-6">“{t.quote}”</p>
+              <p className="text-muted-foreground italic mb-6">"{t.quote}"</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400 flex items-center justify-center text-white font-bold">
                   {t.name[0]}
                 </div>
                 <div className="text-left">
-                  <div className="font-semibold text-white">{t.name}</div>
-                  <div className="text-gray-400 text-sm">{t.role}</div>
+                  <div className="font-semibold text-foreground">{t.name}</div>
+                  <div className="text-muted-foreground text-sm">{t.role}</div>
                 </div>
               </div>
             </motion.div>
@@ -263,14 +263,14 @@ const Landing = () => {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto text-center rounded-3xl border border-indigo-500/40 bg-gradient-to-br from-indigo-900/30 to-cyan-900/30 backdrop-blur-lg p-12 shadow-lg relative overflow-hidden"
         >
-          <h2 className="text-4xl font-bold text-white mb-6">
+          <h2 className="text-4xl font-bold text-foreground mb-6">
             Start Your AI-Powered{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
               SSC Delhi Police Prep
             </span>{" "}
             Today
           </h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Take mock tests, generate smart schedules, and prepare with AI
             insights designed for your success.
           </p>
