@@ -10,6 +10,7 @@ interface MockTestInfo {
   testName: string;
   duration: number;
   totalQuestions: number;
+  comingSoon?: boolean;
 }
 
 const MockTestsList: React.FC = () => {
@@ -73,6 +74,7 @@ const MockTestsList: React.FC = () => {
                 testName: data.testName || fallbackName,
                 duration: data.duration || 90,
                 totalQuestions,
+                comingSoon: false,
               };
             } catch (error) {
               console.error(`Error loading ${fileName}:`, error);
@@ -81,7 +83,18 @@ const MockTestsList: React.FC = () => {
           }),
         );
 
-        setMockTests(testsData.filter(Boolean) as MockTestInfo[]);
+        const loadedTests = testsData.filter(Boolean) as MockTestInfo[];
+        
+        // Add coming soon tests
+        const comingSoonTests: MockTestInfo[] = [
+          { fileName: "Complete_mock-test_26.json", testName: "Mock Test 26", duration: 90, totalQuestions: 0, comingSoon: true },
+          { fileName: "Complete_mock-test_27.json", testName: "Mock Test 27", duration: 90, totalQuestions: 0, comingSoon: true },
+          { fileName: "Complete_mock-test_28.json", testName: "Mock Test 28", duration: 90, totalQuestions: 0, comingSoon: true },
+          { fileName: "Complete_mock-test_29.json", testName: "Mock Test 29", duration: 90, totalQuestions: 0, comingSoon: true },
+          { fileName: "Complete_mock-test_30.json", testName: "Mock Test 30", duration: 90, totalQuestions: 0, comingSoon: true },
+        ];
+
+        setMockTests([...loadedTests, ...comingSoonTests]);
       } catch (error) {
         console.error("Error loading mock tests:", error);
       } finally {
@@ -136,26 +149,40 @@ const MockTestsList: React.FC = () => {
                 className="bg-gradient-card border-primary/20 hover:shadow-elevated transition-all duration-300 hover:border-primary/40"
               >
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <BookOpen className="h-5 w-5 text-primary" />
-                    {test.testName}
+                  <CardTitle className="flex items-center gap-2 justify-between">
+                    <div className="flex items-center gap-2">
+                      <BookOpen className="h-5 w-5 text-primary" />
+                      {test.testName}
+                    </div>
+                    {test.comingSoon && (
+                      <Badge variant="secondary">Coming Soon</Badge>
+                    )}
                   </CardTitle>
-                  <CardDescription>Full-length practice test</CardDescription>
+                  <CardDescription>
+                    {test.comingSoon ? "This test will be available soon" : "Full-length practice test"}
+                  </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="flex items-center gap-2 text-sm">
-                      <Clock className="h-4 w-4 text-primary" />
-                      <span>{test.duration} mins</span>
+                  {!test.comingSoon && (
+                    <div className="grid grid-cols-2 gap-3">
+                      <div className="flex items-center gap-2 text-sm">
+                        <Clock className="h-4 w-4 text-primary" />
+                        <span>{test.duration} mins</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm">
+                        <FileText className="h-4 w-4 text-primary" />
+                        <span>{test.totalQuestions} questions</span>
+                      </div>
                     </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <FileText className="h-4 w-4 text-primary" />
-                      <span>{test.totalQuestions} questions</span>
-                    </div>
-                  </div>
+                  )}
 
-                  <Button onClick={() => handleStartTest(test.fileName)} className="w-full" variant="default">
-                    Start Test
+                  <Button 
+                    onClick={() => handleStartTest(test.fileName)} 
+                    className="w-full" 
+                    variant="default"
+                    disabled={test.comingSoon}
+                  >
+                    {test.comingSoon ? "Coming Soon" : "Start Test"}
                   </Button>
                 </CardContent>
               </Card>
