@@ -27,47 +27,12 @@ const LectureDetail = () => {
     }
   }, [url, type]);
 
-  const stripRtfFormatting = (rtfText: string): string => {
-    try {
-      let text = rtfText;
-      
-      // Remove RTF header and font table
-      text = text.replace(/\{\\rtf1[^}]*\}/g, '');
-      text = text.replace(/\{\\fonttbl[^}]*\}/g, '');
-      text = text.replace(/\{\\colortbl[^}]*\}/g, '');
-      text = text.replace(/\{\\stylesheet[^}]*\}/g, '');
-      text = text.replace(/\{\\info[^}]*\}/g, '');
-      
-      // Remove control words
-      text = text.replace(/\\[a-z]+\d*\s?/gi, ' ');
-      
-      // Remove braces
-      text = text.replace(/[{}]/g, '');
-      
-      // Clean up multiple spaces and newlines
-      text = text.replace(/\s+/g, ' ');
-      text = text.trim();
-      
-      return text;
-    } catch (error) {
-      console.error("Error stripping RTF:", error);
-      return rtfText;
-    }
-  };
-
   const fetchTextContent = async () => {
     try {
       setLoading(true);
       const response = await fetch(url);
       const text = await response.text();
-      
-      // Check if content is RTF
-      if (text.trim().startsWith('{\\rtf')) {
-        const plainText = stripRtfFormatting(text);
-        setContent(plainText);
-      } else {
-        setContent(text);
-      }
+      setContent(text);
     } catch (error) {
       console.error("Error fetching content:", error);
       setContent("Failed to load content");
