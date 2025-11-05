@@ -20,7 +20,8 @@ const LectureDetail = () => {
   const topic = searchParams.get("topic") || "";
 
   useEffect(() => {
-    if (type.includes("text") && url) {
+    const isRtfFile = url.toLowerCase().endsWith('.rtf') || type.includes('rtf');
+    if ((type.includes("text") || isRtfFile) && url) {
       fetchTextContent();
     } else {
       setLoading(false);
@@ -96,7 +97,7 @@ const LectureDetail = () => {
           <CardContent>
             {type.includes("audio") ? (
               <AudioPlayer src={url} title={fileName} />
-            ) : type.includes("text") ? (
+            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf')) ? (
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
