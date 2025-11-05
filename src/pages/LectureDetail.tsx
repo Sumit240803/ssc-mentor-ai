@@ -139,23 +139,41 @@ const LectureDetail = () => {
     const currentWord = alignmentData.timestamps[currentWordIndex];
     console.log(`Highlighting word: "${currentWord.word}" at time: ${currentAudioTime}, index: ${currentWordIndex}`);
 
-    // Find the position of the specific word instance in the content
-    const wordToHighlight = currentWord.word;
-    const escapedWord = wordToHighlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(escapedWord, 'g');
-    
+    // Build a sequential word mapping by processing words in timestamp order
     let result = content;
-    let matchCount = 0;
+    let contentPosition = 0;
     
-    // Replace only the nth occurrence of the word (where n is currentWordIndex)
-    result = result.replace(regex, (match, offset) => {
-      if (matchCount === currentWordIndex) {
-        matchCount++;
-        return `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${match}</mark>`;
+    // Process each word in the timestamps array sequentially
+    for (let i = 0; i <= currentWordIndex; i++) {
+      const word = alignmentData.timestamps[i].word;
+      const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(escapedWord);
+      
+      // Find the next occurrence of this word starting from current position
+      const remainingContent = result.substring(contentPosition);
+      const match = remainingContent.match(regex);
+      
+      if (match && match.index !== undefined) {
+        const actualPosition = contentPosition + match.index;
+        const wordStart = actualPosition;
+        const wordEnd = wordStart + word.length;
+        
+        if (i === currentWordIndex) {
+          // Highlight this specific word
+          result = result.substring(0, wordStart) + 
+                  `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${word}</mark>` + 
+                  result.substring(wordEnd);
+          break;
+        } else {
+          // Move the position forward to after this word
+          contentPosition = wordEnd;
+        }
+      } else {
+        // If word not found, skip to next word
+        console.warn(`Word "${word}" not found in remaining content at index ${i}`);
+        break;
       }
-      matchCount++;
-      return match;
-    });
+    }
     
     return result;
   }, [content, alignmentData, currentAudioTime, type]);
