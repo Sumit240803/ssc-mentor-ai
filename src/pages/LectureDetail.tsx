@@ -6,7 +6,7 @@ import { ArrowLeft, FileText, Volume2 } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AudioPlayer } from "@/components/AudioPlayer";
-import rtfToHTML from "@iarna/rtf-to-html";
+import RTFParser from "rtf-parser";
 
 const LectureDetail = () => {
   const [searchParams] = useSearchParams();
@@ -28,6 +28,44 @@ const LectureDetail = () => {
     }
   }, [url, type]);
 
+  const convertRtfToHtml = (doc: any): string => {
+    let html = "";
+    
+    const processNode = (node: any): string => {
+      if (!node) return "";
+      
+      if (node.content) {
+        if (Array.isArray(node.content)) {
+          return node.content.map(processNode).join("");
+        }
+        return String(node.content);
+      }
+      
+      if (node.children) {
+        const childrenHtml = node.children.map(processNode).join("");
+        
+        if (node.style) {
+          if (node.style.bold) return `<strong>${childrenHtml}</strong>`;
+          if (node.style.italic) return `<em>${childrenHtml}</em>`;
+          if (node.style.underline) return `<u>${childrenHtml}</u>`;
+        }
+        
+        return childrenHtml;
+      }
+      
+      return "";
+    };
+    
+    if (doc.content && Array.isArray(doc.content)) {
+      html = doc.content.map((para: any) => {
+        const content = processNode(para);
+        return content ? `<p>${content}</p>` : "";
+      }).join("");
+    }
+    
+    return html || "<p>No content available</p>";
+  };
+
   const fetchTextContent = async () => {
     try {
       setLoading(true);
@@ -35,13 +73,20 @@ const LectureDetail = () => {
       const arrayBuffer = await response.arrayBuffer();
       
       // Check if content is RTF by reading the first few bytes
-      const decoder = new TextDecoder('utf-8');
+      const decoder = new TextDecoder("utf-8");
       const text = decoder.decode(arrayBuffer);
       
-      if (text.trim().startsWith('{\\rtf')) {
-        // Convert RTF to HTML using the library
-        const htmlContent = await rtfToHTML.fromString(text);
-        setContent(htmlContent);
+      if (text.trim().startsWith("{\\rtf")) {
+        // Parse RTF using rtf-parser
+        RTFParser.string(text, (err: any, doc: any) => {
+          if (err) {
+            console.error("Error parsing RTF:", err);
+            setContent("Failed to parse RTF content");
+          } else {
+            const htmlContent = convertRtfToHtml(doc);
+            setContent(htmlContent);
+          }
+        });
       } else {
         setContent(text);
       }
@@ -103,7 +148,7 @@ const LectureDetail = () => {
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
-                    {content.includes('<') && content.includes('>') ? (
+                    {content.includes("<") && content.includes(">") ? (
                       <div dangerouslySetInnerHTML={{ __html: content }} />
                     ) : (
                       <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
