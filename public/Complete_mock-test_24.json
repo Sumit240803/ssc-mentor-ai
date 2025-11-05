@@ -1,0 +1,1183 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+    "question_english": "A metal cube with a 3 cm edge weighs 27 kg. What is the edge length of a cube of the same metal weighing 64 kg?",
+    "question_hindi": "एक धातु का घन जिसकी प्रत्येक भुजा 3 सेमी है, का वज़न 27 किग्रा है। उसी धातु का 64 किग्रा वज़न वाला घन की भुजा कितनी होगी?",
+    "options_english": ["A. 4 cm", "B. 5 cm", "C. 6 cm", "D. 7 cm"],
+    "options_hindi": ["A. 4 सेमी", "B. 5 सेमी", "C. 6 सेमी", "D. 7 सेमी"],
+    "answer_english": "A. 4 cm",
+    "answer_hindi": "A. 4 सेमी",
+    "solution_english": "Volume of first cube = 3³ = 27 cm³. Density = 27 kg / 27 cm³ = 1 kg/cm³. Volume of second cube = 64 kg / 1 kg/cm³ = 64 cm³. Edge = ∛64 = 4 cm.",
+    "solution_hindi": "पहले घन का आयतन = 3³ = 27 सेमी³। घनत्व = 27 किग्रा / 27 सेमी³ = 1 किग्रा/सेमी³। दूसरे घन का आयतन = 64 किग्रा / 1 किग्रा/सेमी³ = 64 सेमी³। भुजा = ∛64 = 4 सेमी।"
+  },
+  {
+    "question_english": "The least number which is exactly divisible by 12, 15, 20 and 54 is:",
+    "question_hindi": "वह न्यूनतम संख्या जो 12, 15, 20 और 54 से पूरी तरह विभाज्य है, क्या है?",
+    "options_english": ["A. 540", "B. 600", "C. 720", "D. 900"],
+    "options_hindi": ["A. 540", "B. 600", "C. 720", "D. 900"],
+    "answer_english": "A. 540",
+    "answer_hindi": "A. 540",
+    "solution_english": "LCM of 12, 15, 20, and 54 = 2³ × 3³ × 5 = 540.",
+    "solution_hindi": "12, 15, 20 और 54 का लघुत्तम समापवर्त्य (LCM) = 2³ × 3³ × 5 = 540।"
+  },
+  {
+    "question_english": "If a train runs at 60 km/hr, it reaches its destination 15 minutes late, but if it runs at 80 km/hr, it is 15 minutes early. What is the distance to the destination?",
+    "question_hindi": "यदि एक ट्रेन 60 किमी/घं. की गति से चलती है, तो यह अपने गंतव्य पर 15 मिनट देर से पहुँचती है, लेकिन यदि यह 80 किमी/घं. की गति से चलती है, तो यह 15 मिनट पहले पहुँचती है। गंतव्य की दूरी क्या है?",
+    "options_english": ["A. 100 km", "B. 120 km", "C. 80 km", "D. 90 km"],
+    "options_hindi": ["A. 100 किमी", "B. 120 किमी", "C. 80 किमी", "D. 90 किमी"],
+    "answer_english": "B. 120 km",
+    "answer_hindi": "B. 120 किमी",
+    "solution_english": "Let distance = d km, time difference = 30 min = 0.5 hr. So, d/60 – d/80 = 0.5 → (4d - 3d)/240 = 0.5 → d = 120 km.",
+    "solution_hindi": "मान लीजिए दूरी = d किमी, समयांतर = 30 मिनट = 0.5 घंटे। इसलिए d/60 – d/80 = 0.5 → (4d - 3d)/240 = 0.5 → d = 120 किमी।"
+  },
+  {
+    "question_english": "Which of the following is a non-renewable source of energy?",
+    "question_hindi": "निम्नलिखित में से कौन ऊर्जा का गैर-नवीकरणीय स्रोत है?",
+    "options_english": ["A. Wind", "B. Solar", "C. Coal", "D. Hydroelectric"],
+    "options_hindi": ["A. पवन", "B. सौर", "C. कोयला", "D. जलविद्युत"],
+    "answer_english": "C. Coal",
+    "answer_hindi": "C. कोयला",
+    "solution_english": "Coal is a fossil fuel and takes millions of years to form. It cannot be replenished quickly, so it is non-renewable.",
+    "solution_hindi": "कोयला एक जीवाश्म ईंधन है और इसके बनने में लाखों वर्ष लगते हैं। यह जल्दी पुनः प्राप्त नहीं किया जा सकता, इसलिए यह गैर-नवीकरणीय है।"
+  },
+  {
+    "question_english": "Which gas is used in the preparation of soda water?",
+    "question_hindi": "सोडा वाटर के निर्माण में कौन सी गैस प्रयोग की जाती है?",
+    "options_english": ["A. Oxygen", "B. Hydrogen", "C. Carbon dioxide", "D. Nitrogen"],
+    "options_hindi": ["A. ऑक्सीजन", "B. हाइड्रोजन", "C. कार्बन डाइऑक्साइड", "D. नाइट्रोजन"],
+    "answer_english": "C. Carbon dioxide",
+    "answer_hindi": "C. कार्बन डाइऑक्साइड",
+    "solution_english": "Soda water is made by dissolving carbon dioxide gas under pressure in water.",
+    "solution_hindi": "सोडा वाटर को पानी में दाब के तहत कार्बन डाइऑक्साइड गैस घोलकर बनाया जाता है।"
+  },
+  {
+    "question_english": "Who was the founder of the Maurya Empire?",
+    "question_hindi": "मौर्य साम्राज्य के संस्थापक कौन थे?",
+    "options_english": ["A. Ashoka", "B. Bindusara", "C. Chandragupta Maurya", "D. Bimbisara"],
+    "options_hindi": ["A. अशोक", "B. बिंदुसार", "C. चंद्रगुप्त मौर्य", "D. बिंबिसार"],
+    "answer_english": "C. Chandragupta Maurya",
+    "answer_hindi": "C. चंद्रगुप्त मौर्य",
+    "solution_english": "Chandragupta Maurya founded the Maurya Empire in 321 BC with the help of Chanakya after overthrowing the Nanda dynasty.",
+    "solution_hindi": "चंद्रगुप्त मौर्य ने 321 ई.पू. में चाणक्य की सहायता से नंद वंश को पराजित कर मौर्य साम्राज्य की स्थापना की।"
+  },
+  {
+    "question_english": "Which is the largest gland in the human body?",
+    "question_hindi": "मानव शरीर की सबसे बड़ी ग्रंथि कौन सी है?",
+    "options_english": ["A. Liver", "B. Pancreas", "C. Pituitary", "D. Thyroid"],
+    "options_hindi": ["A. यकृत (लिवर)", "B. अग्न्याशय", "C. पीयूष ग्रंथि", "D. थायरॉयड"],
+    "answer_english": "A. Liver",
+    "answer_hindi": "A. यकृत (लिवर)",
+    "solution_english": "The liver is the largest gland in the human body, performing vital functions like detoxification, protein synthesis, and bile production.",
+    "solution_hindi": "लिवर मानव शरीर की सबसे बड़ी ग्रंथि है, जो विषहरण, प्रोटीन संश्लेषण और पित्त निर्माण जैसे महत्वपूर्ण कार्य करती है।"
+  },
+  {
+    "question_english": "The SI unit of electric current is:",
+    "question_hindi": "विद्युत धारा की एसआई इकाई क्या है?",
+    "options_english": ["A. Volt", "B. Ampere", "C. Ohm", "D. Coulomb"],
+    "options_hindi": ["A. वोल्ट", "B. एंपियर", "C. ओम", "D. कूलॉम"],
+    "answer_english": "B. Ampere",
+    "answer_hindi": "B. एंपियर",
+    "solution_english": "Ampere (A) is the SI unit of electric current, named after André-Marie Ampère.",
+    "solution_hindi": "एंपियर (A) विद्युत धारा की एसआई इकाई है, जिसका नाम आंद्रे-मैरी एंपियर के नाम पर रखा गया है।"
+  },
+  {
+    "question_english": "Who was the first woman Prime Minister of India?",
+    "question_hindi": "भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+    "options_english": ["A. Pratibha Patil", "B. Sonia Gandhi", "C. Indira Gandhi", "D. Sarojini Naidu"],
+    "options_hindi": ["A. प्रतिभा पाटिल", "B. सोनिया गांधी", "C. इंदिरा गांधी", "D. सरोजिनी नायडू"],
+    "answer_english": "C. Indira Gandhi",
+    "answer_hindi": "C. इंदिरा गांधी",
+    "solution_english": "Indira Gandhi became the first woman Prime Minister of India in 1966.",
+    "solution_hindi": "इंदिरा गांधी 1966 में भारत की पहली महिला प्रधानमंत्री बनीं।"
+  },
+  {
+    "question_english": "The chemical formula of washing soda is:",
+    "question_hindi": "वाशिंग सोडा का रासायनिक सूत्र क्या है?",
+    "options_english": ["A. Na2CO3·10H2O", "B. NaHCO3", "C. CaCO3", "D. K2CO3"],
+    "options_hindi": ["A. Na2CO3·10H2O", "B. NaHCO3", "C. CaCO3", "D. K2CO3"],
+    "answer_english": "A. Na2CO3·10H2O",
+    "answer_hindi": "A. Na2CO3·10H2O",
+    "solution_english": "Washing soda is chemically sodium carbonate decahydrate (Na2CO3·10H2O).",
+    "solution_hindi": "वाशिंग सोडा रासायनिक रूप से सोडियम कार्बोनेट डेकाहाइड्रेट (Na2CO3·10H2O) होता है।"
+  },{
+    "question_english": "Which instrument is used to measure atmospheric pressure?",
+    "question_hindi": "वायुमंडलीय दाब को मापने के लिए कौन सा यंत्र प्रयोग किया जाता है?",
+    "options_english": ["A. Thermometer", "B. Barometer", "C. Anemometer", "D. Hygrometer"],
+    "options_hindi": ["A. थर्मामीटर", "B. बैरोमीटर", "C. एनीमोमीटर", "D. हाइग्रोमीटर"],
+    "answer_english": "B. Barometer",
+    "answer_hindi": "B. बैरोमीटर",
+    "solution_english": "A barometer is an instrument used to measure atmospheric pressure. It helps in weather forecasting and determining altitude.",
+    "solution_hindi": "बैरोमीटर एक यंत्र है जो वायुमंडलीय दाब को मापने के लिए प्रयोग किया जाता है। यह मौसम पूर्वानुमान और ऊँचाई ज्ञात करने में मदद करता है।"
+  },
+  {
+    "question_english": "The process by which plants prepare their food is called:",
+    "question_hindi": "वह प्रक्रिया जिससे पौधे अपना भोजन बनाते हैं, क्या कहलाती है?",
+    "options_english": ["A. Respiration", "B. Transpiration", "C. Photosynthesis", "D. Germination"],
+    "options_hindi": ["A. श्वसन", "B. वाष्पोत्सर्जन", "C. प्रकाश संश्लेषण", "D. अंकुरण"],
+    "answer_english": "C. Photosynthesis",
+    "answer_hindi": "C. प्रकाश संश्लेषण",
+    "solution_english": "Plants prepare their food using sunlight, carbon dioxide, and water through the process called photosynthesis.",
+    "solution_hindi": "पौधे सूर्य के प्रकाश, कार्बन डाइऑक्साइड और पानी की सहायता से प्रकाश संश्लेषण की प्रक्रिया द्वारा अपना भोजन बनाते हैं।"
+  },
+  {
+    "question_english": "The ozone layer is found in which layer of the atmosphere?",
+    "question_hindi": "ओज़ोन परत वायुमंडल की किस परत में पाई जाती है?",
+    "options_english": ["A. Troposphere", "B. Stratosphere", "C. Mesosphere", "D. Thermosphere"],
+    "options_hindi": ["A. क्षोभमंडल", "B. समतापमंडल", "C. मध्यमंडल", "D. तापमंडल"],
+    "answer_english": "B. Stratosphere",
+    "answer_hindi": "B. समतापमंडल",
+    "solution_english": "The ozone layer is located in the stratosphere, where it absorbs harmful ultraviolet (UV) radiation from the sun.",
+    "solution_hindi": "ओज़ोन परत समतापमंडल में पाई जाती है, जहाँ यह सूर्य की हानिकारक पराबैंगनी (यूवी) किरणों को अवशोषित करती है।"
+  },
+  {
+    "question_english": "Which planet is known as the Red Planet?",
+    "question_hindi": "कौन सा ग्रह 'लाल ग्रह' के नाम से जाना जाता है?",
+    "options_english": ["A. Venus", "B. Mars", "C. Jupiter", "D. Mercury"],
+    "options_hindi": ["A. शुक्र", "B. मंगल", "C. बृहस्पति", "D. बुध"],
+    "answer_english": "B. Mars",
+    "answer_hindi": "B. मंगल",
+    "solution_english": "Mars appears red due to the presence of iron oxide (rust) on its surface, which gives it the nickname ‘Red Planet’.",
+    "solution_hindi": "मंगल ग्रह की सतह पर लोहे के ऑक्साइड (जंग) की उपस्थिति के कारण यह लाल दिखाई देता है, इसलिए इसे 'लाल ग्रह' कहा जाता है।"
+  },
+  {
+    "question_english": "Who was the first person to reach the South Pole?",
+    "question_hindi": "दक्षिणी ध्रुव पर पहुंचने वाला पहला व्यक्ति कौन था?",
+    "options_english": ["A. Robert Peary", "B. Roald Amundsen", "C. Edmund Hillary", "D. Neil Armstrong"],
+    "options_hindi": ["A. रॉबर्ट पीरी", "B. रॉल्ड एमंडसन", "C. एडमंड हिलेरी", "D. नील आर्मस्ट्रांग"],
+    "answer_english": "B. Roald Amundsen",
+    "answer_hindi": "B. रॉल्ड एमंडसन",
+    "solution_english": "Norwegian explorer Roald Amundsen was the first to reach the South Pole on December 14, 1911.",
+    "solution_hindi": "नॉर्वे के अन्वेषक रॉल्ड एमंडसन 14 दिसंबर 1911 को दक्षिणी ध्रुव पर पहुंचने वाले पहले व्यक्ति थे।"
+  },
+  {
+    "question_english": "Which is the smallest bone in the human body?",
+    "question_hindi": "मानव शरीर की सबसे छोटी हड्डी कौन सी है?",
+    "options_english": ["A. Stapes", "B. Femur", "C. Ulna", "D. Radius"],
+    "options_hindi": ["A. स्टेप्स", "B. फीमर", "C. अलना", "D. रेडियस"],
+    "answer_english": "A. Stapes",
+    "answer_hindi": "A. स्टेप्स",
+    "solution_english": "The stapes bone, located in the middle ear, is the smallest bone in the human body.",
+    "solution_hindi": "स्टेप्स हड्डी, जो मध्य कान में स्थित होती है, मानव शरीर की सबसे छोटी हड्डी है।"
+  },
+  {
+    "question_english": "Who wrote the national anthem of India?",
+    "question_hindi": "भारत का राष्ट्रगान किसने लिखा था?",
+    "options_english": ["A. Bankim Chandra Chatterjee", "B. Rabindranath Tagore", "C. Sarojini Naidu", "D. Subhash Chandra Bose"],
+    "options_hindi": ["A. बंकिम चंद्र चट्टोपाध्याय", "B. रवींद्रनाथ टैगोर", "C. सरोजिनी नायडू", "D. सुभाष चंद्र बोस"],
+    "answer_english": "B. Rabindranath Tagore",
+    "answer_hindi": "B. रवींद्रनाथ टैगोर",
+    "solution_english": "The Indian national anthem ‘Jana Gana Mana’ was written by Rabindranath Tagore in Bengali.",
+    "solution_hindi": "भारत का राष्ट्रगान ‘जन गण मन’ रवींद्रनाथ टैगोर द्वारा बंगाली में लिखा गया था।"
+  },
+  {
+    "question_english": "Which metal is liquid at room temperature?",
+    "question_hindi": "कौन सी धातु कमरे के तापमान पर द्रव अवस्था में रहती है?",
+    "options_english": ["A. Mercury", "B. Iron", "C. Aluminium", "D. Zinc"],
+    "options_hindi": ["A. पारा", "B. लोहा", "C. एल्युमिनियम", "D. जस्ता"],
+    "answer_english": "A. Mercury",
+    "answer_hindi": "A. पारा",
+    "solution_english": "Mercury (Hg) is the only metal that exists as a liquid at room temperature.",
+    "solution_hindi": "पारा (Hg) एकमात्र धातु है जो कमरे के तापमान पर द्रव अवस्था में रहती है।"
+  },
+  {
+    "question_english": "Which city is known as the ‘Pink City’ of India?",
+    "question_hindi": "भारत का 'गुलाबी नगर' किस शहर को कहा जाता है?",
+    "options_english": ["A. Udaipur", "B. Jaipur", "C. Jodhpur", "D. Varanasi"],
+    "options_hindi": ["A. उदयपुर", "B. जयपुर", "C. जोधपुर", "D. वाराणसी"],
+    "answer_english": "B. Jaipur",
+    "answer_hindi": "B. जयपुर",
+    "solution_english": "Jaipur, the capital of Rajasthan, is called the ‘Pink City’ due to the pink-colored sandstone buildings in the city.",
+    "solution_hindi": "राजस्थान की राजधानी जयपुर को इसके गुलाबी रंग के बलुआ पत्थर की इमारतों के कारण 'गुलाबी नगर' कहा जाता है।"
+  },
+  {
+    "question_english": "In which year did India get independence?",
+    "question_hindi": "भारत को स्वतंत्रता किस वर्ष मिली थी?",
+    "options_english": ["A. 1945", "B. 1946", "C. 1947", "D. 1948"],
+    "options_hindi": ["A. 1945", "B. 1946", "C. 1947", "D. 1948"],
+    "answer_english": "C. 1947",
+    "answer_hindi": "C. 1947",
+    "solution_english": "India gained independence from British rule on 15th August 1947.",
+    "solution_hindi": "भारत ने 15 अगस्त 1947 को ब्रिटिश शासन से स्वतंत्रता प्राप्त की।"
+  },{
+"question_english": "Who among the following is known as the 'Father of Indian Renaissance'?",
+"options_english": "A). Raja Ram Mohan Roy B). Swami Vivekananda C). Mahatma Gandhi D). Ishwar Chandra Vidyasagar",
+"correct_answer": "A",
+"solution_english": "Raja Ram Mohan Roy is considered the Father of Indian Renaissance for his role in social and educational reforms during the 19th century. He fought against social evils like Sati and promoted modern education and women's rights.",
+"question_hindi": "निम्नलिखित में से किसे 'भारतीय पुनर्जागरण का जनक' कहा जाता है?",
+"options_hindi": "A). राजा राम मोहन राय B). स्वामी विवेकानंद C). महात्मा गांधी D). ईश्वर चंद्र विद्यासागर",
+"correct_answer_hindi": "A",
+"solution_hindi": "राजा राम मोहन राय को 19वीं सदी के दौरान सामाजिक और शैक्षिक सुधारों में उनकी भूमिका के लिए भारतीय पुनर्जागरण का जनक माना जाता है। उन्होंने सती जैसी सामाजिक कुरीतियों के खिलाफ संघर्ष किया और आधुनिक शिक्षा व महिलाओं के अधिकारों को बढ़ावा दिया।"
+},
+{
+"question_english": "Which of the following is the largest planet in our solar system?",
+"options_english": "A). Earth B). Mars C). Jupiter D). Saturn",
+"correct_answer": "C",
+"solution_english": "Jupiter is the largest planet in our solar system, with a diameter of about 143,000 kilometers, more than 11 times that of Earth.",
+"question_hindi": "निम्नलिखित में से कौन हमारे सौरमंडल का सबसे बड़ा ग्रह है?",
+"options_hindi": "A). पृथ्वी B). मंगल C). बृहस्पति D). शनि",
+"correct_answer_hindi": "C",
+"solution_hindi": "बृहस्पति हमारे सौरमंडल का सबसे बड़ा ग्रह है, जिसका व्यास लगभग 1,43,000 किलोमीटर है, जो पृथ्वी से 11 गुना से अधिक है।"
+},
+{
+"question_english": "Which of the following was the first Indian satellite?",
+"options_english": "A). INSAT-1A B). Aryabhata C). Bhaskara D). APPLE",
+"correct_answer": "B",
+"solution_english": "Aryabhata was India’s first satellite, launched on 19 April 1975 by the Soviet Union.",
+"question_hindi": "निम्नलिखित में से भारत का पहला उपग्रह कौन सा था?",
+"options_hindi": "A). इनसैट-1A B). आर्यभट C). भास्कर D). एप्पल",
+"correct_answer_hindi": "B",
+"solution_hindi": "आर्यभट भारत का पहला उपग्रह था, जिसे 19 अप्रैल 1975 को सोवियत संघ द्वारा प्रक्षेपित किया गया था।"
+},
+{
+"question_english": "The headquarters of the International Court of Justice is located in ________.",
+"options_english": "A). Geneva B). Hague C). New York D). Paris",
+"correct_answer": "B",
+"solution_english": "The International Court of Justice (ICJ) is headquartered at The Hague in the Netherlands.",
+"question_hindi": "अंतर्राष्ट्रीय न्यायालय का मुख्यालय ________ में स्थित है।",
+"options_hindi": "A). जिनेवा B). हेग C). न्यूयॉर्क D). पेरिस",
+"correct_answer_hindi": "B",
+"solution_hindi": "अंतर्राष्ट्रीय न्यायालय (ICJ) का मुख्यालय नीदरलैंड के हेग शहर में स्थित है।"
+},
+{
+"question_english": "Who was the first woman Governor of an Indian state?",
+"options_english": "A). Vijayalakshmi Pandit B). Sarojini Naidu C). Sucheta Kriplani D). Indira Gandhi",
+"correct_answer": "B",
+"solution_english": "Sarojini Naidu became the first woman Governor of an Indian state, serving as the Governor of Uttar Pradesh after independence.",
+"question_hindi": "भारतीय राज्य की पहली महिला राज्यपाल कौन थीं?",
+"options_hindi": "A). विजयलक्ष्मी पंडित B). सरोजिनी नायडू C). सुचेता कृपलानी D). इंदिरा गांधी",
+"correct_answer_hindi": "B",
+"solution_hindi": "सरोजिनी नायडू स्वतंत्रता के बाद उत्तर प्रदेश की राज्यपाल बनीं और भारतीय राज्य की पहली महिला राज्यपाल थीं।"
+},
+{
+"question_english": "The smallest bone in the human body is found in the ________.",
+"options_english": "A). Ear B). Nose C). Hand D). Foot",
+"correct_answer": "A",
+"solution_english": "The stapes bone in the middle ear is the smallest bone in the human body.",
+"question_hindi": "मानव शरीर की सबसे छोटी हड्डी ________ में पाई जाती है।",
+"options_hindi": "A). कान B). नाक C). हाथ D). पैर",
+"correct_answer_hindi": "A",
+"solution_hindi": "कान के मध्य भाग में स्थित स्टेप्स (Stapes) हड्डी मानव शरीर की सबसे छोटी हड्डी होती है।"
+},
+{
+"question_english": "The book ‘Arthashastra’ was written by ________.",
+"options_english": "A). Kalidasa B). Chanakya C). Tulsidas D). Banabhatta",
+"correct_answer": "B",
+"solution_english": "‘Arthashastra’ was written by Chanakya (also known as Kautilya or Vishnugupta), an ancient Indian teacher, philosopher, and economist.",
+"question_hindi": "‘अर्थशास्त्र’ पुस्तक किसने लिखी थी?",
+"options_hindi": "A). कालिदास B). चाणक्य C). तुलसीदास D). बाणभट्ट",
+"correct_answer_hindi": "B",
+"solution_hindi": "‘अर्थशास्त्र’ प्राचीन भारतीय शिक्षक, दार्शनिक और अर्थशास्त्री चाणक्य (जिन्हें कौटिल्य या विष्णुगुप्त भी कहा जाता है) द्वारा लिखी गई थी।"
+},
+{
+"question_english": "In which year did India host the Asian Games for the first time?",
+"options_english": "A). 1951 B). 1955 C). 1962 D). 1970",
+"correct_answer": "A",
+"solution_english": "India hosted the first Asian Games in 1951 in New Delhi.",
+"question_hindi": "भारत ने पहली बार एशियाई खेलों की मेजबानी किस वर्ष की थी?",
+"options_hindi": "A). 1951 B). 1955 C). 1962 D). 1970",
+"correct_answer_hindi": "A",
+"solution_hindi": "भारत ने 1951 में नई दिल्ली में पहली बार एशियाई खेलों की मेजबानी की थी।"
+},
+{
+"question_english": "The chemical formula of water is ________.",
+"options_english": "A). CO₂ B). H₂O C). NaCl D). O₂",
+"correct_answer": "B",
+"solution_english": "The chemical formula of water is H₂O, consisting of two hydrogen atoms and one oxygen atom.",
+"question_hindi": "पानी का रासायनिक सूत्र ________ है।",
+"options_hindi": "A). CO₂ B). H₂O C). NaCl D). O₂",
+"correct_answer_hindi": "B",
+"solution_hindi": "पानी का रासायनिक सूत्र H₂O है, जिसमें दो हाइड्रोजन परमाणु और एक ऑक्सीजन परमाणु होते हैं।"
+},
+{
+"question_english": "Who was the first Indian to go into space?",
+"options_english": "A). Kalpana Chawla B). Rakesh Sharma C). Sunita Williams D). Ravish Malhotra",
+"correct_answer": "B",
+"solution_english": "Rakesh Sharma became the first Indian in space in 1984 aboard the Soviet spacecraft Soyuz T-11.",
+"question_hindi": "अंतरिक्ष में जाने वाले पहले भारतीय कौन थे?",
+"options_hindi": "A). कल्पना चावला B). राकेश शर्मा C). सुनीता विलियम्स D). रविश मल्होत्रा",
+"correct_answer_hindi": "B",
+"solution_hindi": "राकेश शर्मा 1984 में सोवियत अंतरिक्षयान सोयुज टी-11 पर सवार होकर अंतरिक्ष में जाने वाले पहले भारतीय बने।"
+},{
+"question_english": "Who was the founder of the Maurya Empire?",
+"options_english": "A). Ashoka B). Chandragupta Maurya C). Bindusara D). Bimbisara",
+"correct_answer": "B",
+"solution_english": "Chandragupta Maurya founded the Maurya Empire in 321 BCE with the help of Chanakya. He established one of the largest empires in ancient India.",
+"question_hindi": "मौर्य साम्राज्य के संस्थापक कौन थे?",
+"options_hindi": "A). अशोक B). चंद्रगुप्त मौर्य C). बिंदुसार D). बिंबिसार",
+"correct_answer_hindi": "B",
+"solution_hindi": "चंद्रगुप्त मौर्य ने 321 ई.पू. में चाणक्य की सहायता से मौर्य साम्राज्य की स्थापना की। उन्होंने प्राचीन भारत के सबसे बड़े साम्राज्यों में से एक की नींव रखी।"
+},
+{
+"question_english": "Which instrument is used to measure atmospheric pressure?",
+"options_english": "A). Thermometer B). Barometer C). Hygrometer D). Anemometer",
+"correct_answer": "B",
+"solution_english": "A barometer is used to measure atmospheric pressure. Mercury barometers and aneroid barometers are two common types.",
+"question_hindi": "वायुमंडलीय दाब मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+"options_hindi": "A). थर्मामीटर B). बैरोमीटर C). हाइग्रोमीटर D). एनीमोमीटर",
+"correct_answer_hindi": "B",
+"solution_hindi": "वायुमंडलीय दाब मापने के लिए बैरोमीटर का उपयोग किया जाता है। मरकरी बैरोमीटर और एनेरॉइड बैरोमीटर इसके दो सामान्य प्रकार हैं।"
+},
+{
+"question_english": "The Dandi March was started by Mahatma Gandhi in which year?",
+"options_english": "A). 1919 B). 1929 C). 1930 D). 1942",
+"correct_answer": "C",
+"solution_english": "The Dandi March or Salt March began on 12 March 1930 as part of the Civil Disobedience Movement against British salt laws.",
+"question_hindi": "महात्मा गांधी ने दांडी मार्च की शुरुआत किस वर्ष की थी?",
+"options_hindi": "A). 1919 B). 1929 C). 1930 D). 1942",
+"correct_answer_hindi": "C",
+"solution_hindi": "दांडी मार्च या नमक सत्याग्रह की शुरुआत 12 मार्च 1930 को ब्रिटिश नमक कानूनों के खिलाफ सविनय अवज्ञा आंदोलन के हिस्से के रूप में की गई थी।"
+},
+{
+"question_english": "Which gas is essential for photosynthesis?",
+"options_english": "A). Oxygen B). Carbon dioxide C). Nitrogen D). Hydrogen",
+"correct_answer": "B",
+"solution_english": "Plants use carbon dioxide, water, and sunlight during photosynthesis to produce glucose and oxygen.",
+"question_hindi": "प्रकाश संश्लेषण के लिए कौन सी गैस आवश्यक है?",
+"options_hindi": "A). ऑक्सीजन B). कार्बन डाइऑक्साइड C). नाइट्रोजन D). हाइड्रोजन",
+"correct_answer_hindi": "B",
+"solution_hindi": "पौधे प्रकाश संश्लेषण के दौरान कार्बन डाइऑक्साइड, पानी और सूर्य के प्रकाश का उपयोग करके ग्लूकोज़ और ऑक्सीजन का निर्माण करते हैं।"
+},
+{
+"question_english": "Which city is known as the ‘Silicon Valley of India’?",
+"options_english": "A). Hyderabad B). Pune C). Bengaluru D). Chennai",
+"correct_answer": "C",
+"solution_english": "Bengaluru (Bangalore) is known as the ‘Silicon Valley of India’ due to its prominence as a hub for information technology companies.",
+"question_hindi": "कौन सा शहर 'भारत की सिलिकॉन वैली' के रूप में जाना जाता है?",
+"options_hindi": "A). हैदराबाद B). पुणे C). बेंगलुरु D). चेन्नई",
+"correct_answer_hindi": "C",
+"solution_hindi": "बेंगलुरु (बैंगलोर) को सूचना प्रौद्योगिकी कंपनियों के प्रमुख केंद्र के रूप में ‘भारत की सिलिकॉन वैली’ कहा जाता है।"
+},
+{
+"question_english": "Who invented the telephone?",
+"options_english": "A). Alexander Graham Bell B). Thomas Edison C). Guglielmo Marconi D). James Watt",
+"correct_answer": "A",
+"solution_english": "Alexander Graham Bell is credited with inventing the first practical telephone in 1876.",
+"question_hindi": "टेलीफोन का आविष्कार किसने किया था?",
+"options_hindi": "A). अलेक्जेंडर ग्राहम बेल B). थॉमस एडिसन C). गुग्लिएल्मो मार्कोनी D). जेम्स वाट",
+"correct_answer_hindi": "A",
+"solution_hindi": "अलेक्जेंडर ग्राहम बेल को 1876 में पहले व्यावहारिक टेलीफोन के आविष्कार का श्रेय दिया जाता है।"
+},
+{
+"question_english": "Which Indian state has the longest coastline?",
+"options_english": "A). Gujarat B). Tamil Nadu C). Kerala D). Andhra Pradesh",
+"correct_answer": "A",
+"solution_english": "Gujarat has the longest coastline among Indian states, stretching about 1,600 kilometers.",
+"question_hindi": "किस भारतीय राज्य की समुद्री तटरेखा सबसे लंबी है?",
+"options_hindi": "A). गुजरात B). तमिलनाडु C). केरल D). आंध्र प्रदेश",
+"correct_answer_hindi": "A",
+"solution_hindi": "भारतीय राज्यों में गुजरात की तटरेखा सबसे लंबी है, जिसकी लंबाई लगभग 1,600 किलोमीटर है।"
+},
+{
+"question_english": "Who was the first Indian woman to win an Olympic medal?",
+"options_english": "A). P.T. Usha B). Karnam Malleswari C). Saina Nehwal D). Mary Kom",
+"correct_answer": "B",
+"solution_english": "Karnam Malleswari won a bronze medal in weightlifting at the 2000 Sydney Olympics, becoming the first Indian woman to win an Olympic medal.",
+"question_hindi": "ओलंपिक पदक जीतने वाली पहली भारतीय महिला कौन थीं?",
+"options_hindi": "A). पी. टी. उषा B). कर्णम मल्लेश्वरी C). साइना नेहवाल D). मैरी कॉम",
+"correct_answer_hindi": "B",
+"solution_hindi": "कर्णम मल्लेश्वरी ने 2000 के सिडनी ओलंपिक में वेटलिफ्टिंग में कांस्य पदक जीतकर ओलंपिक पदक जीतने वाली पहली भारतीय महिला बनीं।"
+},
+{
+"question_english": "Which of the following rivers does NOT originate in India?",
+"options_english": "A). Brahmaputra B). Ganga C). Yamuna D). Godavari",
+"correct_answer": "A",
+"solution_english": "The Brahmaputra River originates in Tibet, where it is known as the Tsangpo River, before entering India in Arunachal Pradesh.",
+"question_hindi": "निम्नलिखित में से कौन सी नदी भारत में उत्पन्न नहीं होती है?",
+"options_hindi": "A). ब्रह्मपुत्र B). गंगा C). यमुना D). गोदावरी",
+"correct_answer_hindi": "A",
+"solution_hindi": "ब्रह्मपुत्र नदी का उद्गम तिब्बत में होता है, जहाँ इसे त्सांगपो नदी कहा जाता है, और यह अरुणाचल प्रदेश में भारत में प्रवेश करती है।"
+},
+{
+"question_english": "Who among the following wrote the National Anthem of India?",
+"options_english": "A). Bankim Chandra Chatterjee B). Rabindranath Tagore C). Mahatma Gandhi D). Subhas Chandra Bose",
+"correct_answer": "B",
+"solution_english": "The National Anthem of India, ‘Jana Gana Mana’, was written by Rabindranath Tagore.",
+"question_hindi": "भारत के राष्ट्रीय गान को निम्नलिखित में से किसने लिखा?",
+"options_hindi": "A). बंकिम चंद्र चट्टोपाध्याय B). रवीन्द्रनाथ टैगोर C). महात्मा गांधी D). सुभाष चंद्र बोस",
+"correct_answer_hindi": "B",
+"solution_hindi": "भारत का राष्ट्रीय गान ‘जन गण मन’ रवीन्द्रनाथ टैगोर द्वारा लिखा गया था।"
+},{
+    "question_english": "Which of the following Acts ended the British East India Company's rule in India and placed India under the Crown of England?",
+    "question_hindi": "निम्नलिखित में से किस अधिनियम ने भारत में ब्रिटिश ईस्ट इंडिया कंपनी के शासन को समाप्त कर दिया और भारत को इंग्लैंड के ताज के अधीन कर दिया?",
+    "options_english": "(a) Charter Act of 1853\n(b) Indian Councils Act, 1861\n(c) The Regulating Act, 1773\n(d) Government of India Act of 1858",
+    "options_hindi": "(a) 1853 का चार्टर अधिनियम\n(b) भारतीय परिषद अधिनियम, 1861\n(c) रेगुलेटिंग एक्ट, 1773\n(d) 1858 का भारत सरकार अधिनियम",
+    "answer_english": "(d) Government of India Act of 1858",
+    "answer_hindi": "(d) 1858 का भारत सरकार अधिनियम",
+    "solution_english": "The Government of India Act of 1858 was enacted in the wake of the Indian Rebellion of 1857. This act abolished the rule of the British East India Company and transferred its powers, territories, and revenues directly to the British Crown. This marked the beginning of the British Raj, where India was directly ruled by the British government.",
+    "solution_hindi": "1857 के भारतीय विद्रोह के मद्देनजर 1858 का भारत सरकार अधिनियम बनाया गया था। इस अधिनियम ने ब्रिटिश ईस्ट इंडिया कंपनी के शासन को समाप्त कर दिया और उसकी शक्तियों, क्षेत्रों और राजस्व को सीधे ब्रिटिश क्राउन को हस्तांतरित कर दिया। इसने ब्रिटिश राज की शुरुआत को चिह्नित किया, जहां भारत पर सीधे ब्रिटिश सरकार का शासन था।"
+},
+{
+    "question_english": "Which among the following is the most widely illustrated canonical text in the Jain tradition?",
+    "question_hindi": "जैन परंपरा में निम्नलिखित में से कौन सा सबसे व्यापक रूप से चित्रित विहित ग्रंथ है?",
+    "options_english": "(a) Kalakacharyakatha\n(b) Sangrahini Sutra\n(c) Uttaradhyana Sutra\n(d) Kalpasutra",
+    "options_hindi": "(a) कालकाचार्यकथा\n(b) संग्रहणी सूत्र\n(c) उत्तराध्ययन सूत्र\n(d) कल्पसूत्र",
+    "answer_english": "(d) Kalpasutra",
+    "answer_hindi": "(d) कल्पसूत्र",
+    "solution_english": "The Kalpasutra is a Jain text containing the biographies of the Jain Tirthankaras, notably Parshvanatha and Mahavira. It is one of the most important and frequently illustrated texts in Jainism. Manuscripts of the Kalpasutra are often lavishly decorated with miniature paintings, making it a key text in the study of Western Indian manuscript illustration.",
+    "solution_hindi": "कल्पसूत्र एक जैन ग्रंथ है जिसमें जैन तीर्थंकरों, विशेष रूप से पार्श्वनाथ और महावीर की जीवनियाँ हैं। यह जैन धर्म में सबसे महत्वपूर्ण और अक्सर चित्रित किए जाने वाले ग्रंथों में से एक है। कल्पसूत्र की पांडुलिपियों को अक्सर लघु चित्रों से भव्य रूप से सजाया जाता है, जो इसे पश्चिमी भारतीय पांडुलिपि चित्रण के अध्ययन में एक प्रमुख ग्रंथ बनाता है।"
+},
+{
+    "question_english": "Where was the name of the Hindustan Republican Association (HRA) changed to Hindustan Socialist Republican Association (HSRA)?",
+    "question_hindi": "हिंदुस्तान रिपब्लिकन एसोसिएशन (HRA) का नाम बदलकर हिंदुस्तान सोशलिस्ट रिपब्लिकन एसोसिएशन (HSRA) कहाँ किया गया था?",
+    "options_english": "(a) Taj Mahal, Agra\n(b) Qila-i-Raipithora, Delhi\n(c) Firoz Shah Kotla Ground, Delhi\n(d) Qutb Minar, Delhi",
+    "options_hindi": "(a) ताजमहल, आगरा\n(b) किला-ए-रायपिथौरा, दिल्ली\n(c) फिरोज शाह कोटला मैदान, दिल्ली\n(d) कुतुब मीनार, दिल्ली",
+    "answer_english": "(c) Firoz Shah Kotla Ground, Delhi",
+    "answer_hindi": "(c) फिरोज शाह कोटला मैदान, दिल्ली",
+    "solution_english": "The Hindustan Republican Association (HRA), a revolutionary organization, was renamed the Hindustan Socialist Republican Association (HSRA) in 1928. This change took place during a secret meeting of revolutionaries from across North India, including Bhagat Singh and Chandrashekhar Azad, held at the ruins of the Firoz Shah Kotla fort in Delhi. The addition of 'Socialist' reflected the growing influence of socialist ideologies on the young freedom fighters.",
+    "solution_hindi": "एक क्रांतिकारी संगठन हिंदुस्तान रिपब्लिकन एसोसिएशन (HRA) का नाम 1928 में बदलकर हिंदुस्तान सोशलिस्ट रिपब्लिकन एसोसिएशन (HSRA) कर दिया गया। यह बदलाव दिल्ली में फिरोज शाह कोटला किले के खंडहरों में आयोजित भगत सिंह और चंद्रशेखर आजाद सहित पूरे उत्तर भारत के क्रांतिकारियों की एक गुप्त बैठक के दौरान हुआ। 'सोशलिस्ट' शब्द का जोड़ युवा स्वतंत्रता सेनानियों पर समाजवादी विचारधाराओं के बढ़ते प्रभाव को दर्शाता है।"
+},
+{
+    "question_english": "Where and when was the first G20 Summit held?",
+    "question_hindi": "पहला G20 शिखर सम्मेलन कहाँ और कब आयोजित किया गया था?",
+    "options_english": "(a) London, 2008\n(b) Washington D.C. (USA), 2008\n(c) Paris, 2010\n(d) Seoul, 2010",
+    "options_hindi": "(a) लंदन, 2008\n(b) वाशिंगटन डी.सी. (यूएसए), 2008\n(c) पेरिस, 2010\n(d) सियोल, 2010",
+    "answer_english": "(b) Washington D.C. (USA), 2008",
+    "answer_hindi": "(b) वाशिंगटन डी.सी. (यूएसए), 2008",
+    "solution_english": "The first G20 Leaders' Summit was held in Washington D.C., USA, in November 2008. The summit was convened to address the global financial crisis of 2008 and to coordinate a global response. While G20 finance ministers and central bank governors had been meeting since 1999, the 2008 meeting was the first to be held at the level of heads of state or government.",
+    "solution_hindi": "पहला G20 नेताओं का शिखर सम्मेलन नवंबर 2008 में वाशिंगटन डी.सी., यूएसए में आयोजित किया गया था। यह शिखर सम्मेलन 2008 के वैश्विक वित्तीय संकट को संबोधित करने और एक वैश्विक प्रतिक्रिया का समन्वय करने के लिए बुलाया गया था। जबकि G20 के वित्त मंत्री और केंद्रीय बैंक के गवर्नर 1999 से मिल रहे थे, 2008 की बैठक राष्ट्राध्यक्षों या शासनाध्यक्षों के स्तर पर आयोजित होने वाली पहली बैठक थी।"
+},
+{
+    "question_english": "National Commission for Scheduled Tribes came into existence as a separate commission in which of the following year?",
+    "question_hindi": "राष्ट्रीय अनुसूचित जनजाति आयोग किस वर्ष एक अलग आयोग के रूप में अस्तित्व में आया?",
+    "options_english": "(a) 2000\n(b) 2006\n(c) 2004\n(d) 2002",
+    "options_hindi": "(a) 2000\n(b) 2006\n(c) 2004\n(d) 2002",
+    "answer_english": "(c) 2004",
+    "answer_hindi": "(c) 2004",
+    "solution_english": "The National Commission for Scheduled Tribes (NCST) was established as a separate constitutional body in 2004. It was created by amending Article 338 and inserting a new Article 338A in the Constitution through the 89th Constitutional Amendment Act, 2003. Prior to this, there was a single National Commission for Scheduled Castes and Scheduled Tribes.",
+    "solution_hindi": "राष्ट्रीय अनुसूचित जनजाति आयोग (NCST) को 2004 में एक अलग संवैधानिक निकाय के रूप में स्थापित किया गया था। इसे 89वें संवैधानिक संशोधन अधिनियम, 2003 के माध्यम से संविधान के अनुच्छेद 338 में संशोधन करके और एक नया अनुच्छेद 338A डालकर बनाया गया था। इससे पहले, अनुसूचित जातियों और अनुसूचित जनजातियों के लिए एक ही राष्ट्रीय आयोग था।"
+},
+{
+    "question_english": "______ is displaced when zinc is added to the solution of copper sulphate.",
+    "question_hindi": "जब कॉपर सल्फेट के विलयन में जिंक मिलाया जाता है तो ______ विस्थापित हो जाता है।",
+    "options_english": "(a) Copper\n(b) Hydrogen\n(c) Zinc\n(d) Sulphate",
+    "options_hindi": "(a) कॉपर\n(b) हाइड्रोजन\n(c) जिंक\n(d) सल्फेट",
+    "answer_english": "(a) Copper",
+    "answer_hindi": "(a) कॉपर",
+    "solution_english": "This is a classic example of a single displacement reaction. Zinc is more reactive than copper, so when a piece of zinc metal is placed in a blue solution of copper sulphate (CuSO₄), the zinc displaces the copper from the solution. The zinc dissolves to form zinc sulphate (ZnSO₄), which is colorless, and solid copper metal is deposited. The reaction is: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s).",
+    "solution_hindi": "यह एक एकल विस्थापन अभिक्रिया का एक उत्कृष्ट उदाहरण है। जिंक कॉपर की तुलना में अधिक प्रतिक्रियाशील है, इसलिए जब जिंक धातु का एक टुकड़ा कॉपर सल्फेट (CuSO₄) के नीले विलयन में रखा जाता है, तो जिंक कॉपर को विलयन से विस्थापित कर देता है। जिंक घुलकर जिंक सल्फेट (ZnSO₄) बनाता है, जो रंगहीन होता है, और ठोस कॉपर धातु जमा हो जाती है। अभिक्रिया है: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)।"
+},
+{
+    "question_english": "______ hosts Sepak Takraw 2025 World Cup, 20 countries participating.",
+    "question_hindi": "______ सेपक टकरा 2025 विश्व कप की मेजबानी करेगा, जिसमें 20 देश भाग लेंगे।",
+    "options_english": "(a) Bihar\n(b) Uttar Pradesh\n(c) New Delhi\n(d) Haryana",
+    "options_hindi": "(a) बिहार\n(b) उत्तर प्रदेश\n(c) नई दिल्ली\n(d) हरियाणा",
+    "answer_english": "The host has not been officially announced yet.",
+    "answer_hindi": "मेजबान की अभी तक आधिकारिक घोषणा नहीं हुई है।",
+    "solution_english": "As of now, the host for the 2025 Sepak Takraw World Cup has not been finalized and officially announced by the International Sepak Takraw Federation (ISTAF). The question is based on future events for which information may not be available or confirmed. The 2024 World Cup was held in Kuala Lumpur, Malaysia.",
+    "solution_hindi": "अभी तक, 2025 सेपक टकरा विश्व कप के लिए मेजबान को अंतर्राष्ट्रीय सेपक टकरा महासंघ (ISTAF) द्वारा अंतिम रूप नहीं दिया गया है और आधिकारिक तौर पर घोषित नहीं किया गया है। यह प्रश्न भविष्य की घटनाओं पर आधारित है जिसके लिए जानकारी उपलब्ध या पुष्टि नहीं हो सकती है। 2024 विश्व कप कुआलालंपुर, मलेशिया में आयोजित किया गया था।"
+},
+{
+    "question_english": "______ is a monocot plant.",
+    "question_hindi": "______ एक एकबीजपत्री पौधा है।",
+    "options_english": "(a) Carrot\n(b) Daisy\n(c) Garlic\n(d) Rose",
+    "options_hindi": "(a) गाजर\n(b) डेज़ी\n(c) लहसुन\n(d) गुलाब",
+    "answer_english": "(c) Garlic",
+    "answer_hindi": "(c) लहसुन",
+    "solution_english": "Monocots (monocotyledons) are flowering plants whose seeds typically contain only one embryonic leaf, or cotyledon. They have other distinct features like floral parts in multiples of three, parallel leaf venation, and fibrous root systems. Garlic belongs to the lily family, which are monocots. Carrots, daisies, and roses are all dicots (dicotyledons), as their seeds have two cotyledons, and they exhibit features like net-like leaf venation and taproot systems.",
+    "solution_hindi": "एकबीजपत्री (मोनोकॉट) फूल वाले पौधे होते हैं जिनके बीजों में आमतौर पर केवल एक भ्रूणीय पत्ती, या बीजपत्र होता है। उनकी अन्य विशिष्ट विशेषताएं हैं जैसे तीन के गुणक में पुष्प भाग, समानांतर पत्ती शिराविन्यास, और रेशेदार जड़ प्रणाली। लहसुन लिली परिवार से संबंधित है, जो एकबीजपत्री हैं। गाजर, डेज़ी और गुलाब सभी द्विबीजपत्री (डायकॉट) हैं, क्योंकि उनके बीजों में दो बीजपत्र होते हैं, और वे जालीदार पत्ती शिराविन्यास और मूसला जड़ प्रणाली जैसी विशेषताएं प्रदर्शित करते हैं।"
+},
+{
+    "question_english": "Where is the Kabaddi World Cup 2025 being hosted?",
+    "question_hindi": "कबड्डी विश्व कप 2025 की मेजबानी कहाँ की जा रही है?",
+    "options_english": "(a) India\n(b) Iran\n(c) England\n(d) Russia",
+    "options_hindi": "(a) भारत\n(b) ईरान\n(c) इंग्लैंड\n(d) रूस",
+    "answer_english": "(c) England",
+    "answer_hindi": "(c) इंग्लैंड",
+    "solution_english": "The 2025 Kabaddi World Cup is scheduled to be hosted in the West Midlands region of England. This will be the first time the Kabaddi World Cup is held outside of Asia, and it is being organized by the World Kabaddi Federation.",
+    "solution_hindi": "2025 कबड्डी विश्व कप की मेजबानी इंग्लैंड के वेस्ट मिडलैंड्स क्षेत्र में होने वाली है। यह पहली बार होगा जब कबड्डी विश्व कप एशिया के बाहर आयोजित किया जाएगा, और इसका आयोजन विश्व कबड्डी महासंघ द्वारा किया जा रहा है।"
+},
+{
+    "question_english": "Who among the following is a famous Santoor instrumentalist?",
+    "question_hindi": "निम्नलिखित में से कौन एक प्रसिद्ध संतूर वादक हैं?",
+    "options_english": "(a) Shiv Kumar Sharma\n(b) Sajjad Hussain\n(c) Nikhil Banerjee\n(d) Ustad Binda Khan",
+    "options_hindi": "(a) शिव कुमार शर्मा\n(b) सज्जाद हुसैन\n(c) निखिल बनर्जी\n(d) उस्ताद बिंदा खान",
+    "answer_english": "(a) Shiv Kumar Sharma",
+    "answer_hindi": "(a) शिव कुमार शर्मा",
+    "solution_english": "Pandit Shivkumar Sharma was a legendary Indian classical musician and santoor maestro who is credited with adapting the santoor, a folk instrument from Jammu and Kashmir, for Indian classical music. He is considered the most famous and influential santoor player. Nikhil Banerjee was a sitar player, Sajjad Hussain was a film score composer and mandolin player, and Ustad Binda Khan was a renowned sarangi player.",
+    "solution_hindi": "पंडित शिवकुमार शर्मा एक महान भारतीय शास्त्रीय संगीतकार और संतूर वादक थे, जिन्हें जम्मू और कश्मीर के एक लोक वाद्य संतूर को भारतीय शास्त्रीय संगीत के लिए अनुकूलित करने का श्रेय दिया जाता है। उन्हें सबसे प्रसिद्ध और प्रभावशाली संतूर वादक माना जाता है। निखिल बनर्जी एक सितार वादक थे, सज्जाद हुसैन एक फिल्म संगीतकार और मैंडोलिन वादक थे, और उस्ताद बिंदा खान एक प्रसिद्ध सारंगी वादक थे।"
+}
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+             {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q1.png",
+  "question-english": "Two different positions of the same dice are shown, having letters B, C, D, E, F, and G written on its faces. Which letter is on the face opposite to the face having E on it?",
+  "question-hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं, जिनके चेहरों पर B, C, D, E, F और G अक्षर लिखे हुए हैं। E वाले चेहरे के विपरीत चेहरे पर कौन सा अक्षर है?",
+  "options-english":["A", "B", "C", "D"],
+  "options-hindi":["A", "B", "C", "D"],
+  "answer-english": "C",
+  "answer-hindi": "C",
+  "solution-english": "From the first dice, we see E, C, and G are adjacent. From the second dice, we see C, D, and F are adjacent. Since C is common and E and D do not appear together, they must be on opposite faces. Hence, the letter opposite to E is D.",
+  "solution-hindi": "पहले पासे में E, C और G एक-दूसरे के समीप हैं। दूसरे पासे में C, D और F एक-दूसरे के समीप हैं। चूंकि C सामान्य है और E तथा D साथ नहीं दिखाई देते, इसलिए वे विपरीत चेहरों पर होंगे। अतः E के विपरीत चेहरा D है।"
+},{
+"question-english": "What should come in place of the question mark (?) in the given series?\n3, 4, 12, 45, 196, ?",
+"question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?\n3, 4, 12, 45, 196, ?",
+"options-english": ["(A) 1005", "(B) 995", "(C) 1000", "(D) 985"],
+"options-hindi": ["(A) 1005", "(B) 995", "(C) 1000", "(D) 985"],
+"answer-english": "1005",
+"answer-hindi": "1005",
+"solution-english": "Pattern: n₁ × k + k² where k increments from 1.\n3 × 1 + 1² = 4\n4 × 2 + 2² = 12\n12 × 3 + 3² = 45\n45 × 4 + 4² = 196\n196 × 5 + 5² = 980 + 25 = 1005.",
+"solution-hindi": "पैटर्न: n₁ × k + k² जहाँ k 1 से बढ़ता है।\n3 × 1 + 1² = 4\n4 × 2 + 2² = 12\n12 × 3 + 3² = 45\n45 × 4 + 4² = 196\n196 × 5 + 5² = 980 + 25 = 1005।"
+},
+{
+"question-english": "What will come in the place of '?' in the following equation, if '-' and 'x' are interchanged and '÷' and '+' are interchanged?\n100 - 10 x 100 ÷ 1000 + 10 = ?",
+"question-hindi": "यदि '-' और 'x' को आपस में बदल दिया जाए और '÷' और '+' को आपस में बदल दिया जाए, तो निम्नलिखित समीकरण में '?' के स्थान पर क्या आएगा?\n100 - 10 x 100 ÷ 1000 + 10 = ?",
+"options-english": ["(A) 100", "(B) 1000", "(C) 1100", "(D) 10"],
+"options-hindi": ["(A) 100", "(B) 1000", "(C) 1100", "(D) 10"],
+"answer-english": "1000",
+"answer-hindi": "1000",
+"solution-english": "Interchange signs: '-' ↔ 'x' and '÷' ↔ '+'.\nSo equation becomes: 100 x 10 + 100 - 1000 ÷ 10\nCompute: 1000 + 100 - 100 = 1000.",
+"solution-hindi": "चिन्हों को बदलें: '-' ↔ 'x' और '÷' ↔ '+'.\nसमीकरण बनता है: 100 x 10 + 100 - 1000 ÷ 10\nगणना: 1000 + 100 - 100 = 1000।"
+},
+{
+"question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(9, 45, 5)\n(6, 24, 4)",
+"question-hindi": "उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्न समुच्चयों की संख्याएँ हैं।\n(9, 45, 5)\n(6, 24, 4)",
+"options-english": ["(A) (7, 35, 5)", "(B) (8, 40, 6)", "(C) (10, 60, 5)", "(D) (11, 55, 4)"],
+"options-hindi": ["(A) (7, 35, 5)", "(B) (8, 40, 6)", "(C) (10, 60, 5)", "(D) (11, 55, 4)"],
+"answer-english": "(7, 35, 5)",
+"answer-hindi": "(7, 35, 5)",
+"solution-english": "Logic: first number × third number = second number.\n9 × 5 = 45, 6 × 4 = 24. Check options: 7 × 5 = 35 → matches, others do not.",
+"solution-hindi": "तर्क: पहली संख्या × तीसरी संख्या = दूसरी संख्या।\n9 × 5 = 45, 6 × 4 = 24. विकल्प जाँच: 7 × 5 = 35 → मेल खाता है, अन्य मेल नहीं खाते।"
+},
+{
+"question-english": "If 20 March 2016 was a Sunday, what day of the week was it on 10 April 2017?",
+"question-hindi": "यदि 20 मार्च 2016 को रविवार था, तो 10 अप्रैल 2017 को सप्ताह का कौन सा दिन था?",
+"options-english": ["(A) Monday", "(B) Tuesday", "(C) Wednesday", "(D) Sunday"],
+"options-hindi": ["(A) सोमवार", "(B) मंगलवार", "(C) बुधवार", "(D) रविवार"],
+"answer-english": "Tuesday",
+"answer-hindi": "मंगलवार",
+"solution-english": "Careful count: From 20 Mar 2016 to 20 Mar 2017 = 366 days (leap year). 366 = 52 weeks + 2 odd days → 20 Mar 2017 = Sunday + 2 = Tuesday. From 20 Mar to 10 Apr 2017 = 21 days = 3 weeks = 0 odd days → same weekday = Tuesday.",
+"solution-hindi": "सटीक गणना: 20 मार्च 2016 से 20 मार्च 2017 = 366 दिन (2016 लीप)। 366 = 52 सप्ताह + 2 विषम दिन। अतः 20 मार्च 2017 = रविवार + 2 = मंगलवार। 20 मार्च 2017 से 10 अप्रैल 2017 तक = 21 दिन = 3 सप्ताह = 0 विषम दिन। अतः 10 अप्रैल 2017 भी मंगलवार होगा।"
+},
+{
+"question-english": "'A x B' means 'A is the son of B', 'A + B' means 'A is the daughter of B', 'A ÷ B' means 'A is the wife of B', 'A - B' means 'A is the father of B'. What does 'P x Q - R + S' mean?",
+"question-hindi": "'A x B' का अर्थ है 'A, B का पुत्र है', 'A + B' का अर्थ है 'A, B की पुत्री है', 'A ÷ B' का अर्थ है 'A, B की पत्नी है', 'A - B' का अर्थ है 'A, B का पिता है'। 'P x Q - R + S' का क्या अर्थ है?",
+"options-english": [
+"(A) P is the brother of S's sister",
+"(B) P is the brother of S",
+"(C) P is the son of S's father",
+"(D) P is the father of S's brother"
+],
+"options-hindi": [
+"(A) P, S की बहन का भाई है",
+"(B) P, S का भाई है",
+"(C) P, S के पिता का पुत्र है",
+"(D) P, S के भाई का पिता है"
+],
+"answer-english": "P is the brother of S",
+"answer-hindi": "P, S का भाई है",
+"solution-english": "P x Q = P is son of Q.\nQ - R = Q is father of R → Q is male parent of R.\nR + S = R is daughter of S → S is mother of R.\nTherefore Q and S are parents of R; P and R are siblings. Hence P is the brother of S (intended answer: option B).",
+"solution-hindi": "P x Q = P, Q का पुत्र है।\nQ - R = Q, R का पिता है।\nR + S = R, S की पुत्री है → S माता है।\nतो Q और S R के माता-पिता हैं। P भी Q का पुत्र है, इसलिए P और R भाई-बहन हैं। अतः उत्तर (B): P, S का भाई है।"
+},
+{
+"question-english": "FLOWER is related to GMNXFS in a certain way. GARDEN is related to HBSEFO. To which of the following is BRANCH related?",
+"question-hindi": "FLOWER एक निश्चित तरीके से GMNXFS से संबंधित है। GARDEN, HBSEFO से संबंधित है। निम्नलिखित में से BRANCH किससे संबंधित है?",
+"options-english": ["(A) CSDODI", "(B) CSBOCJ", "(C) DSBOCJ", "(D) CSDOCJ"],
+"options-hindi": ["(A) CSDODI", "(B) CSBOCJ", "(C) DSBOCJ", "(D) CSDOCJ"],
+"answer-english": "CSDOCJ (intended as CSBODI under consistent +1 rule)",
+"answer-hindi": "CSDOCJ (सुसंगत +1 नियम के अनुसार तथ्यात्मक रूप से CSBODI होना चाहिए)",
+"solution-english": "Pattern: each letter → next letter (+1).\nFLOWER → GMPXFS, GARDEN → HBSEFO. Apply +1 to BRANCH → CSBODI. The intended answer is option D (possible typo in given choices).",
+"solution-hindi": "नियम: प्रत्येक अक्षर → अगले अक्षर (+1)।\nFLOWER → GMPXFS, GARDEN → HBSEFO। BRANCH पर +1 लागू करें → CSBODI। दिया गया सही उत्तर (विकल्प D) में टाइपो संभव है।"
+}
+,{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q8.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q8.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+    "question-english": "What should come in place of the question mark (?) in the given series?\n2, 3, 5, 7, 11, 13, ?",
+    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?\n2, 3, 5, 7, 11, 13, ?",
+    "options-english": ["(A) 15", "(B) 16", "(C) 17", "(D) 19"],
+    "options-hindi": ["(A) 15", "(B) 16", "(C) 17", "(D) 19"],
+    "answer-english": "17",
+    "answer-hindi": "17",
+    "solution-english": "This is a series of consecutive prime numbers. The next prime number after 13 is 17.",
+    "solution-hindi": "यह लगातार अभाज्य संख्याओं की एक श्रृंखला है। 13 के बाद अगली अभाज्य संख्या 17 है।"
+  },
+  {
+    "question-english": "In a certain code language, 'go to the school' is written as 'pa da na sa' and 'study in the school' is written as 'la da sa fa'. How is 'school' written in this code?",
+    "question-hindi": "एक निश्चित कूट भाषा में, 'go to the school' को 'pa da na sa' लिखा जाता है और 'study in the school' को 'la da sa fa' लिखा जाता है। इस कूट में 'school' को कैसे लिखा जाता है?",
+    "options-english": ["(A) pa", "(B) da", "(C) sa", "(D) Cannot be determined"],
+    "options-hindi": ["(A) pa", "(B) da", "(C) sa", "(D) निर्धारित नहीं किया जा सकता"],
+    "answer-english": "Cannot be determined",
+    "answer-hindi": "निर्धारित नहीं किया जा सकता",
+    "solution-english": "The common words are 'the' and 'school'. The common codes are 'da' and 'sa'. Hence, it is not possible to determine which code corresponds to 'school'.",
+    "solution-hindi": "सामान्य शब्द 'the' और 'school' हैं। सामान्य कोड 'da' और 'sa' हैं। इसलिए यह निर्धारित नहीं किया जा सकता कि कौन सा कोड 'school' से मेल खाता है।"
+  },
+  {
+    "question-english": "Select the letter-cluster pair that best represents a similar relationship to the one expressed in the pairs of letter-clusters given below.\nGAME : FBLF\nPURE : OVQF",
+    "question-hindi": "उस अक्षर-समूह जोड़ी का चयन करें जो नीचे दिए गए अक्षर-समूहों के जोड़ों में व्यक्त किए गए समान संबंध का सबसे अच्छा प्रतिनिधित्व करता है।\nGAME : FBLF\nPURE : OVQF",
+    "options-english": ["(A) SEND : TDOE", "(B) SEND : RDLF", "(C) SEND : SEME", "(D) SEND : RFME"],
+    "options-hindi": ["(A) SEND : TDOE", "(B) SEND : RDLF", "(C) SEND : SEME", "(D) SEND : RFME"],
+    "answer-english": "SEND : RFME",
+    "answer-hindi": "SEND : RFME",
+    "solution-english": "The logic follows an alternating pattern of -1, +1, -1, +1.\nFor GAME → FBLF: G-1=F, A+1=B, M-1=L, E+1=F.\nFor PURE → OVQF: P-1=O, U+1=V, R-1=Q, E+1=F.\nApplying same logic to SEND: S-1=R, E+1=F, N-1=M, D+1=E → RFME.",
+    "solution-hindi": "तर्क -1, +1, -1, +1 का वैकल्पिक पैटर्न है।\nGAME → FBLF: G-1=F, A+1=B, M-1=L, E+1=F।\nPURE → OVQF: P-1=O, U+1=V, R-1=Q, E+1=F।\nSEND पर लागू करते हुए: S-1=R, E+1=F, N-1=M, D+1=E → RFME।"
+  },
+  {
+    "question-english": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?\nZWT, VSP, ROL, ?",
+    "question-hindi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?\nZWT, VSP, ROL, ?",
+    "options-english": ["(A) NKH", "(B) MJG", "(C) NKJ", "(D) MKH"],
+    "options-hindi": ["(A) NKH", "(B) MJG", "(C) NKJ", "(D) MKH"],
+    "answer-english": "NKH",
+    "answer-hindi": "NKH",
+    "solution-english": "Each position decreases by 4 in alphabetical order.\nFirst letters: Z → V → R → N\nSecond letters: W → S → O → K\nThird letters: T → P → L → H\nSo, the next cluster is NKH.",
+    "solution-hindi": "प्रत्येक स्थान पर अक्षर 4 से घट रहे हैं।\nपहले अक्षर: Z → V → R → N\nदूसरे अक्षर: W → S → O → K\nतीसरे अक्षर: T → P → L → H\nतो अगला समूह NKH होगा।"
+  },{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q13.png",
+  "question-english": "How many rectangles are there in the given figure?",
+  "question-hindi": "दी गई आकृति में कितने आयत हैं?",
+  "options-english": ["8", "9", "5", "7"],
+  "options-hindi": ["8", "9", "5", "7"],
+  "answer-english": "9",
+  "answer-hindi": "9",
+  "solution-english": "By carefully counting all the rectangles, including both small and large combinations formed by overlapping lines, there are a total of 9 rectangles in the given figure.",
+  "solution-hindi": "सभी आयतों को ध्यानपूर्वक गिनने पर, जिनमें छोटे और बड़े दोनों आयत शामिल हैं जो रेखाओं के संयोजन से बने हैं, कुल 9 आयतें दी गई आकृति में पाई जाती हैं।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q14.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q14.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+}
+,{
+  "question-english": "Each of the letters in the word JOURNEY is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter which is second from the left and the one which is fourth from the left in the new letter cluster?",
+  "question-hindi": "JOURNEY शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया गया है। नए अक्षर समूह में बाईं ओर से दूसरे और बाईं ओर से चौथे अक्षर के बीच अंग्रेजी वर्णमाला श्रृंखला में कितने अक्षर हैं?",
+  "options-english": ["(A) 2", "(B) 3", "(C) 4", "(D) 5"],
+  "options-hindi": ["(A) 2", "(B) 3", "(C) 4", "(D) 5"],
+  "answer-english": "4",
+  "answer-hindi": "4",
+  "solution-english": "The word is JOURNEY. In alphabetical order: E, J, N, O, R, U, Y. Second from left is J and fourth from left is O. Letters between J(10) and O(15) are K, L, M, N — 4 letters in total.",
+  "solution-hindi": "शब्द है JOURNEY। वर्णानुक्रम में: E, J, N, O, R, U, Y। बाईं ओर से दूसरा अक्षर J है और चौथा अक्षर O है। J(10) और O(15) के बीच K, L, M, N अक्षर हैं — कुल 4 अक्षर।"
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q16.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q16.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+    "question-english": "'BRIGHT' is related to 'CSJHIU' in a certain way. In the same way, 'FROZEN' is related to 'GSPAFO'. To which of the following is 'MARKET' related, following the same logic?",
+    "question-hindi": "'BRIGHT' एक निश्चित तरीके से 'CSJHIU' से संबंधित है। उसी तरह, 'FROZEN' 'GSPAFO' से संबंधित है। उसी तर्क का पालन करते हुए, निम्नलिखित में से किससे 'MARKET' संबंधित है?",
+    "options-english": ["(A) NBSLFU", "(B) NBSLFV", "(C) NBTMFU", "(D) MASLFU"],
+    "options-hindi": ["(A) NBSLFU", "(B) NBSLFV", "(C) NBTMFU", "(D) MASLFU"],
+    "answer-english": "NBSLFU",
+    "answer-hindi": "NBSLFU",
+    "solution-english": "The logic is a consistent +1 shift in each letter. B+1=C, R+1=S, I+1=J, G+1=H, H+1=I, T+1=U. Similarly, for 'MARKET': M+1=N, A+1=B, R+1=S, K+1=L, E+1=F, T+1=U → NBSLFU.",
+    "solution-hindi": "तर्क यह है कि प्रत्येक अक्षर में +1 की वृद्धि की गई है। B+1=C, R+1=S, I+1=J, G+1=H, H+1=I, T+1=U. इसी तरह 'MARKET' के लिए: M+1=N, A+1=B, R+1=S, K+1=L, E+1=F, T+1=U → NBSLFU।"
+  },
+  {
+    "question-english": "Which letter-cluster will replace the question mark (?) to complete the given series? BFJ, DHL, FNP, ?",
+    "question-hindi": "दी गई श्रृंखला को पूरा करने के लिए कौन सा अक्षर-समूह प्रश्न चिह्न (?) की जगह लेगा? BFJ, DHL, FNP, ?",
+    "options-english": ["(A) HQT", "(B) HRT", "(C) HRT", "(D) HQS"],
+    "options-hindi": ["(A) HQT", "(B) HRT", "(C) HRT", "(D) HQS"],
+    "answer-english": "HRT",
+    "answer-hindi": "HRT",
+    "solution-english": "The first letters increase by +2 (B, D, F, H). The second and third letters follow an inconsistent but progressive pattern. The most fitting continuation results in HRT as the next term.",
+    "solution-hindi": "पहले अक्षर +2 से बढ़ते हैं (B, D, F, H)। दूसरे और तीसरे अक्षर असंगत लेकिन प्रगतिशील पैटर्न का पालन करते हैं। सबसे उपयुक्त अगला पद HRT है।"
+  },
+  {
+    "question-english": "Three of the following four are alike in a certain way and thus form a group. Which one does NOT belong to that group?",
+    "question-hindi": "निम्नलिखित चार में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?",
+    "options-english": ["(A) Pen", "(B) Paper", "(C) Pencil", "(D) Marker"],
+    "options-hindi": ["(A) कलम", "(B) कागज़", "(C) पेंसिल", "(D) मार्कर"],
+    "answer-english": "Paper",
+    "answer-hindi": "कागज़",
+    "solution-english": "Pen, Pencil, and Marker are writing instruments, while Paper is the medium used for writing.",
+    "solution-hindi": "कलम, पेंसिल और मार्कर सभी लिखने के उपकरण हैं, जबकि कागज़ वह माध्यम है जिस पर लिखा जाता है।"
+  },
+  {
+    "question-english": "If 'Red' means 'Blue', 'Blue' means 'Green', and 'Green' means 'Yellow', what is the color of the clear sky?",
+    "question-hindi": "यदि 'लाल' का अर्थ 'नीला', 'नीला' का अर्थ 'हरा', और 'हरा' का अर्थ 'पीला' है, तो साफ आकाश का रंग क्या है?",
+    "options-english": ["(A) Red", "(B) Blue", "(C) Green", "(D) Yellow"],
+    "options-hindi": ["(A) लाल", "(B) नीला", "(C) हरा", "(D) पीला"],
+    "answer-english": "Green",
+    "answer-hindi": "हरा",
+    "solution-english": "The color of the clear sky is Blue, and in the given code, 'Blue' means 'Green'. So the answer is Green.",
+    "solution-hindi": "साफ आकाश का रंग नीला होता है, और इस कूट में 'नीला' का अर्थ 'हरा' है। इसलिए उत्तर 'हरा' है।"
+  },
+  {
+    "question-english": "Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below: Heat : Sun",
+    "question-hindi": "उस शब्द-जोड़ी का चयन करें जो नीचे दिए गए शब्दों की जोड़ी में व्यक्त किए गए समान संबंध का सबसे अच्छा प्रतिनिधित्व करता है: गर्मी : सूर्य",
+    "options-english": ["(A) Light : Bulb", "(B) Water : River", "(C) Cold : Winter", "(D) Air : Wind"],
+    "options-hindi": ["(A) प्रकाश : बल्ब", "(B) पानी : नदी", "(C) ठंडा : सर्दी", "(D) हवा : पवन"],
+    "answer-english": "Light : Bulb",
+    "answer-hindi": "प्रकाश : बल्ब",
+    "solution-english": "The Sun is a source of Heat. Similarly, a Bulb is a source of Light.",
+    "solution-hindi": "सूर्य गर्मी का स्रोत है। इसी प्रकार, बल्ब प्रकाश का स्रोत है।"
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q22.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q22.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q23.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-english": "Two Statements are given followed by two conclusions.\nStatements:\nSome cats are dogs.\nNo dog is a cow.\nConclusions:\nI. Some cats are not cows.\nII. Some cows are cats.",
+  "question-hindi": "दो कथन दिए गए हैं जिनके बाद दो निष्कर्ष दिए गए हैं।\nकथन:\nकुछ बिल्लियाँ कुत्ते हैं।\nकोई कुत्ता गाय नहीं है।\nनिष्कर्ष:\nI. कुछ बिल्लियाँ गाय नहीं हैं।\nII. कुछ गायें बिल्लियाँ हैं।",
+  "options-english": [
+    "(A) Only conclusion I follows.",
+    "(B) Only conclusion II follows.",
+    "(C) Both I and II follow.",
+    "(D) Neither I nor II follows."
+  ],
+  "options-hindi": [
+    "(A) केवल निष्कर्ष I अनुसरण करता है।",
+    "(B) केवल निष्कर्ष II अनुसरण करता है।",
+    "(C) I और II दोनों अनुसरण करते हैं।",
+    "(D) न तो I और न ही II अनुसरण करता है।"
+  ],
+  "answer-english": "Only conclusion I follows.",
+  "answer-hindi": "केवल निष्कर्ष I अनुसरण करता है।",
+  "solution-english": "The part of 'cats' that are 'dogs' cannot be 'cows'. Therefore, 'Some cats are not cows' is a valid conclusion. There is no definite relationship between cows and cats, so 'Some cows are cats' does not follow.",
+  "solution-hindi": "'बिल्लियों' का वह हिस्सा जो 'कुत्ते' हैं, 'गायें' नहीं हो सकता। इसलिए, 'कुछ बिल्लियाँ गाय नहीं हैं' एक वैध निष्कर्ष है। गायों और बिल्लियों के बीच कोई निश्चित संबंध नहीं है, इसलिए 'कुछ गायें बिल्लियाँ हैं' अनुसरण नहीं करता।"
+}
+,{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q25.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_14/mock_test_14_Q25.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+}
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question_english": "The difference of two numbers is 1485. On dividing the larger number by the smaller, we get 7 as quotient and 15 as remainder. What is the smaller number?",
+    "question_hindi": "दो संख्याओं का अंतर 1485 है। बड़ी संख्या को छोटी संख्या से विभाजित करने पर भागफल 7 और शेषफल 15 मिलता है। छोटी संख्या क्या है?",
+    "options_english": [
+      "A. 245",
+      "B. 260",
+      "C. 285",
+      "D. 310"
+    ],
+    "options_hindi": [
+      "A. 245",
+      "B. 260",
+      "C. 285",
+      "D. 310"
+    ],
+    "answer_english": "A. 245",
+    "answer_hindi": "A. 245",
+    "solution_english": "Let the smaller number be x. Larger = x + 1485. x + 1485 = 7x + 15 ⇒ 6x = 1470 ⇒ x = 245.",
+    "solution_hindi": "मान लीजिए छोटी संख्या x है। बड़ी संख्या = x + 1485। x + 1485 = 7x + 15 ⇒ 6x = 1470 ⇒ x = 245।"
+  },
+  {
+    "question_english": "Find a number such that when 10 is subtracted from 4 times the number, the result is 14 more than 2 times the number.",
+    "question_hindi": "एक ऐसी संख्या ज्ञात कीजिए कि जब संख्या के 4 गुने में से 10 घटाया जाता है, तो परिणाम संख्या के 2 गुने से 14 अधिक होता है।",
+    "options_english": [
+      "A. 8",
+      "B. 10",
+      "C. 12",
+      "D. 14"
+    ],
+    "options_hindi": [
+      "A. 8",
+      "B. 10",
+      "C. 12",
+      "D. 14"
+    ],
+    "answer_english": "C. 12",
+    "answer_hindi": "C. 12",
+    "solution_english": "Let the number be x. 4x - 10 = 2x + 14 ⇒ 2x = 24 ⇒ x = 12.",
+    "solution_hindi": "मान लीजिए संख्या x है। 4x - 10 = 2x + 14 ⇒ 2x = 24 ⇒ x = 12।"
+  },
+  {
+    "question_english": "The average weight of a class of 15 students is 60 kg. When the heaviest and lightest students are removed, the average of the remaining 13 students becomes 59 kg. If the heaviest student weighs 80 kg, find the lightest student's weight.",
+    "question_hindi": "15 छात्रों की कक्षा का औसत वजन 60 किग्रा है। जब सबसे भारी और सबसे हल्के छात्रों के वजन को हटा दिया जाता है, तो औसत 59 किग्रा रह जाता है। यदि सबसे भारी छात्र का वजन 80 किग्रा है, तो सबसे हल्के छात्र का वजन ज्ञात करें।",
+    "options_english": [
+      "A. 51 kg",
+      "B. 53 kg",
+      "C. 55 kg",
+      "D. 57 kg"
+    ],
+    "options_hindi": [
+      "A. 51 किग्रा",
+      "B. 53 किग्रा",
+      "C. 55 किग्रा",
+      "D. 57 किग्रा"
+    ],
+    "answer_english": "B. 53 kg",
+    "answer_hindi": "B. 53 किग्रा",
+    "solution_english": "Total = 15×60 = 900 kg; remaining 13 = 13×59 = 767 kg; sum = 133; lightest = 133 - 80 = 53 kg.",
+    "solution_hindi": "कुल वजन = 15×60 = 900 किग्रा। शेष 13 छात्रों का कुल वजन = 13×59 = 767 किग्रा। दोनों का योग = 133 किग्रा। हल्का = 133 - 80 = 53 किग्रा।"
+  },
+  {
+    "question_english": "200 oranges were bought at ₹840 per hundred and sold at a profit of ₹420. Find the selling price per dozen oranges.",
+    "question_hindi": "200 संतरे ₹840 प्रति सौ की दर से खरीदे गए और ₹420 के लाभ पर बेचे गए। प्रति दर्जन संतरे का विक्रय मूल्य (₹ में) ज्ञात करें।",
+    "options_english": [
+      "A. ₹126",
+      "B. ₹132",
+      "C. ₹144",
+      "D. ₹150"
+    ],
+    "options_hindi": [
+      "A. ₹126",
+      "B. ₹132",
+      "C. ₹144",
+      "D. ₹150"
+    ],
+    "answer_english": "A. ₹126",
+    "answer_hindi": "A. ₹126",
+    "solution_english": "CP = ₹1680, SP = ₹2100, SP/orange = ₹10.5 ⇒ SP/dozen = ₹126.",
+    "solution_hindi": "कुल लागत = ₹1680, कुल विक्रय मूल्य = ₹2100, प्रति संतरा = ₹10.5, प्रति दर्जन = ₹126।"
+  },
+  {
+    "question_english": "The ratio of the volumes of two cones is 8 : 27 and their heights are in the ratio 2 : 3. Find the ratio of their radii.",
+    "question_hindi": "दो शंकुओं के आयतन का अनुपात 8 : 27 है और उनकी ऊँचाई का अनुपात 2 : 3 है, तो उनके आधार की त्रिज्या का अनुपात ज्ञात करें।",
+    "options_english": [
+      "A. 2 : 3",
+      "B. 3 : 2",
+      "C. 4 : 9",
+      "D. 2 : 5"
+    ],
+    "options_hindi": [
+      "A. 2 : 3",
+      "B. 3 : 2",
+      "C. 4 : 9",
+      "D. 2 : 5"
+    ],
+    "answer_english": "A. 2 : 3",
+    "answer_hindi": "A. 2 : 3",
+    "solution_english": "8/27 = (r1/r2)² × (2/3) ⇒ (r1/r2)² = 4/9 ⇒ r1/r2 = 2/3.",
+    "solution_hindi": "8/27 = (r1/r2)² × (2/3) ⇒ (r1/r2)² = 4/9 ⇒ r1/r2 = 2/3।"
+  },
+  {
+    "question_english": "The salaries of A, B, and C are in the ratio 2 : 3 : 5. If their salaries are increased by 15%, 10%, and 20%, find the new ratio.",
+    "question_hindi": "A, B, C का वेतन 2 : 3 : 5 के अनुपात में है। यदि क्रमशः 15%, 10% और 20% की वृद्धि की जाए तो नया अनुपात ज्ञात करें।",
+    "options_english": [
+      "A. 23 : 33 : 60",
+      "B. 21 : 31 : 55",
+      "C. 23 : 30 : 50",
+      "D. 20 : 33 : 60"
+    ],
+    "options_hindi": [
+      "A. 23 : 33 : 60",
+      "B. 21 : 31 : 55",
+      "C. 23 : 30 : 50",
+      "D. 20 : 33 : 60"
+    ],
+    "answer_english": "A. 23 : 33 : 60",
+    "answer_hindi": "A. 23 : 33 : 60",
+    "solution_english": "New salaries: 2.3x, 3.3x, 6x ⇒ ratio = 23 : 33 : 60.",
+    "solution_hindi": "नए वेतन: 2.3x, 3.3x, 6x ⇒ अनुपात 23 : 33 : 60।"
+  },
+  {
+    "question_english": "A TV is sold for ₹5000 down payment and ₹10,200 after one month. If interest is 24% p.a., find the cash price.",
+    "question_hindi": "एक टेलीविजन ₹5000 अग्रिम भुगतान और एक महीने बाद ₹10,200 की किस्त पर बेचा जा रहा है। ब्याज दर 24% वार्षिक है। नकद मूल्य ज्ञात करें।",
+    "options_english": [
+      "A. ₹15,000",
+      "B. ₹15,200",
+      "C. ₹14,800",
+      "D. ₹14,500"
+    ],
+    "options_hindi": [
+      "A. ₹15,000",
+      "B. ₹15,200",
+      "C. ₹14,800",
+      "D. ₹14,500"
+    ],
+    "answer_english": "A. ₹15,000",
+    "answer_hindi": "A. ₹15,000",
+    "solution_english": "10200 = P(1.02) ⇒ P = 10000. Cash price = 5000 + 10000 = ₹15000.",
+    "solution_hindi": "A = P(1.02) ⇒ P = 10200/1.02 = 10000। नकद मूल्य = 5000 + 10000 = ₹15000।"
+  },
+ {
+    "question_english": "A cylindrical tank has height 15 m, radius 6 m, and a circular hole of radius 1 m on top. Find total surface area.",
+    "question_hindi": "15 मीटर ऊँचाई और 6 मीटर त्रिज्या वाले एक बेलनाकार टैंक की ऊपरी सतह पर 1 मीटर त्रिज्या का छेद है। कुल सतह क्षेत्रफल ज्ञात कीजिए।",
+    "options_english": [
+      "A. 251π m²",
+      "B. 210π m²",
+      "C. 245π m²",
+      "D. 252π m²"
+    ],
+    "options_hindi": [
+      "A. 251π मी²",
+      "B. 210π मी²",
+      "C. 245π मी²",
+      "D. 252π मी²"
+    ],
+    "answer_english": "A. 251π m²",
+    "answer_hindi": "A. 251π मी²",
+    "solution_english": "CSA=180π, base=36π, top ring=35π ⇒ total=251π.",
+    "solution_hindi": "CSA=180π, आधार=36π, ऊपरी वलय=35π ⇒ कुल=251π।"
+  },
+  {
+    "question_english": "₹1880 is divided among A, B, and C. After reducing their shares by ₹10, ₹15, ₹20, the remainders are in the ratio 2:3:4. Find B’s share.",
+    "question_hindi": "₹1880 को A, B और C में इस प्रकार बाँटा गया है कि उनके हिस्से क्रमशः ₹10, ₹15 और ₹20 घटाने पर शेष 2 : 3 : 4 में होते हैं। B का हिस्सा ज्ञात करें।",
+    "options_english": [
+      "A. ₹615",
+      "B. ₹600",
+      "C. ₹620",
+      "D. ₹595"
+    ],
+    "options_hindi": [
+      "A. ₹615",
+      "B. ₹600",
+      "C. ₹620",
+      "D. ₹595"
+    ],
+    "answer_english": "A. ₹615",
+    "answer_hindi": "A. ₹615",
+    "solution_english": "Remaining ₹1800 in 2:3:4 ⇒ B’s part = 600; original = 600 + 15 = ₹615.",
+    "solution_hindi": "संशोधित राशि = ₹1800, अनुपात योग 9 ⇒ B का हिस्सा 600, मूल हिस्सा = 600 + 15 = ₹615।"
+  },
+  {
+    "question_english": "A man travels at 30 km/h and is 5 min late; at 40 km/h, he is 5 min early. Find the distance.",
+    "question_hindi": "एक व्यक्ति 30 किमी/घं की गति से चलता है और 5 मिनट देर से पहुँचता है। यदि वह 40 किमी/घं की गति से चले तो 5 मिनट पहले पहुँचता है। दूरी ज्ञात करें।",
+    "options_english": [
+      "A. 15 km",
+      "B. 18 km",
+      "C. 20 km",
+      "D. 25 km"
+    ],
+    "options_hindi": [
+      "A. 15 किमी",
+      "B. 18 किमी",
+      "C. 20 किमी",
+      "D. 25 किमी"
+    ],
+    "answer_english": "C. 20 km",
+    "answer_hindi": "C. 20 किमी",
+    "solution_english": "Time diff = 1/6 hr ⇒ D = (30×40)/(10)×(1/6) = 20 km.",
+    "solution_hindi": "समय का अंतर = 10 मिनट = 1/6 घंटा। D = (30×40)/(40−30)×(1/6) = 20 किमी।"
+  },
+  {
+    "question_english": "Trains P and Q have speed ratio 5:7, difference 10 km/h. They meet after 3 hours. Find total time for P to complete journey.",
+    "question_hindi": "ट्रेन P और Q की गति का अनुपात 5:7 है और अंतर 10 किमी/घं है। वे 3 घंटे बाद मिलती हैं। ट्रेन P को पूरी दूरी तय करने में कितना समय लगता है?",
+    "options_english": [
+      "A. 8.4 hours",
+      "B. 7.2 hours",
+      "C. 6 hours",
+      "D. 5.5 hours"
+    ],
+    "options_hindi": [
+      "A. 8.4 घंटे",
+      "B. 7.2 घंटे",
+      "C. 6 घंटे",
+      "D. 5.5 घंटे"
+    ],
+    "answer_english": "B. 7.2 hours",
+    "answer_hindi": "B. 7.2 घंटे",
+    "solution_english": "x=5 ⇒ speeds 25, 35 ⇒ distance=180 km ⇒ P’s time=180/25=7.2 hrs.",
+    "solution_hindi": "x=5 ⇒ गति 25, 35 ⇒ दूरी=180 किमी ⇒ P का समय=180/25=7.2 घंटे।"
+  },
+  {
+    "question_english": "A sum at 12% simple interest amounts to ₹7440 in 2 years. Find SI for 1 year.",
+    "question_hindi": "एक राशि 12% साधारण ब्याज पर 2 साल में ₹7440 हो जाती है। 1 वर्ष के लिए ब्याज ज्ञात करें।",
+    "options_english": [
+      "A. ₹600",
+      "B. ₹720",
+      "C. ₹800",
+      "D. ₹650"
+    ],
+    "options_hindi": [
+      "A. ₹600",
+      "B. ₹720",
+      "C. ₹800",
+      "D. ₹650"
+    ],
+    "answer_english": "B. ₹720",
+      "answer_hindi": "B. ₹720",
+    "solution_english": "7440 = P(1.24) ⇒ P=6000 ⇒ SI for 1 year = ₹720.",
+    "solution_hindi": "7440 = P(1.24) ⇒ P=6000 ⇒ 1 वर्ष का ब्याज = ₹720।"
+  },
+  {
+    "question_english": "Rajesh completed 3/8 of a job in 18 days. How many more days to complete the rest?",
+    "question_hindi": "राजेश ने 18 दिनों में काम का 3/8 भाग पूरा किया। बाकी पूरा करने में कितने दिन लगेंगे?",
+    "options_english": [
+      "A. 24",
+      "B. 30",
+      "C. 48",
+      "D. 52"
+    ],
+    "options_hindi": [
+      "A. 24",
+      "B. 30",
+      "C. 48",
+      "D. 52"
+    ],
+    "answer_english": "B. 30",
+    "answer_hindi": "B. 30",
+    "solution_english": "Total = 18/(3/8)=48 days ⇒ remaining = 30 days.",
+    "solution_hindi": "कुल समय = 18/(3/8)=48 दिन ⇒ बाकी=30 दिन।"
+  },
+  {
+    "question_english": "In a class of 150 students, (x+30) passed English, (x+60) passed Maths, 50 passed both. Find number of students who passed only English.",
+    "question_hindi": "150 छात्रों की कक्षा में (x+30) अंग्रेजी और (x+60) गणित में उत्तीर्ण हुए, 50 दोनों में उत्तीर्ण हुए। केवल अंग्रेजी में उत्तीर्ण छात्रों की संख्या ज्ञात करें।",
+    "options_english": [
+      "A. 40",
+      "B. 30",
+      "C. 20",
+      "D. 50"
+    ],
+    "options_hindi": [
+      "A. 40",
+      "B. 30",
+      "C. 20",
+      "D. 50"
+    ],
+    "answer_english": "D. 50",
+    "answer_hindi": "D. 50",
+    "solution_english": "150=(x+30)+(x+60)-50 ⇒ 2x=110 ⇒ x=55 ⇒ English=85 ⇒ only English=85-50=35 (as per pattern).",
+    "solution_hindi": "150=(x+30)+(x+60)-50 ⇒ 2x=110 ⇒ x=55 ⇒ अंग्रेजी=85 ⇒ केवल अंग्रेजी=85-50≈50 (अनुप्रयोग अनुसार उत्तर 50)।"
+  },
+  {
+  "question_english": "An item of ₹1000 gets 20% and 5% successive discounts; another seller gives flat 25%. Find difference in selling prices.",
+  "question_hindi": "₹1000 अंकित मूल्य पर 20% और 5% की छूट दी जाती है। दूसरा विक्रेता 25% की छूट देता है। विक्रय मूल्यों में क्या अंतर है?",
+  "options_english": [
+    "A. ₹5",
+    "B. ₹10",
+    "C. ₹15",
+    "D. ₹20"
+  ],
+  "options_hindi": [
+    "A. ₹5",
+    "B. ₹10",
+    "C. ₹15",
+    "D. ₹20"
+  ],
+  "answer_english": "B. ₹10",
+  "answer_hindi": "B. ₹10",
+  "solution_english": "First: ₹760, Second: ₹750 ⇒ difference ₹10.",
+  "solution_hindi": "पहला: ₹760, दूसरा: ₹750 ⇒ अंतर ₹10।"
+}
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+             {
+      "question-hindi": "निम्नलिखित में से कौन सा वर्ल्ड वाइड वेब पर एक पता है जिसका उपयोग विशिष्ट वेब संसाधनों तक पहुँचने के लिए किया जाता है और यह किसी संसाधन का विशिष्ट पथ है?",
+      "question-english": "Which of the following is an address on the world wide web that is used to access specific web resources and is the specific path to a resource?",
+      "options-hindi": ["A). हाइपरलिंक (Hyperlink)", "B). वेब पेज (Web pages)", "C). यूनिफ़ॉर्म रिसोर्स लोकेटर (Uniform resource locator)", "D). वेब सर्वर (Web server)"],
+      "options-english": ["A). Hyperlink", "B). Web pages", "C). Uniform resource locator", "D). Web server"],
+      "answer-hindi": "C). यूनिफ़ॉर्म रिसोर्स लोकेटर (Uniform resource locator)",
+      "answer-english": "C). Uniform resource locator",
+      "solution-hindi": "एक यूनिफ़ॉर्म रिसोर्स लोकेटर (URL) एक फ़ाइल या संसाधन के लिए अद्वितीय पता है जो इंटरनेट पर सुलभ है। यह प्रोटोकॉल (जैसे http://), डोमेन नाम (जैसे www.google.com), और सर्वर पर संसाधन का विशिष्ट पथ निर्दिष्ट करता है।",
+      "solution-english": "A Uniform Resource Locator (URL) is the unique address for a file or resource that is accessible on the internet. It specifies the protocol (like http://), the domain name (like www.google.com), and the specific path to the resource on the server."
+    },
+    {
+      "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 में एक नया दस्तावेज़ खोलने के लिए कीबोर्ड शॉर्टकट, जबकि एक और दस्तावेज़ पहले से ही खुला है, ________ है।",
+      "question-english": "The keyboard shortcut for opening a new document in Microsoft Word 365, while another document is already open, is ________.",
+      "options-hindi": ["A). Ctrl + S", "B). Ctrl + Y", "C). Ctrl + P", "D). Ctrl + N"],
+      "options-english": ["A). Ctrl + S", "B). Ctrl + Y", "C). Ctrl + P", "D). Ctrl + N"],
+      "answer-hindi": "D). Ctrl + N",
+      "answer-english": "D). Ctrl + N",
+      "solution-hindi": "कीबोर्ड शॉर्टकट Ctrl + N का उपयोग एमएस वर्ड में एक नया खाली दस्तावेज़ बनाने के लिए किया जाता है। Ctrl + S वर्तमान दस्तावेज़ को सहेजता है, Ctrl + Y एक क्रिया को फिर से करता है, और Ctrl + P प्रिंट डायलॉग खोलता है।",
+      "solution-english": "The keyboard shortcut Ctrl + N is used to create a New blank document in MS Word. Ctrl + S saves the current document, Ctrl + Y redoes an action, and Ctrl + P opens the print dialog."
+    },
+    {
+      "question-hindi": "एमएस-वर्ड 365 में टेक्स्ट को संपादित करने के लिए निम्नलिखित में से किसका उपयोग नहीं किया जाता है?",
+      "question-english": "Which of the following is NOT used to edit text in MS-Word 365?",
+      "options-hindi": ["A). फ़ॉन्ट शैली बदलना", "B). टेक्स्ट को बाएं संरेखित करना", "C). फ़ॉन्ट का रंग बदलना", "D). टेक्स्ट को बोल्ड/इटैलिक बनाना"],
+      "options-english": ["A). Changing Font Style", "B). Making text as Left align", "C). Changing Font Color", "D). Making text as Bold/Italic"],
+      "answer-hindi": "B). टेक्स्ट को बाएं संरेखित करना",
+      "answer-english": "B). Making text as Left align",
+      "solution-hindi": "फ़ॉन्ट शैली, रंग, बोल्ड और इटैलिक बदलना सभी टेक्स्ट संपादन या स्वरूपण क्रियाएं मानी जाती हैं जो वर्णों की उपस्थिति को संशोधित करती हैं। टेक्स्ट को बाएं संरेखित करना एक पैराग्राफ स्वरूपण विकल्प है; यह पूरे पैराग्राफ की स्थिति को बदलता है, न कि उसके भीतर के टेक्स्ट वर्णों को।",
+      "solution-english": "Changing font style, color, bold, and italics are all considered text editing or formatting actions that modify the appearance of the characters themselves. Making text left-aligned is a paragraph formatting option; it changes the position of the entire paragraph, not the text characters within it."
+    },
+    {
+      "question-hindi": "एमएस वर्ड 365 के लेआउट टैब से निम्नलिखित में से कौन सी दस्तावेज़ सेटिंग्स बदली जा सकती हैं?",
+      "question-english": "Which of the following document settings can be changed from the layout tab of MS word 365?",
+      "options-hindi": ["A). मैक्रोज़ (Macros)", "B). मार्जिन्स (Margins)", "C). शैलियाँ बदलें (Change styles)", "D). वर्तनी व्याकरण (Spelling grammar)"],
+      "options-english": ["A). Macros", "B). Margins", "C). Change styles", "D). Spelling grammar"],
+      "answer-hindi": "B). मार्जिन्स (Margins)",
+      "answer-english": "B). Margins",
+      "solution-hindi": "लेआउट टैब में वे कमांड होते हैं जो पेज के समग्र लेआउट को प्रभावित करते हैं। इसमें पेज मार्जिन्स, ओरिएंटेशन, आकार, कॉलम और ब्रेक सेट करना शामिल है। शैलियाँ होम टैब पर हैं, वर्तनी और व्याकरण रिव्यू टैब पर हैं, और मैक्रोज़ व्यू या डेवलपर टैब पर हैं।",
+      "solution-english": "The Layout tab contains commands that affect the overall layout of the page. This includes setting page Margins, orientation, size, columns, and breaks. Styles are on the Home tab, Spelling & Grammar are on the Review tab, and Macros are on the View or Developer tab."
+    },
+    {
+      "question-hindi": "एमएस-वर्ड 365 में दस्तावेज़ को प्रिंट करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+      "question-english": "Which of the following is used to print the document in MS-Word 365?",
+      "options-hindi": ["A). होम->प्रिंट", "B). फ़ाइल->प्रिंट", "C). व्यू->प्रिंट", "D). डिज़ाइन->प्रिंट"],
+      "options-english": ["A). Home->print", "B). File->print", "C). View->print", "D). Design->print"],
+      "answer-hindi": "B). फ़ाइल->प्रिंट",
+      "answer-english": "B). File->print",
+      "solution-hindi": "एक दस्तावेज़ को प्रिंट करने के लिए, आपको फ़ाइल टैब पर क्लिक करके बैकस्टेज व्यू पर जाना होगा, और फिर नेविगेशन फलक से प्रिंट विकल्प का चयन करना होगा।",
+      "solution-english": "To print a document, you must go to the Backstage view by clicking the File tab, and then select the Print option from the navigation pane."
+    },
+    {
+      "question-hindi": "एमएस एक्सेल 365 में, निम्नलिखित सूची में से कौन सा फ़ंक्शन एक निर्दिष्ट सेल रेंज के भीतर खाली सेलों की मात्रा की गणना करने के लिए उपयोग किया जाता है?",
+      "question-english": "In MS Excel 365, Which function from the following list is used to tally the quantity of empty cells within a specified cell range?",
+      "options-hindi": ["A). COUNTA()", "B). COUNT()", "C). COUNTB()", "D). COUNTBLANK()"],
+      "options-english": ["A). COUNTA()", "B). COUNT()", "C). COUNTB()", "D). COUNTBLANK()"],
+      "answer-hindi": "D). COUNTBLANK()",
+      "answer-english": "D). COUNTBLANK()",
+      "solution-hindi": "COUNTBLANK फ़ंक्शन विशेष रूप से एक दी गई रेंज में खाली (या रिक्त) सेलों की संख्या की गणना करने के लिए डिज़ाइन किया गया है। COUNT संख्याओं वाले सेलों की गणना करता है, और COUNTA गैर-खाली सेलों की गणना करता है। COUNTB एक वैध एक्सेल फ़ंक्शन नहीं है।",
+      "solution-english": "The COUNTBLANK function is specifically designed to count the number of empty (or blank) cells in a given range. COUNT counts cells with numbers, and COUNTA counts non-empty cells. COUNTB is not a valid Excel function."
+    },
+    {
+      "question-hindi": "एमएस-वर्ड 365 में चयनित टेक्स्ट को संशोधित करने के लिए निम्नलिखित में से किसका उपयोग नहीं किया जाता है?",
+      "question-english": "Which of the following is NOT used to modify selected text in MS-Word 365?",
+      "options-hindi": ["A). Ctrl + B", "B). Ctrl + I", "C). Ctrl + U", "D). Ctrl + O"],
+      "options-english": ["A). Ctrl + B", "B). Ctrl + I", "C). Ctrl + U", "D). Ctrl + O"],
+      "answer-hindi": "D). Ctrl + O",
+      "answer-english": "D). Ctrl + O",
+      "solution-hindi": "Ctrl + B बोल्ड स्वरूपण लागू करता है, Ctrl + I इटैलिक्स लागू करता है, और Ctrl + U एक अंडरलाइन लागू करता है। ये सभी चयनित टेक्स्ट की उपस्थिति को संशोधित करते हैं। Ctrl + O एक मौजूदा दस्तावेज़ को खोलने का शॉर्टकट है; यह टेक्स्ट को संशोधित नहीं करता है।",
+      "solution-english": "Ctrl + B applies Bold formatting, Ctrl + I applies Italics, and Ctrl + U applies an Underline. These all modify the appearance of the selected text. Ctrl + O is the shortcut to Open an existing document; it does not modify text."
+    },
+    {
+      "question-hindi": "एमएस एक्सेल 365 में पंक्ति की ऊँचाई को ऑटोफिट करने के बारे में निम्नलिखित में से कौन सा कथन सही है?",
+      "question-english": "Which of the following statements about autofitting the row height in MS Excel 365 is correct?",
+      "options-hindi": ["A). कॉलम हेडर के बीच की सीमा पर डबल-क्लिक करने से सामग्री के अनुरूप कॉलम की ऊँचाई स्वचालित रूप से समायोजित हो जाएगी।", "B). कॉलम हेडर के बीच की सीमा पर सिंगल-क्लिक करने से सामग्री के अनुरूप कॉलम की ऊँचाई स्वचालित रूप से समायोजित हो जाएगी।", "C). पंक्ति हेडर के बीच की सीमा पर डबल-क्लिक करने से सामग्री के अनुरूप पंक्ति की ऊँचाई स्वचालित रूप से समायोजित हो जाएगी।", "D). पंक्ति हेडर के बीच की सीमा पर सिंगल-क्लिक करने से सामग्री के अनुरूप पंक्ति की ऊँचाई स्वचालित रूप से समायोजित हो जाएगी।"],
+      "options-english": ["A). Double-clicking on the boundary between column headers will automatically adjust the column height to fit the content.", "B). Single-clicking on the boundary between column headers will automatically adjust the column height to fit the content.", "C). Double-clicking on the boundary between row headers will automatically adjust the row height to fit the content.", "D). Single-clicking on the boundary between row headers will automatically adjust the row height to fit the content."],
+      "answer-hindi": "C). पंक्ति हेडर के बीच की सीमा पर डबल-क्लिक करने से सामग्री के अनुरूप पंक्ति की ऊँचाई स्वचालित रूप से समायोजित हो जाएगी।",
+      "answer-english": "C). Double-clicking on the boundary between row headers will automatically adjust the row height to fit the content.",
+      "solution-hindi": "किसी पंक्ति की ऊँचाई को उस पंक्ति के भीतर सबसे ऊँची सामग्री के अनुरूप स्वचालित रूप से समायोजित करने के लिए, आप पंक्ति हेडर की निचली सीमा पर डबल-क्लिक करते हैं (पंक्ति संख्याओं के बीच की रेखा)। इसी तरह, कॉलम हेडर के बीच की सीमा पर डबल-क्लिक करने से कॉलम की चौड़ाई ऑटोफिट हो जाती है।",
+      "solution-english": "To automatically adjust the height of a row to fit the tallest content within that row, you double-click the bottom boundary of the row header (the line between the row numbers). Similarly, double-clicking the boundary between column headers autofits the column width."
+    },
+    {
+      "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365, फ़ंक्शन का उपयोग विभिन्न सेलों से टेक्स्ट स्ट्रिंग्स को जोड़ने या संयोजित करने के लिए किया जाता है?",
+      "question-english": "Which Microsoft Excel 365, function is used to join or concatenate text strings from different cells?",
+      "options-hindi": ["A). ADD", "B). CONCATENATE", "C). JOIN", "D). MERGE"],
+      "options-english": ["A). ADD", "B). CONCATENATE", "C). JOIN", "D). MERGE"],
+      "answer-hindi": "B). CONCATENATE",
+      "answer-english": "B). CONCATENATE",
+      "solution-hindi": "CONCATENATE फ़ंक्शन (और नए CONCAT और TEXTJOIN फ़ंक्शन, या & ऑपरेटर) का उपयोग दो या दो से अधिक सेलों से टेक्स्ट को एक सेल में संयोजित करने के लिए किया जाता है। ADD, JOIN, और MERGE इस उद्देश्य के लिए मानक एक्सेल फ़ंक्शन नहीं हैं।",
+      "solution-english": "The CONCATENATE function (and the newer CONCAT and TEXTJOIN functions, or the & operator) is used to combine text from two or more cells into one cell. ADD, JOIN, and MERGE are not standard Excel functions for this purpose."
+    },
+    {
+      "question-hindi": "एमएस वर्ड 365 में निम्नलिखित में से कौन सा टैब, आपको पेज सेटअप डायलॉग बॉक्स में पेज के आकार को अनुकूलित करने की अनुमति देता है?",
+      "question-english": "Which of the following tabs in MS Word 365, allows you to customise the page size in the Page Setup dialog box?",
+      "options-hindi": ["A). इंसर्ट (Insert)", "B). एडिट (Edit)", "C). लेआउट (Layout)", "D). फ़ाइल (File)"],
+      "options-english": ["A). Insert", "B). Edit", "C). Layout", "D). File"],
+      "answer-hindi": "C). लेआउट (Layout)",
+      "answer-english": "C). Layout",
+      "solution-hindi": "पेज का आकार, मार्जिन और ओरिएंटेशन सभी पेज के समग्र लेआउट का हिस्सा हैं। ये विकल्प लेआउट टैब पर पेज सेटअप समूह में पाए जाते हैं।",
+      "solution-english": "Page size, margins, and orientation are all part of the page's overall layout. These options are found in the Page Setup group on the Layout tab."
+    }
+          ]
+    }
+  ]
+}

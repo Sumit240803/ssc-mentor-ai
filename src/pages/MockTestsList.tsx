@@ -42,6 +42,11 @@ const MockTestsList: React.FC = () => {
           "Complete_mock-test_18.json",
           "Complete_mock-test_19.json",
           "Complete_mock-test_20.json",
+          "Complete_mock-test_21.json",
+          "Complete_mock-test_22.json",
+          "Complete_mock-test_23.json",
+          "Complete_mock-test_24.json",
+          "Complete_mock-test_25.json",
         ];
 
         const testsData = await Promise.all(
