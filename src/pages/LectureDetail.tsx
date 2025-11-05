@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -7,11 +7,30 @@ import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AudioPlayer } from "@/components/AudioPlayer";
 
+interface TimestampData {
+  start: number;
+  end: number;
+  word: string;
+  confidence: number;
+}
+
+interface AlignmentResponse {
+  subject: string;
+  topic: string;
+  language: string;
+  audio_url: string;
+  text_url: string;
+  timestamps: TimestampData[];
+}
+
 const LectureDetail = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const [content, setContent] = useState<string>("");
   const [loading, setLoading] = useState(true);
+  const [alignmentData, setAlignmentData] = useState<AlignmentResponse | null>(null);
+  const [currentAudioTime, setCurrentAudioTime] = useState<number>(0);
+  const [alignmentLoading, setAlignmentLoading] = useState<boolean>(false);
   
   const url = searchParams.get("url") || "";
   const fileName = searchParams.get("fileName") || "";
@@ -19,16 +38,7 @@ const LectureDetail = () => {
   const subject = searchParams.get("subject") || "";
   const topic = searchParams.get("topic") || "";
 
-  useEffect(() => {
-    const isRtfFile = url.toLowerCase().endsWith('.rtf') || type.includes('rtf');
-    if ((type.includes("text") || isRtfFile) && url) {
-      fetchTextContent();
-    } else {
-      setLoading(false);
-    }
-  }, [url, type]);
-
-  const fetchTextContent = async () => {
+  const fetchTextContent = useCallback(async () => {
     try {
       setLoading(true);
       
@@ -49,11 +59,94 @@ const LectureDetail = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [url]);
+
+  const fetchAlignmentData = useCallback(async () => {
+    if (!subject || !topic) return;
+    
+    try {
+      setAlignmentLoading(true);
+      const apiUrl = `https://sscb-backend-api.onrender.com/alignments/?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}&language=hi`;
+      console.log(`Fetching alignment data from: ${apiUrl}`);
+      const response = await fetch(apiUrl);
+      const data: AlignmentResponse = await response.json();
+      console.log("Alignment data received:", data);
+      setAlignmentData(data);
+    } catch (error) {
+      console.error("Error fetching alignment data:", error);
+      setAlignmentData(null);
+    } finally {
+      setAlignmentLoading(false);
+    }
+  }, [subject, topic]);
+
+  useEffect(() => {
+    const isRtfFile = url.toLowerCase().endsWith('.rtf') || type.includes('rtf');
+    if ((type.includes("text") || isRtfFile) && url) {
+      fetchTextContent();
+    } else {
+      setLoading(false);
+    }
+  }, [url, type, fetchTextContent]);
+
+  useEffect(() => {
+    if (type.includes("audio")) {
+      fetchAlignmentData();
+    }
+  }, [type, fetchAlignmentData]);
+
+  // Fetch text content from alignment data for audio files
+  useEffect(() => {
+    const fetchTextFromAlignment = async () => {
+      if (alignmentData && alignmentData.text_url && type.includes("audio")) {
+        try {
+          const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(alignmentData.text_url)}&output_format=text`;
+          const response = await fetch(apiUrl);
+          const data = await response.json();
+          setContent(data.content || "Failed to load RTF content from alignment");
+        } catch (error) {
+          console.error("Error fetching text from alignment:", error);
+          setContent("Failed to load text content");
+        }
+      }
+    };
+
+    fetchTextFromAlignment();
+  }, [alignmentData, type]);
 
   const handleBack = () => {
     navigate(`/lectures?subject=${encodeURIComponent(subject)}`);
   };
+
+  const handleAudioTimeUpdate = useCallback((time: number) => {
+    setCurrentAudioTime(time);
+  }, []);
+
+  const highlightedContent = useMemo(() => {
+    if (!content || !alignmentData || !type.includes("audio")) {
+      return content;
+    }
+
+    // Find the current word based on audio time
+    const currentWord = alignmentData.timestamps.find(
+      (timestamp) => currentAudioTime >= timestamp.start && currentAudioTime <= timestamp.end
+    );
+
+    if (!currentWord) {
+      return content;
+    }
+
+    // Highlight the current word in the content
+    const wordToHighlight = currentWord.word;
+    console.log(`Highlighting word: "${wordToHighlight}" at time: ${currentAudioTime}`);
+    
+    // For Hindi text, we need to match the exact word without word boundaries
+    // as word boundaries don't work well with Devanagari script
+    const escapedWord = wordToHighlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(escapedWord, 'g');
+    
+    return content.replace(regex, `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${wordToHighlight}</mark>`);
+  }, [content, alignmentData, currentAudioTime, type]);
 
   if (loading) {
     return (
@@ -96,7 +189,42 @@ const LectureDetail = () => {
 
           <CardContent>
             {type.includes("audio") ? (
-              <AudioPlayer src={url} title={fileName} />
+              <div className="space-y-6">
+                <AudioPlayer 
+                  src={url} 
+                  title={fileName} 
+                  onTimeUpdate={handleAudioTimeUpdate}
+                />
+                {alignmentLoading && (
+                  <div className="flex items-center justify-center py-8">
+                    <LoadingSpinner size="lg" />
+                    <span className="ml-2 text-muted-foreground">Loading text sync...</span>
+                  </div>
+                )}
+                {alignmentData && content && !alignmentLoading && (
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center text-sm text-muted-foreground">
+                      <span>Synchronized Text</span>
+                      <span>Current time: {currentAudioTime.toFixed(1)}s</span>
+                    </div>
+                    <ScrollArea className="h-[400px] w-full rounded-lg border bg-card">
+                      <div className="p-8">
+                        <div className="prose prose-base dark:prose-invert max-w-none">
+                          <div 
+                            className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide"
+                            dangerouslySetInnerHTML={{ __html: highlightedContent }}
+                          />
+                        </div>
+                      </div>
+                    </ScrollArea>
+                  </div>
+                )}
+                {!alignmentData && !alignmentLoading && type.includes("audio") && (
+                  <div className="text-center py-8 text-muted-foreground">
+                    <p>Text synchronization not available for this audio file.</p>
+                  </div>
+                )}
+              </div>
             ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf')) ? (
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">

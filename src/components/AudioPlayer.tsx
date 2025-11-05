@@ -7,9 +7,10 @@ import { Card } from "@/components/ui/card";
 interface AudioPlayerProps {
   src: string;
   title?: string;
+  onTimeUpdate?: (currentTime: number) => void;
 }
 
-export const AudioPlayer = ({ src, title }: AudioPlayerProps) => {
+export const AudioPlayer = ({ src, title, onTimeUpdate }: AudioPlayerProps) => {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -22,7 +23,10 @@ export const AudioPlayer = ({ src, title }: AudioPlayerProps) => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const updateTime = () => setCurrentTime(audio.currentTime);
+    const updateTime = () => {
+      setCurrentTime(audio.currentTime);
+      onTimeUpdate?.(audio.currentTime);
+    };
     const updateDuration = () => setDuration(audio.duration);
     const handleEnded = () => setIsPlaying(false);
 
@@ -35,7 +39,7 @@ export const AudioPlayer = ({ src, title }: AudioPlayerProps) => {
       audio.removeEventListener("loadedmetadata", updateDuration);
       audio.removeEventListener("ended", handleEnded);
     };
-  }, []);
+  }, [onTimeUpdate]);
 
   const togglePlayPause = () => {
     const audio = audioRef.current;
