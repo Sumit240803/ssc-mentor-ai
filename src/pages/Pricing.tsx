@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Check, Crown, BookOpen, Video, Users, Award, Brain, Zap, Target, Bot, Sparkles, CheckCircle, Star, ArrowRight } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useNavigate } from 'react-router-dom';
+import { usePaymentStatus } from '@/hooks/usePaymentStatus';
 
 declare global {
   interface Window {
@@ -19,6 +20,14 @@ const Pricing = () => {
   const { toast } = useToast();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
+  const { hasPaid, loading: paymentLoading } = usePaymentStatus();
+
+  // Redirect if user has already paid
+  useEffect(() => {
+    if (!paymentLoading && hasPaid) {
+      navigate('/lectures');
+    }
+  }, [hasPaid, paymentLoading, navigate]);
 
   const handlePayment = async () => {
     console.log('Payment initiated');
@@ -150,13 +159,11 @@ const Pricing = () => {
 
   const features = [
     { icon: Brain, text: "AI-Powered Personalized Learning Paths", premium: true },
-    { icon: Video, text: "Premium HD Video Lectures with AI Summaries", premium: true },
     { icon: Bot, text: "24/7 AI Mentor & Doubt Resolution", premium: true },
     { icon: Target, text: "AI-Driven Progress Analytics & Insights", premium: true },
     { icon: Zap, text: "Smart Practice Questions with AI Explanations", premium: true },
     { icon: Award, text: "AI-Verified Course Completion Certificates", premium: true },
     { icon: Users, text: "Live Interactive Sessions with AI Assistance", premium: true },
-    { icon: Check, text: "Lifetime Access to All AI Features", premium: true },
     { icon: Check, text: "Download AI-Generated Study Materials", premium: true },
     { icon: CheckCircle, text: "Priority AI Support & Updates", premium: true },
   ];

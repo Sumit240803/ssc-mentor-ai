@@ -3,11 +3,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones } from "lucide-react";
+import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones, FolderOpen } from "lucide-react";
 import { useLectures } from "@/hooks/useLectures";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 interface FileItem {
   file_name: string;
@@ -25,15 +26,74 @@ interface LectureTopic {
 
 const Lectures = () => {
   const navigate = useNavigate();
-  const { subjects, loading, getLecturesBySubject, getPaginationInfo, fetchLecturesBySubject, isLoadingSubject } = useLectures();
+  const [searchParams] = useSearchParams();
+  const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
+  const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
 
+  // Check if there's a subject parameter in the URL
   useEffect(() => {
-    if (subjects.length > 0 && !activeSubject) {
+    const subjectParam = searchParams.get("subject");
+    if (subjectParam && subjects.includes(subjectParam)) {
+      setActiveSubject(subjectParam);
+      fetchLecturesBySubject(subjectParam);
+    } else if (subjects.length > 0 && !activeSubject) {
       setActiveSubject(subjects[0]);
       fetchLecturesBySubject(subjects[0]);
     }
-  }, [subjects]);
+  }, [subjects, searchParams]);
+
+  // Helper function to extract serial number from topic name
+  const extractSerialNumber = (topic: string): number | null => {
+    const match = topic.match(/^(\d+)\./);
+    return match ? parseInt(match[1], 10) : null;
+  };
+
+  // Helper function to sort topics by serial number
+  const sortTopicsBySerial = (topics: LectureTopic[]): LectureTopic[] => {
+    return [...topics].sort((a, b) => {
+      const serialA = extractSerialNumber(a.topic);
+      const serialB = extractSerialNumber(b.topic);
+      
+      // If both have serial numbers, sort numerically
+      if (serialA !== null && serialB !== null) {
+        return serialA - serialB;
+      }
+      
+      // If only one has a serial number, put it first
+      if (serialA !== null) return -1;
+      if (serialB !== null) return 1;
+      
+      // If neither has a serial number, keep original order
+      return 0;
+    });
+  };
+
+  const groupLecturesBySection = (lectures: LectureTopic[]) => {
+    const withSections: Record<string, LectureTopic[]> = {};
+    const withoutSections: LectureTopic[] = [];
+    
+    lectures.forEach(lecture => {
+      if (lecture.section && lecture.section.trim() !== '') {
+        if (!withSections[lecture.section]) {
+          withSections[lecture.section] = [];
+        }
+        withSections[lecture.section].push(lecture);
+      } else {
+        withoutSections.push(lecture);
+      }
+    });
+    
+    // Sort topics within each section by serial number
+    Object.keys(withSections).forEach(section => {
+      withSections[section] = sortTopicsBySerial(withSections[section]);
+    });
+    
+    // Sort topics without sections by serial number
+    const sortedWithoutSections = sortTopicsBySerial(withoutSections);
+    
+    return { withSections, withoutSections: sortedWithoutSections };
+  };
 
   const handleTabChange = (subject: string) => {
     setActiveSubject(subject);
@@ -58,13 +118,6 @@ const Lectures = () => {
 
   const handleFileClick = (file: FileItem, topic: LectureTopic) => {
     navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
-  };
-
-  const handleLoadMore = (subject: string) => {
-    const pagination = getPaginationInfo(subject);
-    if (pagination && pagination.page < pagination.total_pages) {
-      fetchLecturesBySubject(subject, pagination.page + 1);
-    }
   };
 
   return (
@@ -95,8 +148,145 @@ const Lectures = () => {
 
           {subjects.map((subject) => {
             const subjectLectures = getLecturesBySubject(subject);
-            const pagination = getPaginationInfo(subject);
             const isLoading = isLoadingSubject(subject);
+            const { withSections, withoutSections } = groupLecturesBySection(subjectLectures);
+            const sections = Object.keys(withSections);
+            const hasSections = sections.length > 0;
+
+            const renderTopicCard = (topic: LectureTopic, index: number) => {
+              // Group files by language
+              const englishFiles = topic.files.filter(f => 
+                f.url.includes('/English/') || 
+                (!f.url.includes('/Hindi/') && !f.file_name.toLowerCase().includes('hindi'))
+              );
+              const hindiFiles = topic.files.filter(f => 
+                f.url.includes('/Hindi/') || 
+                f.file_name.toLowerCase().includes('hindi')
+              );
+
+              const hasMultipleLanguages = englishFiles.length > 0 && hindiFiles.length > 0;
+
+              return (
+                <Card
+                  key={index}
+                  className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
+                >
+                  <CardHeader className="space-y-3">
+                    <div className="space-y-2">
+                      <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                        {topic.topic}
+                      </CardTitle>
+                    </div>
+                    
+                    <div className="flex flex-col gap-3 pt-2">
+                      {hasMultipleLanguages ? (
+                        <>
+                          {/* English Section */}
+                          {englishFiles.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-xs font-medium text-muted-foreground px-1">English</p>
+                              <div className="flex gap-2">
+                                {englishFiles.some(f => !f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      englishFiles.find(f => !f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <FileText className="h-4 w-4" />
+                                    Notes
+                                  </Button>
+                                )}
+                                {englishFiles.some(f => f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      englishFiles.find(f => f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <Headphones className="h-4 w-4" />
+                                    Audio
+                                  </Button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                          
+                          {/* Hindi Section */}
+                          {hindiFiles.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-xs font-medium text-muted-foreground px-1">हिंदी (Hindi)</p>
+                              <div className="flex gap-2">
+                                {hindiFiles.some(f => !f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      hindiFiles.find(f => !f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <FileText className="h-4 w-4" />
+                                    Notes
+                                  </Button>
+                                )}
+                                {hindiFiles.some(f => f.type?.includes('audio')) && (
+                                  <Button
+                                    variant="outline"
+                                    className="flex-1 justify-start gap-2"
+                                    onClick={() => handleFileClick(
+                                      hindiFiles.find(f => f.type?.includes('audio'))!,
+                                      topic
+                                    )}
+                                  >
+                                    <Headphones className="h-4 w-4" />
+                                    Audio
+                                  </Button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <>
+                          {/* Single language version (original behavior) */}
+                          {topic.files.some(f => !f.type?.includes('audio')) && (
+                            <Button
+                              variant="outline"
+                              className="w-full justify-start gap-2"
+                              onClick={() => handleFileClick(
+                                topic.files.find(f => !f.type?.includes('audio'))!,
+                                topic
+                              )}
+                            >
+                              <FileText className="h-4 w-4" />
+                              Read Notes
+                            </Button>
+                          )}
+                          {topic.files.some(f => f.type?.includes('audio')) && (
+                            <Button
+                              variant="outline"
+                              className="w-full justify-start gap-2"
+                              onClick={() => handleFileClick(
+                                topic.files.find(f => f.type?.includes('audio'))!,
+                                topic
+                              )}
+                            >
+                              <Headphones className="h-4 w-4" />
+                              Listen Audio
+                            </Button>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  </CardHeader>
+                </Card>
+              );
+            };
 
             return (
               <TabsContent key={subject} value={subject} className="mt-6">
@@ -118,73 +308,43 @@ const Lectures = () => {
                   </Card>
                 ) : (
                   <>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {subjectLectures.map((topic, index) => {
-                        const textFile = topic.files.find(f => !f.type?.includes('audio'));
-                        const audioFile = topic.files.find(f => f.type?.includes('audio'));
-
-                        return (
-                          <Card
-                            key={index}
-                            className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
+                    {hasSections && (
+                      <Accordion 
+                        type="multiple" 
+                        value={activeSections[subject] || [sections[0]]} 
+                        onValueChange={(value) => setActiveSections(prev => ({ ...prev, [subject]: value }))}
+                        className="space-y-4"
+                      >
+                        {sections.map((section) => (
+                          <AccordionItem 
+                            key={section} 
+                            value={section}
+                            className="border-2 rounded-lg bg-card/50 backdrop-blur-sm px-6"
                           >
-                            <CardHeader className="space-y-3">
-                              <div className="space-y-2">
-                                <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                                  {topic.topic}
-                                </CardTitle>
-                                <CardDescription className="text-sm">
-                                  <Badge variant="outline" className="font-medium">
-                                    {topic.section}
-                                  </Badge>
-                                </CardDescription>
+                            <AccordionTrigger className="hover:no-underline py-4">
+                              <div className="flex items-center gap-3">
+                                <FolderOpen className="h-5 w-5 text-primary" />
+                                <span className="text-lg font-semibold">{section}</span>
+                                <Badge variant="secondary" className="ml-2">
+                                  {withSections[section].length} topics
+                                </Badge>
                               </div>
-                              
-                              <div className="flex flex-col gap-2 pt-2">
-                                {textFile && (
-                                  <Button
-                                    variant="outline"
-                                    className="w-full justify-start gap-2"
-                                    onClick={() => handleFileClick(textFile, topic)}
-                                  >
-                                    <FileText className="h-4 w-4" />
-                                    Read Notes
-                                  </Button>
-                                )}
-                                {audioFile && (
-                                  <Button
-                                    variant="outline"
-                                    className="w-full justify-start gap-2"
-                                    onClick={() => handleFileClick(audioFile, topic)}
-                                  >
-                                    <Headphones className="h-4 w-4" />
-                                    Listen Audio
-                                  </Button>
-                                )}
+                            </AccordionTrigger>
+                            <AccordionContent className="pt-4 pb-6">
+                              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {withSections[section].map(renderTopicCard)}
                               </div>
-                            </CardHeader>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                    
-                    {pagination && pagination.page < pagination.total_pages && (
-                      <div className="flex justify-center mt-8">
-                        <Button
-                          onClick={() => handleLoadMore(subject)}
-                          disabled={isLoading}
-                          variant="outline"
-                          size="lg"
-                        >
-                          {isLoading ? (
-                            <>
-                              <LoadingSpinner size="sm" className="mr-2" />
-                              Loading...
-                            </>
-                          ) : (
-                            `Load More (${pagination.page} / ${pagination.total_pages})`
-                          )}
-                        </Button>
+                            </AccordionContent>
+                          </AccordionItem>
+                        ))}
+                      </Accordion>
+                    )}
+
+                    {withoutSections.length > 0 && (
+                      <div className={hasSections ? "mt-6" : ""}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                          {withoutSections.map(renderTopicCard)}
+                        </div>
                       </div>
                     )}
                   </>

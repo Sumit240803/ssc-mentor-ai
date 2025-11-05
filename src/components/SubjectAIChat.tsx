@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { MessageCircle, Send, Bot, User } from "lucide-react";
+import { MessageCircle, Send, Bot, User, Mic, MicOff } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useToast } from "@/hooks/use-toast";
 import ReactMarkdown from "react-markdown";
+import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 
 interface Message {
   id: string;
@@ -25,9 +26,75 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const { toast } = useToast();
+  
+  const {
+    transcript,
+    listening,
+    resetTranscript,
+    browserSupportsSpeechRecognition
+  } = useSpeechRecognition();
+
+  useEffect(() => {
+    if (transcript) {
+      setInputMessage(transcript);
+    }
+  }, [transcript]);
+
+  const handleMicToggle = async () => {
+    console.log("Mic button clicked, current listening state:", listening);
+    console.log("Browser supports speech recognition:", browserSupportsSpeechRecognition);
+    
+    if (!browserSupportsSpeechRecognition) {
+      toast({
+        title: "Not Supported",
+        description: "Speech recognition is not supported in your browser. Please try Chrome.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    try {
+      if (listening) {
+        console.log("Stopping speech recognition...");
+        SpeechRecognition.stopListening();
+        toast({
+          title: "Microphone Off",
+          description: "Speech recognition stopped",
+        });
+      } else {
+        // Request microphone permission first
+        console.log("Requesting microphone permission...");
+        await navigator.mediaDevices.getUserMedia({ audio: true });
+        
+        console.log("Starting speech recognition...");
+        resetTranscript();
+        await SpeechRecognition.startListening({ 
+          continuous: true,
+          language: 'en-US'
+        });
+        
+        toast({
+          title: "Microphone On",
+          description: "Start speaking your question",
+        });
+      }
+    } catch (error) {
+      console.error("Speech recognition error:", error);
+      toast({
+        title: "Microphone Error",
+        description: error instanceof Error ? error.message : "Failed to access microphone. Please check permissions.",
+        variant: "destructive",
+      });
+    }
+  };
 
   const sendMessage = async () => {
     if (!inputMessage.trim()) return;
+
+    // Stop listening when sending message
+    if (listening) {
+      SpeechRecognition.stopListening();
+    }
 
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -38,6 +105,7 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
 
     setMessages((prev) => [...prev, userMessage]);
     setInputMessage("");
+    resetTranscript();
     setIsLoading(true);
 
     try {
@@ -163,15 +231,30 @@ export const SubjectAIChat = ({ subject }: SubjectAIChatProps) => {
         </ScrollArea>
 
         <div className="p-4 border-t">
+          {!browserSupportsSpeechRecognition && (
+            <p className="text-xs text-muted-foreground mb-2 text-center">
+              Speech recognition is not supported in this browser.
+            </p>
+          )}
           <div className="flex gap-2">
             <Input
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Type your question..."
+              placeholder={listening ? "Listening..." : "Type your question..."}
               disabled={isLoading}
               className="flex-1"
             />
+            {browserSupportsSpeechRecognition && (
+              <Button
+                onClick={handleMicToggle}
+                disabled={isLoading}
+                size="icon"
+                variant={listening ? "destructive" : "outline"}
+              >
+                {listening ? <MicOff className="h-4 w-4" /> : <Mic className="h-4 w-4" />}
+              </Button>
+            )}
             <Button
               onClick={sendMessage}
               disabled={isLoading || !inputMessage.trim()}

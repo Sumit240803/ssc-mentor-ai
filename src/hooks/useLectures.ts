@@ -14,19 +14,11 @@ interface LectureTopic {
   files: FileItem[];
 }
 
-interface PaginationInfo {
-  page: number;
-  limit: number;
-  total_items: number;
-  total_pages: number;
-  count: number;
-}
-
 const API_BASE_URL = 'https://sscb-backend-api.onrender.com';
 
 export const useLectures = () => {
   const [lecturesBySubject, setLecturesBySubject] = useState<Record<string, LectureTopic[]>>({});
-  const [paginationBySubject, setPaginationBySubject] = useState<Record<string, PaginationInfo>>({});
+  const [fetchedSubjects, setFetchedSubjects] = useState<Set<string>>(new Set());
   const [subjects, setSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadingSubjects, setLoadingSubjects] = useState<Record<string, boolean>>({});
@@ -51,7 +43,12 @@ export const useLectures = () => {
     }
   };
 
-  const fetchLecturesBySubject = async (subjectName: string, page: number = 1) => {
+  const fetchLecturesBySubject = async (subjectName: string) => {
+    // Check if already fetched (memoized)
+    if (fetchedSubjects.has(subjectName)) {
+      return lecturesBySubject[subjectName] || [];
+    }
+
     // Check if already loading
     if (loadingSubjects[subjectName]) {
       return [];
@@ -60,7 +57,8 @@ export const useLectures = () => {
     try {
       setLoadingSubjects(prev => ({ ...prev, [subjectName]: true }));
       
-      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}?page=${page}&limit=10`);
+      // Fetch all lectures at once with a limit of 50
+      const response = await fetch(`${API_BASE_URL}/lectures/${encodeURIComponent(subjectName)}?limit=50`);
       const data = await response.json();
       
       if (data.status === 'success') {
@@ -72,28 +70,13 @@ export const useLectures = () => {
           }))
           .filter((topic: LectureTopic) => topic.files.length > 0);
 
-        if (page === 1) {
-          setLecturesBySubject(prev => ({
-            ...prev,
-            [subjectName]: filteredData
-          }));
-        } else {
-          setLecturesBySubject(prev => ({
-            ...prev,
-            [subjectName]: [...(prev[subjectName] || []), ...filteredData]
-          }));
-        }
-
-        setPaginationBySubject(prev => ({
+        setLecturesBySubject(prev => ({
           ...prev,
-          [subjectName]: {
-            page: data.page,
-            limit: data.limit,
-            total_items: data.total_items,
-            total_pages: data.total_pages,
-            count: data.count
-          }
+          [subjectName]: filteredData
         }));
+
+        // Mark subject as fetched
+        setFetchedSubjects(prev => new Set([...prev, subjectName]));
 
         return filteredData;
       }
@@ -110,10 +93,6 @@ export const useLectures = () => {
     return lecturesBySubject[subjectName] || [];
   };
 
-  const getPaginationInfo = (subjectName: string) => {
-    return paginationBySubject[subjectName];
-  };
-
   const isLoadingSubject = (subjectName: string) => {
     return loadingSubjects[subjectName] || false;
   };
@@ -123,7 +102,6 @@ export const useLectures = () => {
     subjects,
     loading,
     getLecturesBySubject,
-    getPaginationInfo,
     fetchLecturesBySubject,
     isLoadingSubject,
     refreshData: loadSubjects

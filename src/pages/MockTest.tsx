@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { LoadingSpinner } from '@/components/ui/loading-spinner';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { 
   Clock, 
   ChevronLeft, 
@@ -20,10 +21,16 @@ import {
   BookOpen,
   Target,
   Brain,
-  Languages
+  Languages,
+  Flag,
+  ZoomIn,
+  ZoomOut,
+  Pause,
+  Play
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
@@ -33,17 +40,22 @@ const MockTest: React.FC = () => {
   const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
   const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState<Language>('hindi');
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [markedForReview, setMarkedForReview] = useState<Set<number>>(new Set());
   
   const {
     mockTestData,
     testState,
     startTest,
     submitTest,
+    pauseTest,
+    resumeTest,
     answerQuestion,
     goToQuestion,
     nextQuestion,
     previousQuestion,
     getResults,
+    calculateSectionWiseScores,
     resetTest,
     enterReviewMode,
     switchLanguage,
@@ -293,9 +305,57 @@ const MockTest: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-4 justify-center">
+                {/* Section-wise Performance Table */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-semibold mb-4 text-foreground">Section-wise Performance</h3>
+                  <div className="border rounded-lg overflow-hidden">
+                    <Table>
+                      <TableHeader>
+                        <TableRow className="bg-muted/50">
+                          <TableHead className="font-semibold">Section</TableHead>
+                          <TableHead className="text-center font-semibold">Total Questions</TableHead>
+                          <TableHead className="text-center font-semibold">Correct</TableHead>
+                          <TableHead className="text-center font-semibold">Incorrect</TableHead>
+                          <TableHead className="text-center font-semibold">Score</TableHead>
+                          <TableHead className="text-center font-semibold">Percentage</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {Object.entries(calculateSectionWiseScores()).map(([section, data]) => (
+                          <TableRow key={section}>
+                            <TableCell className="font-medium">{section}</TableCell>
+                            <TableCell className="text-center">{data.total}</TableCell>
+                            <TableCell className="text-center">
+                              <span className="text-green-600 dark:text-green-400 font-semibold">
+                                {data.correct}
+                              </span>
+                            </TableCell>
+                            <TableCell className="text-center">
+                              <span className="text-red-600 dark:text-red-400 font-semibold">
+                                {data.incorrect}
+                              </span>
+                            </TableCell>
+                            <TableCell className="text-center font-semibold">
+                              {data.score.toFixed(2)}
+                            </TableCell>
+                            <TableCell className="text-center">
+                              <Badge variant={data.percentage >= 60 ? "default" : "destructive"}>
+                                {data.percentage}%
+                              </Badge>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 justify-center flex-wrap">
                   <Button onClick={enterReviewMode} variant="default">
                     Review Answers
+                  </Button>
+                  <Button onClick={resetTest} variant="default">
+                    Reattempt Test
                   </Button>
                   <Button onClick={() => navigate('/mock-tests')} variant="outline">
                     Back to Tests
@@ -373,93 +433,265 @@ const MockTest: React.FC = () => {
   if (testState.isActive || testState.isReviewMode) {
     const currentQuestion = testState.questions[testState.currentQuestionIndex];
     const currentAnswer = testState.userAnswers[currentQuestion?.id];
-    const progress = ((testState.currentQuestionIndex + 1) / testState.questions.length) * 100;
+    
+    // Group questions by section
+    const sections = mockTestData?.mockTest || [];
+    const sectionQuestions = new Map<string, typeof testState.questions>();
+    let questionOffset = 0;
+    
+    sections.forEach(section => {
+      const sectionQs = testState.questions.slice(questionOffset, questionOffset + section.questions.length);
+      sectionQuestions.set(section.section, sectionQs);
+      questionOffset += section.questions.length;
+    });
+    
+    // Find current section
+    const getCurrentSection = () => {
+      let offset = 0;
+      for (const section of sections) {
+        if (testState.currentQuestionIndex < offset + section.questions.length) {
+          return section.section;
+        }
+        offset += section.questions.length;
+      }
+      return sections[0]?.section || '';
+    };
+    
+    const currentSection = getCurrentSection();
+    
+    // Calculate statistics
+    const answeredCount = Object.keys(testState.userAnswers).length;
+    const totalQuestions = testState.questions.length;
+    
+    // Get section-wise stats
+    const getSectionStats = (sectionName: string) => {
+      const questions = sectionQuestions.get(sectionName) || [];
+      const answered = questions.filter(q => testState.userAnswers[q.id]).length;
+      return { answered, total: questions.length };
+    };
+    
+    // Handle section change
+    const handleSectionChange = (sectionName: string) => {
+      let offset = 0;
+      for (const section of sections) {
+        if (section.section === sectionName) {
+          goToQuestion(offset);
+          break;
+        }
+        offset += section.questions.length;
+      }
+    };
+    
+    // Toggle mark for review
+    const toggleMarkForReview = () => {
+      const newMarked = new Set(markedForReview);
+      if (newMarked.has(currentQuestion.id)) {
+        newMarked.delete(currentQuestion.id);
+      } else {
+        newMarked.add(currentQuestion.id);
+      }
+      setMarkedForReview(newMarked);
+    };
+    
+    // Save and next
+    const saveAndNext = () => {
+      if (testState.currentQuestionIndex < testState.questions.length - 1) {
+        nextQuestion();
+      }
+    };
 
     return (
       <div className="min-h-screen bg-background">
-        {/* Timer Bar or Review Header */}
+        {/* Top Header */}
         <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-3">
-            <div className="flex items-center gap-4">
-              {testState.isReviewMode ? (
-                <div className="flex items-center gap-2">
-                  <BookOpen className="h-5 w-5 text-primary" />
-                  <span className="font-semibold text-lg">Review Mode</span>
+          <div className="px-4 py-2">
+            <div className="flex items-center justify-between">
+              {/* Left: Zoom */}
+              <div className="flex items-center gap-4">
+                <div className="flex gap-2">
+                  <Button variant="outline" size="sm">
+                    <ZoomOut className="h-4 w-4" />
+                  </Button>
+                  <Button variant="outline" size="sm">
+                    <ZoomIn className="h-4 w-4" />
+                  </Button>
                 </div>
-              ) : (
-                <div className="flex items-center gap-2">
-                  <Clock className={cn(
-                    "h-5 w-5",
-                    testState.timeRemaining < 300 ? "text-destructive animate-pulse" : "text-primary"
-                  )} />
-                  <span className={cn(
-                    "font-mono font-semibold text-lg",
-                    testState.timeRemaining < 300 && "text-destructive"
+              </div>
+              
+              {/* Center: Test Title */}
+              <div className="text-center">
+                <h1 className="font-semibold text-lg">{mockTestData?.testName || 'Mock Test'}</h1>
+                <p className="text-xs text-muted-foreground">Roll No: {Math.floor(Math.random() * 1000000000)}</p>
+              </div>
+              
+              {/* Right: Timer & User */}
+              <div className="flex items-center gap-4">
+                <div className="flex gap-2">
+                  <Button variant="outline" size="sm">⏮</Button>
+                  {!testState.isReviewMode && (
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={testState.isPaused ? resumeTest : pauseTest}
+                      title={testState.isPaused ? "Resume Test" : "Pause Test"}
+                    >
+                      {testState.isPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+                    </Button>
+                  )}
+                </div>
+                <div className="text-center">
+                  <div className="text-xs text-muted-foreground">
+                    {testState.isPaused ? "Paused" : "Time Left"}
+                  </div>
+                  <div className={cn(
+                    "font-mono font-bold text-xl",
+                    testState.timeRemaining < 300 && "text-destructive",
+                    testState.isPaused && "text-yellow-600"
                   )}>
                     {formatTime(testState.timeRemaining)}
-                  </span>
+                  </div>
                 </div>
-              )}
-              <div className="text-sm text-muted-foreground">
-                Question {testState.currentQuestionIndex + 1} of {testState.questions.length}
+                <div className="flex gap-2">
+                  <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
+                    <span className="text-xs">📷</span>
+                  </div>
+                  <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
+                    <span className="text-xs">👤</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="flex items-center gap-3">
-              {!testState.isReviewMode && (
-                <ToggleGroup 
-                  type="single" 
-                  value={testState.language}
-                  onValueChange={(value) => value && switchLanguage(value as Language)}
-                  size="sm"
-                >
-                  <ToggleGroupItem value="hindi" aria-label="Hindi">
-                    <Languages className="h-4 w-4 mr-1" />
-                    हिं
-                  </ToggleGroupItem>
-                  <ToggleGroupItem value="english" aria-label="English">
-                    <Languages className="h-4 w-4 mr-1" />
-                    EN
-                  </ToggleGroupItem>
-                </ToggleGroup>
-              )}
-              <Progress value={progress} className="w-32" />
+          </div>
+          
+          {/* Instructions & Sections Tabs */}
+          <div className="border-t">
+            <div className="px-4 py-2 flex items-center gap-4">
+              <Button variant="ghost" size="sm" className="text-destructive">
+                SYMBOLS
+              </Button>
+              <Button variant="ghost" size="sm">
+                INSTRUCTIONS
+              </Button>
+              
+              <div className="flex gap-1 ml-auto">
+                {sections.map((section, index) => {
+                  const isActive = section.section === currentSection;
+                  return (
+                    <Button
+                      key={section.section}
+                      variant={isActive ? "default" : "outline"}
+                      size="sm"
+                      onClick={() => handleSectionChange(section.section)}
+                      className={cn(
+                        "text-xs px-3",
+                        isActive && "bg-blue-600 text-white hover:bg-blue-700"
+                      )}
+                    >
+                      PART-{String.fromCharCode(65 + index)}
+                    </Button>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto p-4 grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* Main Question Area */}
-          <div className="lg:col-span-3">
-            {currentQuestion ? (
-              <Card>
-                <CardHeader>
-                  <div className="flex items-center justify-between">
-                    <CardTitle className="text-xl">
-                      Question {testState.currentQuestionIndex + 1}
-                    </CardTitle>
-                    <div className="flex items-center gap-2">
-                      <Badge variant="outline">{currentQuestion.section}</Badge>
-                      {currentQuestion.pyq && (
-                        <Badge variant="secondary">
-                          PYQ {currentQuestion.pyqDetails.year}
-                        </Badge>
-                      )}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                  {(() => {
-                    const questionText = testState.language === 'hindi' 
-                      ? currentQuestion['question-hindi'] 
-                      : currentQuestion['question-english'];
-                    const options = testState.language === 'hindi'
-                      ? currentQuestion['options-hindi']
-                      : currentQuestion['options-english'];
-                    
-                    const isQuestionImage = questionText.startsWith('http://') || questionText.startsWith('https://');
+        <div className="flex">
+          {/* Left Sidebar - Question Numbers */}
+          {!sidebarCollapsed && (
+            <div className="w-64 border-r bg-card">
+              <div className="p-4 border-b bg-muted">
+                <div className="flex items-center justify-between">
+                  <ChevronLeft 
+                    className="h-5 w-5 cursor-pointer text-primary" 
+                    onClick={() => setSidebarCollapsed(true)}
+                  />
+                  <span className="font-semibold text-sm">{currentSection}</span>
+                </div>
+              </div>
+              
+              <div className="p-4">
+                <div className="grid grid-cols-5 gap-2">
+                  {testState.questions.map((question, index) => {
+                    const userAnswer = testState.userAnswers[question.id];
+                    const isCurrent = index === testState.currentQuestionIndex;
+                    const isAnswered = !!userAnswer;
+                    const isMarked = markedForReview.has(question.id);
                     
                     return (
-                      <>
+                      <button
+                        key={question.id}
+                        onClick={() => goToQuestion(index)}
+                        className={cn(
+                          "aspect-square rounded text-sm font-semibold transition-all",
+                          isCurrent && "ring-2 ring-primary ring-offset-2",
+                          isAnswered && !isMarked && "bg-green-600 text-white",
+                          isMarked && "bg-purple-600 text-white",
+                          !isAnswered && !isMarked && "bg-muted hover:bg-muted/80"
+                        )}
+                      >
+                        {index + 1}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              
+              {/* Section Analysis */}
+              <div className="p-4 border-t bg-muted/50">
+                <div className="text-sm font-semibold mb-2">{currentSection} Analysis</div>
+                <div className="space-y-1 text-xs">
+                  <div className="flex justify-between">
+                    <span>Answered</span>
+                    <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
+                      {getSectionStats(currentSection).answered}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Not Answered</span>
+                    <span className="px-2 py-1 bg-muted rounded text-xs font-semibold">
+                      {getSectionStats(currentSection).total - getSectionStats(currentSection).answered}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {sidebarCollapsed && (
+            <div className="w-12 border-r bg-card flex items-start justify-center pt-4">
+              <ChevronRight 
+                className="h-5 w-5 cursor-pointer text-primary" 
+                onClick={() => setSidebarCollapsed(false)}
+              />
+            </div>
+          )}
+
+          {/* Main Content */}
+          <div className="flex-1 p-6">
+            <div className="max-w-5xl mx-auto">
+              {/* Question Header */}
+              <div className="mb-4">
+                <h2 className="text-xl font-semibold">
+                  Question No. {testState.currentQuestionIndex + 1}
+                </h2>
+              </div>
+
+              {/* Question Content */}
+              <div className="bg-card rounded-lg p-6 mb-6 border">
+                {(() => {
+                  const questionText = testState.language === 'hindi' 
+                    ? currentQuestion['question-hindi'] 
+                    : currentQuestion['question-english'];
+                  const options = testState.language === 'hindi'
+                    ? currentQuestion['options-hindi']
+                    : currentQuestion['options-english'];
+                  
+                  const isQuestionImage = questionText.startsWith('http://') || questionText.startsWith('https://');
+                  
+                  return (
+                    <>
+                      <div className="mb-6">
                         {isQuestionImage ? (
                           <img 
                             src={questionText} 
@@ -467,14 +699,15 @@ const MockTest: React.FC = () => {
                             className="max-w-full h-auto rounded-lg"
                           />
                         ) : (
-                          <p className="text-lg leading-relaxed">{questionText}</p>
+                          <p className="text-base leading-relaxed">{questionText}</p>
                         )}
-                        
-                        <RadioGroup
-                          value={currentAnswer?.selectedOption || ''}
-                          onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
-                          className="space-y-3"
-                        >
+                      </div>
+                      
+                      <RadioGroup
+                        value={currentAnswer?.selectedOption || ''}
+                        onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
+                        className="space-y-3"
+                      >
                         {testState.isReviewMode ? (
                           options.map((option, index) => {
                             const correctAnswer = testState.language === 'hindi' 
@@ -537,122 +770,88 @@ const MockTest: React.FC = () => {
                             );
                           })
                         )}
-                        </RadioGroup>
-                      </>
-                    );
-                  })()}
-                  
-                  {/* Solution Section (Review Mode Only) */}
-                  {testState.isReviewMode && (
-                    <div className="mt-6 p-4 bg-muted rounded-lg border-l-4 border-primary">
-                      <h4 className="font-semibold mb-2 flex items-center gap-2">
-                        <Brain className="h-5 w-5 text-primary" />
-                        Solution:
-                      </h4>
-                      <p className="text-sm leading-relaxed">
-                        {testState.language === 'hindi' 
-                          ? currentQuestion['solution-hindi']
-                          : currentQuestion['solution-english']}
-                      </p>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            ) : (
-              <Card>
-                <CardContent className="p-12 text-center">
-                  <p className="text-muted-foreground">Loading question...</p>
-                </CardContent>
-              </Card>
-            )}
+                      </RadioGroup>
+                      
+                      {/* Solution Section (Review Mode Only) */}
+                      {testState.isReviewMode && (
+                        <div className="mt-6 p-4 bg-muted rounded-lg border-l-4 border-primary">
+                          <h4 className="font-semibold mb-2 flex items-center gap-2">
+                            <Brain className="h-5 w-5 text-primary" />
+                            Solution:
+                          </h4>
+                          <p className="text-sm leading-relaxed">
+                            {testState.language === 'hindi' 
+                              ? currentQuestion['solution-hindi']
+                              : currentQuestion['solution-english']}
+                          </p>
+                        </div>
+                      )}
+                    </>
+                  );
+                })()}
+              </div>
 
-            {/* Navigation */}
-            <div className="mt-6 flex items-center justify-between">
-              <Button
-                onClick={previousQuestion}
-                disabled={testState.currentQuestionIndex === 0}
-                variant="outline"
-              >
-                <ChevronLeft className="h-4 w-4 mr-2" />
-                Previous
-              </Button>
-              
-              {testState.isReviewMode ? (
-                testState.currentQuestionIndex === testState.questions.length - 1 ? (
+              {/* Action Buttons */}
+              <div className="flex items-center justify-center gap-3">
+                {!testState.isReviewMode && (
+                  <>
+                    <Button 
+                      variant="outline" 
+                      onClick={toggleMarkForReview}
+                      className={markedForReview.has(currentQuestion.id) ? "bg-purple-100 dark:bg-purple-900" : ""}
+                    >
+                      <Flag className="h-4 w-4 mr-2" />
+                      Mark for Review
+                    </Button>
+                    <Button variant="default" onClick={saveAndNext}>
+                      Save & Next
+                    </Button>
+                    <Button variant="destructive" onClick={submitTest}>
+                      Submit Test
+                    </Button>
+                  </>
+                )}
+                {testState.isReviewMode && (
                   <Button onClick={() => navigate('/mock-tests')} variant="default">
-                    Back to Mock Tests
+                    Back to Tests
                   </Button>
-                ) : null
-              ) : (
-                <Button onClick={submitTest} variant="destructive">
-                  Submit Test
-                </Button>
-              )}
-              
-              <Button
-                onClick={nextQuestion}
-                disabled={testState.currentQuestionIndex === testState.questions.length - 1}
-              >
-                Next
-                <ChevronRight className="h-4 w-4 ml-2" />
-              </Button>
+                )}
+              </div>
             </div>
           </div>
 
-          {/* Question Navigation Panel */}
-          <div className="lg:col-span-1">
-            <Card className="sticky top-24">
-              <CardHeader>
-                <CardTitle className="text-lg">Questions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-5 gap-2">
-                  {testState.questions.map((question, index) => {
-                    const userAnswer = testState.userAnswers[question.id];
-                    const isCurrent = index === testState.currentQuestionIndex;
-                    const isWrong = testState.isReviewMode && userAnswer && !userAnswer.isCorrect;
-                    
-                    return (
-                      <Button
-                        key={question.id}
-                        variant={
-                          isCurrent 
-                            ? "default" 
-                            : isWrong
-                            ? "destructive"
-                            : userAnswer 
-                            ? "secondary" 
-                            : "outline"
-                        }
-                        size="sm"
-                        className={cn(
-                          "h-8 w-8 p-0 text-xs",
-                          isCurrent && "ring-2 ring-primary/50"
-                        )}
-                        onClick={() => goToQuestion(index)}
-                      >
-                        {index + 1}
-                      </Button>
-                    );
-                  })}
+          {/* Right Sidebar - Stats */}
+          <div className="w-80 border-l bg-card p-4">
+            <div className="space-y-4">
+              <div className="text-center p-4 bg-muted rounded-lg">
+                <div className="text-sm text-muted-foreground mb-1">Total Questions Answered</div>
+                <div className="text-3xl font-bold text-orange-600">{answeredCount}</div>
+                <div className="text-sm font-semibold text-orange-600">Last {Math.floor((mockTestData?.duration || 90))} Minutes</div>
+              </div>
+              
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-sm">
+                  <span>Select Language</span>
+                  <ToggleGroup 
+                    type="single" 
+                    value={testState.language}
+                    onValueChange={(value) => value && switchLanguage(value as Language)}
+                    size="sm"
+                  >
+                    <ToggleGroupItem value="english" aria-label="English" className="text-xs">
+                      English
+                    </ToggleGroupItem>
+                    <ToggleGroupItem value="hindi" aria-label="Hindi" className="text-xs">
+                      हिंदी
+                    </ToggleGroupItem>
+                  </ToggleGroup>
                 </div>
-                
-                <div className="mt-4 space-y-2 text-xs">
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 bg-primary rounded"></div>
-                    <span>Current</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 bg-secondary rounded"></div>
-                    <span>Answered</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 border rounded"></div>
-                    <span>Not Answered</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                <Button variant="outline" size="sm" className="w-full justify-start">
+                  <Flag className="h-4 w-4 mr-2" />
+                  Report
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

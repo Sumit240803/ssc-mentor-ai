@@ -1,14 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { useNavigate } from 'react-router-dom';
-import { 
-  BookOpen, 
-  Clock, 
-  FileText,
-  Target
-} from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { useNavigate } from "react-router-dom";
+import { BookOpen, Clock, FileText, Target } from "lucide-react";
 
 interface MockTestInfo {
   fileName: string;
@@ -27,34 +22,41 @@ const MockTestsList: React.FC = () => {
       try {
         // List of mock test files
         const testFiles = [
-          'Complete_mock-test_1.json',
-          'Complete_mock-test_2.json',
-          'Complete_mock-test_3.json',
-          'Complete_mock-test_4.json',
-          'Complete_Mock_Test 5.json',
-          'Complete_Mock_Test_6.json',
-          'Complete_Mock_Test_7.json',
-          'Complete_Mock_Test_8.json',
-          'Complete_Mock_Test_9.json',
-          'Complete_mock-test_10.json',
-          'Complete_mock-test_11.json'
+          "Complete_mock-test_1.json",
+          "Complete_mock-test_2.json",
+          "Complete_mock-test_3.json",
+          "Complete_mock-test_4.json",
+          "Complete_mock-test_5.json",
+          "Complete_mock-test_6.json",
+          "Complete_mock-test_7.json",
+          "Complete_mock-test_8.json",
+          "Complete_mock-test_9.json",
+          "Complete_mock-test_10.json",
+          "Complete_mock-test_11.json",
         ];
-        
+
         const testsData = await Promise.all(
           testFiles.map(async (fileName) => {
             try {
               const response = await fetch(`/${encodeURIComponent(fileName)}`);
               const data = await response.json();
-              
+              console.log(data);
+              console.log(data.testName);
+
               // Calculate total questions
               const totalQuestions = data.mockTest.reduce(
                 (total: number, section: any) => total + section.questions.length,
-                0
+                0,
               );
-              
+
+              // Extract test number from filename for fallback
+              const testNumberMatch = fileName.match(/(\d+)/);
+              const testNumber = testNumberMatch ? testNumberMatch[1] : "";
+              const fallbackName = testNumber ? `Mock Test ${testNumber}` : "Mock Test";
+
               return {
                 fileName,
-                testName: data.testName || `Mock Test`,
+                testName: data.testName || fallbackName,
                 duration: data.duration || 90,
                 totalQuestions,
               };
@@ -62,12 +64,12 @@ const MockTestsList: React.FC = () => {
               console.error(`Error loading ${fileName}:`, error);
               return null;
             }
-          })
+          }),
         );
-        
+
         setMockTests(testsData.filter(Boolean) as MockTestInfo[]);
       } catch (error) {
-        console.error('Error loading mock tests:', error);
+        console.error("Error loading mock tests:", error);
       } finally {
         setLoading(false);
       }
@@ -77,7 +79,7 @@ const MockTestsList: React.FC = () => {
   }, []);
 
   const handleStartTest = (fileName: string) => {
-    navigate(`/mock-test/${fileName.replace('.json', '')}`);
+    navigate(`/mock-test/${fileName.replace(".json", "")}`);
   };
 
   if (loading) {
@@ -109,23 +111,22 @@ const MockTestsList: React.FC = () => {
             <CardContent className="p-12 text-center">
               <FileText className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">No Mock Tests Available</h3>
-              <p className="text-muted-foreground">
-                Mock tests will appear here once they are uploaded.
-              </p>
+              <p className="text-muted-foreground">Mock tests will appear here once they are uploaded.</p>
             </CardContent>
           </Card>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {mockTests.map((test) => (
-              <Card key={test.fileName} className="bg-gradient-card border-primary/20 hover:shadow-elevated transition-all duration-300 hover:border-primary/40">
+              <Card
+                key={test.fileName}
+                className="bg-gradient-card border-primary/20 hover:shadow-elevated transition-all duration-300 hover:border-primary/40"
+              >
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <BookOpen className="h-5 w-5 text-primary" />
                     {test.testName}
                   </CardTitle>
-                  <CardDescription>
-                    Full-length practice test
-                  </CardDescription>
+                  <CardDescription>Full-length practice test</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid grid-cols-2 gap-3">
@@ -138,17 +139,8 @@ const MockTestsList: React.FC = () => {
                       <span>{test.totalQuestions} questions</span>
                     </div>
                   </div>
-                  
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="outline">No negative marking</Badge>
-                    <Badge variant="secondary">PYQ included</Badge>
-                  </div>
 
-                  <Button 
-                    onClick={() => handleStartTest(test.fileName)}
-                    className="w-full"
-                    variant="default"
-                  >
+                  <Button onClick={() => handleStartTest(test.fileName)} className="w-full" variant="default">
                     Start Test
                   </Button>
                 </CardContent>

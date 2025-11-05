@@ -48,14 +48,14 @@ const features = [
 // Stats
 const stats = [
   { number: "50K+", label: "Aspirants Guided" },
-  { number: "1L+", label: "Mock Tests Taken" },
+  { number: "10k+", label: "Mock Tests Taken" },
   { number: "92%", label: "Success Rate Improvement" },
 ];
 
 // Testimonials
 const testimonials = [
   {
-    name: "Rohit Sharma",
+    name: "Rohit Singh",
     role: "SSC Aspirant",
     quote:
       "The AI mock tests felt exactly like the real exam. The detailed analysis showed me where to improve.",

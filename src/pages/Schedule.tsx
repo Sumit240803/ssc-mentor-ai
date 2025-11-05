@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { Clock } from "lucide-react";
 import { toast } from "sonner";
+import { AudioPlayer } from "@/components/AudioPlayer";
 
 interface ScheduleDetails {
   schedule: string;
@@ -28,12 +29,7 @@ const Schedule = () => {
       const response = await fetch('https://sscb-backend-api.onrender.com/schedules/');
       const data = await response.json();
       
-      // Filter out "Information" and keep only hour schedules
-      const hourSchedules = data.schedules.filter((schedule: string) => 
-        schedule.toLowerCase().includes('hour')
-      );
-      
-      setSchedules(hourSchedules);
+      setSchedules(data.schedules);
     } catch (error) {
       console.error('Error fetching schedules:', error);
       toast.error('Failed to load schedules');
@@ -155,18 +151,15 @@ const Schedule = () => {
           <div className="space-y-6">
             {/* Audio Player */}
             {scheduleDetails.audio_url && (
-              <Card className="p-6">
+              <div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">
                   Audio Schedule
                 </h3>
-                <audio 
-                  controls 
-                  className="w-full"
+                <AudioPlayer 
                   src={scheduleDetails.audio_url}
-                >
-                  Your browser does not support the audio element.
-                </audio>
-              </Card>
+                  title={selectedSchedule || undefined}
+                />
+              </div>
             )}
 
             {/* Text Content */}
