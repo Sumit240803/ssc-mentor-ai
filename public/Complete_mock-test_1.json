@@ -268,24 +268,24 @@
               "solution-hindi": "स्पष्टीकरण:दस्तावेज़ में कहा गया है कि कवक जगत के जीव अधिकतर बहुकोशिकीय और यूकेरियोटिक होते हैं, वे परपोषी (heterotrophs) होते हैं (जिनमें क्लोरोफिल की कमी होती है), और अक्सर हाइफी नामक धागे जैसी संरचनाओं से बने होते हैं। ये विशेषताएँ नए खोजे गए जीव के विवरण से पूरी तरह मेल खाती हैं।",
               "solution-english": "Explanation: The document states that organisms in the Kingdom Fungi are mostly multicellular and eukaryotic, are heterotrophs (lacking chlorophyll), and are often made of thread-like structures called hyphae. These characteristics perfectly match the description of the newly discovered organism."
                 },{
-              "question_english": "Which of the following statements accurately distinguishes between the components mentioned?",
-              "question_hindi": "उल्लिखित घटकों के बीच निम्नलिखित में से कौन सा कथन सटीक रूप से अंतर स्पष्ट करता है?",
-              "options_english": [
+              "question-english": "Which of the following statements accurately distinguishes between the components mentioned?",
+              "question-hindi": "उल्लिखित घटकों के बीच निम्नलिखित में से कौन सा कथन सटीक रूप से अंतर स्पष्ट करता है?",
+              "options-english": [
                 "(a) Protoplasm is the jelly-like substance between the plasma membrane and the nuclear membrane, while Cytoplasm is the entire living content of a cell.",
                 "(b) The Cell Wall is a living, semi-permeable layer, whereas the Cell Membrane is a dead, freely permeable layer.",
                 "(c) Centrosomes are found inside the nucleus and carry hereditary information, while Chromosomes are in the cytoplasm and initiate cell division.",
                 "(d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment."
               ],
-              "options_hindi": [
+              "options-hindi": [
                 "(क) जीवद्रव्य (Protoplasm) प्लाज्मा झिल्ली और केंद्रक झिल्ली के बीच का जेली जैसा पदार्थ है, जबकि कोशिकाद्रव्य (Cytoplasm) एक कोशिका की संपूर्ण जीवित सामग्री है।",
                 "(ख) कोशिका भित्ति (Cell Wall) एक जीवित, अर्ध-पारगम्य परत है, जबकि कोशिका झिल्ली (Cell Membrane) एक मृत, स्वतंत्र रूप से पारगम्य परत है।",
                 "(ग) सेंट्रोसोम (Centrosomes) केंद्रक के अंदर पाए जाते हैं और वंशानुगत जानकारी ले जाते हैं, जबकि गुणसूत्र (Chromosomes) कोशिकाद्रव्य में होते हैं और कोशिका विभाजन शुरू करते हैं।",
                 "(घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।"
               ],
-              "answer_english": "(d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment.",
-              "answer_hindi": "(घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।",
-              "solution_english": "According to the provided text under the section 'Distinguishing Between Cellular Components', it is clearly stated that the Chloroplast is a living structure (an organelle), while Chlorophyll is the non-living green pigment present within it. The other options are incorrect as they reverse the definitions given in the document:\n• Option (a) incorrectly swaps the definitions of Protoplasm and Cytoplasm.\n• Option (b) incorrectly swaps the characteristics of the Cell Wall and Cell Membrane.\n• Option (c) incorrectly swaps the location and function of Chromosomes and Centrosomes.",
-              "solution_hindi": "दिए गए पाठ के अनुसार, जो 'कोशिकीय घटकों के बीच अंतर' खंड के अंतर्गत आता है, यह स्पष्ट रूप से कहा गया है कि क्लोरोप्लास्ट एक जीवित संरचना (एक कोशिकांग) है, जबकि क्लोरोफिल इसके भीतर मौजूद निर्जीव हरा वर्णक है। अन्य विकल्प गलत हैं क्योंकि वे दस्तावेज़ में दी गई परिभाषाओं को उलट देते हैं:\n• विकल्प (क) जीवद्रव्य और कोशिकाद्रव्य की परिभाषाओं को गलत तरीके से बदल देता है।\n• विकल्प (ख) कोशिका भित्ति और कोशिका झिल्ली की विशेषताओं को गलत तरीके से बदल देता है।\n• विकल्प (ग) गुणसूत्र और सेंट्रोसोम के स्थान और कार्य को गलत तरीके से बदल देता है।"
+              "answer-english": "(d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment.",
+              "answer-hindi": "(घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।",
+              "solution-english": "According to the provided text under the section 'Distinguishing Between Cellular Components', it is clearly stated that the Chloroplast is a living structure (an organelle), while Chlorophyll is the non-living green pigment present within it. The other options are incorrect as they reverse the definitions given in the document:\n• Option (a) incorrectly swaps the definitions of Protoplasm and Cytoplasm.\n• Option (b) incorrectly swaps the characteristics of the Cell Wall and Cell Membrane.\n• Option (c) incorrectly swaps the location and function of Chromosomes and Centrosomes.",
+              "solution-hindi": "दिए गए पाठ के अनुसार, जो 'कोशिकीय घटकों के बीच अंतर' खंड के अंतर्गत आता है, यह स्पष्ट रूप से कहा गया है कि क्लोरोप्लास्ट एक जीवित संरचना (एक कोशिकांग) है, जबकि क्लोरोफिल इसके भीतर मौजूद निर्जीव हरा वर्णक है। अन्य विकल्प गलत हैं क्योंकि वे दस्तावेज़ में दी गई परिभाषाओं को उलट देते हैं:\n• विकल्प (क) जीवद्रव्य और कोशिकाद्रव्य की परिभाषाओं को गलत तरीके से बदल देता है।\n• विकल्प (ख) कोशिका भित्ति और कोशिका झिल्ली की विशेषताओं को गलत तरीके से बदल देता है।\n• विकल्प (ग) गुणसूत्र और सेंट्रोसोम के स्थान और कार्य को गलत तरीके से बदल देता है।"
             }
 ,{
               "question-hindi": "गणतंत्र दिवस परेड 2025 में, न्यायाधीशों द्वारा राज्यों/केंद्र शासित प्रदेशों के बीच सर्वश्रेष्ठ झांकी का पुरस्कार उत्तर प्रदेश को दिया गया। हालाँकि, MyGov पोल पर आधारित 'पॉपुलर चॉइस' श्रेणी में, किस राज्य ने प्रथम स्थान प्राप्त किया?",
