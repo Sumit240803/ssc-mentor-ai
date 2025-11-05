@@ -122,61 +122,54 @@ const LectureDetail = () => {
     setCurrentAudioTime(time);
   }, []);
 
-  const highlightedContent = useMemo(() => {
-    if (!content || !alignmentData || !type.includes("audio")) {
-      return content;
-    }
+const highlightedContent = useMemo(() => {
+  if (!content || !alignmentData || !type.includes("audio")) {
+    return content;
+  }
 
-    // Find the current word based on audio time
-    const currentWordIndex = alignmentData.timestamps.findIndex(
-      (timestamp) => currentAudioTime >= timestamp.start && currentAudioTime <= timestamp.end
+  // Normalize text for Hindi and general punctuation/spacing
+  const normalize = (str: string) =>
+    str
+      .replace(/[।|,|;|:|!|?|"|'|“|”|‘|’]/g, "") // remove punctuation commonly found in Hindi
+      .replace(/\s+/g, " ") // normalize spaces
+      .trim();
+
+  const normalizedContent = normalize(content);
+  const currentWordIndex = alignmentData.timestamps.findIndex(
+    (timestamp) =>
+      currentAudioTime >= timestamp.start && currentAudioTime <= timestamp.end
+  );
+
+  if (currentWordIndex === -1) {
+    return content;
+  }
+
+  const currentWord = alignmentData.timestamps[currentWordIndex];
+  const normalizedWord = normalize(currentWord.word);
+
+  console.log(
+    `Highlighting word: "${currentWord.word}" (normalized: "${normalizedWord}") at time: ${currentAudioTime}`
+  );
+
+  try {
+    // Use Unicode regex and fuzzy match with optional punctuation/spaces after word
+    const regex = new RegExp(
+      `(${normalizedWord})([\\s।,;:!?-]*)`,
+      "u"
     );
 
-    if (currentWordIndex === -1) {
-      return content;
-    }
+    // Highlight first match only
+    const highlighted = normalizedContent.replace(
+      regex,
+      `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">$1</mark>$2`
+    );
 
-    const currentWord = alignmentData.timestamps[currentWordIndex];
-    console.log(`Highlighting word: "${currentWord.word}" at time: ${currentAudioTime}, index: ${currentWordIndex}`);
-
-    // Build a sequential word mapping by processing words in timestamp order
-    let result = content;
-    let contentPosition = 0;
-    
-    // Process each word in the timestamps array sequentially
-    for (let i = 0; i <= currentWordIndex; i++) {
-      const word = alignmentData.timestamps[i].word;
-      const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(escapedWord);
-      
-      // Find the next occurrence of this word starting from current position
-      const remainingContent = result.substring(contentPosition);
-      const match = remainingContent.match(regex);
-      
-      if (match && match.index !== undefined) {
-        const actualPosition = contentPosition + match.index;
-        const wordStart = actualPosition;
-        const wordEnd = wordStart + word.length;
-        
-        if (i === currentWordIndex) {
-          // Highlight this specific word
-          result = result.substring(0, wordStart) + 
-                  `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${word}</mark>` + 
-                  result.substring(wordEnd);
-          break;
-        } else {
-          // Move the position forward to after this word
-          contentPosition = wordEnd;
-        }
-      } else {
-        // If word not found, skip to next word
-        console.warn(`Word "${word}" not found in remaining content at index ${i}`);
-        break;
-      }
-    }
-    
-    return result;
-  }, [content, alignmentData, currentAudioTime, type]);
+    return highlighted;
+  } catch (error) {
+    console.error("Highlighting error:", error);
+    return content;
+  }
+}, [content, alignmentData, currentAudioTime, type]);
 
   if (loading) {
     return (
