@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,7 +16,8 @@ import {
   X,
   Sparkles,
   Zap,
-  Award
+  Award,
+  ArrowRight
 } from "lucide-react";
 
 interface FeatureInfoModalProps {
@@ -24,6 +26,8 @@ interface FeatureInfoModalProps {
 }
 
 const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange }) => {
+  const navigate = useNavigate();
+  
   const features = [
     {
       title: "Mock Tests",
@@ -36,7 +40,8 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
         "Section-wise score breakdown"
       ],
       badge: "25+ Tests",
-      gradient: "from-blue-500 to-cyan-500"
+      gradient: "from-blue-500 to-cyan-500",
+      route: "/mock-tests"
     },
     {
       title: "Lectures",
@@ -49,7 +54,8 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
         "Smart progress tracking"
       ],
       badge: "AI Powered",
-      gradient: "from-purple-500 to-pink-500"
+      gradient: "from-purple-500 to-pink-500",
+      route: "/lectures"
     },
     {
       title: "Schedules",
@@ -62,9 +68,15 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
         "Flexible schedule adjustments"
       ],
       badge: "Smart Planning",
-      gradient: "from-green-500 to-emerald-500"
+      gradient: "from-green-500 to-emerald-500",
+      route: "/schedule"
     }
   ];
+
+  const handleFeatureClick = (route: string) => {
+    onOpenChange(false);
+    navigate(route);
+  };
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -103,7 +115,8 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
             {features.map((feature, index) => (
               <Card
                 key={index}
-                className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm relative overflow-hidden"
+                className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 bg-card/50 backdrop-blur-sm relative overflow-hidden cursor-pointer"
+                onClick={() => handleFeatureClick(feature.route)}
               >
                 {/* Gradient Background */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-5 group-hover:opacity-10 transition-opacity`} />
@@ -133,6 +146,22 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
                       <span className="text-sm text-muted-foreground">{detail}</span>
                     </div>
                   ))}
+                  
+                  {/* Action Button */}
+                  <div className="pt-4">
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="w-full justify-between group-hover:bg-primary/10 transition-colors"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleFeatureClick(feature.route);
+                      }}
+                    >
+                      <span>Explore {feature.title}</span>
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}

@@ -33,17 +33,19 @@ const Lectures = () => {
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
   const [showFeatureModal, setShowFeatureModal] = useState(false);
 
-  // Check if there's a subject parameter in the URL
+  // Initialize with URL parameter or first subject
   useEffect(() => {
+    if (subjects.length === 0) return;
+    
     const subjectParam = searchParams.get("subject");
-    if (subjectParam && subjects.includes(subjectParam)) {
+    if (subjectParam && subjects.includes(subjectParam) && activeSubject !== subjectParam) {
       setActiveSubject(subjectParam);
       fetchLecturesBySubject(subjectParam);
-    } else if (subjects.length > 0 && !activeSubject) {
+    } else if (!activeSubject && subjects.length > 0) {
       setActiveSubject(subjects[0]);
       fetchLecturesBySubject(subjects[0]);
     }
-  }, [subjects, searchParams, activeSubject, fetchLecturesBySubject]);
+  }, [subjects, searchParams, fetchLecturesBySubject, activeSubject]);
 
   // Show feature modal when component mounts (first visit to lectures page)
   useEffect(() => {
@@ -111,8 +113,13 @@ const Lectures = () => {
   };
 
   const handleTabChange = (subject: string) => {
+    console.log(`Switching to tab: ${subject}, current: ${activeSubject}`);
+    // Always update state and fetch data to ensure tab switching works
     setActiveSubject(subject);
-    fetchLecturesBySubject(subject);
+    // Small delay to ensure state update
+    setTimeout(() => {
+      fetchLecturesBySubject(subject);
+    }, 10);
   };
 
   if (loading) {
@@ -153,13 +160,14 @@ const Lectures = () => {
           onOpenChange={setShowFeatureModal} 
         />
 
-        <Tabs value={activeSubject} onValueChange={handleTabChange} className="w-full">
+        <Tabs key={activeSubject} value={activeSubject} onValueChange={handleTabChange} className="w-full">
           <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto gap-2 bg-card/50 backdrop-blur-sm p-2">
             {subjects.map((subject) => (
               <TabsTrigger
                 key={subject}
                 value={subject}
                 className="flex items-center gap-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                disabled={false}
               >
                 {getSubjectIcon(subject)}
                 <span className="font-medium">{subject}</span>
@@ -310,7 +318,7 @@ const Lectures = () => {
             };
 
             return (
-              <TabsContent key={subject} value={subject} className="mt-6">
+              <TabsContent key={`${subject}-${activeSubject}`} value={subject} className="mt-6">
                 <div className="flex justify-end mb-4">
                   <SubjectAIChat subject={subject} />
                 </div>
