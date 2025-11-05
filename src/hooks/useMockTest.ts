@@ -198,6 +198,7 @@ export const useMockTest = (testFileName?: string) => {
     mockTestData.mockTest.forEach((section) => {
       section.questions.forEach((question: any) => {
         allQuestions.push({
+          'question-image': question['question-image'],
           'question-hindi': question['question-hindi'] || '',
           'question-english': question['question-english'] || '',
           'options-hindi': question['options-hindi'] || [],
