@@ -128,24 +128,51 @@ const LectureDetail = () => {
     }
 
     // Find the current word based on audio time
-    const currentWord = alignmentData.timestamps.find(
+    const currentWordIndex = alignmentData.timestamps.findIndex(
       (timestamp) => currentAudioTime >= timestamp.start && currentAudioTime <= timestamp.end
     );
 
-    if (!currentWord) {
+    if (currentWordIndex === -1) {
       return content;
     }
 
-    // Highlight the current word in the content
-    const wordToHighlight = currentWord.word;
-    console.log(`Highlighting word: "${wordToHighlight}" at time: ${currentAudioTime}`);
+    const currentWord = alignmentData.timestamps[currentWordIndex];
+    console.log(`Highlighting word: "${currentWord.word}" at time: ${currentAudioTime}, index: ${currentWordIndex}`);
+
+    // Create a map of word positions in the content
+    const words = alignmentData.timestamps.map(ts => ts.word);
+    let result = content;
+
+    // Process each word in the timestamps array sequentially
+    for (let i = 0; i < words.length; i++) {
+      const word = words[i];
+      const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(escapedWord);
+      
+      const match = result.match(regex);
+      if (match && match.index !== undefined) {
+        const startPos = match.index;
+        const endPos = startPos + word.length;
+        
+        if (i === currentWordIndex) {
+          // Highlight this specific word
+          result = result.substring(0, startPos) + 
+                  `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${word}</mark>` + 
+                  result.substring(endPos);
+          break; // Stop after highlighting the current word
+        } else {
+          // Replace the word with a placeholder to avoid re-matching
+          result = result.substring(0, startPos) + 
+                  `__WORD_${i}__${word}__END_${i}__` + 
+                  result.substring(endPos);
+        }
+      }
+    }
+
+    // Restore non-highlighted words
+    result = result.replace(/__WORD_\d+__(.*?)__END_\d+__/g, '$1');
     
-    // For Hindi text, we need to match the exact word without word boundaries
-    // as word boundaries don't work well with Devanagari script
-    const escapedWord = wordToHighlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(escapedWord, 'g');
-    
-    return content.replace(regex, `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${wordToHighlight}</mark>`);
+    return result;
   }, [content, alignmentData, currentAudioTime, type]);
 
   if (loading) {
