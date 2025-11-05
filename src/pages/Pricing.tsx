@@ -39,10 +39,12 @@ const Pricing = () => {
 
   // Redirect if user has already paid
   useEffect(() => {
-    if (!paymentLoading && hasPaid) {
-      navigate("/lectures");
-    }
-  }, [hasPaid, paymentLoading, navigate]);
+  // Avoid infinite redirects by ensuring both are done loading
+  if (!paymentLoading && hasPaid) {
+    navigate("/lectures", { replace: true });
+  }
+}, [hasPaid, paymentLoading]);
+
 
   const handlePayment = async () => {
     console.log("Payment initiated");
@@ -118,9 +120,7 @@ const Pricing = () => {
               description: "Welcome to EduPlatform Premium! You now have access to all courses.",
             });
 
-            setTimeout(() => {
-      navigate("/lectures");
-    }, 500);
+           window.location.href = "/lectures";
           } catch (error) {
             console.error("Payment verification error:", error);
             toast({
