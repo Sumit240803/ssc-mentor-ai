@@ -139,7 +139,7 @@ const MockTest: React.FC = () => {
                 </h3>
                 <ul className="text-sm space-y-1">
                   <li>• Duration: {mockTestData?.duration || 90} minutes</li>
-                  <li>• No negative marking</li>
+            
                   <li>• Can review and change answers</li>
                   <li>• Auto-submit when time ends</li>
                 </ul>
