@@ -139,7 +139,7 @@ const MockTest: React.FC = () => {
                 </h3>
                 <ul className="text-sm space-y-1">
                   <li>• Duration: {mockTestData?.duration || 90} minutes</li>
-
+                  <li>• No negative marking</li>
                   <li>• Can review and change answers</li>
                   <li>• Auto-submit when time ends</li>
                 </ul>
@@ -267,13 +267,8 @@ const MockTest: React.FC = () => {
                   <div className="text-sm text-muted-foreground">Percentage</div>
                 </div>
                 <div className="text-center p-6 bg-card rounded-lg border">
-                  <div className="text-3xl font-bold text-primary mb-2">{formatTime(results.totalTimeIncludingPauses)}</div>
-                  <div className="text-sm text-muted-foreground">Total Time</div>
-                  {results.totalPausedTime > 0 && (
-                    <div className="text-xs text-muted-foreground mt-1">
-                      (Paused: {formatTime(results.totalPausedTime)})
-                    </div>
-                  )}
+                  <div className="text-3xl font-bold text-primary mb-2">{formatTime(results.timeTaken)}</div>
+                  <div className="text-sm text-muted-foreground">Time Taken</div>
                 </div>
               </div>
 
@@ -672,25 +667,17 @@ const MockTest: React.FC = () => {
                       ? currentQuestion["options-hindi"]
                       : currentQuestion["options-english"];
 
-                  const questionImage = currentQuestion["question-image"];
+                  const isQuestionImage = questionText.startsWith("http://") || questionText.startsWith("https://");
+                  console.log("isQuestionImage", isQuestionImage);
 
                   return (
                     <>
-                      {questionImage && (
-                        <div className="mb-4">
-                          <img 
-                            src={questionImage} 
-                            alt="Question" 
-                            className="max-w-full h-auto rounded-lg border"
-                            onError={(e) => {
-                              console.error('Failed to load image:', questionImage);
-                              e.currentTarget.style.display = 'none';
-                            }}
-                          />
-                        </div>
-                      )}
                       <div className="mb-6">
-                        <p className="text-base leading-relaxed">{questionText}</p>
+                        {isQuestionImage ? (
+                          <img src={questionText} alt="Question" className="max-w-full h-auto rounded-lg" />
+                        ) : (
+                          <p className="text-base leading-relaxed">{questionText}</p>
+                        )}
                       </div>
 
                       <RadioGroup
