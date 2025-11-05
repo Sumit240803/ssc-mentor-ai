@@ -32,20 +32,32 @@ const Lectures = () => {
   const [activeSubject, setActiveSubject] = useState<string>("");
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
   const [showFeatureModal, setShowFeatureModal] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
 
-  // Initialize with URL parameter or first subject
+  // Initialize with URL parameter or first subject (only on initial load)
   useEffect(() => {
-    if (subjects.length === 0) return;
+    if (subjects.length === 0 || isInitialized) return;
     
     const subjectParam = searchParams.get("subject");
-    if (subjectParam && subjects.includes(subjectParam) && activeSubject !== subjectParam) {
+    console.log(`Initializing with subjects: ${subjects.length}, subjectParam: ${subjectParam}, activeSubject: ${activeSubject}`);
+    
+    if (subjectParam && subjects.includes(subjectParam)) {
       setActiveSubject(subjectParam);
       fetchLecturesBySubject(subjectParam);
-    } else if (!activeSubject && subjects.length > 0) {
+    } else if (subjects.length > 0) {
       setActiveSubject(subjects[0]);
       fetchLecturesBySubject(subjects[0]);
     }
-  }, [subjects, searchParams, fetchLecturesBySubject, activeSubject]);
+    
+    setIsInitialized(true);
+    
+    // Clean up URL parameter after initialization
+    if (subjectParam) {
+      const newUrl = new URL(window.location.href);
+      newUrl.searchParams.delete("subject");
+      window.history.replaceState({}, "", newUrl.toString());
+    }
+  }, [subjects, searchParams, fetchLecturesBySubject, activeSubject, isInitialized]);
 
   // Show feature modal when component mounts (first visit to lectures page)
   useEffect(() => {
@@ -59,6 +71,13 @@ const Lectures = () => {
       return () => clearTimeout(timer);
     }
   }, [loading, subjects]);
+
+  // Reset initialization when component unmounts or when navigating
+  useEffect(() => {
+    return () => {
+      setIsInitialized(false);
+    };
+  }, []);
 
   // Helper function to extract serial number from topic name
   const extractSerialNumber = (topic: string): number | null => {
@@ -114,12 +133,17 @@ const Lectures = () => {
 
   const handleTabChange = (subject: string) => {
     console.log(`Switching to tab: ${subject}, current: ${activeSubject}`);
+    
+    // Clear any URL parameters that might interfere
+    const newUrl = new URL(window.location.href);
+    if (newUrl.searchParams.has("subject")) {
+      newUrl.searchParams.delete("subject");
+      window.history.replaceState({}, "", newUrl.toString());
+    }
+    
     // Always update state and fetch data to ensure tab switching works
     setActiveSubject(subject);
-    // Small delay to ensure state update
-    setTimeout(() => {
-      fetchLecturesBySubject(subject);
-    }, 10);
+    fetchLecturesBySubject(subject);
   };
 
   if (loading) {
@@ -160,7 +184,12 @@ const Lectures = () => {
           onOpenChange={setShowFeatureModal} 
         />
 
-        <Tabs key={activeSubject} value={activeSubject} onValueChange={handleTabChange} className="w-full">
+        <Tabs 
+          key={`tabs-${activeSubject}`} 
+          value={activeSubject} 
+          onValueChange={handleTabChange} 
+          className="w-full"
+        >
           <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto gap-2 bg-card/50 backdrop-blur-sm p-2">
             {subjects.map((subject) => (
               <TabsTrigger
