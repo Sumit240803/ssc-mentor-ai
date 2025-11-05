@@ -667,16 +667,15 @@ const MockTest: React.FC = () => {
                       ? currentQuestion["options-hindi"]
                       : currentQuestion["options-english"];
 
-                  const isQuestionImage = questionText.startsWith("http://") || questionText.startsWith("https://");
+                  const questionImage = currentQuestion["question-image"];
 
                   return (
                     <>
                       <div className="mb-6">
-                        {isQuestionImage ? (
-                          <img src={questionText} alt="Question" className="max-w-full h-auto rounded-lg" />
-                        ) : (
-                          <p className="text-base leading-relaxed">{questionText}</p>
+                        {questionImage && (
+                          <img src={questionImage} alt="Question" className="max-w-full h-auto rounded-lg mb-4" />
                         )}
+                        <p className="text-base leading-relaxed">{questionText}</p>
                       </div>
 
                       <RadioGroup

@@ -4,6 +4,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import type { Database } from '@/integrations/supabase/types';
 
 export interface Question {
+  'question-image'?: string;
   'question-hindi': string;
   'question-english': string;
   'options-hindi': string[];
