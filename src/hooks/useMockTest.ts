@@ -56,6 +56,8 @@ export interface TestState {
   startTime: Date | null;
   endTime: Date | null;
   language: Language;
+  totalPausedTime: number;
+  lastPauseTime: Date | null;
 }
 
 export interface MockTestAnalysis {
@@ -81,6 +83,8 @@ export const useMockTest = (testFileName?: string) => {
     startTime: null,
     endTime: null,
     language: 'hindi',
+    totalPausedTime: 0,
+    lastPauseTime: null,
   });
 
   // Load mock test data and previous results
@@ -232,6 +236,8 @@ export const useMockTest = (testFileName?: string) => {
       startTime: new Date(),
       endTime: null,
       language,
+      totalPausedTime: 0,
+      lastPauseTime: null,
     });
   };
 
@@ -239,14 +245,24 @@ export const useMockTest = (testFileName?: string) => {
     setTestState(prev => ({
       ...prev,
       isPaused: true,
+      lastPauseTime: new Date(),
     }));
   };
 
   const resumeTest = () => {
-    setTestState(prev => ({
-      ...prev,
-      isPaused: false,
-    }));
+    setTestState(prev => {
+      const now = new Date();
+      const pauseDuration = prev.lastPauseTime 
+        ? Math.floor((now.getTime() - prev.lastPauseTime.getTime()) / 1000)
+        : 0;
+      
+      return {
+        ...prev,
+        isPaused: false,
+        totalPausedTime: prev.totalPausedTime + pauseDuration,
+        lastPauseTime: null,
+      };
+    });
   };
 
   const submitTest = async () => {
@@ -445,6 +461,8 @@ export const useMockTest = (testFileName?: string) => {
       score,
       percentage: Math.round((score / totalQuestions) * 100),
       timeTaken,
+      totalPausedTime: testState.totalPausedTime,
+      totalTimeIncludingPauses: timeTaken + testState.totalPausedTime,
     };
   };
 
@@ -468,6 +486,8 @@ export const useMockTest = (testFileName?: string) => {
       startTime: null,
       endTime: null,
       language: 'hindi',
+      totalPausedTime: 0,
+      lastPauseTime: null,
     });
   };
 
