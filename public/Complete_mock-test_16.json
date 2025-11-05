@@ -1,0 +1,1143 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+            {
+          "question_english": "Which of the following is the oldest atomic power plant of India?",
+          "question_hindi": "निम्नलिखित में से कौन सा भारत का सबसे पुराना परमाणु ऊर्जा संयंत्र है?",
+          "options_english": ["Narora", "Tarapur", "Kakrapar", "Kaiga"],
+          "options_hindi": ["नरोरा", "तारापुर", "काकरापार", "कैगा"],
+          "answer_english": "Tarapur",
+          "answer_hindi": "तारापुर",
+          "solution_english": "The Tarapur Atomic Power Station (TAPS) located in Tarapur, Palghar district of Maharashtra, is the oldest and first atomic power plant in India. It was commissioned on October 28, 1969. Narora is in Uttar Pradesh, Kakrapar in Gujarat, and Kaiga in Karnataka; all were established much later.",
+          "solution_hindi": "महाराष्ट्र के पालघर जिले के तारापुर में स्थित तारापुर परमाणु ऊर्जा स्टेशन (TAPS) भारत का सबसे पुराना और पहला परमाणु ऊर्जा संयंत्र है। इसे 28 अक्टूबर, 1969 को चालू किया गया था। नरोरा उत्तर प्रदेश में, काकरापार गुजरात में, और कैगा कर्नाटक में है; इन सभी की स्थापना बहुत बाद में हुई।"
+        },
+        {
+          "question_english": "Some qualities of Samudragupta are shown on coins, such as on one of the coins he is shown playing the _________.",
+          "question_hindi": "समुद्रगुप्त के कुछ गुण सिक्कों पर दिखाए गए हैं, जैसे एक सिक्के पर उन्हें _________ बजाते हुए दिखाया गया है।",
+          "options_english": ["veena", "bansuri", "tabla", "sarangi"],
+          "options_hindi": ["वीणा", "बांसुरी", "तबला", "सारंगी"],
+          "answer_english": "veena",
+          "answer_hindi": "वीणा",
+          "solution_english": "Samudragupta, a ruler of the Gupta Empire, was a great patron of art and music. Historical evidence, particularly the gold coins (dinars) issued during his reign, depicts him playing the Veena, a stringed musical instrument.",
+          "solution_hindi": "गुप्त साम्राज्य के शासक समुद्रगुप्त कला और संगीत के महान संरक्षक थे। ऐतिहासिक साक्ष्य, विशेष रूप से उनके शासनकाल के दौरान जारी किए गए सोने के सिक्के (दीनार), उन्हें एक तार वाले संगीत वाद्ययंत्र वीणा बजाते हुए दर्शाते हैं।"
+        },
+        {
+          "question_english": "Which Treaty resulted in the demarcation of territories between Ranjit Singh and the East India Company?",
+          "question_hindi": "किस संधि के परिणामस्वरूप रणजीत सिंह और ईस्ट इंडिया कंपनी के बीच क्षेत्रों का सीमांकन हुआ?",
+          "options_english": ["Amritsar", "Lahore", "Bhaironwal", "Surat"],
+          "options_hindi": ["अमृतसर", "लाहौर", "भैरोंवाल", "सूरत"],
+          "answer_english": "Amritsar",
+          "answer_hindi": "अमृतसर",
+          "solution_english": "The Treaty of Amritsar was signed on April 25, 1809, between Maharaja Ranjit Singh and the British East India Company. It fixed the River Sutlej as the boundary between the Sikh Empire and British territories.",
+          "solution_hindi": "अमृतसर की संधि पर 25 अप्रैल, 1809 को महाराजा रणजीत सिंह और ब्रिटिश ईस्ट इंडिया कंपनी के बीच हस्ताक्षर किए गए थे। इस संधि ने सतलुज नदी को सीमा के रूप में तय किया।"
+        },
+        {
+          "question_english": "Which of the following Constitutional Amendment Acts has created the Union territories in India?",
+          "question_hindi": "निम्नलिखित में से किस संवैधानिक संशोधन अधिनियम ने भारत में केंद्र शासित प्रदेशों का निर्माण किया है?",
+          "options_english": ["6th", "5th", "7th", "4th"],
+          "options_hindi": ["6वां", "5वां", "7वां", "4था"],
+          "answer_english": "7th",
+          "answer_hindi": "7वां",
+          "solution_english": "The 7th Constitutional Amendment Act, 1956, implemented the recommendations of the States Reorganisation Commission, creating 14 states and 6 Union Territories.",
+          "solution_hindi": "7वां संवैधानिक संशोधन अधिनियम, 1956 ने राज्य पुनर्गठन आयोग की सिफारिशों को लागू किया और 14 राज्यों और 6 केंद्र शासित प्रदेशों का निर्माण किया।"
+        },
+        {
+          "question_english": "Which of the following is NOT included in Article 19 of the Constitution of India?",
+          "question_hindi": "निम्नलिखित में से क्या भारत के संविधान के अनुच्छेद 19 में शामिल नहीं है?",
+          "options_english": ["To practice any profession or occupation", "To reside and settle in any part of India", "To prohibit ineligibility in respect of employment", "To form associations and unions"],
+          "options_hindi": ["किसी भी पेशे या व्यवसाय का अभ्यास करना", "भारत के किसी भी हिस्से में निवास करना और बसना", "रोजगार के संबंध में अपात्रता का निषेध करना", "संघ और यूनियन बनाना"],
+          "answer_english": "To prohibit ineligibility in respect of employment",
+          "answer_hindi": "रोजगार के संबंध में अपात्रता का निषेध करना",
+          "solution_english": "Article 19 guarantees six freedoms; employment ineligibility prohibition relates to Article 16, not Article 19.",
+          "solution_hindi": "अनुच्छेद 19 छह स्वतंत्रताओं की गारंटी देता है; रोजगार के लिए अपात्रता का निषेध अनुच्छेद 16 से संबंधित है, न कि अनुच्छेद 19 से।"
+        },
+        {
+          "question_english": "As per Article 350B of the Constitution of India, who appoints the Special Officer for Linguistic Minorities?",
+          "question_hindi": "भारत के संविधान के अनुच्छेद 350 ख के अनुसार, भाषाई अल्पसंख्यकों के लिए विशेष अधिकारी की नियुक्ति कौन करता है?",
+          "options_english": ["Prime Minister", "Chief Justice of India", "Governor", "President"],
+          "options_hindi": ["प्रधान मंत्री", "भारत के मुख्य न्यायाधीश", "राज्यपाल", "राष्ट्रपति"],
+          "answer_english": "President",
+          "answer_hindi": "राष्ट्रपति",
+          "solution_english": "Article 350B states that the Special Officer for Linguistic Minorities shall be appointed by the President.",
+          "solution_hindi": "अनुच्छेद 350-ख के अनुसार भाषाई अल्पसंख्यकों के लिए विशेष अधिकारी की नियुक्ति राष्ट्रपति द्वारा की जाएगी।"
+        },
+        {
+          "question_english": "When was the first edition of the Durand Cup played in India?",
+          "question_hindi": "भारत में डूरंड कप का पहला संस्करण कब खेला गया था?",
+          "options_english": ["1900", "1988", "1888", "1880"],
+          "options_hindi": ["1900", "1988", "1888", "1880"],
+          "answer_english": "1888",
+          "answer_hindi": "1888",
+          "solution_english": "The Durand Cup, Asia’s oldest football tournament, was first held in 1888 in Shimla, India.",
+          "solution_hindi": "डूरंड कप एशिया का सबसे पुराना फुटबॉल टूर्नामेंट है, जो पहली बार 1888 में शिमला, भारत में आयोजित किया गया था।"
+        },
+        {
+          "question_english": "Gulabo, a world-renowned dancer, is best known for which of the following dance forms?",
+          "question_hindi": "गुलाबो, एक विश्व प्रसिद्ध नृत्यांगना, निम्नलिखित में से किस नृत्य शैली के लिए सबसे ज्यादा जानी जाती हैं?",
+          "options_english": ["Kalbeliya", "Ghoomar", "Pandwani", "Panthi"],
+          "options_hindi": ["कालबेलिया", "घूमर", "पंडवानी", "पंथी"],
+          "answer_english": "Kalbeliya",
+          "answer_hindi": "कालबेलिया",
+          "solution_english": "Gulabo Sapera is an acclaimed dancer known for Kalbeliya dance from Rajasthan.",
+          "solution_hindi": "गुलाबो सपेरा राजस्थान की प्रसिद्ध नृत्यांगना हैं, जो कालबेलिया नृत्य शैली के लिए जानी जाती हैं।"
+        },
+        {
+          "question_english": "As per India Skills Report 2022, which Indian state got the first rank with the most employable talent?",
+          "question_hindi": "इंडिया स्किल्स रिपोर्ट 2022 के अनुसार, किस भारतीय राज्य को सबसे अधिक रोजगार योग्य प्रतिभा के साथ पहला स्थान मिला?",
+          "options_english": ["Kerala", "Goa", "Maharashtra", "Uttar Pradesh"],
+          "options_hindi": ["केरल", "गोवा", "महाराष्ट्र", "उत्तर प्रदेश"],
+          "answer_english": "Maharashtra",
+          "answer_hindi": "महाराष्ट्र",
+          "solution_english": "Maharashtra topped the India Skills Report 2022 with the most employable talent.",
+          "solution_hindi": "इंडिया स्किल्स रिपोर्ट 2022 में महाराष्ट्र को सबसे अधिक रोजगार योग्य प्रतिभा के साथ पहला स्थान मिला।"
+        },
+        {
+          "question_english": "Who among the following was the Sultan of Delhi sultanate from 1296 A.D. to 1316 A.D.?",
+          "question_hindi": "निम्नलिखित में से कौन 1296 ई. से 1316 ई. तक दिल्ली सल्तनत का सुल्तान था?",
+          "options_english": ["Ghiyasuddin Tughluq", "Ghiyasuddin Balban", "Khizr Khan", "Alauddin Khalji"],
+          "options_hindi": ["गयासुद्दीन तुगलक", "गयासुद्दीन बलबन", "खिज्र खान", "अलाउद्दीन खिलजी"],
+          "answer_english": "Alauddin Khalji",
+          "answer_hindi": "अलाउद्दीन खिलजी",
+          "solution_english": "Alauddin Khalji was the second and most powerful ruler of the Khalji dynasty from 1296–1316 AD.",
+          "solution_hindi": "अलाउद्दीन खिलजी खिलजी वंश का दूसरा और सबसे शक्तिशाली शासक था जिसने 1296–1316 ई. तक शासन किया।"
+        },{
+          "question_english": "Which of the following was the first empire to encompass most of India?",
+          "question_hindi": "निम्नलिखित में से कौन सा साम्राज्य भारत के अधिकांश भाग को समेटने वाला पहला साम्राज्य था?",
+          "options_english": ["Maurya Empire", "Gupta Empire", "Mughal Empire", "Chola Empire"],
+          "options_hindi": ["मौर्य साम्राज्य", "गुप्त साम्राज्य", "मुगल साम्राज्य", "चोल साम्राज्य"],
+          "answer_english": "Maurya Empire",
+          "answer_hindi": "मौर्य साम्राज्य",
+          "solution_english": "The Maurya Empire under Emperor Ashoka was the first to unify most of the Indian subcontinent.",
+          "solution_hindi": "सम्राट अशोक के अधीन मौर्य साम्राज्य भारत के अधिकांश उपमहाद्वीप को एकीकृत करने वाला पहला साम्राज्य था।"
+        },
+        {
+          "question_english": "What was the primary purpose of the Ryotwari system introduced by the British in India?",
+          "question_hindi": "भारत में ब्रिटिशों द्वारा शुरू की गई रैयतवाड़ी प्रणाली का मुख्य उद्देश्य क्या था?",
+          "options_english": ["To collect revenue directly from peasants", "To appoint zamindars as intermediaries", "To abolish land tax", "To distribute land equally"],
+          "options_hindi": ["किसानों से सीधे राजस्व एकत्र करना", "जमींदारों को मध्यस्थ के रूप में नियुक्त करना", "भूमि कर समाप्त करना", "भूमि का समान वितरण करना"],
+          "answer_english": "To collect revenue directly from peasants",
+          "answer_hindi": "किसानों से सीधे राजस्व एकत्र करना",
+          "solution_english": "The Ryotwari system was introduced by Thomas Munro in Madras to collect land revenue directly from cultivators.",
+          "solution_hindi": "रैयतवाड़ी प्रणाली को थॉमस मनरो ने मद्रास में शुरू किया ताकि किसानों से सीधे भूमि राजस्व वसूला जा सके।"
+        },
+        {
+          "question_english": "Which Indian state is the largest producer of coffee?",
+          "question_hindi": "भारत में कॉफी का सबसे बड़ा उत्पादक राज्य कौन सा है?",
+          "options_english": ["Kerala", "Tamil Nadu", "Karnataka", "Assam"],
+          "options_hindi": ["केरल", "तमिलनाडु", "कर्नाटक", "असम"],
+          "answer_english": "Karnataka",
+          "answer_hindi": "कर्नाटक",
+          "solution_english": "Karnataka produces over 70% of India’s coffee, mainly in the Kodagu, Chikmagalur, and Hassan districts.",
+          "solution_hindi": "कर्नाटक भारत की 70% से अधिक कॉफी का उत्पादन करता है, मुख्य रूप से कोडगु, चिकमगलूर और हासन जिलों में।"
+        },
+        {
+          "question_english": "Who founded the Arya Samaj in 1875?",
+          "question_hindi": "आर्य समाज की स्थापना 1875 में किसने की थी?",
+          "options_english": ["Swami Vivekananda", "Swami Dayanand Saraswati", "Raja Ram Mohan Roy", "Ishwar Chandra Vidyasagar"],
+          "options_hindi": ["स्वामी विवेकानंद", "स्वामी दयानंद सरस्वती", "राजा राम मोहन राय", "ईश्वर चंद्र विद्यासागर"],
+          "answer_english": "Swami Dayanand Saraswati",
+          "answer_hindi": "स्वामी दयानंद सरस्वती",
+          "solution_english": "Arya Samaj was founded by Swami Dayanand Saraswati in 1875 in Bombay to reform Hindu society based on Vedic teachings.",
+          "solution_hindi": "आर्य समाज की स्थापना 1875 में स्वामी दयानंद सरस्वती ने मुंबई में हिंदू समाज को वैदिक सिद्धांतों के अनुसार सुधारने के लिए की थी।"
+        },
+        {
+          "question_english": "Which gas is commonly known as laughing gas?",
+          "question_hindi": "कौन सी गैस को आमतौर पर 'लाफिंग गैस' कहा जाता है?",
+          "options_english": ["Nitrogen dioxide", "Nitrous oxide", "Carbon monoxide", "Sulphur dioxide"],
+          "options_hindi": ["नाइट्रोजन डाइऑक्साइड", "नाइट्रस ऑक्साइड", "कार्बन मोनोऑक्साइड", "सल्फर डाइऑक्साइड"],
+          "answer_english": "Nitrous oxide",
+          "answer_hindi": "नाइट्रस ऑक्साइड",
+          "solution_english": "Nitrous oxide (N₂O) is called laughing gas because it produces a euphoric effect when inhaled.",
+          "solution_hindi": "नाइट्रस ऑक्साइड (N₂O) को 'लाफिंग गैस' कहा जाता है क्योंकि इसे सांस लेने पर यह आनंद और हंसी उत्पन्न करती है।"
+        },
+        {
+          "question_english": "Which planet is known as the ‘Morning Star’?",
+          "question_hindi": "कौन सा ग्रह 'भोर का तारा' कहलाता है?",
+          "options_english": ["Mercury", "Venus", "Mars", "Jupiter"],
+          "options_hindi": ["बुध", "शुक्र", "मंगल", "बृहस्पति"],
+          "answer_english": "Venus",
+          "answer_hindi": "शुक्र",
+          "solution_english": "Venus is called the Morning Star because it is the brightest planet visible before sunrise.",
+          "solution_hindi": "शुक्र ग्रह को भोर का तारा कहा जाता है क्योंकि यह सूर्योदय से पहले सबसे चमकीला दिखाई देता है।"
+        },
+        {
+          "question_english": "Which river is called the ‘Sorrow of Bihar’?",
+          "question_hindi": "कौन सी नदी 'बिहार का शोक' कहलाती है?",
+          "options_english": ["Kosi", "Ganga", "Son", "Gandak"],
+          "options_hindi": ["कोसी", "गंगा", "सोन", "गंडक"],
+          "answer_english": "Kosi",
+          "answer_hindi": "कोसी",
+          "solution_english": "The Kosi River is known as the Sorrow of Bihar due to its frequent floods causing devastation.",
+          "solution_hindi": "कोसी नदी को 'बिहार का शोक' कहा जाता है क्योंकि इसकी बार-बार की बाढ़ें भारी तबाही मचाती हैं।"
+        },
+        {
+          "question_english": "Who among the following composed the national anthem of India?",
+          "question_hindi": "निम्नलिखित में से किसने भारत का राष्ट्रीय गान रचा?",
+          "options_english": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Subramania Bharati", "Sarojini Naidu"],
+          "options_hindi": ["बंकिम चंद्र चटर्जी", "रवींद्रनाथ टैगोर", "सुबरमण्यम भारती", "सरोजिनी नायडू"],
+          "answer_english": "Rabindranath Tagore",
+          "answer_hindi": "रवींद्रनाथ टैगोर",
+          "solution_english": "The national anthem 'Jana Gana Mana' was composed by Rabindranath Tagore in 1911.",
+          "solution_hindi": "राष्ट्रीय गान 'जन गण मन' की रचना रवींद्रनाथ टैगोर ने 1911 में की थी।"
+        },
+        {
+          "question_english": "Who is known as the ‘Father of the Indian Constitution’?",
+          "question_hindi": "कौन 'भारतीय संविधान के जनक' के रूप में जाना जाता है?",
+          "options_english": ["Jawaharlal Nehru", "Dr. Rajendra Prasad", "Dr. B. R. Ambedkar", "Sardar Vallabhbhai Patel"],
+          "options_hindi": ["जवाहरलाल नेहरू", "डॉ. राजेंद्र प्रसाद", "डॉ. बी. आर. अम्बेडकर", "सरदार वल्लभभाई पटेल"],
+          "answer_english": "Dr. B. R. Ambedkar",
+          "answer_hindi": "डॉ. बी. आर. अम्बेडकर",
+          "solution_english": "Dr. B. R. Ambedkar is known as the Father of the Indian Constitution for his role as Chairman of the Drafting Committee.",
+          "solution_hindi": "डॉ. बी. आर. अम्बेडकर को भारतीय संविधान की मसौदा समिति के अध्यक्ष के रूप में उनकी भूमिका के लिए 'भारतीय संविधान के जनक' कहा जाता है।"
+        },
+        {
+          "question_english": "Which city is known as the ‘Pink City’ of India?",
+          "question_hindi": "भारत का 'पिंक सिटी' किस शहर को कहा जाता है?",
+          "options_english": ["Jaipur", "Jodhpur", "Udaipur", "Bikaner"],
+          "options_hindi": ["जयपुर", "जोधपुर", "उदयपुर", "बीकानेर"],
+          "answer_english": "Jaipur",
+          "answer_hindi": "जयपुर",
+          "solution_english": "Jaipur is called the Pink City because of the distinct pink-colored buildings in its old city area.",
+          "solution_hindi": "जयपुर को 'पिंक सिटी' कहा जाता है क्योंकि इसके पुराने शहर क्षेत्र की इमारतें गुलाबी रंग की हैं।"
+        },{
+          "question_english": "NITI Aayog came into existence in 2015. On which date was it formed?",
+          "question_hindi": "नीति आयोग 2015 में अस्तित्व में आया। इसका गठन किस तारीख को हुआ था?",
+          "options_english": ["1st March", "31st January", "1st January", "15th August"],
+          "options_hindi": ["1 मार्च", "31 जनवरी", "1 जनवरी", "15 अगस्त"],
+          "answer_english": "1st January",
+          "answer_hindi": "1 जनवरी",
+          "solution_english": "NITI Aayog (National Institution for Transforming India) was formed on January 1, 2015, through a resolution of the Union Cabinet. It replaced the Planning Commission as the premier policy think tank of the Government of India.",
+          "solution_hindi": "नीति आयोग (नेशनल इंस्टीट्यूशन फॉर ट्रांसफॉर्मिंग इंडिया) का गठन 1 जनवरी, 2015 को केंद्रीय मंत्रिमंडल के एक प्रस्ताव के माध्यम से किया गया था। इसने भारत सरकार के प्रमुख नीति थिंक टैंक के रूप में योजना आयोग की जगह ली।"
+        },
+        {
+          "question_english": "Which of the following is NOT a central bank’s function?",
+          "question_hindi": "निम्नलिखित में से कौन सा एक केंद्रीय बैंक का कार्य नहीं है?",
+          "options_english": ["Financial services for the government", "Banking facilities for the public", "Lending to commercial banks", "Lending to the government"],
+          "options_hindi": ["सरकार के लिए वित्तीय सेवाएं", "जनता के लिए बैंकिंग सुविधाएं", "वाणिज्यिक बैंकों को ऋण देना", "सरकार को ऋण देना"],
+          "answer_english": "Banking facilities for the public",
+          "answer_hindi": "जनता के लिए बैंकिंग सुविधाएं",
+          "solution_english": "A central bank acts as a banker to the government and other commercial banks but does not offer direct banking services like deposits or loans to the general public.",
+          "solution_hindi": "एक केंद्रीय बैंक सरकार और वाणिज्यिक बैंकों के लिए बैंकर के रूप में कार्य करता है लेकिन आम जनता को जमा या ऋण जैसी सीधी बैंकिंग सेवाएं प्रदान नहीं करता।"
+        },
+        {
+          "question_english": "Name the place where an independent parallel government by Indians was established during the Quit India movement.",
+          "question_hindi": "उस स्थान का नाम बताइए जहां भारत छोड़ो आंदोलन के दौरान भारतीयों द्वारा 'स्वतंत्र' समानांतर सरकार की स्थापना की गई थी।",
+          "options_english": ["Satara", "Kalpi", "Rohtak", "Kanpur"],
+          "options_hindi": ["सतारा", "कालपी", "रोहतक", "कानपुर"],
+          "answer_english": "Satara",
+          "answer_hindi": "सतारा",
+          "solution_english": "During the Quit India Movement of 1942, the longest-lasting parallel government was established in Satara, Maharashtra, led by Y.B. Chavan and Nana Patil.",
+          "solution_hindi": "1942 के भारत छोड़ो आंदोलन के दौरान, महाराष्ट्र के सतारा में सबसे लंबे समय तक चलने वाली समानांतर सरकार स्थापित की गई थी, जिसका नेतृत्व वाई.बी. चव्हाण और नाना पाटिल ने किया था।"
+        },
+        {
+          "question_english": "With which gharana is Ustad Bade Ghulam Ali Khan associated?",
+          "question_hindi": "उस्ताद बड़े गुलाम अली खान निम्नलिखित में से किस घराने से संबंधित हैं?",
+          "options_english": ["Patiala gharana", "Agra gharana", "Banaras gharana", "Kirana gharana"],
+          "options_hindi": ["पटियाला घराना", "आगरा घराना", "बनारस घराना", "किराना घराना"],
+          "answer_english": "Patiala gharana",
+          "answer_hindi": "पटियाला घराना",
+          "solution_english": "Ustad Bade Ghulam Ali Khan was a legendary Hindustani vocalist and a leading exponent of the Patiala gharana.",
+          "solution_hindi": "उस्ताद बड़े गुलाम अली खान एक महान हिंदुस्तानी शास्त्रीय गायक थे और पटियाला घराने के प्रमुख प्रतिपादक थे।"
+        },
+        {
+          "question_english": "What kind of image does the eye lens form of the object on the retina?",
+          "question_hindi": "नेत्र लेंस रेटिना पर वस्तु की किस प्रकार की छवि बनाता है?",
+          "options_english": ["No image", "Inverted real image", "Real and opaque image", "Inverted virtual image"],
+          "options_hindi": ["कोई छवि नहीं", "उल्टी वास्तविक छवि", "वास्तविक और अपारदर्शी छवि", "उल्टी आभासी छवि"],
+          "answer_english": "Inverted real image",
+          "answer_hindi": "उल्टी वास्तविक छवि",
+          "solution_english": "The human eye lens forms a real and inverted image of an object on the retina, which is later interpreted upright by the brain.",
+          "solution_hindi": "मानव नेत्र लेंस वस्तु की एक वास्तविक और उल्टी छवि रेटिना पर बनाता है, जिसे मस्तिष्क सीधा महसूस करता है।"
+        },
+        {
+          "question_english": "Baishagu is celebrated in which of the following states?",
+          "question_hindi": "बैशागु निम्नलिखित में से किस राज्य में मनाया जाता है?",
+          "options_english": ["Punjab", "Assam", "Bihar", "Goa"],
+          "options_hindi": ["पंजाब", "असम", "बिहार", "गोवा"],
+          "answer_english": "Assam",
+          "answer_hindi": "असम",
+          "solution_english": "Baishagu is a colorful festival celebrated by the Bodo tribe in Assam, marking the beginning of their new year.",
+          "solution_hindi": "बैशागु असम में बोडो जनजाति द्वारा मनाया जाने वाला एक रंगीन त्योहार है, जो उनके नव वर्ष की शुरुआत का प्रतीक है।"
+        },
+        {
+          "question_english": "From which state was the 'Garib Kalyan Rozgar Abhiyan' launched in 2020?",
+          "question_hindi": "‘गरीब कल्याण रोजगार अभियान’ 2020 में किस राज्य से शुरू किया गया था?",
+          "options_english": ["Rajasthan", "Bihar", "Gujarat", "Uttar Pradesh"],
+          "options_hindi": ["राजस्थान", "बिहार", "गुजरात", "उत्तर प्रदेश"],
+          "answer_english": "Bihar",
+          "answer_hindi": "बिहार",
+          "solution_english": "The scheme was launched on June 20, 2020, from Telihar village in Bihar's Khagaria district to provide employment to migrant workers.",
+          "solution_hindi": "यह योजना 20 जून, 2020 को बिहार के खगड़िया जिले के तेलिहार गांव से प्रवासी श्रमिकों को रोजगार देने के लिए शुरू की गई थी।"
+        },
+        {
+          "question_english": "Which committee observed that fundamental duties are a codification of tasks integral to the Indian way of life?",
+          "question_hindi": "किस समिति ने देखा कि मौलिक कर्तव्य भारतीय जीवन शैली के अभिन्न कार्यों का संहिताकरण हैं?",
+          "options_english": ["Rangarajan Committee", "Verma Committee", "Santhanam Committee", "Moily Committee"],
+          "options_hindi": ["रंगराजन समिति", "वर्मा समिति", "संथानम समिति", "मोइली समिति"],
+          "answer_english": "Verma Committee",
+          "answer_hindi": "वर्मा समिति",
+          "solution_english": "The Justice J.S. Verma Committee (1999) stated that fundamental duties are codified expressions of India's traditional values.",
+          "solution_hindi": "न्यायमूर्ति जे.एस. वर्मा समिति (1999) ने कहा कि मौलिक कर्तव्य भारत के पारंपरिक मूल्यों की संहिताबद्ध अभिव्यक्ति हैं।"
+        },
+        {
+          "question_english": "Capital market is a market for ________ funds.",
+          "question_hindi": "पूंजी बाजार ________ निधियों के लिए एक बाजार है।",
+          "options_english": ["long term", "short term", "both short term and long term", "medium term only"],
+          "options_hindi": ["दीर्घकालिक", "अल्पकालिक", "अल्पकालिक और दीर्घकालिक दोनों", "केवल मध्यम अवधि"],
+          "answer_english": "long term",
+          "answer_hindi": "दीर्घकालिक",
+          "solution_english": "The capital market deals with long-term funds, including stock and bond markets.",
+          "solution_hindi": "पूंजी बाजार दीर्घकालिक निधियों से संबंधित होता है, जिसमें शेयर और बांड बाजार शामिल हैं।"
+        },
+        {
+          "question_english": "Which of the following palaces is located in Mysore, Karnataka?",
+          "question_hindi": "निम्नलिखित में से कौन सा महल मैसूर, कर्नाटक में स्थित है?",
+          "options_english": ["Amba Vilas Palace", "Ujjayanta Palace", "Kowdiar Palace", "Kangla Palace"],
+          "options_hindi": ["अंबा विलास पैलेस", "उज्जयंत पैलेस", "कौडियार पैलेस", "कंगला पैलेस"],
+          "answer_english": "Amba Vilas Palace",
+          "answer_hindi": "अंबा विलास पैलेस",
+          "solution_english": "Amba Vilas Palace, also known as Mysore Palace, is a royal residence in Mysore, Karnataka.",
+          "solution_hindi": "अंबा विलास पैलेस, जिसे मैसूर पैलेस भी कहा जाता है, कर्नाटक के मैसूर शहर में एक शाही निवास है।"
+        },
+        {
+          "question_english": "Where can one see Hoshang Shah’s tomb, Hindola Mahal, Champa Baoli and Jahaz Mahal?",
+          "question_hindi": "होशंग शाह का मकबरा, हिंडोला महल, चंपा बावली और जहाज महल कहां देखे जा सकते हैं?",
+          "options_english": ["Mandu, Madhya Pradesh", "Varanasi, Uttar Pradesh", "Agra, Uttar Pradesh", "Ratlam, Madhya Pradesh"],
+          "options_hindi": ["मांडू, मध्य प्रदेश", "वाराणसी, उत्तर प्रदेश", "आगरा, उत्तर प्रदेश", "रतलाम, मध्य प्रदेश"],
+          "answer_english": "Mandu, Madhya Pradesh",
+          "answer_hindi": "मांडू, मध्य प्रदेश",
+          "solution_english": "These monuments are located in Mandu, an ancient fort city in Madhya Pradesh’s Dhar district.",
+          "solution_hindi": "ये सभी स्मारक मध्य प्रदेश के धार जिले के प्राचीन किले शहर मांडू में स्थित हैं।"
+        },
+        {
+          "question_english": "Who was the founder of the Shillong Chamber Choir?",
+          "question_hindi": "शिलांग चैंबर चोइर के संस्थापक कौन थे?",
+          "options_english": ["Damon Lyndem", "Kynsai Lyngdoh", "William Basaiawmoit", "Neil Nongkynrih"],
+          "options_hindi": ["डेमन लिंडेम", "किनसाई लिंगदोह", "विलियम बसैयावमोइत", "नील नोंगकिरिह"],
+          "answer_english": "Neil Nongkynrih",
+          "answer_hindi": "नील नोंगकिरिह",
+          "solution_english": "Neil Nongkynrih was a pianist and the founder of the Shillong Chamber Choir, which gained fame after winning India’s Got Talent in 2010.",
+          "solution_hindi": "नील नोंगकिरिह एक पियानोवादक और शिलांग चैंबर चोइर के संस्थापक थे, जिसे 2010 में 'इंडियाज गॉट टैलेंट' जीतने के बाद प्रसिद्धि मिली।"
+        },
+        {
+          "question_english": "Who was the first headmistress of India’s first school for girls in Pune?",
+          "question_hindi": "पुणे में लड़कियों के लिए भारत के पहले स्कूल की पहली प्रधानाध्यापिका कौन थीं?",
+          "options_english": ["Pandita Ramabai", "Annie Besant", "Vijaya Laxmi Pandit", "Savitri Bai Phule"],
+          "options_hindi": ["पंडिता रमाबाई", "एनी बेसेंट", "विजया लक्ष्मी पंडित", "सावित्री बाई फुले"],
+          "answer_english": "Savitri Bai Phule",
+          "answer_hindi": "सावित्री बाई फुले",
+          "solution_english": "Savitribai Phule was India’s first female teacher and headmistress, who opened the first school for girls in Pune in 1848.",
+          "solution_hindi": "सावित्रीबाई फुले भारत की पहली महिला शिक्षिका और प्रधानाध्यापिका थीं, जिन्होंने 1848 में पुणे में लड़कियों के लिए पहला स्कूल खोला।"
+        },
+        {
+          "question_english": "Which barrel-shaped organelles give orientation to the mitotic spindle during cell division?",
+          "question_hindi": "कोशिका विभाजन के दौरान 'माइटोटिक स्पिंडल' को दिशा देने वाले बैरल आकार के अंगक कौन से हैं?",
+          "options_english": ["Flagella", "Basal bodies", "Centrioles", "Centrosomes"],
+          "options_hindi": ["फ्लैगेला", "बेसल बॉडीज", "सेंट्रिओल", "सेंट्रोसोम"],
+          "answer_english": "Centrioles",
+          "answer_hindi": "सेंट्रिओल",
+          "solution_english": "Centrioles are cylindrical organelles found in animal cells that help organize the mitotic spindle during cell division.",
+          "solution_hindi": "सेंट्रिओल बेलनाकार अंगक हैं जो पशु कोशिकाओं में पाए जाते हैं और कोशिका विभाजन के दौरान माइटोटिक स्पिंडल का संगठन करते हैं।"
+        },
+        {
+          "question_english": "Who is a Padma Vibhushan awardee and torch bearer of the Kalka-Bindadin Gharana of Lucknow?",
+          "question_hindi": "कौन पद्म विभूषण पुरस्कार विजेता और लखनऊ के कालका-बिंदादीन घराने का मशाल वाहक है?",
+          "options_english": ["Pandit Birju Maharaj", "Pandit Gopi Krishna", "Pandit Lacchu Maharaj", "Pandit Shambhu Maharaj"],
+          "options_hindi": ["पंडित बिरजू महाराज", "पंडित गोपी कृष्ण", "पंडित लच्छू महाराज", "पंडित शंभू महाराज"],
+          "answer_english": "Pandit Birju Maharaj",
+          "answer_hindi": "पंडित बिरजू महाराज",
+          "solution_english": "Pandit Birju Maharaj was a legendary Kathak dancer and a leading exponent of the Lucknow gharana.",
+          "solution_hindi": "पंडित बिरजू महाराज एक महान कथक नर्तक थे और लखनऊ घराने के प्रमुख प्रतिपादक थे।"
+        },
+        {
+          "question_english": "Who proposed the Act for the repair and protection of historical monuments of the country?",
+          "question_hindi": "देश के ऐतिहासिक स्मारकों की मरम्मत और संरक्षण के लिए अधिनियम का प्रस्ताव किसने रखा?",
+          "options_english": ["Lord Northbrook", "Lord Curzon", "Lord Mayo", "Lord Canning"],
+          "options_hindi": ["लॉर्ड नॉर्थब्रुक", "लॉर्ड कर्जन", "लॉर्ड मेयो", "लॉर्ड कैनिंग"],
+          "answer_english": "Lord Curzon",
+          "answer_hindi": "लॉर्ड कर्जन",
+          "solution_english": "Lord Curzon was instrumental in passing the Ancient Monuments Preservation Act in 1904 for the protection of India’s heritage.",
+          "solution_hindi": "लॉर्ड कर्जन ने 1904 में भारत की विरासत के संरक्षण के लिए प्राचीन स्मारक संरक्षण अधिनियम पारित करने में महत्वपूर्ण भूमिका निभाई।"
+        },
+        {
+          "question_english": "In which years did India host the Asian Games?",
+          "question_hindi": "किस वर्षों में भारत ने एशियाई खेलों की मेजबानी की?",
+          "options_english": ["1955 and 1982", "1960 and 1983", "1951 and 1982", "1951 and 1985"],
+          "options_hindi": ["1955 और 1982", "1960 और 1983", "1951 और 1982", "1951 और 1985"],
+          "answer_english": "1951 and 1982",
+          "answer_hindi": "1951 और 1982",
+          "solution_english": "India hosted the Asian Games twice — in New Delhi in 1951 and again in 1982.",
+          "solution_hindi": "भारत ने दो बार एशियाई खेलों की मेजबानी की — 1951 और 1982 में नई दिल्ली में।"
+        },
+        {
+          "question_english": "Where is the secretariat of the Goods and Services Tax Council located?",
+          "question_hindi": "वस्तु एवं सेवा कर परिषद का सचिवालय कहाँ स्थित है?",
+          "options_english": ["Kolkata", "New Delhi", "Mumbai", "Chandigarh"],
+          "options_hindi": ["कोलकाता", "नई दिल्ली", "मुंबई", "चंडीगढ़"],
+          "answer_english": "New Delhi",
+          "answer_hindi": "नई दिल्ली",
+          "solution_english": "The secretariat of the GST Council is located in New Delhi as per council rules.",
+          "solution_hindi": "जीएसटी परिषद का सचिवालय परिषद के नियमों के अनुसार नई दिल्ली में स्थित है।"
+        },
+        {
+          "question_english": "Who founded the All India Trade Union Congress (AITUC)?",
+          "question_hindi": "ऑल इंडिया ट्रेड यूनियन कांग्रेस (AITUC) की स्थापना किसने की थी?",
+          "options_english": ["B.P. Wadia", "Lala Lajpat Rai", "M.N. Roy", "Subhas Chandra Bose"],
+          "options_hindi": ["बी.पी. वाडिया", "लाला लाजपत राय", "एम.एन. रॉय", "सुभाष चंद्र बोस"],
+          "answer_english": "Lala Lajpat Rai",
+          "answer_hindi": "लाला लाजपत राय",
+          "solution_english": "AITUC was founded in 1920 by Lala Lajpat Rai, being the oldest trade union federation in India.",
+          "solution_hindi": "एआईटीयूसी की स्थापना 1920 में लाला लाजपत राय द्वारा की गई थी; यह भारत का सबसे पुराना ट्रेड यूनियन महासंघ है।"
+        },
+        {
+          "question_english": "In which Indian state is Loktak Lake located?",
+          "question_hindi": "लोकतक झील किस भारतीय राज्य में स्थित है?",
+          "options_english": ["Manipur", "Assam", "Meghalaya", "Tripura"],
+          "options_hindi": ["मणिपुर", "असम", "मेघालय", "त्रिपुरा"],
+          "answer_english": "Manipur",
+          "answer_hindi": "मणिपुर",
+          "solution_english": "Loktak Lake, known for its floating islands called Phumdis, is located in Manipur.",
+          "solution_hindi": "लोकतक झील, जो 'फुमदी' नामक तैरते द्वीपों के लिए प्रसिद्ध है, मणिपुर में स्थित है।"
+        }, {
+    "question_english": "Megasthenes, a Greek, was the ambassador in the court of which of the following kings?",
+    "question_hindi": "मेगस्थनीज, एक यूनानी, निम्नलिखित में से किस राजा के दरबार में राजदूत था?",
+    "options_english": ["Ashoka", "Mahapadma Nanda", "Bimbisara", "Chandragupta Maurya"],
+    "options_hindi": ["अशोक", "महापद्म नंद", "बिंबिसार", "चंद्रगुप्त मौर्य"],
+    "answer_english": "Chandragupta Maurya",
+    "answer_hindi": "चंद्रगुप्त मौर्य",
+    "solution_english": "Megasthenes was a Greek diplomat, historian, and ethnographer sent as an ambassador by Seleucus I Nicator of the Seleucid dynasty to the court of Chandragupta Maurya, the founder of the Mauryan Empire, in his capital city of Pataliputra. His work, 'Indica,' is an important source of information about ancient India.",
+    "solution_hindi": "मेगस्थनीज एक यूनानी राजनयिक, इतिहासकार और नृवंशविज्ञानी था जिसे सेल्यूसिड वंश के सेल्यूकस प्रथम निकेटर द्वारा मौर्य साम्राज्य के संस्थापक चंद्रगुप्त मौर्य के दरबार में उनकी राजधानी पाटलिपुत्र में एक राजदूत के रूप में भेजा गया था। उनका काम, 'इंडिका,' प्राचीन भारत के बारे में जानकारी का एक महत्वपूर्ण स्रोत है।"
+  },
+  {
+    "question_english": "Which of the following dancers is associated with the following two dances - Bharatanatyam and Odissi?",
+    "question_hindi": "निम्नलिखित में से कौन सा नर्तक निम्नलिखित दो नृत्यों - भरतनाट्यम और ओडिसी से संबंधित है?",
+    "options_english": ["Shovana Narayan", "Guru Bipin Singh", "Padma Subrahmanyam", "Sonal Mansingh"],
+    "options_hindi": ["शोवना नारायण", "गुरु बिपिन सिंह", "पद्मा सुब्रह्मण्यम", "सोनल मानसिंह"],
+    "answer_english": "Sonal Mansingh",
+    "answer_hindi": "सोनल मानसिंह",
+    "solution_english": "Sonal Mansingh is an eminent Indian classical dancer who is an exponent of both Bharatanatyam and Odissi. She has been performing for several decades and is also a guru, choreographer, and motivational speaker.",
+    "solution_hindi": "सोनल मानसिंह एक प्रख्यात भारतीय शास्त्रीय नृत्यांगना हैं जो भरतनाट्यम और ओडिसी दोनों की प्रतिपादक हैं। वह कई दशकों से प्रदर्शन कर रही हैं और एक गुरु, कोरियोग्राफर और प्रेरक वक्ता भी हैं।"
+  },
+  {
+    "question_english": "What do you mean by 'cant' in kabaddi?",
+    "question_hindi": "कबड्डी में 'कैंट' से आपका क्या मतलब है?",
+    "options_english": ["A player in whose court a raid is made", "A special point is given to an opponent", "Repeating round of the word 'kabaddi'", "A player who enters the court"],
+    "options_hindi": ["एक खिलाड़ी जिसके कोर्ट में रेड की जाती है", "एक प्रतिद्वंद्वी को दिया गया एक विशेष अंक", "'कबड्डी' शब्द के दौर को दोहराना", "एक खिलाड़ी जो कोर्ट में प्रवेश करता है"],
+    "answer_english": "Repeating round of the word 'kabaddi'",
+    "answer_hindi": "'कबड्डी' शब्द के दौर को दोहराना",
+    "solution_english": "In the sport of Kabaddi, the 'cant' is the continuous, audible chanting of the word 'kabaddi' by a raider who enters the opponent's court. The raid is declared over if the raider stops the cant or takes a breath. It is a fundamental rule of the game.",
+    "solution_hindi": "कबड्डी के खेल में, 'कैंट' प्रतिद्वंद्वी के कोर्ट में प्रवेश करने वाले एक रेडर द्वारा 'कबड्डी' शब्द का निरंतर, श्रव्य जप है। यदि रेडर कैंट बंद कर देता है या सांस लेता है तो रेड को समाप्त घोषित कर दिया जाता है। यह खेल का एक मौलिक नियम है।"
+  },
+  {
+    "question_english": "Who among the following physicists wrote an autobiography 'Autobiographical Notes'?",
+    "question_hindi": "निम्नलिखित में से किस भौतिक विज्ञानी ने एक आत्मकथा 'ऑटोबायोग्राफिकल नोट्स' लिखी थी?",
+    "options_english": ["Michael Faraday", "Isaac Newton", "Albert Einstein", "James Maxwell"],
+    "options_hindi": ["माइकल फैराडे", "आइजैक न्यूटन", "अल्बर्ट आइंस्टीन", "जेम्स मैक्सवेल"],
+    "answer_english": "Albert Einstein",
+    "answer_hindi": "अल्बर्ट आइंस्टीन",
+    "solution_english": "'Autobiographical Notes' was written by Albert Einstein in 1946. It is a short work in which he reflects on the development of his scientific ideas, providing unique insight into his thought processes.",
+    "solution_hindi": "'ऑटोबायोग्राफिकल नोट्स' 1946 में अल्बर्ट आइंस्टीन द्वारा लिखा गया था। यह एक छोटा कार्य है जिसमें उन्होंने अपने वैज्ञानिक विचारों के विकास पर विचार किया है, जो उनकी विचार प्रक्रियाओं में अद्वितीय अंतर्दृष्टि प्रदान करता है।"
+  },
+  {
+    "question_english": "Which Article of the Constitution of India mentions that it shall be the duty of every citizen of India to promote harmony and the spirit of common brotherhood?",
+    "question_hindi": "भारत के संविधान का कौन सा अनुच्छेद उल्लेख करता है कि भारत के प्रत्येक नागरिक का यह कर्तव्य होगा कि वह सभी लोगों के बीच सद्भाव और समान भाईचारे की भावना को बढ़ावा दे?",
+    "options_english": ["51A (a)", "51A (d)", "51A (k)", "51A (e)"],
+    "options_hindi": ["51क (क)", "51क (घ)", "51क (ट)", "51क (ङ)"],
+    "answer_english": "51A (e)",
+    "answer_hindi": "51क (ङ)",
+    "solution_english": "This statement is one of the Fundamental Duties listed in the Constitution of India. It is specifically mentioned under Article 51A, clause (e).",
+    "solution_hindi": "यह कथन भारत के संविधान में सूचीबद्ध मौलिक कर्तव्यों में से एक है। इसका विशेष रूप से अनुच्छेद 51क, खंड (ङ) के तहत उल्लेख किया गया है।"
+  },
+  {
+    "question_english": "The Kathiawar Peninsula is a part of which state of India?",
+    "question_hindi": "काठियावाड़ प्रायद्वीप भारत के किस राज्य का एक हिस्सा है?",
+    "options_english": ["West Bengal", "Gujarat", "Tamil Nadu", "Andhra Pradesh"],
+    "options_hindi": ["पश्चिम बंगाल", "गुजरात", "तमिलनाडु", "आंध्र प्रदेश"],
+    "answer_english": "Gujarat",
+    "answer_hindi": "गुजरात",
+    "solution_english": "The Kathiawar peninsula is a large peninsula in western India, located in the state of Gujarat. It is bounded by the Gulf of Kutch to the west and the Gulf of Khambhat to the east.",
+    "solution_hindi": "काठियावाड़ प्रायद्वीप पश्चिमी भारत में एक बड़ा प्रायद्वीप है, जो गुजरात राज्य में स्थित है। यह पश्चिम में कच्छ की खाड़ी और पूर्व में खंभात की खाड़ी से घिरा है।"
+  },
+  {
+    "question_english": "Select the INCORRECT combination of festival and its significance.",
+    "question_hindi": "त्योहार और उसके महत्व के गलत संयोजन का चयन करें।",
+    "options_english": ["Makar Sankranti – Also known as Uttarayana, Lohri, Pongal, Bihu and the Khichdi festival", "Kartik Purnima – Marks the birth anniversary of Guru Gobind Singh", "Eid-Milad-ul-Nabi – The birth anniversary of Prophet Muhammad", "KarvaChauth – Married women observe a fast from sunrise to moonrise"],
+    "options_hindi": ["मकर संक्रांति - उत्तरायण, लोहड़ी, पोंगल, बिहू और खिचड़ी उत्सव के रूप में भी जाना जाता है", "कार्तिक पूर्णिमा - गुरु गोबिंद सिंह की जयंती का प्रतीक है", "ईद-मिलाद-उल-नबी - पैगंबर मुहम्मद की जयंती", "करवा चौथ - विवाहित महिलाएं सूर्योदय से चंद्रोदय तक व्रत रखती हैं"],
+    "answer_english": "Kartik Purnima – Marks the birth anniversary of Guru Gobind Singh",
+    "answer_hindi": "कार्तिक पूर्णिमा - गुरु गोबिंद सिंह की जयंती का प्रतीक है",
+    "solution_english": "Kartik Purnima does not mark the birth anniversary of Guru Gobind Singh. It marks the birth of Guru Nanak, the first Sikh Guru. The other combinations are correct.",
+    "solution_hindi": "कार्तिक पूर्णिमा गुरु गोबिंद सिंह की जयंती का प्रतीक नहीं है। यह पहले सिख गुरु, गुरु नानक की जयंती का प्रतीक है। अन्य संयोजन सही हैं।"
+  },
+  {
+    "question_english": "Which of the following is the largest, double membrane-bound organelle containing all the cell’s genetic information?",
+    "question_hindi": "निम्नलिखित में से कौन सा सबसे बड़ा, दोहरी झिल्ली-बाध्य अंगक है, जिसमें कोशिका की सभी आनुवंशिक जानकारी होती है?",
+    "options_english": ["Nucleus", "Lysosome", "Peroxisomes", "Ribosome"],
+    "options_hindi": ["नाभिक (न्यूक्लियस)", "लाइसोसोम", "पेरॉक्सिसोम", "राइबोसोम"],
+    "answer_english": "Nucleus",
+    "answer_hindi": "नाभिक (न्यूक्लियस)",
+    "solution_english": "The nucleus is the largest organelle, enclosed by a double membrane called the nuclear envelope, and contains the cell's hereditary material (DNA).",
+    "solution_hindi": "नाभिक सबसे बड़ा अंगक है, जो दोहरी झिल्ली से घिरा होता है जिसे परमाणु लिफाफा कहा जाता है, और इसमें कोशिका की वंशानुगत सामग्री (डीएनए) होती है।"
+  },
+  {
+    "question_english": "Which of the following dances of Assam is associated with the worship of the snake goddess Manasa?",
+    "question_hindi": "असम का निम्नलिखित में से कौन सा नृत्य नाग देवी मनसा की पूजा से जुड़ा है?",
+    "options_english": ["Deodhani", "Bhor Tal Nritya", "Jhumur", "Bagurumba"],
+    "options_hindi": ["देवधनी", "भोर ताल नृत्य", "झुमुर", "बागुरुम्बा"],
+    "answer_english": "Deodhani",
+    "answer_hindi": "देवधनी",
+    "solution_english": "Deodhani is a ritualistic dance form from Assam performed during the worship of the snake goddess Manasa. It is typically performed by a female oracle possessed by the goddess.",
+    "solution_hindi": "देवधनी असम का एक अनुष्ठानिक नृत्य रूप है, जो नाग देवी मनसा की पूजा के दौरान किया जाता है। यह आमतौर पर एक महिला ओझा या देवधनी द्वारा किया जाता है।"
+  },
+  {
+    "question_english": "Which of the following countries is the second most populous country in South Asia?",
+    "question_hindi": "निम्नलिखित में से कौन सा देश दक्षिण एशिया का दूसरा सबसे अधिक आबादी वाला देश है?",
+    "options_english": ["Bangladesh", "Nepal", "Afghanistan", "Pakistan"],
+    "options_hindi": ["बांग्लादेश", "नेपाल", "अफगानिस्तान", "पाकिस्तान"],
+    "answer_english": "Pakistan",
+    "answer_hindi": "पाकिस्तान",
+    "solution_english": "South Asia's most populous country is India. The second most populous country is Pakistan, followed by Bangladesh, Afghanistan, and Nepal.",
+    "solution_hindi": "दक्षिण एशिया का सबसे अधिक आबादी वाला देश भारत है। दूसरा सबसे अधिक आबादी वाला देश पाकिस्तान है, इसके बाद बांग्लादेश, अफगानिस्तान और नेपाल हैं।"
+  }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+    "question-english": "Complete the analogy. __________ : Hour :: Second : Minute",
+    "question-hindi": "सादृश्यता पूरी करें। __________ : घंटा :: सेकंड : मिनट",
+    "options-english": ["Day", "Time", "Clock", "Minute"],
+    "options-hindi": ["दिन", "समय", "घड़ी", "मिनट"],
+    "answer-english": "Minute",
+    "answer-hindi": "मिनट",
+    "solution-english": "A 'Second' is a unit of time that is part of a 'Minute'. Similarly, a 'Minute' is a unit of time that is part of an 'Hour'.",
+    "solution-hindi": "एक 'सेकंड' समय की एक इकाई है जो एक 'मिनट' का हिस्सा है। इसी तरह, एक 'मिनट' समय की एक इकाई है जो एक 'घंटा' का हिस्सा है।"
+  },
+  {
+  "question-english": "Hawa Mahal, Jaipur, Rajasthan",
+  "question-hindi": "हवा महल, जयपुर, राजस्थान",
+  "options-english": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+  ],
+  "options-hindi": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+  ],
+  "answer-english": "(a)",
+  "answer-hindi": "(a)",
+  "solution-english": "Hawa Mahal is located in Jaipur, and Jaipur is a city in Rajasthan. Therefore, the correct diagram represents nested circles — Hawa Mahal within Jaipur, and Jaipur within Rajasthan.",
+  "solution-hindi": "हवा महल, जयपुर में स्थित है और जयपुर, राजस्थान में है। इसलिए सही आरेख एक दूसरे के अंदर बने वृत्तों को दर्शाता है — हवा महल जयपुर के अंदर, और जयपुर राजस्थान के अंदर।"
+}
+,
+  {
+    "question-english": "Choose the correct option to complete the given series. 2.1, 3.4, 4.7, 6.0, ?, 8.6",
+    "question-hindi": "दी गई श्रृंखला को पूरा करने के लिए सही विकल्प चुनें। 2.1, 3.4, 4.7, 6.0, ?, 8.6",
+    "options-english": ["7.1", "7.2", "7.3", "7.4"],
+    "options-hindi": ["7.1", "7.2", "7.3", "7.4"],
+    "answer-english": "7.3",
+    "answer-hindi": "7.3",
+    "solution-english": "The pattern is a consistent addition of 1.3 to each term.",
+    "solution-hindi": "पैटर्न प्रत्येक पद में 1.3 का लगातार जोड़ है।"
+  },
+  {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q4.png",
+  "question-english": "How many quadrilaterals are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कुल कितने चतुर्भुज (quadrilaterals) हैं?",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-english": "Count all distinct 4-sided figures formed by the lines (including small unit rectangles, combos of adjacent units, and larger rectangles made from multiple small units).\n1) Small unit quadrilaterals (the smallest rectangles): 11.\n2) Two-unit (adjacent) quadrilaterals (horizontal or vertical pairs): 6.\n3) Larger combined quadrilaterals (spanning 3 or more small cells, or 2×2 type blocks): 3.\nTotal = 11 + 6 + 3 = 20. Then include the outer boundary rectangle (the whole figure) → 21.\n(Therefore answer = 21.)",
+  "solution-hindi": "रेखाओं से बनने वाले सभी अलग-अलग 4-भुजों की गिनती करें (छोटे यूनिट आयत, पास के यूनिटों के संयोजन, और कई यूनिट से बने बड़े आयत)।\n1) सबसे छोटे यूनिट चतुर्भुज: 11।\n2) दो-यूनिट (सन्निहित) चतुर्भुज (आड़ा/लंबवत): 6।\n3) बड़े संयोजित चतुर्भुज (3 या अधिक यूनिट को कवर करने वाले या 2×2 प्रकार के ब्लॉक): 3।\nयोग = 11 + 6 + 3 = 20। फिर समग्र बाहरी आयत (पूरे चित्र) जोड़ें → 21।\n(इसलिए उत्तर = 21।)"
+},
+  {
+    "question-english": "Six people (A, B, C, D, E, F) are sitting in a row facing North. A is between B and C. E is at one of the ends. D is second to the left of E. F is not an immediate neighbor of C. Who sits in the middle?",
+    "question-hindi": "छह लोग (A, B, C, D, E, F) उत्तर की ओर मुँह करके एक पंक्ति में बैठे हैं। A, B और C के बीच में है। E एक सिरे पर है। D, E के बाएँ से दूसरा है। F, C का निकटतम पड़ोसी नहीं है। बीच में कौन बैठा है?",
+    "options-english": ["A and C", "B and A", "F and B", "D and C"],
+    "options-hindi": ["A और C", "B और A", "F और B", "D और C"],
+    "answer-english": "A and C",
+    "answer-hindi": "A और C",
+    "solution-english": "Arrangement is F, B, A, C, D, E. The middle people are A and C.",
+    "solution-hindi": "अंतिम व्यवस्था: F, B, A, C, D, E। बीच में बैठे लोग A और C हैं।"
+  },
+  {
+    "question-english": "In a queue, Rohan is 14th from the front and 16th from the back. How many people are there in the queue?",
+    "question-hindi": "एक कतार में, रोहन सामने से 14वाँ और पीछे से 16वाँ है। कतार में कुल कितने लोग हैं?",
+    "options-english": ["28", "29", "30", "31"],
+    "options-hindi": ["28", "29", "30", "31"],
+    "answer-english": "29",
+    "answer-hindi": "29",
+    "solution-english": "Total = (14 + 16) - 1 = 29.",
+    "solution-hindi": "कुल लोग = (14 + 16) - 1 = 29।"
+  },
+  {
+    "question-english": "Statements: All actors are singers. No singer is a director. All directors are producers. Conclusions: I. No actor is a director. II. Some producers are directors.",
+    "question-hindi": "कथन: सभी अभिनेता गायक हैं। कोई गायक निर्देशक नहीं है। सभी निर्देशक निर्माता हैं। निष्कर्ष: I. कोई अभिनेता निर्देशक नहीं है। II. कुछ निर्माता निर्देशक हैं।",
+    "options-english": ["Only I follows", "Only II follows", "Both I and II follow", "Neither follows"],
+    "options-hindi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों I और II अनुसरण करते हैं", "कोई नहीं"],
+    "answer-english": "Both I and II follow",
+    "answer-hindi": "दोनों I और II अनुसरण करते हैं",
+    "solution-english": "Conclusion I and II are both logically valid.",
+    "solution-hindi": "दोनों निष्कर्ष तार्किक रूप से सही हैं।"
+  },
+  {
+    "question-english": "If 'P' denotes 'x', 'Q' denotes '÷', 'R' denotes '+', and 'S' denotes '–', what is the value of 12 P 8 R 20 Q 5 S 10?",
+    "question-hindi": "यदि 'P' का अर्थ 'x' है, 'Q' का अर्थ '÷' है, 'R' का अर्थ '+' है, और 'S' का अर्थ '–' है, तो 12 P 8 R 20 Q 5 S 10 का मान क्या है?",
+    "options-english": ["90", "94", "85", "100"],
+    "options-hindi": ["90", "94", "85", "100"],
+    "answer-english": "90",
+    "answer-hindi": "90",
+    "solution-english": "12 × 8 + 20 ÷ 5 - 10 = 96 + 4 - 10 = 90.",
+    "solution-hindi": "12 × 8 + 20 ÷ 5 - 10 = 96 + 4 - 10 = 90।"
+  },
+  {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q9.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q9.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+ {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q10.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q10.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q11.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q12.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q12.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+  {
+    "question-english": "Which of the following calendars will be the same as the calendar for the year 2013?",
+    "question-hindi": "निम्नलिखित में से कौन सा कैलेंडर वर्ष 2013 के कैलेंडर के समान होगा?",
+    "options-english": ["2018", "2019", "2024", "2022"],
+    "options-hindi": ["2018", "2019", "2024", "2022"],
+    "answer-english": "2019",
+    "answer-hindi": "2019",
+    "solution-english": "Odd days from 2013 to 2018 = 7, so 2019 calendar will be same.",
+    "solution-hindi": "2013 से 2018 तक विषम दिन = 7, इसलिए 2019 का कैलेंडर समान होगा।"
+  },
+  {
+    "question-english": "If 'red' is 'blue', 'blue' is 'green', 'green' is 'yellow', and 'yellow' is 'orange', what is the color of the sky?",
+    "question-hindi": "यदि 'लाल' 'नीला' है, 'नीला' 'हरा' है, 'हरा' 'पीला' है, 'पीला' 'नारंगी' है, तो आकाश का रंग क्या है?",
+    "options-english": ["Blue", "Green", "Yellow", "Red"],
+    "options-hindi": ["नीला", "हरा", "पीला", "लाल"],
+    "answer-english": "Green",
+    "answer-hindi": "हरा",
+    "solution-english": "Sky is blue, and in the code 'blue' means 'green'.",
+    "solution-hindi": "आकाश का रंग नीला होता है, और कोड में 'नीला' को 'हरा' कहा गया है।"
+  },
+  {
+    "question-image":"https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q15.png",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite to the face showing '3'.",
+  "question-hindi": "एक ही पासे की तीन अलग-अलग स्थितियाँ दिखाई गई हैं। उस फलक पर अंक ज्ञात करें जो '3' वाले फलक के विपरीत है।",
+  "options-english": [
+    "(a) 4",
+    "(b) 2",
+    "(c) 6",
+    "(d) 5"
+  ],
+  "options-hindi": [
+    "(a) 4",
+    "(b) 2",
+    "(c) 6",
+    "(d) 5"
+  ],
+  "answer-english": "(a) 4",
+  "answer-hindi": "(a) 4",
+  "solution-english": "From the three views, the faces adjacent to 3 are 1, 2, and 6. Since 4 and 5 never appear adjacent to 3, 4 is opposite to 3.",
+  "solution-hindi": "तीनों चित्रों से स्पष्ट है कि 3 के आस-पास 1, 2 और 6 अंक हैं। चूंकि 4 और 5 कभी 3 के साथ नहीं दिखते, इसलिए 4, 3 के विपरीत फलक पर है।"
+}
+,
+  {
+    "question-english": "At what time between 2 and 3 will the hands of a clock be together?",
+    "question-hindi": "2 और 3 बजे के बीच किस समय घड़ी की सुइयाँ एक साथ होंगी?",
+    "options-english": ["10 10/11", "11 1/11", "9 10/11", "10 9/11"],
+    "options-hindi": ["10 10/11", "11 1/11", "9 10/11", "10 9/11"],
+    "answer-english": "10 10/11 minutes past 2",
+    "answer-hindi": "2 बजकर 10 10/11 मिनट",
+    "solution-english": "T = (2/11) × (2 × 30) = 120/11 = 10 10/11 minutes past 2.",
+    "solution-hindi": "सूत्र: T = (2/11) × (2 × 30) = 120/11 = 10 10/11 मिनट पर 2 बजकर।"
+  },
+  {
+    "question-english": "Arrange the given words in dictionary order: Protein, Problem, Proverb, Project, Property",
+    "question-hindi": "दिए गए शब्दों को उस क्रम में व्यवस्थित करें जिसमें वे शब्दकोश में आते हैं: Protein, Problem, Proverb, Project, Property",
+    "options-english": ["24153", "24513", "25413", "24135"],
+    "options-hindi": ["24153", "24513", "25413", "24135"],
+    "answer-english": "24153",
+    "answer-hindi": "24153",
+    "solution-english": "Correct order: Problem, Project, Protein, Property, Proverb → 2,4,1,5,3.",
+    "solution-hindi": "सही क्रम: Problem, Project, Protein, Property, Proverb → 2,4,1,5,3।"
+  },
+  {
+    "question-english": "Select the one which is different from the other three responses.",
+    "question-hindi": "वह चुनें जो अन्य तीन प्रतिक्रियाओं से भिन्न है।",
+    "options-english": ["28", "65", "126", "215"],
+    "options-hindi": ["28", "65", "126", "215"],
+    "answer-english": "215",
+    "answer-hindi": "215",
+    "solution-english": "n³ + 1 pattern; 215 = 6³ - 1, hence different.",
+    "solution-hindi": "पैटर्न n³ + 1 है; 215 = 6³ - 1, इसलिए भिन्न है।"
+  },
+  {
+    "question-english": "A postman starts from the post office, walks 10 km South, then 5 km West, then 10 km North. Where is he now with respect to the post office?",
+    "question-hindi": "एक डाकिया पोस्ट ऑफिस से शुरू करता है, 10 किमी दक्षिण की ओर चलता है, फिर 5 किमी पश्चिम की ओर, फिर 10 किमी उत्तर की ओर। वह अब पोस्ट ऑफिस के संबंध में कहाँ है?",
+    "options-english": ["5 km East", "5 km West", "10 km North", "At post office"],
+    "options-hindi": ["5 किमी पूर्व", "5 किमी पश्चिम", "10 किमी उत्तर", "पोस्ट ऑफिस पर"],
+    "answer-english": "5 km West",
+    "answer-hindi": "5 किमी पश्चिम",
+    "solution-english": "North and South cancel; net 5 km West.",
+    "solution-hindi": "उत्तर और दक्षिण की चाल रद्द; शुद्ध 5 किमी पश्चिम।"
+  },
+  {
+    "question-english": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+    "question-hindi": "A, B की बहन है। C, B की माँ है। D, C का पिता है। E, D की माँ है। A, D से किस प्रकार संबंधित है?",
+    "options-english": ["Granddaughter", "Grandmother", "Daughter", "Grandfather"],
+    "options-hindi": ["पोती/नाती", "दादी/नानी", "बेटी", "दादा/नाना"],
+    "answer-english": "Granddaughter",
+    "answer-hindi": "पोती/नाती",
+    "solution-english": "D is A's maternal grandfather; so A is D's granddaughter.",
+    "solution-hindi": "D, A का नाना है; इसलिए A उसकी पोती/नाती है।"
+  },
+  {
+    "question-english": "Statement: F > G > H = I ≤ J < K; Conclusions: I. F > I II. H < K",
+    "question-hindi": "कथन: F > G > H = I ≤ J < K; निष्कर्ष: I. F > I II. H < K",
+    "options-english": ["Only I true", "Only II true", "Neither true", "Both true"],
+    "options-hindi": ["केवल I सत्य", "केवल II सत्य", "कोई नहीं", "दोनों सत्य"],
+    "answer-english": "Both true",
+    "answer-hindi": "दोनों सत्य",
+    "solution-english": "From F > G > H = I ≤ J < K, both conclusions follow.",
+    "solution-hindi": "F > G > H = I ≤ J < K से दोनों निष्कर्ष सही हैं।"
+  },
+  {
+    "question-english": "If 24!12 = 6, 30!10 = 10, and 16!8 = 4, then find 18!6.",
+    "question-hindi": "यदि 24!12 = 6, 30!10 = 10 और 16!8 = 4 है, तो 18!6 का मान ज्ञात कीजिए।",
+    "options-english": ["4", "6", "8", "10"],
+    "options-hindi": ["4", "6", "8", "10"],
+    "answer-english": "6",
+    "answer-hindi": "6",
+    "solution-english": "Logic: (First - Second)/2 = (18-6)/2 = 6.",
+    "solution-hindi": "तर्क: (पहली संख्या - दूसरी संख्या)/2 = (18-6)/2 = 6।"
+  },
+  {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_21/mock_test_21_Q23.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "C",
+  "answer-english": "C",
+  "solution-hindi": "",
+  "solution-english": ""
+},
+  {
+    "question-english": "Which alphabet is tenth to the right of the third alphabet from the left end?",
+    "question-hindi": "वर्णमाला श्रृंखला में बाएँ सिरे से तीसरे वर्णमाला के दाएँ से दसवाँ वर्णमाला कौन सा है?",
+    "options-english": ["M", "N", "L", "K"],
+    "options-hindi": ["M", "N", "L", "K"],
+    "answer-english": "M",
+    "answer-hindi": "M",
+    "solution-english": "3rd is C; 10th to the right → 13th alphabet M.",
+    "solution-hindi": "3रा अक्षर C है; उसके दाएँ 10वाँ अक्षर 13वाँ अक्षर M है।"
+  },
+  {
+    "question-english": "How many such pairs of letters are there in the word 'COMPUTER' that have as many letters between them as in the English alphabetical order?",
+    "question-hindi": "शब्द 'COMPUTER' में ऐसे कितने अक्षर युग्म हैं जिनके बीच उतने ही अक्षर हैं जितने उनके बीच अंग्रेजी वर्णमाला में होते हैं?",
+    "options-english": ["None", "One", "Two", "Three"],
+    "options-hindi": ["कोई नहीं", "एक", "दो", "तीन"],
+    "answer-english": "Two",
+    "answer-hindi": "दो",
+    "solution-english": "Pairs: (C,E) and (P,R).",
+    "solution-hindi": "युग्म: (C,E) और (P,R)।"
+  }
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question-english": "The salaries of P and Q together amount to ₹90,000. P spends 90% of his salary and Q spends 80% of his. If their savings are the same, then what is P's salary?",
+    "question-hindi": "P और Q का कुल वेतन ₹ 90,000 है। P अपने वेतन का 90% और Q अपने वेतन का 80% खर्च करता है। यदि उनकी बचत समान है, तो P का वेतन कितना है?",
+    "options-english": ["(a) ₹30,000", "(b) ₹45,000", "(c) ₹50,000", "(d) ₹60,000"],
+    "options-hindi": ["(a) ₹30,000", "(b) ₹45,000", "(c) ₹50,000", "(d) ₹60,000"],
+    "answer-english": "(d)",
+    "answer-hindi": "(d)",
+    "solution-english": "P's savings = 10%. Q's savings = 20%. 0.10P = 0.20Q ⇒ P = 2Q. Substitute P + Q = 90,000 ⇒ 3Q = 90,000 ⇒ Q = 30,000 ⇒ P = 60,000.",
+    "solution-hindi": "P की बचत = 10%। Q की बचत = 20%। 0.10P = 0.20Q ⇒ P = 2Q। P + Q = 90,000 ⇒ 3Q = 90,000 ⇒ Q = 30,000 ⇒ P = 60,000।"
+  },
+  {
+    "question-english": "Lokesh received ₹20,800 in 4 years, including simple interest, on a principal amount of ₹16,000. What would be the total amount he receives if the interest rate is increased by 2.5%?",
+    "question-hindi": "लोकेश को ₹ 16,000 की मूल राशि पर साधारण ब्याज सहित 4 वर्षों में ₹ 20,800 की राशि प्राप्त हुई। यदि ब्याज दर में 2.5% की वृद्धि कर दी जाए तो उसे कुल कितनी राशि प्राप्त होगी?",
+    "options-english": ["(a) ₹21,500", "(b) ₹22,000", "(c) ₹22,400", "(d) ₹23,000"],
+    "options-hindi": ["(a) ₹21,500", "(b) ₹22,000", "(c) ₹22,400", "(d) ₹23,000"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "SI = 20,800 − 16,000 = 4,800. Rate = 7.5%. New rate = 10%. New SI = (16000×10×4)/100 = 6,400. New total = 16,000 + 6,400 = ₹22,400.",
+    "solution-hindi": "साधारण ब्याज = 20,800 − 16,000 = 4,800। दर = 7.5%। नई दर = 10%। नया ब्याज = (16000×10×4)/100 = 6,400। नई कुल राशि = 16,000 + 6,400 = ₹22,400।"
+  },
+  {
+    "question-english": "A cylindrical tube open at both ends is made of metal 1 cm thick. Outer radius 6 cm, length 50 cm. How much metal is used (in cm³)?",
+    "question-hindi": "दोनों सिरों पर खुली एक बेलनाकार ट्यूब 1 सेमी मोटी धातु की चादर से बनी है। इसकी बाहरी त्रिज्या 6 सेमी और लंबाई 50 सेमी है। ट्यूब बनाने में कितनी धातु (सेमी³ में) का उपयोग किया गया है?",
+    "options-english": ["(a) 500π", "(b) 550π", "(c) 600π", "(d) 650π"],
+    "options-hindi": ["(a) 500π", "(b) 550π", "(c) 600π", "(d) 650π"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "R=6, r=5, h=50. Volume = π(6²−5²)×50 = π(36−25)×50 = 550π cm³.",
+    "solution-hindi": "R=6, r=5, h=50। आयतन = π(6²−5²)×50 = π(36−25)×50 = 550π सेमी³।"
+  },
+  {
+    "question-english": "The area of a sector of a circle is 22 cm² and the angle of the sector is 30°. Find the radius.",
+    "question-hindi": "एक वृत्त के एक त्रिज्यखंड का क्षेत्रफल 22 सेमी² है और त्रिज्यखंड का कोण 30° है। वृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options-english": ["(a) √42 cm", "(b) √84 cm", "(c) √102 cm", "(d) √132 cm"],
+    "options-hindi": ["(a) √42 सेमी", "(b) √84 सेमी", "(c) √102 सेमी", "(d) √132 सेमी"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Area = (θ/360)πr² ⇒ 22 = (30/360)(22/7)r² ⇒ r²=84 ⇒ r=√84 cm.",
+    "solution-hindi": "क्षेत्रफल = (θ/360)πr² ⇒ 22 = (30/360)(22/7)r² ⇒ r²=84 ⇒ r=√84 सेमी।"
+  },
+  {
+    "question-english": "A group of men can do a job in 40 days. But 8 men did not come and the rest completed it in 50 days. Find the original number of men.",
+    "question-hindi": "पुरुषों का एक समूह किसी काम को 40 दिनों में कर सकता है। लेकिन 8 पुरुष काम पर नहीं आए और शेष पुरुषों ने उस काम को 50 दिनों में पूरा किया। समूह में पुरुषों की मूल संख्या थी:",
+    "options-english": ["(a) 32", "(b) 35", "(c) 40", "(d) 50"],
+    "options-hindi": ["(a) 32", "(b) 35", "(c) 40", "(d) 50"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "Let men = M. M×40 = (M−8)×50 ⇒ M=40.",
+    "solution-hindi": "मान लीजिए पुरुष=M। M×40 = (M−8)×50 ⇒ M=40।"
+  },
+  {
+    "question-english": "Pipes A and B can fill a tank in 24 and 32 minutes. Both opened together. After 10 min a leak is found, sealed instantly. Tank fills in 8 more min. Leak alone can empty in:",
+    "question-hindi": "पाइप A और B एक टंकी को क्रमशः 24 और 32 मिनट में भर सकते हैं। दोनों को एक साथ खोला गया। 10 मिनट के बाद एक रिसाव देखा गया जिसे तुरंत सील कर दिया गया। टंकी अगले 8 मिनट में भर गई। अकेला रिसाव टंकी को कितने समय में खाली कर सकता है?",
+    "options-english": ["(a) 30", "(b) 32", "(c) 35", "(d) 40"],
+    "options-hindi": ["(a) 30 मिनट", "(b) 32 मिनट", "(c) 35 मिनट", "(d) 40 मिनट"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "LCM=96; A=4, B=3, total=7. 10(7−L)+8(7)=96 ⇒ L=3 ⇒ empties in 32 min.",
+    "solution-hindi": "LCM=96; A=4, B=3, कुल=7। 10(7−L)+8(7)=96 ⇒ L=3 ⇒ 32 मिनट में खाली करता है।"
+  },
+  {
+    "question-english": "Ram bought an article for ₹8,000 and spent ₹500 on repairs. MP ₹10,000. Sold for ₹8,550 after discounts of 10% and x%. Find x.",
+    "question-hindi": "राम ने एक वस्तु ₹8,000 में खरीदी और ₹500 मरम्मत पर खर्च किए। वस्तु का अंकित मूल्य ₹10,000 है। उसने 10% और x% की दो छूटों के बाद वस्तु को ₹8,550 में बेचा। x ज्ञात कीजिए।",
+    "options-english": ["(a) 5", "(b) 7.5", "(c) 10", "(d) 12"],
+    "options-hindi": ["(a) 5", "(b) 7.5", "(c) 10", "(d) 12"],
+    "answer-english": "(a)",
+    "answer-hindi": "(a)",
+    "solution-english": "MP=10,000, after 10% discount=9,000. Sold at 8,550 ⇒ discount=450 ⇒ x=(450/9000)×100=5%.",
+    "solution-hindi": "अंकित मूल्य=10,000, 10% छूट के बाद=9,000। विक्रय मूल्य=8,550 ⇒ छूट=450 ⇒ x=(450/9000)×100=5%।"
+  },
+  {
+    "question-english": "What are the last two digits of 3⁸⁴?",
+    "question-hindi": "संख्या 3⁸⁴ के अंतिम दो अंक क्या हैं?",
+    "options-english": ["(a) 01", "(b) 21", "(c) 41", "(d) 81"],
+    "options-hindi": ["(a) 01", "(b) 21", "(c) 41", "(d) 81"],
+    "answer-english": "(d)",
+    "answer-hindi": "(d)",
+    "solution-english": "By Euler, φ(100)=40 ⇒ 3⁸⁴ ≡ 3⁴ ≡ 81 (mod 100).",
+    "solution-hindi": "यूलर प्रमेय से φ(100)=40 ⇒ 3⁸⁴ ≡ 3⁴ ≡ 81 (mod 100)।"
+  },
+  {
+    "question-english": "The average age of 14 players is 25. Including coach, average = 26. Find coach’s age.",
+    "question-hindi": "14 खिलाड़ियों की औसत आयु 25 वर्ष है। कोच को शामिल करने पर औसत 26 वर्ष हो जाता है। कोच की आयु ज्ञात कीजिए।",
+    "options-english": ["(a) 26", "(b) 39", "(c) 40", "(d) 45"],
+    "options-hindi": ["(a) 26", "(b) 39", "(c) 40", "(d) 45"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "14×25=350, 15×26=390 ⇒ coach=40.",
+    "solution-hindi": "14×25=350, 15×26=390 ⇒ कोच=40।"
+  },
+  {
+    "question-english": "The average speed of a train is 200% of a car’s. The car covers 800 km in 16 hr. Find time for train to cover 1000 km.",
+    "question-hindi": "एक ट्रेन की औसत गति एक कार की औसत गति का 200% है। कार 16 घंटे में 800 किमी तय करती है। ट्रेन द्वारा 1000 किमी तय करने का समय ज्ञात कीजिए।",
+    "options-english": ["(a) 8", "(b) 10", "(c) 12", "(d) 16"],
+    "options-hindi": ["(a) 8", "(b) 10", "(c) 12", "(d) 16"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "Car=50 km/h, Train=100 km/h, Time=1000/100=10 hr.",
+    "solution-hindi": "कार=50 किमी/घं, ट्रेन=100 किमी/घं, समय=1000/100=10 घंटे।"
+  },
+  {
+    "question-english": "Find LCM of 20, 30, 45.",
+    "question-hindi": "20, 30 और 45 का लघुत्तम समापवर्त्य ज्ञात कीजिए।",
+    "options-english": ["(a) 90", "(b) 120", "(c) 150", "(d) 180"],
+    "options-hindi": ["(a) 90", "(b) 120", "(c) 150", "(d) 180"],
+    "answer-english": "(d)",
+    "answer-hindi": "(d)",
+    "solution-english": "20=2²×5; 30=2×3×5; 45=3²×5 ⇒ LCM=2²×3²×5=180.",
+    "solution-hindi": "20=2²×5; 30=2×3×5; 45=3²×5 ⇒ LCM=2²×3²×5=180।"
+  },
+  {
+    "question-english": "A gardener plants 11236 trees so rows = trees per row. How many trees per row?",
+    "question-hindi": "एक माली 11236 पेड़ इस प्रकार लगाता है कि जितनी पंक्तियाँ हैं उतने ही पेड़ एक पंक्ति में हैं। एक पंक्ति में पेड़ों की संख्या ज्ञात कीजिए।",
+    "options-english": ["(a) 104", "(b) 106", "(c) 114", "(d) 116"],
+    "options-hindi": ["(a) 104", "(b) 106", "(c) 114", "(d) 116"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "x²=11236 ⇒ x=106.",
+    "solution-hindi": "x²=11236 ⇒ x=106।"
+  },
+  {
+    "question-english": "A 30% discount on one article equals a 40% discount on another. The marked prices can be:",
+    "question-hindi": "एक वस्तु पर 30% की छूट दूसरी वस्तु पर 40% की छूट के बराबर है। वस्तुओं का अंकित मूल्य क्या हो सकता है?",
+    "options-english": ["(a) ₹100 and ₹75", "(b) ₹200 and ₹150", "(c) ₹150 and ₹100", "(d) ₹120 and ₹100"],
+    "options-hindi": ["(a) ₹100 और ₹75", "(b) ₹200 और ₹150", "(c) ₹150 और ₹100", "(d) ₹120 और ₹100"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "0.30M1=0.40M2 ⇒ M1/M2=4/3 ⇒ ₹200 & ₹150.",
+    "solution-hindi": "0.30M1=0.40M2 ⇒ M1/M2=4/3 ⇒ ₹200 और ₹150।"
+  },
+  {
+    "question-english": "In a library, 50% of math books = two-fifths of physics books. Find the ratio of math to physics books.",
+    "question-hindi": "एक पुस्तकालय में, गणित की पुस्तकों की संख्या का 50% भौतिकी की पुस्तकों की संख्या के दो-पाँचवें के बराबर है। गणित और भौतिकी पुस्तकों का अनुपात ज्ञात कीजिए।",
+    "options-english": ["(a) 5:4", "(b) 2:5", "(c) 4:5", "(d) 5:2"],
+    "options-hindi": ["(a) 5:4", "(b) 2:5", "(c) 4:5", "(d) 5:2"],
+    "answer-english": "(c)",
+    "answer-hindi": "(c)",
+    "solution-english": "0.5M = (2/5)P ⇒ 5M = 4P ⇒ M:P = 4:5.",
+    "solution-hindi": "0.5M = (2/5)P ⇒ 5M = 4P ⇒ M:P = 4:5।"
+  },
+  {
+    "question-english": "A boat takes 9 hr to cover 80 km downstream and 32 km upstream. 60 km downstream = 45 km still water. Find how much more upstream speed is than current.",
+    "question-hindi": "एक नाव धारा के अनुकूल 80 किमी और धारा के प्रतिकूल 32 किमी की दूरी 9 घंटे में तय करती है। 60 किमी धारा के अनुकूल दूरी तय करने का समय शांत जल में 45 किमी तय करने के समय के बराबर है। धारा के प्रतिकूल गति धारा की गति से कितनी अधिक है?",
+    "options-english": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+    "options-hindi": ["(a) 2", "(b) 4", "(c) 6", "(d) 8"],
+    "answer-english": "(b)",
+    "answer-hindi": "(b)",
+    "solution-english": "60/(b+s)=45/b ⇒ b=3s. 80/(b+s)+32/(b−s)=9 ⇒ s=4",
+    "solution-hindi": "60/(b+s)=45/b ⇒ b=3s। 80/(b+s)+32/(b−s)=9 ⇒ s=4"
+  }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+             {
+      "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365 कोशिकाओं (cells) में दर्ज किए गए टेक्स्ट के लिए डिफ़ॉल्ट संरेखण (alignment) क्या है?",
+      "question-english": "What is the default alignment for text entered in Microsoft Excel 365 cells?",
+      "options-hindi": [
+        "दाएँ संरेखित (Right aligned)",
+        "केंद्र संरेखित (Center aligned)",
+        "बाएँ संरेखित (Left aligned)",
+        "जस्टिफाइड (Justified)"
+      ],
+      "options-english": [
+        "Right aligned",
+        "Center aligned",
+        "Left aligned",
+        "Justified"
+      ],
+      "answer-hindi": "बाएँ संरेखित (Left aligned)",
+      "answer-english": "Left aligned",
+      "solution-hindi": "माइक्रोसॉफ्ट एक्सेल में, टेक्स्ट प्रविष्टियाँ डिफ़ॉल्ट रूप से स्वचालित रूप से बाएँ-संरेखित होती हैं। संख्याएँ, तिथियाँ और समय दाएँ-संरेखित होते हैं।",
+      "solution-english": "In Microsoft Excel, text entries are automatically left-aligned by default. Numbers, dates, and times are right-aligned."
+    },
+    {
+      "question-hindi": "MS Word 365 में टेक्स्ट संरेखण को बाईं ओर बदलने के लिए कीबोर्ड शॉर्टकट क्या है?",
+      "question-english": "What is the keyboard shortcut for changing text alignment to the left in MS Word 365?",
+      "options-hindi": [
+        "Ctrl + L",
+        "Ctrl + R",
+        "Ctrl + C",
+        "Ctrl + J"
+      ],
+      "options-english": [
+        "Ctrl + L",
+        "Ctrl + R",
+        "Ctrl + C",
+        "Ctrl + J"
+      ],
+      "answer-hindi": "Ctrl + L",
+      "answer-english": "Ctrl + L",
+      "solution-hindi": "कीबोर्ड शॉर्टकट Ctrl + L चयनित टेक्स्ट को बाएँ मार्जिन पर संरेखित करता है। Ctrl + R दाएँ संरेखित करता है, और Ctrl + J टेक्स्ट को जस्टिफाई करता है। Ctrl + C कॉपी के लिए है।",
+      "solution-english": "The keyboard shortcut Ctrl + L aligns the selected text to the left margin. Ctrl + R aligns right, and Ctrl + J justifies the text. Ctrl + C is for copy."
+    },
+    {
+      "question-hindi": "निम्नलिखित में से कौन सा एक वर्ड प्रोसेसिंग पैकेज नहीं है?",
+      "question-english": "Which of the following is NOT a word processing package?",
+      "options-hindi": [
+        "एप्पल पेजेज (Apple Pages)",
+        "गूगल डॉक्स (Google Docs)",
+        "एडोब फोटोशॉप (Adobe Photoshop)",
+        "माइक्रोसॉफ्ट वर्ड (Microsoft Word)"
+      ],
+      "options-english": [
+        "Apple Pages",
+        "Google Docs",
+        "Adobe Photoshop",
+        "Microsoft Word"
+      ],
+      "answer-hindi": "एडोब फोटोशॉप (Adobe Photoshop)",
+      "answer-english": "Adobe Photoshop",
+      "solution-hindi": "एडोब फोटोशॉप एक शक्तिशाली रास्टर ग्राफिक्स और इमेज एडिटिंग सॉफ्टवेयर है। माइक्रोसॉफ्ट वर्ड, गूगल डॉक्स, और एप्पल पेजेज सभी वर्ड प्रोसेसिंग सॉफ्टवेयर के उदाहरण हैं जिनका उपयोग टेक्स्ट दस्तावेज़ बनाने और संपादित करने के लिए किया जाता है।",
+      "solution-english": "Adobe Photoshop is a powerful raster graphics and image editing software. Microsoft Word, Google Docs, and Apple Pages are all examples of word processing software used to create and edit text documents."
+    },
+    {
+      "question-hindi": "F1 शॉर्टकट कुंजी है जिसका उपयोग लगभग हर विंडोज प्रोग्राम द्वारा निम्नलिखित में से किस मेनू को प्रदर्शित करने के लिए किया जाता है?",
+      "question-english": "F1 is the shortcut key used by almost every Windows program to display which of the following menus?",
+      "options-hindi": [
+        "रीनेम (Rename)",
+        "एडिट (Edit)",
+        "रिफ्रेश (Refresh)",
+        "हेल्प (Help)"
+      ],
+      "options-english": [
+        "Rename",
+        "Edit",
+        "Refresh",
+        "Help"
+      ],
+      "answer-hindi": "हेल्प (Help)",
+      "answer-english": "Help",
+      "solution-hindi": "F1 फ़ंक्शन कुंजी अधिकांश विंडोज-आधारित अनुप्रयोगों में एप्लिकेशन के हेल्प पेन या विंडो को खोलने के लिए एक सार्वभौमिक रूप से मान्यता प्राप्त शॉर्टकट है।",
+      "solution-english": "The F1 function key is a universally recognized shortcut in most Windows-based applications to open the application's Help pane or window."
+    },
+    {
+      "question-hindi": "निम्नलिखित में से कौन सा इंटरनेट में इंस्टेंट मैसेजिंग का एक उदाहरण नहीं है?",
+      "question-english": "Which of the following is NOT an example of Instant Messaging in Internet?",
+      "options-hindi": [
+        "ईमेल (Email)",
+        "व्हाट्सएप (WhatsApp)",
+        "टेलीग्राम (Telegram)",
+        "डिस्कॉर्ड (Discord)"
+      ],
+      "options-english": [
+        "Email",
+        "WhatsApp",
+        "Telegram",
+        "Discord"
+      ],
+      "answer-hindi": "ईमेल (Email)",
+      "answer-english": "Email",
+      "solution-hindi": "इंस्टेंट मैसेजिंग (IM) वास्तविक समय में, संवादात्मक टेक्स्ट-आधारित संचार की सुविधा प्रदान करता है। व्हाट्सएप, टेलीग्राम और डिस्कॉर्ड इसके लिए डिज़ाइन किए गए हैं। ईमेल एक अतुल्यकालिक (asynchronous) संचार विधि है, जिसका अर्थ है कि भेजने और प्राप्त करने/उत्तर देने के बीच अक्सर देरी होती है, इसलिए इसे \"इंस्टेंट\" नहीं माना जाता है।",
+      "solution-english": "Instant Messaging (IM) facilitates real-time, conversational text-based communication. WhatsApp, Telegram, and Discord are designed for this. Email is an asynchronous communication method, meaning there is often a delay between sending and receiving/replying, so it is not considered \"instant.\""
+    },
+    {
+      "question-hindi": "ईमेल संरचना में स्पेलचेक की क्या भूमिका है?",
+      "question-english": "What is the purpose of spellcheck in email composition?",
+      "options-hindi": [
+        "ईमेल टेक्स्ट को प्रारूपित करना",
+        "वर्तनी की त्रुटियों की जाँच करना और उन्हें ठीक करना",
+        "ईमेल में अनुलग्नक जोड़ना",
+        "ईमेल का दूसरी भाषा में अनुवाद करना"
+      ],
+      "options-english": [
+        "To format the email text",
+        "To check for and correct spelling errors",
+        "To add attachments to the email",
+        "To translate the email into another language"
+      ],
+      "answer-hindi": "वर्तनी की त्रुटियों की जाँच करना और उन्हें ठीक करना",
+      "answer-english": "To check for and correct spelling errors",
+      "solution-hindi": "स्पेलचेक सुविधा एक उपकरण है जो वर्तनी की गलतियों को पहचानने और उन्हें ठीक करने के लिए सुझाव प्रदान करने के लिए एक ईमेल के टेक्स्ट को स्कैन करता है।",
+      "solution-english": "The spellcheck feature is a tool that scans the text of an email to identify and provide suggestions for correcting spelling mistakes."
+    },
+    {
+      "question-hindi": "MS Excel 365 में, आप MS Excel में एक विशिष्ट प्रिंट क्षेत्र कैसे सेट कर सकते हैं?",
+      "question-english": "In MS Excel 365, how can you set a specific print area in MS Excel?",
+      "options-hindi": [
+        "प्रिंट सेटिंग्स में पेज मार्जिन को समायोजित करके",
+        "स्प्रेडशीट में फ़ॉन्ट आकार और शैली को बदलकर",
+        "डेटा पर सशर्त स्वरूपण (conditional formatting) लागू करके",
+        "प्रिंट किए जाने वाले सेलों का चयन करके और प्रिंट क्षेत्र को परिभाषित करके"
+      ],
+      "options-english": [
+        "By adjusting the page margins in the print settings",
+        "By changing the font size and style in the spreadsheet",
+        "By applying conditional formatting to the data",
+        "By selecting the cells to be printed and defining the print area"
+      ],
+      "answer-hindi": "प्रिंट किए जाने वाले सेलों का चयन करके और प्रिंट क्षेत्र को परिभाषित करके",
+      "answer-english": "By selecting the cells to be printed and defining the print area",
+      "solution-hindi": "वर्कशीट के केवल एक विशिष्ट हिस्से को प्रिंट करने के लिए, आप पहले सेलों की वांछित सीमा का चयन करते हैं। फिर, आप पेज लेआउट टैब पर जाते हैं, \"प्रिंट एरिया\" पर क्लिक करते हैं, और फिर \"सेट प्रिंट एरिया\" पर क्लिक करते हैं। यह एक्सेल को केवल उस चयन को प्रिंट करने के लिए कहता है।",
+      "solution-english": "To print only a specific portion of a worksheet, you first select the desired range of cells. Then, you go to the Page Layout tab, click \"Print Area,\" and then \"Set Print Area.\" This tells Excel to print only that selection."
+    },
+    {
+      "question-hindi": "MS Word 365 में, वर्ड-प्रोसेसिंग सॉफ्टवेयर में, टेक्स्ट को कॉपी करने और टेक्स्ट को कट करने के बीच मुख्य अंतर क्या है?",
+      "question-english": "In MS word 365, in word-processing software, what is the key difference between copying of text and cutting of text?",
+      "options-hindi": [
+        "कॉपी करने के लिए कीबोर्ड शॉर्टकट का उपयोग आवश्यक है, जबकि कटिंग माउस का उपयोग करके की जाती है।",
+        "कॉपी करना प्रतिवर्ती है, जबकि कटिंग अपरिवर्तनीय है।",
+        "कॉपी करना टेक्स्ट को मूल स्थान से हटा देता है, जबकि कटिंग टेक्स्ट को मूल स्थान पर बनाए रखता है।",
+        "कॉपी करना टेक्स्ट को एक नए स्थान पर डुप्लिकेट करता है, जबकि कटिंग टेक्स्ट को एक नए स्थान पर ले जाता है।"
+      ],
+      "options-english": [
+        "Copying requires the use of a keyboard shortcut, while cutting is performed by using the mouse.",
+        "Copying is reversible, while cutting is irreversible.",
+        "Copying removes the text from the original location, while cutting retains the text in the original location.",
+        "Copying duplicates the text to a new location, while cutting moves the text to a new location."
+      ],
+      "answer-hindi": "कॉपी करना टेक्स्ट को एक नए स्थान पर डुप्लिकेट करता है, जबकि कटिंग टेक्स्ट को एक नए स्थान पर ले जाता है।",
+      "answer-english": "Copying duplicates the text to a new location, while cutting moves the text to a new location.",
+      "solution-hindi": "कॉपी करना (Ctrl + C) क्लिपबोर्ड पर चयनित टेक्स्ट का एक डुप्लिकेट बनाता है, जिससे मूल टेक्स्ट अछूता रहता है। कटिंग (Ctrl + X) चयनित टेक्स्ट को उसके मूल स्थान से हटा देता है और उसे क्लिपबोर्ड पर रख देता है। दोनों ही मामलों में, टेक्स्ट को फिर कहीं और पेस्ट किया जा सकता है।",
+      "solution-english": "Copying (Ctrl + C) creates a duplicate of the selected text on the clipboard, leaving the original text untouched. Cutting (Ctrl + X) removes the selected text from its original location and places it on the clipboard. In both cases, the text can then be pasted elsewhere."
+    },
+    {
+      "question-hindi": "वर्ड प्रोसेसिंग के लिए निम्नलिखित में से कौन सा सही सॉफ्टवेयर उपयोग किया जाता है?",
+      "question-english": "Which of the following is the correct software used for Word processing?",
+      "options-hindi": [
+        "एमएस एक्सेस (MS Access)",
+        "एमएस पावरपॉइंट (MS PowerPoint)",
+        "एमएस एक्सेल (MS Excel)",
+        "एमएस वर्ड (MS Word)"
+      ],
+      "options-english": [
+        "MS Access",
+        "MS PowerPoint",
+        "MS Excel",
+        "MS Word"
+      ],
+      "answer-hindi": "एमएस वर्ड (MS Word)",
+      "answer-english": "MS Word",
+      "solution-hindi": "एमएस वर्ड माइक्रोसॉफ्ट का समर्पित वर्ड प्रोसेसिंग सॉफ्टवेयर है। एमएस एक्सेल स्प्रेडशीट के लिए, एमएस पावरपॉइंट प्रस्तुतियों के लिए, और एमएस एक्सेस डेटाबेस के लिए है।",
+      "solution-english": "MS Word is Microsoft's dedicated word processing software. MS Excel is for spreadsheets, MS PowerPoint is for presentations, and MS Access is for databases."
+    },
+    {
+      "question-hindi": "यदि किसी संख्या का कस्टम प्रारूप XX,XX,XXX है तो 4482023 माइक्रोसॉफ्ट एक्सेल 365 में कैसे प्रदर्शित होगा?",
+      "question-english": "If the custom format of a number is XX,XX,XXX then how will 4482023 be displayed in Microsoft Excel 365?",
+      "options-hindi": [
+        "44,82,023",
+        "448,20,23",
+        "4,48,2023",
+        "4482, 02,3"
+      ],
+      "options-english": [
+        "44,82,023",
+        "448,20,23",
+        "4,48,2023",
+        "4482, 02,3"
+      ],
+      "answer-hindi": "44,82,023",
+      "answer-english": "44,82,023",
+      "solution-hindi": "कस्टम प्रारूप ##,##,### एक्सेल को अंतिम तीन अंकों को एक साथ, अगले दो अंकों को एक साथ, और शेष अंकों को एक साथ, अल्पविराम द्वारा अलग करके प्रदर्शित करने का निर्देश देता है। यह भारतीय संख्या प्रणाली (लाख और करोड़) के लिए एक सामान्य स्वरूपण शैली है। इसलिए, 4482023 को 44,82,023 के रूप में प्रदर्शित किया जाएगा।",
+      "solution-english": "The custom format ##,##,### instructs Excel to display the last three digits together, the next two digits together, and the remaining digits together, separated by commas. This is a common formatting style for the Indian numbering system (lakhs and crores). Therefore, 4482023 would be displayed as 44,82,023."
+    }
+          ]
+    }
+  ]
+}

@@ -1,6 +1,4 @@
 {
-  "testName": "Mock Test 1",
-  "duration": 90,
   "mockTest": [
     {
       "section": "General Science",
@@ -12,8 +10,8 @@
               "options-english": ["(A) Robert Bruce Foote", "(B) John Lubbock", "(C) C.J. Thomsen", "(D) H.D. Sankalia"],
               "answer-hindi": "सही समाधान: (B) जॉन लुबॉक",
               "answer-english": "Correct Solution: (B) John Lubbock",
-              "solution-hindi": "व्याख्या: दस्तावेज़ में कहा गया है, '1865 ई. में, जॉन लुबॉक ने अपनी पुस्तक 'प्री-हिस्टोरिक टाइम्स' में पाषाण युग को पुरापाषाण और नवपाषाण में विभाजित किया, जिसका अर्थ है कि पुरापाषाण और नवपाषाण शब्द पहली बार जॉन लुबॉक द्वारा उपयोग किए गए थे।",
-              "solution-english": "Explanation: The document states, 'In 1865 AD, John Lubbock in his book 'Pre-Historic Times' divided the Stone Age into Paleolithic and Neolithic, meaning the terms Paleolithic and Neolithic were first used by John Lubbock."
+              "solution-hindi": "व्याख्या: दस्तावेज़ में कहा गया है, "1865 ई. में, जॉन लुबॉक ने अपनी पुस्तक 'प्री-हिस्टोरिक टाइम्स' में पाषाण युग को पुरापाषाण और नवपाषाण में विभाजित किया, जिसका अर्थ है कि पुरापाषाण और नवपाषाण शब्द पहली बार जॉन लुबॉक द्वारा उपयोग किए गए थे।",
+              "solution-english": "Explanation: The document states, "In 1865 AD, John Lubbock in his book 'Pre-Historic Times' divided the Stone Age into Paleolithic and Neolithic, meaning the terms Paleolithic and Neolithic were first used by John Lubbock."
             },
             {
               "question-hindi": "1982 में भारत में सबसे पुराने मानव जीवाश्म की खोज का उल्लेख है, जो होमो इरेक्टस प्रजाति का है। नर्मदा घाटी के किस महत्वपूर्ण प्रागैतिहासिक स्थल पर यह खोज की गई थी?",
@@ -22,8 +20,8 @@
               "options-english": ["(A) Burzahom", "(B) Mehrgarh", "(C) Hathnora", "(D) Paiyampalli"],
               "answer-hindi": "सही समाधान: (C) हथनोरा",
               "answer-english": "Correct Solution: (C) Hathnora",
-              "solution-hindi": "व्याख्या:  'नर्मदा घाटी (मध्य प्रदेश) में हथनोरा स्थल से, अरुण सोनकिया ने 1982 में होमो इरेक्टस (पुरातन होमो सेपियन्स) मानव खोपड़ी का जीवाश्म खोजा था। यह भारत में खोजा गया सबसे पुराना मानव जीवाश्म है।'",
-              "solution-english": "Explanation: The text specifies, 'From the Hathnora site in the Narmada Valley (Madhya Pradesh), Arun Sonakia discovered the fossil of a Homo erectus (archaic Homo sapiens) human skull in 1982. This is the oldest human fossil discovered in India.'"
+              "solution-hindi": "व्याख्या:  "नर्मदा घाटी (मध्य प्रदेश) में हथनोरा स्थल से, अरुण सोनकिया ने 1982 में होमो इरेक्टस (पुरातन होमो सेपियन्स) मानव खोपड़ी का जीवाश्म खोजा था। यह भारत में खोजा गया सबसे पुराना मानव जीवाश्म है।"",
+              "solution-english": "Explanation: The text specifies, "From the Hathnora site in the Narmada Valley (Madhya Pradesh), Arun Sonakia discovered the fossil of a Homo erectus (archaic Homo sapiens) human skull in 1982. This is the oldest human fossil discovered in India.""
             },{
               "question-hindi": "डी.पी. अग्रवाल द्वारा किए गए रेडियो कार्बन-14 (C-14) विश्लेषण के आधार पर, हड़प्पा सभ्यता के लिए सबसे व्यापक रूप से स्वीकृत अवधि क्या है?",
               "question-english" : "Based on the Radio Carbon-14 (C-14) analysis by D.P. Agrawal, what is the most widely accepted period for the Harappan Civilization?",
@@ -31,11 +29,12 @@
               "options-english": ["(a) 3250 BC - 2750 BC", "(b) 2800 BC - 2500 BC", "(c) 2300 BC - 1750 BC", "(d) 3500 BC - 2700 BC"],
               "answer-hindi": "सही समाधान: (c) 2300 ईसा पूर्व - 1750 ईसा पूर्व",
               "answer-english": "Correct Solution: (c) 2300 BC - 1750 BC",
-              "solution-hindi": "व्याख्या: 'रेडियो कार्बन-14 (C-14)' शीर्षक के तहत कहा गया है कि डी.पी. अग्रवाल द्वारा इस पद्धति पर आधारित नए विश्लेषण के अनुसार, हड़प्पा सभ्यता के लिए सबसे मान्यता प्राप्त तिथि 2300 ईसा पूर्व से 1750 ईसा पूर्व तक है। अन्य विकल्प अन्य पुरातत्वविदों जैसे सर जॉन मार्शल (a) और सर मोर्टिमर व्हीलर (b) द्वारा प्रस्तावित तिथियों का उल्लेख करते हैं।",
-              "solution-english": "Explanation: The document states under the heading 'रेडियो कार्बन-14 (C-14)' that according to the new analysis based on this method by D.P. Agrawal, the most recognized date for the Harappan Civilization is from 2300 BC to 1750 BC. The other options refer to dates proposed by other archaeologists like Sir John Marshall (a) and Sir Mortimer Wheeler (b)."
+              "solution-hindi": "व्याख्या: "रेडियो कार्बन-14 (C-14)" शीर्षक के तहत कहा गया है कि डी.पी. अग्रवाल द्वारा इस पद्धति पर आधारित नए विश्लेषण के अनुसार, हड़प्पा सभ्यता के लिए सबसे मान्यता प्राप्त तिथि 2300 ईसा पूर्व से 1750 ईसा पूर्व तक है। अन्य विकल्प अन्य पुरातत्वविदों जैसे सर जॉन मार्शल (a) और सर मोर्टिमर व्हीलर (b) द्वारा प्रस्तावित तिथियों का उल्लेख करते हैं।",
+              "solution-english": "Explanation: The document states under the heading "रेडियो कार्बन-14 (C-14)" that according to the new analysis based on this method by D.P. Agrawal, the most recognized date for the Harappan Civilization is from 2300 BC to 1750 BC. The other options refer to dates proposed by other archaeologists like Sir John Marshall (a) and Sir Mortimer Wheeler (b).
+"
             },{
-              "question-hindi": "ऋग्वेद में वर्णित 'दशराज्ञ, या दस राजाओं का युद्ध, किस नदी के तट पर लड़ा गया था?'",
-              "question-english" : "The Dasarajna, or the Battle of the Ten Kings, mentioned in the Rigveda, was fought on the banks of which river?",
+              "question-hindi": "ऋग्वेद में वर्णित "दशराज्ञ," या दस राजाओं का युद्ध, किस नदी के तट पर लड़ा गया था?",
+              "question-english" : "The "Dasarajna," or the Battle of the Ten Kings, mentioned in the Rigveda, was fought on the banks of which river?",
               "options-hindi": ["A) सिंधु", "B) सरस्वती", "C) परुष्णी", "D) यमुना"],
               "options-english": ["A) Sindhu", "B) Saraswati", "C) Parushni", "D) Yamuna"],
               "answer-hindi": "सही समाधान: C) परुष्णी",
@@ -49,8 +48,8 @@
               "options-english": ["A) Under a Peepal tree in Sarnath, where he was called the Jina.", "B) Near the Niranjana River in Bodh Gaya, where he was called the Tathagata", "C) In a deer park in Kushinagar, where he was called the Sakyamuni", "D) At the palace in Kapilavastu, where he was called the Arhat."],
               "answer-hindi": "सही समाधान: B) बोधगया में निरंजना नदी के पास, जहाँ उन्हें तथागत कहा गया।",
               "answer-english": "Correct Solution: B) Near the Niranjana River in Bodh Gaya, where he was called the Tathagata",
-              "solution-hindi": "व्याख्या:  निरंजना नदी के तट पर, एक पीपल के पेड़ के नीचे... सिद्धार्थ ने ज्ञान प्राप्त किया। इसके बाद, उन्हें 'तथागत' के नाम से जाना गया।'",
-              "solution-english": "Explanation:  'On the bank of the river Niranjana, under a pipal tree... Siddhartha attained enlightenment. After this, he was known as 'Tathagata'.'"
+              "solution-hindi": "व्याख्या:  "निरंजना नदी के तट पर, एक पीपल के पेड़ के नीचे... सिद्धार्थ ने ज्ञान प्राप्त किया। इसके बाद, उन्हें 'तथागत' के नाम से जाना गया।"",
+              "solution-english": "Explanation:  "On the bank of the river Niranjana, under a pipal tree... Siddhartha attained enlightenment. After this, he was known as 'Tathagata'.""
             },{
               "question-hindi": "लगभग 300 ईसा पूर्व मगध में एक भयंकर अकाल के बाद, जैन संघ दो प्रमुख संप्रदायों में विभाजित हो गया। मगध में रहने वाले (और श्वेतांबर के रूप में जाने जाने वाले) और दक्षिण में प्रवास करने वाले (और दिगंबर के रूप में जाने जाने वाले) गुटों के नेता क्रमशः कौन थे?",
               "question-english" : "Following a severe famine in Magadha around 300 B.C., the Jain Sangha split into two major sects. Who were the leaders of the factions that stayed in Magadha (and came to be known as Shvetambaras) and the one that migrated to the South (and came to be known as Digambaras), respectively?",
@@ -61,8 +60,8 @@
               "solution-hindi": "व्याख्या: पाठ के अनुसार, अकाल के दौरान मगध में वापस रहने वाले जैन भिक्षुओं का नेतृत्व स्थूलभद्र ने किया था और उन्हें श्वेतांबर कहा जाता था। जो भिक्षु भद्रबाहु के नेतृत्व में दक्षिण भारत (कर्नाटक) चले गए, उन्हें दिगंबर के नाम से जाना जाता था।",
               "solution-english": "Explanation: According to the text, the Jain monks who stayed back in Magadha during the famine were led by Sthulabhadra and were called Shvetambaras. The monks who migrated to South India (Karnataka) under the leadership of Bhadrabahu were known as Digambaras."
             },{
-              "question-hindi": "'उद्देश्य संकल्प,' जिसने संविधान के मौलिक सिद्धांतों की नींव रखी, जवाहरलाल नेहरू द्वारा पेश किया गया था। संविधान सभा द्वारा इस संकल्प को अंततः किस तारीख को अपनाया गया था?",
-              "question-english" : "The 'Objective Resolution,' which laid down the fundamental principles of the Constitution, was introduced by Jawaharlal Nehru. On which date was this resolution ultimately adopted by the Constituent Assembly?",
+              "question-hindi": ""उद्देश्य संकल्प," जिसने संविधान के मौलिक सिद्धांतों की नींव रखी, जवाहरलाल नेहरू द्वारा पेश किया गया था। संविधान सभा द्वारा इस संकल्प को अंततः किस तारीख को अपनाया गया था?",
+              "question-english" : "The "Objective Resolution," which laid down the fundamental principles of the Constitution, was introduced by Jawaharlal Nehru. On which date was this resolution ultimately adopted by the Constituent Assembly?",
               "options-hindi": ["a) 13 दिसंबर, 1946", "b) 22 जनवरी, 1947", "c) 29 अगस्त, 1947", "d) 26 नवंबर, 1949"],
               "options-english": ["a) December 13, 1946", "b) January 22, 1947", "c) August 29, 1947", "d) November 26, 1949"],
               "answer-hindi": "सही समाधान: b) 22 जनवरी, 1947",
@@ -79,8 +78,8 @@
               "solution-hindi": "यद्यपि भारत में संघ की विशेषताएं हैं, जैसे शक्तियों का विभाजन, इसमें मजबूत एकात्मक विशेषताएं भी हैं, जो केंद्र को अधिक शक्ति प्रदान करती हैं।",
               "solution-english": "Explanation:The document repeatedly emphasizes that although India has features of a federation, like the division of powers, it also has strong unitary features, giving more power to the center"
             },{
-              "question-hindi": "भारतीय संविधान में 'आपातकाल के दौरान मौलिक अधिकारों का निलंबन' का प्रावधान किस देश के संविधान से लिया गया था?",
-              "question-english" : "The provision for the 'Suspension of Fundamental Rights during an Emergency' in the Indian Constitution was borrowed from which country's constitution?",
+              "question-hindi": "भारतीय संविधान में "आपातकाल के दौरान मौलिक अधिकारों का निलंबन" का प्रावधान किस देश के संविधान से लिया गया था?",
+              "question-english" : "The provision for the "Suspension of Fundamental Rights during an Emergency" in the Indian Constitution was borrowed from which country's constitution?",
               "options-hindi": ["(a) दक्षिण अफ्रीका", "(b) यूनाइटेड किंगडम", "(c) संयुक्त राज्य अमेरिका", "(d) जर्मनी"],
               "options-english": ["(a) South Africa", "(b) United Kingdom", "(c) United States of America", "(d) Germany"],
               "answer-hindi": "सही समाधान: (d) जर्मनी",
@@ -102,7 +101,8 @@
               "options-hindi": ["A) भारत के डोमिनियन में शामिल हों", "B) पाकिस्तान के डोमिनियन में शामिल हों", "C) अपना स्वतंत्र परिसंघ बनाएं", "D) स्वतंत्र रहें"],
               "options-english": ["A) Join the Dominion of India", "B) Join the Dominion of Pakistan", "C) Form their own independent confederation", "D) Remain independent"],
               "answer-hindi": "सही समाधान: C) अपना स्वतंत्र परिसंघ बनाएं",
-              "answer-english": "Correct Solution: C) Form their own independent confederation.",
+              "answer-english": "Correct Solution:
+C) Form their own independent confederation.",
               "solution-hindi": "स्पष्टीकरण: प्रदान किए गए पाठ में कहा गया है कि भारतीय स्वतंत्रता अधिनियम ने रियासतों को या तो भारत में शामिल होने, पाकिस्तान में शामिल होने या स्वतंत्र रहने का विकल्प दिया। उनके लिए अपना परिसंघ बनाने का कोई प्रावधान नहीं था।",
               "solution-english": "Explanation:The provided text states that the Indian Independence Act gave the princely states the choice to either join India, join Pakistan, or remain independent. There was no provision for them to form their own confederation."
             },{
@@ -115,13 +115,13 @@
               "solution-hindi": "स्पष्टीकरण:प्रदान किए गए पाठ में उल्लेख है कि 2005 के नागरिकता संशोधन अधिनियम ने पाकिस्तान और बांग्लादेश को छोड़कर, उन देशों के भारतीय मूल के व्यक्तियों को भारत की विदेशी नागरिकता (OCI) का प्रावधान करने की अनुमति दी, जहाँ यह पहले संभव नहीं था।",
               "solution-english": "Explanation: The provided text mentions that the Citizenship Amendment Act of 2005 allowed for the provision of Overseas Citizenship of India (OCI) to individuals of Indian origin from countries where this was not previously possible, except for Pakistan and Bangladesh."
             },{
-              "question-hindi": " निम्नलिखित में से कौन सर्वोच्च न्यायालय और उच्च न्यायालयों को 'न्यायिक समीक्षा' की शक्ति देता है ताकि किसी कानून को असंवैधानिक घोषित किया जा सके यदि वह मौलिक अधिकारों का उल्लंघन करता है?",
-              "question-english" : "which of the following gives the Supreme Court and the High Courts the power of 'Judicial Review' to declare a law unconstitutional if it infringes on Fundamental Rights?",
+              "question-hindi": " निम्नलिखित में से कौन सर्वोच्च न्यायालय और उच्च न्यायालयों को "न्यायिक समीक्षा" की शक्ति देता है ताकि किसी कानून को असंवैधानिक घोषित किया जा सके यदि वह मौलिक अधिकारों का उल्लंघन करता है?",
+              "question-english" : "which of the following gives the Supreme Court and the High Courts the power of "Judicial Review" to declare a law unconstitutional if it infringes on Fundamental Rights?",
               "options-hindi": ["(A) अनुच्छेद 12 और अनुच्छेद 13", "(B) अनुच्छेद 13, अनुच्छेद 32, और अनुच्छेद 226", "(C) अनुच्छेद 14 और अनुच्छेद 19", "(D) अनुच्छेद 32 और अनुच्छेद 368"],
               "options-english": ["(A) Article 12 and Article 13", "(B) Article 13, Article 32, and Article 226", "(C) Article 14 and Article 19", "(D) Article 32 and Article 368"],
               "answer-hindi": "सही समाधान: (B) अनुच्छेद 13, अनुच्छेद 32, और अनुच्छेद 226",
               "answer-english": "Correct Solution: (B) Article 13, Article 32, and Article 226",
-              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में कहा गया है,  'न्यायिक समीक्षा' की यह शक्ति न्यायपालिका को अनुच्छेद 13 द्वारा प्रदान की गई है, जो सर्वोच्च न्यायालय (अनुच्छेद 32 के तहत) और उच्च न्यायालयों (अनुच्छेद 226 के तहत) को किसी भी कानून को असंवैधानिक और अमान्य घोषित करने का अधिकार देती है यदि वह मौलिक अधिकारों का उल्लंघन करता है।",
+              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में कहा गया है, " 'न्यायिक समीक्षा' की यह शक्ति न्यायपालिका को अनुच्छेद 13 द्वारा प्रदान की गई है, जो सर्वोच्च न्यायालय (अनुच्छेद 32 के तहत) और उच्च न्यायालयों (अनुच्छेद 226 के तहत) को किसी भी कानून को असंवैधानिक और अमान्य घोषित करने का अधिकार देती है यदि वह मौलिक अधिकारों का उल्लंघन करता है।"",
               "solution-english": "Explanation:This power of 'Judicial Review' is granted to the judiciary by Article 13, which empowers the Supreme Court (under Article 32) and the High Courts (under Article 226) to declare any law unconstitutional and invalid if it violates Fundamental Rights"
             },{
               "question-hindi": "एक ऐसी अर्थव्यवस्था जहाँ उत्पादन, आपूर्ति और कीमतें सरकार द्वारा निर्धारित की जाती हैं। इस केंद्र-नियोजित आर्थिक प्रणाली को पाठ में उल्लिखित एक अन्य नाम से भी जाना जाता है। वह क्या है?",
@@ -130,8 +130,8 @@
               "options-english": ["(A) Capitalist Economy", "(B) Mixed Economy", "(C) Centrally Planned Economy", "(D) Unorganised Economy"],
               "answer-hindi": "सही समाधान: (C) केंद्र-नियोजित अर्थव्यवस्था",
               "answer-english": "Correct Solution: (C) Centrally Planned Economy",
-              "solution-hindi": "स्पष्टीकरण:  समाजवादी अर्थव्यवस्था में, उत्पादन, आपूर्ति और कीमतों से संबंधित निर्णय सरकार द्वारा लिए जाते हैं। इसमें आगे कहा गया है, 'ऐसी अर्थव्यवस्था को 'केंद्र-नियोजित अर्थव्यवस्था' भी कहा जाता है।'",
-              "solution-english": "Explanation: The document states that in a Socialist Economy, decisions regarding production, supply, and prices are made by the government. It further adds, 'ऐसी अर्थव्यवस्था को हम 'केंद्रीकृत नियोजित अर्थव्यवस्था' भी कहते हैं which translates to We also call such an economy a 'Centrally Planned Economy'.'"
+              "solution-hindi": "स्पष्टीकरण:  समाजवादी अर्थव्यवस्था में, उत्पादन, आपूर्ति और कीमतों से संबंधित निर्णय सरकार द्वारा लिए जाते हैं। इसमें आगे कहा गया है, "ऐसी अर्थव्यवस्था को 'केंद्र-नियोजित अर्थव्यवस्था' भी कहा जाता है।"",
+              "solution-english": "Explanation: The document states that in a Socialist Economy, decisions regarding production, supply, and prices are made by the government. It further adds, "ऐसी अर्थव्यवस्था को हम 'केंद्रीकृत नियोजित अर्थव्यवस्था' भी कहते हैं" which translates to "We also call such an economy a 'Centrally Planned Economy'.""
             },{
               "question-hindi": "आर्थिक संवृद्धि (Economic Growth) और आर्थिक विकास (Economic Development) के बीच प्राथमिक अंतर क्या है?",
               "question-english" : "what is the primary distinction between Economic Growth (आर्थिक संवृद्धि) and Economic Development (आर्थिक विकास)?",
@@ -139,8 +139,8 @@
               "options-english": ["(A) Economic Growth is a qualitative concept focusing on income distribution, while Economic Development is a quantitative measure of Gross Domestic Product (GDP).", "(B) Economic Growth is a purely quantitative measure of the increase in production of goods and services, whereas Economic Development is a broader concept that includes qualitative improvements like lifestyle and structural changes in the economy.", "(C) Economic Growth and Economic Development are identical concepts, both referring to the annual increase in a nation's Per Capita Income", "(D) Economic Growth is measured by the Human Development Index (HDI), while Economic Development is measured by the Gross National Product (GNP)."],
               "answer-hindi": "समाधान: (B) आर्थिक संवृद्धि वस्तुओं और सेवाओं के उत्पादन में वृद्धि का एक विशुद्ध मात्रात्मक माप है, जबकि आर्थिक विकास एक व्यापक अवधारणा है जिसमें जीवन शैली में गुणात्मक सुधार और अर्थव्यवस्था में संरचनात्मक परिवर्तन शामिल हैं।",
               "answer-english": "Solution: (B) Economic Growth is a purely quantitative measure of the increase in production of goods and services, whereas Economic Development is a broader concept that includes qualitative improvements like lifestyle and structural changes in the economy.",
-              "solution-hindi": "तर्क:  आर्थिक संवृद्धि एक 'मात्रात्मक' परिवर्तन है, जो GDP और GNP जैसे मेट्रिक्स पर केंद्रित है। इसके विपरीत, यह आर्थिक विकास को एक 'गुणात्मक' परिवर्तन के रूप में परिभाषित करता है जिसमें जीवन की गुणवत्ता में व्यापक सुधार, संस्थागत परिवर्तन और आर्थिक संरचना में बदलाव (जैसे, कृषि से विनिर्माण की ओर) शामिल हैं।",
-              "solution-english": "Reasoning: The text explicitly states that Economic Growth is a 'quantitative' (मात्रात्मक) change, focusing on metrics like GDP and GNP. In contrast, it defines Economic Development as a 'qualitative' (गुणात्मक) change that encompasses wider improvements in quality of life, institutional changes, and shifts in the economic structure (e.g., from agriculture to manufacturing)."
+              "solution-hindi": "तर्क:  आर्थिक संवृद्धि एक "मात्रात्मक" परिवर्तन है, जो GDP और GNP जैसे मेट्रिक्स पर केंद्रित है। इसके विपरीत, यह आर्थिक विकास को एक "गुणात्मक" परिवर्तन के रूप में परिभाषित करता है जिसमें जीवन की गुणवत्ता में व्यापक सुधार, संस्थागत परिवर्तन और आर्थिक संरचना में बदलाव (जैसे, कृषि से विनिर्माण की ओर) शामिल हैं।",
+              "solution-english": "Reasoning: The text explicitly states that Economic Growth is a "quantitative" (मात्रात्मक) change, focusing on metrics like GDP and GNP. In contrast, it defines Economic Development as a "qualitative" (गुणात्मक) change that encompasses wider improvements in quality of life, institutional changes, and shifts in the economic structure (e.g., from agriculture to manufacturing)."
             },{
               "question-hindi": " देश की राष्ट्रीय आय को मापने के लिए निम्नलिखित में से कौन सी एक विधि नहीं है?",
               "question-english" : "Which of the following is NOT a method for measuring the National Income of a country as mentioned in the document?",
@@ -153,7 +153,8 @@
             },{
               "question-hindi": "गरीबी को मापने के लिए 'हेड काउंट विधि' का सटीक वर्णन निम्नलिखित में से कौन सा है?",
               "question-english" : "Which of the following accurately describes the 'Head Count Method' for measuring poverty?",
-              "options-hindi": ["(a) यह गरीबी रेखा से नीचे की आबादी की औसत आय की गणना करता है।", "(b) यह गरीबी रेखा और गरीबों की आय के बीच के अंतर पर विचार करके गरीबी की तीव्रता को मापता है।", "(c) यह आबादी के विभिन्न वर्गों की आय की तुलना करके सापेक्ष गरीबी का निर्धारण करने की एक विधि है।", "(d) इसका उपयोग पूर्व निर्धारित आय या उपभोग स्तर से नीचे के लोगों की संख्या की गणना करके पूर्ण गरीबी का पता लगाने के लिए किया जाता है।"],
+              "options-hindi": ["(a) यह गरीबी रेखा से नीचे की आबादी की औसत आय की गणना करता है।", "(b) यह गरीबी रेखा और गरीबों की आय के बीच के अंतर पर विचार करके गरीबी की तीव्रता को मापता है।", "(c) यह आबादी के विभिन्न वर्गों की आय की तुलना करके सापेक्ष गरीबी का निर्धारण करने की एक विधि है।", "(d) इसका उपयोग पूर्व निर्धारित आय या उपभोग स्तर से नीचे के लोगों की संख्या की गणना करके पूर्ण गरीबी का पता लगाने के लिए किया जाता है।
+"],
               "options-english": ["(a) It calculates the average income of the population below the poverty line.", "(b) It measures the intensity of poverty by considering the gap between the poverty line and the income of the poor.", "(c) It is a method for determining relative poverty by comparing the income of different segments of the population.", "(d) It is used to ascertain absolute poverty by counting the number of people below a predetermined income or consumption level."],
               "answer-hindi": "सही समाधान: (d) इसका उपयोग पूर्व निर्धारित आय या उपभोग स्तर से नीचे के लोगों की संख्या की गणना करके पूर्ण गरीबी का पता लगाने के लिए किया जाता है",
               "answer-english": "Correct Solution: (d) It is used to ascertain absolute poverty by counting the number of people below a predetermined income or consumption level.",
@@ -173,8 +174,8 @@
               "question-english" : "the Securities and Exchange Board of India (SEBI) was initially established in 1988, but in which year was it granted statutory status and powers through a government ordinance?",
               "options-hindi": ["(A) 1988", "(B) 1994", "(C) 1992", "(D) 1996"],
               "options-english": ["(A) 1988", "(B) 1994", "(C) 1992", "(D) 1996"],
-              "answer-hindi": "सही समाधान: (C) 1992 - दस्तावेज़ में कहा गया है, 'बाद में, 30 जनवरी 1992 को, इस संस्था को एक अध्यादेश के माध्यम से वैधानिक दर्जा मिला।'",
-              "answer-english": "Correct Solution: (C) 1992 - The document states, 'बाद में 30 जनवरी, 1992 को एक अध्यादेश द्वारा इस संस्था को वैधानिक दर्जा प्राप्त हुआ which translates to Later, on 30 January 1992, this institution received statutory status through an ordinance.'",
+              "answer-hindi": "सही समाधान: (C) 1992 - दस्तावेज़ में कहा गया है, "बाद में, 30 जनवरी 1992 को, इस संस्था को एक अध्यादेश के माध्यम से वैधानिक दर्जा मिला।"",
+              "answer-english": "Correct Solution: (C) 1992 - The document states, "बाद में 30 जनवरी, 1992 को एक अध्यादेश द्वारा इस संस्था को वैधानिक दर्जा प्राप्त हुआ" which translates to "Later, on 30 January 1992, this institution received statutory status through an ordinance."",
               "solution-hindi": "",
               "solution-english": ""
             },{
@@ -182,8 +183,8 @@
               "question-english" : "the time it takes for the Sun to complete one revolution around the center of our galaxy, the Milky Way, is defined as what?",
               "options-hindi": ["(A) प्रकाश-वर्ष", "(B) खगोलीय इकाई", "(C) ब्रह्मांडीय वर्", "(D) पारसेक"],
               "options-english": ["(A) Light-year", "(B) Astronomical Unit", "(C) Cosmic Year", "(D) Parsec"],
-              "answer-hindi": "सही समाधान: (C) ब्रह्मांडीय वर्ष। दस्तावेज़ में कहा गया है, सूर्य द्वारा अपनी आकाशगंगा (मिल्की वे) के केंद्र का एक चक्कर पूरा करने में लगने वाले समय को ब्रह्मांडीय वर्ष कहा जाता है।",
-              "answer-english": "Correct Solution: (C) Cosmic Year. The document states, The time taken by the Sun to complete one revolution of the center of its own galaxy (Milky Way) is called a cosmic year.",
+              "answer-hindi": "सही समाधान: (C) ब्रह्मांडीय वर्ष। दस्तावेज़ में कहा गया है, "सूर्य द्वारा अपनी आकाशगंगा (मिल्की वे) के केंद्र का एक चक्कर पूरा करने में लगने वाले समय को ब्रह्मांडीय वर्ष कहा जाता है।",
+              "answer-english": "Correct Solution: (C) Cosmic Year. The document states, "The time taken by the Sun to complete one revolution of the center of its own galaxy (Milky Way) is called a cosmic year."",
               "solution-hindi": "",
               "solution-english": ""
             },{
@@ -230,8 +231,8 @@
               "options-english": ["(A) 2 × 10⁻⁷ newtons per metre", "(B) 3 × 10⁸ newtons per metre", "(C) 1/683 watt per steradian", "(D) 299,792,458 newtons per metre"],
               "answer-hindi": "सही समाधान: (A) 2 × 10⁻⁷ न्यूटन प्रति मीटर",
               "answer-english": "Correct Solution: (A) 2 × 10⁻⁷ newtons per metre",
-              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में स्पष्ट रूप से कहा गया है, एम्पीयर वह स्थिर धारा है, जिसे यदि अनंत लंबाई के दो सीधे समानांतर चालकों में बनाए रखा जाए... तो उनके बीच 2 × 10⁻⁷ न्यूटन प्रति मीटर लंबाई का बल उत्पन्न होगा",
-              "solution-english": "Explanation: The document explicitly states, The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length...would produce between them a force of 2 × 10⁻⁷ newtons per metre of length."
+              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में स्पष्ट रूप से कहा गया है, "एम्पीयर वह स्थिर धारा है, जिसे यदि अनंत लंबाई के दो सीधे समानांतर चालकों में बनाए रखा जाए... तो उनके बीच 2 × 10⁻⁷ न्यूटन प्रति मीटर लंबाई का बल उत्पन्न होगा",
+              "solution-english": "Explanation: The document explicitly states, "The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length...would produce between them a force of 2 × 10⁻⁷ newtons per metre of length.""
             },{
               "question-hindi": "एक क्रिकेट खिलाड़ी तेजी से आती क्रिकेट गेंद को पकड़ते समय अपने हाथों को पीछे की ओर खींचता है। यह क्रिया किस भौतिक सिद्धांत का व्यावहारिक अनुप्रयोग है?",
               "question-english" : "A cricket player pulls his hands backwards while catching a fast-moving cricket ball. This action is a practical application of which physical principle?",
@@ -248,17 +249,18 @@
               "options-english": ["a) The particles of hot food are lighter and travel faster.", "b) The rate of diffusion of gas particles increases with an increase in temperature.", "c) The kinetic energy of cold food particles is higher, causing them to settle down.", "d) The force of attraction between the particles of hot food is greater"],
               "answer-hindi": "सही समाधान: (b) तापमान में वृद्धि के साथ गैस के कणों के विसरण की दर बढ़ जाती है।",
               "answer-english": "Correct Solution: (b) The rate of diffusion of gas particles increases with an increase in temperature.",
-              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में कहा गया है कि गैसों में विसरण सबसे तेज़ होता है और विसरित होने वाले पदार्थ का तापमान बढ़ाने पर विसरण की दर बढ़ जाती है। भोजन की गंध विसरण के माध्यम से हवा (गैस) में फैलती है। जब भोजन गर्म होता है, तो कणों में अधिक गतिज ऊर्जा होती है, वे तेजी से आगे बढ़ते हैं, और हवा के माध्यम से अधिक तेज़ी से फैलते हैं, जिससे गंध लंबी दूरी तक जा पाती है।",
-              "solution-english": "Explanation: The document states that Diffusion is fastest in gases and The rate of diffusion increases on increasing the temperature of the diffusing substance. The smell of food travels through the air (gas) via diffusion. When the food is hot, the particles have more kinetic energy, move faster, and diffuse more quickly through the air, allowing the smell to travel a longer distance."
+              "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में कहा गया है कि "गैसों में विसरण सबसे तेज़ होता है" और "विसरित होने वाले पदार्थ का तापमान बढ़ाने पर विसरण की दर बढ़ जाती है।" भोजन की गंध विसरण के माध्यम से हवा (गैस) में फैलती है। जब भोजन गर्म होता है, तो कणों में अधिक गतिज ऊर्जा होती है, वे तेजी से आगे बढ़ते हैं, और हवा के माध्यम से अधिक तेज़ी से फैलते हैं, जिससे गंध लंबी दूरी तक जा पाती है।",
+              "solution-english": "Explanation: The document states that "Diffusion is fastest in gases" and "The rate of diffusion increases on increasing the temperature of the diffusing substance." The smell of food travels through the air (gas) via diffusion. When the food is hot, the particles have more kinetic energy, move faster, and diffuse more quickly through the air, allowing the smell to travel a longer distance."
             },{
               "question-hindi": "एक तरल मिश्रण नग्न आंखों को पूरी तरह से समान दिखाई देता है, और इसके कणों को बिना छेड़े छोड़ने पर वे नीचे नहीं बैठते हैं। हालाँकि, जब इसमें से एक लेजर किरण गुजारी जाती है, तो किरण का मार्ग स्पष्ट रूप से दिखाई देने लगता है। पाठ में वर्णित विशेषताओं के आधार पर, इस मिश्रण को सबसे अच्छी तरह से वर्गीकृत किया गया है:",
               "question-english" : "A liquid mixture appears perfectly uniform to the naked eye, and its particles do not settle when left undisturbed. However, when a laser beam is passed through it, the path of the beam becomes clearly visible. Based on the characteristics described in the text, this mixture is best classified as:",
               "options-hindi": ["A) एक सच्चा विलयन", "B) एक निलंबन", "C) एक कोलाइड", "D) एक संतृप्त विलयन"],
               "options-english": ["A) A true solution", "B) A suspension", "C) A colloid", "D) A saturated solutio"],
               "answer-hindi": "सही समाधान: C) एक कोलाइड।",
-              "answer-english": "Correct Solution: C) A colloid.",
-              "solution-hindi": "स्पष्टीकरण: दिए गए पाठ के अनुसार, एक कोलाइड समांगी प्रतीत होता है लेकिन वास्तव में यह विषमांगी होता है। दस्तावेज़ यह भी कहता है कि एक सच्चा विलयन प्रकाश को नहीं बिखेरता है, जबकि एक कोलाइड इससे गुजरने वाली प्रकाश की किरण को बिखेरता है (टिंडल प्रभाव)। चूँकि मिश्रण एक समान दिखाई देता है लेकिन प्रकाश को बिखेरता है, यह एक कोलाइड के विवरण में फिट बैठता है। एक निलंबन के कण बड़े होते हैं, अक्सर दिखाई देते हैं, और समय के साथ नीचे बैठ जाते हैं, जबकि एक संतृप्त विलयन एक प्रकार का सच्चा विलयन है और प्रकाश को नहीं बिखेरेगा।",
-              "solution-english": "Explanation: According to the provided text, a colloid appears to be homogeneous but actually it is heterogeneous. The document also states that a true solution does not scatter light, whereas a colloid scatters a beam of light passing through it (the Tyndall effect). Since the mixture appears uniform but scatters light, it fits the description of a colloid. A suspension's particles are larger, often visible, and would settle over time, while a saturated solution is a type of true solution and would not scatter light"
+              "answer-english": "Correct Solution:
+C) A colloid.",
+              "solution-hindi": "स्पष्टीकरण: दिए गए पाठ के अनुसार, एक कोलाइड "समांगी प्रतीत होता है लेकिन वास्तव में यह विषमांगी होता है।" दस्तावेज़ यह भी कहता है कि एक सच्चा विलयन "प्रकाश को नहीं बिखेरता है," जबकि एक कोलाइड "इससे गुजरने वाली प्रकाश की किरण को बिखेरता है" (टिंडल प्रभाव)। चूँकि मिश्रण एक समान दिखाई देता है लेकिन प्रकाश को बिखेरता है, यह एक कोलाइड के विवरण में फिट बैठता है। एक निलंबन के कण बड़े होते हैं, अक्सर दिखाई देते हैं, और समय के साथ नीचे बैठ जाते हैं, जबकि एक संतृप्त विलयन एक प्रकार का सच्चा विलयन है और प्रकाश को नहीं बिखेरेगा।",
+              "solution-english": "Explanation: According to the provided text, a colloid "appears to be homogeneous but actually it is heterogeneous." The document also states that a true solution "does not scatter light," whereas a colloid "scatters a beam of light passing through it" (the Tyndall effect). Since the mixture appears uniform but scatters light, it fits the description of a colloid. A suspension's particles are larger, often visible, and would settle over time, while a saturated solution is a type of true solution and would not scatter light"
             },{
               "question-hindi": "एक वैज्ञानिक एक नए जीव की खोज करता है जो बहुकोशिकीय, यूकेरियोटिक है, जिसमें एक कठोर कोशिका भित्ति है, लेकिन क्लोरोफिल की कमी है और यह हाइफी (hyphae) नामक धागे जैसी संरचनाओं से बना है। व्हिटेकर के पांच-जगत वर्गीकरण के अनुसार, इस जीव को निम्नलिखित में से किस जगत में रखा जाना चाहिए",
               "question-english" : "A scientist discovers a new organism that is multicellular, eukaryotic, has a rigid cell wall, but lacks chlorophyll and is composed of thread-like structures called hyphae. According to Whittaker's Five Kingdom Classification, this organism should be placed in which of the following kingdoms?",
@@ -267,57 +269,52 @@
               "answer-hindi": "सही समाधान: ग) कवक",
               "answer-english": "Correct Solution: c) Fungi",
               "solution-hindi": "स्पष्टीकरण: दस्तावेज़ में कहा गया है कि कवक जगत के जीव अधिकतर बहुकोशिकीय और यूकेरियोटिक होते हैं, वे परपोषी (heterotrophs) होते हैं (जिनमें क्लोरोफिल की कमी होती है), और अक्सर हाइफी नामक धागे जैसी संरचनाओं से बने होते हैं। ये विशेषताएँ नए खोजे गए जीव के विवरण से पूरी तरह मेल खाती हैं।",
-              "solution-english": "Explanation: The document states that organisms in the Kingdom Fungi are mostly multicellular and eukaryotic, are heterotrophs (lacking chlorophyll), and are often made of thread-like structures called hyphae. These characteristics perfectly match the description of the newly discovered organism."
+              "solution-english": "Explanation: The document states that organisms in the Kingdom Fungi are mostly multicellular and eukaryotic, are heterotrophs (lacking chlorophyll), and are often made of thread-like structures called hyphae. These characteristics perfectly match the description of the newly discovered organism.
+"
             },{
-  "question-hindi": "उल्लिखित घटकों के बीच निम्नलिखित में से कौन सा कथन सटीक रूप से अंतर स्पष्ट करता है?",
-  "question-english": "Which of the following statements accurately distinguishes between the components mentioned?",
-  "options-hindi": [
-    "क) जीवद्रव्य (Protoplasm) प्लाज्मा झिल्ली और केंद्रक झिल्ली के बीच का जेली जैसा पदार्थ है, जबकि कोशिकाद्रव्य (Cytoplasm) एक कोशिका की संपूर्ण जीवित सामग्री है।",
-    "ख) कोशिका भित्ति (Cell Wall) एक जीवित, अर्ध-पारगम्य परत है, जबकि कोशिका झिल्ली (Cell Membrane) एक मृत, स्वतंत्र रूप से पारगम्य परत है।",
-    "ग) सेंट्रोसोम (Centrosomes) केंद्रक के अंदर पाए जाते हैं और वंशानुगत जानकारी ले जाते हैं, जबकि गुणसूत्र (Chromosomes) कोशिकाद्रव्य में होते हैं और कोशिका विभाजन शुरू करते हैं।",
-    "घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।"
-  ],
-  "options-english": [
-    "a) Protoplasm is the jelly-like substance between the plasma membrane and the nuclear membrane, while Cytoplasm is the entire living content of a cell.",
-    "b) The Cell Wall is a living, semi-permeable layer, whereas the Cell Membrane is a dead, freely permeable layer.",
-    "c) Centrosomes are found inside the nucleus and carry hereditary information, while Chromosomes are in the cytoplasm and initiate cell division.",
-    "d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment."
-  ],
-  "answer-hindi": "सही उत्तर: घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।",
-  "answer-english": "Correct Answer: d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment.",
-  "solution-hindi": "स्पष्टीकरण: 'कोशिकीय घटकों के बीच अंतर' खंड के तहत दिए गए पाठ के अनुसार, यह स्पष्ट रूप से कहा गया है कि क्लोरोप्लास्ट एक जीवित संरचना (एक कोशिकांग) है, जबकि क्लोरोफिल इसके भीतर मौजूद निर्जीव हरा वर्णक है। अन्य विकल्प गलत हैं क्योंकि वे दस्तावेज़ में दी गई परिभाषाओं को उलट देते हैं:\n• विकल्प (क) जीवद्रव्य और कोशिकाद्रव्य की परिभाषाओं को गलत तरीके से बदल देता है।\n• विकल्प (ख) कोशिका भित्ति और कोशिका झिल्ली की विशेषताओं को गलत तरीके से बदल देता है।\n• विकल्प (ग) गुणसूत्र और सेंट्रोसोम के स्थान और कार्य को गलत तरीके से बदल देता है।",
-  "solution-english": "Explanation: According to the provided text under the section 'Distinguishing Between Cellular Components', it is clearly stated that the Chloroplast is a living structure (an organelle), while Chlorophyll is the non-living green pigment present within it. The other options are incorrect as they reverse the definitions given in the document:\n• Option (a) incorrectly swaps the definitions of Protoplasm and Cytoplasm.\n• Option (b) incorrectly swaps the characteristics of the Cell Wall and Cell Membrane.\n• Option (c) incorrectly swaps the location and function of Chromosomes and Centrosomes."
-}
-,  {
-    "question-hindi": "गणतंत्र दिवस परेड 2025 में, न्यायाधीशों द्वारा राज्यों/केंद्र शासित प्रदेशों के बीच सर्वश्रेष्ठ झांकी का पुरस्कार उत्तर प्रदेश को दिया गया। हालाँकि, MyGov पोल पर आधारित 'पॉपुलर चॉइस' श्रेणी में, किस राज्य ने प्रथम स्थान प्राप्त किया?",
-    "question-english": "At the Republic Day Parade 2025, the award for the Best Tableau among States/UTs was given to Uttar Pradesh by the judges. However, in the 'Popular Choice' category based on the MyGov poll, which state secured the first position?",
-    "options-hindi": ["(A) उत्तर प्रदेश", "(B) गुजरात", "(C) आंध्र प्रदेश", "(D) उत्तराखंड"],
-    "options-english": ["(A) Uttar Pradesh", "(B) Gujarat", "(C) Andhra Pradesh", "(D) Uttarakhand"],
-    "answer-hindi": "उत्तर: (B) गुजरात।",
-    "answer-english": "Answer: (B) Gujarat.",
-    "solution-hindi": "नोट्स में स्पष्ट रूप से कहा गया है कि जहाँ न्यायाधीशों की पसंद की सर्वश्रेष्ठ झांकी उत्तर प्रदेश (थीम: 'महाकुंभ 2025') थी, वहीं MyGov पोल पर आधारित पॉपुलर चॉइस अवार्ड का विजेता गुजरात (थीम: 'स्वर्णिम भारत: विरासत और विकास') था।",
-    "solution-english": "The notes clearly state that while the judges' choice for the best tableau was Uttar Pradesh (Theme: 'Mahakumbh 2025'), the winner of the Popular Choice Award based on the MyGov poll was Gujarat (Theme: 'Swarnim Bharat: Virasat aur Vikas')."
-  },
-  {
-    "question-hindi": "भारतीय रिजर्व बैंक (RBI) ने सुरक्षा बढ़ाने के लिए किस प्रकार के लेनदेन के लिए एक अतिरिक्त प्रमाणीकरण कारक (AFA) का उपयोग अनिवार्य कर दिया है, यह नियम पहले केवल घरेलू भुगतानों के लिए था?",
-    "question-english": "The Reserve Bank of India (RBI) has mandated the use of an Additional Factor of Authentication (AFA) for which type of transactions to enhance security, a rule that was previously only for domestic payments?",
-    "options-hindi": ["(A) ₹5,000 से ऊपर के सभी घरेलू UPI लेनदेन", "(B) अंतर्राष्ट्रीय 'कार्ड नॉट प्रेजेंट' (CNP) लेनदेन", "(C) विदेशों में सभी QR कोड-आधारित भुगतान", "(D) '.fin.in' डोमेन के माध्यम से किए गए लेनदेन"],
-    "options-english": ["(A) All domestic UPI transactions above ₹5,000", "(B) International 'Card Not Present' (CNP) transactions", "(C) All QR code-based payments in foreign countries", "(D) Transactions made through the '.fin.in' domain"],
-    "answer-hindi": "उत्तर: (B) अंतर्राष्ट्रीय 'कार्ड नॉट प्रेजेंट' (CNP) लेनदेन",
-    "answer-english": "Answer: (B) International 'Card Not Present' (CNP) transactions",
-    "solution-hindi": "व्याख्या: दस्तावेज़ में स्पष्ट रूप से कहा गया है कि RBI ने अंतर्राष्ट्रीय 'कार्ड नॉट प्रेजेंट' (CNP) लेनदेन को घरेलू भुगतानों की तरह ही सुरक्षित बनाने के लिए अतिरिक्त प्रमाणीकरण कारक (AFA) लागू किया है, जिसमें OTP या बायोमेट्रिक सत्यापन शामिल है।",
-    "solution-english": "Explanation: The document explicitly states that the RBI has implemented the Additional Factor of Authentication (AFA), which includes OTP or biometric verification, for international 'Card Not Present' (CNP) transactions to make them as secure as domestic payments."
-  },
-  {
-    "question-hindi": "दिए गए पाठ के अनुसार, मुथूट फिनकॉर्प ने 'सुपरब्रांड 2025' का खिताब प्राप्त करके कौन सी अनूठी उपलब्धि हासिल की?",
-    "question-english": "According to the provided text, what unique distinction did Muthoot FinCorp achieve by receiving the 'Superbrand 2025' title?",
-    "options-hindi": ["(A) यह पुरस्कार प्राप्त करने वाली भारत की पहली वित्तीय कंपनी थी।", "(B) यह खिताब प्राप्त करने वाली स्वर्ण ऋण में विशेषज्ञता वाली पहली गैर-बैंकिंग वित्तीय कंपनी (NBFC) थी।", "(C) इसे ग्रामीण क्षेत्रों में सबसे अधिक शाखाएं होने के लिए मान्यता दी गई थी।", "(D) इसे सभी NBFC के बीच सर्वश्रेष्ठ डिजिटल परिवर्तन के लिए पुरस्कार मिला।"],
-    "options-english": ["(A) It was the first financial company in India to receive the award.", "(B) It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.", "(C) It was recognized for having the most branches in rural areas.", "(D) It received the award for the best digital transformation among all NBFCs."],
-    "answer-hindi": "उत्तर: (B) यह खिताब प्राप्त करने वाली स्वर्ण ऋण में विशेषज्ञता वाली पहली गैर-बैंकिंग वित्तीय कंपनी (NBFC) थी।",
-    "answer-english": "Answer: (B) It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.",
-    "solution-hindi": "व्याख्या: पाठ में स्पष्ट रूप से कहा गया है, 'सबसे महत्वपूर्ण बात: यह सम्मान पाने वाली पहली गोल्ड लोन NBFC (गैर-बैंकिंग वित्तीय कंपनी) है।' यह इस बात पर प्रकाश डालता है कि इसकी विशिष्ट उपलब्धि यह सम्मान अर्जित करने वाली पहली गोल्ड लोन NBFC बनना थी, जो अपने विशिष्ट क्षेत्र में जनता के उच्च स्तर के विश्वास को प्रदर्शित करती है।",
-    "solution-english": "Explanation: The text explicitly states, 'Most Important Point: यह खिताब पाने वाली पहली gold loan NBFC (Non-Banking Financial Company) है।' This highlights that its specific achievement was being the first gold loan NBFC to earn this honour, demonstrating a high level of public trust in its specific sector."
-  },{
+              "question-hindi": "उल्लिखित घटकों के बीच निम्नलिखित में से कौन सा कथन सटीक रूप से अंतर स्पष्ट करता है?",
+              "question-english" : "Which of the following statements accurately distinguishes between the components mentioned?",
+              "options-hindi": ["क) जीवद्रव्य (Protoplasm) प्लाज्मा झिल्ली और केंद्रक झिल्ली के बीच का जेली जैसा पदार्थ है, जबकि कोशिकाद्रव्य (Cytoplasm) एक कोशिका की संपूर्ण जीवित सामग्री है।", "ख) कोशिका भित्ति (Cell Wall) एक जीवित, अर्ध-पारगम्य परत है, जबकि कोशिका झिल्ली (Cell Membrane) एक मृत, स्वतंत्र रूप से पारगम्य परत है।", "ग) सेंट्रोसोम (Centrosomes) केंद्रक के अंदर पाए जाते हैं और वंशानुगत जानकारी ले जाते हैं, जबकि गुणसूत्र (Chromosomes) कोशिकाद्रव्य में होते हैं और कोशिका विभाजन शुरू करते हैं।", "घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।"],
+              "options-english": ["a) Protoplasm is the jelly-like substance between the plasma membrane and the nuclear membrane, while Cytoplasm is the entire living content of a cell.", "b) The Cell Wall is a living, semi-permeable layer, whereas the Cell Membrane is a dead, freely permeable layer.", "c) Centrosomes are found inside the nucleus and carry hereditary information, while Chromosomes are in the cytoplasm and initiate cell division.", "d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment."],
+              "answer-hindi": "सही समाधान: घ) क्लोरोप्लास्ट (Chloroplast) एक जीवित कोशिकांग है जिसमें क्लोरोफिल (Chlorophyll) होता है, जो एक निर्जीव रासायनिक वर्णक है।",
+              "answer-english": "Correct Solution:
+d) Chloroplast is a living organelle that contains Chlorophyll, which is a non-living chemical pigment.",
+              "solution-hindi": "स्पष्टीकरण: "कोशिकीय घटकों के बीच अंतर" खंड के तहत दिए गए पाठ के अनुसार, यह स्पष्ट रूप से कहा गया है कि क्लोरोप्लास्ट एक जीवित संरचना (एक कोशिकांग) है, जबकि क्लोरोफिल इसके भीतर मौजूद निर्जीव हरा वर्णक है। अन्य विकल्प गलत हैं क्योंकि वे दस्तावेज़ में दी गई परिभाषाओं को उलट देते हैं:
+	•	विकल्प (क) जीवद्रव्य और कोशिकाद्रव्य की परिभाषाओं को गलत तरीके से बदल देता है।
+	•	विकल्प (ख) कोशिका भित्ति और कोशिका झिल्ली की विशेषताओं को गलत तरीके से बदल देता है।
+	•	विकल्प (ग) गुणसूत्र और सेंट्रोसोम के स्थान और कार्य को गलत तरीके से बदल देता है।",
+              "solution-english": "Explanation: According to the provided text under the section "Distinguishing Between Cellular Components," it is clearly stated that the Chloroplast is a living structure (an organelle), while Chlorophyll is the non-living green pigment present within it. The other options are incorrect as they reverse the definitions given in the document:
+	•	Option (a) incorrectly swaps the definitions of Protoplasm and Cytoplasm.
+	•	Option (b) incorrectly swaps the characteristics of the Cell Wall and Cell Membrane.
+	•	Option (c) incorrectly swaps the location and function of Chromosomes and Centrosomes."
+            },{
+              "question-hindi": "गणतंत्र दिवस परेड 2025 में, न्यायाधीशों द्वारा राज्यों/केंद्र शासित प्रदेशों के बीच सर्वश्रेष्ठ झांकी का पुरस्कार उत्तर प्रदेश को दिया गया। हालाँकि, MyGov पोल पर आधारित 'पॉपुलर चॉइस' श्रेणी में, किस राज्य ने प्रथम स्थान प्राप्त किया?",
+              "question-english" : "At the Republic Day Parade 2025, the award for the Best Tableau among States/UTs was given to Uttar Pradesh by the judges. However, in the 'Popular Choice' category based on the MyGov poll, which state secured the first position?",
+              "options-hindi": ["(A) उत्तर प्रदेश", "(B) गुजरात", "(C) आंध्र प्रदेश", "(D) उत्तराखंड"],
+              "options-english": ["(A) Uttar Pradesh", "(B) Gujarat", "(C) Andhra Pradesh", "(D) Uttarakhand"],
+              "answer-hindi": "उत्तर: (B) गुजरात।",
+              "answer-english": "Solution: (B) Gujarat.",
+              "solution-hindi": "नोट्स में स्पष्ट रूप से कहा गया है कि जहाँ न्यायाधीशों की पसंद की सर्वश्रेष्ठ झांकी उत्तर प्रदेश (थीम: "महाकुंभ 2025") थी, वहीं MyGov पोल पर आधारित पॉपुलर चॉइस अवार्ड का विजेता गुजरात (थीम: "स्वर्णिम भारत: विरासत और विकास") था।",
+              "solution-english": "The notes clearly state that while the judge's choice for the best tableau was Uttar Pradesh (Theme: "Mahakumbh 2025"), the winner of the Popular Choice Award based on the MyGov poll was Gujarat (Theme: "Swarnim Bharat: Virasat aur Vikas")."
+            },{
+              "question-hindi": "भारतीय रिजर्व बैंक (RBI) ने सुरक्षा बढ़ाने के लिए किस प्रकार के लेनदेन के लिए एक अतिरिक्त प्रमाणीकरण कारक (AFA) का उपयोग अनिवार्य कर दिया है, यह नियम पहले केवल घरेलू भुगतानों के लिए था?",
+              "question-english" : "The Reserve Bank of India (RBI) has mandated the use of an Additional Factor of Authentication (AFA) for which type of transactions to enhance security, a rule that was previously only for domestic payments?",
+              "options-hindi": ["(A) ₹5,000 से ऊपर के सभी घरेलू UPI लेनदेन", "(B) अंतर्राष्ट्रीय "कार्ड नॉट प्रेजेंट" (CNP) लेनदेन", "(C) विदेशों में सभी QR कोड-आधारित भुगतान", "(D) '.fin.in' डोमेन के माध्यम से किए गए लेनदेन"],
+              "options-english": ["A) All domestic UPI transactions above ₹5,000", "B) International "Card Not Present" (CNP) transactions", "C) All QR code-based payments in foreign countries", "D) Transactions made through the '.fin.in' domain"],
+              "answer-hindi": "उत्तर: (B) अंतर्राष्ट्रीय "कार्ड नॉट प्रेजेंट" (CNP) लेनदेन",
+              "answer-english": "Solution: B) International "Card Not Present" (CNP) transactions",
+              "solution-hindi": "याख्या: दस्तावेज़ में स्पष्ट रूप से कहा गया है कि RBI ने अंतर्राष्ट्रीय "कार्ड नॉट प्रेजेंट" (CNP) लेनदेन को घरेलू भुगतानों की तरह ही सुरक्षित बनाने के लिए अतिरिक्त प्रमाणीकरण कारक (AFA) लागू किया है, जिसमें OTP या बायोमेट्रिक सत्यापन शामिल है।",
+              "solution-english": "Explanation: The document explicitly states that the RBI has implemented the Additional Factor of Authentication (AFA), which includes OTP or biometric verification, for international "Card Not Present" (CNP) transactions to make them as secure as domestic payments."
+            },{
+              "question-hindi": "दिए गए पाठ के अनुसार, मुथूट फिनकॉर्प ने 'सुपरब्रांड 2025' का खिताब प्राप्त करके कौन सी अनूठी उपलब्धि हासिल की?",
+              "question-english" : " According to the provided text, what unique distinction did Muthoot FinCorp achieve by receiving the 'Superbrand 2025' title?",
+              "options-hindi": ["(A) यह पुरस्कार प्राप्त करने वाली भारत की पहली वित्तीय कंपनी थी।", "(B) यह खिताब प्राप्त करने वाली स्वर्ण ऋण में विशेषज्ञता वाली पहली गैर-बैंकिंग वित्तीय कंपनी (NBFC) थी।", "(C) इसे ग्रामीण क्षेत्रों में सबसे अधिक शाखाएं होने के लिए मान्यता दी गई थी।", "(D) इसे सभी NBFC के बीच सर्वश्रेष्ठ डिजिटल परिवर्तन के लिए पुरस्कार मिला।"],
+              "options-english": ["(A) It was the first financial company in India to receive the award.", "(B) It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.", "(C) It was recognized for having the most branches in rural areas.", "(D) It received the award for the best digital transformation among all NBFCs."],
+              "answer-hindi": "उत्तर: (B) यह खिताब प्राप्त करने वाली स्वर्ण ऋण में विशेषज्ञता वाली पहली गैर-बैंकिंग वित्तीय कंपनी (NBFC) थी।",
+              "answer-english": "Solution: (B) It was the first Non-Banking Financial Company (NBFC) specializing in gold loans to receive the title.",
+              "solution-hindi": "व्याख्या: पाठ में स्पष्ट रूप से कहा गया है, "सबसे महत्वपूर्ण बात: यह सम्मान पाने वाली पहली गोल्ड लोन NBFC (गैर-बैंकिंग वित्तीय कंपनी) है।" यह इस बात पर प्रकाश डालता है कि इसकी विशिष्ट उपलब्धि यह सम्मान अर्जित करने वाली पहली गोल्ड लोन NBFC बनना थी, जो अपने विशिष्ट क्षेत्र में जनता के उच्च स्तर के विश्वास को प्रदर्शित करती है।",
+              "solution-english": "Explanation: The text explicitly states, "Most Important Point: ये खिताब पाने वाली पहली gold loan NBFC (Non-Banking Financial Company) है।" This highlights that its specific achievement was being the first gold loan NBFC to earn this honour, demonstrating a high level of public trust in its specific sector."
+            },{
               "question-hindi": "प्रधान मंत्री नरेंद्र मोदी को 'श्रीलंका मित्र विभूषण' से सम्मानित किया गया। इस पुरस्कार का क्या महत्व है?",
               "question-english" : "Prime Minister Narendra Modi was conferred with the 'Sri Lanka Mitra Vibhushana'. What is the significance of this award?",
               "options-hindi": ["(A) यह कला और संस्कृति में योगदान के लिए श्रीलंका का सर्वोच्च पुरस्कार है।", "(B) यह विदेशी नेताओं को दिया जाने वाला सर्वोच्च सैन्य सम्मान है।", "(C) यह श्रीलंका का सर्वोच्च नागरिक सम्मान है जो राष्ट्राध्यक्षों और शासनाध्यक्षों के लिए आरक्षित है।", "(D) यह दक्षिण एशियाई क्षेत्र में शांति और मित्रता को बढ़ावा देने के लिए दिया जाने वाला एक पुरस्कार है।"],
@@ -335,45 +332,43 @@
               "answer-english": "Solution: (C) To target nine terrorist sites in Pakistan and PoJK in response to an attack.",
               "solution-hindi": "व्याख्या: पाठ में स्पष्ट रूप से कहा गया है कि 'ऑपरेशन सिंदूर' भारतीय सशस्त्र बलों द्वारा पाकिस्तान और पीओजेके में स्थित 9 आतंकवादी स्थलों को निशाना बनाने के लिए शुरू किया गया था। यह कार्रवाई पहलगाम में हुए क्रूर आतंकवादी हमले के जवाब में थी जिसमें 25 भारतीय मारे गए थे।",
               "solution-english": "Explanation: The text clearly states that 'Operation Sindoor' was launched by the Indian Armed Forces to target 9 terrorist sites located in Pakistan and PoJK. This action was a response to the brutal terrorist attack in Pahalgam where 25 Indians were killed"
-            },  {
-    "question-hindi": "विश्व पर्यावरण दिवस पर 'सबसे प्रभावशाली पर्यावरणविद्' पुरस्कार से किसे सम्मानित किया गया है?",
-    "question-english": "Who has been honoured with the 'Most Impactful Environmentalist' award on World Environment Day, as mentioned in the provided text?",
-    "options-hindi": ["(A) सारा जोसेफ", "(B) सुरेश एरियाट", "(C) आचार्य प्रशांत", "(D) फैजान जकी"],
-    "options-english": ["A) Sarah Joseph", "B) Suresh Eriyat", "C) Acharya Prashant", "D) Faizan Zaki"],
-    "answer-hindi": "उत्तर: (C) आचार्य प्रशांत",
-    "answer-english": "Solution: (C) Acharya Prashant",
-    "solution-hindi": "व्याख्या: दस्तावेज़ में कहा गया है, 'दार्शनिक और लेखक आचार्य प्रशांत को विश्व पर्यावरण दिवस पर 'सबसे प्रभावशाली पर्यावरणविद्' पुरस्कार से सम्मानित किया गया।'",
-    "solution-english": "Explanation: The document states, 'The philosopher and author Acharya Prashant was honoured with the 'Most Impactful Environmentalist' award on World Environment Day.'"
-  },
-  {
-    "question-hindi": "नोबेल पुरस्कार के नियमों में किस वर्ष यह बताने के लिए बदलाव किया गया कि पुरस्कार मरणोपरांत नहीं दिया जा सकता, जब तक कि मृत्यु की घोषणा के बाद न हो?",
-    "question-english": "In which year were the statutes of the Nobel Prize changed to state that the prize cannot be awarded posthumously, unless death occurs after the announcement?",
-    "options-hindi": ["(A) 1961", "(B) 1996", "(C) 1974", "(D) 1931"],
-    "options-english": ["(A) 1961", "(B) 1996", "(C) 1974", "(D) 1931"],
-    "answer-hindi": "हल: (C) 1974",
-    "answer-english": "Solution: (C) 1974",
-    "solution-hindi": "व्याख्या: दस्तावेज़ में पृष्ठ 2 पर कहा गया है, '1974 में एक नया नियम बनाया गया था जिसमें कहा गया था कि नोबेल पुरस्कार मरणोपरांत नहीं दिया जा सकता है, जब तक कि पुरस्कार की घोषणा के बाद मृत्यु न हो।'",
-    "solution-english": "Explanation: The document states on page 2, 'In 1974 a new rule was made which stated that the Nobel Prize cannot be given posthumously, unless the death occurs after the announcement of the prize.'"
-  },
-  {
-    "question-hindi": "'द पैराडॉक्सिकल प्राइम मिनिस्टर' पुस्तक के लेखक कौन हैं, जो प्रधानमंत्री नरेंद्र मोदी के कार्यकाल का आलोचनात्मक विश्लेषण प्रस्तुत करती है?",
-    "question-english": "Who is the author of the book 'The Paradoxical Prime Minister,' which offers a critical analysis of Prime Minister Narendra Modi's tenure?",
-    "options-hindi": ["(A) संजय बारू", "(B) रामचंद्र गुहा", "(C) शशि थरूर", "(D) जयराम रमेश"],
-    "options-english": ["(A) Sanjaya Baru", "(B) Ramachandra Guha", "(C) Shashi Tharoor", "(D) Jairam Ramesh"],
-    "answer-hindi": "हल: (C) शशि थरूर",
-    "answer-english": "Solution: (C) Shashi Tharoor",
-    "solution-hindi": "व्याख्या: 'द पैराडॉक्सिकल प्राइम मिनिस्टर' पुस्तक राजनीतिज्ञ और लेखक शशि थरूर द्वारा लिखी गई थी। यह नरेंद्र मोदी के प्रधानमंत्रित्व काल की आलोचनात्मक समीक्षा करती है। संजय बारू को डॉ. मनमोहन सिंह के बारे में 'द एक्सीडेंटल प्राइम मिनिस्टर' लिखने के लिए जाना जाता है।",
-    "solution-english": "Explanation: The book 'The Paradoxical Prime Minister' was written by the politician and author Shashi Tharoor. It critically examines the prime ministership of Narendra Modi. Sanjaya Baru is known for writing 'The Accidental Prime Minister' about Dr. Manmohan Singh."
-  },
-  {
-    "question-hindi": "बार्क (BARC) में निम्नलिखित में से कौन सा अनुसंधान रिएक्टर एशिया में पहला था और इसका नाम जवाहरलाल नेहरू द्वारा रखा गया था?",
-    "question-english": "Which of the following research reactors at BARC was the first in Asia and was named by Jawaharlal Nehru?",
-    "options-hindi": ["A) साइरस (CIRUS)", "B) ध्रुव (Dhruva)", "C) अप्सरा (APSARA)", "D) ज़र्लिना (ZERLINA)"],
-    "options-english": ["A) CIRUS", "B) Dhruva", "C) APSARA", "D) ZERLINA"],
-    "answer-hindi": "हल: C) अप्सरा (APSARA)",
-    "answer-english": "Solution: C) APSARA",
-    "solution-hindi": "व्याख्या: अप्सरा 4 अगस्त, 1956 को निर्मित एशिया का पहला परमाणु रिएक्टर था। इसमें यह भी उल्लेख है कि इसका नाम जवाहरलाल नेहरू ने दिया था।"},
-    {
+            },{
+              "question-hindi": "विश्व पर्यावरण दिवस पर 'सबसे प्रभावशाली पर्यावरणविद्' पुरस्कार से किसे सम्मानित किया गया है?",
+              "question-english" : "Who has been honoured with the 'Most Impactful Environmentalist' award on World Environment Day, as mentioned in the provided text?",
+              "options-hindi": ["(A) सारा जोसेफ", "(B) सुरेश एरियाट", "(C) आचार्य प्रशांत", "(D) फैजान जकी"],
+              "options-english": ["A) Sarah Joseph", "B) Suresh Eriyat", "C) Acharya Prashant", "D) Faizan Zaki"],
+              "answer-hindi": "उत्तर: (C) आचार्य प्रशांत",
+              "answer-english": "Solution: (C) Acharya Prashant",
+              "solution-hindi": "व्याख्या: दस्तावेज़ में कहा गया है, "दार्शनिक और लेखक आचार्य प्रशांत को विश्व पर्यावरण दिवस पर 'सबसे प्रभावशाली पर्यावरणविद्' पुरस्कार से सम्मानित किया गया।"",
+              "solution-english": "Explanation: The document states, "The philosopher and author Acharya Prashant was honoured with the 'Most Impactful Environmentalist' award on World Environment Day.""
+            },{
+              "question-hindi": "नोबेल पुरस्कार के नियमों में किस वर्ष यह बताने के लिए बदलाव किया गया कि पुरस्कार मरणोपरांत नहीं दिया जा सकता, जब तक कि मृत्यु की घोषणा के बाद न हो?",
+              "question-english" : "In which year were the statutes of the Nobel Prize changed to state that the prize cannot be awarded posthumously, unless death occurs after the announcement?",
+              "options-hindi": ["(A) 1961", "(B) 1996", "(C) 1974", "(D) 1931"],
+              "options-english": ["(A) 1961", "(B) 1996", "(C) 1974", "(D) 1931"],
+              "answer-hindi": "हल: (C) 1974",
+              "answer-english": "Solution: (C) 1974",
+              "solution-hindi": "व्याख्या: दस्तावेज़ में पृष्ठ 2 पर कहा गया है, "1974 में एक नया नियम बनाया गया था जिसमें कहा गया था कि नोबेल पुरस्कार मरणोपरांत नहीं दिया जा सकता है, जब तक कि पुरस्कार की घोषणा के बाद मृत्यु न हो।"",
+              "solution-english": "Explanation: The document states on page 2, "In 1974 a new rule was made in which it was said that the Nobel Prize cannot be given posthumously, unless the death occurs after the announcement of the prize"
+            },{
+              "question-hindi": ""द पैराडॉक्सिकल प्राइम मिनिस्टर" पुस्तक के लेखक कौन हैं, जो प्रधानमंत्री नरेंद्र मोदी के कार्यकाल का आलोचनात्मक विश्लेषण प्रस्तुत करती है?",
+              "question-english" : "Who is the author of the book "The Paradoxical Prime Minister," which offers a critical analysis of Prime Minister Narendra Modi's tenure?",
+              "options-hindi": ["(A) संजय बारू", "(B) रामचंद्र गुहा", "(C) शशि थरूर", "(D) जयराम रमेश"],
+              "options-english": ["(A) Sanjaya Baru", "(B) Ramachandra Guha", "(C) Shashi Tharoor", "(D) Jairam Ramesh"],
+              "answer-hindi": "हल: (C) शशि थरूर",
+              "answer-english": "Solution: (C) Shashi Tharoor",
+              "solution-hindi": "व्याख्या: "द पैराडॉक्सिकल प्राइम मिनिस्टर" पुस्तक राजनीतिज्ञ और लेखक शशि थरूर द्वारा लिखी गई थी। यह नरेंद्र मोदी के प्रधानमंत्रित्व काल की आलोचनात्मक समीक्षा करती है। संजय बारू को डॉ. मनमोहन सिंह के बारे में "द एक्सीडेंटल प्राइम मिनिस्टर" लिखने के लिए जाना जाता है।",
+              "solution-english": "Explanation: The book "The Paradoxical Prime Minister" was written by the politician and author Shashi Tharoor. It critically examines the prime ministership of Narendra Modi. Sanjaya Baru is known for writing "The Accidental Prime Minister" about Dr. Manmohan Singh."
+            },{
+              "question-hindi": "बार्क (BARC) में निम्नलिखित में से कौन सा अनुसंधान रिएक्टर एशिया में पहला था और इसका नाम जवाहरलाल नेहरू द्वारा रखा गया था?",
+              "question-english" : "Which of the following research reactors at BARC was the first in Asia and was named by Jawaharlal Nehru?",
+              "options-hindi": ["A) साइरस (CIRUS)", "B) ध्रुव (Dhruva)", "C) अप्सरा (APSARA)", "D) ज़र्लिना (ZERLINA)"],
+              "options-english": ["A) CIRUS", "B) Dhruva", "C) APSARA", "D) ZERLINA"],
+              "answer-hindi": "हल: C) अप्सरा (APSARA)",
+              "answer-english": "Solution: C) APSARA",
+              "solution-hindi": "व्याख्या: अप्सरा 4 अगस्त, 1956 को निर्मित एशिया का पहला परमाणु रिएक्टर था। इसमें यह भी उल्लेख है कि इसका नाम जवाहरलाल नेहरू ने दिया था।",
+              "solution-english": "Explanation: T APSARA was the first nuclear reactor in Asia, built on August 4, 1956. It also mentions that its name was given by Jawaharlal Nehru","
+            },{
               "question-hindi": "राष्ट्रीय युवा दिवस 12 जनवरी को किस महान भारतीय व्यक्तित्व की जयंती के उपलक्ष्य में मनाया जाता है?",
               "question-english" : "National Youth Day is celebrated on January 12th to commemorate the birth anniversary of which great Indian personality?",
               "options-hindi": ["A) सरदार वल्लभभाई पटेल", "B) सुभाष चंद्र बोस", "C) स्वामी विवेकानंद", "D) महात्मा गांधी"],
@@ -428,8 +423,8 @@
               "solution-hindi": "व्याख्या: 'अजय योद्धा' भारत और यूनाइटेड किंगडम की सेनाओं के बीच आयोजित एक संयुक्त सैन्य अभ्यास है। यह अंतःक्रियाशीलता बढ़ाने और आतंकवाद और उग्रवाद विरोधी अभियानों में विशेषज्ञता साझा करने के लिए डिज़ाइन किया गया है।",
               "solution-english": "Explanation: 'Ajay Warrior' is a joint military exercise held between the armies of India and the United Kingdom. It is designed to enhance interoperability and share expertise in counter-terrorism and counter-insurgency operations."
             },{
-              "question-hindi": "शांति स्वरूप भटनागर पुरस्कार 1958 में स्थापित एक प्रतिष्ठित पुरस्कार है। इसकी स्थापना का श्रेय किस संगठन को दिया जाता है?",
-              "question-english" : "The Shanti Swarup Bhatnagar Prize is a prestigious award established in 1958. Which organization is credited with its establishment?",
+              "question-hindi": ""शांति स्वरूप भटनागर पुरस्कार" 1958 में स्थापित एक प्रतिष्ठित पुरस्कार है। इसकी स्थापना का श्रेय किस संगठन को दिया जाता है?",
+              "question-english" : "The "Shanti Swarup Bhatnagar Prize" is a prestigious award established in 1958. Which organization is credited with its establishment?",
               "options-hindi": ["(A) भारतीय कृषि अनुसंधान परिषद (ICAR)", "(B) वैज्ञानिक और औद्योगिक अनुसंधान परिषद (CSIR)", "(C) भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO)", "(D) भारतीय सर्वेक्षण (SoI)"],
               "options-english": ["(A) Indian Council of Agricultural Research (ICAR)", "(B) Council of Scientific & Industrial Research (CSIR)", "(C) Indian Space Research Organisation (ISRO)", "(D) Survey of India (SoI)"],
               "answer-hindi": "सही हल: (B) वैज्ञानिक और औद्योगिक अनुसंधान परिषद (CSIR)",
@@ -727,155 +722,344 @@
     {
       "section": "Mathematics",
           "questions": [
-             {
-    "question-hindi": "8,000 रुपये की राशि 6% वार्षिक साधारण ब्याज दर पर निवेश की जाती है। 4 वर्षों के बाद, पूरी राशि निकाल ली जाती है, और निकाली गई राशि का एक-चौथाई हिस्सा शेयर बाजार में निवेश कर दिया जाता है। शेष राशि ज्ञात कीजिए। (रुपये में)",
-    "question-english": "An amount of 8,000 rupees is invested at a 6% yearly simple interest rate. After 4 years, the whole amount is withdrawn, and one-fourth of the withdrawn amount is invested in the stock market. Find the remaining amount. (in rupees)",
-    "options-hindi": ["(a) 7,440", "(b) 2,480", "(c) 9,920", "(d) 7,560"],
-    "options-english": ["(a) 7,440", "(b) 2,480", "(c) 9,920", "(d) 7,560"],
-    "answer-hindi": "समाधान: (a) 7,440",
-    "answer-english": "Solution: (a) 7,440",
-    "solution-hindi": "• साधारण ब्याज = (8000 * 6 * 4) / 100 = 1920।\n• 4 वर्षों के बाद कुल राशि = 8000 + 1920 = 9920।\n• शेयर बाजार में निवेश की गई राशि = 9920 / 4 = 2480।\n• शेष राशि = 9920 - 2480 = 7440।",
-    "solution-english": "◦ Simple Interest = (8000 * 6 * 4) / 100 = 1920.\n◦ Total amount after 4 years = 8000 + 1920 = 9920.\n◦ Amount invested in stock market = 9920 / 4 = 2480.\n◦ Remaining amount = 9920 - 2480 = 7440."
-  },
-  {
-    "question-hindi": "व्यंजक (127)^132 + (116)^125 - (120)^500 + (214)^29 में इकाई स्थान का अंक ज्ञात कीजिए।",
-    "question-english": "Find the unit place digit in the expression (127)^132 + (116)^125 - (120)^500 + (214)^29.",
-    "options-hindi": ["(a) 1", "(b) 3", "(c) 5", "(d) 7"],
-    "options-english": ["(a) 1", "(b) 3", "(c) 5", "(d) 7"],
-    "answer-hindi": "समाधान: (a) 1",
-    "answer-english": "Solution: (a) 1",
-    "solution-hindi": "• (127)^132 का इकाई अंक: 7 की चक्रीयता 4 है। 132, 4 से विभाज्य है, इसलिए इकाई अंक 1 है।\n• (116)^125 का इकाई अंक: 6 की किसी भी घात का इकाई अंक 6 होता है।\n• (120)^500 का इकाई अंक: 0 की किसी भी घात का इकाई अंक 0 होता है।\n• (214)^29 का इकाई अंक: 4 की चक्रीयता 2 है। विषम घातों के लिए, इकाई अंक 4 है।\n• व्यंजक: 1 + 6 - 0 + 4 = 11। इकाई अंक 1 है।",
-    "solution-english": "◦ Unit digit of (127)^132: Cyclicity of 7 is 4. 132 is divisible by 4, so the unit digit is 1.\n◦ Unit digit of (116)^125: Unit digit of any power of 6 is 6.\n◦ Unit digit of (120)^500: Unit digit of any power of 0 is 0.\n◦ Unit digit of (214)^29: Cyclicity of 4 is 2. For odd powers, the unit digit is 4.\n◦ Expression: 1 + 6 - 0 + 4 = 11. The unit digit is 1."
-  },
-           {
-    "question-hindi": "एक दुकानदार एक लैपटॉप को 10% की छूट पर बेचता है और 35% का लाभ कमाता है। यदि वह उसी लैपटॉप को 20% की छूट पर बेचता है, तो उसका नया लाभ प्रतिशत क्या होगा?",
-    "question-english": "A shopkeeper sells a laptop at a discount of 10% and earns a profit of 35%. If he sells the same laptop at a 20% discount, then what will be his new profit percentage?",
-    "options-hindi": ["(a) 20%", "(b) 25%", "(c) 22.5%", "(d) 15%"],
-    "options-english": ["(a) 20%", "(b) 25%", "(c) 22.5%", "(d) 15%"],
-    "answer-hindi": "समाधान: (a) 20%",
-    "answer-english": "Answer: (a) 20%",
-    "solution-hindi": "• मान लीजिए लागत मूल्य (CP) = x।\n• पहली स्थिति: छूट D1 = 10%, लाभ P1 = 35%।\n◦ विक्रय मूल्य SP1 = CP(1 + P1) = x(1 + 0.35) = 1.35x।\n◦ SP1 = MP(1 - D1) → 1.35x = MP(1 - 0.10) → 1.35x = 0.9MP।\n◦ अंकित मूल्य (MP) = 1.35x / 0.9 = 1.5x।\n• दूसरी स्थिति: छूट D2 = 20%。\n◦ नया विक्रय मूल्य SP2 = MP(1 - D2) = 1.5x(1 - 0.20) = 1.5x(0.8) = 1.2x。\n• नया लाभ प्रतिशत = (SP2 - CP)/CP * 100 = (1.2x - x)/x * 100 = 20%。",
-    "solution-english": "• Let Cost Price (CP) = x.\n• First Case: Discount D1 = 10%, Profit P1 = 35%.\n◦ Selling Price SP1 = CP(1 + P1) = x(1 + 0.35) = 1.35x.\n◦ SP1 = MP(1 - D1) ⇒ 1.35x = MP(1 - 0.10) ⇒ 1.35x = 0.9MP.\n◦ Marked Price (MP) = 1.35x / 0.9 = 1.5x.\n• Second Case: Discount D2 = 20%.\n◦ New Selling Price SP2 = MP(1 - D2) = 1.5x(1 - 0.20) = 1.2x.\n• New Profit Percentage = ((SP2 - CP) / CP) * 100 = 20%.\n• Answer: (a) 20%"
-  },
-  {
-    "question-hindi": "एक दुकानदार अपनी कीमत 20% बढ़ाकर अंकित करता है और फिर 20% की छूट देता है। उसका लाभ या हानि प्रतिशत क्या है?",
-    "question-english": "A shopkeeper marks up his price by 20% and then allows a 20% discount. What is his profit or loss percentage?",
-    "options-hindi": ["(a) 4% लाभ", "(b) 4% हानि", "(c) 0% (न लाभ, न हानि)", "(d) 2% हानि"],
-    "options-english": ["(a) 4% profit", "(b) 4% loss", "(c) 0% (No profit, no loss)", "(d) 2% loss"],
-    "answer-hindi": "समाधान: (b) 4% हानि",
-    "answer-english": "Answer: (b) 4% loss",
-    "solution-hindi": "• मान लीजिए लागत मूल्य (CP) = 100।\n• अंकित मूल्य (MP) = 100 × (1 + 0.20) = 120।\n• विक्रय मूल्य (SP) = MP × (1 - 0.20) = 120 × 0.80 = 96।\n• चूंकि SP < CP, यह एक हानि है।\n• हानि प्रतिशत = (CP - SP)/CP × 100 = (100 - 96)/100 × 100 = 4% हानि।\n• वैकल्पिक सूत्र (समान मार्क-अप और छूट x के लिए): हानि % = x²/100 = 20²/100 = 4%।",
-    "solution-english": "• Let Cost Price (CP) = 100.\n• Marked Price (MP) = 100 × (1 + 0.20) = 120.\n• Selling Price (SP) = MP × (1 - 0.20) = 120 × 0.80 = 96.\n• Since SP < CP, it's a loss.\n• Loss Percentage = ((CP - SP) / CP) × 100 = (100 - 96)/100 × 100 = 4% loss.\n• Alternative Formula (for equal mark-up and discount x): Loss % = x² / 100 = 20² / 100 = 4%."
-  },
-    {
-    "question-hindi": "दूध और पानी के 160 लीटर मिश्रण में, दूध और पानी का अनुपात 7:1 है। दूध और पानी का अनुपात 4:1 करने के लिए आवश्यक पानी की मात्रा ज्ञात कीजिए।",
-    "question-english": "In a 160 L mixture of milk & water, the ratio of milk and water is 7:1. Find the quantity of water required to make the ratio of milk & water 4:1.",
-    "options-hindi": ["(a) 15 लीटर", "(b) 20 लीटर", "(c) 10 लीटर", "(d) 25 लीटर"],
-    "options-english": ["(a) 15 litres", "(b) 20 litres", "(c) 10 litres", "(d) 25 litres"],
-    "answer-hindi": "समाधान: (a) 15 लीटर",
-    "answer-english": "Answer: (a) 15 litres",
-    "solution-hindi": "• कुल मिश्रण = 160 लीटर।\n• प्रारंभिक अनुपात (दूध:पानी) = 7:1। कुल भाग = 8।\n◦ दूध = (7/8) * 160 = 140 लीटर।\n◦ पानी = (1/8) * 160 = 20 लीटर।\n• अंतिम अनुपात (दूध:पानी) = 4:1।\n• मान लीजिए x पानी की मात्रा है जो मिलाई गई है। दूध 140 लीटर पर स्थिर रहता है।\n• (नया पानी) / (दूध) = (20+x) / 140 = 1/4\n• 140 = 4(20 + x)\n• 140 = 80 + 4x\n• 4x = 60 → x = 15 लीटर।",
-    "solution-english": "• Total Mixture = 160 L.\n• Initial Ratio (Milk:Water) = 7:1 → Total parts = 8.\n◦ Milk = (7/8) × 160 = 140 L.\n◦ Water = (1/8) × 160 = 20 L.\n• Final Ratio (Milk:Water) = 4:1.\n• Let x = water added.\n• (20 + x)/140 = 1/4 → 4(20 + x) = 140 → x = 15 L.\n• Hence, required water = 15 L."
-  },
-  {
-    "question-hindi": "4 वर्षों में 10% साधारण ब्याज पर देय ₹17,400 के ऋण का भुगतान कौन सी वार्षिक किस्त करेगी?",
-    "question-english": "What annual instalment will discharge a debt of ₹17,400 due in 4 years at 10% simple interest?",
-    "options-hindi": ["(a) ₹3,500", "(b) ₹3,800", "(c) ₹4,000", "(d) ₹3,200"],
-    "options-english": ["(a) ₹3,500", "(b) ₹3,800", "(c) ₹4,000", "(d) ₹3,200"],
-    "answer-hindi": "समाधान: (b) ₹3,800",
-    "answer-english": "Answer: (b) ₹3,800",
-    "solution-hindi": "• ऋण (A) = ₹17,400, समय (T) = 4 वर्ष, दर (R) = 10%।\n• मान लीजिए वार्षिक किस्त x है।\n• सूत्र: A = nx + (xR/100) * [(n−1) + (n−2) + ... + 1 + 0]\n◦ 17400 = 4x + (x*10/100) * (3+2+1)\n◦ 17400 = 4x + 0.6x\n◦ 17400 = 4.6x\n◦ x = 17400 / 4.6 ≈ 3782.6 → लगभग ₹3,800।",
-    "solution-english": "• Debt (A) = ₹17,400, Time (T) = 4 years, Rate (R) = 10%.\n• Let the annual instalment = x.\n• Formula: A = nx + (xR/100) * [(n−1) + (n−2) + ... + 1]\n→ 17400 = 4x + (x×10/100)(3+2+1)\n→ 17400 = 4x + 0.6x\n→ 17400 = 4.6x → x ≈ ₹3,800."
-  },
-  {
-    "question-hindi": "तीन धावक एक वृत्ताकार पथ पर दौड़ना शुरू करते हैं। वे सुबह 7 बजे एक ही बिंदु से शुरू करते हैं और 1 चक्कर पूरा करने में क्रमशः 10 सेकंड, 16 सेकंड और 20 सेकंड का समय लेते हैं। वे शुरुआती बिंदु पर फिर से किस समय मिलेंगे?",
-    "question-english": "Three runners start running on a circular track. They start from the same point at 7 AM and take 10 seconds, 16 seconds, and 20 seconds respectively to finish 1 round. At what time will they meet again at the starting point?",
-    "options-hindi": ["(a) 7:02:40 AM", "(b) 7:02:00 AM", "(c) 7:01:20 AM", "(d) 7:01:40 AM"],
-    "options-english": ["(a) 7:02:40 AM", "(b) 7:02:00 AM", "(c) 7:01:20 AM", "(d) 7:01:40 AM"],
-    "answer-hindi": "समाधान: (c) 7:01:20 AM",
-    "answer-english": "Answer: (c) 7:01:20 AM",
-    "solution-hindi": "• धावक फिर से शुरुआती बिंदु पर उस समय मिलेंगे जो उनके समयों का लघुत्तम समापवर्त्य (LCM) होगा।\n• समय: 10, 16, 20 सेकंड।\n• 10 = 2 × 5, 16 = 2⁴, 20 = 2² × 5\n• LCM = 2⁴ × 5 = 80 सेकंड = 1 मिनट 20 सेकंड।\n• मिलन समय = 7:00:00 AM + 1 मिनट 20 सेकंड = 7:01:20 AM।",
-    "solution-english": "• Runners meet again after LCM of their times.\n• 10=2×5, 16=2⁴, 20=2²×5 → LCM=2⁴×5=80 seconds.\n• 80 seconds = 1 minute 20 seconds.\n• Meeting time = 7:00:00 AM + 1:20 = 7:01:20 AM."
-  },
-           {
-    "question-hindi": "6 सेमी त्रिज्या वाले एक गोलाकार टैंक में एक तरल है। इस तरल को 3 सेमी भुजा वाले छोटे घनाकार बक्सों में भरा जाना है। तो टैंक को खाली करने के लिए आवश्यक बक्सों की संख्या है (π ≈ 3 का प्रयोग करें)।",
-    "question-english": "A spherical tank of radius 6 cm contains a liquid. This liquid is to be filled into small cubical boxes of side length 3 cm. Then the number of boxes necessary to empty the tank is (use π ≈ 3).",
-    "options-hindi": ["(a) 32", "(b) 16", "(c) 24", "(d) 36"],
-    "options-english": ["(a) 32", "(b) 16", "(c) 24", "(d) 36"],
-    "answer-hindi": "समाधान: (a) 32",
-    "answer-english": "Answer: (a) 32",
-    "solution-hindi": "• गोले का आयतन = (4/3)πr³\n◦ टैंक की त्रिज्या (r) = 6 सेमी\n◦ टैंक का आयतन (Vt) ≈ (4/3) × 3 × 6³ = 4 × 216 = 864 सेमी³\n• घनाकार बक्से का आयतन = a³\n◦ भुजा की लंबाई (a) = 3 सेमी\n◦ बक्से का आयतन (Vb) = 3³ = 27 सेमी³\n• बक्सों की संख्या (N) = Vt / Vb = 864 / 27 = 32",
-    "solution-english": "• Volume of sphere = (4/3)πr³\n◦ Radius (r) = 6 cm\n◦ Volume of tank (Vt) ≈ (4/3) × 3 × 6³ = 4 × 216 = 864 cm³\n• Volume of cubical box = a³\n◦ Side (a) = 3 cm → Vb = 27 cm³\n• Number of boxes (N) = Vt / Vb = 864 / 27 = 32"
-  },
-  {
-    "question-hindi": "चार अंकों की सबसे बड़ी संख्या कौन सी है, जो 18, 24, 30, और 36 से विभाज्य है?",
-    "question-english": "What is the largest four-digit number which is divisible by 18, 24, 30, and 36?",
-    "options-hindi": ["(a) 9720", "(b) 9800", "(c) 9900", "(d) 9600"],
-    "options-english": ["(a) 9720", "(b) 9800", "(c) 9900", "(d) 9600"],
-    "answer-hindi": "समाधान: (a) 9720",
-    "answer-english": "Answer: (a) 9720",
-    "solution-hindi": "• संख्या 18, 24, 30, और 36 के LCM से विभाज्य होनी चाहिए।\n• अभाज्य गुणनखंडन: 18 = 2 × 3², 24 = 2³ × 3, 30 = 2 × 3 × 5, 36 = 2² × 3²\n• LCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360\n• चार अंकों की सबसे बड़ी संख्या = 9999\n• 9999 ÷ 360 ≈ 27.775 → सबसे बड़ा पूर्णांक गुणज 27 है\n• 360 × 27 = 9720",
-    "solution-english": "• The number must be divisible by the LCM of 18, 24, 30, and 36.\n• Prime Factorization: 18=2×3², 24=2³×3, 30=2×3×5, 36=2²×3²\n• LCM = 2³×3²×5 = 360\n• Largest four-digit number = 9999\n• 9999 ÷ 360 ≈ 27.77 → largest integer multiple = 27\n• 360×27 = 9720"
-  },
-  {
-    "question-hindi": "यदि 15 वस्तुओं का लागत मूल्य 12 वस्तुओं के विक्रय मूल्य के बराबर है, तो लाभ प्रतिशत क्या है?",
-    "question-english": "If the cost price of 15 articles is equal to the selling price of 12 articles, then what is the profit percentage?",
-    "options-hindi": ["(a) 25%", "(b) 20%", "(c) 30%", "(d) 15%"],
-    "options-english": ["(a) 25%", "(b) 20%", "(c) 30%", "(d) 15%"],
-    "answer-hindi": "समाधान: (a) 25%",
-    "answer-english": "Answer: (a) 25%",
-    "solution-hindi": "• दिया गया है: 15 वस्तुओं का लागत मूल्य = 12 वस्तुओं का विक्रय मूल्य\n• 15 × CP = 12 × SP → CP/SP = 12/15 = 4/5\n• लाभ = SP − CP = 1 इकाई\n• लाभ प्रतिशत = (1/4) × 100 = 25%",
-    "solution-english": "• Given: Cost of 15 articles = Selling price of 12 articles\n• 15×CP = 12×SP → CP/SP = 4/5\n• Profit = SP − CP = 1 unit\n• Profit% = (1/4)×100 = 25%"
-  },
-  {
-    "question-hindi": "एक 450 मीटर लंबी ट्रेन 54 किमी/घंटा की गति से चल रही है। रेलवे लाइन के पास खड़े एक व्यक्ति को पार करने में उसे कितना समय (सेकंड में) लगेगा?",
-    "question-english": "A 450 m long train is running at a speed of 54 km/h. The time (in seconds) it would take to pass a man standing near the railway line is:",
-    "options-hindi": ["(a) 30", "(b) 25", "(c) 40", "(d) 20"],
-    "options-english": ["(a) 30", "(b) 25", "(c) 40", "(d) 20"],
-    "answer-hindi": "समाधान: (a) 30",
-    "answer-english": "Answer: (a) 30",
-    "solution-hindi": "• ट्रेन की लंबाई = 450 मीटर, गति = 54 किमी/घंटा\n• गति को मी/से में बदलें: 54 × (5/18) = 15 मी/से\n• समय = दूरी / गति = 450 / 15 = 30 सेकंड",
-    "solution-english": "• Length of train = 450 m, Speed = 54 km/h\n• Convert to m/s: 54×(5/18) = 15 m/s\n• Time = Distance / Speed = 450 / 15 = 30 seconds"
-  },  {
-    "question-hindi": "एक खेत में, दो-पांचवां हिस्सा गायें चली गईं, और शेष गायों का तीन-चौथाई हिस्सा भटक गया। अंत में, 18 गायें बचीं, जो पानी पीने चली गईं। तो, शुरुआत में कुल कितनी गायें थीं?",
-    "question-english": "In a field, two-fifths of the cows walked away, and three-quarters of the remaining cows wandered off. In the end, 18 cows were left, which went to drink water. So, what was the total number of cows in the beginning?",
-    "options-hindi": ["(a) 100", "(b) 120", "(c) 150", "(d) 90"],
-    "options-english": ["(a) 100", "(b) 120", "(c) 150", "(d) 90"],
-    "answer-hindi": "समाधान: (b) 120",
-    "answer-english": "Answer: (b) 120",
-    "solution-hindi": "• मान लीजिए गायों की कुल संख्या N है। • पहला हिस्सा चला गया = (2/5)N। • शेष गायें = N - (2/5)N = (3/5)N। • दूसरा हिस्सा भटक गया = (3/4) * (3/5)N = (9/20)N। • शेष बची गायों का भिन्न = 1 - 3/4 = 1/4। • बची हुई गायें = (1/4) * (3/5)N = (3/20)N। • हमें दिया गया है कि 18 गायें बची थीं। • (3/20)N = 18 → N = 18 * (20/3) = 120।",
-    "solution-english": "• Let total cows = N. • Two-fifths walked away → Remaining = (3/5)N. • Three-fourths of remaining wandered off → Left fraction = (1/4) of remaining = (3/20)N. • Given: (3/20)N = 18 → N = 120."
-  },
-  {
-    "question-hindi": "सात क्रमागत विषम संख्याओं का औसत 31 है। इन 7 दी गई संख्याओं में से सबसे बड़ी तीन का औसत क्या है?",
-    "question-english": "The average of seven consecutive odd numbers is 31. What is the average of the largest three of these 7 given numbers?",
-    "options-hindi": ["(a) 35", "(b) 36", "(c) 33", "(d) 37"],
-    "options-english": ["(a) 35", "(b) 36", "(c) 33", "(d) 37"],
-    "answer-hindi": "समाधान: (a) 35",
-    "answer-english": "Answer: (a) 35",
-    "solution-hindi": "• क्रमागत संख्याओं का औसत बीच की संख्या होती है। • 7 क्रमागत विषम संख्याओं का औसत = 31। • चौथी संख्या = 31। • 7 संख्याएं: 25, 27, 29, 31, 33, 35, 37। • सबसे बड़ी तीन संख्याएं: 33, 35, 37। • औसत = (33 + 35 + 37)/3 = 35।",
-    "solution-english": "• Average of consecutive numbers = middle number. • Middle number = 31. • Seven numbers: 25, 27, 29, 31, 33, 35, 37. • Largest three: 33, 35, 37. • Average = (33 + 35 + 37)/3 = 35."
-  },
-  {
-    "question-hindi": "अर्जुन का व्यय उसकी बचत से 100% अधिक है। यदि उसकी आय में 15% की वृद्धि होती है और व्यय में 10% की वृद्धि होती है, तो उसकी बचत में कितनी वृद्धि होती है?",
-    "question-english": "The expenditure of Arjun is 100% more than his savings. If his income increases by 15% and expenditure increases by 10%, then his savings increase by:",
-    "options-hindi": ["(a) 15%", "(b) 20%", "(c) 25%", "(d) 30%"],
-    "options-english": ["(a) 15%", "(b) 20%", "(c) 25%", "(d) 30%"],
-    "answer-hindi": "समाधान: (c) 25%",
-    "answer-english": "Answer: (c) 25%",
-    "solution-hindi": "• मान लीजिए बचत S = 100, व्यय E = 200, आय I = 300। • नई आय = 300 × 1.15 = 345। • नया व्यय = 200 × 1.10 = 220। • नई बचत = 345 - 220 = 125। • बचत में वृद्धि = 25%, क्योंकि 25/100 × 100 = 25।",
-    "solution-english": "• Let savings = 100, expenditure = 200, income = 300. • New income = 345, new expenditure = 220. • New savings = 125. • Increase = 25%, so savings increased by 25%."
-  },{
-  "question-hindi": "8 मजदूर एक घर को 12 दिनों में पेंट कर सकते हैं, और 16 पेंटर उसी घर को पेंट करने में 6 दिन लेते हैं। 4 मजदूर और 8 पेंटर उसी घर को पेंट करने में कितने दिन लेंगे?",
-  "question-english": "8 workers can paint a house in 12 days, and 16 painters take 6 days to paint the same house. How many days will 4 workers and 8 painters take to paint the same house?",
-  "options-hindi": ["(a) 12", "(b) 9", "(c) 16", "(d) 8"],
-  "options-english": ["(a) 12", "(b) 9", "(c) 16", "(d) 8"],
-  "answer-hindi": "उत्तर: (d) 8 दिन",
-  "answer-english": "Answer: (d) 8 days",
-  "solution-hindi": "• मान लीजिए W एक मजदूर की कार्य दर है और P एक पेंटर की कार्य दर है।\n• 8 मजदूर × 12 दिन = कुल कार्य (J) ⇒ 96W = J\n• 16 पेंटर × 6 दिन = J ⇒ 96P = J\n• तुलना करने पर: 96W = 96P ⇒ 1 मजदूर = 1 पेंटर (W = P)\n• नई टीम = 4 मजदूर + 8 पेंटर = 12 मजदूर (क्योंकि W = P)\n• 12W × D = J ⇒ 96W = J ⇒ D = 96/12 = 8 दिन।",
-  "solution-english": "Let W be the work rate of a worker and P be the work rate of a painter.\n• Total work (J) is constant.\n• 8 workers × 12 days = J ⇒ 96W = J\n• 16 painters × 6 days = J ⇒ 96P = J\n• Comparing: 96W = 96P ⇒ 1 worker = 1 painter (W = P)\n• New team = 4 workers + 8 painters = 12 workers (since W = P)\n• Total work: 12W × D = J\n• Since 96W = J ⇒ 12W × D = 96W ⇒ D = 96/12 = 8 days."
-}
-
+            {
+              "question-hindi": "8,000 रुपये की राशि 6% वार्षिक साधारण ब्याज दर पर निवेश की जाती है। 4 वर्षों के बाद, पूरी राशि निकाल ली जाती है, और निकाली गई राशि का एक-चौथाई हिस्सा शेयर बाजार में निवेश कर दिया जाता है। शेष राशि ज्ञात कीजिए। (रुपये में)",
+              "question-english" : "An amount of 8,000 rupees is invested at a 6% yearly simple interest rate. After 4 years, the whole amount is withdrawn, and one-fourth of the withdrawn amount is invested in the stock market. Find the remaining amount. (in rupees)",
+              "options-hindi": ["(a) 7,440", "b) 2,480", (c) 9,920"", "d) 7,560"],
+              "options-english": ["(a) 7,440", "b) 2,480", "(c) 9,920", "d) 7,560"],
+              "answer-hindi": "समाधान: (a) 7,440",
+              "answer-english": "Solution: (a) 7,440",
+              "solution-hindi": "•साधारण ब्याज = (8000 * 6 * 4) / 100 = 1920।
+•4 वर्षों के बाद कुल राशि = 8000 + 1920 = 9920।
+•शेयर बाजार में निवेश की गई राशि = 9920 / 4 = 2480।
+•शेष राशि = 9920 - 2480 = 7440।",
+              "solution-english": "◦Simple Interest = (8000 * 6 * 4) / 100 = 1920.
+◦Total amount after 4 years = 8000 + 1920 = 9920.
+◦Amount invested in stock market = 9920 / 4 = 2480.
+◦Remaining amount = 9920 - 2480 = 7440."
+            },{
+              "question-hindi": "व्यंजक (127)^132 + (116)^125 - (120)^500 + (214)^29 में इकाई स्थान का अंक ज्ञात कीजिए।",
+              "question-english" : " Find the unit place digit in the expression (127)^132 + (116)^125 - (120)^500 + (214)^29.",
+              "options-hindi": ["(a) 1", "(b) 3", "(c) 5", "(d) 7"],
+              "options-english": ["(a) 1", "(b) 3", "(c) 5", "(d) 7"],
+              "answer-hindi": "समाधान: (a) 1",
+              "answer-english": "Solution: (a) 1",
+              "solution-hindi": "•(127)^132 का इकाई अंक: 7 की चक्रीयता 4 है। 132, 4 से विभाज्य है, इसलिए इकाई अंक 1 है।
+•(116)^125 का इकाई अंक: 6 की किसी भी घात का इकाई अंक 6 होता है।
+•(120)^500 का इकाई अंक: 0 की किसी भी घात का इकाई अंक 0 होता है।
+•(214)^29 का इकाई अंक: 4 की चक्रीयता 2 है। विषम घातों के लिए, इकाई अंक 4 है।
+•व्यंजक: 1 + 6 - 0 + 4 = 11। इकाई अंक 1 है।",
+              "solution-english": "◦Unit digit of (127)^132: Cyclicity of 7 is 4. 132 is divisible by 4, so the unit digit is 1.
+◦Unit digit of (116)^125: Unit digit of any power of 6 is 6.
+◦Unit digit of (120)^500: Unit digit of any power of 0 is 0.
+◦Unit digit of (214)^29: Cyclicity of 4 is 2. For odd powers, the unit digit is 4.
+◦Expression: 1 + 6 - 0 + 4 = 11. The unit digit is 1"
+            },{
+              "question-hindi": " एक दुकानदार एक लैपटॉप को 10% की छूट पर बेचता है और 35% का लाभ कमाता है। यदि वह उसी लैपटॉप को 20% की छूट पर बेचता है, तो उसका नया लाभ प्रतिशत क्या होगा?",
+              "question-english" : A shopkeeper sells a laptop at a discount of 10% and earns a profit of 35%. If he sells the same laptop at a 20% discount, then what will be his new profit percentage? ",
+              "options-hindi": ["(a) 20%", "(b) 25%", "(c) 22.5%", "(d) 15%","],
+              "options-english": ["(a) 20%", "(b) 25%", "(c) 22.5%", "(d) 15%","],
+              "answer-hindi": "समाधान: (a) 20%",
+              "answer-english": "Answer: (a) 20",
+              "solution-hindi": "•	मान लीजिए लागत मूल्य (CP) = x।
+	•	पहली स्थिति: छूट D1 = 10%, लाभ P1 = 35%।
+	◦	विक्रय मूल्य SP1 = CP(1 + P1) = x(1 + 0.35) = 1.35x।
+	◦	SP1 = MP(1 - D1) → 1.35x = MP(1 - 0.10) → 1.35x = 0.9MP।
+	◦	अंकित मूल्य (MP) = 1.35x / 0.9 = 1.5x।
+	•	दूसरी स्थिति: छूट D2 = 20%।
+	◦	नया विक्रय मूल्य SP2 = MP(1 - D2) = 1.5x(1 - 0.20) = 1.5x(0.8) = 1.2x।
+	•	नया लाभ प्रतिशत = (SP2 - CP)/CP * 100 = (1.2x - x)/x * 100 = 0.2x/x * 100 = 20%।",
+              "solution-english": "•	Let Cost Price (CP) = x.
+	•	First Case: Discount D1 =10%, Profit P1 =35%.
+	◦	Selling Price SP1 =CP(1+P1 )=x(1+0.35)=1.35x.
+	◦	SP1 =MP(1−D1 )⟹1.35x=MP(1−0.10)⟹1.35x=0.9MP
+	◦	Marked Price (MP) =0.91.35x =1.5x.
+	•	Second Case: Discount D2 =20%.
+	◦	New Selling Price SP2 =MP(1−D2 )=1.5x(1−0.20)=1.5x(0.8)=1.2x.
+	•	New Profit Percentage =CPSP2 −CP ×100=x1.2x−x ×100=x0.2x ×100=∗∗20%.**
+	•	Answer: (a) 20"
+            },{
+              "question-hindi": एक दुकानदार अपनी कीमत 20% बढ़ाकर अंकित करता है और फिर 20% की छूट देता है। उसका लाभ या हानि प्रतिशत क्या है?",
+              "question-english" : A shopkeeper marks up his price by 20% and then allows a 20% discount. What is his profit or loss percentage?",
+              "options-hindi": ["(a) 4% लाभ", "(b) 4% हानि", "(c) 0% (न लाभ, न हानि)", "(d) 2% हानि","],
+              "options-english": ["(a) 4% profit", "(b) 4% loss ", "(c) 0% (No profit, no loss) ", "(d) 2% loss"],
+              "answer-hindi": "समाधान: (b) 4% हानि",
+              "answer-english": "Answer: (b) 4% loss",
+              "solution-hindi": "•	मान लीजिए लागत मूल्य (CP) = 100।
+	•	अंकित मूल्य (MP) = 100 * (1 + 0.20) = 120।
+	•	विक्रय मूल्य (SP) = MP * (1 - 0.20) = 120 * 0.80 = 96।
+	•	चूंकि SP < CP, यह एक हानि है।
+	•	हानि प्रतिशत = (CP - SP)/CP * 100 = (100 - 96)/100 * 100 = 4% हानि।
+	•	वैकल्पिक सूत्र (समान मार्क-अप और छूट x के लिए): हानि % = x²/100 = 20²/100 = 400/100 = 4%।",
+              "solution-english": "•	Let Cost Price (CP) = 100.
+	•	Marked Price (MP) = 100×(1+0.20)=120.
+	•	Selling Price (SP) = MP×(1−0.20)=120×0.80=96.
+	•	Since SP<CP, it's a loss.
+	•	Loss Percentage =CPCP−SP ×100=100100−96 ×100=∗∗4% loss.**
+	•	Alternative Formula (for equal mark-up and discount x): Loss %=100x2 =100202 =100400 =4%."
+            },{
+              "question-hindi": ")दूध और पानी के 160 लीटर मिश्रण में, दूध और पानी का अनुपात 7:1 है। दूध और पानी का अनुपात 4:1 करने के लिए आवश्यक पानी की मात्रा ज्ञात कीजिए।",
+              "question-english" : " In a 160 L mixture of milk & water, the ratio of milk and water is 7: 1. Find the quantity of water required to make the ratio of milk & water 4: 1.",
+              "options-hindi": ["(a) 15 लीटर", "(b) 20 लीटर", "(c) 10 लीटर", "(d) 25 लीटर"],
+              "options-english": ["(a) 15 litres", "(b) 20 litres", "(c) 10 litres", "(d) 25 litres"],
+              "answer-hindi": "समाधान: (a) 15 लीटर",
+              "answer-english": "Answer: (a) 15 litres",
+              "solution-hindi": "•	कुल मिश्रण = 160 लीटर।
+	•	प्रारंभिक अनुपात (दूध:पानी) = 7:1। कुल भाग = 8।
+	◦	दूध = (7/8) * 160 = 140 लीटर।
+	◦	पानी = (1/8) * 160 = 20 लीटर।
+	•	अंतिम अनुपात (दूध:पानी) = 4:1।
+	•	मान लीजिए x पानी की मात्रा है जो मिलाई गई है। दूध 140 लीटर पर स्थिर रहता है।
+	•	(नया पानी) / (दूध) = (20+x) / 140 = 1/4
+	•	140 * 1 = 4 * (20 + x)
+	•	140 = 80 + 4x
+	•	4x = 60 → x = 15 लीटर।",
+              "solution-english": "•	Total Mixture = 160 L.
+	•	Initial Ratio (Milk:Water) = 7:1. Total parts = 8.
+	◦	Milk =87 ×160=7×20=140 L.
+	◦	Water =81 ×160=1×20=20 L.
+	•	Final Ratio (Milk:Water) = 4:1.
+	•	Let x be the quantity of water added. Milk remains constant at 140 L.
+	•	New WaterMilk =20+x140 =14 
+	•	140×1=4×(20+x)
+	•	140=80+4x
+	•	4x=140−80=60
+	•	x=460 =15 L."
+            },{
+              "question-hindi": "4 वर्षों में 10% साधारण ब्याज पर देय ₹ 17,400 के ऋण का भुगतान कौन सी वार्षिक किस्त करेगी?",
+              "question-english" : "What annual instalment will discharge a debt of ₹17,400 due in 4 years at 10% simple interest?",
+              "options-hindi": ["(a) ₹ 3,500", "(b) ₹ 3,800", "(c) ₹ 4,000", "(d) ₹ 3,200"],
+              "options-english": ["(a) ₹ 3,500", "(b) ₹ 3,800", "(c) ₹ 4,000", "(d) ₹ 3,200"],
+              "answer-hindi": "समाधान: (b) ₹ 3,800",
+              "answer-english": "Answer: (b) ₹3,800",
+              "solution-hindi": "•	ऋण (A) = ₹ 17,400, समय (T) = 4 वर्ष, दर (R) = 10%।
+	•	मान लीजिए वार्षिक किस्त x है।
+	•	वार्षिक किस्त के लिए सूत्र: A = nx + (xR/100) * [(n-1) + (n-2) + ... + 1 + 0]
+	◦	17400 = 4x + (x*10/100) * [3+2+1+0]
+	◦	17400 = 4x + (x/10) *
+	◦	17400 = 4x + 0.6x
+	◦	17400 = 4.6x
+	◦	x = 17400 / 4.6 ≈ 3782.60...
+	•	विकल्पों में से, ₹ 3,800 सबसे निकटतम और संभावित उत्तर है (4.6 * 3800 = 17,480)।",
+              "solution-english": "•	Debt (A) = ₹17,400
+	•	Time (T) = 4 years
+	•	Rate (R) = 10%
+	•	Let the Annual Instalment be x.
+	•	The total amount paid by the end is the sum of the installment and the simple interest on the unpaid portion of the debt.
+	•	Formula for Annual Instalment: A=nx+100xR [(n−1)+(n−2)+…+1+0]
+	◦	17400=4x+100x×10 [3+2+1+0]
+	◦	17400=4x+10x [6]
+	◦	17400=4x+0.6x
+	◦	17400=4.6x
+	◦	x=4.617400 =46174000 =3782.60...
+	•	Correction/Closest Option: Let's check the options for a whole number answer.
+	◦	If x=3,500: 4.6×3500=16,100
+	◦	If x=3,800: 4.6×3800=17,480
+	◦	If x=4,000: 4.6×4000=18,400
+	•	The closest and most likely intended answer for a standard math problem is ₹3,800."
+            },{
+              "question-hindi": "तीन धावक एक वृत्ताकार पथ पर दौड़ना शुरू करते हैं। वे सुबह 7 बजे एक ही बिंदु से शुरू करते हैं और 1 चक्कर पूरा करने में क्रमशः 10 सेकंड, 16 सेकंड और 20 सेकंड का समय लेते हैं। वे शुरुआती बिंदु पर फिर से किस समय मिलेंगे?",
+              "question-english" : "Three runners start running on a circular track. They start from the same point at 7 AM and take 10 seconds, 16 seconds, and 20 seconds respectively to finish 1 round. At what time will they meet again at the starting point?",
+              "options-hindi": ["(a) 7:02:40 AM", "(b) 7:02:00 AM", "(c) 7:01:20 AM", "(d) 7:01:40 AM"],
+              "options-english": ["(a) 7:02:40 AM", "(b) 7:02:00 AM", "(c) 7:01:20 AM", "(d) 7:01:40 AM"],
+              "answer-hindi": " समाधान: (c) 7:01:20 AM",
+              "answer-english": "Answer: (c) 7:01:20 AM",
+              "solution-hindi": "•	धावक शुरुआती बिंदु पर फिर से उस समय अंतराल के बाद मिलेंगे जो उनके व्यक्तिगत लैप समय के लघुत्तम समापवर्त्य (LCM) के बराबर हो।
+	•	समय: 10 सेकंड, 16 सेकंड, 20 सेकंड।
+	•	अभाज्य गुणनखंडन:
+	◦	10 = 2 * 5
+	◦	16 = 2⁴
+	◦	20 = 2² * 5
+	•	LCM = 2⁴ * 5 = 16 * 5 = 80 सेकंड।
+	•	मिलने का समय = शुरुआती समय (सुबह 7 बजे) के 80 सेकंड बाद।
+	•	80 सेकंड = 1 मिनट और 20 सेकंड।
+	•	मिलने का समय: 7:01:20 AM।",
+              "solution-english": "•	The runners will meet again at the starting point after a time interval equal to the Least Common Multiple (LCM) of their individual lap times.
+	•	Times: 10 seconds, 16 seconds, 20 seconds.
+	•	Prime Factorization:
+	◦	10=2×5
+	◦	16=24
+	◦	20=22×5
+	•	LCM =24×5=16×5=80 seconds.
+	•	Meeting Time = 80 seconds after the start time (7 AM).
+	•	80 seconds=1 minute and 20 seconds.
+	•	Start Time: 7:00:00 AM
+	•	Meeting Time: 7:01:20 AM
+	•	Answer: (c) 7:01:20 AM"
+            },{
+              "question-hindi": " सेमी त्रिज्या वाले एक गोलाकार टैंक में एक तरल है। इस तरल को 3 सेमी भुजा वाले छोटे घनाकार बक्सों में भरा जाना है। तो टैंक को खाली करने के लिए आवश्यक बक्सों की संख्या है (π ≈ 3 का प्रयोग करें)।",
+              "question-english" : "A spherical tank of radius 6 cm contains a liquid. This liquid is to be filled into small cubical boxes of side length 3 cm. Then the number of boxes necessary to empty the tank is (use π≈3). ",
+              "options-hindi": ["(a) 32", "(b) 16", "(c) 24", "(d) 36"],
+              "options-english": ["(a) 32", "(b) 16", "(c) 24", "(d) 36"],
+              "answer-hindi": "समाधान: (a) 32",
+              "answer-english": "Answer: (a) 32",
+              "solution-hindi": "•	गोले का आयतन = (4/3)πr³।
+	◦	टैंक की त्रिज्या (rt) = 6 सेमी।
+	◦	टैंक का आयतन (Vt) ≈ (4/3) * 3 * 6³ = 4 * 216 = 864 सेमी³।
+	•	घनाकार बक्से का आयतन = a³।
+	◦	भुजा की लंबाई (a) = 3 सेमी।
+	◦	बक्से का आयतन (Vb) = 3³ = 27 सेमी³।
+	•	बक्सों की संख्या (N) = Vt / Vb = 864 / 27 = 32।",
+              "solution-english": "•	Volume of Sphere =34 πr3. (A tank is a full sphere)
+	◦	Radius of tank (rt ) = 6 cm.
+	◦	Volume of tank (Vt ) ≈34 ×3×63=4×216=864 cm3.
+	•	Volume of Cubical Box =a3.
+	◦	Side length (a) = 3 cm.
+	◦	Volume of box (Vb ) =33=27 cm3.
+	•	Number of Boxes (N) =Vb Vt =27864 
+	•	864÷27=32"
+            },{
+              "question-hindi": "चार अंकों की सबसे बड़ी संख्या कौन सी है, जो 18, 24, 30, और 36 से विभाज्य है?",
+              "question-english" : "What is the largest four-digit number, which is divisible by 18, 24, 30, and 36?",
+              "options-hindi": ["(a) 9720", "(b) 9800", "(c) 9900", "(d) 9600"],
+              "options-english": ["(a) 9720", "(b) 9800", "(c) 9900", "(d) 9600"],
+              "answer-hindi": "समाधान: (a) 9720",
+              "answer-english": "Answer: (a) 9720",
+              "solution-hindi": "	•	संख्या को 18, 24, 30, और 36 के LCM से विभाज्य होना चाहिए।
+	•	अभाज्य गुणनखंडन: 18=23², 24=2³3, 30=235, 36=2²*3²।
+	•	LCM = 2³ * 3² * 5 = 8 * 9 * 5 = 360।
+	•	चार अंकों की सबसे बड़ी संख्या 9999 है। हमें 360 का सबसे बड़ा गुणज चाहिए जो 9999 से कम या बराबर हो।
+	•	9999 ÷ 360 ≈ 27.775।
+	•	सबसे बड़ा पूर्णांक गुणज 27 है।
+	•	सबसे बड़ी संख्या = 360 * 27 = 9720।",
+              "solution-english": "	•	The number must be divisible by the LCM of 18,24,30, and 36.
+	•	Prime Factorization:
+	◦	18=2×32
+	◦	24=23×3
+	◦	30=2×3×5
+	◦	36=22×32
+	•	LCM =23×32×5=8×9×5=360.
+	•	The largest four-digit number is 9999. We need the largest multiple of 360 that is less than or equal to 9999.
+	•	9999÷360≈27.775.
+	•	The largest integer multiple is 27.
+	•	Largest Number =360×27.
+	•	360×27=360×(30−3)=10800−1080=9720."
+            },{
+              "question-hindi": "यदि 15 वस्तुओं का लागत मूल्य 12 वस्तुओं के विक्रय मूल्य के बराबर है, तो लाभ प्रतिशत क्या है?",
+              "question-english" : "If the cost price of 15 articles is equal to the selling price of 12 articles, then what is the profit percentage?",
+              "options-hindi": ["(a) 25%", "(b) 20%", "(c) 30%", "(d) 15%"],
+              "options-english": ["(a) 25%", "(b) 20%", "(c) 30%", "(d) 15%"],
+              "answer-hindi": "समाधान: (a) 25%",
+              "answer-english": "Answer: (a) 25%",
+              "solution-hindi": "•	दिया गया है: 15 वस्तुओं का लागत मूल्य = 12 वस्तुओं का विक्रय मूल्य।
+	•	15 * CP = 12 * SP
+	•	CP/SP = 12/15 = 4/5।
+	•	लाभ = SP - CP = 5 - 4 = 1 इकाई।
+	•	लाभ प्रतिशत = (लाभ / CP) * 100 = (1/4) * 100 = 25%।",
+              "solution-english": "•	Given: CP of 15 articles=SP of 12 articles.
+	•	Let CP be the cost price of one article and SP be the selling price of one article.
+	•	15×CP=12×SP
+	•	CPSP =1215 =45 .
+	•	Profit =SP−CP=5−4=1 unit.
+	•	Profit Percentage =CPProfit ×100=41 ×100=25%."
+            },{
+              "question-hindi": "एक 450 मीटर लंबी ट्रेन 54 किमी/घंटा की गति से चल रही है। रेलवे लाइन के पास खड़े एक व्यक्ति को पार करने में उसे कितना समय (सेकंड में) लगेगा?",
+              "question-english" : "A 450 m long train is running at the speed of 54 km/h. The time (in seconds) in which it would pass a man standing near the railway line is: ",
+              "options-hindi": ["(a) 30", "(b) 25", "(c) 40", "(d) 20"],
+              "options-english": ["(a) 30", "(b) 25", "(c) 40", "(d) 20"],
+              "answer-hindi": "समाधान: (a) 30",
+              "answer-english": "Answer: (a) 30",
+              "solution-hindi": "	•	जब कोई ट्रेन किसी खड़े व्यक्ति को पार करती है, तो तय की गई दूरी ट्रेन की लंबाई के बराबर होती है।
+	•	दूरी (D) = ट्रेन की लंबाई = 450 मीटर।
+	•	गति (S) = 54 किमी/घंटा।
+	•	गति को मी/से में बदलें: S = 54 * (5/18) = 15 मी/से।
+	•	समय (T) = D / S = 450 मी / 15 मी/से = 30 सेकंड।",
+              "solution-english": "•	When a train passes a man standing near the line, the distance covered is equal to the length of the train.
+	•	Distance (D) = Length of train = 450 m.
+	•	Speed (S) = 54 km/h.
+	•	Convert speed to m/s: S=54×185 =3×5=15 m/s.
+	•	Time (T) =SD =15 m/s450 m =30 seconds."
+            },{
+              "question-hindi": "एक खेत में, दो-पांचवां हिस्सा गायें चली गईं, और शेष गायों का तीन-चौथाई हिस्सा भटक गया। अंत में, 18 गायें बचीं, जो पानी पीने चली गईं। तो, शुरुआत में कुल कितनी गायें थीं?",
+              "question-english" : " In a field, two-fifths of the cows walked away, and three-quarters of the remaining cows wandered off. In the end, 18 cows were left, which went to drink water. So, what was the total number of cows in the beginning?",
+              "options-hindi": ["(a) 100", "(b) 120", "(c) 150", "(d) 90"],
+              "options-english": ["(a) 100", "(b) 120", "(c) 150", "(d) 90"],
+              "answer-hindi": "समाधान: (b) 120",
+              "answer-english": "Answer: (b) 120",
+              "solution-hindi": "•	मान लीजिए गायों की कुल संख्या N है।
+	•	पहला हिस्सा चला गया = (2/5)N।
+	•	शेष गायें = N - (2/5)N = (3/5)N।
+	•	दूसरा हिस्सा भटक गया = (3/4) * (शेष गायें) = (3/4) * (3/5)N = (9/20)N।
+	•	शेष बची गायों का भिन्न = 1 - 3/4 = 1/4
+	•	बची हुई गायें = (1/4) * (3/5)N = (3/20)N।
+	•	हमें दिया गया है कि 18 गायें बची थीं।
+	•	(3/20)N = 18 → N = 18 * (20/3) = 6 * 20 = 120।",
+              "solution-english": "	•	Let Total Number of Cows be N.
+	•	First part walked away =52 N.
+	•	Remaining Cows =N−52 N=53 N.
+	•	Second part wandered off =43 ×(Remaining Cows)=43 ×53 N=209 N.
+	•	Cows Left =Remaining−Second part=53 N−209 N.
+	◦	Alternative: The fraction remaining after the second group wandered off is 1−43 =41 of the remaining cows.
+	•	Cows Left =41 ×(53 N)=203 N.
+	•	We are given that 9 cows were left.
+	•	203 N=18
+	•	N=18×320 =6×20=∗∗120.**
+	•	Answer: (b) 120"
+            },{
+              "question-hindi": "सात क्रमागत विषम संख्याओं का औसत 31 है। इन 7 दी गई संख्याओं में से सबसे बड़ी तीन का औसत क्या है?",
+              "question-english" : "The average of seven consecutive odd numbers is 31. What is the average of the largest three of these 7 given numbers? ",
+              "options-hindi": ["(a) 35", "(b) 36", "(c) 33", "(d) 37"],
+              "options-english": ["(a) 35", "(b) 36", "(c) 33", "(d) 37"],
+              "answer-hindi": "समाधान: (a) 35",
+              "answer-english": "Answer: (a) 35",
+              "solution-hindi": "•	क्रमागत संख्याओं का औसत बीच की संख्या होती है।
+	•	7 क्रमागत विषम संख्याओं का औसत = 31।
+	•	तो, चौथी संख्या 31 है।
+	•	7 संख्याएं हैं: 25, 27, 29, 31, 33, 35, 37।
+	•	सबसे बड़ी तीन संख्याएं 33, 35, 37 हैं।
+	•	सबसे बड़ी तीन का औसत = (33+35+37)/3 = 105/3 = 35।
+	•	वैकल्पिक: तीन क्रमागत विषम संख्याओं का औसत बीच वाली संख्या होती है, जो कि 35 है।",
+              "solution-english": "•	The average of consecutive numbers is the middle number.
+	•	Average of 7 consecutive odd numbers = 31.
+	•	The 4th number is 31.
+	•	The 7 numbers are: 25,27,29,31,33,35,37.
+	•	Largest three numbers are 33, 35, 37.
+	•	Average of largest three =333+35+37 =3105 =35.
+	◦	Alternative: The average of the three consecutive odd numbers is the middle one, which is 35."
+            },{
+              "question-hindi": "अर्जुन का व्यय उसकी बचत से 100% अधिक है। यदि उसकी आय में 15% की वृद्धि होती है और व्यय में 10% की वृद्धि होती है, तो उसकी बचत में कितनी वृद्धि होती है?",
+              "question-english" : "The expenditure of Arjun is 100% more than his savings. If his income increases by 15% and expenditure increases by 10%, then his savings increase by:",
+              "options-hindi": ["(a) 15%", "(b) 20%", "(c) 25%", "(d) 30%"],
+              "options-english": ["(a) 15%", "(b) 20%", "(c) 25%", "(d) 30%"],
+              "answer-hindi": "समाधान: (c) 25%",
+              "answer-english": "Solution: (c) 25%",
+              "solution-hindi": "	•	मान लीजिए बचत S = 100। व्यय E = 200। आय I = 300।
+	•	नई I = 300 * 1.15 = 345। नई E = 200 * 1.10 = 220।
+	•	नई S = 345 - 220 = 125।
+	•	वृद्धि 25 है, जो 100 का 25% है।",
+              "solution-english": "◦	Let savings S=100. Expenditure E=200. Income I=300.
+	◦	New I = 3001.15 = 345. New E = 2001.10 = 220.
+	◦	New S = 345 - 220 = 125.
+	◦	Increase is 25, which is 25% of 100."
+            },{
+              "question-hindi": " 8 मजदूर एक घर को 12 दिनों में पेंट कर सकते हैं, और 16 पेंटर उसी घर को पेंट करने में 6 दिन लेते हैं। 4 मजदूर और 8 पेंटर उसी घर को पेंट करने में कितने दिन लेंगे?",
+              "question-english" : " 8 workers can paint a house in 12 days, and 16 painters take 6 days to paint the same house. How many days will 4 workers and 8 painters take to paint the same house? ",
+              "options-hindi": ["(a) 12", "(b) 9", "(c) 16", "(d) 8"],
+              "options-english": ["(a) 12", "(b) 9", "(c) 16", "(d) 8"],
+              "answer-hindi": "समाधान: (d) 8 दिन",
+              "answer-english": "answer : (d) 8 days.",
+              "solution-hindi": "	•	मान लीजिए W एक मजदूर की कार्य दर है और P एक पेंटर की कार्य दर है।
+	•	8 मजदूर * 12 दिन = कुल कार्य (J) → 96W = J
+	•	16 पेंटर * 6 दिन = J → 96P = J
+	•	तुलना करने पर: 96W = 96P → 1 मजदूर 1 पेंटर के बराबर है (W=P)।
+	•	नई टीम 4 मजदूर और 8 पेंटर है। चूंकि W=P, यह 4+8=12 मजदूरों के बराबर है।
+	•	12W * D = J। हम जानते हैं कि 96W = J।
+	•	12W * D = 96W → D = 96/12 = 8 दिन।",
+              "solution-english": "Let W be the work rate of a worker and P be the work rate of a painter.
+	•	Total Work (J) is constant.
+	•	8 workers×12 days=J⟹96W=J⟹W=96J 
+	•	16 painters×6 days=J⟹96P=J⟹P=96J 
+	•	Equivalency: 96W=96P⟹∗∗1 worker is equivalent to 1 painter** (i.e., W=P).
+	•	The new team is 4 workers and 8 painters. Since W=P, this is equivalent to 4+8=12 workers (or 12 painters).
+	•	Let D be the number of days required.
+	•	Total Work Rate of New Team ×D=J
+	•	(4W+8P)×D=J
+	•	(4W+8W)×D=J (Converting all to worker units)
+	•	12W×D=J
+	•	We know 96W=J.
+	•	12W×D=96W
+	•	D=1296 =∗∗8 days"
+            },
           ]
     },
     {
@@ -982,7 +1166,7 @@
               "answer-english": "Correct Answer: D",
               "solution-hindi": "हल: Home टैब में टेक्स्ट फॉर्मेटिंग के लिए सबसे अधिक उपयोग किए जाने वाले कमांड होते हैं, जिसमें फ़ॉन्ट समूह (फ़ॉन्ट प्रकार, आकार, रंग, बोल्ड, इटैलिक आदि बदलने के लिए) और पैराग्राफ समूह (संरेखण, इंडेंटेशन और सूचियों के लिए) शामिल हैं।",
               "solution-english": "Solution: The Home tab contains the most frequently used commands for text formatting, including the Font group (for changing font type, size, color, bold, italic, etc.) and the Paragraph group (for alignment, indentation, and lists)."
-            }
+            },
           ]
     }
   ]

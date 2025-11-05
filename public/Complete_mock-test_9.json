@@ -3,7 +3,7 @@
     {
       "section": "General Science",
           "questions": [
-           {
+            {
     "question-english": "In India, which mode of transport provide door to door services?",
     "question-hindi": "भारत में, कौन सा परिवहन का माध्यम घर-घर तक सेवाएँ प्रदान करता है?",
     "options-english": ["(a) Railways", "(b) Waterways", "(c) Road transport", "(d) Airways"],
@@ -82,6 +82,105 @@
     "answer-hindi": "(b) समान न्याय और मुफ्त कानूनी सहायता",
     "solution-english": "Article 39A directs the state to provide free legal aid to ensure justice is not denied due to economic or other disabilities.",
     "solution-hindi": "अनुच्छेद 39A राज्य को यह सुनिश्चित करने का निर्देश देता है कि कोई भी नागरिक आर्थिक या अन्य अक्षमताओं के कारण न्याय से वंचित न रहे।"
+  },{
+    "question-english": "The Harappan city of Dholavira was divided into how many parts?",
+    "question-hindi": "हड़प्पा शहर धोलावीरा को कितने भागों में विभाजित किया गया था?",
+    "options-english": ["(a) 4", "(b) 5", "(c) 3", "(d) 2"],
+    "options-hindi": ["(a) 4", "(b) 5", "(c) 3", "(d) 2"],
+    "answer-english": "(c) 3",
+    "answer-hindi": "(c) 3",
+    "solution-english": "Dholavira was divided into three parts — citadel, middle town, and lower town, showing advanced urban planning.",
+    "solution-hindi": "धोलावीरा तीन भागों — गढ़, मध्य नगर और निचले नगर — में विभाजित था, जो उन्नत नगर नियोजन को दर्शाता है।"
+  },
+  {
+    "question-english": "Which river is known as the 'Sorrow of Bihar'?",
+    "question-hindi": "कौन सी नदी ‘बिहार का शोक’ कहलाती है?",
+    "options-english": ["(a) Kosi", "(b) Ganga", "(c) Son", "(d) Gandak"],
+    "options-hindi": ["(a) कोसी", "(b) गंगा", "(c) सोन", "(d) गंडक"],
+    "answer-english": "(a) Kosi",
+    "answer-hindi": "(a) कोसी",
+    "solution-english": "The Kosi River is known as the 'Sorrow of Bihar' because of its frequent and devastating floods.",
+    "solution-hindi": "कोसी नदी को ‘बिहार का शोक’ कहा जाता है क्योंकि यह बार-बार और विनाशकारी बाढ़ लाती है।"
+  },
+  {
+    "question-english": "Who was the first Indian woman to climb Mount Everest?",
+    "question-hindi": "माउंट एवरेस्ट पर चढ़ने वाली पहली भारतीय महिला कौन थीं?",
+    "options-english": ["(a) Bachendri Pal", "(b) Santosh Yadav", "(c) Premlata Agarwal", "(d) Arunima Sinha"],
+    "options-hindi": ["(a) बछेंद्री पाल", "(b) संतोष यादव", "(c) प्रेmlता अग्रवाल", "(d) अरुणिमा सिन्हा"],
+    "answer-english": "(a) Bachendri Pal",
+    "answer-hindi": "(a) बछेंद्री पाल",
+    "solution-english": "Bachendri Pal became the first Indian woman to climb Mount Everest in 1984.",
+    "solution-hindi": "बछेंद्री पाल 1984 में माउंट एवरेस्ट पर चढ़ने वाली पहली भारतीय महिला बनीं।"
+  },
+  {
+    "question-english": "Who is known as the 'Missile Man of India'?",
+    "question-hindi": "भारत के 'मिसाइल मैन' के रूप में कौन जाने जाते हैं?",
+    "options-english": ["(a) Dr. APJ Abdul Kalam", "(b) Vikram Sarabhai", "(c) Homi Bhabha", "(d) Satish Dhawan"],
+    "options-hindi": ["(a) डॉ. ए.पी.जे. अब्दुल कलाम", "(b) विक्रम साराभाई", "(c) होमी भाभा", "(d) सतीश धवन"],
+    "answer-english": "(a) Dr. APJ Abdul Kalam",
+    "answer-hindi": "(a) डॉ. ए.पी.जे. अब्दुल कलाम",
+    "solution-english": "Dr. APJ Abdul Kalam is called the 'Missile Man of India' for his contribution to India's missile development programs.",
+    "solution-hindi": "डॉ. ए.पी.जे. अब्दुल कलाम को भारत के ‘मिसाइल मैन’ कहा जाता है क्योंकि उन्होंने देश के मिसाइल कार्यक्रमों में महत्वपूर्ण योगदान दिया।"
+  },
+  {
+    "question-english": "In which year was the Indian National Congress founded?",
+    "question-hindi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई थी?",
+    "options-english": ["(a) 1885", "(b) 1890", "(c) 1905", "(d) 1911"],
+    "options-hindi": ["(a) 1885", "(b) 1890", "(c) 1905", "(d) 1911"],
+    "answer-english": "(a) 1885",
+    "answer-hindi": "(a) 1885",
+    "solution-english": "The Indian National Congress was founded in 1885 by A.O. Hume.",
+    "solution-hindi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में ए.ओ. ह्यूम द्वारा की गई थी।"
+  },
+  {
+    "question-english": "Which planet is known as the Red Planet?",
+    "question-hindi": "कौन सा ग्रह लाल ग्रह के रूप में जाना जाता है?",
+    "options-english": ["(a) Mars", "(b) Venus", "(c) Jupiter", "(d) Mercury"],
+    "options-hindi": ["(a) मंगल", "(b) शुक्र", "(c) बृहस्पति", "(d) बुध"],
+    "answer-english": "(a) Mars",
+    "answer-hindi": "(a) मंगल",
+    "solution-english": "Mars appears red due to the presence of iron oxide on its surface.",
+    "solution-hindi": "मंगल ग्रह की सतह पर लौह ऑक्साइड होने के कारण यह लाल दिखाई देता है।"
+  },
+  {
+    "question-english": "Who invented the telephone?",
+    "question-hindi": "टेलीफोन का आविष्कार किसने किया था?",
+    "options-english": ["(a) Alexander Graham Bell", "(b) Thomas Edison", "(c) Nikola Tesla", "(d) James Watt"],
+    "options-hindi": ["(a) अलेक्जेंडर ग्राहम बेल", "(b) थॉमस एडिसन", "(c) निकोला टेस्ला", "(d) जेम्स वाट"],
+    "answer-english": "(a) Alexander Graham Bell",
+    "answer-hindi": "(a) अलेक्जेंडर ग्राहम बेल",
+    "solution-english": "Alexander Graham Bell invented the telephone in 1876.",
+    "solution-hindi": "अलेक्जेंडर ग्राहम बेल ने 1876 में टेलीफोन का आविष्कार किया था।"
+  },
+  {
+    "question-english": "Which gas is used in fire extinguishers?",
+    "question-hindi": "अग्निशामक यंत्रों में किस गैस का उपयोग किया जाता है?",
+    "options-english": ["(a) Carbon dioxide", "(b) Oxygen", "(c) Nitrogen", "(d) Hydrogen"],
+    "options-hindi": ["(a) कार्बन डाइऑक्साइड", "(b) ऑक्सीजन", "(c) नाइट्रोजन", "(d) हाइड्रोजन"],
+    "answer-english": "(a) Carbon dioxide",
+    "answer-hindi": "(a) कार्बन डाइऑक्साइड",
+    "solution-english": "Carbon dioxide is used in fire extinguishers because it cuts off the supply of oxygen to the fire.",
+    "solution-hindi": "अग्निशामक यंत्रों में कार्बन डाइऑक्साइड का उपयोग किया जाता है क्योंकि यह आग को ऑक्सीजन से वंचित कर देती है।"
+  },
+  {
+    "question-english": "Which device is used to measure atmospheric pressure?",
+    "question-hindi": "वायुमंडलीय दाब मापने के लिए कौन-सा यंत्र प्रयोग किया जाता है?",
+    "options-english": ["(a) Barometer", "(b) Thermometer", "(c) Hygrometer", "(d) Altimeter"],
+    "options-hindi": ["(a) बैरोमीटर", "(b) थर्मामीटर", "(c) हाइग्रोमीटर", "(d) अल्टीमीटर"],
+    "answer-english": "(a) Barometer",
+    "answer-hindi": "(a) बैरोमीटर",
+    "solution-english": "A barometer is used to measure atmospheric pressure, helping in weather forecasting.",
+    "solution-hindi": "बैरोमीटर का उपयोग वायुमंडलीय दाब मापने के लिए किया जाता है, जो मौसम पूर्वानुमान में सहायक होता है।"
+  },
+  {
+    "question-english": "Which element is essential for photosynthesis?",
+    "question-hindi": "प्रकाश संश्लेषण के लिए कौन-सा तत्व आवश्यक है?",
+    "options-english": ["(a) Carbon dioxide", "(b) Nitrogen", "(c) Sulphur", "(d) Iron"],
+    "options-hindi": ["(a) कार्बन डाइऑक्साइड", "(b) नाइट्रोजन", "(c) सल्फर", "(d) लोहा"],
+    "answer-english": "(a) Carbon dioxide",
+    "answer-hindi": "(a) कार्बन डाइऑक्साइड",
+    "solution-english": "Plants use carbon dioxide, water, and sunlight to make food through photosynthesis.",
+    "solution-hindi": "पौधे प्रकाश संश्लेषण की प्रक्रिया में कार्बन डाइऑक्साइड, जल और सूर्य के प्रकाश का उपयोग करके भोजन बनाते हैं।"
   },
   {
     "question-english": "The first battle of Panipat was fought between Babur and ________.",

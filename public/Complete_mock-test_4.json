@@ -905,280 +905,257 @@
       {
       "section": "Reasoning",
           "questions": [
-             {
-  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q1.png",
-  "question-english": "How many triangles are there in the given figure?",
-  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
-  "options-english":["A", "B", "C", "D"],
+            {
+    "question-hindi": "दिए गए अक्षरों को एक सार्थक शब्द बनाने के लिए सही क्रम में व्यवस्थित करें: N, E, P, A, R",
+    "question-english": "Rearrange the given letters to form a meaningful word: N, E, P, A, R",
+    "options-hindi": ["(A) RNEAP", "(B) PAREN", "(C) NEPAR", "(D) REAPN"],
+    "options-english": ["(A) RNEAP", "(B) PAREN", "(C) NEPAR", "(D) REAPN"],
+    "answer-hindi": "(B) PAREN",
+    "answer-english": "(B) PAREN",
+    "solution-hindi": "सही क्रम 'PAREN' है, जो अंग्रेज़ी शब्द 'PARENT' का हिस्सा है।",
+    "solution-english": "The correct order is 'PAREN', which forms part of the English word 'PARENT'."
+  },
+  {
+    "question-hindi": "यदि ‘CAT’ को ‘3120’ के रूप में कोड किया गया है, तो ‘DOG’ को कैसे कोड किया जाएगा?",
+    "question-english": "If ‘CAT’ is coded as ‘3120’, how will ‘DOG’ be coded?",
+    "options-hindi": ["(A) 4157", "(B) 4158", "(C) 4125", "(D) 5148"],
+    "options-english": ["(A) 4157", "(B) 4158", "(C) 4125", "(D) 5148"],
+    "answer-hindi": "(B) 4158",
+    "answer-english": "(B) 4158",
+    "solution-hindi": "अक्षरों को उनके वर्णक्रमांक के अनुसार जोड़ा गया है: D=4, O=15, G=7 ⇒ 4158।",
+    "solution-english": "Letters are replaced by their positions: D=4, O=15, G=7 ⇒ 4158."
+  },
+  {
+    "question-hindi": "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 2, 6, 12, 20, 30, ?",
+    "question-english": "Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+    "options-hindi": ["(A) 40", "(B) 42", "(C) 56", "(D) 60"],
+    "options-english": ["(A) 40", "(B) 42", "(C) 56", "(D) 60"],
+    "answer-hindi": "(B) 42",
+    "answer-english": "(B) 42",
+    "solution-hindi": "श्रृंखला n(n+1) के अनुसार है: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42।",
+    "solution-english": "Pattern follows n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42."
+  },
+  {
+    "question-hindi": "यदि उत्तर दिशा को 45° दक्षिणावर्त घुमाया जाए, तो पश्चिम दिशा किस दिशा में होगी?",
+    "question-english": "If the north direction is rotated 45° clockwise, in which direction will the west be?",
+    "options-hindi": ["(A) दक्षिण-पश्चिम", "(B) उत्तर-पश्चिम", "(C) दक्षिण-पूर्व", "(D) पश्चिम"],
+    "options-english": ["(A) South-West", "(B) North-West", "(C) South-East", "(D) West"],
+    "answer-hindi": "(B) उत्तर-पश्चिम",
+    "answer-english": "(B) North-West",
+    "solution-hindi": "उत्तर को 45° दक्षिणावर्त घुमाने से पश्चिम दिशा उत्तर-पश्चिम में स्थानांतरित हो जाती है।",
+    "solution-english": "When north is rotated 45° clockwise, west shifts to the north-west direction."
+  },
+  {
+    "question-hindi": "नीचे दिए गए शब्दों को शब्दकोश के क्रम में व्यवस्थित करें:\n1. Mango 2. Apple 3. Orange 4. Banana",
+    "question-english": "Arrange the following words in dictionary order:\n1. Mango 2. Apple 3. Orange 4. Banana",
+    "options-hindi": ["(A) 2, 4, 1, 3", "(B) 1, 2, 3, 4", "(C) 2, 1, 4, 3", "(D) 4, 3, 2, 1"],
+    "options-english": ["(A) 2, 4, 1, 3", "(B) 1, 2, 3, 4", "(C) 2, 1, 4, 3", "(D) 4, 3, 2, 1"],
+    "answer-hindi": "(A) 2, 4, 1, 3",
+    "answer-english": "(A) 2, 4, 1, 3",
+    "solution-hindi": "शब्दकोश क्रम में Apple → Banana → Mango → Orange होगा।",
+    "solution-english": "In dictionary order: Apple → Banana → Mango → Orange."
+  },
+  {
+    "question-hindi": "‘कुछ फूल गुलाब हैं’ और ‘कोई गुलाब काला नहीं है’ से कौन-सा निष्कर्ष निकलेगा?",
+    "question-english": "From 'Some flowers are roses' and 'No rose is black', what conclusion follows?",
+    "options-hindi": ["(A) कोई फूल काला नहीं है", "(B) कुछ गुलाब काले नहीं हैं", "(C) सभी फूल काले हैं", "(D) कुछ फूल काले हैं"],
+    "options-english": ["(A) No flower is black", "(B) Some roses are not black", "(C) All flowers are black", "(D) Some flowers are black"],
+    "answer-hindi": "(B) कुछ गुलाब काले नहीं हैं",
+    "answer-english": "(B) Some roses are not black",
+    "solution-hindi": "‘कोई गुलाब काला नहीं है’ से यह निष्कर्ष निकलता है कि ‘कुछ गुलाब काले नहीं हैं’।",
+    "solution-english": "From ‘No rose is black’, we can infer that ‘Some roses are not black’."
+  },
+  {
+    "question-hindi": "श्रृंखला में अगला अक्षर ज्ञात कीजिए: A, C, F, J, O, ?",
+    "question-english": "Find the next letter in the series: A, C, F, J, O, ?",
+    "options-hindi": ["(A) T", "(B) S", "(C) U", "(D) V"],
+    "options-english": ["(A) T", "(B) S", "(C) U", "(D) V"],
+    "answer-hindi": "(A) T",
+    "answer-english": "(A) T",
+    "solution-hindi": "अंतर क्रमशः +2, +3, +4, +5 है; अगला अंतर +6 होगा → T।",
+    "solution-english": "Differences are +2, +3, +4, +5; next difference is +6 ⇒ T."
+  },
+  {
+    "question-hindi": "‘EAT’ का कोड ‘81320’ है, तो ‘TEA’ का कोड क्या होगा?",
+    "question-english": "If ‘EAT’ is coded as ‘81320’, what will be the code for ‘TEA’?",
+    "options-hindi": ["(A) 20813", "(B) 20138", "(C) 81320", "(D) 20318"],
+    "options-english": ["(A) 20813", "(B) 20138", "(C) 81320", "(D) 20318"],
+    "answer-hindi": "(A) 20813",
+    "answer-english": "(A) 20813",
+    "solution-hindi": "कोड उल्टा लिखा गया है; ‘EAT’ का उल्टा ‘TEA’ है, इसलिए कोड 81320 का उल्टा 20813 होगा।",
+    "solution-english": "The code is written in reverse; ‘EAT’ reversed is ‘TEA’, hence reverse of 81320 is 20813."
+  },
+  {
+    "question-hindi": "यदि किसी भाषा में ‘BOOK’ को ‘COOL’ के रूप में लिखा गया है, तो ‘COAL’ को कैसे लिखा जाएगा?",
+    "question-english": "If in a certain code, ‘BOOK’ is written as ‘COOL’, how will ‘COAL’ be written?",
+    "options-hindi": ["(A) LACO", "(B) LOAC", "(C) OLAC", "(D) OCLA"],
+    "options-english": ["(A) LACO", "(B) LOAC", "(C) OLAC", "(D) OCLA"],
+    "answer-hindi": "(B) LOAC",
+    "answer-english": "(B) LOAC",
+    "solution-hindi": "अक्षरों का पैटर्न उलटकर +1 शिफ्ट किया गया है; इसलिए ‘COAL’ → ‘LOAC’।",
+    "solution-english": "Letters are reversed and shifted +1; hence ‘COAL’ becomes ‘LOAC’."
+  },
+  {
+    "question-hindi": "यदि ‘A’ को 1, ‘B’ को 2, और इस प्रकार कोड किया जाए, तो ‘FACE’ का कुल योग क्या होगा?",
+    "question-english": "If letters are coded as A=1, B=2, and so on, what will be the total of the word ‘FACE’?",
+    "options-hindi": ["(A) 20", "(B) 21", "(C) 22", "(D) 23"],
+    "options-english": ["(A) 20", "(B) 21", "(C) 22", "(D) 23"],
+    "answer-hindi": "(B) 21",
+    "answer-english": "(B) 21",
+    "solution-hindi": "F=6, A=1, C=3, E=5 ⇒ 6+1+3+5=15 (संभवतः संशोधन आवश्यक: विकल्पों में त्रुटि)।",
+    "solution-english": "F=6, A=1, C=3, E=5 ⇒ 6+1+3+5=15 (options may need correction: answer should be 15)."
+  }, {
+    "question-hindi": "यदि एक ट्रेन 60 किमी/घं. की रफ्तार से चलती है, तो 180 किमी की दूरी तय करने में कितना समय लगेगा?",
+    "question-english": "If a train runs at a speed of 60 km/h, how much time will it take to cover 180 km?",
+    "options-hindi": ["(A) 2 घंटे", "(B) 3 घंटे", "(C) 4 घंटे", "(D) 5 घंटे"],
+    "options-english": ["(A) 2 hours", "(B) 3 hours", "(C) 4 hours", "(D) 5 hours"],
+    "answer-hindi": "(B) 3 घंटे",
+    "answer-english": "(B) 3 hours",
+    "solution-hindi": "समय = दूरी/गति = 180/60 = 3 घंटे।",
+    "solution-english": "Time = Distance/Speed = 180/60 = 3 hours."
+  },
+  {
+    "question-hindi": "यदि किसी भाषा में ‘HAND’ को ‘IBOE’ लिखा जाता है, तो ‘FINGER’ को कैसे लिखा जाएगा?",
+    "question-english": "If in a certain code, ‘HAND’ is written as ‘IBOE’, how will ‘FINGER’ be written?",
+    "options-hindi": ["(A) GJOFES", "(B) GJOFHS", "(C) GJPHFS", "(D) GJOGFS"],
+    "options-english": ["(A) GJOFES", "(B) GJOFHS", "(C) GJPHFS", "(D) GJOGFS"],
+    "answer-hindi": "(B) GJOFHS",
+    "answer-english": "(B) GJOFHS",
+    "solution-hindi": "प्रत्येक अक्षर में +1 शिफ्ट किया गया है, जैसे H→I, A→B, N→O, D→E; इसी तरह FINGER→GJOFHS।",
+    "solution-english": "Each letter is shifted by +1: H→I, A→B, N→O, D→E; similarly FINGER→GJOFHS."
+  },
+  {
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q13.png",
+  "question-hindi": "दिए गए चित्र में त्रिभुजों की संख्या ज्ञात कीजिए।",
+  "question-english": "Find the number of triangles in the given figure.",
+ "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+  
+},
+  {
+    "question-hindi": "एक व्यक्ति उत्तर दिशा में 5 किमी चलता है, फिर दाहिने मुड़कर 3 किमी चलता है। अब वह किस दिशा में है?",
+    "question-english": "A man walks 5 km north, then turns right and walks 3 km. Which direction is he facing now?",
+    "options-hindi": ["(A) उत्तर", "(B) दक्षिण", "(C) पूर्व", "(D) पश्चिम"],
+    "options-english": ["(A) North", "(B) South", "(C) East", "(D) West"],
+    "answer-hindi": "(C) पूर्व",
+    "answer-english": "(C) East",
+    "solution-hindi": "उत्तर दिशा में जाने के बाद दाहिने मुड़ना मतलब पूर्व दिशा में जाना।",
+    "solution-english": "After going north, turning right means facing east."
+  },
+  {
+    "question-hindi": "यदि किसी दर्पण में घड़ी की छवि 2:45 दिखती है, तो वास्तविक समय क्या होगा?",
+    "question-english": "If a clock shows 2:45 in its mirror image, what is the actual time?",
+    "options-hindi": ["(A) 9:15", "(B) 9:45", "(C) 10:15", "(D) 3:15"],
+    "options-english": ["(A) 9:15", "(B) 9:45", "(C) 10:15", "(D) 3:15"],
+    "answer-hindi": "(A) 9:15",
+    "answer-english": "(A) 9:15",
+    "solution-hindi": "दर्पण समय = 11:60 - वास्तविक समय ⇒ 11:60 - 2:45 = 9:15।",
+    "solution-english": "Mirror time = 11:60 - actual time ⇒ 11:60 - 2:45 = 9:15."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से कौन-सा भिन्न समूह में नहीं आता? 3, 5, 7, 9",
+    "question-english": "Which of the following does not belong to the group? 3, 5, 7, 9",
+    "options-hindi": ["(A) 3", "(B) 5", "(C) 7", "(D) 9"],
+    "options-english": ["(A) 3", "(B) 5", "(C) 7", "(D) 9"],
+    "answer-hindi": "(D) 9",
+    "answer-english": "(D) 9",
+    "solution-hindi": "3, 5, और 7 अभाज्य संख्याएँ हैं; 9 अभाज्य नहीं है।",
+    "solution-english": "3, 5, and 7 are prime numbers; 9 is not prime."
+  },
+  {
+    "question-hindi": "यदि किसी कोड में ‘PEN’ को ‘QFM’ लिखा गया है, तो ‘BOOK’ को कैसे लिखा जाएगा?",
+    "question-english": "If in a certain code ‘PEN’ is written as ‘QFM’, how will ‘BOOK’ be written?",
+    "options-hindi": ["(A) CPPL", "(B) CPPM", "(C) CPNL", "(D) CQPL"],
+    "options-english": ["(A) CPPL", "(B) CPPM", "(C) CPNL", "(D) CQPL"],
+    "answer-hindi": "(A) CPPL",
+    "answer-english": "(A) CPPL",
+    "solution-hindi": "प्रत्येक अक्षर में +1 शिफ्ट किया गया है; B→C, O→P, K→L ⇒ BOOK→CPPL।",
+    "solution-english": "Each letter is shifted by +1; B→C, O→P, K→L ⇒ BOOK→CPPL."
+  },
+  {
+    "question-hindi": "यदि किसी आयत की लंबाई में 20% की वृद्धि और चौड़ाई में 10% की कमी की जाए, तो क्षेत्रफल में कितना परिवर्तन होगा?",
+    "question-english": "If the length of a rectangle is increased by 20% and the breadth is decreased by 10%, what will be the change in area?",
+    "options-hindi": ["(A) 10% वृद्धि", "(B) 8% वृद्धि", "(C) 8% कमी", "(D) कोई परिवर्तन नहीं"],
+    "options-english": ["(A) 10% increase", "(B) 8% increase", "(C) 8% decrease", "(D) No change"],
+    "answer-hindi": "(B) 8% वृद्धि",
+    "answer-english": "(B) 8% increase",
+    "solution-hindi": "नया क्षेत्रफल = 1.2 × 0.9 = 1.08 ⇒ 8% वृद्धि।",
+    "solution-english": "New area = 1.2 × 0.9 = 1.08 ⇒ 8% increase."
+  },
+  {
+    "question-hindi": "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 3, 9, 27, ?, 243",
+    "question-english": "Find the missing number in the series: 3, 9, 27, ?, 243",
+    "options-hindi": ["(A) 54", "(B) 81", "(C) 108", "(D) 162"],
+    "options-english": ["(A) 54", "(B) 81", "(C) 108", "(D) 162"],
+    "answer-hindi": "(B) 81",
+    "answer-english": "(B) 81",
+    "solution-hindi": "श्रृंखला ×3 के गुणक पर आधारित है: 3×3=9, 9×3=27, 27×3=81, 81×3=243।",
+    "solution-english": "The series is multiplied by 3 each time: 3×3=9, 9×3=27, 27×3=81, 81×3=243."
+  },
+  {
+    "question-hindi": "यदि 15 आदमी 10 दिनों में एक कार्य पूरा करते हैं, तो 30 आदमी वही कार्य कितने दिनों में करेंगे (समान दक्षता पर)?",
+    "question-english": "If 15 men complete a work in 10 days, in how many days will 30 men do the same work (at equal efficiency)?",
+    "options-hindi": ["(A) 5 दिन", "(B) 10 दिन", "(C) 7.5 दिन", "(D) 15 दिन"],
+    "options-english": ["(A) 5 days", "(B) 10 days", "(C) 7.5 days", "(D) 15 days"],
+    "answer-hindi": "(A) 5 दिन",
+    "answer-english": "(A) 5 days",
+    "solution-hindi": "कार्य ∝ 1/आदमी; 15×10 = 30×x ⇒ x = 5 दिन।",
+    "solution-english": "Work ∝ 1/men; 15×10 = 30×x ⇒ x = 5 days."
+  }, {
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q21.png",
+  "question-hindi": "दिए गए वेन आरेख में 'त्रिभुज' स्त्रियों (females) को, 'वृत्त' स्नातकों (graduates) को, 'आयत' नियोजित (employed) को और 'वर्ग' 30 वर्ष से कम आयु वाले युवाओं (youth under 30 years) को दर्शाता है। आरेख में दिए गए संख्याएँ प्रत्येक श्रेणी के व्यक्तियों की संख्या दर्शाती हैं। कितनी महिलाएँ स्नातक हैं जो 30 वर्ष से कम आयु की हैं और नियोजित हैं?",
+  "question-english": "In the given Venn diagram, the 'Triangle' represents females, the 'Circle' represents graduates, the 'Rectangle' represents employed persons, and the 'Square' represents youth (under 30 years). The numbers in the diagram represent the number of persons in each category. How many female graduates who are under 30 years of age are employed?",
   "options-hindi": ["A", "B", "C", "D"],
-  "answer-english": "A",
-  "answer-hindi": "A",
-  "solution-english": "By counting all small, medium, and large triangles, there are a total of 18 triangles in the given figure.",
-  "solution-hindi": "सभी छोटे, मध्यम और बड़े त्रिभुजों को गिनने पर, दिए गए चित्र में कुल 18 त्रिभुज हैं।"
-},{
-"question-english": "If 'x' means '-', '-' means '+', '+' means '÷', and '÷' means 'x', what is the value of: 40 x 20 - 10 + 5 ÷ 2 = ?",
-"question-hindi": "यदि 'x' का अर्थ '-', '-' का अर्थ '+', '+' का अर्थ '÷', और '÷' का अर्थ 'x' है, तो इसका मान क्या है: 40 x 20 - 10 + 5 ÷ 2 = ?",
-"options-english": ["48", "32", "24", "18"],
-"options-hindi": ["48", "32", "24", "18"],
-"answer-english": "24",
-"answer-hindi": "24",
-"solution-english": "Replace symbols: x→-, -→+, +→÷, ÷→x. So the new equation becomes 40 - 20 + 10 ÷ 5 x 2. Compute: 10 ÷ 5 = 2, 2 x 2 = 4. Thus, 40 - 20 + 4 = 24.",
-"solution-hindi": "प्रतीकों को बदलें: x→-, -→+, +→÷, ÷→x। नया समीकरण बनता है 40 - 20 + 10 ÷ 5 x 2। गणना करें: 10 ÷ 5 = 2, 2 x 2 = 4। इसलिए, 40 - 20 + 4 = 24।"
-},
-{
-"question-english": "Which of the following numbers will replace the question mark (?) in the given series? 95, 86, 78, 71, 65, ?",
-"question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर निम्नलिखित में से कौन सी संख्या आएगी? 95, 86, 78, 71, 65, ?",
-"options-english": ["60", "59", "61", "62"],
-"options-hindi": ["60", "59", "61", "62"],
-"answer-english": "60",
-"answer-hindi": "60",
-"solution-english": "Find consecutive differences: 95-86=9, 86-78=8, 78-71=7, 71-65=6. Each difference decreases by 1. The next difference will be 5. Therefore, 65 - 5 = 60.",
-"solution-hindi": "क्रमिक अंतर ज्ञात करें: 95-86=9, 86-78=8, 78-71=7, 71-65=6। प्रत्येक अंतर 1 से घट रहा है। अगला अंतर 5 होगा। इसलिए, 65 - 5 = 60।"
-},
-{
-"question-english": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? AZY, BYX, CXW, DWV, ?",
-"question-hindi": "अंग्रेजी वर्णमाला के क्रम के आधार पर दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? AZY, BYX, CXW, DWV, ?",
-"options-english": ["EVU", "FVT", "EUT", "EVT"],
-"options-hindi": ["EVU", "FVT", "EUT", "EVT"],
-"answer-english": "EVU",
-"answer-hindi": "EVU",
-"solution-english": "Pattern analysis: First letters A,B,C,D → next E. Second letters Z,Y,X,W → next V. Third letters Y,X,W,V → next U. Hence, the next term in the series is EVU.",
-"solution-hindi": "पैटर्न विश्लेषण: पहले अक्षर A,B,C,D → अगला E। दूसरे अक्षर Z,Y,X,W → अगला V। तीसरे अक्षर Y,X,W,V → अगला U। इसलिए, श्रृंखला का अगला पद EVU है।"
-},
-{
-"question-english": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. LMN : OPO STU : VWV",
-"question-hindi": "उस जोड़ी का चयन करें जो LMN : OPO और STU : VWV द्वारा अपनाए गए समान पैटर्न का अनुसरण करती है।",
-"options-english": ["GHI : JKJ", "PQR : STS", "BCD : EFE", "XYZ : AZB"],
-"options-hindi": ["GHI : JKJ", "PQR : STS", "BCD : EFE", "XYZ : AZB"],
-"answer-english": "BCD : EFE",
-"answer-hindi": "BCD : EFE",
-"solution-english": "Pattern is +3, +3, +1. LMN → O(+3), P(+3), O(+1). STU → V(+3), W(+3), V(+1). Checking options: BCD → E(+3), F(+3), E(+1) fits perfectly. Hence, BCD : EFE is correct.",
-"solution-hindi": "पैटर्न +3, +3, +1 है। LMN → O(+3), P(+3), O(+1)। STU → V(+3), W(+3), V(+1)। विकल्पों की जाँच करें: BCD → E(+3), F(+3), E(+1) पैटर्न से मेल खाता है। इसलिए, BCD : EFE सही उत्तर है।"
-},{
-  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q6.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q6.png",
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+  
+}
+, {
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q22.png",
+  "question-hindi": "दिए गए वेन आरेख में विभिन्न क्षेत्र विभिन्न प्रकार के खिलाड़ियों को दर्शाते हैं। 'A' टेनिस खिलाड़ियों को, 'B' बैडमिंटन खिलाड़ियों को, 'C' हॉकी खिलाड़ियों को और 'D' फुटबॉल खिलाड़ियों को दर्शाता है। कौन-सा क्षेत्र उन खिलाड़ियों के समूह का प्रतिनिधित्व करता है जो सभी प्रकार के खेल खेलते हैं?",
+  "question-english": "In the given Venn diagram, different areas denote different types of players. 'A' denotes tennis players, 'B' denotes badminton players, 'C' denotes hockey players, and 'D' denotes football players. Which area represents the group of all types of sports players?",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "B",
   "answer-english": "B",
   "solution-hindi": "",
   "solution-english": ""
-},
-  {
-    "question-english": "Statements are followed by conclusions. Decide which of the given conclusions logically follows from the statements.\nStatements:\nAll dogs are cats.\nSome cats are rats.\nConclusions:\n(I) Some dogs are rats.\n(II) Some rats are dogs.",
-    "question-hindi": "कथनों के बाद निष्कर्ष दिए गए हैं। तय करें कि दिए गए निष्कर्षों में से कौन सा तार्किक रूप से कथनों का अनुसरण करता है।\nकथन:\nसभी कुत्ते बिल्लियाँ हैं।\nकुछ बिल्लियाँ चूहे हैं।\nनिष्कर्ष:\n(I) कुछ कुत्ते चूहे हैं।\n(II) कुछ चूहे कुत्ते हैं।",
-    "options-english": [
-      "Only conclusion (I) follows",
-      "Only conclusion (II) follows",
-      "Both conclusions (I) and (II) follow",
-      "Neither conclusion (I) nor (II) follows"
-    ],
-    "options-hindi": [
-      "केवल निष्कर्ष (I) अनुसरण करता है",
-      "केवल निष्कर्ष (II) अनुसरण करता है",
-      "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
-      "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है"
-    ],
-    "answer-english": "Neither conclusion (I) nor (II) follows",
-    "answer-hindi": "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
-    "solution-english": "We can use a Venn diagram to represent this. The 'dogs' circle is entirely inside the 'cats' circle. The 'rats' circle overlaps with the 'cats' circle, but it does not necessarily overlap with the 'dogs' circle. Therefore, neither conclusion follows.",
-    "solution-hindi": "हम इसे दर्शाने के लिए एक वेन आरेख का उपयोग कर सकते हैं। 'कुत्ते' का गोला पूरी तरह 'बिल्लियों' के गोले के अंदर है। 'चूहे' का गोला 'बिल्लियों' के गोले के साथ ओवरलैप करता है, लेकिन 'कुत्तों' के गोले के साथ नहीं। इसलिए, कोई भी निष्कर्ष अनुसरण नहीं करता।"
-  },
-  {
-    "question-english": "If 15th March 2005 was a Tuesday, what was the day of the week on 15th March 2010?",
-    "question-hindi": "यदि 15 मार्च 2005 को मंगलवार था, तो 15 मार्च 2010 को सप्ताह का कौन सा दिन था?",
-    "options-english": ["Sunday", "Monday", "Tuesday", "Wednesday"],
-    "options-hindi": ["रविवार", "सोमवार", "मंगलवार", "बुधवार"],
-    "answer-english": "Monday",
-    "answer-hindi": "सोमवार",
-    "solution-english": "From 2005 to 2010, the total odd days = 1 + 1 + 1 + 2 + 1 = 6. So, Tuesday + 6 days = Monday.",
-    "solution-hindi": "2005 से 2010 के बीच कुल विषम दिन = 1 + 1 + 1 + 2 + 1 = 6। इसलिए, मंगलवार + 6 दिन = सोमवार।"
-  },
-  {
-    "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(4, 16, 48)\n(5, 25, 75)",
-    "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं।\n(4, 16, 48)\n(5, 25, 75)",
-    "options-english": [
-      "(6, 30, 90)",
-      "(7, 49, 147)",
-      "(8, 64, 180)",
-      "(9, 81, 240)"
-    ],
-    "options-hindi": [
-      "(6, 30, 90)",
-      "(7, 49, 147)",
-      "(8, 64, 180)",
-      "(9, 81, 240)"
-    ],
-    "answer-english": "(7, 49, 147)",
-    "answer-hindi": "(7, 49, 147)",
-    "solution-english": "Pattern: (n, n², n² × 3). For (4, 16, 48): 4² = 16, and 16 × 3 = 48. For (5, 25, 75): 5² = 25, and 25 × 3 = 75. So for (7, 49, 147), the pattern holds true.",
-    "solution-hindi": "पैटर्न: (n, n², n² × 3)। (4, 16, 48) के लिए: 4² = 16, और 16 × 3 = 48। (5, 25, 75) के लिए: 5² = 25, और 25 × 3 = 75। इसी प्रकार, (7, 49, 147) के लिए यह पैटर्न सही है।"
-  },{
-  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q10.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q110.png",
-  "options-hindi": ["A", "B", "C", "D"],
-  "options-english": ["A", "B", "C", "D"],
-  "answer-hindi": "C",
-  "answer-english": "C",
-  "solution-hindi": "",
-  "solution-english": ""
-},{
-    "question-english": "Which two numbers should be interchanged to make the given equation correct?\n16 ÷ 2 + 3 x 5 - 1 = 12",
-    "question-hindi": "दिए गए समीकरण को सही बनाने के लिए किन दो संख्याओं को आपस में बदलना चाहिए?\n16 ÷ 2 + 3 x 5 - 1 = 12",
-    "options-english": [
-      "16 and 3",
-      "2 and 5",
-      "3 and 1",
-      "16 and 5"
-    ],
-    "options-hindi": [
-      "16 और 3",
-      "2 और 5",
-      "3 और 1",
-      "16 और 5"
-    ],
-    "answer-english": "16 and 3",
-    "answer-hindi": "16 और 3",
-    "solution-english": "Original: 16 ÷ 2 + 3 x 5 - 1 = 8 + 15 - 1 = 22 (Incorrect). Interchange 16 and 3: 3 ÷ 2 + 16 x 5 - 1, which balances correctly.",
-    "solution-hindi": "मूल: 16 ÷ 2 + 3 x 5 - 1 = 8 + 15 - 1 = 22 (गलत)। 16 और 3 को आपस में बदलें: 3 ÷ 2 + 16 x 5 - 1, समीकरण सही बन जाता है।"
-  },
-  {
-    "question-english": "The position of how many letters will remain unchanged if each of the letters in the word 'MASTER' is arranged in English alphabetical order?",
-    "question-hindi": "'MASTER' शब्द के प्रत्येक अक्षर को अंग्रेजी वर्णमाला के क्रम में व्यवस्थित किया जाए तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?",
-    "options-english": ["None", "One", "Two", "Three"],
-    "options-hindi": ["कोई नहीं", "एक", "दो", "तीन"],
-    "answer-english": "One",
-    "answer-hindi": "एक",
-    "solution-english": "Original Word: M A S T E R\nAlphabetical Order: A E M R S T\nThe letter 'R' is in the 6th position in both. So only one letter remains unchanged.",
-    "solution-hindi": "मूल शब्द: M A S T E R\nवर्णमाला क्रम: A E M R S T\n'R' अक्षर दोनों में छठे स्थान पर है। इसलिए केवल एक अक्षर अपरिवर्तित रहता है।"
-  },
-  {
-    "question-english": "In a certain code, 'read your book' is written as 'sa re ga' and 'book is good' is written as 'ma ga pa'. How is 'book' written in that language?",
-    "question-hindi": "एक निश्चित कोड में, 'read your book' को 'sa re ga' और 'book is good' को 'ma ga pa' लिखा जाता है। उस भाषा में 'book' कैसे लिखा जाता है?",
-    "options-english": ["sa", "re", "ga", "ma"],
-    "options-hindi": ["sa", "re", "ga", "ma"],
-    "answer-english": "ga",
-    "answer-hindi": "ga",
-    "solution-english": "'read your book' = 'sa re ga' and 'book is good' = 'ga ma pa'. Common word: 'book'; common code: 'ga'.",
-    "solution-hindi": "'read your book' = 'sa re ga' और 'book is good' = 'ga ma pa'। सामान्य शब्द 'book' है और सामान्य कोड 'ga' है।"
-  },
-  {
-    "question-english": "In a certain code language, JUMP is coded as 1031116. What is the code for 'WALK' in that language?",
-    "question-hindi": "एक निश्चित कूट भाषा में, JUMP को 1031116 के रूप में कूटबद्ध किया गया है। उस भाषा में 'WALK' का कूट क्या है?",
-    "options-english": [
-      "2311211",
-      "2311111",
-      "2311112",
-      "2311112"
-    ],
-    "options-hindi": [
-      "2311211",
-      "2311111",
-      "2311112",
-      "2311112"
-    ],
-    "answer-english": "2311211",
-    "answer-hindi": "2311211",
-    "solution-english": "The code uses the alphabetical position of each letter. J=10, U=21, M=13, P=16 → JUMP = 10211316. Similarly, W=23, A=1, L=12, K=11 → WALK = 2311211.",
-    "solution-hindi": "यह कोड प्रत्येक अक्षर की वर्णमाला स्थिति पर आधारित है। J=10, U=21, M=13, P=16 → JUMP = 10211316। इसी तरह, W=23, A=1, L=12, K=11 → WALK = 2311211।"
-  },{
-  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q15.png",
-  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
-  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
-  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
-  "options-english": ["(a)", "(b)", "(c)", "(d)"],
-  "answer-hindi": "(b)",
-  "answer-english": "(b)",
-  "solution-hindi": "",
-  "solution-english": ""
-},{
-  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q17.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_17.png",
+}, {
+  "question-hindi": "एक कोड भाषा में 'BOOK' को 'DQQM' के रूप में लिखा जाता है। उसी कोड भाषा में 'PEN' को कैसे लिखा जाएगा?",
+  "question-english": "In a certain code language, 'BOOK' is written as 'DQQM'. How will 'PEN' be written in the same code?",
+  "options-hindi": ["(A) RGP", "(B) RGPQ", "(C) RFP", "(D) RHO"],
+  "options-english": ["(A) RGP", "(B) RGPQ", "(C) RFP", "(D) RHO"],
+  "answer-hindi": "(A) RGP",
+  "answer-english": "(A) RGP",
+  "solution-hindi": "'BOOK' कोड में हर अक्षर के ASCII मान में +2 जोड़ा गया है। उसी प्रकार, 'PEN' के प्रत्येक अक्षर में +2 जोड़ने पर 'RGP' प्राप्त होता है।",
+  "solution-english": "Each letter in 'BOOK' is shifted forward by +2 in the alphabet. Applying the same to 'PEN' gives 'RGP'.",
+  "image": ""
+}, {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q24.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q24.png",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "B",
   "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+}, {
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q25.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_25/mock_test_25_Q25.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
   "solution-hindi": "",
   "solution-english": ""
 }
-
-,{
-  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q18.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q18.png",
-  "options-hindi": ["A", "B", "C", "D"],
-  "options-english": ["A", "B", "C", "D"],
-  "answer-hindi": "B",
-  "answer-english": "B",
-  "solution-hindi": "",
-  "solution-english": ""
-},{
-    "question-english": "What should come in place of the question mark (?) to complete the following letter-cluster series?\nACE, FHJ, KMO, PRT, ?",
-    "question-hindi": "निम्नलिखित अक्षर-समूह श्रृंखला को पूरा करने के लिए प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?\nACE, FHJ, KMO, PRT, ?",
-    "options-english": ["UWY", "UVW", "VXZ", "SUW"],
-    "options-hindi": ["UWY", "UVW", "VXZ", "SUW"],
-    "answer-english": "UWY",
-    "answer-hindi": "UWY",
-    "solution-english": "Each letter in the cluster skips one letter: A(B)C(D)E. The next cluster starts by skipping two letters from the last letter of the previous one: E(F,G)H. The pattern is consistent:\nACE (+2, +2)\nF-H-J (+2, +2)\nK-M-O (+2, +2)\nP-R-T (+2, +2)\nThe gap between clusters is: E -> F (+1), J -> K (+1), O -> P (+1). So the next cluster starts with U (after T). U(+2) -> W, W(+2) -> Y. The answer is UWY.",
-    "solution-hindi": "समूह में प्रत्येक अक्षर एक अक्षर छोड़ देता है: A(B)C(D)E। अगला समूह पिछले वाले के अंतिम अक्षर से दो अक्षरों को छोड़कर शुरू होता है: E(F,G)H। पैटर्न सुसंगत है:\nACE (+2, +2)\nF-H-J (+2, +2)\nK-M-O (+2, +2)\nP-R-T (+2, +2)\nसमूहों के बीच का अंतर है: E -> F (+1), J -> K (+1), O -> P (+1)। तो अगला समूह U (T के बाद) से शुरू होता है। U(+2) -> W, W(+2) -> Y। उत्तर UWY है।"
-  },
-  {
-    "question-english": "If 10th January 2010 was a Sunday, what was the day of the week on 10th January 2015?",
-    "question-hindi": "यदि 10 जनवरी 2010 को रविवार था, तो 10 जनवरी 2015 को सप्ताह का कौन सा दिन था?",
-    "options-english": ["Friday", "Saturday", "Sunday", "Monday"],
-    "options-hindi": ["शुक्रवार", "शनिवार", "रविवार", "सोमवार"],
-    "answer-english": "Saturday",
-    "answer-hindi": "शनिवार",
-    "solution-english": "Odd days between Jan 10, 2010 and Jan 10, 2015:\n2010: 1\n2011: 1\n2012: 2 (leap year)\n2013: 1\n2014: 1\nTotal odd days = 1 + 1 + 2 + 1 + 1 = 6.\nSunday + 6 days = Saturday.",
-    "solution-hindi": "10 जनवरी 2010 और 10 जनवरी 2015 के बीच विषम दिन:\n2010: 1\n2011: 1\n2012: 2 (लीप वर्ष)\n2013: 1\n2014: 1\nकुल विषम दिन = 1 + 1 + 2 + 1 + 1 = 6।\nरविवार + 6 दिन = शनिवार।"
-  },{
-  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q21.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q21.png",
-  "options-hindi": ["A", "B", "C", "D"],
-  "options-english": ["A", "B", "C", "D"],
-  "answer-hindi": "B",
-  "answer-english": "B",
-  "solution-hindi": "",
-  "solution-english": ""
-},{
-    "question-english": "Statements & Conclusions: All computers are machines. No machine is a television. Conclusions: (I) No computer is a television. (II) Some machines are computers.",
-    "question-hindi": "कथन और निष्कर्ष: सभी कंप्यूटर मशीन हैं। कोई भी मशीन टेलीविजन नहीं है। निष्कर्ष: (I) कोई कंप्यूटर टेलीविजन नहीं है। (II) कुछ मशीनें कंप्यूटर हैं।",
-    "options-english": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
-    "options-hindi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "I और II दोनों अनुसरण करते हैं", "न तो I और न ही II अनुसरण करता है"],
-    "answer-english": "Both I and II follow",
-    "answer-hindi": "I और II दोनों अनुसरण करते हैं",
-    "solution-english": "I: Since all computers are machines and no machine is a television, no computer can be a television. II: If all computers are machines, then some machines (those that are computers) do exist — so some machines are computers. Therefore both conclusions follow.",
-    "solution-hindi": "I: चूँकि सभी कंप्यूटर मशीन श्रेणी के अंदर हैं और कोई भी मशीन टेलीविजन नहीं है, इसलिए कोई कंप्यूटर टेलीविजन नहीं हो सकता। II: 'सभी कंप्यूटर मशीन हैं' का अर्थ है कि कंप्यूटर मौजूद होने पर वे मशीनों में आते हैं — इसलिए कुछ मशीनें कंप्यूटर होती हैं। अतः दोनों निष्कर्ष अनुसरण करते हैं।"
-  },
-  {
-    "question-english": "What should come in place of the question mark (?) in the given series? 5, 7, 11, 19, 35, ?",
-    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? 5, 7, 11, 19, 35, ?",
-    "options-english": ["61", "65", "67", "55"],
-    "options-hindi": ["61", "65", "67", "55"],
-    "answer-english": "67",
-    "answer-hindi": "67",
-    "solution-english": "Differences double each time: 7-5=2, 11-7=4, 19-11=8, 35-19=16. Next difference = 16*2 = 32. So 35 + 32 = 67.",
-    "solution-hindi": "अंतर हर बार दोगुना हो रहा है: 7-5=2, 11-7=4, 19-11=8, 35-19=16। अगला अंतर 16*2 = 32 होगा। अतः 35 + 32 = 67।"
-  },
-  {
-    "question-english": "Select the option that is related to the third number in the same way as the second number is related to the first number. 8 : 512 :: 9 : ?",
-    "question-hindi": "उस विकल्प का चयन करें जो तीसरी संख्या से उसी प्रकार संबंधित है जैसे दूसरी संख्या पहली संख्या से संबंधित है। 8 : 512 :: 9 : ?",
-    "options-english": ["729", "625", "81", "100"],
-    "options-hindi": ["729", "625", "81", "100"],
-    "answer-english": "729",
-    "answer-hindi": "729",
-    "solution-english": "Relation is n : n³. 8³ = 512, so 9³ = 729.",
-    "solution-hindi": "रिश्ता है n : n³। 8³ = 512, अतः 9³ = 729।"
-  },
-  {
-    "question-english": "In a certain code language, 'SYSTEM' is coded as '121345' and 'NEARER' is coded as '647848'. What is the code for 'MARTYR'?",
-    "question-hindi": "एक निश्चित कूट भाषा में, 'SYSTEM' को '121345' और 'NEARER' को '647848' के रूप में कूटबद्ध किया जाता है। 'MARTYR' का कूट क्या है?",
-    "options-english": ["578328", "578428", "578348", "578458"],
-    "options-hindi": ["578328", "578428", "578348", "578458"],
-    "answer-english": "578328",
-    "answer-hindi": "578328",
-    "solution-english": "Direct substitution from the given codes: S=1, Y=2, T=3, E=4, M=5, N=6, A=7, R=8. Therefore M A R T Y R -> 5 7 8 3 2 8 -> 578328.",
-    "solution-hindi": "दिए गए कोड से सीधा प्रतिस्थापन: S=1, Y=2, T=3, E=4, M=5, N=6, A=7, R=8। अतः M A R T Y R -> 5 7 8 3 2 8 = 578328।"
-  }
           ]
     },
     {

@@ -1,0 +1,1112 @@
+{
+  "mockTest": [
+    {
+      "section": "General Science",
+          "questions": [
+             {
+    "question-hindi": "गुप्त सोने के सिक्कों को कहा जाता था",
+    "question-english": "Gupta gold coins were called",
+    "options-hindi": ["A. दीनार", "B. रूप्यक", "C. टंका", "D. जीतल"],
+    "options-english": ["A. Dinar", "B. Rupyak", "C. Tanka", "D. Jital"],
+    "answer-hindi": "A. दीनार",
+    "answer-english": "A. Dinar",
+    "solution-hindi": "गुप्त सम्राटों द्वारा जारी किए गए सोने के सिक्कों को मुख्य रूप से दीनार कहा जाता था। ये सिक्के अपनी शुद्धता और कलात्मक मूल्य के लिए जाने जाते थे।",
+    "solution-english": "The gold coins issued by the Gupta emperors were primarily called Dinars. These coins were known for their purity and artistic value."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से किस भाषा में सबसे पहले के जैन साहित्य का संकलन किया गया था?",
+    "question-english": "In which of the following languages was the earliest Jain Literature compiled?",
+    "options-hindi": ["A. संस्कृत", "B. पाली", "C. अर्ध-मागधी", "D. प्राकृत"],
+    "options-english": ["A. Sanskrit", "B. Pali", "C. Ardha-Magadhi", "D. Prakrit"],
+    "answer-hindi": "C. अर्ध-मागधी",
+    "answer-english": "C. Ardha-Magadhi",
+    "solution-hindi": "सबसे पहला जैन साहित्य, विशेष रूप से अंग, मुख्य रूप से अर्ध-मागधी प्राकृत, जो एक मध्य भारोपीय आर्य भाषा है, में संकलित किया गया था।",
+    "solution-english": "The earliest Jain literature, particularly the Angas, was primarily compiled in Ardha-Magadhi Prakrit, a Middle Indo-Aryan language."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से किस चित्रकार को जहाँगीर ने 'नादिर-उल-जमान' की उपाधि दी थी?",
+    "question-english": "Who among the following painters was given the title of 'Nadir-ul-Zaman' by Jahangir?",
+    "options-hindi": ["A. अबुल हसन", "B. उस्ताद मंसूर", "C. दसवंत", "D. बसावन"],
+    "options-english": ["A. Abul Hasan", "B. Ustad Mansur", "C. Daswanth", "D. Basawan"],
+    "answer-hindi": "B. उस्ताद मंसूर",
+    "answer-english": "B. Ustad Mansur",
+    "solution-hindi": "उस्ताद मंसूर मुगल सम्राट जहाँगीर के शासनकाल के दौरान एक प्रमुख चित्रकार थे। वह जानवरों और पक्षियों के अपने यथार्थवादी चित्रण के लिए जाने जाते थे और जहाँगीर द्वारा उन्हें 'नादिर-उल-जमान' (युग का आश्चर्य) की उपाधि से सम्मानित किया गया था।",
+    "solution-english": "Ustad Mansur was a prominent painter during the reign of the Mughal emperor Jahangir. He was known for his realistic depictions of animals and birds and was bestowed with the title 'Nadir-ul-Zaman' (Wonder of the Age) by Jahangir."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से कौन सा वाद्य यंत्र संगीत वाद्ययंत्रों में हिंदू-मुस्लिम सद्भाव का सबसे अच्छा उदाहरण है?",
+    "question-english": "Which among the following musical instruments is the finest example of Hindu-Muslim harmony in musical instruments?",
+    "options-hindi": ["A. सितार", "B. सरोद", "C. तबला", "D. शहनाई"],
+    "options-english": ["A. Sitar", "B. Sarod", "C. Tabla", "D. Shehnai"],
+    "answer-hindi": "A. सितार",
+    "answer-english": "A. Sitar",
+    "solution-hindi": "सितार को अक्सर संगीत वाद्ययंत्रों में हिंदू-मुस्लिम सद्भाव का एक प्रमुख उदाहरण माना जाता है। माना जाता है कि यह मुगल काल के दौरान फारसी सेतार और भारतीय वीणा से विकसित हुआ, जिसमें दोनों परंपराओं के तत्वों का संयोजन हुआ।",
+    "solution-english": "The Sitar is often considered a prime example of Hindu-Muslim harmony in musical instruments. It is believed to have evolved from the Persian Setar and Indian Veena, combining elements from both traditions during the Mughal period."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से किसे 'आंध्र भोज' के नाम से जाना जाता था?",
+    "question-english": "Who among the following was known as 'Andhra Bhoj'?",
+    "options-hindi": ["A. कृष्णदेवराय", "B. राजाराज चोल प्रथम", "C. पुलकेशिन द्वितीय", "D. हरिहर प्रथम"],
+    "options-english": ["A. Krishnadevaraya", "B. Raja Raja Chola I", "C. Pulakeshin II", "D. Harihara I"],
+    "answer-hindi": "A. कृष्णदेवराय",
+    "answer-english": "A. Krishnadevaraya",
+    "solution-hindi": "विजयनगर साम्राज्य के सबसे महान शासक कृष्णदेवराय साहित्य और कला के संरक्षक थे, और स्वयं भी एक विद्वान थे। साहित्यिक योगदान और संरक्षण के कारण उन्हें 'आंध्र भोज' की उपाधि से जाना जाता था।",
+    "solution-english": "Krishnadevaraya, the greatest ruler of the Vijayanagara Empire, was a patron of literature and arts, and a scholar himself. He was famously known by the title 'Andhra Bhoj' due to his literary contributions and patronage."
+  },
+  {
+    "question-hindi": "संथाल विद्रोह का नेतृत्व किसने किया था?",
+    "question-english": "Who led the Santhal Rebellion?",
+    "options-hindi": ["A. बिरसा मुंडा", "B. सिद्धू और कान्हू मुर्मू", "C. तिलका मांझी", "D. रघुनाथ महतो"],
+    "options-english": ["A. Birsa Munda", "B. Sidhu and Kanhu Murmu", "C. Tilka Manjhi", "D. Raghunath Mahato"],
+    "answer-hindi": "B. सिद्धू और कान्हू मुर्मू",
+    "answer-english": "B. Sidhu and Kanhu Murmu",
+    "solution-hindi": "1855-56 के संथाल विद्रोह (जिसे संथाल हूल के नाम से भी जाना जाता है) का नेतृत्व मुख्य रूप से चार मुर्मू भाइयों - सिद्धू, कान्हू, चांद और भैरव ने किया था। सिद्धू और कान्हू प्रमुख नेता थे।",
+    "solution-english": "The Santhal Rebellion (also known as the Santhal Hul) of 1855-56 was primarily led by four Murmu brothers – Sidhu, Kanhu, Chand, and Bhairav. Sidhu and Kanhu were the principal leaders."
+  },
+  {
+    "question-hindi": "'सत्य शोधक समाज' की स्थापना किसने की थी?",
+    "question-english": "Who established 'Satya Shodhak Samaj'?",
+    "options-hindi": ["A. महात्मा ज्योतिराव फुले", "B. बाबा आमटे", "C. डॉ. बी. आर. अंबेडकर", "D. गोपाल कृष्ण गोखले"],
+    "options-english": ["A. Mahatma Jyotirao Phule", "B. Baba Amte", "C. Dr. B. R. Ambedkar", "D. Gopal Krishna Gokhale"],
+    "answer-hindi": "A. महात्मा ज्योतिराव फुले",
+    "answer-english": "A. Mahatma Jyotirao Phule",
+    "solution-hindi": "ज्योतिराव फुले (महात्मा फुले) ने महाराष्ट्र में 1873 में सत्य शोधक समाज (सत्य चाहने वालों का समाज) की स्थापना की, जिसका उद्देश्य निचली जातियों और महिलाओं के लिए शिक्षा और सामाजिक अधिकारों को बढ़ावा देना था।",
+    "solution-english": "Jyotirao Phule (Mahatma Phule) established the Satya Shodhak Samaj (Truth-Seekers' Society) in 1873 in Maharashtra, aiming to promote education and social rights for the lower castes and women."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से कौन फरवरी 1928 में आयोजित 'सर्वदलीय सम्मेलन' के अध्यक्ष थे?",
+    "question-english": "Who of the following was the President of the 'All Parties Conference' held in February 1928?",
+    "options-hindi": ["A. मोतीलाल नेहरू", "B. महात्मा गांधी", "C. सरदार वल्लभभाई पटेल", "D. एम. ए. अंसारी"],
+    "options-english": ["A. Motilal Nehru", "B. Mahatma Gandhi", "C. Sardar Vallabhbhai Patel", "D. M. A. Ansari"],
+    "answer-hindi": "D. एम. ए. अंसारी",
+    "answer-english": "D. M. A. Ansari",
+    "solution-hindi": "डॉ. एम. ए. अंसारी ने फरवरी 1928 में आयोजित सर्वदलीय सम्मेलन की अध्यक्षता की, जिसे साइमन कमीशन के जवाब में भारत के लिए एक संविधान का मसौदा तैयार करने के लिए बुलाया गया था। इस सम्मेलन के कारण बाद में नेहरू समिति का गठन हुआ।",
+    "solution-english": "Dr. M. A. Ansari presided over the All Parties Conference held in February 1928, which was convened to draft a constitution for India in response to the Simon Commission. This conference later led to the formation of the Nehru Committee."
+  },
+  {
+    "question-hindi": "हीराकुंड बांध किस नदी पर बना है?",
+    "question-english": "On which river is the Hirakud Dam built?",
+    "options-hindi": ["A. महानदी", "B. गोदावरी", "C. कृष्णा", "D. कावेरी"],
+    "options-english": ["A. Mahanadi", "B. Godavari", "C. Krishna", "D. Kaveri"],
+    "answer-hindi": "A. महानदी",
+    "answer-english": "A. Mahanadi",
+    "solution-hindi": "हीराकुंड बांध, जो दुनिया के सबसे लंबे मिट्टी के बांधों में से एक है, भारत के ओडिशा राज्य में महानदी नदी पर बना है।",
+    "solution-english": "The Hirakud Dam, one of the longest earth dams in the world, is built across the Mahanadi River in the state of Odisha, India."
+  },
+  {
+    "question-hindi": "2004 की सुनामी से भारत का निम्नलिखित में से कौन सा तट सबसे अधिक प्रभावित हुआ था?",
+    "question-english": "Which of the following coasts of India was worst affected by the 2004 Tsunami?",
+    "options-hindi": ["A. कोंकण तट", "B. मालाबार तट", "C. कोरोमंडल तट", "D. गुजरात तट"],
+    "options-english": ["A. Konkan Coast", "B. Malabar Coast", "C. Coromandel Coast", "D. Gujarat Coast"],
+    "answer-hindi": "C. कोरोमंडल तट",
+    "answer-english": "C. Coromandel Coast",
+    "solution-hindi": "कोरोमंडल तट, जो तमिलनाडु और आंध्र प्रदेश सहित भारत के दक्षिण-पूर्वी हिस्से के साथ फैला हुआ है, सुनामी लहरों के सीधे संपर्क के कारण 2004 की विनाशकारी हिंद महासागर सुनामी से सबसे अधिक प्रभावित हुआ था।",
+    "solution-english": "The Coromandel Coast, which stretches along the southeastern part of India, including Tamil Nadu and Andhra Pradesh, was the worst affected by the devastating Indian Ocean Tsunami of 2004 due to its direct exposure to the tsunami waves."
+  }, {
+    "question-english": "With reference to India, Didwana, Kuchaman, Sargoi, and Khatu are the names of:",
+    "options-english": ["A. Ancient Harappan sites", "B. Salt lakes", "C. Mountain passes", "D. Tribal communities"],
+    "answer-english": "B. Salt lakes",
+    "solution-english": "Didwana, Kuchaman, Sargoi, and Khatu are all names of significant salt lakes located in Rajasthan, India. They are known for their saline water and salt production.",
+    "question-hindi": "भारत के संदर्भ में, डीडवाना, कुचामन, सरगोई और खाटू किसके नाम हैं:",
+    "options-hindi": ["A. प्राचीन हड़प्पा स्थल", "B. खारे पानी की झीलें", "C. पर्वतीय दर्रे", "D. जनजातीय समुदाय"],
+    "answer-hindi": "B. खारे पानी की झीलें",
+    "solution-hindi": "डीडवाना, कुचामन, सरगोई और खाटू सभी भारत के राजस्थान में स्थित महत्वपूर्ण खारे पानी की झीलों के नाम हैं। वे अपने खारे पानी और नमक उत्पादन के लिए जाने जाते हैं।"
+  },
+  {
+    "question-english": "The oldest oilfield in India is located in",
+    "options-english": ["A. Mumbai High", "B. Digboi, Assam", "C. Ankleshwar, Gujarat", "D. Bassein, Maharashtra"],
+    "answer-english": "B. Digboi, Assam",
+    "solution-english": "Digboi in Assam holds the distinction of having the oldest operational oilfield in India. Oil was first discovered there in 1889, and commercial production began in 1901.",
+    "question-hindi": "भारत का सबसे पुराना तेल क्षेत्र स्थित है:",
+    "options-hindi": ["A. मुंबई हाई", "B. डिगबोई, असम", "C. अंकलेश्वर, गुजरात", "D. बसई, महाराष्ट्र"],
+    "answer-hindi": "B. डिगबोई, असम",
+    "solution-hindi": "असम में डिगबोई को भारत के सबसे पुराने कार्यरत तेल क्षेत्र का गौरव प्राप्त है। तेल की खोज सबसे पहले 1889 में हुई थी, और वाणिज्यिक उत्पादन 1901 में शुरू हुआ था।"
+  },
+  {
+    "question-english": "Desert-dwelling Animals are called:",
+    "options-english": ["A. Arboreal", "B. Aquatic", "C. Terrestrial", "D. Xerocoles"],
+    "answer-english": "D. Xerocoles",
+    "solution-english": "Animals adapted to live in desert environments are called xerocoles. They possess various physiological and behavioral adaptations to survive in hot, arid conditions with limited water.",
+    "question-hindi": "रेगिस्तानी जीव जंतु कहलाते हैं:",
+    "options-hindi": ["A. आर्बोरियल (वृक्षीय)", "B. एक्वाटिक (जलीय)", "C. टेरेस्ट्रियल (स्थलीय)", "D. ज़ेरोकोल"],
+    "answer-hindi": "D. ज़ेरोकोल",
+    "solution-hindi": "रेगिस्तानी वातावरण में रहने के लिए अनुकूलित जानवरों को ज़ेरोकोल कहा जाता है। गर्म, शुष्क परिस्थितियों में सीमित पानी के साथ जीवित रहने के लिए उनके पास विभिन्न शारीरिक और व्यवहारिक अनुकूलन होते हैं।"
+  },
+  {
+    "question-english": "The International Date Line passes through",
+    "options-english": ["A. Greenwich Meridian", "B. Pacific Ocean", "C. Atlantic Ocean", "D. Indian Ocean"],
+    "answer-english": "B. Pacific Ocean",
+    "solution-english": "The International Date Line (IDL) is an imaginary line on the surface of the Earth that runs from the North Pole to the South Pole and demarcates the change of one calendar day to the next. It generally follows the 180° longitude, largely passing through the middle of the Pacific Ocean.",
+    "question-hindi": "अंतर्राष्ट्रीय तिथि रेखा किससे होकर गुजरती है:",
+    "options-hindi": ["A. ग्रीनविच मध्याह्न रेखा", "B. प्रशांत महासागर", "C. अटलांटिक महासागर", "D. हिंद महासागर"],
+    "answer-hindi": "B. प्रशांत महासागर",
+    "solution-hindi": "अंतर्राष्ट्रीय तिथि रेखा (IDL) पृथ्वी की सतह पर एक काल्पनिक रेखा है जो उत्तरी ध्रुव से दक्षिणी ध्रुव तक चलती है और एक कैलेंडर दिन के दूसरे में बदलने को दर्शाती है। यह आम तौर पर 180° देशांतर का अनुसरण करती है, जो बड़े पैमाने पर प्रशांत महासागर के मध्य से होकर गुजरती है।"
+  },
+  {
+    "question-english": "How long will the president's rule continue with repeated parliamentary approvals every six months?",
+    "options-english": ["A. 1 year", "B. 2 years", "C. 3 years", "D. Indefinite"],
+    "answer-english": "C. 3 years",
+    "solution-english": "Under Article 356 of the Indian Constitution, President's Rule can be imposed in a state. It initially lasts for six months and can be extended for a maximum period of three years with repeated parliamentary approvals every six months. Beyond three years, it requires a constitutional amendment.",
+    "question-hindi": "बार-बार संसदीय अनुमोदन के साथ राष्ट्रपति शासन हर छह महीने में कब तक जारी रहेगा?",
+    "options-hindi": ["A. 1 वर्ष", "B. 2 वर्ष", "C. 3 वर्ष", "D. अनिश्चित काल"],
+    "answer-hindi": "C. 3 वर्ष",
+    "solution-hindi": "भारतीय संविधान के अनुच्छेद 356 के तहत, किसी राज्य में राष्ट्रपति शासन लगाया जा सकता है। यह शुरू में छह महीने तक चलता है और हर छह महीने में बार-बार संसदीय अनुमोदन के साथ अधिकतम तीन साल की अवधि के लिए बढ़ाया जा सकता है। तीन साल से आगे, इसके लिए एक संवैधानिक संशोधन की आवश्यकता होती है।"
+  },
+  {
+    "question-english": "What was the significant feature of the Charter Act of 1813?",
+    "options-english": ["A. It ended the East India Company's monopoly over trade with India.", "B. It established the Supreme Court in Calcutta.", "C. It introduced the Permanent Settlement.", "D. It allowed Christian missionaries to preach in India."],
+    "answer-english": "A. It ended the East India Company's monopoly over trade with India.",
+    "solution-english": "The Charter Act of 1813 abolished the East India Company's monopoly over trade with India, except for the trade in tea and trade with China, thus opening up India to other British merchants. It also explicitly affirmed the British Crown's sovereignty over the Company's territories in India.",
+    "question-hindi": "1813 के चार्टर अधिनियम की महत्वपूर्ण विशेषता क्या थी?",
+    "options-hindi": ["A. इसने ईस्ट इंडिया कंपनी के भारत के साथ व्यापार के एकाधिकार को समाप्त कर दिया।", "B. इसने कलकत्ता में सर्वोच्च न्यायालय की स्थापना की।", "C. इसने स्थायी बंदोबस्त की शुरुआत की।", "D. इसने ईसाई मिशनरियों को भारत में प्रचार करने की अनुमति दी।"],
+    "answer-hindi": "A. इसने ईस्ट इंडिया कंपनी के भारत के साथ व्यापार के एकाधिकार को समाप्त कर दिया।",
+    "solution-hindi": "1813 के चार्टर अधिनियम ने चाय के व्यापार और चीन के साथ व्यापार को छोड़कर, ईस्ट इंडिया कंपनी के भारत के साथ व्यापार के एकाधिकार को समाप्त कर दिया, जिससे भारत अन्य ब्रिटिश व्यापारियों के लिए खुल गया। इसने भारत में कंपनी के क्षेत्रों पर ब्रिटिश क्राउन की संप्रभुता की भी स्पष्ट रूप से पुष्टि की।"
+  },
+  {
+    "question-english": "Who chairs the Business Advisory Committee in the Lok Sabha?",
+    "options-english": ["A. The Prime Minister", "B. The Speaker of the Lok Sabha", "C. The Leader of the Opposition", "D. The Minister of Parliamentary Affairs"],
+    "answer-english": "B. The Speaker of the Lok Sabha",
+    "solution-english": "The Business Advisory Committee in the Lok Sabha (House of the People) is chaired by the Speaker of the Lok Sabha. Its primary function is to recommend the allocation of time for the discussion of various government bills and other business.",
+    "question-hindi": "लोकसभा में कार्य मंत्रणा समिति (Business Advisory Committee) की अध्यक्षता कौन करता है?",
+    "options-hindi": ["A. प्रधान मंत्री", "B. लोकसभा अध्यक्ष", "C. विपक्ष का नेता", "D. संसदीय कार्य मंत्री"],
+    "answer-hindi": "B. लोकसभा अध्यक्ष",
+    "solution-hindi": "लोकसभा (जनता के सदन) में कार्य मंत्रणा समिति की अध्यक्षता लोकसभा अध्यक्ष करते हैं। इसका मुख्य कार्य विभिन्न सरकारी विधेयकों और अन्य कार्यों की चर्चा के लिए समय के आवंटन की सिफारिश करना है।"
+  },
+  {
+    "question-english": "Which constitutional amendment raised the retirement age of High Court judges to 62?",
+    "options-english": ["A. 15th Amendment", "B. 24th Amendment", "C. 42nd Amendment", "D. 44th Amendment"],
+    "answer-english": "A. 15th Amendment",
+    "solution-english": "The 15th Constitutional Amendment Act of 1963 raised the retirement age of High Court judges from 60 to 62 years.",
+    "question-hindi": "किस संवैधानिक संशोधन ने उच्च न्यायालय के न्यायाधीशों की सेवानिवृत्ति की आयु बढ़ाकर 62 वर्ष कर दी?",
+    "options-hindi": ["A. 15वां संशोधन", "B. 24वां संशोधन", "C. 42वां संशोधन", "D. 44वां संशोधन"],
+    "answer-hindi": "A. 15वां संशोधन",
+    "solution-hindi": "1963 के 15वें संवैधानिक संशोधन अधिनियम ने उच्च न्यायालय के न्यायाधीशों की सेवानिवृत्ति की आयु 60 से बढ़ाकर 62 वर्ष कर दी।"
+  },
+  {
+    "question-english": "Who has the power to declare an area as a Scheduled Area?",
+    "options-english": ["A. The Prime Minister", "B. The Parliament", "C. The President", "D. The Governor of the concerned state"],
+    "answer-english": "C. The President",
+    "solution-english": "Under the Fifth Schedule of the Indian Constitution, the President of India has the power to declare any area as a Scheduled Area, after consultation with the Governor of the state concerned.",
+    "question-hindi": "किसी क्षेत्र को अनुसूचित क्षेत्र घोषित करने की शक्ति किसके पास है?",
+    "options-hindi": ["A. प्रधान मंत्री", "B. संसद", "C. राष्ट्रपति", "D. संबंधित राज्य का राज्यपाल"],
+    "answer-hindi": "C. राष्ट्रपति",
+    "solution-hindi": "भारतीय संविधान की पांचवीं अनुसूची के तहत, भारत के राष्ट्रपति के पास संबंधित राज्य के राज्यपाल के परामर्श के बाद, किसी भी क्षेत्र को अनुसूचित क्षेत्र घोषित करने की शक्ति है।"
+  },
+  {
+    "question-english": "What is the maximum strength allowed for a Legislative Assembly in India?",
+    "options-english": ["A. 400 members", "B. 500 members", "C. 550 members", "D. 600 members"],
+    "answer-english": "B. 500 members",
+    "solution-english": "According to Article 170 of the Indian Constitution, the maximum strength of a State Legislative Assembly is fixed at 500 members. The minimum strength is generally 60, though exceptions exist for smaller states/union territories.",
+    "question-hindi": "भारत में किसी विधान सभा के लिए अधिकतम कितनी सदस्य संख्या अनुमत है?",
+    "options-hindi": ["A. 400 सदस्य", "B. 500 सदस्य", "C. 550 सदस्य", "D. 600 सदस्य"],
+    "answer-hindi": "B. 500 सदस्य",
+    "solution-hindi": "भारतीय संविधान के अनुच्छेद 170 के अनुसार, किसी राज्य विधान सभा की अधिकतम सदस्य संख्या 500 सदस्य निर्धारित की गई है। न्यूनतम सदस्य संख्या आम तौर पर 60 होती है, हालांकि छोटे राज्यों/केंद्र शासित प्रदेशों के लिए अपवाद मौजूद हैं।"
+  },{
+  "question-english": "Which Amendment enabled the same person to be appointed as Governor of two or more states?",
+  "options-english": ["A. 7th Amendment", "B. 10th Amendment", "C. 15th Amendment", "D. 24th Amendment"],
+  "answer-english": "A. 7th Amendment",
+  "solution-english": "The 7th Constitutional Amendment Act of 1956 made it possible for the same person to be appointed as the Governor for two or more states, addressing administrative needs and reducing duplication.",
+  "question-hindi": "किस संशोधन ने एक ही व्यक्ति को दो या दो से अधिक राज्यों का राज्यपाल नियुक्त करने में सक्षम बनाया?",
+  "options-hindi": ["A. 7वां संशोधन", "B. 10वां संशोधन", "C. 15वां संशोधन", "D. 24वां संशोधन"],
+  "answer-hindi": "A. 7वां संशोधन",
+  "solution-hindi": "1956 के 7वें संवैधानिक संशोधन अधिनियम ने प्रशासनिक जरूरतों को पूरा करने और दोहराव को कम करने के लिए एक ही व्यक्ति को दो या दो से अधिक राज्यों का राज्यपाल नियुक्त करना संभव बना दिया।"
+},
+{
+  "question-english": "The pigment that gives human skin, hair and eyes their colour is called:",
+  "options-english": ["A. Hemoglobin", "B. Melanin", "C. Keratin", "D. Collagen"],
+  "answer-english": "B. Melanin",
+  "solution-english": "Melanin is the primary pigment responsible for determining human skin, hair, and eye color. It is produced by specialized cells called melanocytes and provides protection against UV radiation.",
+  "question-hindi": "वह वर्णक (पिगमेंट) जो मानव त्वचा, बाल और आँखों को उनका रंग देता है, कहलाता है:",
+  "options-hindi": ["A. हीमोग्लोबिन", "B. मेलेनिन", "C. केराटिन", "D. कोलेजन"],
+  "answer-hindi": "B. मेलेनिन",
+  "solution-hindi": "मेलेनिन प्राथमिक वर्णक है जो मानव त्वचा, बाल और आंखों के रंग को निर्धारित करने के लिए जिम्मेदार है। यह मेलानोसाइट्स नामक विशेष कोशिकाओं द्वारा निर्मित होता है और यूवी विकिरण से सुरक्षा प्रदान करता है।"
+},
+{
+  "question-english": "Who among the following scientists used the word Protoplasm for the first time for living cells?",
+  "options-english": ["A. Robert Hooke", "B. J. E. Purkinje", "C. Rudolf Virchow", "D. Antonie van Leeuwenhoek"],
+  "answer-english": "B. J. E. Purkinje",
+  "solution-english": "While Felix Dujardin initially observed the living substance in cells and called it 'sarcode', it was Jan Evangelista Purkinje who coined the term 'protoplasm' in 1839 to describe the fluid substance inside living cells.",
+  "question-hindi": "निम्नलिखित में से किस वैज्ञानिक ने जीवित कोशिकाओं के लिए पहली बार 'प्रोटोप्लाज्म' (जीवद्रव्य) शब्द का प्रयोग किया था?",
+  "options-hindi": ["A. रॉबर्ट हुक", "B. जे. ई. पुरकिंजे", "C. रुडोल्फ विर्चो", "D. एंटोनी वॉन ल्यूवेनहोक"],
+  "answer-hindi": "B. जे. ई. पुरकिंजे",
+  "solution-hindi": "जबकि फेलिक्स डूजार्डिन ने शुरू में कोशिकाओं में जीवित पदार्थ का अवलोकन किया और इसे 'सार्कोड' कहा, यह जान इवेंजेलिस्टा पुरकिंजे थे जिन्होंने 1839 में जीवित कोशिकाओं के अंदर के तरल पदार्थ का वर्णन करने के लिए 'प्रोटोप्लाज्म' (जीवद्रव्य) शब्द गढ़ा था।"
+},
+{
+  "question-english": "Which of the following features of the human immunodeficiency virus (HIV) makes it a living entity?",
+  "options-english": ["A. It has a protein coat.", "B. It can reproduce only inside a host cell.", "C. It contains genetic material (RNA).", "D. All of the above."],
+  "answer-english": "C. It contains genetic material (RNA).",
+  "solution-english": "While viruses exhibit some characteristics of living things (like having genetic material and evolving) and non-living things (like not being able to reproduce independently), the presence of genetic material (RNA in the case of HIV) is a fundamental characteristic of life, enabling it to carry genetic information. Its ability to reproduce, albeit inside a host, also points towards life. Therefore, the presence of genetic material and the ability to reproduce are key features. However, among the given options, containing genetic material is the most fundamental aspect for classification as a living entity's characteristic.",
+  "question-hindi": "मानव इम्यूनोडेफिशियेंसी वायरस (HIV) की निम्नलिखित में से कौन सी विशेषता इसे एक सजीव इकाई बनाती है?",
+  "options-hindi": ["A. इसमें एक प्रोटीन आवरण होता है।", "B. यह केवल एक परपोषी कोशिका के अंदर ही प्रजनन कर सकता है।", "C. इसमें आनुवंशिक सामग्री (आरएनए) होती है।", "D. उपरोक्त सभी।"],
+  "answer-hindi": "C. इसमें आनुवंशिक सामग्री (आरएनए) होती है।",
+  "solution-hindi": "जबकि वायरस सजीव वस्तुओं की कुछ विशेषताओं (जैसे आनुवंशिक सामग्री होना और विकसित होना) और निर्जीव वस्तुओं की कुछ विशेषताओं (जैसे स्वतंत्र रूप से प्रजनन करने में सक्षम न होना) को प्रदर्शित करते हैं, आनुवंशिक सामग्री (एचआईवी के मामले में आरएनए) की उपस्थिति जीवन की एक मौलिक विशेषता है, जो इसे आनुवंशिक जानकारी ले जाने में सक्षम बनाती है। इसकी प्रजनन क्षमता, भले ही एक परपोषी के अंदर हो, भी जीवन की ओर इशारा करती है। इसलिए, आनुवंशिक सामग्री की उपस्थिति और प्रजनन करने की क्षमता प्रमुख विशेषताएं हैं। हालांकि, दिए गए विकल्पों में, आनुवंशिक सामग्री का होना एक सजीव इकाई की विशेषता के लिए सबसे मौलिक पहलू है।"
+},
+{
+  "question-english": "Which of the following is not an alloy?",
+  "options-english": ["A. Bronze", "B. Brass", "C. Steel", "D. Mercury"],
+  "answer-english": "D. Mercury",
+  "solution-english": "An alloy is a mixture of two or more metals, or a metal and a non-metal. Bronze (copper + tin), Brass (copper + zinc), and Steel (iron + carbon) are all alloys. Mercury is a chemical element and a metal, not an alloy.",
+  "question-hindi": "निम्नलिखित में से कौन एक मिश्र धातु नहीं है?",
+  "options-hindi": ["A. कांस्य", "B. पीतल", "C. इस्पात", "D. पारा"],
+  "answer-hindi": "D. पारा",
+  "solution-hindi": "एक मिश्र धातु दो या दो से अधिक धातुओं, या एक धातु और एक अधातु का मिश्रण होती है। कांस्य (तांबा + टिन), पीतल (तांबा + जस्ता), और इस्पात (लोहा + कार्बन) सभी मिश्र धातुएँ हैं। पारा एक रासायनिक तत्व और एक धातु है, मिश्र धातु नहीं।"
+},{
+  "question-english": "What is the common characteristic of the elements of the same group in the periodic table?",
+  "options-english": ["A. Same number of electron shells", "B. Same number of protons", "C. Same number of valence electrons", "D. Same atomic mass"],
+  "answer-english": "C. Same number of valence electrons",
+  "solution-english": "Elements in the same group (vertical column) of the periodic table have the same number of valence electrons. This similarity in the outermost electron shell configuration is what gives them similar chemical properties.",
+  "question-hindi": "आवर्त सारणी में एक ही समूह के तत्वों की सामान्य विशेषता क्या है?",
+  "options-hindi": ["A. इलेक्ट्रॉन कोशों की संख्या समान होना", "B. प्रोटॉन की संख्या समान होना", "C. संयोजी इलेक्ट्रॉनों की संख्या समान होना", "D. परमाणु द्रव्यमान समान होना"],
+  "answer-hindi": "C. संयोजी इलेक्ट्रॉनों की संख्या समान होना",
+  "solution-hindi": "आवर्त सारणी के एक ही समूह (ऊर्ध्वाधर स्तंभ) में तत्वों में संयोजी इलेक्ट्रॉनों की संख्या समान होती है। सबसे बाहरी इलेक्ट्रॉन कोश विन्यास में यह समानता ही उन्हें समान रासायनिक गुण प्रदान करती है।"
+},
+{
+  "question-english": "Which among the following is measured using a Vernier Caliper?",
+  "options-english": ["A. Mass", "B. Length (small precise measurements)", "C. Temperature", "D. Time"],
+  "answer-english": "B. Length (small precise measurements)",
+  "solution-english": "A Vernier caliper is a precision instrument used to measure linear dimensions such as external and internal diameters, and depths, with a higher degree of accuracy than a ruler.",
+  "question-hindi": "निम्नलिखित में से किसे वर्नियर कैलीपर का उपयोग करके मापा जाता है?",
+  "options-hindi": ["A. द्रव्यमान", "B. लंबाई (छोटे सटीक माप)", "C. तापमान", "D. समय"],
+  "answer-hindi": "B. लंबाई (छोटे सटीक माप)",
+  "solution-hindi": "वर्नियर कैलीपर एक सटीक उपकरण है जिसका उपयोग शासक की तुलना में उच्च सटीकता के साथ बाहरी और आंतरिक व्यास और गहराई जैसे रैखिक आयामों को मापने के लिए किया जाता है।"
+},
+{
+  "question-english": "Who was the first to state the principle of flotation?",
+  "options-english": ["A. Isaac Newton", "B. Archimedes", "C. Galileo Galilei", "D. Blaise Pascal"],
+  "answer-english": "B. Archimedes",
+  "solution-english": "The principle of flotation, famously known as Archimedes' Principle, states that the buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object. Archimedes discovered this principle in the 3rd century BC.",
+  "question-hindi": "उत्प्लावन (प्लवनशीलता) के सिद्धांत को प्रतिपादित करने वाला पहला व्यक्ति कौन था?",
+  "options-hindi": ["A. आइजैक न्यूटन", "B. आर्कमिडीज", "C. गैलीलियो गैलीली", "D. ब्लेज़ पास्कल"],
+  "answer-hindi": "B. आर्कमिडीज",
+  "solution-hindi": "उत्प्लावन का सिद्धांत, जिसे प्रसिद्ध रूप से आर्कमिडीज के सिद्धांत के रूप में जाना जाता है, बताता है कि किसी तरल पदार्थ में डूबी हुई वस्तु पर उत्प्लावन बल वस्तु द्वारा विस्थापित तरल के भार के बराबर होता है। आर्कमिडीज ने इस सिद्धांत की खोज ईसा पूर्व तीसरी शताब्दी में की थी।"
+},
+{
+  "question-english": "The term 'round tripping' in the case of Foreign Direct Investments is related to which among the following?",
+  "options-english": ["A. Re-investment of profits", "B. Investment by Non-Resident Indians", "C. Domestic capital routed through other countries to re-enter the home country as FDI.", "D. Investment in multiple sectors."],
+  "answer-english": "C. Domestic capital routed through other countries to re-enter the home country as FDI.",
+  "solution-english": "'Round tripping' in the context of Foreign Direct Investments (FDI) refers to the practice where domestic capital is illegally routed out of a country, often to offshore tax havens, and then brought back into the same country as FDI. This is typically done to evade taxes, launder money, or take advantage of specific investment incentives.",
+  "question-hindi": "विदेशी प्रत्यक्ष निवेश के मामले में 'राउंड ट्रिपिंग' शब्द निम्नलिखित में से किससे संबंधित है?",
+  "options-hindi": ["A. लाभ का पुनर्निवेश", "B. अनिवासी भारतीयों द्वारा निवेश", "C. घरेलू पूंजी को अन्य देशों के माध्यम से भेजकर एफडीआई के रूप में गृह देश में फिर से प्रवेश कराना।", "D. कई क्षेत्रों में निवेश।"],
+  "answer-hindi": "C. घरेलू पूंजी को अन्य देशों के माध्यम से भेजकर एफडीआई के रूप में गृह देश में फिर से प्रवेश कराना।",
+  "solution-hindi": "विदेशी प्रत्यक्ष निवेश (FDI) के संदर्भ में 'राउंड ट्रिपिंग' उस अभ्यास को संदर्भित करता है जहां घरेलू पूंजी को अवैध रूप से एक देश से बाहर भेज दिया जाता है, अक्सर ऑफशोर टैक्स हेवन में, और फिर FDI के रूप में उसी देश में वापस लाया जाता है। यह आमतौर पर करों से बचने, धन शोधन (मनी लॉन्ड्रिंग) करने, या विशिष्ट निवेश प्रोत्साहन का लाभ उठाने के लिए किया जाता है।"
+},
+{
+  "question-english": "Which among the following is not a direct tax?",
+  "options-english": ["A. Income Tax", "B. Corporation Tax", "C. Goods and Services Tax (GST)", "D. Wealth Tax"],
+  "answer-english": "C. Goods and Services Tax (GST)",
+  "solution-english": "A direct tax is paid directly by an individual or organization to the imposing entity (e.g., income tax). An indirect tax, like Goods and Services Tax (GST), is levied on goods and services, and collected by an intermediary (e.g., a seller) from the person who ultimately bears the economic burden (the consumer). Income Tax, Corporation Tax, and Wealth Tax are all direct taxes.",
+  "question-hindi": "निम्नलिखित में से कौन सा एक प्रत्यक्ष कर नहीं है?",
+  "options-hindi": ["A. आयकर", "B. निगम कर", "C. वस्तु एवं सेवा कर (जीएसटी)", "D. धन कर"],
+  "answer-hindi": "C. वस्तु एवं सेवा कर (जीएसटी)",
+  "solution-hindi": "एक प्रत्यक्ष कर सीधे एक व्यक्ति या संगठन द्वारा कर लगाने वाली संस्था (जैसे, आयकर) को भुगतान किया जाता है। एक अप्रत्यक्ष कर, जैसे वस्तु एवं सेवा कर (जीएसटी), वस्तुओं और सेवाओं पर लगाया जाता है, और एक मध्यस्थ (जैसे, एक विक्रेता) द्वारा उस व्यक्ति से एकत्र किया जाता है जो अंततः आर्थिक बोझ (उपभोक्ता) वहन करता है। आयकर, निगम कर और धन कर सभी प्रत्यक्ष कर हैं।"
+},{
+  "question-english": "The capitalist economic system is a feature of which of these countries?",
+  "options-english": ["A. China", "B. Cuba", "C. United States", "D. Vietnam"],
+  "answer-english": "C. United States",
+  "solution-english": "The United States is predominantly characterized by a capitalist economic system, where the means of production are largely privately owned, and economic decisions are primarily driven by market forces, profit motive, and competition.",
+  "question-hindi": "पूंजीवादी आर्थिक प्रणाली इनमें से किस देश की विशेषता है?",
+  "options-hindi": ["A. चीन", "B. क्यूबा", "C. संयुक्त राज्य अमेरिका", "D. वियतनाम"],
+  "answer-hindi": "C. संयुक्त राज्य अमेरिका",
+  "solution-hindi": "संयुक्त राज्य अमेरिका मुख्य रूप से एक पूंजीवादी आर्थिक प्रणाली की विशेषता है, जहां उत्पादन के साधन बड़े पैमाने पर निजी स्वामित्व में होते हैं, और आर्थिक निर्णय मुख्य रूप से बाजार की शक्तियों, लाभ के मकसद और प्रतिस्पर्धा से प्रेरित होते हैं।"
+},
+{
+  "question-english": "Shankar-6 or Sankar-6 is a variety of which of the following commodities?",
+  "options-english": ["A. Rice", "B. Wheat", "C. Cotton", "D. Sugarcane"],
+  "answer-english": "C. Cotton",
+  "solution-english": "Shankar-6 (or Sankar-6) was India's first commercially released cotton hybrid, developed in the 1970s. It was a significant breakthrough in cotton cultivation in India.",
+  "question-hindi": "शंकर-6 या शंकर-6 निम्नलिखित में से किस वस्तु की एक किस्म है?",
+  "options-hindi": ["A. चावल", "B. गेहूं", "C. कपास", "D. गन्ना"],
+  "answer-hindi": "C. कपास",
+  "solution-hindi": "शंकर-6 (या शंकर-6) भारत की पहली व्यावसायिक रूप से जारी की गई कपास संकर किस्म थी, जिसे 1970 के दशक में विकसित किया गया था। यह भारत में कपास की खेती में एक महत्वपूर्ण सफलता थी।"
+},
+{
+  "question-english": "Which among the following agencies is responsible for the enforcement of the Foreign Exchange Management Act 1999 and the Prevention of Money Laundering Act 2002 in India?",
+  "options-english": ["A. Reserve Bank of India (RBI)", "B. Ministry of Finance", "C. Directorate of Enforcement (ED)", "D. Central Bureau of Investigation (CBI)"],
+  "answer-english": "C. Directorate of Enforcement (ED)",
+  "solution-english": "The Directorate of Enforcement (ED) is a law enforcement agency and economic intelligence agency responsible for enforcing economic laws and fighting economic crime in India. It is specifically tasked with enforcing the Foreign Exchange Management Act (FEMA) 1999 and the Prevention of Money Laundering Act (PMLA) 2002.",
+  "question-hindi": "भारत में विदेशी मुद्रा प्रबंधन अधिनियम 1999 और धन शोधन निवारण अधिनियम 2002 के प्रवर्तन के लिए निम्नलिखित में से कौन सी एजेंसी जिम्मेदार है?",
+  "options-hindi": ["A. भारतीय रिजर्व बैंक (आरबीआई)", "B. वित्त मंत्रालय", "C. प्रवर्तन निदेशालय (ईडी)", "D. केंद्रीय जांच ब्यूरो (सीबीआई)"],
+  "answer-hindi": "C. प्रवर्तन निदेशालय (ईडी)",
+  "solution-hindi": "प्रवर्तन निदेशालय (ईडी) एक कानून प्रवर्तन और आर्थिक खुफिया एजेंसी है जो भारत में आर्थिक कानूनों को लागू करने और आर्थिक अपराधों से लड़ने के लिए जिम्मेदार है। इसे विशेष रूप से विदेशी मुद्रा प्रबंधन अधिनियम (फेमा) 1999 और धन शोधन निवारण अधिनियम (पीएमएलए) 2002 को लागू करने का कार्य सौंपा गया है।"
+},
+{
+  "question-english": "NAMASTE Scheme, recently seen in the news, is related to which group of workers?",
+  "options-english": ["A. Manual scavengers", "B. Construction workers", "C. Agricultural labourers", "D. Healthcare workers"],
+  "answer-english": "A. Manual scavengers",
+  "solution-english": "The NAMASTE (National Action for Mechanised Sanitation Ecosystem) Scheme is an initiative of the Ministry of Social Justice and Empowerment and the Ministry of Housing and Urban Affairs in India. It aims to achieve zero fatalities in sanitation work and provide safety and dignity to sanitation workers, thereby focusing on phasing out manual scavenging and promoting mechanised cleaning of sewers and septic tanks.",
+  "question-hindi": "हाल ही में समाचारों में देखी गई 'नमस्ते योजना' (NAMASTE Scheme) श्रमिकों के किस समूह से संबंधित है?",
+  "options-hindi": ["A. मैला ढोने वाले", "B. निर्माण श्रमिक", "C. खेतिहर मजदूर", "D. स्वास्थ्यकर्मी"],
+  "answer-hindi": "A. मैला ढोने वाले",
+  "solution-hindi": "नमस्ते (NAMASTE - National Action for Mechanised Sanitation Ecosystem) योजना भारत में सामाजिक न्याय और अधिकारिता मंत्रालय और आवास और शहरी मामलों के मंत्रालय की एक पहल है। इसका उद्देश्य स्वच्छता कार्य में शून्य मृत्यु दर प्राप्त करना और स्वच्छता कार्यकर्ताओं को सुरक्षा और सम्मान प्रदान करना है, जिससे मैला ढोने को चरणबद्ध तरीके से समाप्त करने और सीवर और सेप्टिक टैंकों की मशीनीकृत सफाई को बढ़ावा देने पर ध्यान केंद्रित किया जा सके।"
+},
+{
+  "question-english": "The best-known compilation of the compositions of Kabir is known as?",
+  "options-english": ["A. Adi Granth", "B. Bijak", "C. Gyaneshwari", "D. Ramcharitmanas"],
+  "answer-english": "B. Bijak",
+  "solution-english": "The Bijak is the most important and well-known compilation of the compositions and teachings of the 15th-century Indian mystic poet and saint, Kabir.",
+  "question-hindi": "कबीर की रचनाओं का सबसे प्रसिद्ध संकलन किस नाम से जाना जाता है?",
+  "options-hindi": ["A. आदि ग्रंथ", "B. बीजक", "C. ज्ञानेश्वरी", "D. रामचरितमानस"],
+  "answer-hindi": "B. बीजक",
+  "solution-hindi": "बीजक 15वीं शताब्दी के भारतीय रहस्यवादी कवि और संत कबीर की रचनाओं और शिक्षाओं का सबसे महत्वपूर्ण और सुप्रसिद्ध संकलन है।"
+},{
+  "question-english": "In which state has the Jawara Dance, a dance form to celebrate wealth, originated?",
+  "options-english": ["A. Madhya Pradesh", "B. Rajasthan", "C. Gujarat", "D. Uttar Pradesh"],
+  "answer-english": "A. Madhya Pradesh",
+  "solution-english": "The Jawara Dance is a harvest folk dance that originated in the Bundelkhand region of Madhya Pradesh, India. It is performed by women to celebrate good harvest and wealth.",
+  "question-hindi": "कबीर की रचनाओं का सबसे प्रसिद्ध संकलन किस नाम से जाना जाता है?",
+  "options-hindi": ["A. मध्य प्रदेश", "B. राजस्थान", "C. गुजरात", "D. उत्तर प्रदेश"],
+  "answer-hindi": "A. मध्य प्रदेश",
+  "solution-hindi": "जवारा नृत्य एक फसल लोक नृत्य है जिसकी उत्पत्ति भारत के मध्य प्रदेश के बुंदेलखंड क्षेत्र में हुई थी। यह अच्छी फसल और धन का जश्न मनाने के लिए महिलाओं द्वारा किया जाता है।"
+},
+{
+  "question-english": "Which is a group folk dance of Sikkim performed in honour of Mount Khangchendzonga, the guardian deity of the Sikkimese people?",
+  "options-english": ["A. Singhi Chham", "B. Maruni", "C. Tamang Selo", "D. Sherpa Dance"],
+  "answer-english": "A. Singhi Chham",
+  "solution-english": "Singhi Chham is a masked dance unique to Sikkim, performed to honor the mythical snow lion (Singhi) and, by extension, Mount Khangchendzonga, which is considered the guardian deity of Sikkim.",
+  "question-hindi": "सिक्किम का कौन सा समूह लोक नृत्य सिक्किम के लोगों के संरक्षक देवता, माउंट कंचनजंगा के सम्मान में किया जाता है?",
+  "options-hindi": ["A. सिंघी छम", "B. मारुनी", "C. तमांग सेलो", "D. शेरपा नृत्य"],
+  "answer-hindi": "A. सिंघी छम",
+  "solution-hindi": "सिंघी छम सिक्किम का एक अनोखा मुखौटा नृत्य है, जो पौराणिक हिम तेंदुए (सिंघी) और, फलस्वरूप, माउंट कंचनजंगा के सम्मान में किया जाता है, जिसे सिक्किम का संरक्षक देवता माना जाता है।"
+},
+{
+  "question-english": "Which of the following statements best describes the unique rhythmic structure and cultural significance of the 'Daskathia' musical tradition of Odisha?",
+  "options-english": ["A. It is a solo devotional song typically performed during festivals.", "B. It is a narrative ballad accompanied by a pair of wooden clappers.", "C. It is a classical dance form using complex footwork and hand gestures.", "D. It is an ensemble instrumental performance during temple rituals."],
+  "answer-english": "B. It is a narrative ballad accompanied by a pair of wooden clappers.",
+  "solution-english": "Daskathia is a traditional folk musical form from Odisha, India. It involves two performers (Gayaka and Palia) who narrate mythological stories, often from Puranas or epics, accompanied by a pair of wooden clappers called 'Kathi' (or Das-Kathi, meaning ten sticks/clappers) which provide the rhythmic structure.",
+  "question-hindi": "निम्नलिखित में से कौन सा कथन ओडिशा की 'दशकाठिया' संगीत परंपरा की अनूठी लयबद्ध संरचना और सांस्कृतिक महत्व का सबसे अच्छा वर्णन करता है?",
+  "options-hindi": ["A. यह एक एकल भक्ति गीत है जो आमतौर पर त्योहारों के दौरान किया जाता है।", "B. यह लकड़ी के क्लैपर (खड़ताल) की एक जोड़ी के साथ प्रस्तुत की जाने वाली एक कथात्मक गाथागीत है।", "C. यह जटिल पदचालन और हस्त मुद्राओं का उपयोग करने वाला एक शास्त्रीय नृत्य रूप है।", "D. यह मंदिर अनुष्ठानों के दौरान एक समूह वाद्य प्रदर्शन है।"],
+  "answer-hindi": "B. यह लकड़ी के क्लैपर (खड़ताल) की एक जोड़ी के साथ प्रस्तुत की जाने वाली एक कथात्मक गाथागीत है।",
+  "solution-hindi": "दशकाठिया भारत के ओडिशा का एक पारंपरिक लोक संगीत रूप है। इसमें दो कलाकार (गायक और पालिया) शामिल होते हैं जो पौराणिक कहानियाँ सुनाते हैं, अक्सर पुराणों या महाकाव्यों से, साथ में 'काठी' (या दस-काठी, जिसका अर्थ है दस छड़ें/क्लैपर) नामक लकड़ी के क्लैपर की एक जोड़ी होती है जो लयबद्ध संरचना प्रदान करती है।"
+},
+{
+  "question-english": "From which Indian state did ‘Warli Art' originate?",
+  "options-english": ["A. Maharashtra", "B. Gujarat", "C. Rajasthan", "D. Madhya Pradesh"],
+  "answer-english": "A. Maharashtra",
+  "solution-english": "Warli Art is a traditional folk art form primarily created by the Warli tribal people, who predominantly reside in the Thane district of Maharashtra, India. It is characterized by simple geometric shapes and depictions of daily life and nature.",
+  "question-hindi": "'वर्ली कला' की उत्पत्ति किस भारतीय राज्य से हुई?",
+  "options-hindi": ["A. महाराष्ट्र", "B. गुजरात", "C. राजस्थान", "D. मध्य प्रदेश"],
+  "answer-hindi": "A. महाराष्ट्र",
+  "solution-hindi": "वर्ली कला एक पारंपरिक लोक कला रूप है जिसे मुख्य रूप से वर्ली आदिवासी लोगों द्वारा बनाया जाता है, जो मुख्य रूप से भारत के महाराष्ट्र के ठाणे जिले में निवास करते हैं। यह सरल ज्यामितीय आकृतियों और दैनिक जीवन व प्रकृति के चित्रण की विशेषता है।"
+},
+{
+  "question-english": "Uttara Ramcharitam (the later life of Rama) is written by whom?",
+  "options-english": ["A. Kalidasa", "B. Bhavabhuti", "C. Valmiki", "D. Tulsidas"],
+  "answer-english": "B. Bhavabhuti",
+  "solution-english": "Uttara Ramcharitam, meaning 'The later life of Rama,' is a famous Sanskrit play written by the eminent playwright Bhavabhuti in the 8th century CE. It depicts events from Rama's life after his coronation, focusing on his separation from Sita.",
+  "question-hindi": "उत्तर रामचरितम् (राम का उत्तर जीवन) किसके द्वारा लिखा गया है?",
+  "options-hindi": ["A. कालिदास", "B. भवभूति", "C. वाल्मीकि", "D. तुलसीदास"],
+  "answer-hindi": "B. भवभूति",
+  "solution-hindi": "उत्तर रामचरितम्, जिसका अर्थ है 'राम का उत्तर जीवन,' 8वीं शताब्दी ईस्वी में प्रख्यात नाटककार भवभूति द्वारा लिखा गया एक प्रसिद्ध संस्कृत नाटक है। यह राम के राज्याभिषेक के बाद के उनके जीवन की घटनाओं को दर्शाता है, जिसमें सीता से उनके अलगाव पर ध्यान केंद्रित किया गया है।"
+},{
+      "question-english": "What is known as “Kotinos” in the context of the Olympic Games?",
+      "options-english": ["A. The torch used in the opening ceremony.", "B. The olive wreath awarded to victors in ancient Olympics.", "C. The oath taken by athletes.", "D. The chariot used in races."],
+      "answer-english": "B. The olive wreath awarded to victors in ancient Olympics.",
+      "solution-english": "In the ancient Olympic Games, the victors were awarded a 'kotinos', which was an olive wreath made from a branch of a wild olive tree. It was the highest honor for an Olympian.",
+      "question-hindi": "ओलंपिक खेलों के संदर्भ में 'कोटीनोस' के रूप में किसे जाना जाता है?",
+      "options-hindi": ["A. उद्घाटन समारोह में उपयोग की जाने वाली मशाल।", "B. प्राचीन ओलंपिक में विजेताओं को दिया जाने वाला जैतून का मुकुट (चक्र)।", "C. एथलीटों द्वारा ली गई शपथ।", "D. दौड़ में इस्तेमाल किया जाने वाला रथ।"],
+      "answer-hindi": "B. प्राचीन ओलंपिक में विजेताओं को दिया जाने वाला जैतून का मुकुट (चक्र)।",
+      "solution-hindi": "प्राचीन ओलंपिक खेलों में, विजेताओं को 'कोटीनोस' से सम्मानित किया जाता था, जो एक जंगली जैतून के पेड़ की शाखा से बना एक जैतून का मुकुट (चक्र) होता था। यह एक ओलंपियन के लिए सर्वोच्च सम्मान था।"
+    },
+    {
+      "question-english": "Which day is observed as Police Commemoration Day every year?",
+      "options-english": ["A. October 21", "B. January 26", "C. August 15", "D. December 10"],
+      "answer-english": "A. October 21",
+      "solution-english": "Police Commemoration Day is observed every year on October 21st in India to remember and honor the sacrifices of police personnel who died in the line of duty, particularly commemorating the bravery of ten police personnel killed by Chinese forces in 1959.",
+      "question-hindi": "प्रतिवर्ष किस दिन को पुलिस स्मरणोत्सव दिवस के रूप में मनाया जाता है?",
+      "options-hindi": ["A. 21 अक्टूबर", "B. 26 जनवरी", "C. 15 अगस्त", "D. 10 दिसंबर"],
+      "answer-hindi": "A. 21 अक्टूबर",
+      "solution-hindi": "भारत में हर साल 21 अक्टूबर को पुलिस स्मरणोत्सव दिवस मनाया जाता है ताकि ड्यूटी के दौरान शहीद हुए पुलिस कर्मियों के बलिदान को याद किया जा सके और उन्हें सम्मानित किया जा सके, विशेष रूप से 1959 में चीनी सेना द्वारा मारे गए दस पुलिस कर्मियों की बहादुरी की याद में।"
+    },
+    {
+      "question-english": "What is the name of the committee formed by the Union Home Ministry to provide recommendations on Clause 6 of the Assam Accord?",
+      "options-english": ["A. H.R. Bhardwaj Committee", "B. Madhavrao Scindia Committee", "C. Biplab Kumar Sarma Committee", "D. Ranjan Gogoi Committee"],
+      "answer-english": "C. Biplab Kumar Sarma Committee",
+      "solution-english": "The Union Home Ministry constituted a High-Level Committee in 2019, headed by Justice (Retd.) Biplab Kumar Sarma, to provide recommendations for the implementation of Clause 6 of the Assam Accord, which aims to protect, preserve, and promote the cultural, social, linguistic identity and heritage of the Assamese people.",
+      "question-hindi": "असम समझौते के खंड 6 पर सिफारिशें देने के लिए केंद्रीय गृह मंत्रालय द्वारा गठित समिति का नाम क्या है?",
+      "options-hindi": ["A. एच.आर. भारद्वाज समिति", "B. माधवराव सिंधिया समिति", "C. बिप्लब कुमार सरमा समिति", "D. रंजन गोगोई समिति"],
+      "answer-hindi": "C. बिप्लब कुमार सरमा समिति",
+      "solution-hindi": "केंद्रीय गृह मंत्रालय ने 2019 में न्यायमूर्ति (सेवानिवृत्त) बिप्लब कुमार सरमा की अध्यक्षता में एक उच्च-स्तरीय समिति का गठन किया, ताकि असम समझौते के खंड 6 के कार्यान्वयन के लिए सिफारिशें प्रदान की जा सकें, जिसका उद्देश्य असमिया लोगों की सांस्कृतिक, सामाजिक, भाषाई पहचान और विरासत की रक्षा करना, संरक्षण करना और बढ़ावा देना है।"
+    },
+    {
+      "question-english": "Subansiri Lower Hydro Electric Project (SLHEP) is located on the border of which two states?",
+      "options-english": ["A. Assam and Arunachal Pradesh", "B. Sikkim and West Bengal", "C. Himachal Pradesh and Uttarakhand", "D. Jammu and Kashmir and Ladakh"],
+      "answer-english": "A. Assam and Arunachal Pradesh",
+      "solution-english": "The Subansiri Lower Hydro Electric Project (SLHEP) is a major dam and hydroelectric power project located on the Subansiri River (a tributary of the Brahmaputra), situated on the border of the Indian states of Assam and Arunachal Pradesh.",
+      "question-hindi": "सुबनसिरी लोअर हाइड्रो इलेक्ट्रिक प्रोजेक्ट (SLHEP) किन दो राज्यों की सीमा पर स्थित है?",
+      "options-hindi": ["A. असम और अरुणाचल प्रदेश", "B. सिक्किम और पश्चिम बंगाल", "C. हिमाचल प्रदेश और उत्तराखंड", "D. जम्मू और कश्मीर और लद्दाख"],
+      "answer-hindi": "A. असम और अरुणाचल प्रदेश",
+      "solution-hindi": "सुबनसिरी लोअर हाइड्रो इलेक्ट्रिक प्रोजेक्ट (SLHEP) सुबनसिरी नदी (ब्रह्मपुत्र की एक सहायक नदी) पर स्थित एक प्रमुख बांध और पनबिजली परियोजना है, जो असम और अरुणाचल प्रदेश के भारतीय राज्यों की सीमा पर स्थित है।"
+    },
+    {
+      "question-english": "Halmahera Sea, which was seen in the news due to an earthquake, is located in which country?",
+      "options-english": ["A. Philippines", "B. Indonesia", "C. Japan", "D. Papua New Guinea"],
+      "answer-english": "B. Indonesia",
+      "solution-english": "The Halmahera Sea is located in the eastern part of Indonesia, specifically between the islands of Halmahera and West Papua. The region is seismically active, and earthquakes are common there.",
+      "question-hindi": "भूकंप के कारण हाल ही में समाचारों में रहा हालमाहेरा सागर किस देश में स्थित है?",
+      "options-hindi": ["A. फिलीपींस", "B. इंडोनेशिया", "C. जापान", "D. पापुआ न्यू गिनी"],
+      "answer-hindi": "B. इंडोनेशिया",
+      "solution-hindi": "हालमाहेरा सागर इंडोनेशिया के पूर्वी भाग में, विशेष रूप से हालमाहेरा और पश्चिम पापुआ के द्वीपों के बीच स्थित है। यह क्षेत्र भूकंपीय रूप से सक्रिय है, और वहाँ भूकंप आना आम बात है।"
+    },
+    {
+      "question-english": "Which country has launched a new visa category called the “K Visa” to attract foreign science and technology talent?",
+      "options-english": ["A. United States", "B. United Kingdom", "C. South Korea", "D. Germany"],
+      "answer-english": "C. South Korea",
+      "solution-english": "South Korea launched the 'K-Visa' program, aimed at attracting highly skilled foreign professionals, particularly in science and technology fields, to boost its innovation and competitiveness.",
+      "question-hindi": "किस देश ने विदेशी विज्ञान और प्रौद्योगिकी प्रतिभा को आकर्षित करने के लिए 'के वीजा' नामक एक नई वीजा श्रेणी शुरू की है?",
+      "options-hindi": ["A. संयुक्त राज्य अमेरिका", "B. यूनाइटेड किंगडम", "C. दक्षिण कोरिया", "D. जर्मनी"],
+      "answer-hindi": "C. दक्षिण कोरिया",
+      "solution-hindi": "दक्षिण कोरिया ने अपनी नवाचार और प्रतिस्पर्धात्मकता को बढ़ावा देने के लिए, 'के-वीजा' कार्यक्रम शुरू किया, जिसका उद्देश्य अत्यधिक कुशल विदेशी पेशेवरों, विशेष रूप से विज्ञान और प्रौद्योगिकी क्षेत्रों में, को आकर्षित करना है।"
+    },
+    {
+      "question-english": "Varkala Cliff, which was recently placed in UNESCO's tentative list of World Heritage Sites, is located in which state?",
+      "options-english": ["A. Kerala", "B. Goa", "C. Karnataka", "D. Maharashtra"],
+      "answer-english": "A. Kerala",
+      "solution-english": "The Varkala Cliffs, a unique geological formation along the coast of Kerala, India, have been recognized for their natural beauty and geological significance and were recently added to UNESCO's tentative list of World Heritage Sites.",
+      "question-hindi": "वर्कला क्लिफ, जिसे हाल ही में यूनेस्को की विश्व धरोहर स्थलों की अस्थायी सूची में रखा गया था, किस राज्य में स्थित है?",
+      "options-hindi": ["A. केरल", "B. गोवा", "C. कर्नाटक", "D. महाराष्ट्र"],
+      "answer-hindi": "A. केरल",
+      "solution-hindi": "वर्कला क्लिफ्स, जो भारत के केरल तट के साथ एक अद्वितीय भूवैज्ञानिक संरचना है, को उनकी प्राकृतिक सुंदरता और भूवैज्ञानिक महत्व के लिए मान्यता दी गई है और उन्हें हाल ही में यूनेस्को की विश्व धरोहर स्थलों की अस्थायी सूची में जोड़ा गया था।"
+    },
+    {
+      "question-english": "Barren Island, which was seen in the news due to a volcanic eruption, is located in which sea?",
+      "options-english": ["A. Arabian Sea", "B. Bay of Bengal", "C. Andaman Sea", "D. South China Sea"],
+      "answer-english": "C. Andaman Sea",
+      "solution-english": "Barren Island is India's only confirmed active volcano. It is located in the Andaman Sea, approximately 135 km northeast of Port Blair, the capital of the Andaman and Nicobar Islands.",
+      "question-hindi": "बैरन द्वीप, जो ज्वालामुखी विस्फोट के कारण समाचारों में देखा गया था, किस समुद्र में स्थित है?",
+      "options-hindi": ["A. अरब सागर", "B. बंगाल की खाड़ी", "C. अंडमान सागर", "D. दक्षिण चीन सागर"],
+      "answer-hindi": "C. अंडमान सागर",
+      "solution-hindi": "बैरन द्वीप भारत का एकमात्र पुष्ट सक्रिय ज्वालामुखी है। यह अंडमान सागर में, अंडमान और निकोबार द्वीप समूह की राजधानी पोर्ट ब्लेयर से लगभग 135 किमी उत्तर-पूर्व में स्थित है।"
+    },
+    {
+      "question-english": "Project Vijayak is an initiative of which organisation?",
+      "options-english": ["A. Indian Army", "B. Indian Navy", "C. Indian Air Force", "D. Border Roads Organisation (BRO)"],
+      "answer-english": "D. Border Roads Organisation (BRO)",
+      "solution-english": "Project Vijayak is an initiative undertaken by the Border Roads Organisation (BRO), which is responsible for building and maintaining road networks in India's border areas, often in challenging terrains. This project specifically refers to various road infrastructure development activities.",
+      "question-hindi": "प्रोजेक्ट विजयक किस संगठन की एक पहल है?",
+      "options-hindi": ["A. भारतीय सेना", "B. भारतीय नौसेना", "C. भारतीय वायु सेना", "D. सीमा सड़क संगठन (बीआरओ)"],
+      "answer-hindi": "D. सीमा सड़क संगठन (बीआरओ)",
+      "solution-hindi": "प्रोजेक्ट विजयक सीमा सड़क संगठन (बीआरओ) द्वारा शुरू की गई एक पहल है, जो भारत के सीमावर्ती क्षेत्रों में सड़क नेटवर्क के निर्माण और रखरखाव के लिए जिम्मेदार है, अक्सर चुनौतीपूर्ण इलाकों में। यह परियोजना विशेष रूप से विभिन्न सड़क बुनियादी ढांचा विकास गतिविधियों को संदर्भित करती है।"
+    },
+    {
+      "question-english": "ICGS Adamya, the first ship of the Adamya-class Fast Patrol Vessels (FPVs), was commissioned at which port?",
+      "options-english": ["A. Visakhapatnam", "B. Chennai", "C. Kochi", "D. Porbandar"],
+      "answer-english": "D. Porbandar",
+      "solution-english": "ICGS Adamya, the first ship of the Adamya-class Fast Patrol Vessels (FPVs) built for the Indian Coast Guard, was commissioned at Porbandar, Gujarat, where it is based for operations in the Arabian Sea.",
+      "question-hindi": "ICGS अदम्य, अदम्य-श्रेणी के फास्ट पेट्रोल वेसल्स (FPVs) का पहला जहाज, किस बंदरगाह पर कमीशन किया गया था?",
+      "options-hindi": ["A. विशाखापत्तनम", "B. चेन्नई", "C. कोच्चि", "D. पोरबंदर"],
+      "answer-hindi": "D. पोरबंदर",
+      "solution-hindi": "ICGS अदम्य, भारतीय तटरक्षक बल के लिए निर्मित अदम्य-श्रेणी के फास्ट पेट्रोल वेसल्स (एफपीवी) का पहला जहाज, गुजरात के पोरबंदर में कमीशन किया गया था, जहां यह अरब सागर में परिचालन के लिए तैनात है।"
+    }
+          ]
+    },
+      {
+      "section": "Reasoning",
+          "questions": [
+              {
+          "question-hindi": "दिए गए शब्दों को उस क्रम में व्यवस्थित करें जिस क्रम में वे शब्दकोश में आते हैं।\n1 Classic\n2 Classify\n3 Clause\n4 Clay\n5 Clean",
+          "question-english": "Arrange the given words in the sequence in which they occur in the dictionary.\n1 Classic\n2 Classify\n3 Clause\n4 Clay\n5 Clean",
+          "options-hindi": ["12345", "12435", "21345", "13245"],
+          "options-english": ["12345", "12435", "21345", "13245"],
+          "answer-hindi": "(a) 12345",
+          "answer-english": "(a) 12345",
+          "solution-hindi": "दिए गए शब्द पहले से ही वर्णमाला के क्रम में हैं। Classic, Classify, Clause, Clay, Clean का क्रम 1, 2, 3, 4, 5 है।",
+          "solution-english": "The words are already in alphabetical order. Classic, Classify, Clause, Clay, Clean follow 1, 2, 3, 4, 5."
+        },
+        {
+          "question-hindi": "दिए गए विकल्पों में से, वह सर्वश्रेष्ठ उत्तर चुनें जिसका संबंध पहले जोड़े के समान है।\nकवक विज्ञान : कवक :: शैवाल विज्ञान : ?",
+          "question-english": "From the given alternatives, select the best answer which has the same relationship as in the 1st pair.\nMycology : Fungi :: Phycology : ?",
+          "options-hindi": ["शैवाल", "मछली", "फर्न", "वायरस"],
+          "options-english": ["Algae", "Fish", "Ferns", "Viruses"],
+          "answer-hindi": "(a) शैवाल",
+          "answer-english": "(a) Algae",
+          "solution-hindi": "कवक विज्ञान जीव विज्ञान की वह शाखा है जो कवक के अध्ययन से संबंधित है। शैवाल विज्ञान शैवाल का अध्ययन है।",
+          "solution-english": "Mycology is the branch of biology concerned with the study of fungi. Phycology is the study of algae."
+        },
+        {
+          "question-hindi": "उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित समुच्चयों की संख्याएँ हैं। (नोट: संक्रियाएँ पूरी संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना।)\n(9, 13, 44) (11, 15, 52)",
+          "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n(9, 13, 44) (11, 15, 52)",
+          "options-hindi": ["(12, 16, 56)", "(8, 12, 40)", "(7, 11, 36)", "(10, 14, 50)"],
+          "options-english": ["(12, 16, 56)", "(8, 12, 40)", "(7, 11, 36)", "(10, 14, 50)"],
+          "answer-hindi": "(b) (8, 12, 40)",
+          "answer-english": "(b) (8, 12, 40)",
+          "solution-hindi": "तर्क है: (पहली संख्या + दूसरी संख्या) × 2 = तीसरी संख्या। (9, 13, 44): (9 + 13) × 2 = 22 × 2 = 44। (11, 15, 52): (11 + 15) × 2 = 26 × 2 = 52।",
+          "solution-english": "The logic is: (First Number + Second Number) × 2 = Third Number. (9 + 13) × 2 = 44; (11 + 15) × 2 = 52."
+        },
+        {
+          "question-hindi": "प्रश्न में शब्दों के जोड़े हैं जो एक दूसरे से एक निश्चित तरीके से संबंधित हैं। निम्नलिखित चार शब्द-जोड़ों में से तीन समान हैं क्योंकि उनका संबंध समान है और इस प्रकार वे एक समूह बनाते हैं। कौन सा शब्द-जोड़ा उस समूह से संबंधित नहीं है?",
+          "question-english": "The question contains pairs of words that are related to each other in a certain way. Three of the following four word pairs are alike as these have the same relationship and thus form a group. Which word pair is the one that DOES NOT belong to that group?",
+          "options-hindi": ["सुई - धागा", "कलम - स्याही", "बंदूक - गोली", "चाकू - काटना"],
+          "options-english": ["Needle - Thread", "Pen - Ink", "Gun - Bullet", "Knife - Cut"],
+          "answer-hindi": "(d) चाकू - काटना",
+          "answer-english": "(d) Knife - Cut",
+          "solution-hindi": "पहले तीन जोड़ों में, पहली वस्तु कार्य करने के लिए दूसरी वस्तु का उपयोग करती है। एक चाकू 'काटने' का उपयोग नहीं करता है; 'काटना' चाकू द्वारा की जाने वाली क्रिया है।",
+          "solution-english": "In the first three pairs, the first item uses the second item to function. A knife does not 'use' a cut; 'cut' is the action performed by the knife."
+        },
+        {
+          "question-hindi": "एक निश्चित कूट भाषा में, 'FRIEND' को '832514' और 'TREND' को '73514' के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में 'F' का कूट क्या है?",
+          "question-english": "In a certain code language, 'FRIEND' is coded as '832514' and 'TREND' is coded as '73514'. What is the code for 'F' in the given code language?",
+          "options-hindi": ["8", "3", "2", "1"],
+          "options-english": ["8", "3", "2", "1"],
+          "answer-hindi": "(a) 8",
+          "answer-english": "(a) 8",
+          "solution-hindi": "अक्षरों और कूटों की तुलना करने पर, FRIEND में 'F' है और कूट 8 से शुरू होता है। TREND में 'F' नहीं है और इसके कूट में 8 नहीं है। इसलिए 'F' का कूट 8 है।",
+          "solution-english": "Comparing the letters and codes, FRIEND has 'F' and starts with 8. TREND does not have 'F' and does not include 8. So, 'F' is coded as 8."
+        },
+        {
+          "question-hindi": "एक निश्चित कूट भाषा में, यदि 'BRIGHT' को 'CSJHIU' के रूप में कूटबद्ध किया जाता है, तो उस भाषा में 'MARKET' को कैसे कूटबद्ध किया जाएगा?",
+          "question-english": "In a certain code language, if 'BRIGHT' is coded as 'CSJHIU', then how is 'MARKET' coded in that language?",
+          "options-hindi": ["NBSLFU", "NBSLGU", "NASLFU", "NBSLFT"],
+          "options-english": ["NBSLFU", "NBSLGU", "NASLFU", "NBSLFT"],
+          "answer-hindi": "(a) NBSLFU",
+          "answer-english": "(a) NBSLFU",
+          "solution-hindi": "तर्क प्रत्येक अक्षर के लिए +1 है। B (+1)=C, R(+1)=S, I(+1)=J, G(+1)=H, H(+1)=I, T(+1)=U। इसी तरह, MARKET को NBSLFU के रूप में कूटबद्ध किया गया है।",
+          "solution-english": "The logic is +1 for each letter. B→C, R→S, I→J, G→H, H→I, T→U. Similarly, MARKET is coded as NBSLFU."
+        },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_07.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_07.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q8.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q8.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "D",
+  "answer-english": "D",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q9.png",
+  "question-hindi": "यदि दिए गए चित्र को मोड़कर एक घन बनाया जाए, तो निम्नलिखित में से कौन सा चित्र संभव है?",
+  "question-english": "If the given sheet is folded to form a cube, which of the following figures is possible?",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(d)",
+  "answer-english": "(d)",
+  "solution-hindi": "",
+  "solution-english": ""
+  
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q10.png",
+  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
+  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(d)",
+  "answer-english": "(d)",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q11.png",
+  "question-hindi": "दिए गए चित्र में निहित चित्र का चयन करें। (घुमाना अनुमत नहीं है।)",
+  "question-english": "Select the option figure which is embedded in the given figure (rotation is NOT allowed).",
+  "options-hindi": ["(a)", "(b)", "(c)", "(d)"],
+  "options-english": ["(a)", "(b)", "(c)", "(d)"],
+  "answer-hindi": "(c)",
+  "answer-english": "(c)",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q12.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q12.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "c",
+  "answer-english": "c",
+  "solution-hindi": "",
+  "solution-english": ""
+}, {
+    "question-hindi": "उस संख्या का चयन करें जो प्रश्न चिह्न (?) के स्थान पर आएगी, यदि ‘+’ और ‘-’ को आपस में बदल दिया जाए और ‘x’ और ‘÷’ को आपस में बदल दिया जाए। 20 + 4 - 18 x 6 ÷ 3 = ?",
+    "question-english": "Select the number that will come in the place of the question mark(?), if ‘+’ and ‘-’ are interchanged and ‘x’ and ‘÷’ are interchanged. 20 + 4 - 18 x 6 ÷ 3 = ?",
+    "options-hindi": ["25", "6", "12", "18"],
+    "options-english": ["25", "6", "12", "18"],
+    "answer-hindi": "(a) 25",
+    "answer-english": "(a) 25",
+    "solution-hindi": "प्रतीकों को आपस में बदलने के बाद समीकरण बनता है: 20 - 4 + 18 ÷ 6 x 3 = 25।",
+    "solution-english": "After interchanging the symbols, the equation becomes: 20 - 4 + 18 ÷ 6 x 3 = 25."
+  },
+  {
+    "question-hindi": "छह दोस्त A, B, C, D, E, F एक वृत्त के चारों ओर बैठे हैं। A, D के बाईं ओर है। C, A और B के बीच में है। E, F और D के बीच में है। C के दाईं ओर कौन है?",
+    "question-english": "Eight friends A, B, C, D, E, F, G, and H are sitting around a circular table facing the centre. F is third to the right of C. B is second to the left of F. D is not an immediate neighbour of C or F. E is second to the right of A, who is an immediate neighbour of D. G is not an immediate neighbour of B. Who is sitting to the immediate right of B?",
+    "options-hindi": ["G", "H", "A", "B"],
+    "options-english": ["G", "H", "A", "C"],
+    "answer-hindi": "(b) F",
+    "answer-english": "(b) H",
+    "solution-hindi": "सही व्यवस्था: F, E, D, A, C, B। इसलिए C के दाईं ओर B है।",
+    "solution-english": "After arranging, the correct answer is H — the person to the immediate right of B."
+  },
+  {
+    "question-hindi": "मेरी माँ मेरे भाई से दोगुनी उम्र की हैं। मैं अपने भाई से पाँच साल छोटा हूँ। चार साल पहले, मेरी माँ मुझसे तीन गुना बड़ी थीं। मेरी माँ की वर्तमान आयु क्या है?",
+    "question-english": "My mother is twice as old as my brother. I am five years younger than my brother. In four years, my mother will be three times as old as me. What is my mother's current age?",
+    "options-hindi": ["38", "40", "42", "46"],
+    "options-english": ["38", "40", "42", "46"],
+    "answer-hindi": "(d) 46",
+    "answer-english": "(d) 46",
+    "solution-hindi": "यदि माँ की आयु 46 है, तो भाई की आयु 23 और मेरी आयु 18 है। चार साल पहले माँ की आयु 42 और मेरी 14 थी, जो 3 गुना है।",
+    "solution-english": "If the mother's age is 46, the brother's age is 23 and mine is 18. Four years ago, mother was 42 and I was 14 — 42 is 3×14, so the condition fits."
+  },
+  {
+    "question-hindi": "उस विकल्प का चयन करें जो उन अक्षरों को दर्शाता है जिन्हें नीचे दिए गए रिक्त स्थानों में क्रमिक रूप से बाएं से दाएं रखने पर अक्षर श्रृंखला पूरी हो जाएगी। p _ r _ q p q _ s q _ q r s _",
+    "question-english": "Select the option that represents the letters that when sequentially placed from left to right in the blanks below will complete the letter series. p _ r _ q p q _ s q _ q r s _",
+    "options-hindi": ["q s p r q", "q s r p q", "q s p q r", "q s q p r"],
+    "options-english": ["q s p r q", "q s r p q", "q s p q r", "q s q p r"],
+    "answer-hindi": "(b) q s r p q",
+    "answer-english": "(b) q s r p q",
+    "solution-hindi": "पैटर्न 'pqrsq' है, इसलिए सही क्रम q, s, r, p, q है।",
+    "solution-english": "The pattern is 'pqrsq', so the correct letters are q, s, r, p, q."
+  },
+  {
+    "question-hindi": "दी गई श्रृंखला में ? के स्थान पर क्या आना चाहिए? 2, 10, 30, 68, 130, ?",
+    "question-english": "What should come in place of ? in the given series? 2, 10, 30, 68, 130, ?",
+    "options-hindi": ["222", "220", "218", "224"],
+    "options-english": ["222", "220", "218", "224"],
+    "answer-hindi": "(a) 222",
+    "answer-english": "(a) 222",
+    "solution-hindi": "तर्क n³ + n है; इसलिए 6³ + 6 = 222।",
+    "solution-english": "The logic is n³ + n; thus 6³ + 6 = 222."
+  },
+  {
+    "question-hindi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए? 101, 103, 107, 113, 121, ?",
+    "question-english": "What should come in place of the question mark (?) in the given series? 101, 103, 107, 113, 121, ?",
+    "options-hindi": ["131", "129", "133", "127"],
+    "options-english": ["131", "129", "133", "127"],
+    "answer-hindi": "(a) 131",
+    "answer-english": "(a) 131",
+    "solution-hindi": "अंतर लगातार सम संख्याएँ हैं (+2, +4, +6, +8, +10)। इसलिए अगली संख्या 131 है।",
+    "solution-english": "Differences are consecutive even numbers (+2, +4, +6, +8, +10). Hence, the next number is 131."
+  },
+  {
+    "question-hindi": "दिए गए कथनों और निष्कर्षों को ध्यान से पढ़ें। आपको यह तय करना है कि कौन सा निष्कर्ष दिए गए कथनों से तार्किक रूप से अनुसरण करता है। कथन: कोई कार बाइक नहीं है। सभी बाइक स्कूटर हैं। निष्कर्ष: (I) कुछ स्कूटर कार नहीं हैं। (II) कुछ स्कूटर बाइक हैं।",
+    "question-english": "Read the given statements and conclusions carefully. You have to decide which conclusions logically follow/s from the given statements. Statements: No car is a bike. All bikes are scooters. Conclusions: (I) Some scooters are not cars. (II) Some scooters are bikes.",
+    "options-hindi": ["न तो (I) और न ही (II)", "केवल (II)", "केवल (I)", "दोनों (I) और (II)"],
+    "options-english": ["Neither (I) nor (II)", "Only (II)", "Only (I)", "Both (I) and (II)"],
+    "answer-hindi": "(d) दोनों (I) और (II)",
+    "answer-english": "(d) Both (I) and (II)",
+    "solution-hindi": "(I) चूंकि सभी बाइक स्कूटर हैं, कुछ स्कूटर कार नहीं हैं। (II) सभी बाइक स्कूटर हैं, इसलिए कुछ स्कूटर बाइक हैं।",
+    "solution-english": "(I) Since all bikes are scooters, some scooters are not cars. (II) All bikes are scooters, hence some scooters are bikes."
+  },
+  {
+    "question-hindi": "निम्नलिखित संख्या-जोड़ों में, दूसरी संख्या पहली संख्या पर कुछ गणितीय संक्रियाएँ लागू करके प्राप्त की जाती है। उस समुच्चय का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं। (11, 110) (15, 210)",
+    "question-english": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way. (11, 110) (15, 210)",
+    "options-hindi": ["(12, 130)", "(9, 72)", "(13, 150)", "(14, 186)"],
+    "options-english": ["(12, 130)", "(9, 72)", "(13, 150)", "(14, 186)"],
+    "answer-hindi": "(b) (9, 72)",
+    "answer-english": "(b) (9, 72)",
+    "solution-hindi": "तर्क है: n² - n, या n × (n - 1)। 9² - 9 = 72।",
+    "solution-english": "Logic: n² - n, or n × (n - 1). 9² - 9 = 72."
+  },
+  {
+    "question-hindi": "निम्नलिखित में से कौन सा शब्द 'REASONING' शब्द के सभी अक्षरों से बनाया जा सकता है?",
+    "question-english": "Which of the following words can be formed from all the alphabets of the word 'REASONING'?",
+    "options-hindi": ["Senior Nag", "Iron Gains", "Reason Gin", "Nine Rags"],
+    "options-english": ["Senior Nag", "Iron Gains", "Reason Gin", "Nine Rags"],
+    "answer-hindi": "(a) Senior Nag",
+    "answer-english": "(a) Senior Nag",
+    "solution-hindi": "'REASONING' के अक्षरों से 'SENIOR NAG' शब्द बनाया जा सकता है।",
+    "solution-english": "The word 'SENIOR NAG' can be formed from all the letters of 'REASONING'."
+  },
+  {
+    "question-hindi": "निम्नलिखित अक्षरों से कौन सा एक शब्द बनाया जा सकता है? r e h t a f",
+    "question-english": "Which one word can be formed from the following letters? r e h t a f",
+    "options-hindi": ["Farther", "After", "Heart", "Father"],
+    "options-english": ["Farther", "After", "Heart", "Father"],
+    "answer-hindi": "(d) Father",
+    "answer-english": "(d) Father",
+    "solution-hindi": "अक्षरों को पुनर्व्यवस्थित करके 'Father' शब्द बनाया जा सकता है।",
+    "solution-english": "The letters can be rearranged to form the word 'Father'."
+  },{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q23.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_023.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "A",
+  "answer-english": "A",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q24.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_3/mock_test_3_Q24.png",
+  "options-hindi": ["A", "B", "C", "D"],
+  "options-english": ["A", "B", "C", "D"],
+  "answer-hindi": "B",
+  "answer-english": "B",
+  "solution-hindi": "",
+  "solution-english": ""
+},{
+  "question-hindi": "मैं दक्षिण की ओर मुंह करके खड़ा हूं। मैं दाएं मुड़ता हूं और 20 मीटर चलता हूं। फिर मैं फिर से दाएं मुड़ता हूं और 10 मीटर चलता हूं। फिर मैं बाएं मुड़ता हूं और 10 मीटर चलता हूं और फिर दाएं मुड़कर 20 मीटर चलता हूं। फिर मैं फिर से दाएं मुड़ता हूं और 60 मीटर चलता हूं। मैं शुरुआती बिंदु से किस दिशा में हूं?",
+  "question-english": "I am facing South. I turn right and walk 20 m. Then I turn right again and walk 10 m. Then I turn left and walk 10 m and then turning right walk 20 m. Then I turn right again and walk 60 m. In which direction am I from the starting point?",
+  "options-hindi": ["उत्तर", "उत्तर-पश्चिम", "पूर्व", "उत्तर-पूर्व"],
+  "options-english": ["North", "North-West", "East", "North-East"],
+  "answer-hindi": "(d) उत्तर-पूर्व",
+  "answer-english": "(d) North-East",
+  "solution-hindi": "प्रारंभ में व्यक्ति दक्षिण दिशा की ओर मुख किए हुए है। दाएं मुड़ने पर पश्चिम की ओर मुड़ता है और 20 मीटर चलता है। फिर दाएं मुड़कर उत्तर दिशा में 10 मीटर चलता है। इसके बाद बाएं मुड़कर 10 मीटर पश्चिम की ओर चलता है (कुल 30 मीटर पश्चिम दिशा में)। फिर दाएं मुड़कर 20 मीटर उत्तर दिशा में चलता है (कुल 30 मीटर उत्तर दिशा में)। अंत में दाएं मुड़कर 60 मीटर पूर्व दिशा में चलता है। अब वह शुरुआती बिंदु से 30 मीटर पूर्व और 30 मीटर उत्तर दिशा में है, अतः दिशा उत्तर-पूर्व है।",
+  "solution-english": "Starting facing South. Turn right → facing West, walk 20 m. Turn right again → facing North, walk 10 m. Turn left → facing West, walk 10 m (total 30 m West). Turn right → facing North, walk 20 m (total 30 m North). Turn right again → facing East, walk 60 m. Final position: 30 m East and 30 m North from the starting point, hence the direction is North-East."
+}
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+             {
+      "question-hindi": "एक खुदरा विक्रेता अपनी वस्तुओं पर 20% की छूट देता है और फिर भी 10% का लाभ कमाता है। यदि किसी वस्तु की लागत उसे ₹ 1,800 है, तो उसका अंकित मूल्य क्या है?",
+      "question-english": "A retailer allows a 20% discount on his items and still makes a 10% profit. If an item costs him ₹1,800, what is its marked price?",
+      "options-hindi": ["₹ 2,475", "₹ 2,500", "₹ 2,400", "₹ 2,550"],
+      "options-english": ["₹2,475", "₹2,500", "₹2,400", "₹2,550"],
+      "answer-hindi": "₹ 2,475",
+      "answer-english": "₹2,475",
+      "solution-hindi": "CP = ₹ 1,800, लाभ = 10% => SP = 1800 × 1.1 = ₹ 1,980. MP = SP / (1 - छूट%) = 1980 / (1 - 0.20) = 1980 / 0.8 = ₹ 2,475.",
+      "solution-english": "CP = ₹1,800, Profit = 10% => SP = 1800 × 1.1 = ₹1,980. MP = SP / (1 - Discount%) = 1980 / (1 - 0.20) = 1980 / 0.8 = ₹2,475."
+    },
+    {
+      "question-hindi": "दो संख्याओं का LCM उनके HCF का 20 गुना है। यदि एक संख्या 100 है और LCM तथा HCF का योग 420 है, तो दूसरी संख्या क्या है?",
+      "question-english": "The LCM of two numbers is 20 times their HCF. If one of the numbers is 100 and the sum of the LCM and HCF is 420, then what is the other number?",
+      "options-hindi": ["60", "80", "90", "120"],
+      "options-english": ["60", "80", "90", "120"],
+      "answer-hindi": "80",
+      "answer-english": "80",
+      "solution-hindi": "मान लीजिए HCF = H और LCM = L। दिया गया है: L = 20H और L + H = 420। दूसरे समीकरण में L का मान रखने पर: 20H + H = 420 → 21H = 420 → H = 20। अब, L ज्ञात करें: L = 20 * 20 = 400। हम जानते हैं कि: (पहली संख्या) × (दूसरी संख्या) = HCF × LCM। 100 × (दूसरी संख्या) = 20 × 400. दूसरी संख्या = 8000 / 100 = 80।",
+      "solution-english": "Let HCF = H and LCM = L. Given: L = 20H and L + H = 420. Substitute L in the second equation: 20H + H = 420 → 21H = 420 → H = 20. Now, find L: L = 20 * 20 = 400. We know that: (First Number) × (Second Number) = HCF × LCM. 100 × (Second Number) = 20 × 400. Second Number = 8000 / 100 = 80."
+    },
+    {
+      "question-hindi": "एक त्रिभुज का क्षेत्रफल एक वर्ग के क्षेत्रफल का आधा है जिसकी परिधि 196 सेमी है। त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+      "question-english": "The area of a triangle is half the area of a square whose perimeter is 196 cm. Find the area of the triangle.",
+      "options-hindi": ["1200.5 सेमी²", "1200 सेमी²", "1201.5 सेमी²", "1202.5 सेमी²"],
+      "options-english": ["1200.5 cm²", "1200 cm²", "1201.5 cm²", "1202.5 cm²"],
+      "answer-hindi": "1200.5 सेमी²",
+      "answer-english": "1200.5 cm²",
+      "solution-hindi": "वर्ग की परिधि = 196 सेमी => भुजा = 196/4 = 49 सेमी. वर्ग का क्षेत्रफल = 49² = 2401 सेमी². त्रिभुज का क्षेत्रफल = 2401 / 2 = 1200.5 सेमी².",
+      "solution-english": "Perimeter of square = 196 cm => side = 196/4 = 49 cm. Area of square = 49² = 2401 cm². Area of triangle = 2401 / 2 = 1200.5 cm²."
+    },
+    {
+      "question-hindi": "एक गाँव के चुनाव में, मतदाता सूची में शामिल 90% लोगों ने अपने मत डाले। डाले गए मतों में से 10% अवैध घोषित कर दिए गए। यदि जीतने वाले उम्मीदवार को वैध मतों का 55% मिला और सूची में 30,000 मतदाता थे, तो जीतने वाले उम्मीदवार को कितने मत मिले?",
+      "question-english": "In a village election, 90% of the people on the voter list cast their votes. Of the votes cast, 10% were declared invalid. If the winning candidate received 55% of the valid votes and there were 30,000 voters on the list, how many votes did the winning candidate get?",
+      "options-hindi": ["13,365", "13,455", "13,500", "13,285"],
+      "options-english": ["13,365", "13,455", "13,500", "13,285"],
+      "answer-hindi": "13,365",
+      "answer-english": "13,365",
+      "solution-hindi": "डाले गए मत = 30000 × 0.90 = 27,000. वैध मत = 27000 × (1 - 0.10) = 24,300. विजेता के मत = 24300 × 0.55 = 13,365.",
+      "solution-english": "Votes cast = 30000 × 0.90 = 27,000. Valid votes = 27000 × (1 - 0.10) = 24,300. Winner's votes = 24300 × 0.55 = 13,365."
+    },
+    {
+      "question-hindi": "एक व्यक्ति ₹ 12,000, 2 साल के लिए 8% प्रति वर्ष साधारण ब्याज पर उधार लेता है। वह इसे एक दोस्त को 10% प्रति वर्ष पर 2 साल के लिए उधार दे देता है। उसका प्रति वर्ष लाभ क्या है?",
+      "question-english": "A man borrows ₹12,000 for 2 years at 8% per annum simple interest. He lends it to a friend at 10% per annum for 2 years. What is his gain per year?",
+      "options-hindi": ["₹ 240", "₹ 250", "₹ 260", "₹ 270"],
+      "options-english": ["₹240", "₹250", "₹260", "₹270"],
+      "answer-hindi": "₹ 240",
+      "answer-english": "₹240",
+      "solution-hindi": "प्रति वर्ष लाभ = (10% - 8%) का ₹ 12,000 = 12000 का 2% = ₹ 240.",
+      "solution-english": "Gain per year = (10% - 8%) of ₹12,000 = 2% of 12000 = ₹240."
+    },
+    {
+      "question-hindi": "एक साइकिल चालक एक निश्चित दूरी 15 किमी/घंटा की गति से तय करता है और 10 किमी/घंटा की गति से वापस आता है। यदि पूरी यात्रा में 5 घंटे लगते हैं, तो एक तरफ की दूरी क्या है?",
+      "question-english": "A cyclist covers a certain distance at a speed of 15 km/hr and returns at a speed of 10 km/hr. If the entire journey takes 5 hours, what is the distance of one side?",
+      "options-hindi": ["30 किमी", "25 किमी", "35 किमी", "20 किमी"],
+      "options-english": ["30 km", "25 km", "35 km", "20 km"],
+      "answer-hindi": "30 किमी",
+      "answer-english": "30 km",
+      "solution-hindi": "औसत गति = (2 × 15 × 10) / (15 + 10) = 300 / 25 = 12 किमी/घंटा. कुल दूरी = 12 × 5 = 60 किमी. एक तरफ की दूरी = 60 / 2 = 30 किमी.",
+      "solution-english": "Average speed = (2 × 15 × 10) / (15 + 10) = 300 / 25 = 12 km/hr. Total distance = 12 × 5 = 60 km. One-way distance = 60 / 2 = 30 km."
+    },
+    {
+      "question-hindi": "एक मोटरबोट एक निश्चित दूरी धारा के अनुकूल 10 घंटे में तय करती है और उतनी ही दूरी धारा के प्रतिकूल 15 घंटे में लौटती है। यदि धारा की गति 3 किमी/घंटा है, तो शांत जल में मोटरबोट की गति ज्ञात कीजिए।",
+      "question-english": "A motorboat covers a certain distance downstream in 10 hours and returns the same distance upstream in 15 hours. If the speed of the stream is 3 km/hr, find the speed of the motorboat in still water.",
+      "options-hindi": ["12 किमी/घंटा", "15 किमी/घंटा", "18 किमी/घंटा", "20 किमी/घंटा"],
+      "options-english": ["12 km/hr", "15 km/hr", "18 km/hr", "20 km/hr"],
+      "answer-hindi": "15 किमी/घंटा",
+      "answer-english": "15 km/hr",
+      "solution-hindi": "मान लीजिए नाव की गति = b। (b + 3) × 10 = (b - 3) × 15 => 10b + 30 = 15b - 45 => 5b = 75 => b = 15 किमी/घंटा.",
+      "solution-english": "Let speed of boat = b. (b + 3) × 10 = (b - 3) × 15 => 10b + 30 = 15b - 45 => 5b = 75 => b = 15 km/hr."
+    },
+    {
+      "question-hindi": "एक कारखाने में सभी कर्मचारियों का औसत वेतन ₹ 600 है। 20 अधिकारियों का औसत वेतन ₹ 1000 है, और शेष श्रमिकों का औसत वेतन ₹ 500 है। कर्मचारियों की कुल संख्या ज्ञात कीजिए।",
+      "question-english": "The average salary of all employees in a factory is ₹600. The average salary of 20 officers is ₹1000, and the average salary of the remaining workers is ₹500. Find the total number of employees.",
+      "options-hindi": ["80", "90", "100", "70"],
+      "options-english": ["80", "90", "100", "70"],
+      "answer-hindi": "100",
+      "answer-english": "100",
+      "solution-hindi": "मान लीजिए शेष श्रमिक x हैं। (20×1000 + 500x) / (20+x) = 600 => 20000 + 500x = 12000 + 600x => 100x = 8000 => x = 80. कुल कर्मचारी = 20 + 80 = 100.",
+      "solution-english": "Let remaining workers be x. (20×1000 + 500x) / (20+x) = 600 => 20000 + 500x = 12000 + 600x => 100x = 8000 => x = 80. Total employees = 20 + 80 = 100."
+    },
+    {
+      "question-hindi": "व्यंजक 41² + 42² + 43² + 44² + 45² का इकाई अंक ज्ञात कीजिए।",
+      "question-english": "Find the unit digit of the expression 41² + 42² + 43² + 44² + 45².",
+      "options-hindi": ["5", "4", "1", "9"],
+      "options-english": ["5", "4", "1", "9"],
+      "answer-hindi": "5",
+      "answer-english": "5",
+      "solution-hindi": "इकाई अंक: 1²=1, 2²=4, 3²=9, 4²=6, 5²=5। इकाई अंकों का योग = 1+4+9+6+5 = 25। इकाई अंक 5 है।",
+      "solution-english": "Unit digits: 1²=1, 2²=4, 3²=9, 4²=6, 5²=5. Sum of unit digits = 1+4+9+6+5 = 25. Unit digit is 5."
+    },
+    {
+      "question-hindi": "एक आयताकार बक्से की लंबाई, चौड़ाई और ऊंचाई का अनुपात 5:3:1 है। यदि इसकी चौड़ाई 9 सेमी है, तो बक्से का आयतन ज्ञात कीजिए।",
+      "question-english": "The ratio of length, breadth, and height of a rectangular box is 5:3:1. If its breadth is 9 cm, find the volume of the box.",
+      "options-hindi": ["405 सेमी³", "410 सेमी³", "415 सेमी³", "420 सेमी³"],
+      "options-english": ["405 cm³", "410 cm³", "415 cm³", "420 cm³"],
+      "answer-hindi": "405 सेमी³",
+      "answer-english": "405 cm³",
+      "solution-hindi": "B = 3 भाग = 9 सेमी => 1 भाग = 3 सेमी। L = 5 × 3 = 15 सेमी, H = 1 × 3 = 3 सेमी। आयतन = 15 × 9 × 3 = 405 सेमी³.",
+      "solution-english": "B = 3 parts = 9 cm => 1 part = 3 cm. L = 5 × 3 = 15 cm, H = 1 × 3 = 3 cm. Volume = 15 × 9 × 3 = 405 cm³."
+    },
+    {
+      "question-hindi": "रीना का प्रारंभिक व्यय और बचत 4:1 के अनुपात में थे। उसकी आय में 30% की वृद्धि होती है, जबकि उसकी बचत में 10% की वृद्धि होती है। यदि रीना का वर्तमान व्यय ₹ 5,890 है, तो उसकी प्रारंभिक आय क्या थी?",
+      "question-english": "Rina's initial expenditure and savings were in the ratio 4 : 1. Her income increases by 30%, while her savings increase by 10%. If Rina's current expenditure is ₹5,890, what was her initial income?",
+      "options-hindi": ["₹ 4,500", "₹ 5,000", "₹ 5,500", "₹ 6,000"],
+      "options-english": ["₹4,500", "₹5,000", "₹5,500", "₹6,000"],
+      "answer-hindi": "₹ 5,000",
+      "answer-english": "₹5,000",
+      "solution-hindi": "टिप्पणी: मूल प्रश्न (व्यय ₹ 5,890) से दशमलव में उत्तर आएगा। गणना को सरल बनाने के लिए व्यय को ₹ 5,400 मानकर संशोधित किया गया है। मान लीजिए प्रारंभिक व्यय = 4x, बचत = 1x। प्रारंभिक आय = 5x। नई आय = 5x * 1.30 = 6.5x। नई बचत = 1x * 1.10 = 1.1x। नया व्यय = नई आय - नई बचत = 6.5x - 1.1x = 5.4x। 5.4x = 5400 => x = 1000। प्रारंभिक आय: 5x = 5 * 1000 = ₹ 5,000।",
+      "solution-english": "Note: The original question (expenditure ₹5,890) results in a decimal answer. The calculation has been simplified by assuming the expenditure is ₹5,400. Let initial expenditure = 4x, savings = 1x. Initial income = 5x. New income = 5x * 1.30 = 6.5x. New savings = 1x * 1.10 = 1.1x. New expenditure = New income - New savings = 6.5x - 1.1x = 5.4x. 5.4x = 5400 => x = 1000. Initial income: 5x = 5 * 1000 = ₹5,000."
+    },
+    {
+      "question-hindi": "एक फल विक्रेता ₹ 60 प्रति किलो पर 50 किलो सेब खरीदता है। वह उनमें 10 किलो दूसरी किस्म के सेब मिलाता है जिसकी उसे कोई लागत नहीं लगती। यदि वह मिश्रण को ₹ 65 प्रति किलो पर बेचता है, तो उसका लाभ प्रतिशत क्या है?",
+      "question-english": "A fruit vendor buys 50 kg of apples at ₹60 per kg. He mixes them with 10 kg of another variety of apples that cost him nothing. If he sells the mixture at ₹65 per kg, what is his profit percentage?",
+      "options-hindi": ["30%", "25%", "35%", "20%"],
+      "options-english": ["30%", "25%", "35%", "20%"],
+      "answer-hindi": "30%",
+      "answer-english": "30%",
+      "solution-hindi": "CP = 50 × 60 = ₹ 3,000। कुल वजन = 50 + 10 = 60 किलो। SP = 60 × 65 = ₹ 3,900। लाभ = 3900 - 3000 = ₹ 900। लाभ % = (900/3000) × 100 = 30%।",
+      "solution-english": "CP = 50 × 60 = ₹3,000. Total weight = 50 + 10 = 60 kg. SP = 60 × 65 = ₹3,900. Profit = 3900 - 3000 = ₹900. Profit % = (900/3000) × 100 = 30%."
+    },
+    {
+      "question-hindi": "एक निर्माता 25 घंटे में एक दीवार बना सकता है, जबकि एक विध्वंसक इसे 50 घंटे में तोड़ सकता है। वे एक साथ काम करना शुरू करते हैं, लेकिन विध्वंसक 10 घंटे बाद चला जाता है। दीवार को पूरा करने में कुल कितना समय लगेगा?",
+      "question-english": "A constructor can build a wall in 25 hours, while a demolisher can break it in 50 hours. They start working together, but the demolisher leaves after 10 hours. How long will it take to complete the wall in total?",
+      "options-hindi": ["35 घंटे", "40 घंटे", "45 घंटे", "30 घंटे"],
+      "options-english": ["35 hours", "40 hours", "45 hours", "30 hours"],
+      "answer-hindi": "30 घंटे",
+      "answer-english": "30 hours",
+      "solution-hindi": "संयुक्त कार्य प्रति घंटा = 1/25 - 1/50 = 1/50। 10 घंटे में किया गया कार्य = 10/50 = 1/5। शेष कार्य = 4/5। निर्माता द्वारा लिया गया समय = (4/5) / (1/25) = 20 घंटे। कुल समय = 10 + 20 = 30 घंटे।",
+      "solution-english": "Combined work per hour = 1/25 - 1/50 = 1/50. Work in 10 hours = 10/50 = 1/5. Remaining work = 4/5. Time by builder = (4/5) / (1/25) = 20 hours. Total time = 10 + 20 = 30 hours."
+    },
+    {
+      "question-hindi": "एक 10-अंकीय संख्या 45y87621x6, 72 से विभाज्य है। x के सबसे बड़े मान के लिए (2x - y) का मान ज्ञात कीजिए।",
+      "question-english": "A 10-digit number 45y87621x6 is divisible by 72. Find the value of (2x - y) for the greatest value of x.",
+      "options-hindi": ["12", "6", "14", "9"],
+      "options-english": ["12", "6", "14", "9"],
+      "answer-hindi": "6",
+      "answer-english": "6",
+      "solution-hindi": "8 से विभाज्यता के लिए, '1x6' 8 से विभाज्य होना चाहिए। सबसे बड़ा x=9 पर 196 (विभाज्य नहीं)। x=7 पर 176 (विभाज्य)। तो x=7। 9 से विभाज्यता के लिए, योग = 4+5+y+8+7+6+2+1+7+6 = 46+y। यह 9 से विभाज्य होना चाहिए। तो 46+y=54 => y=8। (2x - y) का मान = 2(7) - 8 = 14 - 8 = 6।",
+      "solution-english": "For divisibility by 8, '1x6' must be divisible by 8. Greatest x=9 gives 196 (not div). x=7 gives 176 (div). So x=7. For divisibility by 9, sum = 4+5+y+8+7+6+2+1+7+6 = 46+y. Must be div by 9. So 46+y=54 => y=8. Value of (2x - y) = 2(7) - 8 = 14 - 8 = 6."
+    },
+    {
+      "question-hindi": "श्री शर्मा ने कुछ वर्षों के बाद एक बैंक को ₹ 12,167 का भुगतान किया। उन्होंने ₹ 10,000 का ऋण 10% प्रति वर्ष चक्रवृद्धि ब्याज पर लिया था। ऋण कितने वर्षों के लिए लिया गया था?",
+      "question-english": "Mr. Sharma paid ₹12,167 to a bank after some years. He had taken a loan of ₹10,000 at 10% per annum compounded annually. For how many years was the loan taken?",
+      "options-hindi": ["2 वर्ष", "3 वर्ष", "1.5 वर्ष", "2.5 वर्ष"],
+      "options-english": ["2 years", "3 years", "1.5 years", "2.5 years"],
+      "answer-hindi": "2 वर्ष",
+      "answer-english": "2 years",
+      "solution-hindi": "टिप्पणी: राशि ₹ 12,167 में टाइपो त्रुटि प्रतीत होती है। ₹ 12,100 मानकर गणना की गई है। 12100 = 10000(1 + 10/100)ᵗ => 1.21 = (1.1)ᵗ. हम जानते हैं 1.1² = 1.21। तो, t = 2 वर्ष।",
+      "solution-english": "Note: The amount ₹12,167 appears to be a typo. The calculation is done assuming the amount is ₹12,100. 12100 = 10000(1 + 10/100)^t => 1.21 = (1.1)^t. We know 1.1² = 1.21. So, t = 2 years."
+    }
+          ]
+    },
+    {
+      "section": "Computer",
+          "questions": [
+             {
+      "question-hindi": "MS Word 365 में दस्तावेज़ की शुरुआत में जाने के लिए निम्नलिखित में से किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+      "question-english": "In MS Word 365 which of the following shortcut keys is used to go to the beginning of the document?",
+      "options-hindi": [
+        "A). Ctrl + Del",
+        "B). Ctrl + End",
+        "C). Ctrl + Home",
+        "D). Ctrl + Ins"
+      ],
+      "options-english": [
+        "A). Ctrl + Del",
+        "B). Ctrl + End",
+        "C). Ctrl + Home",
+        "D). Ctrl + Ins"
+      ],
+      "answer-hindi": "C). Ctrl + Home",
+      "answer-english": "C). Ctrl + Home",
+      "solution-hindi": "कीबोर्ड शॉर्टकट Ctrl + Home तुरंत कर्सर को दस्तावेज़ की बिल्कुल शुरुआत में ले जाता है। इसके विपरीत, Ctrl + End इसे बिल्कुल अंत में ले जाता है।",
+      "solution-english": "The keyboard shortcut Ctrl + Home instantly moves the cursor to the very beginning of the document. Conversely, Ctrl + End moves it to the very end."
+    },
+    {
+      "question-hindi": "LAN से आपका क्या अभिप्राय है?",
+      "question-english": "What do you mean by LAN?",
+      "options-hindi": [
+        "A). लाइव एरिया नेटवर्क (Live Area Network)",
+        "B). लोकल एरिया नेटवर्क (Local Area Network)",
+        "C). लोकल अराउंड नेटवर्क (Local Around Network)",
+        "D). लास्ट एक्टिव नेटवर्क (Last Active Network)"
+      ],
+      "options-english": [
+        "A). Live Area Network",
+        "B). Local Area Network",
+        "C). Local Around Network",
+        "D). Last Active Network"
+      ],
+      "answer-hindi": "B). लोकल एरिया नेटवर्क (Local Area Network)",
+      "answer-english": "B). Local Area Network",
+      "solution-hindi": "LAN कंप्यूटर नेटवर्किंग में एक मानक संक्षिप्त नाम है जिसका अर्थ लोकल एरिया नेटवर्क है। यह एक ऐसे नेटवर्क को संदर्भित करता है जो एक सीमित भौगोलिक क्षेत्र, जैसे कि घर, स्कूल या कार्यालय भवन के भीतर कंप्यूटर और उपकरणों को जोड़ता है।",
+      "solution-english": "LAN is a standard acronym in computer networking that stands for Local Area Network. It refers to a network that connects computers and devices within a limited geographical area, such as a home, school, or office building."
+    },
+    {
+      "question-hindi": "MS-Word 365 में, हेल्प मेनू में 'टेल मी व्हाट यू वांट टू डू' (Tell me what you want to do) सुविधा का उद्देश्य क्या है?",
+      "question-english": "In MS-Word 365, what is the purpose of the ‘Tell me what you want to do’ feature in the Help menu?",
+      "options-hindi": [
+        "A). यह त्वरित पहुंच के लिए हाल के दस्तावेज़ों की एक सूची प्रदान करता है।",
+        "B). यह आपको एप्लिकेशन के भीतर विशिष्ट कमांड और सुविधाओं को खोजने की अनुमति देता है।",
+        "C). यह दस्तावेज़ में स्वरूपण त्रुटियों को स्वचालित रूप से ठीक करता है।",
+        "D). यह चयनित टेक्स्ट के लिए व्याकरण और वर्तनी सुझाव प्रदान करता है।"
+      ],
+      "options-english": [
+        "A). It provides a list of recent documents for quick access.",
+        "B). It allows you to search for specific commands and features within the application.",
+        "C). It automatically corrects formatting errors in the document.",
+        "D). It offers grammar and spelling suggestions for the selected text."
+      ],
+      "answer-hindi": "B). यह आपको एप्लिकेशन के भीतर विशिष्ट कमांड और सुविधाओं को खोजने की अनुमति देता है।",
+      "answer-english": "B). It allows you to search for specific commands and features within the application.",
+      "solution-hindi": "\"टेल मी\" बॉक्स (अक्सर एक लाइटबल्ब आइकन द्वारा दर्शाया जाता है) एक स्मार्ट खोज सुविधा है। उपयोगकर्ता जो करना चाहते हैं उसका वर्णन करने वाले शब्द या वाक्यांश टाइप कर सकते हैं, और वर्ड प्रासंगिक कमांड या सुविधा के लिए एक सीधा लिंक प्रदान करेगा, जिससे उन्हें मेनू के माध्यम से खोजने से बचाया जा सकेगा।",
+      "solution-english": "The \"Tell me\" box (often represented by a lightbulb icon) is a smart search feature. Users can type in words or phrases describing what they want to do, and Word will provide a direct link to the relevant command or feature, saving them from having to search through menus."
+    },
+    {
+      "question-hindi": "MS Word 365 में कॉपी या कट किए जाने पर टेक्स्ट को अस्थायी रूप से सहेजने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+      "question-english": "Which of the following is used to save text temporarily when it is copied or cut in MS Word 365?",
+      "options-hindi": [
+        "A). मेमोरीबोर्ड (Memoryboard)",
+        "B). कॉपीबोर्ड (Copyboard)",
+        "C). क्लिपबोर्ड (Clipboard)",
+        "D). टेक्स्टबोर्ड (Textboard)"
+      ],
+      "options-english": [
+        "A). Memoryboard",
+        "B). Copyboard",
+        "C). Clipboard",
+        "D). Textboard"
+      ],
+      "answer-hindi": "C). क्लिपबोर्ड (Clipboard)",
+      "answer-english": "C). Clipboard",
+      "solution-hindi": "क्लिपबोर्ड कंप्यूटर की मेमोरी में एक अस्थायी भंडारण क्षेत्र है जहां डेटा (टेक्स्ट, चित्र, फ़ाइलें) को कट या कॉपी करने के बाद रखा जाता है, जिससे यह कहीं और पेस्ट करने के लिए उपलब्ध हो जाता है।",
+      "solution-english": "The Clipboard is a temporary storage area in a computer's memory where data (text, images, files) is held after being cut or copied, making it available to be pasted elsewhere."
+    },
+    {
+      "question-hindi": "निम्नलिखित में से कौन सा माइक्रोसॉफ्ट वर्ड 365 में एक टेबल स्टाइल का एक उदाहरण है?",
+      "question-english": "Which of the following is an example of a table style in Microsoft Word 365?",
+      "options-hindi": [
+        "A). शिकागो मैनुअल ऑफ स्टाइल (Chicago Manual of Style)",
+        "B). प्लेन ग्रिड (Plain Grid)",
+        "C). एपीए (अमेरिकन साइकोलॉजिकल एसोसिएशन) (APA)",
+        "D). एमएलए (मॉडर्न लैंग्वेज एसोसिएशन) (MLA)"
+      ],
+      "options-english": [
+        "A). Chicago Manual of Style",
+        "B). Plain Grid",
+        "C). APA (American Psychological Association)",
+        "D). MLA (Modern Language Association)"
+      ],
+      "answer-hindi": "B). प्लेन ग्रिड (Plain Grid)",
+      "answer-english": "B). Plain Grid",
+      "solution-hindi": "\"प्लेन ग्रिड\" वर्ड के टेबल डिज़ाइन विकल्पों में पाए जाने वाले एक पूर्व-स्वरूपित टेबल डिज़ाइन का नाम है। APA, MLA, और शिकागो उद्धरण और लेखन शैलियाँ हैं, टेबल शैलियाँ नहीं।",
+      "solution-english": "\"Plain Grid\" is a name of a pre-formatted table design found within Word's Table Design options. APA, MLA, and Chicago are citation and writing styles, not table styles."
+    },
+    {
+      "question-hindi": "माइक्रोसॉफ्ट वर्ड 365 में 'हेल्प' (Help) सुविधा का उद्देश्य क्या है?",
+      "question-english": "What is the purpose of the ‘Help’ feature in Microsoft Word 365?",
+      "options-hindi": [
+        "A). यह आपको वर्तमान दस्तावेज़ को प्रिंट करने की अनुमति देता है।",
+        "B). यह माइक्रोसॉफ्ट वर्ड का उपयोग करने के बारे में सहायता और जानकारी प्रदान करता है।",
+        "C). यह एक नया खाली दस्तावेज़ खोलता है।",
+        "D). यह दस्तावेज़ की एक बैकअप प्रति बनाता है।"
+      ],
+      "options-english": [
+        "A). It allows you to print the current document.",
+        "B). It provides assistance and information about using Microsoft Word.",
+        "C). It opens a new blank document.",
+        "D). It creates a backup copy of the document."
+      ],
+      "answer-hindi": "B). यह माइक्रोसॉफ्ट वर्ड का उपयोग करने के बारे में सहायता और जानकारी प्रदान करता है।",
+      "answer-english": "B). It provides assistance and information about using Microsoft Word.",
+      "solution-hindi": "हेल्प सुविधा (अक्सर F1 कुंजी दबाकर पहुँचा जाता है) एक अंतर्निहित संसाधन है जो उपयोगकर्ताओं को सॉफ्टवेयर के विभिन्न कार्यों का उपयोग करने के तरीके पर प्रलेखन, ट्यूटोरियल और समस्या निवारण जानकारी प्रदान करता है।",
+      "solution-english": "The Help feature (often accessed by pressing the F1 key) is a built-in resource that provides users with documentation, tutorials, and troubleshooting information on how to use the software's various functions."
+    },
+    {
+      "question-hindi": "माइक्रोसॉफ्ट एक्सेल 365 में, कॉलम L और पंक्ति 26 के बीच के प्रतिच्छेदन का सेल पता क्या है?",
+      "question-english": "In Microsoft Excel 365, what is the cell address of the intersection between column L and row 26?",
+      "options-hindi": [
+        "A). L26",
+        "B). 125L",
+        "C). 26L",
+        "D). L125"
+      ],
+      "options-english": [
+        "A). L26",
+        "B). 125L",
+        "C). 26L",
+        "D). L125"
+      ],
+      "answer-hindi": "A). L26",
+      "answer-english": "A). L26",
+      "solution-hindi": "एक्सेल की सेल रेफरेंसिंग प्रणाली, जिसे A1 शैली के रूप में जाना जाता है, एक सेल को उसके कॉलम अक्षर के बाद उसकी पंक्ति संख्या से पहचानती है। इसलिए, कॉलम L और पंक्ति 26 के प्रतिच्छेदन पर स्थित सेल L26 है।",
+      "solution-english": "Excel's cell referencing system, known as A1 style, identifies a cell by its column letter followed by its row number. Therefore, the cell at the intersection of column L and row 26 is L26."
+    },
+    {
+      "question-hindi": "MS Excel 365 में, तीसरी पंक्ति और पांचवें कॉलम में स्थित सेल को संबोधित करने का सही तरीका निम्नलिखित में से कौन सा है?",
+      "question-english": "In MS Excel 365, which of the following is the correct way to address the cell located in the third row and fifth column?",
+      "options-hindi": [
+        "A). 5A",
+        "B). 35",
+        "C). 3A",
+        "D). E3"
+      ],
+      "options-english": [
+        "A). 5A",
+        "B). 35",
+        "C). 3A",
+        "D). E3"
+      ],
+      "answer-hindi": "D). E3",
+      "answer-english": "D). E3",
+      "solution-hindi": "एक्सेल में, कॉलम को अक्षरों (A, B, C, D, E, ...) से पहचाना जाता है। पांचवां कॉलम कॉलम E है। पंक्तियों को संख्याओं से पहचाना जाता है। इसलिए, तीसरी पंक्ति और पांचवें कॉलम में स्थित सेल E3 है।",
+      "solution-english": "In Excel, columns are identified by letters (A, B, C, D, E, ...). The fifth column is column E. Rows are identified by numbers. Therefore, the cell in the third row and fifth column is E3."
+    },
+    {
+      "question-hindi": "MS Excel 365 में, निम्नलिखित में से कौन सा कीबोर्ड शॉर्टकट प्रिंट विकल्प खोलता है?",
+      "question-english": "In MS Excel 365, which of the following keyboard shortcuts opens the Print option?",
+      "options-hindi": [
+        "A). Ctrl + Alt + P",
+        "B). Shift + P",
+        "C). Ctrl + P",
+        "D). Alt + P"
+      ],
+      "options-english": [
+        "A). Ctrl + Alt + P",
+        "B). Shift + P",
+        "C). Ctrl + P",
+        "D). Alt + P"
+      ],
+      "answer-hindi": "C). Ctrl + P",
+      "answer-english": "C). Ctrl + P",
+      "solution-hindi": "Ctrl + P अधिकांश विंडोज अनुप्रयोगों, जिसमें माइक्रोसॉफ्ट एक्सेल भी शामिल है, में प्रिंट प्रीव्यू और सेटिंग्स विंडो खोलने के लिए सार्वभौमिक कीबोर्ड शॉर्टकट है।",
+      "solution-english": "Ctrl + P is the universal keyboard shortcut in most Windows applications, including Microsoft Excel, to open the Print Preview and settings window."
+    },
+    {
+      "question-hindi": "MS Word 365 में यदि आप अपने दस्तावेज़ को किसी अन्य स्थान पर उसी या भिन्न नाम से सहेजना चाहते हैं तो निम्नलिखित में से किस विकल्प का उपयोग किया जा सकता है?",
+      "question-english": "Which of the following options can be used in MS Word 365 if you want to save your document in another location with the same or different name?",
+      "options-hindi": [
+        "A). प्रिंट (Print)",
+        "B). ओपन (Open)",
+        "C). न्यू (New)",
+        "D). सेव ऐज़ (Save As)"
+      ],
+      "options-english": [
+        "A). Print",
+        "B). Open",
+        "C). New",
+        "D). Save As"
+      ],
+      "answer-hindi": "D). सेव ऐज़ (Save As)",
+      "answer-english": "D). Save As",
+      "solution-hindi": "सेव ऐज़ कमांड का उपयोग वर्तमान दस्तावेज़ की एक प्रति सहेजने के लिए किया जाता है। यह आपको सहेजी गई फ़ाइल के लिए एक नया फ़ाइल नाम, फ़ाइल प्रकार या स्थान निर्दिष्ट करने की अनुमति देता है, जो मूल से भिन्न होता है। सेव कमांड मौजूदा फ़ाइल को उसके वर्तमान स्थान पर अपडेट करता है।",
+      "solution-english": "The Save As command is used to save a copy of the current document. It allows you to specify a new file name, file type, or location for the saved file, distinct from the original. The Save command updates the existing file in its current location."
+    }
+          ]
+    }
+  ]
+}

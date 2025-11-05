@@ -712,45 +712,251 @@
           
   "questions": [
     {
-      "question-hindi": "एक दुकानदार अपने ग्राहकों को 10% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि किसी वस्तु की लागत दुकानदार को ₹4,500 है, तो उसका अंकित मूल्य क्या है?",
-      "question-english": "A shopkeeper offers his customers a discount of 10% and still makes a profit of 20%. If an item costs the shopkeeper ₹4,500, what is its marked price?",
-      "options-hindi": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
-      "options-english": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
-      "answer-hindi": "सही उत्तर: (a) ₹6,000",
-      "answer-english": "Correct Answer: (a) ₹6,000",
-      "solution-hindi": "• लागत मूल्य (CP) = ₹4,500\n• लाभ = 20%\n• विक्रय मूल्य (SP) = CP × (1 + लाभ/100) = 4500 × 1.20 = ₹5,400\n• छूट = 10%\n• अंकित मूल्य (MP) = SP / (1 - छूट/100) = 5400 / 0.90 = ₹6,000",
-      "solution-english": "• Cost Price (CP) = ₹4,500\n• Profit = 20%\n• Selling Price (SP) = CP × (1 + Profit/100) = 4500 × 1.20 = ₹5,400\n• Discount = 10%\n• Marked Price (MP) = SP / (1 - Discount/100) = 5400 / 0.90 = ₹6,000"
-    },
-    {
-      "question-hindi": "दो संख्याओं का LCM (लघुत्तम समापवर्त्य) उनके HCF (महत्तम समापवर्तक) का 15 गुना है। यदि एक संख्या 75 है और LCM तथा HCF का योग 240 है, तो दूसरी संख्या क्या है?",
-      "question-english": "The LCM of two numbers is 15 times their HCF. If one of the numbers is 75 and the sum of the LCM and HCF is 240, then what is the other number?",
-      "options-hindi": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
-      "options-english": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
-      "answer-hindi": "सही उत्तर: (b) 45",
-      "answer-english": "Correct Answer: (b) 45",
-      "solution-hindi": "• L = 15H और L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15\n• L = 15 × 15 = 225\n• 75 × (दूसरी संख्या) = 15 × 225 → दूसरी संख्या = 3375 / 75 = 45",
-      "solution-english": "• L = 15H and L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15\n• L = 15 × 15 = 225\n• 75 × (Second Number) = 15 × 225 → Second Number = 3375 / 75 = 45"
-    },
-    {
-      "question-hindi": "एक त्रिभुज का क्षेत्रफल एक वर्ग के क्षेत्रफल का एक-तिहाई है। वर्ग की परिधि 240 सेमी है। त्रिभुज का क्षेत्रफल (सेमी² में) क्या है?",
-      "question-english": "The area of a triangle is one-third the area of a square. The perimeter of the square is 240 cm. What is the area of the triangle (in cm²)?",
-      "options-hindi": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
-      "options-english": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
-      "answer-hindi": "सही उत्तर: (a) 1200",
-      "answer-english": "Correct Answer: (a) 1200",
-      "solution-hindi": "• वर्ग की परिधि = 4 × भुजा = 240 सेमी → भुजा = 60 सेमी\n• वर्ग का क्षेत्रफल = भुजा² = 60² = 3600 सेमी²\n• त्रिभुज का क्षेत्रफल = (1/3) × वर्ग का क्षेत्रफल = (1/3) × 3600 = 1200 सेमी²",
-      "solution-english": "• Perimeter of square = 4 × side = 240 cm → side = 60 cm\n• Area of square = side² = 60² = 3600 cm²\n• Area of triangle = (1/3) × Area of square = (1/3) × 3600 = 1200 cm²"
-    },
-    {
-      "question-hindi": "दो उम्मीदवारों के बीच एक चुनाव में, 80% मतदाताओं ने अपने मत डाले, जिनमें से 5% मत अवैध घोषित कर दिए गए। यदि जीतने वाले उम्मीदवार को वैध मतों का 65% मिला और पात्र मतदाताओं की कुल संख्या 20,000 थी, तो जीतने वाले उम्मीदवार को कितने मत मिले?",
-      "question-english": "In an election between two candidates, 80% of the voters cast their votes, out of which 5% of the votes were declared invalid. If the winning candidate got 65% of the valid votes and the total number of eligible voters was 20,000, how many votes did the winning candidate receive?",
-      "options-hindi": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
-      "options-english": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
-      "answer-hindi": "सही उत्तर: (a) 9880",
-      "answer-english": "Correct Answer: (a) 9880",
-      "solution-hindi": "• कुल मतदाता = 20,000\n• डाले गए मत = 20,000 का 80% = 16,000\n• अवैध मत = 16,000 का 5% = 800\n• वैध मत = 16,000 - 800 = 15,200\n• जीतने वाले उम्मीदवार के मत = 15,200 का 65% = 0.65 × 15,200 = 9,880",
-      "solution-english": "• Total voters = 20,000\n• Votes cast = 80% of 20,000 = 16,000\n• Invalid votes = 5% of 16,000 = 800\n• Valid votes = 16,000 - 800 = 15,200\n• Winning candidate's votes = 65% of 15,200 = 0.65 × 15,200 = 9,880"
-    }
+              "question-hindi": "एक दुकानदार अपने ग्राहकों को 10% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि किसी वस्तु की लागत दुकानदार को ₹ 4,500 है, तो उसका अंकित मूल्य क्या है?",
+              "question-english" : " A shopkeeper offers his customers a discount of 10% and still makes a profit of 20%. If an item costs the shopkeeper ₹4,500, what is its marked price?",
+              "options-hindi": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
+              "options-english": ["(a) ₹6,000", "(b) ₹5,400", "(c) ₹5,800", "(d) ₹6,200"],
+              "answer-hindi": "सही उत्तर: (a) ₹ 6,000",
+              "answer-english": "Correct Answer: (a) ₹6,000",
+              "solution-hindi": "•	लागत मूल्य (CP) = ₹ 4,500
+	•	लाभ = 20%
+	•	विक्रय मूल्य (SP) = CP × (1 + लाभ/100) = 4500 × 1.20 = ₹ 5,400
+	•	छूट = 10%
+	•	अंकित मूल्य (MP) = SP / (1 - छूट/100) = 5400 / 0.90 = ₹ 6,000",
+              "solution-english": "•	Cost Price (CP) = ₹4,500
+	•	Profit = 20%
+	•	Selling Price (SP) = CP × (1 + Profit/100) = 4500 × 1.20 = ₹5,400
+	•	Discount = 10%
+	•	Marked Price (MP) = SP / (1 - Discount/100) = 5400 / 0.90 = ₹6,000"
+            },{
+              "question-hindi": "दो संख्याओं का LCM (लघुत्तम समापवर्त्य) उनके HCF (महत्तम समापवर्तक) का 15 गुना है। यदि एक संख्या 75 है और LCM तथा HCF का योग 240 है, तो दूसरी संख्या क्या है?",
+              "question-english" : " The LCM of two numbers is 15 times their HCF. If one of the numbers is 75 and the sum of the LCM and HCF is 240, then what is the other number?",
+              "options-hindi": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
+              "options-english": ["(a) 30", "(b) 45", "(c) 60", "(d) 75"],
+              "answer-hindi": "सही उत्तर: (b) 45",
+              "answer-english": "Correct Answer: (b) 45",
+              "solution-hindi": "	•	L = 15H और L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15
+	•	L = 15 * 15 = 225
+	•	75 × (दूसरी संख्या) = 15 × 225 → दूसरी संख्या = 3375 / 75 = 45",
+              "solution-english": "•	L = 15H and L + H = 240 → 15H + H = 240 → 16H = 240 → H = 15.
+	•	L = 15 * 15 = 225.
+	•	75 × (Second Number) = 15 × 225 → Second Number = 3375 / 75 = 45."
+            },{
+              "question-hindi": "एक त्रिभुज का क्षेत्रफल एक वर्ग के क्षेत्रफल का एक-तिहाई है। वर्ग की परिधि 240 सेमी है। त्रिभुज का क्षेत्रफल (सेमी² में) क्या है?",
+              "question-english" : "The area of a triangle is one-third the area of a square. The perimeter of the square is 240 cm. What is the area of the triangle (in cm²)?",
+              "options-hindi": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
+              "options-english": ["(a) 1200", "(b) 900", "(c) 1500", "(d) 1800"],
+              "answer-hindi": "सही उत्तर: (a) 1200",
+              "answer-english": "Correct Answer: (a) 1200",
+              "solution-hindi": "	•	वर्ग की परिधि = 4 × भुजा = 240 सेमी => भुजा = 60 सेमी
+	•	वर्ग का क्षेत्रफल = भुजा² = 60² = 3600 सेमी²
+	•	त्रिभुज का क्षेत्रफल = (1/3) × वर्ग का क्षेत्रफल = (1/3) × 3600 = 1200 सेमी²",
+              "solution-english": "•	Perimeter of square = 4 × side = 240 cm => side = 60 cm
+	•	Area of square = side² = 60² = 3600 cm²
+	•	Area of triangle = (1/3) × Area of square = (1/3) × 3600 = 1200 cm²"
+            },{
+              "question-hindi": "दो उम्मीदवारों के बीच एक चुनाव में, 80% मतदाताओं ने अपने मत डाले, जिनमें से 5% मत अवैध घोषित कर दिए गए। यदि जीतने वाले उम्मीदवार को वैध मतों का 65% मिला और पात्र मतदाताओं की कुल संख्या 20,000 थी, तो जीतने वाले उम्मीदवार को कितने मत मिले?",
+              "question-english" : "In an election between two candidates, 80% of the voters cast their votes, out of which 5% of the votes were declared invalid. If the winning candidate got 65% of the valid votes and the total number of eligible voters was 20,000, how many votes did the winning candidate receive?",
+              "options-hindi": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
+              "options-english": ["(a) 9880", "(b) 9920", "(c) 10400", "(d) 10120"],
+              "answer-hindi": "सही उत्तर: (a) 9880",
+              "answer-english": "Correct Answer: (a) 9880",
+              "solution-hindi": "कुल मतदाता = 20,000
+	•	डाले गए मत = 20,000 का 80% = 16,000
+	•	अवैध मत = 16,000 का 5% = 800
+	•	वैध मत = 16,000 - 800 = 15,200
+	•	जीतने वाले उम्मीदवार के मत = 15,200 का 65% = 0.65 × 15,200 = 9,880",
+              "solution-english": "•	Total voters = 20,000
+	•	Votes cast = 80% of 20,000 = 16,000
+	•	Invalid votes = 5% of 16,000 = 800
+	•	Valid votes = 16,000 - 800 = 15,200
+	•	Winning candidate's votes = 65% of 15,200 = 0.65 × 15,200 = 9,880"
+            },{
+              "question-hindi": "एक व्यक्ति ₹ 9,000, 4 साल के लिए 6% प्रति वर्ष साधारण ब्याज पर उधार लेता है। वह तुरंत इसे दूसरे व्यक्ति को 7.5% प्रति वर्ष पर 4 साल के लिए उधार दे देता है। इस लेनदेन में उसका प्रति वर्ष लाभ ज्ञात कीजिए।",
+              "question-english" : " A person borrows ₹9,000 at 6% per annum simple interest for 4 years. He immediately lends it to another person at 7.5% per annum for 4 years. Find his profit per year in this transaction.",
+              "options-hindi": ["(a) ₹ 135", "(b) ₹ 150", "(c) ₹ 120", "(d) ₹ 165"],
+              "options-english": ["(a) ₹ 135", "(b) ₹ 150", "(c) ₹ 120", "(d) ₹ 165"],
+              "answer-hindi": "सही उत्तर: (a) ₹ 135",
+              "answer-english": "Correct Answer: (a) ₹135",
+              "solution-hindi": "	•	दिया गया ब्याज = (9000 × 6 × 4) / 100 = ₹ 2,160
+	•	अर्जित ब्याज = (9000 × 7.5 × 4) / 100 = ₹ 2,700
+	•	4 वर्षों में कुल लाभ = 2700 - 2160 = ₹ 540
+	•	प्रति वर्ष लाभ = 540 / 4 = ₹ 135",
+              "solution-english": "	•	Interest paid = (9000 × 6 × 4) / 100 = ₹2,160
+	•	Interest earned = (9000 × 7.5 × 4) / 100 = ₹2,700
+	•	Total gain in 4 years = 2700 - 2160 = ₹540
+	•	Gain per year = 540 / 4 = ₹135"
+            },{
+              "question-hindi": "एक व्यक्ति कार द्वारा एक निश्चित दूरी 60 किमी/घंटा की गति से तय करता है और स्कूटर पर 40 किमी/घंटा की गति से वापस आता है। यदि पूरी यात्रा में 10 घंटे लगे, तो एक तरफ की दूरी (किमी में) क्या है?",
+              "question-english" : "A person covers a certain distance by car at a speed of 60 km/hr and returns on a scooter at a speed of 40 km/hr. If the entire journey took 10 hours, what is the one-way distance (in km)?",
+              "options-hindi": ["(a) 240", "(b) 200", "(c) 300", "(d) 250"],
+              "options-english": ["(a) 240", "(b) 200", "(c) 300", "(d) 250"],
+              "answer-hindi": "सही उत्तर: (a) 240",
+              "answer-english": "Correct Answer: (a) 240",
+              "solution-hindi": "	•	मान लीजिए दूरी D किमी है।
+	•	जाने का समय = D/60, लौटने का समय = D/40
+	•	कुल समय = D/60 + D/40 = 10 => (2D + 3D) / 120 = 10 => 5D = 1200 => D = 240 किमी",
+              "solution-english": "•	Let the distance be D km.
+	•	Time going = D/60, Time returning = D/40
+	•	Total time = D/60 + D/40 = 10 => (2D + 3D) / 120 = 10 => 5D = 1200 => D = 240 km"
+            },{
+              "question-hindi": "एक नाव एक नदी में धारा के अनुकूल एक निश्चित दूरी 15 घंटे में तय करती है। यह उतनी ही दूरी धारा के प्रतिकूल 25 घंटे में तय करती है। यदि पानी की गति 5 किमी/घंटा है, तो शांत जल में नाव की गति क्या है?",
+              "question-english" : "A boat travels a certain distance downstream in a river in 15 hours. It covers the same distance upstream in 25 hours. If the speed of the water is 5 km/hr, what is the speed of the boat in still water?",
+              "options-hindi": ["(a) 20 किमी/घंटा", "(b) 25 किमी/घंटा", "(c) 15 किमी/घंटा", "(d) 30 किमी/घंटा"],
+              "options-english": ["(a) 20 km/hr", "(b) 25 km/hr", "(c) 15 km/hr", "(d) 30 km/hr"],
+              "answer-hindi": "सही उत्तर: (a) 20 किमी/घंटा",
+              "answer-english": "Correct Answer: (a) 20 km/hr",
+              "solution-hindi": "	•	मान लीजिए शांत जल में नाव की गति = b किमी/घंटा
+	•	धारा के अनुकूल गति = b + 5, धारा के प्रतिकूल गति = b - 5
+	•	दूरी = गति × समय
+	•	(b + 5) × 15 = (b - 5) × 25 => 15b + 75 = 25b - 125 => 10b = 200 => b = 20 किमी/घंटा",
+              "solution-english": "	•	Let speed of boat in still water = b km/hr
+	•	Downstream speed = b + 5, Upstream speed = b - 5
+	•	Distance = Speed × Time
+	•	(b + 5) × 15 = (b - 5) × 25 => 15b + 75 = 25b - 125 => 10b = 200 => b = 20 km/hr"
+            },{
+              "question-hindi": "एक कंपनी के विपणन विभाग में, प्रति कर्मचारी औसत वेतन ₹ 500 है। 15 वरिष्ठ कर्मचारियों का औसत वेतन ₹ 800 प्रति कर्मचारी है, और शेष कर्मचारियों का औसत वेतन ₹ 400 प्रति कर्मचारी है। विपणन विभाग में कर्मचारियों की कुल संख्या क्या है?",
+              "question-english" : "In a company's marketing department, the average salary per employee is ₹500. The average salary of 15 senior employees is ₹800 per employee, and the average salary of the remaining staff is ₹400 per employee. What is the total number of employees in the marketing department?",
+              "options-hindi": ["(a) 45", "(b) 50", "(c) 60", "(d) 55"],
+              "options-english": ["(a) 45", "(b) 50", "(c) 60", "(d) 55"],
+              "answer-hindi": "सही उत्तर: (c) 60",
+              "answer-english": "correct Answer: (c) 60",
+              "solution-hindi": "•	मान लीजिए शेष कर्मचारियों की संख्या x है।
+	•	कुल वेतन = 15 × 800 + x × 400 = 12000 + 400x
+	•	कुल कर्मचारी = 15 + x
+	•	औसत वेतन = (12000 + 400x) / (15 + x) = 500
+	•	12000 + 400x = 7500 + 500x => 100x = 4500 => x = 45
+	•	कुल कर्मचारी = 15 + 45 = 60",
+              "solution-english": "•	Let the number of remaining staff be x.
+	•	Total salary = 15 × 800 + x × 400 = 12000 + 400x
+	•	Total employees = 15 + x
+	•	Average salary = (12000 + 400x) / (15 + x) = 500
+	•	12000 + 400x = 7500 + 500x => 100x = 4500 => x = 45
+	•	Total employees = 15 + 45 = 60"
+            },{
+              "question-hindi": " व्यंजक 21² + 22² + 23² + 24² + 25² का इकाई अंक ज्ञात कीजिए।",
+              "question-english" : "Find the unit digit of the expression 21² + 22² + 23² + 24² + 25².",
+              "options-hindi": ["(a) 1", "(b) 4", "(c) 5", "(d) 9"],
+              "options-english": ["(a) 1", "(b) 4", "(c) 5", "(d) 9"],
+              "answer-hindi": "	सही उत्तर: (c) 5",
+              "answer-english": "Correct Answer: (c) 5",
+              "solution-hindi": "	•	21² का इकाई अंक 1 है
+	•	22² का इकाई अंक 4 है
+	•	23² का इकाई अंक 9 है
+	•	24² का इकाई अंक 6 है
+	•	25² का इकाई अंक 5 है
+	•	इकाई अंकों का योग = 1 + 4 + 9 + 6 + 5 = 25। इकाई अंक 5 है।",
+              "solution-english": "	•	Unit digit of 21² is 1
+	•	Unit digit of 22² is 4
+	•	Unit digit of 23² is 9
+	•	Unit digit of 24² is 6
+	•	Unit digit of 25² is 5
+	•	Sum of unit digits = 1 + 4 + 9 + 6 + 5 = 25. The unit digit is 5."
+            },{
+              "question-hindi": "एक ठोस घनाभ की लंबाई, चौड़ाई और ऊंचाई का अनुपात 4:3:2 है, और इस घनाभ की चौड़ाई 15 सेमी दी गई है। घनाभ का आयतन (सेमी³ में) ज्ञात कीजिए।",
+              "question-english" : "The ratio of the length, breadth, and height of a solid cuboid is 4 : 3 : 2, and the breadth of this cuboid is given as 15 cm. Find the volume (in cm³) of the cuboid.",
+              "options-hindi": ["(a) 4500", "(b) 4000", "(c) 5000", "(d) 3000"],
+              "options-english": ["(a) 4500", "(b) 4000", "(c) 5000", "(d) 3000"],
+              "answer-hindi": "सही उत्तर: (d) 3000",
+              "answer-english": "Correct Answer: (d)  3000",
+              "solution-hindi": "	•	अनुपात L:B:H = 4:3:2। चौड़ाई = 15 सेमी।
+	•	3 भाग = 15 सेमी => 1 भाग = 5 सेमी
+	•	लंबाई = 4 × 5 = 20 सेमी, ऊंचाई = 2 × 5 = 10 सेमी
+	•	आयतन = L × B × H = 20 × 15 × 10 = 3000 सेमी³",
+              "solution-english": "•	Ratio L:B:H = 4:3:2. Breadth = 15 cm.
+	•	3 parts = 15 cm => 1 part = 5 cm
+	•	Length = 4 × 5 = 20 cm, Height = 2 × 5 = 10 cm
+	•	Volume = L × B × H = 20 × 15 × 10 = 3000 cm³"
+            },{
+              "question-hindi": "रीना का प्रारंभिक व्यय और बचत 5:2 के अनुपात में थे। उसकी आय में 20% की वृद्धि होती है, जबकि उसकी बचत में 10% की वृद्धि होती है। यदि रीना का वर्तमान व्यय ₹ 6,200 है, तो उसकी प्रारंभिक आय क्या थी?",
+              "question-english" : "11: Rina's initial expenditure and savings were in the ratio 5:2. Her income increases by 20%, while her savings increase by 10%. If Rina's current expenditure is ₹6,200, what was her initial income?",
+              "options-hindi": ["(a) ₹6,000", "(b) ₹6,500", "(c) ₹7,000", "(d) ₹7,500"],
+              "options-english": ["a) ₹6,000", "(b) ₹6,500", " (c) ₹7,000", "d) ₹7,500"],
+              "answer-hindi": "सही उत्तर: (c) ₹ 7,000",
+              "answer-english": "Correct Answer: (c) ₹ 7,000",
+              "solution-hindi": "•	मान लीजिए प्रारंभिक व्यय = 5x, बचत = 2x। तो, प्रारंभिक आय = 7x।
+	•	नई आय = 7x × 1.20 = 8.4x
+	•	नई बचत = 2x × 1.10 = 2.2x
+	•	नया व्यय = नई आय - नई बचत = 8.4x - 2.2x = 6.2x
+	•	दिया गया है, 6.2x = ₹ 6,200 → x = 1000
+	•	प्रारंभिक आय = 7x = 7 × 1000 = ₹ 7,000",
+              "solution-english": "	•	Let initial expenditure = 5x, savings = 2x. So, initial income = 7x.
+	•	New income = 7x × 1.20 = 8.4x.
+	•	New savings = 2x × 1.10 = 2.2x.
+	•	New expenditure = New income - New savings = 8.4x - 2.2x = 6.2x.
+	•	Given, 6.2x = ₹6,200 → x = 1000.
+	•	Initial income = 7x = 7 × 1000 = ₹7,000."
+            },{
+              "question-hindi": "एक पंसारी ₹ 25 प्रति किलो की दर से 40 किलो गेहूं खरीदता है और उसमें 10 किलो सस्ती किस्म का गेहूं (मुफ्त में) मिलाता है। यदि वह इस मिश्रण को ₹ 28 प्रति किलो की दर से बेचता है, तो लाभ प्रतिशत क्या है?",
+              "question-english" : "A grocer buys 40 kg of wheat at the rate of ₹25 per kg and mixes 10 kg of a cheaper variety of wheat (free of cost). If he sells this mixture at the rate of ₹28 per kg, what is the profit percentage?",
+              "options-hindi": ["(a) 30%", "(b) 40%", "c) 35%", "(d) 45%"],
+              "options-english": ["(a) 30%", "(b) 40%", "c) 35%", "(d) 45%"],
+              "answer-hindi": "सही उत्तर: (b) 40%",
+              "answer-english": "Correct Answer: (b) 40%",
+              "solution-hindi": "	•	40 किलो गेहूं की लागत = 40 × 25 = ₹ 1000
+	•	कुल मिश्रण = 40 किलो + 10 किलो = 50 किलो
+	•	मिश्रण का विक्रय मूल्य = 50 × 28 = ₹ 1400
+	•	लाभ = 1400 - 1000 = ₹ 400
+	•	लाभ % = (400 / 1000) × 100 = 40%",
+              "solution-english": "•	Cost of 40 kg wheat = 40 × 25 = ₹1000
+	•	Total mixture = 40 kg + 10 kg = 50 kg
+	•	Selling price of mixture = 50 × 28 = ₹1400
+	•	Profit = 1400 - 1000 = ₹400
+	•	Profit % = (400 / 1000) × 100 = 40%"
+            },{
+              "question-hindi": " एक सिमुलेशन में, एक निर्माता 30 दिनों में एक पुल का निर्माण कर सकता है, जबकि एक विध्वंसक इसे 60 दिनों में ध्वस्त कर सकता है। प्रारंभ में, निर्माता और विध्वंसक दोनों एक साथ काम करते हैं। हालांकि, 40 दिनों के बाद, विध्वंसक को हटा दिया जाता है। पुल बनाने में कुल कितना समय लगा?",
+              "question-english" : "In a simulation, a builder can construct a bridge in 30 days, while a destroyer can demolish it in 60 days. Initially, both the builder and the destroyer work together. However, after 40 days, the destroyer is removed. What was the total time taken to build the bridge?",
+              "options-hindi": ["(a) 50 दिन", "(b) 45 दिन", "(c) 60 दिन", "(d) 55 दिन"],
+              "options-english": ["(a) 50 days", "(b) 45 days", "(c) 60 days", "(d) 55 days"],
+              "answer-hindi": "सही उत्तर: (a) 50 दिन",
+              "answer-english": "Correct Answer: (a) 50 days",
+              "solution-hindi": "	•	निर्माता का 1 दिन का काम = 1/30
+	•	विध्वंसक का 1 दिन का काम = -1/60
+	•	40 दिनों का संयुक्त काम = 40 × (1/30 - 1/60) = 40 × (1/60) = 2/3
+	•	शेष काम = 1 - 2/3 = 1/3
+	•	शेष काम को पूरा करने में निर्माता द्वारा लिया गया समय = (1/3) / (1/30) = 10 दिन
+	•	कुल समय = 40 + 10 = 50 दिन",
+              "solution-english": "•	Builder's 1 day work = 1/30
+	•	Destroyer's 1 day work = -1/60
+	•	Combined work for 40 days = 40 × (1/30 - 1/60) = 40 × (1/60) = 2/3
+	•	Remaining work = 1 - 2/3 = 1/3
+	•	Time taken by builder to finish remaining work = (1/3) / (1/30) = 10 days
+	•	Total time = 40 + 10 = 50 days"
+            },{
+              "question-hindi": "यदि एक 10-अंकीय संख्या 86y78514x2, 72 से विभाज्य है, तो x के सबसे बड़े मान के लिए (x - y) का मान क्या है?",
+              "question-english" : "If a 10-digit number 86y78514x2 is divisible by 72, what is the value of (x - y) for the greatest value of x?",
+              "options-hindi": ["(a) 3", "(b) 1", "(c) 5", "(d) 6"],
+              "options-english": ["(a) 3", "(b) 1", "(c) 5", "(d) 6"],
+              "answer-hindi": "सही उत्तर: (b) 1",
+              "answer-english": "Correct Answer: (b) 1",
+              "solution-hindi": "	•	72 से विभाज्यता का अर्थ है 8 और 9 से विभाज्य होना।
+	•	8 से विभाज्यता के लिए, अंतिम 3 अंक '4x2' 8 से विभाज्य होने चाहिए। सबसे बड़े x के लिए, x=9, 492 8 से विभाज्य नहीं है। x=8, 482 8 से विभाज्य नहीं है। x=7, 472 8 से विभाज्य है। तो सबसे बड़ा x=7 है।
+	•	9 से विभाज्यता के लिए, अंकों का योग 9 से विभाज्य होना चाहिए।
+	•	8+6+y+7+8+5+1+4+7+2 = 48 + y। यह 9 से विभाज्य होना चाहिए। तो 48+y = 54 => y=6।
+	•	(x-y) = 7-6 = 1",
+              "solution-english": "•	Divisibility by 72 means divisible by 8 and 9.
+	•	For divisibility by 8, last 3 digits '4x2' must be divisible by 8. For greatest x, x=9. 492 is not div by 8. x=8, 482 is not div by 8. x=7, 472 is div by 8. So greatest x=7.
+	•	For divisibility by 9, sum of digits must be div by 9.
+	•	8+6+y+7+8+5+1+4+7+2 = 48 + y. Must be div by 9. So 48+y = 54 => y=6.
+	•	(x-y) = 7-6 = 1"
+            },{
+              "question-hindi": "एक व्यक्ति ने कुछ वर्षों के बाद एक बैंक को ₹ 9,826 का भुगतान किया। उसने ₹ 8,000 का ऋण 7% प्रति वर्ष की दर पर लिया था, जिसे वार्षिक रूप से संयोजित किया जाना था। समय (वर्षों में) ज्ञात कीजिए।",
+              "question-english" : "A man paid ₹9,826 to a bank after a few years. He had taken a loan of ₹8,000 at the rate of 7% per annum, which was to be compounded annually. Find the time (in years).",
+              "options-hindi": ["(a) 2", "(b) 3", "(c) 4", "(d) 5"],
+              "options-english": ["(a) 2", "(b) 3", "(c) 4", "(d) 5"],
+              "answer-hindi": "सही उत्तर: (b) 3",
+              "answer-english": "Correct Answer: (b) 3",
+              "solution-hindi": "	•	A = P(1 + R/100)ᵗ
+	•	9826 = 8000(1 + 7/100)ᵗ
+	•	9826 / 8000 = (1.07)ᵗ
+	•	1.22825 = (1.07)ᵗ
+	•	चूंकि (1.07)² = 1.1449 और (1.07)³ = 1.225, यह लगभग 3 वर्ष है।",
+              "solution-english": "	•	A = P(1 + R/100)^t
+	•	9826 = 8000(1 + 7/100)^t
+	•	9826 / 8000 = (1.07)^t
+	•	1.22825 = (1.07)^t
+	•	Since (1.07)² = 1.1449 and (1.07)³ = 1.225, it is approximately 3 years."
+            }
   ]
           
     },
