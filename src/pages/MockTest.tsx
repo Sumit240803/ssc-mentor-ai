@@ -139,7 +139,7 @@ const MockTest: React.FC = () => {
                 </h3>
                 <ul className="text-sm space-y-1">
                   <li>• Duration: {mockTestData?.duration || 90} minutes</li>
-                  <li>• No negative marking</li>
+
                   <li>• Can review and change answers</li>
                   <li>• Auto-submit when time ends</li>
                 </ul>
@@ -667,15 +667,16 @@ const MockTest: React.FC = () => {
                       ? currentQuestion["options-hindi"]
                       : currentQuestion["options-english"];
 
-                  const questionImage = currentQuestion["question-image"];
+                  const isQuestionImage = questionText.startsWith("http://") || questionText.startsWith("https://");
 
                   return (
                     <>
                       <div className="mb-6">
-                        {questionImage && (
-                          <img src={questionImage} alt="Question" className="max-w-full h-auto rounded-lg mb-4" />
+                        {isQuestionImage ? (
+                          <img src={questionText} alt="Question" className="max-w-full h-auto rounded-lg" />
+                        ) : (
+                          <p className="text-base leading-relaxed">{questionText}</p>
                         )}
-                        <p className="text-base leading-relaxed">{questionText}</p>
                       </div>
 
                       <RadioGroup
