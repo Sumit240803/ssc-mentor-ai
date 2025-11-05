@@ -9,6 +9,7 @@ import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import FeatureInfoModal from "@/components/FeatureInfoModal";
 
 interface FileItem {
   file_name: string;
@@ -30,6 +31,7 @@ const Lectures = () => {
   const { subjects, loading, getLecturesBySubject, fetchLecturesBySubject, isLoadingSubject } = useLectures();
   const [activeSubject, setActiveSubject] = useState<string>("");
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
+  const [showFeatureModal, setShowFeatureModal] = useState(false);
 
   // Check if there's a subject parameter in the URL
   useEffect(() => {
@@ -41,7 +43,20 @@ const Lectures = () => {
       setActiveSubject(subjects[0]);
       fetchLecturesBySubject(subjects[0]);
     }
-  }, [subjects, searchParams]);
+  }, [subjects, searchParams, activeSubject, fetchLecturesBySubject]);
+
+  // Show feature modal when component mounts (first visit to lectures page)
+  useEffect(() => {
+    const hasSeenModal = localStorage.getItem('hasSeenFeatureModal');
+    if (!hasSeenModal && !loading && subjects.length > 0) {
+      const timer = setTimeout(() => {
+        setShowFeatureModal(true);
+        localStorage.setItem('hasSeenFeatureModal', 'true');
+      }, 1000); // Small delay to let the page load
+      
+      return () => clearTimeout(timer);
+    }
+  }, [loading, subjects]);
 
   // Helper function to extract serial number from topic name
   const extractSerialNumber = (topic: string): number | null => {
@@ -131,6 +146,12 @@ const Lectures = () => {
             Access comprehensive lecture notes and study materials organized by subject
           </p>
         </div>
+
+        {/* Feature Info Modal */}
+        <FeatureInfoModal 
+          open={showFeatureModal} 
+          onOpenChange={setShowFeatureModal} 
+        />
 
         <Tabs value={activeSubject} onValueChange={handleTabChange} className="w-full">
           <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto gap-2 bg-card/50 backdrop-blur-sm p-2">
