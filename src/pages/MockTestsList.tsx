@@ -51,8 +51,8 @@ const MockTestsList: React.FC = () => {
 
               // Extract test number from filename for fallback
               const testNumberMatch = fileName.match(/(\d+)/);
-              const testNumber = testNumberMatch ? testNumberMatch[1] : '';
-              const fallbackName = testNumber ? `Mock Test ${testNumber}` : 'Mock Test';
+              const testNumber = testNumberMatch ? testNumberMatch[1] : "";
+              const fallbackName = testNumber ? `Mock Test ${testNumber}` : "Mock Test";
 
               return {
                 fileName,
@@ -138,11 +138,6 @@ const MockTestsList: React.FC = () => {
                       <FileText className="h-4 w-4 text-primary" />
                       <span>{test.totalQuestions} questions</span>
                     </div>
-                  </div>
-
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="outline">No negative marking</Badge>
-                    <Badge variant="secondary">PYQ included</Badge>
                   </div>
 
                   <Button onClick={() => handleStartTest(test.fileName)} className="w-full" variant="default">
