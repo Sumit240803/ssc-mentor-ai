@@ -6,7 +6,6 @@ import { ArrowLeft, FileText, Volume2 } from "lucide-react";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AudioPlayer } from "@/components/AudioPlayer";
-import rtfToHTML from "@iarna/rtf-to-html";
 
 const LectureDetail = () => {
   const [searchParams] = useSearchParams();
@@ -33,15 +32,7 @@ const LectureDetail = () => {
       setLoading(true);
       const response = await fetch(url);
       const text = await response.text();
-      
-      // Check if content is RTF
-      if (text.trim().startsWith("{\\rtf")) {
-        // Convert RTF to HTML using @iarna/rtf-to-html
-        const htmlContent = await rtfToHTML.fromString(text);
-        setContent(htmlContent);
-      } else {
-        setContent(text);
-      }
+      setContent(text);
     } catch (error) {
       console.error("Error fetching content:", error);
       setContent("Failed to load content");
@@ -100,13 +91,9 @@ const LectureDetail = () => {
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
-                    {content.includes("<") && content.includes(">") ? (
-                      <div dangerouslySetInnerHTML={{ __html: content }} />
-                    ) : (
-                      <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
-                        {content}
-                      </div>
-                    )}
+                    <div className="whitespace-pre-wrap font-sans text-base leading-loose tracking-wide">
+                      {content}
+                    </div>
                   </div>
                 </div>
               </ScrollArea>
