@@ -561,15 +561,24 @@
     "solution-hindi": "अन्य सभी जोड़े विलोम हैं। 'तेज' और 'त्वरित' समानार्थी शब्द हैं।",
     "solution-english": "All other pairs are antonyms. 'Fast' and 'Quick' are synonyms."
   },{
-  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_4/mock_test_4_Q11.png",
-  "question-english": "Three of the given four figures are similar in a certain manner while one is different. Pick the odd one out.",
-  "question-hindi": "दिए गए चार आरेखों में से तीन किसी न किसी प्रकार से समान हैं जबकि एक अलग है। भिन्न आरेख का चयन करें।",
-  "options-english": ["A", "B", "C", "D"],
-  "options-hindi": ["A", "B", "C", "D"],
-  "answer-english": "D",
-  "answer-hindi": "D",
-  "solution-english": "In figures A, C, and D, the shapes inside are divided vertically, while in figure B the shape is divided horizontally. Hence, option B is the odd one out.",
-  "solution-hindi": "आरेख A, C और D में अंदर का आकार लंबवत रूप से विभाजित है, जबकि आरेख B में आकार क्षैतिज रूप से विभाजित है। इसलिए, विकल्प B भिन्न है।"
+  "question-english": "In a certain code language, 'PLANT' is coded as 1612111420 and 'POINT' is coded as 1615920. How will 'PLATE' be coded in that language?",
+  "question-hindi": "एक निश्चित कूट भाषा में, 'PLANT' को 1612111420 और 'POINT' को 1615920 के रूप में कोडित किया गया है। उस भाषा में 'PLATE' को कैसे कोडित किया जाएगा?",
+  "options-english": [
+    "161211205",
+    "161211520",
+    "1612115205",
+    "1612112055"
+  ],
+  "options-hindi": [
+    "161211205",
+    "161211520",
+    "1612115205",
+    "1612112055"
+  ],
+  "answer-english": "(b) 161211520",
+  "answer-hindi": "(b) 161211520",
+  "solution-english": "Each letter is replaced by its position in the English alphabet: P=16, L=12, A=1, T=20, E=5 → concatenated gives 161211520.",
+  "solution-hindi": "प्रत्येक अक्षर को अंग्रेज़ी वर्णमाला में उसकी स्थिति संख्या से बदला जाता है: P=16, L=12, A=1, T=20, E=5 → संयोजन करने पर 161211520 प्राप्त होता है।"
 },{
   "question-english": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (64, 8, 48) (100, 10, 80) (5, 8, 39) (7, 10, 69)",
   "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं। (64, 8, 48) (100, 10, 80) (5, 8, 39) (7, 10, 69)",
@@ -611,8 +620,8 @@
 },{
   "question-english": "In a certain code language, 'SMART' is coded as 191311820 and 'STYLE' is coded as 192025125. How will 'GREAT' be coded in that language?",
   "question-hindi": "एक निश्चित कूट भाषा में, 'SMART' को 191311820 और 'STYLE' को 192025125 के रूप में कोडित किया गया है। उस भाषा में 'GREAT' को कैसे कोडित किया जाएगा?",
-  "options-english": ["7185120", "7185120", "7185120", "7185120"],
-  "options-hindi": ["7185120", "7185120", "7185120", "7185120"],
+  "options-english": ["7185120", "7181520", "7815120", "718512"],
+  "options-hindi": ["7185120", "7181520", "7815120", "718512"],
   "answer-english": "(a) 7185120",
   "answer-hindi": "(a) 7185120",
   "solution-english": "The letters are replaced by their corresponding alphabetical position numbers. G=7, R=18, E=5, A=1, T=20.",

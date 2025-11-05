@@ -482,6 +482,11 @@ const MockTest: React.FC = () => {
       }
     };
 
+    // Clear selection
+    const clearSelection = () => {
+      answerQuestion(currentQuestion.id, "");
+    };
+
     return (
       <div className="min-h-screen bg-background">
         {/* Top Header */}
@@ -784,6 +789,9 @@ const MockTest: React.FC = () => {
                     </Button>
                     <Button variant="default" onClick={saveAndNext}>
                       Save & Next
+                    </Button>
+                    <Button variant="outline" onClick={clearSelection}>
+                      Clear Selection
                     </Button>
                     <Button variant="destructive" onClick={submitTest}>
                       Submit Test
