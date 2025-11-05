@@ -123,53 +123,26 @@ const LectureDetail = () => {
   }, []);
 
 const highlightedContent = useMemo(() => {
-  if (!content || !alignmentData || !type.includes("audio")) {
+  if (!alignmentData || !alignmentData.timestamps || !type.includes("audio")) {
     return content;
   }
 
-  // Normalize text for Hindi and general punctuation/spacing
-  const normalize = (str: string) =>
-    str
-      .replace(/[।|,|;|:|!|?|"|'|“|”|‘|’]/g, "") // remove punctuation commonly found in Hindi
-      .replace(/\s+/g, " ") // normalize spaces
-      .trim();
-
-  const normalizedContent = normalize(content);
   const currentWordIndex = alignmentData.timestamps.findIndex(
     (timestamp) =>
       currentAudioTime >= timestamp.start && currentAudioTime <= timestamp.end
   );
 
-  if (currentWordIndex === -1) {
-    return content;
-  }
-
-  const currentWord = alignmentData.timestamps[currentWordIndex];
-  const normalizedWord = normalize(currentWord.word);
-
-  console.log(
-    `Highlighting word: "${currentWord.word}" (normalized: "${normalizedWord}") at time: ${currentAudioTime}`
-  );
-
-  try {
-    // Use Unicode regex and fuzzy match with optional punctuation/spaces after word
-    const regex = new RegExp(
-      `(${normalizedWord})([\\s।,;:!?-]*)`,
-      "u"
-    );
-
-    // Highlight first match only
-    const highlighted = normalizedContent.replace(
-      regex,
-      `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">$1</mark>$2`
-    );
-
-    return highlighted;
-  } catch (error) {
-    console.error("Highlighting error:", error);
-    return content;
-  }
-}, [content, alignmentData, currentAudioTime, type]);
+  // Build sequential text with highlighting
+  return alignmentData.timestamps
+    .map((t, index) => {
+      const safeWord = t.word.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      if (index === currentWordIndex) {
+        return `<mark class="bg-yellow-300 dark:bg-yellow-600 px-1 rounded font-semibold transition-all duration-200">${safeWord}</mark>`;
+      }
+      return safeWord;
+    })
+    .join(" ");
+}, [alignmentData, currentAudioTime, type, content]);
 
   if (loading) {
     return (
