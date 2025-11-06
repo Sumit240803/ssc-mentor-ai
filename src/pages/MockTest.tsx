@@ -699,9 +699,13 @@ const MockTest: React.FC = () => {
                         </div>
                       )}
                       
-                      {/* Show question text (or as image if no question-image exists and text is URL) */}
+                      {/* Show question text below image or as standalone */}
                       <div className="mb-6">
-                        {!hasQuestionImage && isQuestionTextUrl ? (
+                        {hasQuestionImage ? (
+                          // If question-image exists, always show text below it
+                          <p className="text-base leading-relaxed">{questionText}</p>
+                        ) : isQuestionTextUrl ? (
+                          // If no question-image but text is URL, show as image
                           <img 
                             src={questionText} 
                             alt="Question" 
@@ -711,9 +715,10 @@ const MockTest: React.FC = () => {
                               e.currentTarget.style.display = 'none';
                             }}
                           />
-                        ) : hasQuestionImage || !isQuestionTextUrl ? (
+                        ) : (
+                          // Otherwise show as text
                           <p className="text-base leading-relaxed">{questionText}</p>
-                        ) : null}
+                        )}
                       </div>
 
                       <RadioGroup
