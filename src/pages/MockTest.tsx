@@ -504,27 +504,18 @@ const MockTest: React.FC = () => {
             <div className="flex items-center justify-between">
               {/* Left: Zoom */}
               <div className="flex items-center gap-4">
-                <div className="flex gap-2">
-                  <Button variant="outline" size="sm">
-                    <ZoomOut className="h-4 w-4" />
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    <ZoomIn className="h-4 w-4" />
-                  </Button>
-                </div>
+              
               </div>
 
               {/* Center: Test Title */}
               <div className="text-center">
-                <h1 className="font-semibold text-lg">{mockTestData?.testName || "Mock Test"}</h1>
+                <h1 className="font-semibold text-lg">{mockTestData?.testName}</h1>
               </div>
 
               {/* Right: Timer & User */}
               <div className="flex items-center gap-4">
                 <div className="flex gap-2">
-                  <Button variant="outline" size="sm">
-                    ⏮
-                  </Button>
+           
                   {!testState.isReviewMode && (
                     <Button
                       variant="outline"
@@ -548,29 +539,17 @@ const MockTest: React.FC = () => {
                     {formatTime(testState.timeRemaining)}
                   </div>
                 </div>
-                <div className="flex gap-2">
-                  <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
-                    <span className="text-xs">📷</span>
-                  </div>
-                  <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
-                    <span className="text-xs">👤</span>
-                  </div>
-                </div>
+              
               </div>
             </div>
           </div>
 
           {/* Instructions & Sections Tabs */}
           <div className="border-t">
-            <div className="px-4 py-2 flex items-center gap-4">
-              <Button variant="ghost" size="sm" className="text-destructive">
-                SYMBOLS
-              </Button>
-              <Button variant="ghost" size="sm">
-                INSTRUCTIONS
-              </Button>
+            <div className="px-4 py-2 flex justify-between items-center gap-4">
+           
 
-              <div className="flex gap-1 ml-auto">
+              <div className="flex justify-between m-auto gap-10">
                 {sections.map((section, index) => {
                   const isActive = section.section === currentSection;
                   return (
@@ -756,6 +735,7 @@ const MockTest: React.FC = () => {
                               const isCorrectOption = option === correctAnswer;
                               const isSelectedOption = currentAnswer?.selectedOption === option;
                               const isWrongSelection = isSelectedOption && !currentAnswer?.isCorrect;
+                              const wasNotAttempted = !currentAnswer;
 
                               return (
                                 <div
@@ -780,6 +760,24 @@ const MockTest: React.FC = () => {
                                         />
                                       ) : (
                                         <span className="text-base">{option}</span>
+                                      )}
+                                    </div>
+                                    {/* Show indicators for attempted vs correct answers */}
+                                    <div className="flex flex-col items-end gap-1">
+                                      {isCorrectOption && (
+                                        <span className="text-xs font-semibold text-green-600 bg-green-100 dark:bg-green-900 px-2 py-1 rounded">
+                                          Correct Answer
+                                        </span>
+                                      )}
+                                      {isSelectedOption && !isCorrectOption && (
+                                        <span className="text-xs font-semibold text-red-600 bg-red-100 dark:bg-red-900 px-2 py-1 rounded">
+                                          Your Answer
+                                        </span>
+                                      )}
+                                      {wasNotAttempted && isCorrectOption && (
+                                        <span className="text-xs font-semibold text-orange-600 bg-orange-100 dark:bg-orange-900 px-2 py-1 rounded">
+                                          Not Attempted
+                                        </span>
                                       )}
                                     </div>
                                   </div>

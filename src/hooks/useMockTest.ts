@@ -94,16 +94,21 @@ export const useMockTest = (testFileName?: string) => {
       
       try {
         const response = await fetch(`/${testFileName}.json`);
+        console.log('Fetching mock test data from:', `/${testFileName}.json`);
         if (!response.ok) {
           throw new Error(`Failed to load test: ${response.status}`);
         }
         
         const data: any = await response.json();
+        console.log('Mock test data loaded:', data);
         
         // Set default duration if missing
         const duration = data.duration || 90;
         const testData: MockTestData = {
-          testName: data.testName || 'Mock Test',
+          testName: testFileName
+  .replace(/^Complete_/, '')   // remove starting "Complete_"
+  .replace(/\.json$/, '')      // remove ending ".json"
+  .replace(/_/g, ' ').replace(/-/g, ' ').toUpperCase(),        // replace underscores with spaces// Remove .json
           duration,
           mockTest: data.mockTest || [],
         };
