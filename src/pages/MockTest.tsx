@@ -267,8 +267,15 @@ const MockTest: React.FC = () => {
                   <div className="text-sm text-muted-foreground">Percentage</div>
                 </div>
                 <div className="text-center p-6 bg-card rounded-lg border">
-                  <div className="text-3xl font-bold text-primary mb-2">{formatTime(results.timeTaken)}</div>
-                  <div className="text-sm text-muted-foreground">Time Taken</div>
+                  <div className="text-3xl font-bold text-primary mb-2">
+                    {formatTime(results.totalTimeIncludingPauses || results.timeTaken)}
+                  </div>
+                  <div className="text-sm text-muted-foreground">Total Time Taken</div>
+                  {results.totalPausedTime > 0 && (
+                    <div className="text-xs text-muted-foreground mt-1">
+                      (Paused: {formatTime(results.totalPausedTime)})
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -672,17 +679,41 @@ const MockTest: React.FC = () => {
                       ? currentQuestion["options-hindi"]
                       : currentQuestion["options-english"];
 
-                  const isQuestionImage = questionText.startsWith("http://") || questionText.startsWith("https://");
-                  console.log("isQuestionImage", isQuestionImage);
+                  const hasQuestionImage = currentQuestion["question-image"];
+                  const isQuestionTextUrl = questionText.startsWith("http://") || questionText.startsWith("https://");
 
                   return (
                     <>
+                      {/* Show question-image if it exists */}
+                      {hasQuestionImage && (
+                        <div className="mb-4">
+                          <img 
+                            src={currentQuestion["question-image"]} 
+                            alt="Question" 
+                            className="max-w-full h-auto rounded-lg border"
+                            onError={(e) => {
+                              console.error('Failed to load question image:', currentQuestion["question-image"]);
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                      )}
+                      
+                      {/* Show question text (or as image if no question-image exists and text is URL) */}
                       <div className="mb-6">
-                        {isQuestionImage ? (
-                          <img src={questionText} alt="Question" className="max-w-full h-auto rounded-lg" />
-                        ) : (
+                        {!hasQuestionImage && isQuestionTextUrl ? (
+                          <img 
+                            src={questionText} 
+                            alt="Question" 
+                            className="max-w-full h-auto rounded-lg border"
+                            onError={(e) => {
+                              console.error('Failed to load question text as image:', questionText);
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        ) : hasQuestionImage || !isQuestionTextUrl ? (
                           <p className="text-base leading-relaxed">{questionText}</p>
-                        )}
+                        ) : null}
                       </div>
 
                       <RadioGroup
