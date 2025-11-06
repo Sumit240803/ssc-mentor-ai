@@ -719,7 +719,8 @@ const MockTest: React.FC = () => {
                       <RadioGroup
                         value={currentAnswer?.selectedOption || ""}
                         onValueChange={(value) => answerQuestion(currentQuestion.id, value)}
-                        className="space-y-3"
+                        className={cn("space-y-3", testState.isPaused && "blur-sm pointer-events-none")}
+                        disabled={testState.isPaused}
                       >
                         {testState.isReviewMode
                           ? options.map((option, index) => {
@@ -810,6 +811,14 @@ const MockTest: React.FC = () => {
               <div className="flex items-center justify-center gap-3">
                 {!testState.isReviewMode && (
                   <>
+                    <Button
+                      variant="outline"
+                      onClick={previousQuestion}
+                      disabled={testState.currentQuestionIndex === 0}
+                    >
+                      <ChevronLeft className="h-4 w-4 mr-2" />
+                      Previous
+                    </Button>
                     <Button
                       variant="outline"
                       onClick={toggleMarkForReview}
