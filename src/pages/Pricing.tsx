@@ -67,7 +67,7 @@ const Pricing = () => {
         .from("payments")
         .insert({
           user_id: user.id,
-          amount: 49900,
+          amount: 499,
           currency: "INR",
           status: "pending",
         })
@@ -81,15 +81,22 @@ const Pricing = () => {
 
       console.log("Payment record created:", paymentData);
       console.log("Razorpay available:", !!window.Razorpay);
+      const order = await fetch("https://exam-prep-backend-two.vercel.app/create-order",{
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body : JSON.stringify({amount : 499})
+      }).then(res => res.json());
 
       // Initialize Razorpay
       const options = {
-        key: "rzp_test_RAQLUXcbIAyLns",
-        amount: 49900, // 499 rupees in paise
+        key: "rzp_live_RcRJf28FZHBS5O",
+        amount: order.amount, // 499 paise
         currency: "INR",
-        name: "EduPlatform",
+        order_id : order.id,
+        name: "ExamPrep",
         description: "Premium Course Access",
-        // For test mode, we don't need to create a server-side order
         handler: async function (response: any) {
           try {
             // Update payment record with Razorpay details

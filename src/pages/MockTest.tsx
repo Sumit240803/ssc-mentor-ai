@@ -139,8 +139,8 @@ const MockTest: React.FC = () => {
                 </h3>
                 <ul className="text-sm space-y-1">
                   <li>• Duration: {mockTestData?.duration || 90} minutes</li>
-            
                   <li>• Can review and change answers</li>
+                  <li>• Can pause and resume test</li>
                   <li>• Auto-submit when time ends</li>
                 </ul>
               </div>
@@ -456,7 +456,9 @@ const MockTest: React.FC = () => {
     const getSectionStats = (sectionName: string) => {
       const questions = sectionQuestions.get(sectionName) || [];
       const answered = questions.filter((q) => testState.userAnswers[q.id]).length;
-      return { answered, total: questions.length };
+      const correct = questions.filter((q) => testState.userAnswers[q.id]?.isCorrect).length;
+      const incorrect = questions.filter((q) => testState.userAnswers[q.id] && !testState.userAnswers[q.id]?.isCorrect).length;
+      return { answered, total: questions.length, correct, incorrect };
     };
 
     // Handle section change
@@ -609,6 +611,7 @@ const MockTest: React.FC = () => {
                     const isCurrent = index === testState.currentQuestionIndex;
                     const isAnswered = !!userAnswer;
                     const isMarked = markedForReview.has(question.id);
+                    const isCorrect = userAnswer?.isCorrect;
 
                     return (
                       <button
@@ -617,7 +620,12 @@ const MockTest: React.FC = () => {
                         className={cn(
                           "aspect-square rounded text-sm font-semibold transition-all",
                           isCurrent && "ring-2 ring-primary ring-offset-2",
-                          isAnswered && !isMarked && "bg-green-600 text-white",
+                          // Review mode: show correct/incorrect colors
+                          testState.isReviewMode && isAnswered && !isMarked && isCorrect && "bg-green-600 text-white",
+                          testState.isReviewMode && isAnswered && !isMarked && !isCorrect && "bg-red-600 text-white",
+                          // Active mode: show answered in green
+                          !testState.isReviewMode && isAnswered && !isMarked && "bg-green-600 text-white",
+                          // Common: marked for review and unanswered
                           isMarked && "bg-purple-600 text-white",
                           !isAnswered && !isMarked && "bg-muted hover:bg-muted/80",
                         )}
@@ -635,8 +643,20 @@ const MockTest: React.FC = () => {
                 <div className="space-y-1 text-xs">
                   <div className="flex justify-between">
                     <span>Answered</span>
-                    <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
+                    <span className="px-2 py-1 bg-blue-600 text-white rounded text-xs font-semibold">
                       {getSectionStats(currentSection).answered}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Correct</span>
+                    <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
+                      {getSectionStats(currentSection).correct}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Incorrect</span>
+                    <span className="px-2 py-1 bg-red-600 text-white rounded text-xs font-semibold">
+                      {getSectionStats(currentSection).incorrect}
                     </span>
                   </div>
                   <div className="flex justify-between">
@@ -686,7 +706,7 @@ const MockTest: React.FC = () => {
                     <>
                       {/* Show question-image if it exists */}
                       {hasQuestionImage && (
-                        <div className="mb-4">
+                        <div className={cn("mb-4", testState.isPaused && "blur-sm")}>
                           <img 
                             src={currentQuestion["question-image"]} 
                             alt="Question" 
@@ -700,7 +720,7 @@ const MockTest: React.FC = () => {
                       )}
                       
                       {/* Show question text below image or as standalone */}
-                      <div className="mb-6">
+                      <div className={cn("mb-6", testState.isPaused && "blur-sm")}>
                         {hasQuestionImage ? (
                           // If question-image exists, always show text below it
                           <p className="text-base leading-relaxed">{questionText}</p>
@@ -844,9 +864,27 @@ const MockTest: React.FC = () => {
                   </>
                 )}
                 {testState.isReviewMode && (
-                  <Button onClick={() => navigate("/mock-tests")} variant="default">
-                    Back to Tests
-                  </Button>
+                  <>
+                    <Button
+                      variant="outline"
+                      onClick={previousQuestion}
+                      disabled={testState.currentQuestionIndex === 0}
+                    >
+                      <ChevronLeft className="h-4 w-4 mr-2" />
+                      Previous
+                    </Button>
+                    <Button
+                      variant="outline"
+                      onClick={nextQuestion}
+                      disabled={testState.currentQuestionIndex === testState.questions.length - 1}
+                    >
+                      Next
+                      <ChevronRight className="h-4 w-4 ml-2" />
+                    </Button>
+                    <Button onClick={() => navigate("/mock-tests")} variant="default">
+                      Back to Tests
+                    </Button>
+                  </>
                 )}
               </div>
             </div>
