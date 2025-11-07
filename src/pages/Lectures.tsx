@@ -162,8 +162,8 @@ const Lectures = () => {
     return <GraduationCap className="h-5 w-5" />;
   };
 
-  const handleFileClick = (file: FileItem, topic: LectureTopic) => {
-    navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}`);
+  const handleFileClick = (file: FileItem, topic: LectureTopic, language : string) => {
+    navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}&language=${encodeURIComponent(language)}`);
   };
 
   return (
@@ -250,7 +250,8 @@ const Lectures = () => {
                                     className="flex-1 justify-start gap-2"
                                     onClick={() => handleFileClick(
                                       englishFiles.find(f => !f.type?.includes('audio'))!,
-                                      topic
+                                      topic,
+                                      'English'
                                     )}
                                   >
                                     <FileText className="h-4 w-4" />
@@ -263,7 +264,8 @@ const Lectures = () => {
                                     className="flex-1 justify-start gap-2"
                                     onClick={() => handleFileClick(
                                       englishFiles.find(f => f.type?.includes('audio'))!,
-                                      topic
+                                      topic,
+                                      'English'
                                     )}
                                   >
                                     <Headphones className="h-4 w-4" />
@@ -285,7 +287,8 @@ const Lectures = () => {
                                     className="flex-1 justify-start gap-2"
                                     onClick={() => handleFileClick(
                                       hindiFiles.find(f => !f.type?.includes('audio'))!,
-                                      topic
+                                      topic,
+                                      'Hindi'
                                     )}
                                   >
                                     <FileText className="h-4 w-4" />
@@ -298,7 +301,8 @@ const Lectures = () => {
                                     className="flex-1 justify-start gap-2"
                                     onClick={() => handleFileClick(
                                       hindiFiles.find(f => f.type?.includes('audio'))!,
-                                      topic
+                                      topic,
+                                      'Hindi'
                                     )}
                                   >
                                     <Headphones className="h-4 w-4" />
@@ -318,7 +322,8 @@ const Lectures = () => {
                               className="w-full justify-start gap-2"
                               onClick={() => handleFileClick(
                                 topic.files.find(f => !f.type?.includes('audio'))!,
-                                topic
+                                topic,
+                                'Hindi'
                               )}
                             >
                               <FileText className="h-4 w-4" />
@@ -331,7 +336,8 @@ const Lectures = () => {
                               className="w-full justify-start gap-2"
                               onClick={() => handleFileClick(
                                 topic.files.find(f => f.type?.includes('audio'))!,
-                                topic
+                                topic,
+                                'Hindi'
                               )}
                             >
                               <Headphones className="h-4 w-4" />

@@ -37,6 +37,7 @@ const LectureDetail = () => {
   const type = searchParams.get("type") || "";
   const subject = searchParams.get("subject") || "";
   const topic = searchParams.get("topic") || "";
+  const language = searchParams.get("language") || "";
 
   const fetchTextContent = useCallback(async () => {
     try {
@@ -66,7 +67,7 @@ const LectureDetail = () => {
     
     try {
       setAlignmentLoading(true);
-      const apiUrl = `https://sscb-backend-api.onrender.com/alignments/?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}&language=hi`;
+      const apiUrl = `https://sscb-backend-api.onrender.com/alignments/?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}&language=${encodeURIComponent(language === "English" ? "en" : "hi")}`;
       console.log(`Fetching alignment data from: ${apiUrl}`);
       const response = await fetch(apiUrl);
       const data: AlignmentResponse = await response.json();
