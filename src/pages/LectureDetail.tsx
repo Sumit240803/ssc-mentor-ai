@@ -225,7 +225,7 @@ const highlightedContent = useMemo(() => {
                   </div>
                 )}
               </div>
-            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf')) ? (
+            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf')) ? (
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
