@@ -44,7 +44,7 @@ const LectureDetail = () => {
       
       // Check if it's an RTF file
       if (url.toLowerCase().endsWith('.rtf')) {
-        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(url)}&output_format=text`;
+        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(url.trim())}&output_format=text`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         setContent(data.content || "Failed to load RTF content");
@@ -103,7 +103,11 @@ const LectureDetail = () => {
           const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(alignmentData.text_url)}&output_format=text`;
           const response = await fetch(apiUrl);
           const data = await response.json();
-          setContent(data.content || "Failed to load RTF content from alignment");
+          console.log("Fetched text from alignment:", data);
+          if(data){
+
+            setContent(data.content || "Failed to load RTF content from alignment");
+          }
         } catch (error) {
           console.error("Error fetching text from alignment:", error);
           setContent("Failed to load text content");
