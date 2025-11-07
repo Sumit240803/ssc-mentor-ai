@@ -1311,12 +1311,24 @@
   "solution-english": "The numbers representing mobiles are inside the circle: 5, 2, and 9. Among these, the numbers that are not part of the triangle (Battery) are 5 and 9. Thus, the total is 5 + 2 = 7 mobiles that are not batteries.",
   "solution-hindi": "वृत्त (मोबाइल) के अंदर की संख्याएँ हैं: 5, 2, और 9। इनमें से जो त्रिभुज (बैटरी) में नहीं हैं, वे 5 और 9 हैं। इसलिए, कुल 5 + 2 = 7 मोबाइल बैटरी नहीं हैं।"
 },{
-  "question-english": "Statements:\nI. All pens are pencils.\nII. All pencils are books.\nConclusions:\nI. All pens are books.\nII. Some books are pens.\n(a) Only conclusion I follows.\n(b) Only conclusion II follows.\n(c) Both conclusions I and II follow.\n(d) Neither conclusion I nor II follows.",
-  "question-hindi": "कथन:\nI. सभी पेन, पेंसिल हैं।\nII. सभी पेंसिलें, किताबें हैं।\nनिष्कर्ष:\nI. सभी पेन, किताबें हैं।\nII. कुछ किताबें, पेन हैं।\n(ए) केवल निष्कर्ष I अनुसरण करता है।\n(बी) केवल निष्कर्ष II अनुसरण करता है।\n(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।\n(डी) न तो निष्कर्ष I और न ही II अनुसरण करता है।",
+  "question-english": "Statements:\nI. All pens are pencils.\nII. All pencils are books.\nConclusions:\nI. All pens are books.\nII. Some books are pens.\nChoose the correct option:",
+  "question-hindi": "कथन:\nI. सभी पेन पेंसिल हैं।\nII. सभी पेंसिलें किताबें हैं।\nनिष्कर्ष:\nI. सभी पेन किताबें हैं।\nII. कुछ किताबें पेन हैं।\nसही विकल्प चुनिए:",
+  "options-english": [
+    "(a) Only conclusion I follows.",
+    "(b) Only conclusion II follows.",
+    "(c) Both conclusions I and II follow.",
+    "(d) Neither conclusion I nor II follows."
+  ],
+  "options-hindi": [
+    "(ए) केवल निष्कर्ष I अनुसरण करता है।",
+    "(बी) केवल निष्कर्ष II अनुसरण करता है।",
+    "(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।",
+    "(डी) न तो निष्कर्ष I और न ही II अनुसरण करता है।"
+  ],
   "answer-english": "(c) Both conclusions I and II follow.",
   "answer-hindi": "(सी) निष्कर्ष I और II दोनों अनुसरण करते हैं।",
-  "solution-english": "If all pens are pencils and all pencils are books, then it is definite that all pens are books (Conclusion I). From this, it also follows that some books are pens (Conclusion II). Both are valid conclusions.",
-  "solution-hindi": "यदि सभी पेन, पेंसिल हैं और सभी पेंसिलें, किताबें हैं, तो यह निश्चित है कि सभी पेन, किताबें हैं (निष्कर्ष I)। इससे यह भी निष्कर्ष निकलता है कि कुछ किताबें, पेन हैं (निष्कर्ष II)। दोनों वैध निष्कर्ष हैं।"
+  "solution-english": "If all pens are pencils and all pencils are books, then it is definite that all pens are books (Conclusion I). From this, it also follows that some books are pens (Conclusion II). Hence, both conclusions I and II follow.",
+  "solution-hindi": "यदि सभी पेन पेंसिल हैं और सभी पेंसिलें किताबें हैं, तो यह निश्चित है कि सभी पेन किताबें हैं (निष्कर्ष I)। इससे यह भी निष्कर्ष निकलता है कि कुछ किताबें पेन हैं (निष्कर्ष II)। इसलिए, निष्कर्ष I और II दोनों अनुसरण करते हैं।"
 }
           ]
     },
@@ -1483,8 +1495,8 @@
               "question-english" : "Which folder in an email client is used to store received emails?",
               "options-hindi": ["A). इनबॉक्स", "B). सेंट आइटम्स", "C). ड्राफ्ट्स", "D). आउटबॉक्स"],
               "options-english": ["A). Inbox", "B). Sent Items", "C). Drafts", "D). Outbox"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). इनबॉक्स",
+              "answer-english": "A). Inbox",
               "solution-hindi": "हल: इनबॉक्स वह प्राथमिक फ़ोल्डर है जहाँ सभी आने वाले और प्राप्त ईमेल संग्रहीत होते हैं।",
               "solution-english": "Solution: The Inbox is the primary folder where all incoming and received emails are stored."
             },
@@ -1493,8 +1505,8 @@
               "question-english" : "What does the menu bar do in MS-Word 365?",
               "options-hindi": ["A). यह विंडो मूविंग एरिया को ऊपर ले जाता है", "B). सॉफ्टवेयर का शीर्षक प्रदर्शित करता है", "C). दस्तावेज़ का वर्तमान पृष्ठ संख्या प्रदर्शित करता है", "D). प्रोग्राम के आवश्यक कार्यों को ढूंढता है"],
               "options-english": ["A). It moves the window moving area upside", "B). Displays the title of the software", "C). Displays the current page number of the document", "D). Finds program essential functions"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). प्रोग्राम के आवश्यक कार्यों को ढूंढता है",
+              "answer-english": "D). Finds program essential functions",
               "solution-hindi": "हल: मेनू बार (और इसका आधुनिक समकक्ष, रिबन) प्रोग्राम के सभी आवश्यक कार्यों और कमांडों को व्यवस्थित और एक्सेस प्रदान करता है, जिन्हें होम, इंसर्ट, रिव्यू, आदि जैसे तार्किक टैब में बांटा गया है।",
               "solution-english": "Solution: The menu bar (and its modern equivalent, the Ribbon) organizes and provides access to all of the program's essential functions and commands, grouped into logical tabs like Home, Insert, Review, etc."
             },
@@ -1503,8 +1515,8 @@
               "question-english" : "In Microsoft Excel 365, which of the following keyboard shortcuts enables you to save a workbook?",
               "options-hindi": ["A). Ctrl + G", "B). Ctrl + A", "C). Ctrl + F", "D). Ctrl + S"],
               "options-english": ["A). Ctrl + G", "B). Ctrl + A", "C). Ctrl + F", "D). Ctrl + S"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). Ctrl + S",
+              "answer-english": "D). Ctrl + S",
               "solution-hindi": "हल: शॉर्टकट Ctrl + S सेव के लिए मानक कमांड है, जो वर्तमान वर्कबुक को किए गए किसी भी परिवर्तन के साथ अपडेट करता है।",
               "solution-english": "Solution: The shortcut Ctrl + S is the standard command for Save, which updates the current workbook with any changes made."
             },
@@ -1513,8 +1525,8 @@
               "question-english" : "Which operation can be used to move the text in a document of MS word 365?",
               "options-hindi": ["A). मूव-पेस्ट", "B). कट-कॉपी-पेस्ट", "C). कॉपी-पेस्ट", "D). कट-पेस्ट"],
               "options-english": ["A). Move-paste", "B). Cut-copy-paste", "C). Copy-paste", "D). Cut-paste"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). कट-पेस्ट",
+              "answer-english": "D). Cut-paste",
               "solution-hindi": "हल: टेक्स्ट को स्थानांतरित करने का ऑपरेशन एक दो-चरणीय प्रक्रिया है: कट (जो टेक्स्ट को उसके मूल स्थान से हटाता है) और पेस्ट (जो इसे एक नए स्थान पर डालता है)।",
               "solution-english": "Solution: The operation to move text is a two-step process: Cut (which removes the text from its original location) and Paste (which inserts it in a new location)."
             },
@@ -1523,8 +1535,8 @@
               "question-english" : "In MS Excel 365, which of the following functions can be used to display the formula applied to a specific cell?",
               "options-hindi": ["A). =FORMULATEXT(Cell_Reference)", "B). =RETFORMULA(Cell_Reference)", "C). =TEXTFORMULA(Cell_Reference)", "D). =CALLFORMULA(Cell_Reference)"],
               "options-english": ["A). =FORMULATEXT(Cell_Reference)", "B). =RETFORMULA(Cell_Reference)", "C). =TEXTFORMULA(Cell_Reference)", "D). =CALLFORMULA(Cell_Reference)"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). =FORMULATEXT(Cell_Reference)",
+              "answer-english": "A). =FORMULATEXT(Cell_Reference)",
               "solution-hindi": "हल: FORMULATEXT फ़ंक्शन अपने तर्क के रूप में एक सेल संदर्भ लेता है और उस सेल के भीतर के फ़ॉर्मूला को एक टेक्स्ट स्ट्रिंग के रूप में लौटाता है। उदाहरण के लिए, =FORMULATEXT(A1) सेल A1 में मौजूद फ़ॉर्मूला को प्रदर्शित करेगा।",
               "solution-english": "Solution: The FORMULATEXT function takes a cell reference as its argument and returns the formula within that cell as a text string. For example, =FORMULATEXT(A1) would display the formula that is in cell A1."
             },
@@ -1532,9 +1544,9 @@
               "question-hindi": "FTP (फ़ाइल ट्रांसफर प्रोटोकॉल) का प्राथमिक कार्य क्या है?",
               "question-english" : "What is the primary function of FTP (File Transfer Protocol)?",
               "options-hindi": ["A). ईमेल भेजना", "B). वीडियो स्ट्रीमिंग", "C). वेबसाइट ब्राउज़ करना", "D). कंप्यूटरों के बीच फ़ाइलों का स्थानांतरण"],
-              "options-english": ["A). Sending emails", "B). Video streaming", "C). Browsing websites", ""],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "options-english": ["A). Sending emails", "B). Video streaming", "C). Browsing websites", "D). Transfer of files between computers"],
+              "answer-hindi": "D). कंप्यूटरों के बीच फ़ाइलों का स्थानांतरण",
+              "answer-english": "D). Transfer of files between computers",
               "solution-hindi": "हल: FTP का अर्थ फ़ाइल ट्रांसफर प्रोटोकॉल है। इसका विशिष्ट उद्देश्य एक कंप्यूटर नेटवर्क पर एक क्लाइंट और एक सर्वर के बीच फ़ाइलों के अपलोडिंग और डाउनलोडिंग को संभालना है।",
               "solution-english": "Solution: FTP stands for File Transfer Protocol. Its specific purpose is to handle the uploading and downloading of files between a client and a server on a computer network."
             },
@@ -1543,8 +1555,8 @@
               "question-english" : "Which of the following options is NOT used to set page margins in MS Word 365?",
               "options-hindi": ["A). लेफ्ट", "B). हेडर", "C). बॉटम", "D). राइट"],
               "options-english": ["A). Left", "B). Header", "C). Bottom", "D). Right"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). हेडर",
+              "answer-english": "B). Header",
               "solution-hindi": "हल: पृष्ठ मार्जिन पृष्ठ के किनारों के आसपास की खाली जगह को परिभाषित करते हैं। मानक मार्जिन सेटिंग्स टॉप, बॉटम, लेफ्ट और राइट हैं। एक हेडर पृष्ठ के शीर्ष पर एक अलग खंड है, शीर्ष मार्जिन क्षेत्र के अंदर, न कि स्वयं एक मार्जिन सेटिंग।",
               "solution-english": "Solution: Page margins define the blank space around the edges of the page. The standard margin settings are Top, Bottom, Left, and Right. A Header is a separate section at the top of the page, inside the top margin area, not a margin setting itself."
             },
@@ -1553,8 +1565,8 @@
               "question-english" : "In MS-word 365, the keyboard shortcut Shift + F3 can be used to change the text document as:",
               "options-hindi": ["A). फ़ॉन्ट का आकार", "B). बोल्ड फ़ॉन्ट", "C). प्रत्येक शब्द को कैपिटलाइज़ करें", "D). टेक्स्ट के रंग को हाइलाइट करें"],
               "options-english": ["A). Size of Font", "B). Bold Font", "C). Capitalize Each Word", "D). Highlight Text color"],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). प्रत्येक शब्द को कैपिटलाइज़ करें",
+              "answer-english": "C). Capitalize Each Word",
               "solution-hindi": "हल: Shift + F3 शॉर्टकट चयनित टेक्स्ट को विभिन्न केस प्रारूपों के माध्यम से चक्रित करता है: लोअरकेस, अपरकेस, और सेंटेंस केस। प्रत्येक शब्द को कैपिटलाइज़ करें इन केस शैलियों में से एक है।",
               "solution-english": "Solution: The Shift + F3 shortcut cycles the selected text through different case formats: lowercase, UPPERCASE, and Sentence case. Capitalize Each Word is one of these case styles."
             },
@@ -1563,8 +1575,8 @@
               "question-english" : "What is the shortcut key for closing the documents in MS-Word 365?",
               "options-hindi": ["A). Ctrl + W", "B). Ctrl + C", "C). Ctrl + Alt + S", "D). Ctrl + B"],
               "options-english": ["A). Ctrl + W", "B). Ctrl + C", "C). Ctrl + Alt + S", "D). Ctrl + B"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). Ctrl + W",
+              "answer-english": "A). Ctrl + W",
               "solution-hindi": "हल: शॉर्टकट Ctrl + W का उपयोग वर्तमान में सक्रिय दस्तावेज़ विंडो को बंद करने के लिए किया जाता है। यदि आपके पास सहेजे नहीं गए परिवर्तन हैं, तो वर्ड आपको बंद करने से पहले उन्हें सहेजने के लिए संकेत देगा।",
               "solution-english": "Solution: The shortcut Ctrl + W is used to Close the currently active document window. If you have unsaved changes, Word will prompt you to save them before closing."
             },
@@ -1573,8 +1585,8 @@
               "question-english" : "In MS Excel 365,to enable the edit mode in MS-Excel worksheet, we should follow:",
               "options-hindi": ["A). File > Advanced > Editing options > Options", "B). File > Options > Advanced > Editing options", "C). File > Advanced > Editing options", "D). File > Options > Editing options"],
               "options-english": ["A). File > Advanced > Editing options > Options", "B). File > Options > Advanced > Editing options", "C). File > Advanced > Editing options", "D). File > Options > Editing options"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). File > Options > Advanced > Editing options",
+              "answer-english": "B). File > Options > Advanced > Editing options",
               "solution-hindi": "हल: उन सेटिंग्स तक पहुँचने के लिए जो नियंत्रित करती हैं कि एक्सेल में संपादन कैसे काम करता है (जैसे ड्रैग-एंड-ड्रॉप संपादन को सक्षम या अक्षम करना), आप मेनू पथ के माध्यम से नेविगेट करते हैं: File > Options, फिर Advanced श्रेणी का चयन करें, जहाँ आपको Editing options मिलेंगे।",
               "solution-english": "Solution: To access the settings that control how editing works in Excel (such as enabling or disabling drag-and-drop editing), you navigate through the menu path: File > Options, then select the Advanced category, where you will find the Editing options."
             }

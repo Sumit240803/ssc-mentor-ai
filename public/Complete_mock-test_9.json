@@ -603,7 +603,7 @@
   "solution-english": ""
 },{
   "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q11.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_11.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q11.png",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "D",
@@ -622,7 +622,7 @@
   "solution-hindi": "पहले जोड़े में, बाहरी वर्ग एक वृत्त में बदल जाता है जबकि आंतरिक संरचना समान रहती है। उसी पैटर्न का पालन करते हुए, बाहरी पंचभुज को अंडाकार में बदलना चाहिए जबकि अंदरूनी आकार समान रहना चाहिए। इसलिए विकल्प C सही है।"
 },{
   "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q13.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_13.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q13.png",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "D",
@@ -660,7 +660,7 @@
   "solution-english": ""
 },{
   "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q17.png",
-  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_17.png",
+  "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_8/mock_test_8_Q17.png",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "A",
@@ -911,8 +911,8 @@
               "question-english" : "81 In Microsoft Word 365, what does the ‘B’ icon usually represent?",
               "options-hindi": ["A). बुलेट पॉइंट्स", "B). पेज ब्रेक", "C). बोल्ड स्वरूपण", "D). इटैलिक स्वरूपण"],
               "options-english": ["A). Bullet points", "B). Page break", "C). Bold formatting", "D). Italic formatting"],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). बोल्ड स्वरूपण",
+              "answer-english": "C). Bold formatting",
               "solution-hindi": "हल: 'B' आइकन, जो होम टैब पर फ़ॉन्ट समूह में स्थित है, का उपयोग टेक्स्ट पर बोल्ड स्वरूपण लागू करने के लिए किया जाता है, जिससे यह गहरा और मोटा दिखाई देता है।",
               "solution-english": "Solution: The ‘B’ icon, located in the Font group on the Home tab, is used to apply Bold formatting to text, making it appear darker and thicker."
             },
@@ -921,8 +921,8 @@
               "question-english" : "In the process of composing a new email, where is the usual location for entering the primary recipient's email address?",
               "options-hindi": ["A). सब्जेक्ट लाइन", "B). 'To' फ़ील्ड", "C). 'CC' फ़ील्ड", "D). ईमेल का मुख्य भाग"],
               "options-english": ["A). Subject line", "B). ‘To’ field", "C). ‘CC’ field", "D). Body of the email"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). 'To' फ़ील्ड",
+              "answer-english": "B). ‘To’ field",
               "solution-hindi": "हल: एक ईमेल के मुख्य प्राप्तकर्ताओं को 'To' फ़ील्ड में दर्ज किया जाता है। 'CC' (कार्बन कॉपी) फ़ील्ड अतिरिक्त प्राप्तकर्ताओं के लिए है जिन्हें ईमेल प्राप्त करना चाहिए लेकिन वे प्राथमिक दर्शक नहीं हैं।",
               "solution-english": "Solution: The main recipients of an email are entered into the ‘To’ field. The 'CC' (Carbon Copy) field is for additional recipients who should receive the email but are not the primary audience."
             },
@@ -931,8 +931,8 @@
               "question-english" : "In MS Excel 365, which of the following is the correct shortcut key used to paste data in MS Excel?",
               "options-hindi": ["A). Ctrl + V", "B). Alt + V", "C). Shift + V", "D). Ctrl + C"],
               "options-english": ["A). Ctrl + V", "B). Alt + V", "C). Shift + V", "D). Ctrl + C"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). Ctrl + V",
+              "answer-english": "A). Ctrl + V",
               "solution-hindi": "हल: शॉर्टकट Ctrl + V पेस्ट के लिए मानक कमांड है, जो क्लिपबोर्ड पर कॉपी या कट किए गए किसी भी डेटा को चयनित सेल में डालता है।",
               "solution-english": "Solution: The shortcut Ctrl + V is the standard command for Paste, which inserts any data that has been copied or cut to the clipboard into the selected cell(s)."
             },
@@ -941,8 +941,8 @@
               "question-english" : "Which of the following icons are a part of the Design menu in MS Word 365?",
               "options-hindi": ["A). थीम, रंग, फ़ॉन्ट, प्रभाव और पृष्ठ सीमाओं को बदलने के लिए आइकन", "B). वर्तनी और व्याकरण जांच, थिसॉरस और शब्द गणना के लिए आइकन", "C). ज़ूम इन और आउट, प्रिंट लेआउट, विंडोज़ स्विच करने और विंडोज़ को विभाजित करने के लिए आइकन", "D). फ़ॉन्ट आकार, शैली, संरेखण और सीमाओं को बदलने के लिए आइकन"],
               "options-english": ["A). Icons to change themes, colours, fonts, effects and page borders", "B). Icons for spelling and grammar check, thesaurus and word count", "C). Icons for zooming in and out, print layout, switching windows and splitting windows", "D). Icons to change font size, style, alignment and borders"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). थीम, रंग, फ़ॉन्ट, प्रभाव और पृष्ठ सीमाओं को बदलने के लिए आइकन",
+              "answer-english": "A). Icons to change themes, colours, fonts, effects and page borders",
               "solution-hindi": "हल: डिज़ाइन टैब पूरे दस्तावेज़ के समग्र रूप और अनुभव पर केंद्रित है। इसमें दस्तावेज़-व्यापी सेटिंग्स जैसे थीम, स्टाइल सेट, रंग, फ़ॉन्ट, पैराग्राफ स्पेसिंग, प्रभाव और पृष्ठ सीमाओं के लिए नियंत्रण होते हैं।",
               "solution-english": "Solution: The Design tab focuses on the overall look and feel of the entire document. It contains controls for document-wide settings like Themes, style sets, colors, fonts, paragraph spacing, effects, and page borders."
             },
@@ -951,8 +951,8 @@
               "question-english" : "Among the following, under which tab will you find the Bullets and Numbering in MS-Word 365?",
               "options-hindi": ["A). पेज लेआउट", "B). इंसर्ट", "C). रेफरेंसेज", "D). होम"],
               "options-english": ["A). Page Layout", "B). Insert", "C). References", "D). Home"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). होम",
+              "answer-english": "D). Home",
               "solution-hindi": "हल: बुलेटेड और नंबर्ड सूचियाँ बनाने के विकल्प होम टैब पर पैराग्राफ समूह में स्थित हैं।",
               "solution-english": "Solution: The options to create Bulleted and Numbered lists are located in the Paragraph group on the Home tab."
             },
@@ -961,8 +961,8 @@
               "question-english" : "What is the purpose of sorting data in Microsoft Excel 365?",
               "options-hindi": ["A). केवल सेलों पर स्वरूपण लागू करना", "B). डेटा का औसत निकालना", "C). मानों के आधार पर डेटा को एक विशिष्ट क्रम में व्यवस्थित करना", "D). चार्ट और ग्राफ़ बनाना"],
               "options-english": ["A). To apply formatting to the cells only", "B). To calculate averages of the data", "C). To organise data in a specific order based on values", "D). To create charts and graphs"],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). मानों के आधार पर डेटा को एक विशिष्ट क्रम में व्यवस्थित करना",
+              "answer-english": "C). To organise data in a specific order based on values",
               "solution-hindi": "हल: सॉर्टिंग का प्राथमिक उद्देश्य डेटा को एक विशिष्ट क्रम में व्यवस्थित करना है (जैसे कि वर्णानुक्रम में, संख्यात्मक रूप से, या तिथि के अनुसार) ताकि इसे पढ़ना, विश्लेषण करना और विशिष्ट जानकारी खोजना आसान हो सके।",
               "solution-english": "Solution: The primary purpose of sorting is to organize data in a specific order (such as alphabetically, numerically, or by date) to make it easier to read, analyze, and find specific information."
             },
@@ -971,8 +971,8 @@
               "question-english" : "Which keyboard shortcut is commonly used to create a new blank document in MS Word 365?",
               "options-hindi": ["A). Ctrl + C", "B). Ctrl + N", "C). Ctrl + S", "D). Ctrl + O"],
               "options-english": ["A). Ctrl + C", "B). Ctrl + N", "C). Ctrl + S", "D). Ctrl + O"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). Ctrl + N",
+              "answer-english": "B). Ctrl + N",
               "solution-hindi": "हल: शॉर्टकट Ctrl + N का उपयोग वर्ड में एक नया खाली दस्तावेज़ बनाने के लिए किया जाता है।",
               "solution-english": "Solution: The shortcut Ctrl + N is used to create a New blank document in Word."
             },
@@ -981,8 +981,8 @@
               "question-english" : "Which of the following keyboard shortcuts helps you copy data in MS Excel 365?",
               "options-hindi": ["A). Ctrl + C", "B). Ctrl + Z", "C). Ctrl + X", "D). Ctrl + Y"],
               "options-english": ["A). Ctrl + C", "B). Ctrl + Z", "C). Ctrl + X", "D). Ctrl + Y"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). Ctrl + C",
+              "answer-english": "A). Ctrl + C",
               "solution-hindi": "हल: Ctrl + C कॉपी कमांड के लिए शॉर्टकट है, जो चयनित सेलों की सामग्री को डुप्लिकेट करता है और उन्हें क्लिपबोर्ड पर रखता है।",
               "solution-english": "Solution: Ctrl + C is the shortcut for the Copy command, which duplicates the contents of the selected cells and places them on the clipboard."
             },
@@ -991,8 +991,8 @@
               "question-english" : "Which option in the context menu allows you to paste the copied text with formatting removed in Microsoft Word 365?",
               "options-hindi": ["A). पेस्ट", "B). प्लेन टेक्स्ट के रूप में पेस्ट करें", "C). पेस्ट स्पेशल", "D). बिना स्वरूपित टेक्स्ट के रूप में पेस्ट करें"],
               "options-english": ["A). Paste", "B). Paste as Plain Text", "C). Paste Special", "D). Paste as Unformatted Text"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). प्लेन टेक्स्ट के रूप में पेस्ट करें",
+              "answer-english": "B). Paste as Plain Text",
               "solution-hindi": "हल: जब आप पेस्ट करने के लिए राइट-क्लिक करते हैं, तो वर्ड कई पेस्ट विकल्प प्रदान करता है। 'प्लेन टेक्स्ट के रूप में पेस्ट करें' (या कभी-कभी 'केवल टेक्स्ट रखें', जो 'A' आइकन द्वारा दर्शाया जाता है) नामक विकल्प टेक्स्ट को उसके किसी भी मूल स्वरूपण के बिना डालेगा, ताकि यह गंतव्य के स्वरूपण से मेल खाए।",
               "solution-english": "Solution: When you right-click to paste, Word provides several paste options. The option labeled ‘Paste as Plain Text’ (or sometimes 'Keep Text Only', represented by an 'A' icon) will insert the text without any of its original formatting, so it matches the formatting of the destination."
             },
@@ -1001,8 +1001,8 @@
               "question-english" : "What does ‘ISP’ stand for in the context of internet access?",
               "options-hindi": ["A). इंटरनेट सर्विस प्रोवाइडर", "B). इंटरनेशनल सिक्योरिटी प्रोटोकॉल", "C). इंटरनेट सिस्टम प्रोटोकॉल", "D). इंटरनेट सिक्योरिटी प्रोग्राम"],
               "options-english": ["A). Internet Service Provider", "B). International Security Protocol", "C). Internet System Protocol", "D). Internet Security Program"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). इंटरनेट सर्विस प्रोवाइडर",
+              "answer-english": "A). Internet Service Provider",
               "solution-hindi": "हल: ISP, इंटरनेट सर्विस प्रोवाइडर का संक्षिप्त रूप है, वह कंपनी जिसे आप अपने इंटरनेट कनेक्शन के लिए भुगतान करते हैं।",
               "solution-english": "Solution: ISP is the acronym for Internet Service Provider, the company you pay for your internet connection."
             }

@@ -44,7 +44,7 @@ const LectureDetail = () => {
       
       // Check if it's an RTF file
       if (url.toLowerCase().endsWith('.rtf')) {
-        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(url.trim())}&output_format=text`;
+        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${url}&output_format=text`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         setContent(data.content || "Failed to load RTF content");
