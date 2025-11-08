@@ -17,6 +17,7 @@ import LectureDetail from "./pages/LectureDetail";
 import AIChat from "./pages/AIChat";
 import MockTestsList from "./pages/MockTestsList";
 import MockTest from "./pages/MockTest";
+import MockTestAnalysis from "./pages/MockTestAnalysis";
 import Schedule from "./pages/Schedule";
 import Profile from "./pages/Profile";
 import PhysicalEducation from "./pages/PhysicalEducation";
@@ -82,6 +83,14 @@ const AppContent = () => {
               element={
                 <ProtectedRoute>
                   <MockTest />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/mock-test-analysis/:testName" 
+              element={
+                <ProtectedRoute>
+                  <MockTestAnalysis />
                 </ProtectedRoute>
               } 
             />

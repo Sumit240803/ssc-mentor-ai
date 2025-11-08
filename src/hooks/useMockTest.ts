@@ -448,12 +448,25 @@ export const useMockTest = (testFileName?: string) => {
       const results = getResults();
       const sectionWiseScores = calculateSectionWiseScores();
       
-      // Save test results
-      const { error } = await supabase
-        .from('mock_test_results')
-        .insert({
+      // Prepare section-wise scores in the API format
+      const formattedSectionScores: Record<string, { total: number; correct: number; percentage: number }> = {};
+      Object.entries(sectionWiseScores).forEach(([section, data]) => {
+        formattedSectionScores[section] = {
+          total: data.total,
+          correct: data.correct,
+          percentage: data.percentage,
+        };
+      });
+
+      // Save test results to API
+      const response = await fetch('https://sscb-backend-api.onrender.com/mock-tests/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           user_id: user.id,
-          test_date: testFileName || mockTestData.testName,
+          test_name: mockTestData.testName,
           total_questions: results.totalQuestions,
           answered_questions: results.answeredQuestions,
           correct_answers: results.correctAnswers,
@@ -462,11 +475,15 @@ export const useMockTest = (testFileName?: string) => {
           score: results.score,
           percentage: results.percentage,
           time_taken_seconds: results.timeTaken,
-          section_wise_scores: sectionWiseScores,
-        });
+          section_wise_scores: formattedSectionScores,
+        }),
+      });
 
-      if (error) {
-        console.error('Error saving test results:', error);
+      if (!response.ok) {
+        console.error('Error saving test results:', response.status);
+      } else {
+        const data = await response.json();
+        console.log('Test results saved successfully:', data);
       }
 
       // Update motivation score based on test performance

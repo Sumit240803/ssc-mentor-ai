@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useNavigate } from "react-router-dom";
 import { BookOpen, Clock, FileText, Target, BarChart3, RefreshCw } from "lucide-react";
+import { useMockTestResults } from "@/hooks/useMockTestResults";
 
 interface MockTestInfo {
   fileName: string;
@@ -20,6 +21,7 @@ const MockTestsList: React.FC = () => {
   const navigate = useNavigate();
   const [mockTests, setMockTests] = useState<MockTestInfo[]>([]);
   const [loading, setLoading] = useState(true);
+  const { userResults, loading: resultsLoading, hasAttemptedTest, getLastAttempt } = useMockTestResults();
 
   useEffect(() => {
     const loadMockTests = async () => {
@@ -71,17 +73,21 @@ const MockTestsList: React.FC = () => {
               const testNumberMatch = fileName.match(/(\d+)/);
               const testNumber = testNumberMatch ? testNumberMatch[1] : "";
               const fallbackName = testNumber ? `Mock Test ${testNumber}` : "Mock Test";
+              const testName = data.testName || fallbackName;
+
+              // Check if user has attempted this test using API data
+              const lastAttempt = getLastAttempt(testName);
+              const hasAttempted = hasAttemptedTest(testName);
 
               return {
                 fileName,
-                testName: data.testName || fallbackName,
+                testName,
                 duration: data.duration || 90,
                 totalQuestions,
                 comingSoon: false,
-                hasAttempted: checkIfAttempted(fileName),
-                // TODO: Get from API
-                lastAttemptScore: undefined,
-                lastAttemptPercentage: undefined,
+                hasAttempted,
+                lastAttemptScore: lastAttempt?.correct_answers,
+                lastAttemptPercentage: lastAttempt?.percentage,
               };
             } catch (error) {
               console.error(`Error loading ${fileName}:`, error);
@@ -109,35 +115,22 @@ const MockTestsList: React.FC = () => {
       }
     };
 
-    loadMockTests();
-  }, []);
+    // Wait for user results to load before loading tests
+    if (!resultsLoading) {
+      loadMockTests();
+    }
+  }, [resultsLoading, userResults, hasAttemptedTest, getLastAttempt]);
 
   const handleStartTest = (fileName: string) => {
     navigate(`/mock-test/${fileName.replace(".json", "")}`);
   };
 
-  const handleViewAnalysis = (fileName: string) => {
-    // TODO: Navigate to analysis page when implemented
-    // For now, just log or show a toast
-    console.log(`View analysis for ${fileName}`);
-    // navigate(`/mock-test/${fileName.replace(".json", "")}/analysis`);
+  const handleViewAnalysis = (testName: string) => {
+    // Navigate to analysis page
+    navigate(`/mock-test-analysis/${encodeURIComponent(testName)}`);
   };
 
-  // Mock function to check if test has been attempted
-  // TODO: Replace with actual API call to check user's test history
-  const checkIfAttempted = (fileName: string): boolean => {
-    // Simulate some tests being attempted
-    // You can test this by running this in browser console:
-    // localStorage.setItem('attempted_tests', JSON.stringify(['Complete_mock-test_1.json', 'Complete_mock-test_2.json']))
-    const attemptedTests = localStorage.getItem('attempted_tests');
-    if (attemptedTests) {
-      const attempted = JSON.parse(attemptedTests);
-      return attempted.includes(fileName);
-    }
-    return false;
-  };
-
-  if (loading) {
+  if (loading || resultsLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
@@ -229,7 +222,7 @@ const MockTestsList: React.FC = () => {
                   <div className="flex gap-2">
                     {test.hasAttempted && !test.comingSoon && (
                       <Button 
-                        onClick={() => handleViewAnalysis(test.fileName)} 
+                        onClick={() => handleViewAnalysis(test.testName)} 
                         className="flex-1" 
                         variant="outline"
                       >
