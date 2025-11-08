@@ -18,7 +18,7 @@ const Navbar = () => {
     { name: "Mock Test", href: "/mock-tests" },
     { name: "Lectures", href: "/lectures" },
     { name: "Schedule", href: "/schedule" },
-    { name: "Physical Education", href: "/physical-education" },
+    { name: "Physical", href: "/physical-education" },
   ] : [
     { name: "Home", href: "/" },
     { name: "Free Mock Test", href: "/free-mock-test" },
