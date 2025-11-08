@@ -67,128 +67,128 @@
           "question-english": "According to the Economic Survey (2023-24), the service (tertiary) sector has the largest contribution to India’s Gross Value Added (GVA). What is the approximate percentage of its contribution?",
           "options-hindi": ["(A) 18.0%", "(B) 28.2%", "(C) 53.8%", "(D) 80.0%"],
           "options-english": ["(A) 18.0%", "(B) 28.2%", "(C) 53.8%", "(D) 80.0%"],
-          "solution-hindi": "(C) 53.8%",
-          "solution-english": "(C) 53.8%",
-          "explanation-hindi": "आर्थिक सर्वेक्षण (2023-24) में बताया गया है कि सेवा क्षेत्र का सकल मूल्य वर्धन में लगभग 53.8% योगदान है, जबकि कृषि और उद्योग का क्रमशः 18.0% और 28.2% है।",
-          "explanation-english": "The Economic Survey (2023-24) states that the service sector contributes around 53.8% to India’s GVA, while agriculture and industry contribute 18.0% and 28.2%, respectively."
+          "answer-hindi": "(C) 53.8%",
+          "answer-english": "(C) 53.8%",
+          "solution-hindi": "आर्थिक सर्वेक्षण (2023-24) में बताया गया है कि सेवा क्षेत्र का सकल मूल्य वर्धन में लगभग 53.8% योगदान है, जबकि कृषि और उद्योग का क्रमशः 18.0% और 28.2% है।",
+          "solution-english": "The Economic Survey (2023-24) states that the service sector contributes around 53.8% to India’s GVA, while agriculture and industry contribute 18.0% and 28.2%, respectively."
         },
         {
           "question-hindi": "निम्नलिखित में से कौन विकास का 'गैर-आर्थिक कारक' माना जाता है?",
           "question-english": "Which of the following is considered a 'Non-Economic Factor' of development?",
           "options-hindi": ["(A) पूंजी निर्माण", "(B) तकनीकी प्रगति", "(C) मानव संसाधन विकास", "(D) प्राकृतिक संसाधनों की उपलब्धता"],
           "options-english": ["(A) Capital Formation", "(B) Technological Progress", "(C) Human Resource Development", "(D) Availability of Natural Resources"],
-          "solution-hindi": "(C) मानव संसाधन विकास",
-          "solution-english": "(C) Human Resource Development",
-          "explanation-hindi": "मानव संसाधन विकास, भ्रष्टाचार से मुक्ति और विकास की इच्छा जैसे कारक गैर-आर्थिक कारक हैं।",
-          "explanation-english": "Human resource development, freedom from corruption, and the will to develop are classified as non-economic factors."
+          "answer-hindi": "(C) मानव संसाधन विकास",
+          "answer-english": "(C) Human Resource Development",
+          "solution-hindi": "मानव संसाधन विकास, भ्रष्टाचार से मुक्ति और विकास की इच्छा जैसे कारक गैर-आर्थिक कारक हैं।",
+          "solution-english": "Human resource development, freedom from corruption, and the will to develop are classified as non-economic factors."
         },
         {
           "question-hindi": "'बाजार मूल्य' पर राष्ट्रीय आय से 'कारक लागत' पर राष्ट्रीय आय कैसे प्राप्त की जाती है?",
           "question-english": "How is National Income at 'Factor Cost' derived from National Income at 'Market Price'?",
           "options-hindi": ["(A) बाजार मूल्य + अप्रत्यक्ष कर - सब्सिडी", "(B) बाजार मूल्य - अप्रत्यक्ष कर - सब्सिडी", "(C) बाजार मूल्य - अप्रत्यक्ष कर + सब्सिडी", "(D) बाजार मूल्य + अप्रत्यक्ष कर + सब्सिडी"],
           "options-english": ["(A) Market Price + Indirect Taxes - Subsidy", "(B) Market Price - Indirect Taxes - Subsidy", "(C) Market Price - Indirect Taxes + Subsidy", "(D) Market Price + Indirect Taxes + Subsidy"],
-          "solution-hindi": "(C) बाजार मूल्य - अप्रत्यक्ष कर + सब्सिडी",
-          "solution-english": "(C) Market Price - Indirect Taxes + Subsidy",
-          "explanation-hindi": "कारक लागत = बाजार मूल्य - अप्रत्यक्ष कर + सब्सिडी।",
-          "explanation-english": "Factor Cost = Market Price - Indirect Taxes + Subsidy."
+          "answer-hindi": "(C) बाजार मूल्य - अप्रत्यक्ष कर + सब्सिडी",
+          "answer-english": "(C) Market Price - Indirect Taxes + Subsidy",
+          "solution-hindi": "कारक लागत = बाजार मूल्य - अप्रत्यक्ष कर + सब्सिडी।",
+          "solution-english": "Factor Cost = Market Price - Indirect Taxes + Subsidy."
         },
         {
           "question-hindi": "प्रच्छन्न बेरोजगारी किस स्थिति को दर्शाती है?",
           "question-english": "Disguised unemployment is best described as a situation where:",
           "options-hindi": ["(A) व्यक्ति काम करने के इच्छुक हैं लेकिन कोई रोजगार नहीं है", "(B) वर्ष के केवल एक हिस्से के लिए नियोजित", "(C) आवश्यकता से अधिक लोग नियोजित हैं जिससे सीमांत उत्पादकता शून्य होती है", "(D) शिक्षित व्यक्ति अपने कौशल के अनुसार नौकरी नहीं पाते"],
           "options-english": ["(A) Individuals are willing to work but find no employment", "(B) People are employed only part of the year", "(C) More people are employed than required, making marginal productivity zero", "(D) Educated people can’t find suitable jobs"],
-          "solution-hindi": "(C) आवश्यकता से अधिक लोग नियोजित हैं जिससे सीमांत उत्पादकता शून्य होती है",
-          "solution-english": "(C) More people are employed in a job than are actually required, so the marginal productivity of some workers is zero",
-          "explanation-hindi": "प्रच्छन्न बेरोजगारी में कुछ श्रमिकों की सीमांत उत्पादकता शून्य होती है क्योंकि वे अनावश्यक रूप से नियोजित होते हैं।",
-          "explanation-english": "In disguised unemployment, more people are employed than needed, making the marginal productivity of some workers zero."
+          "answer-hindi": "(C) आवश्यकता से अधिक लोग नियोजित हैं जिससे सीमांत उत्पादकता शून्य होती है",
+          "answer-english": "(C) More people are employed in a job than are actually required, so the marginal productivity of some workers is zero",
+          "solution-hindi": "प्रच्छन्न बेरोजगारी में कुछ श्रमिकों की सीमांत उत्पादकता शून्य होती है क्योंकि वे अनावश्यक रूप से नियोजित होते हैं।",
+          "solution-english": "In disguised unemployment, more people are employed than needed, making the marginal productivity of some workers zero."
         },
         {
           "question-hindi": "दूसरी पंचवर्षीय योजना (1956-1961) किस आर्थिक मॉडल पर आधारित थी?",
           "question-english": "The Second Five-Year Plan (1956-1961) was based on which economic model?",
           "options-hindi": ["(A) हैरोड-डोमर मॉडल", "(B) जॉन डब्ल्यू. मेलोर मॉडल", "(C) पी. सी. महालनोबिस मॉडल", "(D) गाडगिल फॉर्मूला"],
           "options-english": ["(A) Harrod-Domar Model", "(B) John W. Mellor Model", "(C) P. C. Mahalanobis Model", "(D) Gadgil Formula"],
-          "solution-hindi": "(C) पी. सी. महालनोबिस मॉडल",
-          "solution-english": "(C) P. C. Mahalanobis Model",
-          "explanation-hindi": "दूसरी पंचवर्षीय योजना भारी उद्योगों के विकास पर जोर देने वाले पी. सी. महालनोबिस मॉडल पर आधारित थी।",
-          "explanation-english": "The Second Five-Year Plan was based on the P. C. Mahalanobis Model, emphasizing the development of heavy industries."
+          "answer-hindi": "(C) पी. सी. महालनोबिस मॉडल",
+          "answer-english": "(C) P. C. Mahalanobis Model",
+          "solution-hindi": "दूसरी पंचवर्षीय योजना भारी उद्योगों के विकास पर जोर देने वाले पी. सी. महालनोबिस मॉडल पर आधारित थी।",
+          "solution-english": "The Second Five-Year Plan was based on the P. C. Mahalanobis Model, emphasizing the development of heavy industries."
         },
         {
           "question-hindi": "आरबीआई द्वारा जारी 'नीलामी ट्रेजरी बिल' के लिए निम्नलिखित में से किस अवधि का उल्लेख नहीं किया गया है?",
           "question-english": "Which of the following tenures is NOT mentioned for the 'Auctioned Treasury Bills' issued by the RBI?",
           "options-hindi": ["(A) 91 दिन", "(B) 182 दिन", "(C) 45 दिन", "(D) 364 दिन"],
           "options-english": ["(A) 91 Days", "(B) 182 Days", "(C) 45 Days", "(D) 364 Days"],
-          "solution-hindi": "(C) 45 दिन",
-          "solution-english": "(C) 45 Days",
-          "explanation-hindi": "आरबीआई 91, 182 और 364 दिनों के ट्रेजरी बिल जारी करता है। 45 दिन का उल्लेख नहीं है।",
-          "explanation-english": "The RBI issues Treasury Bills for 91, 182, and 364 days. A 45-day tenure is not mentioned."
+          "answer-hindi": "(C) 45 दिन",
+          "answer-english": "(C) 45 Days",
+          "solution-hindi": "आरबीआई 91, 182 और 364 दिनों के ट्रेजरी बिल जारी करता है। 45 दिन का उल्लेख नहीं है।",
+          "solution-english": "The RBI issues Treasury Bills for 91, 182, and 364 days. A 45-day tenure is not mentioned."
         },  {
           "question-hindi": "किस ग्रह का घनत्व सबसे कम और किसका सबसे अधिक है?",
           "question-english": "Which planet has the lowest density and which has the highest?",
           "options-hindi": ["(A) बृहस्पति - बुध", "(B) शनि - पृथ्वी", "(C) यूरेनस - मंगल", "(D) नेपच्यून - शुक्र"],
           "options-english": ["(A) Jupiter - Mercury", "(B) Saturn - Earth", "(C) Uranus - Mars", "(D) Neptune - Venus"],
-          "solution-hindi": "(B) शनि - पृथ्वी",
-          "solution-english": "(B) Saturn - Earth",
-          "explanation-hindi": "घनत्व के अनुसार शनि का घनत्व सबसे कम और पृथ्वी का सबसे अधिक है।",
-          "explanation-english": "According to density, Saturn has the lowest density and Earth has the highest."
+          "answer-hindi": "(B) शनि - पृथ्वी",
+          "answer-english": "(B) Saturn - Earth",
+          "solution-hindi": "घनत्व के अनुसार शनि का घनत्व सबसे कम और पृथ्वी का सबसे अधिक है।",
+          "solution-english": "According to density, Saturn has the lowest density and Earth has the highest."
         },
         {
           "question-hindi": "क्रस्ट और मेंटल की संयुक्त परत को क्या कहा जाता है?",
           "question-english": "What is the combined layer of the Crust and the Mantle called?",
           "options-hindi": ["(A) सियाल", "(B) निफे", "(C) स्थलमंडल", "(D) कोर"],
           "options-english": ["(A) Sial", "(B) Nife", "(C) Lithosphere", "(D) Core"],
-          "solution-hindi": "(C) स्थलमंडल",
-          "solution-english": "(C) Lithosphere",
-          "explanation-hindi": "क्रस्ट और मेंटल की संयुक्त परत को स्थलमंडल कहते हैं।",
-          "explanation-english": "The combined layer of the crust and mantle is called the lithosphere."
+          "answer-hindi": "(C) स्थलमंडल",
+          "answer-english": "(C) Lithosphere",
+          "solution-hindi": "क्रस्ट और मेंटल की संयुक्त परत को स्थलमंडल कहते हैं।",
+          "solution-english": "The combined layer of the crust and mantle is called the lithosphere."
         },
         {
           "question-hindi": "विंसन मैसिफ किस महाद्वीप की सबसे ऊंची चोटी है?",
           "question-english": "The Vinson Massif is the highest peak of which continent?",
           "options-hindi": ["(A) यूरोप", "(B) ऑस्ट्रेलिया", "(C) अंटार्कटिका", "(D) उत्तरी अमेरिका"],
           "options-english": ["(A) Europe", "(B) Australia", "(C) Antarctica", "(D) North America"],
-          "solution-hindi": "(C) अंटार्कटिका",
-          "solution-english": "(C) Antarctica",
-          "explanation-hindi": "विंसन मैसिफ अंटार्कटिका का सबसे ऊंचा पर्वत है।",
-          "explanation-english": "The Vinson Massif is the highest peak in Antarctica."
+          "answer-hindi": "(C) अंटार्कटिका",
+          "answer-english": "(C) Antarctica",
+          "solution-hindi": "विंसन मैसिफ अंटार्कटिका का सबसे ऊंचा पर्वत है।",
+          "solution-english": "The Vinson Massif is the highest peak in Antarctica."
         },
         {
           "question-hindi": "भारत में कौन सा ज्वालामुखी सक्रिय है?",
           "question-english": "Which of the following is an active volcano in India?",
           "options-hindi": ["(A) नारकोंडम द्वीप", "(B) दक्कन ट्रैप", "(C) बैरेन द्वीप", "(D) धिनोधर पहाड़ियाँ"],
           "options-english": ["(A) Narcondam Island", "(B) Deccan Traps", "(C) Barren Island", "(D) Dhinodhar Hills"],
-          "solution-hindi": "(C) बैरेन द्वीप",
-          "solution-english": "(C) Barren Island",
-          "explanation-hindi": "अंडमान द्वीप समूह में बैरेन द्वीप भारत का सक्रिय ज्वालामुखी है।",
-          "explanation-english": "Barren Island in the Andaman Islands is India’s active volcano."
+          "answer-hindi": "(C) बैरेन द्वीप",
+          "answer-english": "(C) Barren Island",
+          "solution-hindi": "अंडमान द्वीप समूह में बैरेन द्वीप भारत का सक्रिय ज्वालामुखी है।",
+          "solution-english": "Barren Island in the Andaman Islands is India’s active volcano."
         },
         {
           "question-hindi": "जिब्राल्टर जलडमरूमध्य किन दो जल निकायों को जोड़ता है?",
           "question-english": "The Strait of Gibraltar connects which two bodies of water?",
           "options-hindi": ["(A) फारस की खाड़ी और ओमान की खाड़ी", "(B) भूमध्य सागर और अटलांटिक महासागर", "(C) लाल सागर और भूमध्य सागर", "(D) जावा सागर और हिंद महासागर"],
           "options-english": ["(A) The Persian Gulf and the Gulf of Oman", "(B) The Mediterranean Sea and the Atlantic Ocean", "(C) The Red Sea and the Mediterranean Sea", "(D) The Java Sea and the Indian Ocean"],
-          "solution-hindi": "(B) भूमध्य सागर और अटलांटिक महासागर",
-          "solution-english": "(B) The Mediterranean Sea and the Atlantic Ocean",
-          "explanation-hindi": "जिब्राल्टर जलडमरूमध्य भूमध्य सागर और अटलांटिक महासागर को जोड़ता है।",
-          "explanation-english": "The Strait of Gibraltar connects the Mediterranean Sea and the Atlantic Ocean."
+          "answer-hindi": "(B) भूमध्य सागर और अटलांटिक महासागर",
+          "answer-english": "(B) The Mediterranean Sea and the Atlantic Ocean",
+          "solution-hindi": "जिब्राल्टर जलडमरूमध्य भूमध्य सागर और अटलांटिक महासागर को जोड़ता है।",
+          "solution-english": "The Strait of Gibraltar connects the Mediterranean Sea and the Atlantic Ocean."
         },{
           "question-hindi": "उपग्रह में अंतरिक्ष यात्री भारहीन क्यों महसूस करता है?",
           "question-english": "Why does an astronaut inside an orbiting satellite feel weightless?",
           "options-hindi": ["(A) गुरुत्वाकर्षण बल शून्य है", "(B) अंतरिक्ष यात्री का द्रव्यमान शून्य हो जाता है", "(C) इंजन का बल गुरुत्व को रद्द कर देता है", "(D) उपग्रह और अंतरिक्ष यात्री समान मुक्त पतन की स्थिति में हैं"],
           "options-english": ["(A) Force of gravity becomes zero", "(B) Astronaut’s mass becomes zero", "(C) Upward thrust cancels gravity", "(D) Both the astronaut and the satellite are in free fall towards Earth"],
-          "solution-hindi": "(D) उपग्रह और अंतरिक्ष यात्री समान मुक्त पतन की स्थिति में हैं",
-          "solution-english": "(D) Both the astronaut and the satellite are in a constant state of free fall towards the Earth with the same acceleration",
-          "explanation-hindi": "कक्षा में भारहीनता इसलिए होती है क्योंकि उपग्रह और अंतरिक्ष यात्री दोनों एक साथ पृथ्वी की ओर गिर रहे होते हैं।",
-          "explanation-english": "Weightlessness occurs because both the astronaut and the satellite are continuously falling toward the Earth at the same rate."
+          "answer-hindi": "(D) उपग्रह और अंतरिक्ष यात्री समान मुक्त पतन की स्थिति में हैं",
+          "answer-english": "(D) Both the astronaut and the satellite are in a constant state of free fall towards the Earth with the same acceleration",
+          "solution-hindi": "कक्षा में भारहीनता इसलिए होती है क्योंकि उपग्रह और अंतरिक्ष यात्री दोनों एक साथ पृथ्वी की ओर गिर रहे होते हैं।",
+          "solution-english": "Weightlessness occurs because both the astronaut and the satellite are continuously falling toward the Earth at the same rate."
         },
         {
           "question-hindi": "100°C पर भाप से जलना उबलते पानी की तुलना में अधिक गंभीर क्यों होता है?",
           "question-english": "Why are burns caused by steam at 100°C more severe than those caused by boiling water at the same temperature?",
           "options-hindi": ["(A) भाप की विशिष्ट ऊष्मा अधिक होती है", "(B) भाप संघनित होकर गुप्त ऊष्मा छोड़ती है", "(C) पानी ऊष्मा कुशलता से स्थानांतरित नहीं कर सकता", "(D) भाप का तापमान अधिक होता है"],
           "options-english": ["(A) Steam has higher specific heat", "(B) Steam releases latent heat upon condensing", "(C) Water cannot transfer heat efficiently", "(D) Steam is hotter than boiling water"],
-          "solution-hindi": "(B) भाप संघनित होकर गुप्त ऊष्मा छोड़ती है",
-          "solution-english": "(B) Steam releases a large amount of additional energy called the latent heat of vaporisation upon condensing",
-          "explanation-hindi": "भाप संघनन के दौरान गुप्त ऊष्मा छोड़ती है, जिससे जलन अधिक गंभीर होती है।",
-          "explanation-english": "Steam releases latent heat when it condenses, transferring more energy and causing more severe burns."
+          "answer-hindi": "(B) भाप संघनित होकर गुप्त ऊष्मा छोड़ती है",
+          "answer-english": "(B) Steam releases a large amount of additional energy called the latent heat of vaporisation upon condensing",
+          "solution-hindi": "भाप संघनन के दौरान गुप्त ऊष्मा छोड़ती है, जिससे जलन अधिक गंभीर होती है।",
+          "solution-english": "Steam releases latent heat when it condenses, transferring more energy and causing more severe burns."
         },{
     "question-hindi": "एक छात्र को लोहे की छीलन, रेत और अमोनियम क्लोराइड वाले मिश्रण को उसके अलग-अलग घटकों में अलग करने का काम सौंपा गया है। दस्तावेज़ में वर्णित पृथक्करण तकनीकों के अनुसार, निम्नलिखित में से कौन सा क्रम सबसे प्रभावी है?",
     "question-english": "A student is tasked with separating a mixture containing iron filings, sand, and ammonium chloride into its individual components. According to the separation techniques described in the document, which of the following sequences is the most effective?",
@@ -587,8 +587,8 @@
     "question-english": "Arrange the given words in the sequence in which they occur in the dictionary.\nJesting\nJockey\nJocular\nJogging\nJesting",
     "options-hindi": ["15234","15324","51234","51324"],
     "options-english": ["15234","15324","51234","51324"],
-    "answer-hindi": "(a) 15234",
-    "answer-english": "(a) 15234",
+    "answer-hindi": "15234",
+    "answer-english": "15234",
     "solution-hindi": "शब्दों को वर्णानुक्रम में व्यवस्थित किया गया है। \"Jesting\" दो बार आता है। \"Jockey\" \"Jesting\" के बाद आता है, उसके बाद \"Jocular\" और फिर \"Jogging\"।",
     "solution-english": "The words are arranged alphabetically. \"Jesting\" appears twice. \"Jockey\" comes after \"Jesting\", followed by \"Jocular\", and \"Jogging\"."
   },
@@ -597,8 +597,8 @@
     "question-english": "A man is facing West. He turns 45° in the clockwise direction and then another 180° in the same direction and then 270° in the anti-clockwise direction. Which direction is he facing now?",
     "options-hindi": ["दक्षिण-पश्चिम","उत्तर-पश्चिम","दक्षिण","पश्चिम"],
     "options-english": ["South-West","North-West","South","West"],
-    "answer-hindi": "(a) दक्षिण-पश्चिम",
-    "answer-english": "(a) South-West",
+    "answer-hindi": "दक्षिण-पश्चिम",
+    "answer-english": "South-West",
     "solution-hindi": "शुरुआत पश्चिम। 45° दक्षिणावर्त → उत्तर-पश्चिम। फिर 180° दक्षिणावर्त → दक्षिण-पूर्व। फिर 270° वामावर्त → दक्षिण-पश्चिम।",
     "solution-english": "Start West. 45° clockwise → North-West. 180° clockwise → South-East. 270° anti-clockwise → South-West."
   },
@@ -617,8 +617,8 @@
     "question-english": "Directions - In these questions, select the related letters / word / number / figure from the given alternatives.\nEncouragement : Victory :: Frustration : ?",
     "options-hindi": ["गतिरोध","क्रोध","असफलता","चिंता"],
     "options-english": ["Stalemate","Anger","Failure","Anxiety"],
-    "answer-hindi": "(c) असफलता",
-    "answer-english": "(c) Failure",
+    "answer-hindi": "असफलता",
+    "answer-english": "Failure",
     "solution-hindi": "प्रोत्साहन विजय की ओर ले जाता है, उसी प्रकार, निराशा असफलता का परिणाम है।",
     "solution-english": "Encouragement leads to Victory, similarly, Frustration is a result of Failure."
   },
@@ -627,8 +627,8 @@
     "question-english": "Three statements:\nAll Pens are Pencils.\nNo Pencil is a Marker.\nSome Markers are Erasers.\nConclusions: I. Some Erasers are Pens. II. No Marker is a Pen. III. No Pen is a Marker. Which conclusions follow?",
     "options-hindi": ["I और II","केवल III","II और III","I और III"],
     "options-english": ["Both conclusions I and II follow","Only conclusion III follows","Only conclusion II and III follow","Both conclusions I and III follow"],
-    "answer-hindi": "(c) केवल निष्कर्ष II और III अनुसरण करते हैं।",
-    "answer-english": "(c) Only conclusion II and III follow.",
+    "answer-hindi": "II और III",
+    "answer-english": "Only conclusion II and III follow.",
     "solution-hindi": "All Pens are Pencils और No Pencil is a Marker से No Pen is a Marker निकलता है (III), और No Marker is a Pen (II) भी। इरेज़र और पेन का संबंध नहीं है अतः I नहीं।",
     "solution-english": "From All Pens are Pencils and No Pencil is a Marker we get No Pen is a Marker (III) and No Marker is a Pen (II). No relation between Erasers and Pens, so I does not follow."
   },
@@ -637,8 +637,8 @@
     "question-english": "There are six friends, A, B, C, D, E and F, each having a different weight. A is not the heaviest. Only three friends are heavier than D and only three friends are lighter than E. B is heavier than C but lighter than D. How many friends are lighter than A?",
     "options-hindi": ["3","1","4","2"],
     "options-english": ["3","1","4","2"],
-    "answer-hindi": "(c) 4",
-    "answer-english": "(c) 4",
+    "answer-hindi": "4",
+    "answer-english": "4",
     "solution-hindi": "वजन क्रम: F > E > A > D > B > C → A से चार लोग हल्के हैं।",
     "solution-english": "Order: F > E > A > D > B > C. Therefore 4 friends are lighter than A."
   },
@@ -657,8 +657,8 @@
     "question-english": "Select the set in which the numbers are related in the same way as the following sets: (25,5,125) (36,6,216)",
     "options-hindi": ["(49,7,343)","(64,8,512)","(81,9,729)","उपर्युक्त सभी"],
     "options-english": ["(49,7,343)","(64,8,512)","(81,9,729)","All of the above"],
-    "answer-hindi": "(d) उपर्युक्त सभी",
-    "answer-english": "(d) All of the above",
+    "answer-hindi": "उपर्युक्त सभी",
+    "answer-english": "All of the above",
     "solution-hindi": "दूसरी संख्या पहले का वर्गमूल और तीसरी संख्या दूसरी का घन है। यह सभी पर लागू होता है।",
     "solution-english": "Second number is square root of first; third number is cube of second. True for all options."
   },
@@ -667,8 +667,8 @@
     "question-english": "49 : 13 :: 64 : ?",
     "options-hindi": ["10","12","14","16"],
     "options-english": ["10","12","14","16"],
-    "answer-hindi": "(a) 10",
-    "answer-english": "(a) 10",
+    "answer-hindi": "10",
+    "answer-english": "10",
     "solution-hindi": "पहली संख्या के अंकों का योग दूसरी संख्या है: 4+9=13; 6+4=10।",
     "solution-english": "Sum of the digits of first number gives second: 4+9=13, 6+4=10."
   },
@@ -677,8 +677,8 @@
     "question-english": "Six friends A, B, C, D, E, F have different ages. A older than C but younger than D. B older than E but younger than F. F younger than C. Who is oldest?",
     "options-hindi": ["A","B","C","D"],
     "options-english": ["A","B","C","D"],
-    "answer-hindi": "(d) D",
-    "answer-english": "(d) D",
+    "answer-hindi": "D",
+    "answer-english": "D",
     "solution-hindi": "आयु क्रम: D > A > C > F > B > E → D सबसे बड़ा।",
     "solution-english": "Order: D > A > C > F > B > E. So D is oldest."
   },
@@ -687,8 +687,8 @@
     "question-english": "Complete the series: ACE, GIK, MOQ, ?",
     "options-hindi": ["SUW","STU","RTV","QSU"],
     "options-english": ["SUW","STU","RTV","QSU"],
-    "answer-hindi": "(a) SUW",
-    "answer-english": "(a) SUW",
+    "answer-hindi": "SUW",
+    "answer-english": "SUW",
     "solution-hindi": "प्रत्येक पद के अक्षर एक-अक्षर गैप से; अगले पद का पहला अक्षर पिछले पद के अंतिम अक्षर से दो अक्षर बाद आता है।",
     "solution-english": "Letters in each term separated by one letter. First letter of next term is two letters after last letter of previous term."
   },
@@ -697,8 +697,8 @@
     "question-english": "EARTH : HTRAE :: VENUS : SUNEW :: MARS : ?",
     "options-hindi": ["SRAM","SRMA","SMRA","SMAR"],
     "options-english": ["SRAM","SRMA","SMRA","SMAR"],
-    "answer-hindi": "(b) SRMA",
-    "answer-english": "(b) SRMA",
+    "answer-hindi": "SRMA",
+    "answer-english": "SRMA",
     "solution-hindi": "यहाँ अक्षर उल्टे किए गये हैं (और स्रोत में SRMA दिया गया है)।",
     "solution-english": "Letters are reversed; source gives SRMA as the answer."
   },
@@ -707,8 +707,8 @@
     "question-english": "Which letter cluster replaces ?: BC, EF, IJ, NO, ?",
     "options-hindi": ["TU","UV","VW","WX"],
     "options-english": ["TU","UV","VW","WX"],
-    "answer-hindi": "(a) TU",
-    "answer-english": "(a) TU",
+    "answer-hindi": "TU",
+    "answer-english": "TU",
     "solution-hindi": "गैप हर बार एक अक्षर बढ़ता है; तर्क के अनुसार TU सही है।",
     "solution-english": "Gap increases by one letter each time; TU fits the described pattern."
   },
@@ -717,8 +717,8 @@
     "question-english": "Code language: 'PEN'→'QFO', 'BOOK'→'CPPL'. How is 'PENCIL' written?",
     "options-hindi": ["QFODJM","QFODJN","QFOJDM","QFODJM"],
     "options-english": ["QFODJM","QFODJN","QFOJDM","QFODJM"],
-    "answer-hindi": "(a) QFODJM",
-    "answer-english": "(a) QFODJM",
+    "answer-hindi": "QFODJM",
+    "answer-english": "QFODJM",
     "solution-hindi": "प्रत्येक अक्षर को एक कदम आगे बढ़ाया जाता है: P→Q, E→F, N→O, C→D, I→J, L→M।",
     "solution-english": "Each letter shifted one forward: P→Q, E→F, N→O, C→D, I→J, L→M → QFODJM."
   },
@@ -727,8 +727,8 @@
     "question-english": "Pointing to a photograph, a man said, \"I have no brother or sister but that man's father is my father's son.\" Whose photograph was it?",
     "options-hindi": ["अपनी","अपने बेटे की","अपने पिता की","अपने भतीजे की"],
     "options-english": ["His own","His son's","His father's","His nephew's"],
-    "answer-hindi": "(b) उसके बेटे की",
-    "answer-english": "(b) His son's",
+    "answer-hindi": "उसके बेटे की",
+    "answer-english": "His son's",
     "solution-hindi": "\"मेरे पिता का बेटा\" स्वयं वह आदमी है → उस चित्र का व्यक्ति उसका पुत्र है।",
     "solution-english": "\"My father's son\" is the speaker himself, so the picture is of his son."
   },
@@ -748,8 +748,8 @@
     "question-english": "Series: 3, 7, 16, 35, 74, ?",
     "options-hindi": ["153","155","157","159"],
     "options-english": ["153","155","157","159"],
-    "answer-hindi": "(a) 153",
-    "answer-english": "(a) 153",
+    "answer-hindi": "153",
+    "answer-english": "153",
     "solution-hindi": "पैटर्न: ×2+1, ×2+2, ×2+3, ×2+4, अगला = 74×2+5 = 153।",
     "solution-english": "Pattern: *2+1, *2+2, *2+3, *2+4. Next = 74*2+5 = 153."
   },
@@ -758,8 +758,8 @@
     "question-english": "In a row of 40 students, A is 15th from the left. What is his rank from the right?",
     "options-hindi": ["25वाँ","26वाँ","27वाँ","28वाँ"],
     "options-english": ["25th","26th","27th","28th"],
-    "answer-hindi": "(b) 26वाँ",
-    "answer-english": "(b) 26th",
+    "answer-hindi": "26वाँ",
+    "answer-english": "26th",
     "solution-hindi": "दाएँ से रैंक = (कुल - बाएँ से रैंक) + 1 = (40 - 15) + 1 = 26।",
     "solution-english": "Rank from right = (Total - Rank from left) + 1 = (40 - 15) + 1 = 26."
   },
@@ -779,8 +779,8 @@
     "question-english": "The sum of ages of a father and son is 60. Six years ago father was 5 times son. What will be son's age after 6 years?",
     "options-hindi": ["20 वर्ष","22 वर्ष","24 वर्ष","26 वर्ष"],
     "options-english": ["20 years","22 years","24 years","26 years"],
-    "answer-hindi": "(a) 20 वर्ष",
-    "answer-english": "(a) 20 years",
+    "answer-hindi": "20 वर्ष",
+    "answer-english": "20 years",
     "solution-hindi": "F+S=60; F-6=5(S-6) → F=5S-24; 5S-24+S=60 → 6S=84 → S=14। 6 साल बाद = 20।",
     "solution-english": "F+S=60; F-6=5(S-6) ⇒ F=5S-24; substituting gives S=14. After 6 years = 20."
   },
@@ -789,8 +789,8 @@
     "question-english": "A is B's brother. C is A's mother. D is C's father. E is D's mother. How is A related to D?",
     "options-hindi": ["पोता/नाती","बेटा","दादा/नाना","पर-पोता/पर-नाती"],
     "options-english": ["Grandson","Son","Grandfather","Great Grandson"],
-    "answer-hindi": "(a) पोता/नाती",
-    "answer-english": "(a) Grandson",
+    "answer-hindi": "पोता/नाती",
+    "answer-english": "Grandson",
     "solution-hindi": "A, C का बेटा है; D, C का पिता है → A, D का पोता/नाती है।",
     "solution-english": "A is child of C; D is father of C → A is grandson of D."
   },
@@ -799,8 +799,8 @@
     "question-english": "If 'DELHI' is coded as 'CDKGH', then what is code for 'MUMBAI'?",
     "options-hindi": ["LVLCBJ","NUNCBJ","LVLBCJ","NVLCBJ"],
     "options-english": ["LVLCBJ","NUNCBJ","LVLBCJ","NVLCBJ"],
-    "answer-hindi": "(c) LVLBCJ",
-    "answer-english": "(c) LVLBCJ",
+    "answer-hindi": "LVLBCJ",
+    "answer-english": "LVLBCJ",
     "solution-hindi": "स्रोत में यह प्रत्यय दिया गया है; नोट में त्रुटि का जिक्र है लेकिन उत्तर LVLBCJ बताया गया है।",
     "solution-english": "Source gives LVLBCJ (note: the original material includes a discrepancy in explanation, but LVLBCJ is listed as answer)."
   },
@@ -830,8 +830,8 @@
     "question-english": "If '+' means '×', '-' means '+', '×' means '÷' and '÷' means '-', then 9 + 3 × 3 - 9 ÷ 9 = ?",
     "options-hindi": ["9","1","0","18"],
     "options-english": ["9","1","0","18"],
-    "answer-hindi": "(a) 9",
-    "answer-english": "(a) 9",
+    "answer-hindi": "9",
+    "answer-english": "9",
     "solution-hindi": "प्रकाशित रूप: 9 × 3 ÷ 3 + 9 - 9 → 27 ÷ 3 + 0 = 9।",
     "solution-english": "Transforms to 9 × 3 ÷ 3 + 9 - 9 ⇒ 27 ÷ 3 + 0 = 9."
   }

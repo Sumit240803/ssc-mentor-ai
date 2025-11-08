@@ -511,8 +511,8 @@
     "question-hindi": "उस विकल्प का चयन करें जो दिए गए शब्दों के सही क्रम का प्रतिनिधित्व करता है जैसा कि वे एक अंग्रेजी शब्दकोश में दिखाई देंगे। 1. Monarchy (राजशाही) 2. Monal (मोनाल) 3. Monastic (मठवासी) 4. Monetize (मुद्रीकरण) 5. Moneyed (धनी) 6. Moniker (उपनाम)",
     "options-english": ["2, 1, 3, 4, 5, 6", "2, 3, 1, 4, 5, 6", "2, 1, 3, 5, 4, 6", "2, 1, 4, 3, 5, 6"],
     "options-hindi": ["2, 1, 3, 4, 5, 6", "2, 3, 1, 4, 5, 6", "2, 1, 3, 5, 4, 6", "2, 1, 4, 3, 5, 6"],
-    "answer-english": "(a) 2, 1, 3, 4, 5, 6",
-    "answer-hindi": "(a) 2, 1, 3, 4, 5, 6",
+    "answer-english": "2, 1, 3, 4, 5, 6",
+    "answer-hindi": "2, 1, 3, 4, 5, 6",
     "solution-english": "All words start with 'Mon', so we look at the next letters. 'Monal' comes first, followed by 'Monarchy', 'Monastic', 'Monetize', 'Moneyed', and 'Moniker'.",
     "solution-hindi": "सभी शब्द 'Mon' से शुरू होते हैं, इसलिए हम बाद के अक्षरों को देखते हैं। 'Monal' पहले आता है, उसके बाद 'Monarchy', 'Monastic', 'Monetize', 'Moneyed' और 'Moniker'।"
   },
@@ -521,8 +521,8 @@
     "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं: (24, 8, 48), (36, 12, 72)।",
     "options-english": ["(45, 15, 90)", "(42, 14, 88)", "(39, 13, 75)", "(51, 17, 98)"],
     "options-hindi": ["(45, 15, 90)", "(42, 14, 88)", "(39, 13, 75)", "(51, 17, 98)"],
-    "answer-english": "(a) (45, 15, 90)",
-    "answer-hindi": "(a) (45, 15, 90)",
+    "answer-english": "(45, 15, 90)",
+    "answer-hindi": "(45, 15, 90)",
     "solution-english": "The first number is divided by 3 to get the second, and the second is multiplied by 6 to get the third. (24 ÷ 3 = 8; 8 × 6 = 48). Similarly, (45 ÷ 3 = 15; 15 × 6 = 90).",
     "solution-hindi": "पहली संख्या को 3 से विभाजित करके दूसरी संख्या प्राप्त की जाती है और दूसरी संख्या को 6 से गुणा करके तीसरी संख्या प्राप्त की जाती है। (24 ÷ 3 = 8; 8 × 6 = 48)। इसी तरह, (45 ÷ 3 = 15; 15 × 6 = 90)।"
   },
@@ -531,8 +531,8 @@
     "question-hindi": "उस विकल्प का चयन करें जिसमें शब्द दिए गए शब्दों के सेट द्वारा साझा किए गए समान संबंध को साझा करते हैं: कार : सड़क : परिवहन।",
     "options-english": ["Ship : Sea : Cargo", "Aeroplane : Sky : Pilot", "Train : Track : Transportation", "Book : Shelf : Knowledge"],
     "options-hindi": ["जहाज : समुद्र : माल", "हवाई जहाज : आकाश : पायलट", "ट्रेन : पटरी : परिवहन", "किताब : शेल्फ : ज्ञान"],
-    "answer-english": "(c) Train : Track : Transportation",
-    "answer-hindi": "(c) ट्रेन : पटरी : परिवहन",
+    "answer-english": "Train : Track : Transportation",
+    "answer-hindi": "ट्रेन : पटरी : परिवहन",
     "solution-english": "A car moves on a road and is a means of transport. Similarly, a train moves on a track and is a means of transportation.",
     "solution-hindi": "एक कार सड़क पर चलती है और परिवहन का एक साधन है। इसी तरह, एक ट्रेन पटरी पर चलती है और परिवहन का एक साधन है।"
   },
@@ -541,8 +541,8 @@
     "question-hindi": "एक तस्वीर की ओर इशारा करते हुए, एक महिला कहती है, 'वह मेरे नाना के इकलौते बेटे का बेटा है।' तस्वीर में दिख रहा आदमी महिला से कैसे संबंधित है?",
     "options-english": ["Father", "Uncle", "Brother", "Cousin"],
     "options-hindi": ["पिता", "चाचा", "भाई", "चचेरा भाई"],
-    "answer-english": "(d) Cousin",
-    "answer-hindi": "(d) चचेरा भाई",
+    "answer-english": "Cousin",
+    "answer-hindi": "चचेरा भाई",
     "solution-english": "Her maternal grandfather’s only son is her maternal uncle. His son is her cousin.",
     "solution-hindi": "महिला के नाना का इकलौता बेटा उसका मामा है। उसके मामा का बेटा उसका चचेरा भाई है।"
   },
@@ -551,8 +551,8 @@
     "question-hindi": "निम्नलिखित में से कौन सा अक्षर-समूह # और % को प्रतिस्थापित करना चाहिए ताकि :: के बाईं ओर अक्षर-समूह जोड़ी के बीच पालन किए गए पैटर्न और संबंध :: के दाईं ओर के समान हों? FROZEN : GSPAFO :: MOLTEN : %",
     "options-english": ["NPMUFO", "NPMVFO", "NPMWFO", "NPMXFO"],
     "options-hindi": ["NPMUFO", "NPMVFO", "NPMWFO", "NPMXFO"],
-    "answer-english": "(a) NPMUFO",
-    "answer-hindi": "(a) NPMUFO",
+    "answer-english": "NPMUFO",
+    "answer-hindi": "NPMUFO",
     "solution-english": "Each letter is coded as +1. F+1=G, R+1=S, O+1=P, Z+1=A, E+1=F, N+1=O. Similarly, M+1=N, O+1=P, L+1=M, T+1=U, E+1=F, N+1=O.",
     "solution-hindi": "प्रत्येक अक्षर को +1 के रूप में कोडित किया गया है। F+1=G, R+1=S, O+1=P, Z+1=A, E+1=F, N+1=O। इसी तरह, M+1=N, O+1=P, L+1=M, T+1=U, E+1=F, N+1=O।"
   },
@@ -561,8 +561,8 @@
     "question-hindi": "दिए गए विकल्पों में से तीन एक निश्चित तरीके से समान हैं। हालाँकि, एक विकल्प अन्य तीन की तरह नहीं है। उस विकल्प का चयन करें जो बाकी से अलग है।",
     "options-english": ["Director", "Producer", "Actor", "Screenwriter"],
     "options-hindi": ["निर्देशक", "निर्माता", "अभिनेता", "पटकथा लेखक"],
-    "answer-english": "(c) Actor",
-    "answer-hindi": "(c) अभिनेता",
+    "answer-english": "Actor",
+    "answer-hindi": "अभिनेता",
     "solution-english": "Director, Producer, and Screenwriter work behind the scenes. Actor performs on screen.",
     "solution-hindi": "निर्देशक, निर्माता और पटकथा लेखक पर्दे के पीछे काम करते हैं। अभिनेता पर्दे पर प्रदर्शन करता है।"
   },
@@ -571,8 +571,8 @@
     "question-hindi": "दिए गए विकल्पों में से तीन एक निश्चित तरीके से समान हैं। हालाँकि, एक विकल्प अन्य तीन की तरह नहीं है। उस विकल्प का चयन करें जो बाकी से अलग है।",
     "options-english": ["CDE", "PQR", "WXY", "LMO"],
     "options-hindi": ["CDE", "PQR", "WXY", "LMO"],
-    "answer-english": "(d) LMO",
-    "answer-hindi": "(d) LMO",
+    "answer-english": "LMO",
+    "answer-hindi": "LMO",
     "solution-english": "In options (a), (b), and (c), letters are consecutive. In (d), there is a gap between L and M.",
     "solution-hindi": "विकल्प (a), (b), और (c) में अक्षर लगातार हैं। विकल्प (d) में L और M के बीच अंतर है।"
   },
@@ -581,8 +581,8 @@
     "question-hindi": "नीचे दिए गए चार में से चार किसी तरह से समान हैं और इसलिए वे एक समूह बनाते हैं। इनमें से कौन इस समूह से संबंधित नहीं है? KLM, NOP, QRS, TUV, WXY",
     "options-english": ["NOP", "QRS", "TUV", "WXY"],
     "options-hindi": ["NOP", "QRS", "TUV", "WXY"],
-    "answer-english": "(a) NOP",
-    "answer-hindi": "(a) NOP",
+    "answer-english": "NOP",
+    "answer-hindi": "NOP",
     "solution-english": "All groups have three consecutive letters. NOP is the only one with a vowel.",
     "solution-hindi": "सभी समूहों में तीन लगातार अक्षर हैं। NOP एकमात्र ऐसा समूह है जिसमें एक स्वर है।"
   },
@@ -591,8 +591,8 @@
     "question-hindi": "निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और एक अलग है। विषम को चुनें।",
     "options-english": ["GHI", "JKL", "MNO", "PQS"],
     "options-hindi": ["GHI", "JKL", "MNO", "PQS"],
-    "answer-english": "(d) PQS",
-    "answer-hindi": "(d) PQS",
+    "answer-english": "PQS",
+    "answer-hindi": "PQS",
     "solution-english": "In (a), (b), and (c), all letters are consecutive. In (d), Q and S have one letter gap.",
     "solution-hindi": "विकल्प (a), (b), और (c) में सभी अक्षर लगातार हैं। विकल्प (d) में Q और S के बीच एक अक्षर का अंतर है।"
   },
@@ -601,8 +601,8 @@
     "question-hindi": "उस विकल्प का चयन करें जिसमें दो शब्द बाकी विकल्पों में दो शब्दों द्वारा साझा किए गए संबंध से एक अलग संबंध साझा करते हैं।",
     "options-english": ["Doctor - Hospital", "Teacher - School", "Engineer - Site", "Farmer - Village"],
     "options-hindi": ["डॉक्टर - अस्पताल", "शिक्षक - स्कूल", "इंजीनियर - साइट", "किसान - गाँव"],
-    "answer-english": "(d) Farmer - Village",
-    "answer-hindi": "(d) किसान - गाँव",
+    "answer-english": "Farmer - Village",
+    "answer-hindi": "किसान - गाँव",
     "solution-english": "In the first three, the second word is the workplace. Farmer works in a field, not the whole village.",
     "solution-hindi": "पहले तीनों में दूसरा शब्द कार्यस्थल को दर्शाता है। किसान खेत में काम करता है, पूरे गाँव में नहीं।"
   },{
@@ -620,8 +620,8 @@
   "question-hindi": "उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं। (नोट: संचालन पूरी संख्याओं पर किया जाना चाहिए, संख्याओं को उसके घटक अंकों में तोड़े बिना।) (64, 8, 4) (144, 12, 6)",
   "options-english": ["(100, 10, 5)", "(81, 9, 3)", "(121, 11, 7)", "(169, 13, 8)"],
   "options-hindi": ["(100, 10, 5)", "(81, 9, 3)", "(121, 11, 7)", "(169, 13, 8)"],
-  "answer-english": "(a) (100, 10, 5)",
-  "answer-hindi": "(a) (100, 10, 5)",
+  "answer-english": "(100, 10, 5)",
+  "answer-hindi": "(100, 10, 5)",
   "solution-english": "The first number is the square of the second number, and the third number is half of the second number. (8×8 = 64; 8/2 = 4) (12×12 = 144; 12/2 = 6) Similarly, in option (a), (10×10 = 100; 10/2 = 5).",
   "solution-hindi": "पहली संख्या दूसरी संख्या का वर्ग है, और तीसरी संख्या दूसरी संख्या की आधी है। (8×8 = 64; 8/2 = 4) (12×12 = 144; 12/2 = 6) इसी तरह, विकल्प (a) में, (10×10 = 100; 10/2 = 5)।"
 },{
@@ -639,8 +639,8 @@
   "question-hindi": "एक घन को उसके सभी फलकों पर लाल रंग से रंगा गया है। फिर इसे समान आकार के 125 छोटे घनों में काटा जाता है। कितने छोटे घनों में केवल एक फलक रंगा हुआ है?",
   "options-english": ["36", "48", "54", "60"],
   "options-hindi": ["36", "48", "54", "60"],
-  "answer-english": "(c) 54",
-  "answer-hindi": "(c) 54",
+  "answer-english": "54",
+  "answer-hindi": "54",
   "solution-english": "The number of smaller cubes is 125, so n = ∛125 = 5. The number of cubes with one face painted is given by the formula 6(n-2)², where n is the number of smaller cubes along one edge. 6(5-2)² = 6 × 3² = 6 × 9 = 54.",
   "solution-hindi": "छोटे घनों की संख्या 125 है, इसलिए n = ∛125 = 5। एक फलक रंगे हुए घनों की संख्या सूत्र 6(n-2)² द्वारा दी गई है, जहाँ n एक किनारे पर छोटे घनों की संख्या है। 6(5-2)² = 6 × 3² = 6 × 9 = 54।"
 },{
@@ -658,8 +658,8 @@
   "question-hindi": "एक निश्चित कूट भाषा में, 'PLANT' को 161211420 और 'FLOWER' को 6121523518 के रूप में कोडित किया गया है। उस भाषा में 'GARDEN' को कैसे कोडित किया जाएगा?",
   "options-english": ["71184514", "71184515", "71184516", "71184517"],
   "options-hindi": ["71184514", "71184515", "71184516", "71184517"],
-  "answer-english": "(a) 71184514",
-  "answer-hindi": "(a) 71184514",
+  "answer-english": "71184514",
+  "answer-hindi": "71184514",
   "solution-english": "The letters are coded with their corresponding position in the English alphabet. G is the 7th letter, A is the 1st, R is the 18th, D is the 4th, E is the 5th, and N is the 14th. So, GARDEN is coded as 71184514.",
   "solution-hindi": "अक्षरों को अंग्रेजी वर्णमाला में उनके संबंधित स्थान के साथ कोडित किया गया है। G 7वां अक्षर है, A 1ला है, R 18वां है, D 4था है, E 5वां है, और N 14वां है। तो, GARDEN को 71184514 के रूप में कोडित किया गया है।"
 },{
@@ -676,8 +676,8 @@
     "question-hindi": "एक निश्चित कूट भाषा में, 'HEART' को 'SVIZG' और 'MIND' को 'NRMW' लिखा जाता है। उस भाषा में 'BRAIN' को कैसे लिखा जाएगा?",
     "options-english": ["YIZRM", "YIZRN", "YIZRO", "YIZRP"],
     "options-hindi": ["YIZRM", "YIZRN", "YIZRO", "YIZRP"],
-    "answer-english": "(a) YIZRM",
-    "answer-hindi": "(a) YIZRM",
+    "answer-english": "YIZRM",
+    "answer-hindi": "YIZRM",
     "solution-english": "This is an example of a reverse letter code. Each letter is replaced by its corresponding letter from the end of the alphabet (A=Z, B=Y, C=X, etc.). H is the 8th letter from the beginning, S is the 8th from the end. E is the 5th from the beginning, V is the 5th from the end. A is the 1st from the beginning, Z is the 1st from the end. R is the 18th from the beginning, I is the 18th from the end. T is the 20th from the beginning, G is the 20th from the end. Similarly, for BRAIN: B -> Y, R -> I, A -> Z, I -> R, N -> M. So, YIZRM.",
     "solution-hindi": "यह एक विपरीत अक्षर कोड का एक उदाहरण है। प्रत्येक अक्षर को वर्णमाला के अंत से उसके संबंधित अक्षर से बदल दिया जाता है (A=Z, B=Y, C=X, आदि)। H शुरुआत से 8वां अक्षर है, S अंत से 8वां है। E शुरुआत से 5वां है, V अंत से 5वां है। A शुरुआत से 1ला है, Z अंत से 1ला है। R शुरुआत से 18वां है, I अंत से 18वां है। T शुरुआत से 20वां है, G अंत से 20वां है। इसी तरह, BRAIN के लिए: B -> Y, R -> I, A -> Z, I -> R, N -> M. तो, YIZRM।"
   },
@@ -686,8 +686,8 @@
     "question-hindi": "OLFE अंग्रेजी वर्णानुक्रम के आधार पर एक निश्चित तरीके से NKED से संबंधित है। उसी तरह, VHNS, UGMR से संबंधित है। निम्नलिखित में से किससे XBOP उसी तर्क का पालन करते हुए संबंधित है?",
     "options-english": ["WCNO", "WANO", "WBNP", "WBNQ"],
     "options-hindi": ["WCNO", "WANO", "WBNP", "WBNQ"],
-    "answer-english": "(b) WANO",
-    "answer-hindi": "(b) WANO",
+    "answer-english": "WANO",
+    "answer-hindi": "WANO",
     "solution-english": "Each letter in the first group is moved one step backward to get the corresponding letter in the second group. O-1=N, L-1=K, F-1=E, E-1=D. V-1=U, H-1=G, N-1=M, S-1=R. Similarly, X-1=W, B-1=A, O-1=N, P-1=O. So, WANO.",
     "solution-hindi": "पहले समूह में प्रत्येक अक्षर को दूसरे समूह में संबंधित अक्षर प्राप्त करने के लिए एक कदम पीछे ले जाया जाता है। O-1=N, L-1=K, F-1=E, E-1=D. V-1=U, H-1=G, N-1=M, S-1=R. इसी तरह, X-1=W, B-1=A, O-1=N, P-1=O. तो, WANO।"
   },
@@ -696,8 +696,8 @@
     "question-hindi": "यदि + का अर्थ ‘-’, ‘-’ का अर्थ x, x का अर्थ ÷, और ÷ का अर्थ + है, तो निम्नलिखित समीकरण में प्रश्न चिह्न (?) के स्थान पर क्या आएगा? 36 × 6 - 3 + 5 ÷ 2 = ?",
     "options-english": ["10", "12", "14", "16"],
     "options-hindi": ["10", "12", "14", "16"],
-    "answer-english": "(a) 10",
-    "answer-hindi": "(a) 10",
+    "answer-english": "10",
+    "answer-hindi": "10",
     "solution-english": "After changing the symbols: 36 ÷ 6 × 3 - 5 + 2. Using BODMAS, 6 × 3 - 5 + 2 = 18 - 5 + 2 = 15. Adjusting numbers to make the result 10: 36 × 12 - 4 + 5 ÷ 3 = ? → 36 ÷ 12 × 4 - 5 + 3 → 3 × 4 - 5 + 3 = 12 - 5 + 3 = 10. Thus, the answer is 10.",
     "solution-hindi": "प्रतीकों को बदलने के बाद: 36 ÷ 6 × 3 - 5 + 2। BODMAS का उपयोग करते हुए: 6 × 3 - 5 + 2 = 18 - 5 + 2 = 15। संख्याओं को समायोजित करने पर उत्तर 10 प्राप्त होता है: 36 × 12 - 4 + 5 ÷ 3 = ? → 36 ÷ 12 × 4 - 5 + 3 → 3 × 4 - 5 + 3 = 12 - 5 + 3 = 10। इसलिए उत्तर 10 है।"
   },
@@ -716,8 +716,8 @@
       "G, D के तत्काल दाएं है।",
       "D, G के तत्काल बाएं है।"
     ],
-    "answer-english": "(c) G is to the immediate right of D.",
-    "answer-hindi": "(c) G, D के तत्काल दाएं है।",
+    "answer-english": "G is to the immediate right of D.",
+    "answer-hindi": "G, D के तत्काल दाएं है।",
     "solution-english": "Based on the given information, the seating arrangement is: H, A, F, E, D, G, B, C in a clockwise direction. Thus, G is to the immediate right of D.",
     "solution-hindi": "दी गई जानकारी के आधार पर, बैठने की व्यवस्था इस प्रकार है: H, A, F, E, D, G, B, C दक्षिणावर्त दिशा में। इस प्रकार, G, D के तत्काल दाएं है।"
   },{
@@ -734,8 +734,8 @@
   "question-hindi": "एक निश्चित कूट भाषा में, 'SMART' को '12345' और 'TABLE' को '53678' के रूप में कोडित किया गया है। उस भाषा में 'LATE' के लिए कोड क्या है?",
   "options-english": ["7358", "7385", "7538", "7835"],
   "options-hindi": ["7358", "7385", "7538", "7835"],
-  "answer-english": "(a) 7358",
-  "answer-hindi": "(a) 7358",
+  "answer-english": "7358",
+  "answer-hindi": "7358",
   "solution-english": "By comparing the codes, we can find the code for each letter: S=1, M=2, A=3, R=4, T=5. T=5, A=3, B=6, L=7, E=8. So, L=7, A=3, T=5, E=8. The code for LATE is 7358.",
   "solution-hindi": "कोड की तुलना करके, हम प्रत्येक अक्षर के लिए कोड पा सकते हैं: S=1, M=2, A=3, R=4, T=5. T=5, A=3, B=6, L=7, E=8. तो, L=7, A=3, T=5, E=8. LATE के लिए कोड 7358 है।"
 },{
@@ -767,8 +767,8 @@
     "question-hindi": "P और Q का कुल वेतन ₹ 2,00,000 है। P अपने वेतन का 92% और Q अपने वेतन का 88% खर्च करता है। यदि उनकी बचत समान है, तो P का वेतन कितना है?",
     "options-english": ["(a) ₹80,000", "(b) ₹1,00,000", "(c) ₹1,20,000", "(d) ₹1,50,000"],
     "options-hindi": ["(a) ₹80,000", "(b) ₹1,00,000", "(c) ₹1,20,000", "(d) ₹1,50,000"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) ₹1,20,000",
+    "answer-hindi": "(c) ₹1,20,000",
     "solution-english": "P's savings = 8%, Q's savings = 12%. 0.08P = 0.12Q ⇒ 2P = 3Q. P = 1.5Q. Substituting P+Q=2,00,000 ⇒ 2.5Q=2,00,000 ⇒ Q=80,000 ⇒ P=1,20,000.",
     "solution-hindi": "P की बचत = 8%। Q की बचत = 12%। 0.08P = 0.12Q ⇒ 2P = 3Q। P = 1.5Q। P+Q=2,00,000 प्रतिस्थापित करें ⇒ 2.5Q=2,00,000 ⇒ Q=80,000 ⇒ P=1,20,000।"
   },
@@ -777,8 +777,8 @@
     "question-hindi": "लोकेश को ₹10,000 की मूल राशि पर साधारण ब्याज सहित 5 वर्षों में ₹15,000 की राशि प्राप्त हुई। यदि ब्याज दर में 2% की वृद्धि कर दी जाए तो उसे कुल कितनी राशि प्राप्त होगी?",
     "options-english": ["(a) ₹15,500", "(b) ₹16,000", "(c) ₹16,500", "(d) ₹17,000"],
     "options-hindi": ["(a) ₹15,500", "(b) ₹16,000", "(c) ₹16,500", "(d) ₹17,000"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) ₹16,000",
+    "answer-hindi": "(b) ₹16,000",
     "solution-english": "SI = 15,000 - 10,000 = 5,000. Rate = 10%. New rate = 12%. New SI = (10000×12×5)/100 = 6,000. New total = 10,000 + 6,000 = ₹16,000.",
     "solution-hindi": "साधारण ब्याज = 15,000 - 10,000 = 5,000। दर = 10%। नई दर = 12%। नया ब्याज = (10000×12×5)/100 = 6,000। नई कुल राशि = 10,000 + 6,000 = ₹16,000।"
   },
@@ -787,8 +787,8 @@
     "question-hindi": "दोनों सिरों पर खुली एक बेलनाकार ट्यूब 0.4 सेमी मोटी धातु की चादर से बनी है। इसकी बाहरी त्रिज्या 5 सेमी और लंबाई 1 मीटर है। ट्यूब बनाने में कितनी धातु (सेमी³ में) का उपयोग किया गया है?",
     "options-english": ["(a) 314π", "(b) 350π", "(c) 384π", "(d) 400π"],
     "options-hindi": ["(a) 314π", "(b) 350π", "(c) 384π", "(d) 400π"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) 384π",
+    "answer-hindi": "(c) 384π",
     "solution-english": "R=5, r=4.6, h=100. Volume=π(R²−r²)h=π(25−21.16)×100=384π cm³.",
     "solution-hindi": "R=5, r=4.6, h=100। आयतन=π(R²−r²)h=π(25−21.16)×100=384π सेमी³।"
   },
@@ -797,8 +797,8 @@
     "question-hindi": "एक वृत्त के एक त्रिज्यखंड का क्षेत्रफल 154 सेमी² है और त्रिज्यखंड का कोण 90° है। वृत्त की त्रिज्या ज्ञात कीजिए।",
     "options-english": ["(a) 7 cm", "(b) 14 cm", "(c) 21 cm", "(d) 28 cm"],
     "options-hindi": ["(a) 7 सेमी", "(b) 14 सेमी", "(c) 21 सेमी", "(d) 28 सेमी"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 14 cm",
+    "answer-hindi": "(b) 14 सेमी",
     "solution-english": "154 = (90/360)×(22/7)×r² ⇒ r²=196 ⇒ r=14 cm.",
     "solution-hindi": "154 = (90/360)×(22/7)×r² ⇒ r²=196 ⇒ r=14 सेमी।"
   },
@@ -807,8 +807,8 @@
     "question-hindi": "पुरुषों का एक समूह किसी काम को 20 दिनों में कर सकता है। लेकिन 5 पुरुष काम पर नहीं आए और शेष पुरुषों ने उस काम को 25 दिनों में पूरा किया। समूह में पुरुषों की मूल संख्या थी:",
     "options-english": ["(a) 20", "(b) 25", "(c) 30", "(d) 35"],
     "options-hindi": ["(a) 20", "(b) 25", "(c) 30", "(d) 35"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 25",
+    "answer-hindi": "(b) 25",
     "solution-english": "Let men=M. M×20=(M−5)×25 ⇒ M=25.",
     "solution-hindi": "मान लीजिए पुरुष=M। M×20=(M−5)×25 ⇒ M=25।"
   },
@@ -817,8 +817,8 @@
     "question-hindi": "पाइप A और B एक टंकी को क्रमशः 15 और 20 मिनट में भर सकते हैं। दोनों को एक साथ खोला गया। 6 मिनट के बाद एक रिसाव देखा गया जिसे तुरंत सील कर दिया गया। टंकी अगले 4 मिनट में भर गई। अकेला रिसाव टंकी को कितने समय में खाली कर सकता है?",
     "options-english": ["(a) 30 min", "(b) 36 min", "(c) 40 min", "(d) 42 min"],
     "options-hindi": ["(a) 30 मिनट", "(b) 36 मिनट", "(c) 40 मिनट", "(d) 42 मिनट"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 36 min",
+    "answer-hindi": "(b) 36 मिनट",
     "solution-english": "LCM=60, A=4, B=3, total=7. 6(7−L)+4(7)=60 ⇒ L=5/3 ⇒ empty in 36 min.",
     "solution-hindi": "LCM=60, A=4, B=3, कुल=7। 6(7−L)+4(7)=60 ⇒ L=5/3 ⇒ 36 मिनट में खाली करता है।"
   },
@@ -827,8 +827,8 @@
     "question-hindi": "राम ने एक वस्तु ₹4,500 में खरीदी और ₹500 मरम्मत पर खर्च किए। उसने लागत मूल्य से 20% अधिक अंकित किया। 15% और x% की दो छूटों के बाद ₹4,590 में बेचा। x ज्ञात कीजिए।",
     "options-english": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
     "options-hindi": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 10",
+    "answer-hindi": "(b) 10",
     "solution-english": "CP=5000, MP=6000. After 15% disc=5100. Final=4590 ⇒ disc=510 ⇒ x=(510/5100)×100=10%.",
     "solution-hindi": "लागत मूल्य=5000, अंकित मूल्य=6000। 15% छूट के बाद=5100। अंतिम मूल्य=4590 ⇒ छूट=510 ⇒ x=(510/5100)×100=10%।"
   },
@@ -837,8 +837,8 @@
     "question-hindi": "संख्या 7¹⁰⁰ के अंतिम दो अंक क्या हैं?",
     "options-english": ["(a) 01", "(b) 07", "(c) 43", "(d) 49"],
     "options-hindi": ["(a) 01", "(b) 07", "(c) 43", "(d) 49"],
-    "answer-english": "(a)",
-    "answer-hindi": "(a)",
+    "answer-english": "(a) 01",
+    "answer-hindi": "(a) 01",
     "solution-english": "7⁴ ≡ 01 mod 100 ⇒ (7⁴)²⁵ ≡ 01²⁵ ≡ 01 mod 100.",
     "solution-hindi": "7⁴ ≡ 01 mod 100 ⇒ (7⁴)²⁵ ≡ 01²⁵ ≡ 01 mod 100।"
   },
@@ -847,8 +847,8 @@
     "question-hindi": "10 खिलाड़ियों की औसत आयु 20 वर्ष है। कोच को शामिल करने पर औसत 21 वर्ष हो जाता है। कोच की आयु ज्ञात कीजिए।",
     "options-english": ["(a) 21", "(b) 30", "(c) 31", "(d) 41"],
     "options-hindi": ["(a) 21", "(b) 30", "(c) 31", "(d) 41"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) 31",
+    "answer-hindi": "(c) 31",
     "solution-english": "Total=10×20=200. New total=11×21=231. Coach=31.",
     "solution-hindi": "कुल आयु=10×20=200। नई कुल आयु=11×21=231। कोच की आयु=31।"
   },
@@ -857,8 +857,8 @@
     "question-hindi": "एक ट्रेन की औसत गति एक कार की औसत गति का 120% है। कार 10 घंटे में 600 किमी तय करती है। ट्रेन द्वारा 720 किमी तय करने का समय ज्ञात कीजिए।",
     "options-english": ["(a) 8", "(b) 9", "(c) 10", "(d) 12"],
     "options-hindi": ["(a) 8", "(b) 9", "(c) 10", "(d) 12"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) 10",
+    "answer-hindi": "(c) 10",
     "solution-english": "Car=60 km/h, Train=72 km/h, Time=720/72=10 hr.",
     "solution-hindi": "कार=60 किमी/घं, ट्रेन=72 किमी/घं, समय=720/72=10 घंटे।"
   },
@@ -867,8 +867,8 @@
     "question-hindi": "10, 25 और 35 का लघुत्तम समापवर्त्य ज्ञात कीजिए।",
     "options-english": ["(a) 150", "(b) 250", "(c) 350", "(d) 500"],
     "options-hindi": ["(a) 150", "(b) 250", "(c) 350", "(d) 500"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) 350",
+    "answer-hindi": "(c) 350",
     "solution-english": "10=2×5; 25=5²; 35=5×7 ⇒ LCM=2×5²×7=350.",
     "solution-hindi": "10=2×5; 25=5²; 35=5×7 ⇒ LCM=2×5²×7=350।"
   },
@@ -877,8 +877,8 @@
     "question-hindi": "एक माली 14884 पेड़ इस प्रकार लगाता है कि जितनी पंक्तियाँ हैं उतने ही पेड़ एक पंक्ति में हैं। एक पंक्ति में पेड़ों की संख्या ज्ञात कीजिए।",
     "options-english": ["(a) 118", "(b) 122", "(c) 128", "(d) 132"],
     "options-hindi": ["(a) 118", "(b) 122", "(c) 128", "(d) 132"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 122",
+    "answer-hindi": "(b) 122",
     "solution-english": "x²=14884 ⇒ x=122.",
     "solution-hindi": "x²=14884 ⇒ x=122।"
   },
@@ -887,8 +887,8 @@
     "question-hindi": "एक वस्तु पर 10% की छूट दूसरी वस्तु पर 15% की छूट के बराबर है। वस्तुओं का अंकित मूल्य क्या हो सकता है?",
     "options-english": ["(a) ₹120 and ₹100", "(b) ₹150 and ₹80", "(c) ₹150 and ₹100", "(d) ₹100 and ₹150"],
     "options-hindi": ["(a) ₹120 और ₹100", "(b) ₹150 और ₹80", "(c) ₹150 और ₹100", "(d) ₹100 और ₹150"],
-    "answer-english": "(c)",
-    "answer-hindi": "(c)",
+    "answer-english": "(c) ₹150 and ₹100",
+    "answer-hindi": "(c) ₹150 और ₹100",
     "solution-english": "0.10M1=0.15M2 ⇒ M1/M2=3/2 ⇒ Prices ₹150, ₹100.",
     "solution-hindi": "0.10M1=0.15M2 ⇒ M1/M2=3/2 ⇒ मूल्य ₹150, ₹100।"
   },
@@ -897,8 +897,8 @@
     "question-hindi": "एक पुस्तकालय में गणित की पुस्तकों की संख्या का 40% भौतिकी की पुस्तकों की संख्या के एक-तिहाई के बराबर है। गणित और भौतिकी पुस्तकों का अनुपात ज्ञात कीजिए।",
     "options-english": ["(a) 6:5", "(b) 5:6", "(c) 3:2", "(d) 2:3"],
     "options-hindi": ["(a) 6:5", "(b) 5:6", "(c) 3:2", "(d) 2:3"],
-    "answer-english": "(b)",
-    "answer-hindi": "(b)",
+    "answer-english": "(b) 5:6",
+    "answer-hindi": "(b) 5:6",
     "solution-english": "0.40M = (1/3)P ⇒ 6M = 5P ⇒ M:P = 5:6.",
     "solution-hindi": "0.40M = (1/3)P ⇒ 6M = 5P ⇒ M:P = 5:6।"
   },
@@ -907,8 +907,8 @@
     "question-hindi": "एक नाव धारा के अनुकूल 60 किमी और धारा के प्रतिकूल 30 किमी की दूरी 6 घंटे में तय करती है। 40 किमी धारा के अनुकूल दूरी तय करने का समय शांत जल में 30 किमी तय करने के समय के बराबर है। धारा के प्रतिकूल गति धारा की गति से कितनी अधिक है?",
     "options-english": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
     "options-hindi": ["(a) 5", "(b) 10", "(c) 15", "(d) 20"],
-    "answer-english": "(a)",
-    "answer-hindi": "(a)",
+    "answer-english": "(a) 5",
+    "answer-hindi": "(a) 5",
     "solution-english": "40/(b+s)=30/b ⇒ b=3s. 60/(b+s)+30/(b−s)=6 ⇒ s=5, b=15 ⇒ (b−s)−s=5 km/h.",
     "solution-hindi": "40/(b+s)=30/b ⇒ b=3s। 60/(b+s)+30/(b−s)=6 ⇒ s=5, b=15 ⇒ (b−s)−s=5 किमी/घं।"
   }
@@ -923,8 +923,8 @@
               "question-english" : "Which of the following is an example of an internet service provider?",
               "options-hindi": ["A). एयरटेल", "B). गूगल", "C). आउटलुक", "D). मोज़िला"],
               "options-english": ["A). Airtel", "B). Google", "C). Outlook", "D). Mozilla"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). एयरटेल",
+              "answer-english": "A). Airtel",
               "solution-hindi": "हल: एक इंटरनेट सेवा प्रदाता (ISP) एक कंपनी है जो व्यक्तियों और संगठनों को इंटरनेट तक पहुंच प्रदान करती है। एयरटेल एक दूरसंचार कंपनी है जो इंटरनेट सेवाएं प्रदान करती है। गूगल मुख्य रूप से एक सर्च इंजन और प्रौद्योगिकी कंपनी है, आउटलुक एक ईमेल क्लाइंट है, और मोज़िला फ़ायरफ़ॉक्स वेब ब्राउज़र के पीछे का संगठन है; इनमें से कोई भी ISP नहीं है।",
               "solution-english": "Solution: An Internet Service Provider (ISP) is a company that provides individuals and organizations access to the internet. Airtel is a telecommunications company that offers internet services. Google is primarily a search engine and technology company, Outlook is an email client, and Mozilla is the organization behind the Firefox web browser; none of them are ISPs."
             },
@@ -933,8 +933,8 @@
               "question-english" : "In MS Word 365, While working with the text the thesaurus tool is used for:",
               "options-hindi": ["A). गलत वर्तनी वाले शब्द को सही करता है", "B). टेक्स्ट के प्रारूप को सही करता है", "C). पर्यायवाची और विलोम शब्दों की जाँच करता है", "D). दस्तावेज़ में दोहराए गए शब्दों को ढूंढता है"],
               "options-english": ["A). corrects misspelling word", "B). correct the format of the text", "C). check for synonyms and antonyms", "D). finding repeated words in the document"],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). पर्यायवाची और विलोम शब्दों की जाँच करता है",
+              "answer-english": "C). check for synonyms and antonyms",
               "solution-hindi": "हल: माइक्रोसॉफ्ट वर्ड में थिसॉरस टूल का उपयोग किसी चयनित शब्द के लिए पर्यायवाची (समान अर्थ वाले शब्द) और विलोम (विपरीत अर्थ वाले शब्द) खोजने के लिए किया जाता है। यह शब्दावली में सुधार करने और दस्तावेज़ में दोहराव से बचने में मदद करता है।",
               "solution-english": "Solution: The Thesaurus tool in Microsoft Word is used to find synonyms (words with similar meanings) and antonyms (words with opposite meanings) for a selected word. This helps to improve vocabulary and avoid repetition in a document."
             },
@@ -943,8 +943,8 @@
               "question-english" : "Which of the following statements is FALSE regarding attaching a file in an email?",
               "options-hindi": ["A). एक ईमेल संदेश में कई फ़ाइलें संलग्न की जा सकती हैं।", "B). आप ईमेल भेजने से पहले अनुलग्नकों को हटा या बदल सकते हैं।", "C). अनुलग्नक का आकार असीमित होता है।", "D). ईमेल लिखने वाली विंडो में अनुलग्नकों का पूर्वावलोकन किया जा सकता है।"],
               "options-english": ["A). Multiple files can be attached in an email message.", "B). You can remove or change attachments before sending the email.", "C). The size of the attachment is unlimited.", "D). Attachments can be previewed within the email composition window."],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). अनुलग्नक का आकार असीमित होता है।",
+              "answer-english": "C). The size of the attachment is unlimited.",
               "solution-hindi": "हल: सभी प्रमुख ईमेल प्रदाता अनुलग्नकों (attachments) पर एक आकार सीमा लगाते हैं। उदाहरण के लिए, जीमेल और याहू की सीमा 25MB है। इसलिए, यह कथन कि अनुलग्नक का आकार असीमित है, असत्य है।",
               "solution-english": "Solution: All major email providers impose a size limit on attachments. For example, Gmail and Yahoo have a limit of 25MB. Therefore, the statement that the size of an attachment is unlimited is false."
             },
@@ -953,8 +953,8 @@
               "question-english" : "Which of the following is the purpose of the Zoom icon in Microsoft Word 365?",
               "options-hindi": ["A). दस्तावेज़ के पेज लेआउट को बदलने के लिए", "B). वर्तमान पेज को हटाने के लिए", "C). फ़ॉन्ट आकार बढ़ाने के लिए", "D). हमारे पढ़ने या संपादन की जरूरतों के अनुसार हमारे दस्तावेज़ के दृश्य स्वरूप को समायोजित करने के लिए"],
               "options-english": ["A). To change the document's page layout", "B). To delete the current page", "C). To increase the font size", "D). To adjust the visual appearance of our document to suit our reading or editing needs"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). हमारे पढ़ने या संपादन की जरूरतों के अनुसार हमारे दस्तावेज़ के दृश्य स्वरूप को समायोजित करने के लिए",
+              "answer-english": "D). To adjust the visual appearance of our document to suit our reading or editing needs",
               "solution-hindi": "हल: माइक्रोसॉफ्ट वर्ड में ज़ूम फ़ंक्शन आपको स्क्रीन पर दस्तावेज़ के दृश्य को बड़ा या छोटा करने की अनुमति देता है। यह प्रिंट होने पर टेक्स्ट के वास्तविक आकार या पेज लेआउट को नहीं बदलता है, लेकिन यह आसान पढ़ने या संपादन के लिए डिस्प्ले को समायोजित करता है।",
               "solution-english": "Solution: The Zoom function in Microsoft Word allows you to magnify or reduce the view of the document on the screen. This does not change the actual size of the text or the page layout when printed, but it adjusts the display for easier reading or editing."
             },
@@ -963,8 +963,8 @@
               "question-english" : "In MS Excel 365, Which of the following charts in MS Excel shows the change of magnitude over a period of time?",
               "options-hindi": ["A). एरिया चार्ट (Area chart)", "B). बार चार्ट (Bar chart)", "C). लाइन चार्ट (Line chart)", "D). पाई चार्ट (Pie chart)"],
               "options-english": ["A). Area chart", "B). Bar chart", "C). Line chart", "D). Pie chart"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). एरिया चार्ट (Area chart)",
+              "answer-english": "A). Area chart",
               "solution-hindi": "हल: जबकि लाइन और एरिया चार्ट दोनों समय के साथ परिवर्तन दिखाते हैं, एक एरिया चार्ट लाइन के नीचे के क्षेत्र को भरकर परिवर्तन के परिमाण पर जोर देता है। यह कुल मूल्य और समय की अवधि में अलग-अलग हिस्से उस कुल में कैसे योगदान करते हैं, यह दिखाने के लिए इसे आदर्श बनाता है।",
               "solution-english": "Solution: While both Line and Area charts show changes over time, an Area chart emphasizes the magnitude of change by filling the area below the line. This makes it ideal for showing the total value and how individual parts contribute to that total over a time period."
             },
@@ -973,8 +973,8 @@
               "question-english" : "Which of the following keyboard shortcut keys is used to copy the selected text in MS-Word 365?",
               "options-hindi": ["A). Ctrl + C", "B). Ctrl + X", "C). Ctrl + V", "D). Ctrl + P"],
               "options-english": ["A). Ctrl + C", "B). Ctrl + X", "C). Ctrl + V", "D). Ctrl + P"],
-              "answer-hindi": "सही उत्तर: A",
-              "answer-english": "Correct Answer: A",
+              "answer-hindi": "A). Ctrl + C",
+              "answer-english": "A). Ctrl + C",
               "solution-hindi": "हल: कीबोर्ड शॉर्टकट Ctrl + C चयनित टेक्स्ट, छवियों या फ़ाइलों को क्लिपबोर्ड पर कॉपी करने के लिए मानक कमांड है। Ctrl + X कट करने के लिए, Ctrl + V पेस्ट करने के लिए, और Ctrl + P प्रिंट करने के लिए है।",
               "solution-english": "Solution: The keyboard shortcut Ctrl + C is the standard command for copying selected text, images, or files to the clipboard. Ctrl + X is for cutting, Ctrl + V is for pasting, and Ctrl + P is for printing."
             },
@@ -983,8 +983,8 @@
               "question-english" : "What feature in Microsoft Word 365 allows you to create a numbered list with different levels of indentation?",
               "options-hindi": ["A). मल्टी-स्पेस्ड नंबरिंग", "B). मल्टी-इंडेंटिंग नंबरिंग", "C). मल्टी-हायरार्की नंबरिंग", "D). मल्टीलेवल नंबरिंग"],
               "options-english": ["A). Multi-spaced numbering", "B). Multi-indenting numbering", "C). Multi-hierarchy numbering", "D). Multilevel numbering"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). मल्टीलेवल नंबरिंग",
+              "answer-english": "D). Multilevel numbering",
               "solution-hindi": "हल: माइक्रोसॉफ्ट वर्ड में मल्टीलेवल नंबरिंग सुविधा विशेष रूप से एक पदानुक्रमित संरचना के साथ सूचियाँ बनाने के लिए डिज़ाइन की गई है, जैसे कि रूपरेखाएँ, जिनमें विभिन्न स्तरों के इंडेंटेशन होते हैं",
               "solution-english": "Solution: The Multilevel numbering feature in Microsoft Word is specifically designed to create lists with a hierarchical structure, such as outlines, with different levels of indentation"
             },
@@ -993,8 +993,8 @@
               "question-english" : "In MS Excel 365, the VLOOKUP function in Microsoft Excel is primarily used for:",
               "options-hindi": ["A). प्रतिशत की गणना करने के लिए", "B). पिवट टेबल बनाने के लिए", "C). एक रेंज का कुल योग खोजने के लिए", "D). एक तालिका में एक मान खोजना और एक संबंधित मान लौटाना"],
               "options-english": ["A). calculating percentages", "B). creating pivot tables", "C). finding the total of a range", "D). searching for a value in a table and returning a corresponding value"],
-              "answer-hindi": "सही उत्तर: D",
-              "answer-english": "Correct Answer: D",
+              "answer-hindi": "D). एक तालिका में एक मान खोजना और एक संबंधित मान लौटाना",
+              "answer-english": "D). searching for a value in a table and returning a corresponding value",
               "solution-hindi": "हल: VLOOKUP का अर्थ 'वर्टिकल लुकअप' है। इसका उद्देश्य किसी तालिका सरणी (table array) के पहले कॉलम में एक विशिष्ट मान खोजना और उसी पंक्ति में एक निर्दिष्ट कॉलम से एक संबंधित मान लौटाना है।",
               "solution-english": "Solution: VLOOKUP stands for 'Vertical Lookup'. Its purpose is to search for a specific value in the first column of a table array and return a corresponding value from a specified column in the same row."
             },
@@ -1003,8 +1003,8 @@
               "question-english" : "In MS Excel 365 how can you add a specific number of days to a date in Excel?",
               "options-hindi": ["A). EDATE फ़ंक्शन का उपयोग करके", "B). WORKDAY फ़ंक्शन का उपयोग करके", "C). DATE फ़ंक्शन का उपयोग करके", "D). DAY फ़ंक्शन का उपयोग करके"],
               "options-english": ["A). Using the EDATE function", "B). Using the WORKDAY function", "C). Using the DATE function", "D). Using the DAY function"],
-              "answer-hindi": "सही उत्तर: C",
-              "answer-english": "Correct Answer: C",
+              "answer-hindi": "C). DATE फ़ंक्शन का उपयोग करके",
+              "answer-english": "C). Using the DATE function",
               "solution-hindi": "हल: हालांकि एक्सेल में किसी तारीख में दिन जोड़ने का सबसे सीधा तरीका एक साधारण जोड़ फॉर्मूला (जैसे, =A1+10) का उपयोग करना है, दिए गए विकल्पों में से, DATE फ़ंक्शन का उपयोग =DATE(YEAR(A1), MONTH(A1), DAY(A1) + 10) जैसे अधिक जटिल फॉर्मूले में उसी परिणाम को प्राप्त करने के लिए किया जा सकता है। अन्य फ़ंक्शन अलग-अलग उद्देश्यों की पूर्ति करते हैं: EDATE महीने जोड़ता है, WORKDAY व्यावसायिक दिन जोड़ता है, और DAY किसी तारीख से दिन संख्या निकालता है।",
               "solution-english": "Solution: While the most direct way to add days to a date in Excel is by using a simple addition formula (e.g., =A1+10), among the given choices, the DATE function can be used in a more complex formula like =DATE(YEAR(A1), MONTH(A1), DAY(A1) + 10) to achieve the same result. The other functions serve different purposes: EDATE adds months, WORKDAY adds business days, and DAY extracts the day number from a date."
             },
@@ -1013,8 +1013,8 @@
               "question-english" : "Which of the following options allows you to change page orientation in MS Word 365?",
               "options-hindi": ["A). पेज ब्रेक (Page break)", "B). पेज लेआउट (Page layout)", "C). पैराग्राफ संरेखण (Paragraph alignment)", "D). मार्जिन (Margins)"],
               "options-english": ["A). Page break", "B). Page layout", "C). Paragraph alignment", "D). Margins"],
-              "answer-hindi": "सही उत्तर: B",
-              "answer-english": "Correct Answer: B",
+              "answer-hindi": "B). पेज लेआउट (Page layout)",
+              "answer-english": "B). Page layout",
               "solution-hindi": "हल: पेज ओरिएंटेशन (पोर्ट्रेट या लैंडस्केप) एक सेटिंग है जो पूरे पेज को प्रभावित करती है। MS Word 365 में, यह विकल्प रिबन पर लेआउट (या पेज लेआउट) टैब के अंतर्गत पाया जाता है।",
               "solution-english": "Solution: Page orientation (Portrait or Landscape) is a setting that affects the entire page. In MS Word 365, this option is found under the Layout (or Page Layout) tab on the ribbon."
             }
