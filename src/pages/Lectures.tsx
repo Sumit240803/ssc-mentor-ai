@@ -61,16 +61,12 @@ const Lectures = () => {
 
   // Show feature modal when component mounts (first visit to lectures page)
   useEffect(() => {
-    const hasSeenModal = localStorage.getItem('hasSeenFeatureModal');
-    if (!hasSeenModal && !loading && subjects.length > 0) {
-      const timer = setTimeout(() => {
-        setShowFeatureModal(true);
-        localStorage.setItem('hasSeenFeatureModal', 'true');
-      }, 1000); // Small delay to let the page load
-      
-      return () => clearTimeout(timer);
-    }
-  }, [loading, subjects]);
+    const timer = setTimeout(() => {
+      setShowFeatureModal(true);
+    }, 1000); // Small delay to let the page load
+
+    return () => clearTimeout(timer);
+  }, [loading]);
 
   // Reset initialization when component unmounts or when navigating
   useEffect(() => {
