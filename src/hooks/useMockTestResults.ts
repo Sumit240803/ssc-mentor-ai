@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 
 const API_BASE_URL = 'https://sscb-backend-api.onrender.com';
@@ -49,7 +49,7 @@ export const useMockTestResults = () => {
   const [error, setError] = useState<string | null>(null);
 
   // Fetch all results for the current user
-  const fetchUserResults = async () => {
+  const fetchUserResults = useCallback(async () => {
     if (!user?.id) {
       console.log('No user logged in, skipping fetch');
       return;
@@ -75,7 +75,7 @@ export const useMockTestResults = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [user?.id]);
 
   // Create a new mock test result
   const createMockTestResult = async (payload: CreateMockTestResultPayload): Promise<MockTestResult | null> => {
@@ -139,28 +139,27 @@ export const useMockTestResults = () => {
   };
 
   // Check if user has attempted a specific test
-  const hasAttemptedTest = (testName: string): boolean => {
+  const hasAttemptedTest = useCallback((testName: string): boolean => {
     return userResults.some(result => result.test_name === testName);
-  };
+  }, [userResults]);
 
   // Get last attempt for a specific test
-  const getLastAttempt = (testName: string): MockTestResult | undefined => {
+  const getLastAttempt = useCallback((testName: string): MockTestResult | undefined => {
     const attempts = userResults.filter(result => result.test_name === testName);
     return attempts.length > 0 ? attempts[0] : undefined; // Results are sorted by created_at desc
-  };
+  }, [userResults]);
 
   // Get all attempts for a specific test
-  const getTestAttempts = (testName: string): MockTestResult[] => {
+  const getTestAttempts = useCallback((testName: string): MockTestResult[] => {
     return userResults.filter(result => result.test_name === testName);
-  };
+  }, [userResults]);
 
   // Load user results on mount
   useEffect(() => {
     if (user?.id) {
       fetchUserResults();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [user?.id]);
+  }, [user?.id, fetchUserResults]);
 
   return {
     userResults,

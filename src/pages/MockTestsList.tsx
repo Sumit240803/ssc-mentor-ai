@@ -26,6 +26,9 @@ const MockTestsList: React.FC = () => {
   useEffect(() => {
     const loadMockTests = async () => {
       try {
+        // Log all test names from API to help debug
+        console.log('🔍 Test names from API:', userResults.map(r => r.test_name));
+        
         // List of mock test files
         const testFiles = [
           "Complete_mock-test_1.json",
@@ -60,8 +63,6 @@ const MockTestsList: React.FC = () => {
             try {
               const response = await fetch(`/${encodeURIComponent(fileName)}`);
               const data = await response.json();
-              console.log(data);
-              console.log(data.testName);
 
               // Calculate total questions
               const totalQuestions = data.mockTest.reduce(
@@ -78,6 +79,11 @@ const MockTestsList: React.FC = () => {
               // Check if user has attempted this test using API data
               const lastAttempt = getLastAttempt(testName);
               const hasAttempted = hasAttemptedTest(testName);
+
+              // Debug log to check if test is being detected as attempted
+              if (hasAttempted) {
+                console.log(`✅ Test "${testName}" has been attempted`, { lastAttempt });
+              }
 
               return {
                 fileName,
@@ -119,7 +125,8 @@ const MockTestsList: React.FC = () => {
     if (!resultsLoading) {
       loadMockTests();
     }
-  }, [resultsLoading, userResults, hasAttemptedTest, getLastAttempt]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resultsLoading, userResults]);
 
   const handleStartTest = (fileName: string) => {
     navigate(`/mock-test/${fileName.replace(".json", "")}`);
