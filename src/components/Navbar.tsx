@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="p-2 bg-gradient-hero rounded-lg">
               <GraduationCap className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground">LearnSSC</span>
+            <span className="text-xl font-bold text-foreground">Exam Prep</span>
           </Link>
 
           {/* Desktop Navigation */}
