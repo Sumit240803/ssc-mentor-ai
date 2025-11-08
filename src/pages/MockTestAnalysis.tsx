@@ -68,6 +68,17 @@ const MockTestAnalysis: React.FC = () => {
     return "Needs Improvement";
   };
 
+  // Convert test name back to filename format
+  // E.g., "MOCK TEST 1" -> "Complete_mock-test_1"
+  const getTestFileName = (testName: string): string => {
+    const match = testName.match(/MOCK TEST (\d+)/i);
+    if (match) {
+      return `Complete_mock-test_${match[1]}`;
+    }
+    // Fallback: convert the test name to filename format
+    return testName.toLowerCase().replace(/\s+/g, '-');
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -272,7 +283,7 @@ const MockTestAnalysis: React.FC = () => {
         <div className="flex gap-4 justify-center">
           <Button 
             size="lg"
-            onClick={() => navigate(`/mock-test/${testName?.replace(/^Complete_/, '').replace(/\.json$/, '')}`)}
+            onClick={() => navigate(`/mock-test/${getTestFileName(selectedAttempt.test_name)}`)}
           >
             Reattempt Test
           </Button>
