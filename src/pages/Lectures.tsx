@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones, FolderOpen } from "lucide-react";
+import { BookOpen, FileText, GraduationCap, Brain, Atom, Volume2, Headphones, FolderOpen, Calendar } from "lucide-react";
 import { useLectures } from "@/hooks/useLectures";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useNavigate, useSearchParams } from "react-router-dom";
@@ -169,13 +169,23 @@ const Lectures = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-8">
+        <div className="mb-8 relative">
           <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
             Study Materials
           </h1>
           <p className="text-muted-foreground">
             Access comprehensive lecture notes and study materials organized by subject
           </p>
+          
+          {/* Study Schedule Button */}
+          <Button
+            onClick={() => navigate('/schedule')}
+            className="absolute top-0 right-0 gap-2 group hover:shadow-lg transition-all duration-300"
+            variant="default"
+          >
+            <Calendar className="h-4 w-4 group-hover:scale-110 transition-transform" />
+            See your study schedule
+          </Button>
         </div>
 
         {/* Feature Info Modal */}

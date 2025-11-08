@@ -17,10 +17,10 @@ const FreeGlobalTest = () => {
       duration: 90,
       totalQuestions: 100,
       sections: [
-        { name: "General Knowledge", questions: 25 },
+       { name: "General Knowledge", questions: 50 },
         { name: "Reasoning", questions: 25 },
-        { name: "Numerical Aptitude", questions: 25 },
-        { name: "English", questions: 25 },
+        { name: "Numerical Aptitude", questions: 15 },
+        { name: "Computer", questions: 10 },
       ],
       isFree: true,
 
@@ -31,10 +31,10 @@ const FreeGlobalTest = () => {
       duration: 90,
       totalQuestions: 100,
       sections: [
-        { name: "General Knowledge", questions: 25 },
+       { name: "General Knowledge", questions: 50 },
         { name: "Reasoning", questions: 25 },
-        { name: "Numerical Aptitude", questions: 25 },
-        { name: "English", questions: 25 },
+        { name: "Numerical Aptitude", questions: 15 },
+        { name: "Computer", questions: 10 },
       ],
       isFree: false,
     
@@ -45,10 +45,10 @@ const FreeGlobalTest = () => {
       duration: 90,
       totalQuestions: 100,
       sections: [
-        { name: "General Knowledge", questions: 25 },
+        { name: "General Knowledge", questions: 50 },
         { name: "Reasoning", questions: 25 },
-        { name: "Numerical Aptitude", questions: 25 },
-        { name: "English", questions: 25 },
+        { name: "Numerical Aptitude", questions: 15 },
+        { name: "Computer", questions: 10 },
       ],
       isFree: false,
    
@@ -59,10 +59,10 @@ const FreeGlobalTest = () => {
       duration: 90,
       totalQuestions: 100,
       sections: [
-        { name: "General Knowledge", questions: 25 },
+        { name: "General Knowledge", questions: 50 },
         { name: "Reasoning", questions: 25 },
-        { name: "Numerical Aptitude", questions: 25 },
-        { name: "English", questions: 25 },
+        { name: "Numerical Aptitude", questions: 15 },
+        { name: "Computer", questions: 10 },
       ],
       isFree: false,
     
