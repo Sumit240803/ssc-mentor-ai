@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
-import { Brain, Calendar, BookOpen, Sparkles } from "lucide-react";
+import { Brain, Calendar, BookOpen, Sparkles, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 // Animation Variants
@@ -282,6 +282,114 @@ const Landing = () => {
           </a>
         </motion.div>
       </section>
+
+      {/* Footer */}
+      <footer className="relative py-16 px-6 border-t border-white/10 bg-background/60 backdrop-blur-lg">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {/* About Section */}
+            <div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">
+                SSC Mentor AI
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                India's first AI-powered platform for SSC Delhi Police exam
+                preparation. Prepare smarter with AI-driven insights.
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h4 className="text-lg font-semibold text-foreground mb-4">
+                Quick Links
+              </h4>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/free-mock-test"
+                    className="text-muted-foreground hover:text-cyan-400 transition"
+                  >
+                    Free Mock Test
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/pricing"
+                    className="text-muted-foreground hover:text-cyan-400 transition"
+                  >
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/auth"
+                    className="text-muted-foreground hover:text-cyan-400 transition"
+                  >
+                    Login / Sign Up
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact Support */}
+            <div>
+              <h4 className="text-lg font-semibold text-foreground mb-4">
+                Contact Support
+              </h4>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-2 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg">
+                  <Mail className="h-5 w-5 text-white" />
+                </div>
+                <a
+                  href="mailto:support@examprep.in"
+                  className="text-muted-foreground hover:text-cyan-400 transition"
+                >
+                  support@examprep.in
+                </a>
+              </div>
+
+              {/* Social Links */}
+              <div className="flex gap-4">
+                <a
+                  href="#"
+                  className="p-2 rounded-lg bg-background/50 border border-white/10 hover:border-cyan-400/50 transition"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5 text-muted-foreground hover:text-cyan-400 transition" />
+                </a>
+                <a
+                  href="#"
+                  className="p-2 rounded-lg bg-background/50 border border-white/10 hover:border-cyan-400/50 transition"
+                  aria-label="Twitter"
+                >
+                  <Twitter className="h-5 w-5 text-muted-foreground hover:text-cyan-400 transition" />
+                </a>
+                <a
+                  href="#"
+                  className="p-2 rounded-lg bg-background/50 border border-white/10 hover:border-cyan-400/50 transition"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5 text-muted-foreground hover:text-cyan-400 transition" />
+                </a>
+                <a
+                  href="#"
+                  className="p-2 rounded-lg bg-background/50 border border-white/10 hover:border-cyan-400/50 transition"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5 text-muted-foreground hover:text-cyan-400 transition" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Copyright */}
+          <div className="mt-12 pt-8 border-t border-white/10 text-center text-muted-foreground">
+            <p>
+              © {new Date().getFullYear()} SSC Mentor AI. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

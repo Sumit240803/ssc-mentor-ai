@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
-import { Clock, BookCheck } from "lucide-react";
+import { Clock, BookCheck, Calendar } from "lucide-react";
 import { toast } from "sonner";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import { StudyPlanProgress } from "@/components/StudyPlanProgress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 interface ScheduleDetails {
   schedule: string;
@@ -14,12 +15,19 @@ interface ScheduleDetails {
   text_content?: string;
 }
 
+interface ScheduleTableItem {
+  Activity: string;
+  Time: string;
+}
+
 const Schedule = () => {
   const [schedules, setSchedules] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedSchedule, setSelectedSchedule] = useState<string | null>(null);
   const [scheduleDetails, setScheduleDetails] = useState<ScheduleDetails | null>(null);
   const [loadingDetails, setLoadingDetails] = useState(false);
+  const [scheduleTable, setScheduleTable] = useState<ScheduleTableItem[]>([]);
+  const [loadingScheduleTable, setLoadingScheduleTable] = useState(false);
 
   useEffect(() => {
     fetchSchedules();
@@ -31,12 +39,28 @@ const Schedule = () => {
       const response = await fetch('https://sscb-backend-api.onrender.com/schedules/');
       const data = await response.json();
       
-      setSchedules(data.schedules);
+      // Filter out "Schedule Table" from the schedules list
+      const filteredSchedules = data.schedules.filter((schedule: string) => schedule !== "Schedule Table");
+      setSchedules(filteredSchedules);
     } catch (error) {
       console.error('Error fetching schedules:', error);
       toast.error('Failed to load schedules');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const fetchScheduleTable = async () => {
+    try {
+      setLoadingScheduleTable(true);
+      const response = await fetch('https://sscb-backend-api.onrender.com/schedules/study-schedule');
+      const data = await response.json();
+      setScheduleTable(data);
+    } catch (error) {
+      console.error('Error fetching schedule table:', error);
+      toast.error('Failed to load schedule table');
+    } finally {
+      setLoadingScheduleTable(false);
     }
   };
 
@@ -96,7 +120,7 @@ const Schedule = () => {
 
         {/* Tabs for Study Plan and Time Schedules */}
         <Tabs defaultValue="study-plan" className="w-full">
-          <TabsList className="grid w-full max-w-md grid-cols-2 mb-6">
+          <TabsList className="grid w-full max-w-2xl grid-cols-3 mb-6">
             <TabsTrigger value="study-plan" className="flex items-center gap-2">
               <BookCheck className="h-4 w-4" />
               Study Plan
@@ -104,6 +128,18 @@ const Schedule = () => {
             <TabsTrigger value="time-schedule" className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
               Time Schedule
+            </TabsTrigger>
+            <TabsTrigger 
+              value="schedule-table" 
+              className="flex items-center gap-2"
+              onClick={() => {
+                if (scheduleTable.length === 0) {
+                  fetchScheduleTable();
+                }
+              }}
+            >
+              <Calendar className="h-4 w-4" />
+              Schedule Table
             </TabsTrigger>
           </TabsList>
 
@@ -173,6 +209,70 @@ const Schedule = () => {
                 )}
               </div>
             )}
+          </TabsContent>
+
+          {/* Schedule Table Tab */}
+          <TabsContent value="schedule-table">
+            <Card className="p-6">
+              <div className="mb-6">
+                <h2 className="text-2xl font-bold text-foreground mb-2 flex items-center gap-2">
+                  <Calendar className="h-6 w-6 text-primary" />
+                  Daily Study Schedule
+                </h2>
+                <p className="text-muted-foreground">
+                  A recommended daily routine to maximize your study efficiency
+                </p>
+              </div>
+
+              {loadingScheduleTable ? (
+                <div className="flex items-center justify-center py-12">
+                  <LoadingSpinner />
+                </div>
+              ) : scheduleTable.length > 0 ? (
+                <div className="border rounded-lg overflow-hidden">
+                  <Table>
+                    <TableHeader>
+                      <TableRow className="bg-muted/50">
+                        <TableHead className="font-semibold text-base w-1/3">Activity</TableHead>
+                        <TableHead className="font-semibold text-base">Time</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {scheduleTable.map((item, index) => (
+                        <TableRow 
+                          key={index}
+                          className={index % 2 === 0 ? "bg-background" : "bg-muted/20"}
+                        >
+                          <TableCell className="font-medium text-foreground py-4">
+                            {item.Activity}
+                          </TableCell>
+                          <TableCell className="text-muted-foreground py-4">
+                            {item.Time}
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </div>
+              ) : (
+                <div className="text-center py-12 text-muted-foreground">
+                  No schedule data available
+                </div>
+              )}
+
+              {/* Tips Section */}
+              {scheduleTable.length > 0 && (
+                <div className="mt-6 p-4 bg-primary/5 border border-primary/20 rounded-lg">
+                  <h3 className="font-semibold text-foreground mb-2">💡 Study Tips</h3>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li>• Follow this schedule consistently for best results</li>
+                    <li>• Take short breaks between study sessions to stay fresh</li>
+                    <li>• Adjust timings based on your personal preference and energy levels</li>
+                    <li>• Stay hydrated and maintain a healthy diet</li>
+                  </ul>
+                </div>
+              )}
+            </Card>
           </TabsContent>
         </Tabs>
       </div>

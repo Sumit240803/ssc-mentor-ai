@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useNavigate } from "react-router-dom";
-import { BookOpen, Clock, FileText, Target } from "lucide-react";
+import { BookOpen, Clock, FileText, Target, BarChart3, RefreshCw } from "lucide-react";
 
 interface MockTestInfo {
   fileName: string;
@@ -11,6 +11,9 @@ interface MockTestInfo {
   duration: number;
   totalQuestions: number;
   comingSoon?: boolean;
+  hasAttempted?: boolean;
+  lastAttemptScore?: number;
+  lastAttemptPercentage?: number;
 }
 
 const MockTestsList: React.FC = () => {
@@ -60,7 +63,7 @@ const MockTestsList: React.FC = () => {
 
               // Calculate total questions
               const totalQuestions = data.mockTest.reduce(
-                (total: number, section: any) => total + section.questions.length,
+                (total: number, section: { questions: unknown[] }) => total + section.questions.length,
                 0,
               );
 
@@ -75,6 +78,10 @@ const MockTestsList: React.FC = () => {
                 duration: data.duration || 90,
                 totalQuestions,
                 comingSoon: false,
+                hasAttempted: checkIfAttempted(fileName),
+                // TODO: Get from API
+                lastAttemptScore: undefined,
+                lastAttemptPercentage: undefined,
               };
             } catch (error) {
               console.error(`Error loading ${fileName}:`, error);
@@ -87,11 +94,11 @@ const MockTestsList: React.FC = () => {
         
         // Add coming soon tests
         const comingSoonTests: MockTestInfo[] = [
-          { fileName: "Complete_mock-test_26.json", testName: "Mock Test 26", duration: 90, totalQuestions: 0, comingSoon: true },
-          { fileName: "Complete_mock-test_27.json", testName: "Mock Test 27", duration: 90, totalQuestions: 0, comingSoon: true },
-          { fileName: "Complete_mock-test_28.json", testName: "Mock Test 28", duration: 90, totalQuestions: 0, comingSoon: true },
-          { fileName: "Complete_mock-test_29.json", testName: "Mock Test 29", duration: 90, totalQuestions: 0, comingSoon: true },
-          { fileName: "Complete_mock-test_30.json", testName: "Mock Test 30", duration: 90, totalQuestions: 0, comingSoon: true },
+          { fileName: "Complete_mock-test_26.json", testName: "Mock Test 26", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
+          { fileName: "Complete_mock-test_27.json", testName: "Mock Test 27", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
+          { fileName: "Complete_mock-test_28.json", testName: "Mock Test 28", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
+          { fileName: "Complete_mock-test_29.json", testName: "Mock Test 29", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
+          { fileName: "Complete_mock-test_30.json", testName: "Mock Test 30", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
         ];
 
         setMockTests([...loadedTests, ...comingSoonTests]);
@@ -107,6 +114,27 @@ const MockTestsList: React.FC = () => {
 
   const handleStartTest = (fileName: string) => {
     navigate(`/mock-test/${fileName.replace(".json", "")}`);
+  };
+
+  const handleViewAnalysis = (fileName: string) => {
+    // TODO: Navigate to analysis page when implemented
+    // For now, just log or show a toast
+    console.log(`View analysis for ${fileName}`);
+    // navigate(`/mock-test/${fileName.replace(".json", "")}/analysis`);
+  };
+
+  // Mock function to check if test has been attempted
+  // TODO: Replace with actual API call to check user's test history
+  const checkIfAttempted = (fileName: string): boolean => {
+    // Simulate some tests being attempted
+    // You can test this by running this in browser console:
+    // localStorage.setItem('attempted_tests', JSON.stringify(['Complete_mock-test_1.json', 'Complete_mock-test_2.json']))
+    const attemptedTests = localStorage.getItem('attempted_tests');
+    if (attemptedTests) {
+      const attempted = JSON.parse(attemptedTests);
+      return attempted.includes(fileName);
+    }
+    return false;
   };
 
   if (loading) {
@@ -154,36 +182,79 @@ const MockTestsList: React.FC = () => {
                       <BookOpen className="h-5 w-5 text-primary" />
                       {test.testName}
                     </div>
-                    {test.comingSoon && (
-                      <Badge variant="secondary">Coming Soon</Badge>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {test.hasAttempted && (
+                        <Badge variant="default" className="bg-green-600">
+                          Attempted
+                        </Badge>
+                      )}
+                      {test.comingSoon && (
+                        <Badge variant="secondary">Coming Soon</Badge>
+                      )}
+                    </div>
                   </CardTitle>
                   <CardDescription>
-                    {test.comingSoon ? "This test will be available soon" : "Full-length practice test"}
+                    {test.comingSoon ? "This test will be available soon" : test.hasAttempted ? "Review your performance or take it again" : "Full-length practice test"}
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {!test.comingSoon && (
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="flex items-center gap-2 text-sm">
-                        <Clock className="h-4 w-4 text-primary" />
-                        <span>{test.duration} mins</span>
+                    <>
+                      <div className="grid grid-cols-2 gap-3">
+                        <div className="flex items-center gap-2 text-sm">
+                          <Clock className="h-4 w-4 text-primary" />
+                          <span>{test.duration} mins</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm">
+                          <FileText className="h-4 w-4 text-primary" />
+                          <span>{test.totalQuestions} questions</span>
+                        </div>
                       </div>
-                      <div className="flex items-center gap-2 text-sm">
-                        <FileText className="h-4 w-4 text-primary" />
-                        <span>{test.totalQuestions} questions</span>
-                      </div>
-                    </div>
+
+                      {/* Show last attempt info if available */}
+                      {test.hasAttempted && test.lastAttemptPercentage !== undefined && (
+                        <div className="p-3 bg-muted rounded-lg border">
+                          <div className="text-xs text-muted-foreground mb-1">Last Attempt</div>
+                          <div className="flex items-center justify-between">
+                            <span className="text-sm font-medium">Score: {test.lastAttemptScore}/{test.totalQuestions}</span>
+                            <Badge variant={test.lastAttemptPercentage >= 60 ? "default" : "destructive"}>
+                              {test.lastAttemptPercentage}%
+                            </Badge>
+                          </div>
+                        </div>
+                      )}
+                    </>
                   )}
 
-                  <Button 
-                    onClick={() => handleStartTest(test.fileName)} 
-                    className="w-full" 
-                    variant="default"
-                    disabled={test.comingSoon}
-                  >
-                    {test.comingSoon ? "Coming Soon" : "Start Test"}
-                  </Button>
+                  <div className="flex gap-2">
+                    {test.hasAttempted && !test.comingSoon && (
+                      <Button 
+                        onClick={() => handleViewAnalysis(test.fileName)} 
+                        className="flex-1" 
+                        variant="outline"
+                      >
+                        <BarChart3 className="h-4 w-4 mr-2" />
+                        Analysis
+                      </Button>
+                    )}
+                    <Button 
+                      onClick={() => handleStartTest(test.fileName)} 
+                      className={test.hasAttempted && !test.comingSoon ? "flex-1" : "w-full"}
+                      variant="default"
+                      disabled={test.comingSoon}
+                    >
+                      {test.comingSoon ? (
+                        "Coming Soon"
+                      ) : test.hasAttempted ? (
+                        <>
+                          <RefreshCw className="h-4 w-4 mr-2" />
+                          Reattempt
+                        </>
+                      ) : (
+                        "Start Test"
+                      )}
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
