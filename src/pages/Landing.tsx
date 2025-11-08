@@ -119,16 +119,16 @@ const Landing = () => {
           className="mt-10 flex gap-4"
         >
           <a
-            href="/pricing"
+            href="/free-mock-test"
             className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:scale-105 transition"
           >
-            Start Prep
+            Try Free Mock Test
           </a>
           <a
-            href="#testimonials"
+            href="/pricing"
             className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-600 dark:text-cyan-300 font-semibold backdrop-blur hover:bg-cyan-400/10 transition"
           >
-            Check Demo
+            View Pricing
           </a>
         </motion.div>
       </section>

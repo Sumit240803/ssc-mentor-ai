@@ -617,35 +617,37 @@ const MockTest: React.FC = () => {
               </div>
 
               {/* Section Analysis */}
-              <div className="p-4 border-t bg-muted/50">
-                <div className="text-sm font-semibold mb-2">{currentSection} Analysis</div>
-                <div className="space-y-1 text-xs">
-                  <div className="flex justify-between">
-                    <span>Answered</span>
-                    <span className="px-2 py-1 bg-blue-600 text-white rounded text-xs font-semibold">
-                      {getSectionStats(currentSection).answered}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Correct</span>
-                    <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
-                      {getSectionStats(currentSection).correct}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Incorrect</span>
-                    <span className="px-2 py-1 bg-red-600 text-white rounded text-xs font-semibold">
-                      {getSectionStats(currentSection).incorrect}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Not Answered</span>
-                    <span className="px-2 py-1 bg-muted rounded text-xs font-semibold">
-                      {getSectionStats(currentSection).total - getSectionStats(currentSection).answered}
-                    </span>
+              {testState.isReviewMode && (
+                <div className="p-4 border-t bg-muted/50">
+                  <div className="text-sm font-semibold mb-2">{currentSection} Analysis</div>
+                  <div className="space-y-1 text-xs">
+                    <div className="flex justify-between">
+                      <span>Answered</span>
+                      <span className="px-2 py-1 bg-blue-600 text-white rounded text-xs font-semibold">
+                        {getSectionStats(currentSection).answered}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Correct</span>
+                      <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
+                        {getSectionStats(currentSection).correct}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Incorrect</span>
+                      <span className="px-2 py-1 bg-red-600 text-white rounded text-xs font-semibold">
+                        {getSectionStats(currentSection).incorrect}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Not Answered</span>
+                      <span className="px-2 py-1 bg-muted rounded text-xs font-semibold">
+                        {getSectionStats(currentSection).total - getSectionStats(currentSection).answered}
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
           )}
 

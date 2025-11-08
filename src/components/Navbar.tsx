@@ -20,6 +20,7 @@ const Navbar = () => {
     { name: "Schedule", href: "/schedule" },
   ] : [
     { name: "Home", href: "/" },
+    { name: "Free Mock Test", href: "/free-mock-test" },
   ];
 
   const isActive = (href: string) => location.pathname === href;

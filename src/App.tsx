@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import Pricing from "./pages/Pricing";
+import FreeGlobalTest from "./pages/FreeGlobalTest";
 
 import Lectures from "./pages/Lectures";
 import LectureDetail from "./pages/LectureDetail";
@@ -34,6 +35,7 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/free-mock-test" element={<FreeGlobalTest />} />
             <Route 
               path="/pricing" 
               element={
