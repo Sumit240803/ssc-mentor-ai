@@ -38,30 +38,6 @@ const Schedule = () => {
     }
   };
 
-  const parseRTF = (rtfContent: string): string => {
-    try {
-      // Remove RTF control words and formatting
-      let text = rtfContent
-        // Remove RTF header
-        .replace(/^\{\\rtf1[^}]*\}/g, '')
-        // Remove control words (e.g., \par, \pard, \b, etc.)
-        .replace(/\\[a-z]{1,32}(-?\d{1,10})?[ ]?/gi, ' ')
-        // Remove control symbols
-        .replace(/\\'[0-9a-f]{2}/gi, ' ')
-        // Remove group brackets
-        .replace(/[{}]/g, '')
-        // Replace multiple spaces with single space
-        .replace(/\s+/g, ' ')
-        // Trim whitespace
-        .trim();
-      
-      return text || rtfContent;
-    } catch (error) {
-      console.error('Error parsing RTF:', error);
-      return rtfContent;
-    }
-  };
-
   const handleScheduleSelect = async (schedule: string) => {
     try {
       setSelectedSchedule(schedule);
@@ -70,17 +46,17 @@ const Schedule = () => {
       const response = await fetch(`https://sscb-backend-api.onrender.com/schedules/${schedule}`);
       const data = await response.json();
       
-      // Fetch text content
+      // Fetch text content using RTF extraction endpoint
       if (data.text_url) {
         try {
-          const textResponse = await fetch(data.text_url);
-          const rtfContent = await textResponse.text();
+          const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(data.text_url)}&output_format=text`;
+          const textResponse = await fetch(apiUrl);
+          const extractedData = await textResponse.json();
           
-          // Parse RTF to plain text
-          const parsedText = parseRTF(rtfContent);
-          data.text_content = parsedText;
+          data.text_content = extractedData.content || "Failed to load RTF content";
         } catch (error) {
           console.error('Error fetching text content:', error);
+          data.text_content = "Failed to load text content";
         }
       }
       
