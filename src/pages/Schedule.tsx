@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
-import { Clock } from "lucide-react";
+import { Clock, BookCheck } from "lucide-react";
 import { toast } from "sonner";
 import { AudioPlayer } from "@/components/AudioPlayer";
+import { StudyPlanProgress } from "@/components/StudyPlanProgress";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface ScheduleDetails {
   schedule: string;
@@ -88,69 +90,91 @@ const Schedule = () => {
             Study Schedule
           </h1>
           <p className="text-muted-foreground text-lg">
-            Select your preferred study schedule
+            Track your 45-day study plan and access time-based schedules
           </p>
         </div>
 
-        {/* Schedule Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {schedules.map((schedule) => (
-            <Card
-              key={schedule}
-              onClick={() => handleScheduleSelect(schedule)}
-              className={`p-6 cursor-pointer transition-all duration-300 hover:shadow-lg ${
-                selectedSchedule === schedule
-                  ? 'ring-2 ring-primary bg-primary/5'
-                  : 'hover:bg-accent/5'
-              }`}
-            >
-              <div className="flex flex-col items-center justify-center text-center space-y-3">
-                <div className="p-4 bg-primary/10 rounded-full">
-                  <Clock className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-2xl font-bold text-foreground">
-                  {schedule}
-                </h3>
-              </div>
-            </Card>
-          ))}
-        </div>
+        {/* Tabs for Study Plan and Time Schedules */}
+        <Tabs defaultValue="study-plan" className="w-full">
+          <TabsList className="grid w-full max-w-md grid-cols-2 mb-6">
+            <TabsTrigger value="study-plan" className="flex items-center gap-2">
+              <BookCheck className="h-4 w-4" />
+              Study Plan
+            </TabsTrigger>
+            <TabsTrigger value="time-schedule" className="flex items-center gap-2">
+              <Clock className="h-4 w-4" />
+              Time Schedule
+            </TabsTrigger>
+          </TabsList>
 
-        {/* Schedule Details */}
-        {loadingDetails && (
-          <div className="flex items-center justify-center py-12">
-            <LoadingSpinner />
-          </div>
-        )}
+          {/* Study Plan Tab */}
+          <TabsContent value="study-plan">
+            <StudyPlanProgress />
+          </TabsContent>
 
-        {!loadingDetails && scheduleDetails && (
-          <div className="space-y-6">
-            {/* Audio Player */}
-            {scheduleDetails.audio_url && (
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-4">
-                  Audio Schedule
-                </h3>
-                <AudioPlayer 
-                  src={scheduleDetails.audio_url}
-                  title={selectedSchedule || undefined}
-                />
+          {/* Time Schedule Tab */}
+          <TabsContent value="time-schedule">
+            {/* Schedule Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+              {schedules.map((schedule) => (
+                <Card
+                  key={schedule}
+                  onClick={() => handleScheduleSelect(schedule)}
+                  className={`p-6 cursor-pointer transition-all duration-300 hover:shadow-lg ${
+                    selectedSchedule === schedule
+                      ? 'ring-2 ring-primary bg-primary/5'
+                      : 'hover:bg-accent/5'
+                  }`}
+                >
+                  <div className="flex flex-col items-center justify-center text-center space-y-3">
+                    <div className="p-4 bg-primary/10 rounded-full">
+                      <Clock className="h-8 w-8 text-primary" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-foreground">
+                      {schedule}
+                    </h3>
+                  </div>
+                </Card>
+              ))}
+            </div>
+
+            {/* Schedule Details */}
+            {loadingDetails && (
+              <div className="flex items-center justify-center py-12">
+                <LoadingSpinner />
               </div>
             )}
 
-            {/* Text Content */}
-            {scheduleDetails.text_content && (
-              <Card className="p-6">
-                <h3 className="text-xl font-semibold text-foreground mb-4">
-                  Schedule Details
-                </h3>
-                <div className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-line text-foreground leading-relaxed">
-                  {scheduleDetails.text_content}
-                </div>
-              </Card>
+            {!loadingDetails && scheduleDetails && (
+              <div className="space-y-6">
+                {/* Audio Player */}
+                {scheduleDetails.audio_url && (
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-4">
+                      Audio Schedule
+                    </h3>
+                    <AudioPlayer 
+                      src={scheduleDetails.audio_url}
+                      title={selectedSchedule || undefined}
+                    />
+                  </div>
+                )}
+
+                {/* Text Content */}
+                {scheduleDetails.text_content && (
+                  <Card className="p-6">
+                    <h3 className="text-xl font-semibold text-foreground mb-4">
+                      Schedule Details
+                    </h3>
+                    <div className="prose prose-sm max-w-none dark:prose-invert whitespace-pre-line text-foreground leading-relaxed">
+                      {scheduleDetails.text_content}
+                    </div>
+                  </Card>
+                )}
+              </div>
             )}
-          </div>
-        )}
+          </TabsContent>
+        </Tabs>
       </div>
     </div>
   );
