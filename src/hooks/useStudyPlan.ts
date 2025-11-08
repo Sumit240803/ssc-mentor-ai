@@ -67,14 +67,19 @@ export const useStudyPlan = () => {
       const response = await fetch(`${API_BASE_URL}/progress/user/${user.id}/full-plan`);
       if (!response.ok) throw new Error('Failed to fetch user progress');
       
-      const data: UserFullPlan = await response.json();
-      setUserFullPlan(data.days);
+      const data = await response.json();
+      
+      // Handle different response structures
+      const days = data.days || data || [];
+      setUserFullPlan(days);
       
       // Find the current day (first incomplete day or last day)
-      const incompleteDay = data.days.find(day => !day.progress.completed_at);
-      setCurrentDay(incompleteDay?.day_number || data.days.length);
+      if (days.length > 0) {
+        const incompleteDay = days.find((day: FullDayPlan) => !day.progress?.completed_at);
+        setCurrentDay(incompleteDay?.day_number || days.length);
+      }
       
-      return data.days;
+      return days;
     } catch (error) {
       console.error('Error fetching user full plan:', error);
       toast.error('Failed to load your progress');
@@ -129,7 +134,8 @@ export const useStudyPlan = () => {
     setUpdatingProgress(true);
     try {
       // Get current progress for this day
-      const currentProgress = userFullPlan.find(day => day.day_number === dayNumber)?.progress || {
+      const dayData = userFullPlan.find(day => day.day_number === dayNumber);
+      const currentProgress = dayData?.progress || {
         math_done: false,
         general_studies_done: false,
         reasoning_done: false,
@@ -200,18 +206,21 @@ export const useStudyPlan = () => {
 
   // Get statistics
   const getStats = useCallback(() => {
-    if (!userFullPlan.length) return {
-      totalDays: 45,
-      completedDays: 0,
-      currentDay: 1,
-      totalSubjects: 0,
-      completedSubjects: 0,
-      progressPercentage: 0
-    };
+    if (!userFullPlan || userFullPlan.length === 0) {
+      return {
+        totalDays: 45,
+        completedDays: 0,
+        currentDay: 1,
+        totalSubjects: 0,
+        completedSubjects: 0,
+        progressPercentage: 0
+      };
+    }
 
-    const completedDays = userFullPlan.filter(day => day.progress.completed_at).length;
+    const completedDays = userFullPlan.filter(day => day.progress?.completed_at).length;
     const totalSubjects = userFullPlan.length * 5; // 5 subjects per day
     const completedSubjects = userFullPlan.reduce((acc, day) => {
+      if (!day.progress) return acc;
       return acc + 
         (day.progress.math_done ? 1 : 0) +
         (day.progress.general_studies_done ? 1 : 0) +
@@ -226,7 +235,7 @@ export const useStudyPlan = () => {
       currentDay,
       totalSubjects,
       completedSubjects,
-      progressPercentage: Math.round((completedSubjects / totalSubjects) * 100)
+      progressPercentage: totalSubjects > 0 ? Math.round((completedSubjects / totalSubjects) * 100) : 0
     };
   }, [userFullPlan, currentDay]);
 

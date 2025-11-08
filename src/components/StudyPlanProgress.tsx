@@ -99,18 +99,21 @@ export const StudyPlanProgress = () => {
 
   const isDayUnlocked = (dayNumber: number): boolean => {
     if (dayNumber === 1) return true;
+    if (!userFullPlan || userFullPlan.length === 0) return false;
     const previousDay = userFullPlan.find(d => d.day_number === dayNumber - 1);
-    return !!previousDay?.progress.completed_at;
+    return !!previousDay?.progress?.completed_at;
   };
 
   const isDayCompleted = (dayNumber: number): boolean => {
+    if (!userFullPlan || userFullPlan.length === 0) return false;
     const day = userFullPlan.find(d => d.day_number === dayNumber);
-    return !!day?.progress.completed_at;
+    return !!day?.progress?.completed_at;
   };
 
   const getSubjectProgress = (dayNumber: number) => {
+    if (!userFullPlan || userFullPlan.length === 0) return 0;
     const day = userFullPlan.find(d => d.day_number === dayNumber);
-    if (!day) return 0;
+    if (!day || !day.progress) return 0;
     
     const completed = [
       day.progress.math_done,
@@ -219,13 +222,18 @@ export const StudyPlanProgress = () => {
           </p>
         </div>
 
-        <Accordion 
-          type="single" 
-          collapsible 
-          value={expandedDay?.toString()}
-          onValueChange={(value) => setExpandedDay(value ? parseInt(value) : null)}
-        >
-          {userFullPlan.map((day) => {
+        {!userFullPlan || userFullPlan.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-muted-foreground">Loading your study plan...</p>
+          </div>
+        ) : (
+          <Accordion 
+            type="single" 
+            collapsible 
+            value={expandedDay?.toString()}
+            onValueChange={(value) => setExpandedDay(value ? parseInt(value) : null)}
+          >
+            {userFullPlan.map((day) => {
             const unlocked = isDayUnlocked(day.day_number);
             const completed = isDayCompleted(day.day_number);
             const progress = getSubjectProgress(day.day_number);
@@ -302,7 +310,7 @@ export const StudyPlanProgress = () => {
                       <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
                         <Checkbox
                           id={`day-${day.day_number}-math`}
-                          checked={day.progress.math_done}
+                          checked={day.progress?.math_done || false}
                           onCheckedChange={(checked) => 
                             handleSubjectToggle(day.day_number, 'math', checked as boolean)
                           }
@@ -329,7 +337,7 @@ export const StudyPlanProgress = () => {
                       <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
                         <Checkbox
                           id={`day-${day.day_number}-gs`}
-                          checked={day.progress.general_studies_done}
+                          checked={day.progress?.general_studies_done || false}
                           onCheckedChange={(checked) => 
                             handleSubjectToggle(day.day_number, 'general_studies', checked as boolean)
                           }
@@ -356,7 +364,7 @@ export const StudyPlanProgress = () => {
                       <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
                         <Checkbox
                           id={`day-${day.day_number}-reasoning`}
-                          checked={day.progress.reasoning_done}
+                          checked={day.progress?.reasoning_done || false}
                           onCheckedChange={(checked) => 
                             handleSubjectToggle(day.day_number, 'reasoning', checked as boolean)
                           }
@@ -383,7 +391,7 @@ export const StudyPlanProgress = () => {
                       <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
                         <Checkbox
                           id={`day-${day.day_number}-gk`}
-                          checked={day.progress.static_gk_done}
+                          checked={day.progress?.static_gk_done || false}
                           onCheckedChange={(checked) => 
                             handleSubjectToggle(day.day_number, 'static_gk', checked as boolean)
                           }
@@ -410,7 +418,7 @@ export const StudyPlanProgress = () => {
                       <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
                         <Checkbox
                           id={`day-${day.day_number}-comp`}
-                          checked={day.progress.computer_current_affairs_done}
+                          checked={day.progress?.computer_current_affairs_done || false}
                           onCheckedChange={(checked) => 
                             handleSubjectToggle(day.day_number, 'computer_current_affairs', checked as boolean)
                           }
@@ -433,7 +441,7 @@ export const StudyPlanProgress = () => {
                         </div>
                       </div>
 
-                      {completed && day.progress.completed_at && (
+                      {completed && day.progress?.completed_at && (
                         <div className="mt-4 p-3 bg-green-500/10 border border-green-500/20 rounded-lg">
                           <p className="text-sm text-green-700 dark:text-green-400 flex items-center space-x-2">
                             <CheckCircle2 className="h-4 w-4" />
@@ -450,6 +458,7 @@ export const StudyPlanProgress = () => {
             );
           })}
         </Accordion>
+        )}
       </Card>
     </div>
   );
