@@ -22,7 +22,7 @@ const features = [
   {
     title: "AI Mock Test & Analysis",
     description:
-      "Attempt real exam-like mock tests with instant AI-driven analysis to identify your strengths and weaknesses.",
+      "Attempt simulated exam based on latest pattern with instant AI-driven analysis to identify your strength and weakness and Suggestions to improve by AI teacher.",
     icon: Brain,
   },
   {
@@ -107,7 +107,7 @@ const Landing = () => {
           className="mt-6 max-w-2xl text-lg text-muted-foreground"
         >
           India’s first AI-powered platform designed exclusively for SSC Delhi
-          Police aspirants. Study smarter, stay consistent, and boost your
+          Police aspirants based on latest exam pattern of eduquity. Study smarter, stay consistent, and boost your
           chances of success.
         </motion.p>
 
