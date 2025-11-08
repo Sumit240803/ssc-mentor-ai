@@ -12,7 +12,7 @@ const FreeGlobalTest = () => {
   // Mock test data - in real scenario, this would come from an API
   const mockTests = [
     {
-      id: "1",
+      id: "Complete_mock-test_1",
       testName: "SSC Delhi Police Complete Mock Test 1",
       duration: 90,
       totalQuestions: 100,
@@ -23,10 +23,10 @@ const FreeGlobalTest = () => {
         { name: "English", questions: 25 },
       ],
       isFree: true,
-      difficulty: "Medium",
+
     },
     {
-      id: "2",
+      id: "Complete_mock-test_2",
       testName: "SSC Delhi Police Complete Mock Test 2",
       duration: 90,
       totalQuestions: 100,
@@ -37,10 +37,10 @@ const FreeGlobalTest = () => {
         { name: "English", questions: 25 },
       ],
       isFree: false,
-      difficulty: "Medium",
+    
     },
     {
-      id: "3",
+      id: "Complete_mock-test_3",
       testName: "SSC Delhi Police Complete Mock Test 3",
       duration: 90,
       totalQuestions: 100,
@@ -51,10 +51,10 @@ const FreeGlobalTest = () => {
         { name: "English", questions: 25 },
       ],
       isFree: false,
-      difficulty: "Hard",
+   
     },
     {
-      id: "4",
+      id: "Complete_mock-test_4",
       testName: "SSC Delhi Police Complete Mock Test 4",
       duration: 90,
       totalQuestions: 100,
@@ -65,7 +65,7 @@ const FreeGlobalTest = () => {
         { name: "English", questions: 25 },
       ],
       isFree: false,
-      difficulty: "Easy",
+    
     },
   ];
 
@@ -165,7 +165,7 @@ const FreeGlobalTest = () => {
                   <CardTitle className="text-xl">
                     Mock Test {index + 1}
                   </CardTitle>
-                  <Badge variant="outline">{test.difficulty}</Badge>
+                
                 </div>
                 <CardDescription className="text-base">{test.testName}</CardDescription>
               </CardHeader>
