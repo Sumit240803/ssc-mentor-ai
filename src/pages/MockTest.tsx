@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { toast } from "sonner";
 import {
   Clock,
   ChevronLeft,
@@ -42,6 +43,7 @@ const MockTest: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<Language>("hindi");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [markedForReview, setMarkedForReview] = useState<Set<number>>(new Set());
+  const [showRestoredNotification, setShowRestoredNotification] = useState(false);
 
   const {
     mockTestData,
@@ -66,6 +68,21 @@ const MockTest: React.FC = () => {
     previousResults,
     loadingPreviousResults,
   } = useMockTest(testId);
+
+  // Show notification when progress is restored
+  useEffect(() => {
+    if (testState.isActive && testState.startTime && testState.userAnswers && Object.keys(testState.userAnswers).length > 0) {
+      // Check if this is a restored session (has answers but just loaded)
+      const hasRestoredData = Object.keys(testState.userAnswers).length > 0;
+      if (hasRestoredData && !showRestoredNotification) {
+        setShowRestoredNotification(true);
+        toast.success("Progress Restored", {
+          description: `Your previous answers and ${formatTime(testState.timeRemaining)} remaining time have been recovered.`,
+          duration: 5000,
+        });
+      }
+    }
+  }, [testState.isActive]);
 
   // Fetch motivation and analysis when test is completed
   useEffect(() => {

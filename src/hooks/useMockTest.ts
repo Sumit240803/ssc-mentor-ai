@@ -87,6 +87,69 @@ export const useMockTest = (testFileName?: string) => {
     lastPauseTime: null,
   });
 
+  // Get localStorage key for the current test
+  const getStorageKey = () => {
+    if (!testFileName || !user?.id) return null;
+    return `mock_test_progress_${user.id}_${testFileName}`;
+  };
+
+  // Save test state to localStorage
+  const saveToLocalStorage = (state: TestState) => {
+    const storageKey = getStorageKey();
+    if (!storageKey) return;
+
+    try {
+      const dataToSave = {
+        ...state,
+        startTime: state.startTime?.toISOString(),
+        endTime: state.endTime?.toISOString(),
+        lastPauseTime: state.lastPauseTime?.toISOString(),
+        savedAt: new Date().toISOString(),
+      };
+      localStorage.setItem(storageKey, JSON.stringify(dataToSave));
+      console.log('Test progress saved to localStorage');
+    } catch (error) {
+      console.error('Error saving to localStorage:', error);
+    }
+  };
+
+  // Load test state from localStorage
+  const loadFromLocalStorage = (): TestState | null => {
+    const storageKey = getStorageKey();
+    if (!storageKey) return null;
+
+    try {
+      const savedData = localStorage.getItem(storageKey);
+      if (!savedData) return null;
+
+      const parsed = JSON.parse(savedData);
+      
+      // Convert date strings back to Date objects
+      return {
+        ...parsed,
+        startTime: parsed.startTime ? new Date(parsed.startTime) : null,
+        endTime: parsed.endTime ? new Date(parsed.endTime) : null,
+        lastPauseTime: parsed.lastPauseTime ? new Date(parsed.lastPauseTime) : null,
+      };
+    } catch (error) {
+      console.error('Error loading from localStorage:', error);
+      return null;
+    }
+  };
+
+  // Clear localStorage for this test
+  const clearLocalStorage = () => {
+    const storageKey = getStorageKey();
+    if (!storageKey) return;
+
+    try {
+      localStorage.removeItem(storageKey);
+      console.log('Test progress cleared from localStorage');
+    } catch (error) {
+      console.error('Error clearing localStorage:', error);
+    }
+  };
+
   // Load mock test data and previous results
   useEffect(() => {
     const loadMockTestData = async () => {
@@ -99,7 +162,7 @@ export const useMockTest = (testFileName?: string) => {
           throw new Error(`Failed to load test: ${response.status}`);
         }
         
-        const data: any = await response.json();
+        const data = await response.json();
         console.log('Mock test data loaded:', data);
         
         // Set default duration if missing
@@ -121,6 +184,13 @@ export const useMockTest = (testFileName?: string) => {
           timeRemaining: duration * 60,
         }));
 
+        // Try to load saved progress from localStorage
+        const savedState = loadFromLocalStorage();
+        if (savedState && savedState.isActive && !savedState.isCompleted) {
+          console.log('Restoring saved test progress from localStorage');
+          setTestState(savedState);
+        }
+
         // Load previous results if user is logged in
         if (user && testFileName) {
           await fetchPreviousResults(testFileName);
@@ -132,6 +202,13 @@ export const useMockTest = (testFileName?: string) => {
 
     loadMockTestData();
   }, [testFileName, user]);
+
+  // Auto-save test state to localStorage whenever it changes
+  useEffect(() => {
+    if (testState.isActive && !testState.isCompleted) {
+      saveToLocalStorage(testState);
+    }
+  }, [testState, user, testFileName]);
 
   const fetchPreviousResults = async (fileName: string) => {
     if (!user) return;
@@ -278,6 +355,9 @@ export const useMockTest = (testFileName?: string) => {
       isCompleted: true,
       endTime,
     }));
+
+    // Clear localStorage when test is submitted
+    clearLocalStorage();
 
     // Save results to database
     await saveResultsToDatabase(endTime);
@@ -479,6 +559,9 @@ export const useMockTest = (testFileName?: string) => {
   };
 
   const resetTest = () => {
+    // Clear localStorage when resetting test
+    clearLocalStorage();
+    
     setTestState({
       questions: [],
       currentQuestionIndex: 0,
