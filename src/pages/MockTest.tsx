@@ -718,7 +718,7 @@ const MockTest: React.FC = () => {
                           />
                         ) : (
                           // Otherwise show as text
-                          <p className="text-base leading-relaxed">{questionText}</p>
+                          <p style={{whiteSpace : 'pre-line'}}  className="text-base leading-relaxed">{questionText}</p>
                         )}
                       </div>
 

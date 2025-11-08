@@ -19,6 +19,7 @@ import MockTestsList from "./pages/MockTestsList";
 import MockTest from "./pages/MockTest";
 import Schedule from "./pages/Schedule";
 import Profile from "./pages/Profile";
+import PhysicalEducation from "./pages/PhysicalEducation";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -97,6 +98,14 @@ const AppContent = () => {
               element={
                 <ProtectedRoute>
                   <Profile />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/physical-education" 
+              element={
+                <ProtectedRoute>
+                  <PhysicalEducation />
                 </ProtectedRoute>
               } 
             />
