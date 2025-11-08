@@ -210,23 +210,16 @@ export const useMockTest = (testFileName?: string) => {
     }
   }, [testState, user, testFileName]);
 
+  // Note: fetchPreviousResults is deprecated - use useMockTestResults hook instead
   const fetchPreviousResults = async (fileName: string) => {
     if (!user) return;
     
     setLoadingPreviousResults(true);
     try {
-      const { data, error } = await supabase
-        .from('mock_test_results')
-        .select('*')
-        .eq('user_id', user.id)
-        .eq('test_date', fileName)
-        .order('created_at', { ascending: false });
-
-      if (error) {
-        console.error('Error fetching previous results:', error);
-      } else {
-        setPreviousResults(data || []);
-      }
+      // This function is deprecated and no longer used
+      // Use useMockTestResults hook to fetch results via API
+      console.log('fetchPreviousResults is deprecated, use useMockTestResults hook instead');
+      setPreviousResults([]);
     } catch (error) {
       console.error('Error fetching previous results:', error);
     } finally {

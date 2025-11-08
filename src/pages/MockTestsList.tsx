@@ -73,7 +73,8 @@ const MockTestsList: React.FC = () => {
               // Extract test number from filename for fallback
               const testNumberMatch = fileName.match(/(\d+)/);
               const testNumber = testNumberMatch ? testNumberMatch[1] : "";
-              const fallbackName = testNumber ? `Mock Test ${testNumber}` : "Mock Test";
+              // Generate test name matching the format used when saving (UPPERCASE)
+              const fallbackName = testNumber ? `MOCK TEST ${testNumber}` : "MOCK TEST";
               const testName = data.testName || fallbackName;
 
               // Check if user has attempted this test using API data
