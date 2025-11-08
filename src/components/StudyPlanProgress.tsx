@@ -328,7 +328,7 @@ export const StudyPlanProgress = () => {
                             </span>
                           </label>
                           <p className="text-sm text-muted-foreground ml-6 mt-1">
-                            {day.math}
+                            {day.tasks.math}
                           </p>
                         </div>
                       </div>
@@ -355,7 +355,7 @@ export const StudyPlanProgress = () => {
                             </span>
                           </label>
                           <p className="text-sm text-muted-foreground ml-6 mt-1">
-                            {day.general_studies}
+                            {day.tasks.general_studies}
                           </p>
                         </div>
                       </div>
@@ -382,7 +382,7 @@ export const StudyPlanProgress = () => {
                             </span>
                           </label>
                           <p className="text-sm text-muted-foreground ml-6 mt-1">
-                            {day.reasoning}
+                            {day.tasks.reasoning}
                           </p>
                         </div>
                       </div>
@@ -409,7 +409,7 @@ export const StudyPlanProgress = () => {
                             </span>
                           </label>
                           <p className="text-sm text-muted-foreground ml-6 mt-1">
-                            {day.static_gk}
+                            {day.tasks.static_gk}
                           </p>
                         </div>
                       </div>
@@ -436,7 +436,7 @@ export const StudyPlanProgress = () => {
                             </span>
                           </label>
                           <p className="text-sm text-muted-foreground ml-6 mt-1">
-                            {day.computer_current_affairs}
+                            {day.tasks.computer_current_affairs}
                           </p>
                         </div>
                       </div>

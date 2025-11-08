@@ -20,7 +20,17 @@ interface DayProgress {
   completed_at: string | null;
 }
 
-interface FullDayPlan extends DayPlan {
+interface DayTasks {
+  math: string;
+  general_studies: string;
+  reasoning: string;
+  static_gk: string;
+  computer_current_affairs: string;
+}
+
+interface FullDayPlan {
+  day_number: number;
+  tasks: DayTasks;
   progress: DayProgress;
 }
 
@@ -29,8 +39,9 @@ interface StudyPlanData {
   plan: DayPlan[];
 }
 
-interface UserFullPlan {
-  days: FullDayPlan[];
+interface UserFullPlanResponse {
+  count: number;
+  data: FullDayPlan[];
 }
 
 const API_BASE_URL = 'https://sscb-backend-api.onrender.com';
@@ -67,10 +78,10 @@ export const useStudyPlan = () => {
       const response = await fetch(`${API_BASE_URL}/progress/user/${user.id}/full-plan`);
       if (!response.ok) throw new Error('Failed to fetch user progress');
       
-      const data = await response.json();
+      const responseData: UserFullPlanResponse = await response.json();
       
-      // Handle different response structures
-      const days = data.days || data || [];
+      // Extract the data array from the response
+      const days = responseData.data || [];
       setUserFullPlan(days);
       
       // Find the current day (first incomplete day or last day)
