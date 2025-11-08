@@ -335,26 +335,7 @@ const Profile = () => {
             </Card>
 
             {/* Study Stats */}
-            <Card className="p-6 border-0 shadow-card mt-6">
-              <h3 className="text-xl font-semibold text-foreground mb-6">
-                Study Statistics
-              </h3>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-1">156</div>
-                  <div className="text-sm text-muted-foreground">Study Hours</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-1">43</div>
-                  <div className="text-sm text-muted-foreground">Lectures Completed</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-500 mb-1">12</div>
-                  <div className="text-sm text-muted-foreground">Day Streak</div>
-                </div>
-              </div>
-            </Card>
-
+           
             {/* Session Management */}
             <div className="mt-6">
               <SessionManager />
