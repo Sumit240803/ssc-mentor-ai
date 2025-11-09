@@ -451,7 +451,7 @@ export const useMockTest = (testFileName?: string) => {
         };
       });
 
-      // Save test results to API
+      // Save test results to API only if user is logged in
       const response = await fetch('https://sscb-backend-api.onrender.com/mock-tests/', {
         method: 'POST',
         headers: {

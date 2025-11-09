@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, useParams } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ThemeProvider } from "./components/ThemeProvider";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -24,6 +24,23 @@ import PhysicalEducation from "./pages/PhysicalEducation";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+
+// Wrapper component to conditionally protect mock test routes
+const MockTestWrapper = () => {
+  const { testId } = useParams<{ testId: string }>();
+  
+  // Allow free access to Mock Test 1
+  if (testId === 'Complete_mock-test_1') {
+    return <MockTest />;
+  }
+  
+  // Require authentication and payment for other tests
+  return (
+    <ProtectedRoute>
+      <MockTest />
+    </ProtectedRoute>
+  );
+};
 
 // Component to conditionally render navbar
 const AppContent = () => {
@@ -80,11 +97,7 @@ const AppContent = () => {
             />
             <Route 
               path="/mock-test/:testId" 
-              element={
-                <ProtectedRoute>
-                  <MockTest />
-                </ProtectedRoute>
-              } 
+              element={<MockTestWrapper />} 
             />
             <Route 
               path="/mock-test-analysis/:testName" 

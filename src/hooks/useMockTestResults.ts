@@ -52,6 +52,7 @@ export const useMockTestResults = () => {
   const fetchUserResults = useCallback(async () => {
     if (!user?.id) {
       console.log('No user logged in, skipping fetch');
+      setUserResults([]); // Clear results if no user
       return;
     }
 
