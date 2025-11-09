@@ -64,6 +64,7 @@ const Lectures = () => {
     const hasSeenModal = localStorage.getItem('hasSeenFeatureModal');
     if (!hasSeenModal && !loading && subjects.length > 0) {
       const timer = setTimeout(() => {
+        localStorage.setItem('hasSeenFeatureModal', 'true');
         setShowFeatureModal(true);
        
       }, 1000); // Small delay to let the page load
