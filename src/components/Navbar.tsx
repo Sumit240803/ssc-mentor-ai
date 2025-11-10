@@ -19,9 +19,11 @@ const Navbar = () => {
     { name: "Lectures", href: "/lectures" },
     { name: "Schedule", href: "/schedule" },
     { name: "Physical", href: "/physical-education" },
+    { name: "Contact Us", href: "/contact" },
   ] : [
     { name: "Home", href: "/" },
     { name: "Free Mock Test", href: "/free-mock-test" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   const isActive = (href: string) => location.pathname === href;

@@ -21,6 +21,7 @@ import MockTestAnalysis from "./pages/MockTestAnalysis";
 import Schedule from "./pages/Schedule";
 import Profile from "./pages/Profile";
 import PhysicalEducation from "./pages/PhysicalEducation";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -134,6 +135,10 @@ const AppContent = () => {
                   <PhysicalEducation />
                 </ProtectedRoute>
               } 
+            />
+            <Route 
+              path="/contact" 
+              element={<Contact />} 
             />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
