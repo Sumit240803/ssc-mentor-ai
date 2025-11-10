@@ -73,7 +73,7 @@ const MockTestAnalysis: React.FC = () => {
   // API call functions (similar to MockTest.tsx)
   const getMotivation = async (percentage: number): Promise<{ message: string } | null> => {
     try {
-      const response = await fetch('https://sscb-backend-api.onrender.com/motivation', {
+      const response = await fetch('https://sscb-backend-api.onrender.com/motivate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
