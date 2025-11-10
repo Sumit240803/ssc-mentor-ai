@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { useMockTestResults, MockTestResult } from "@/hooks/useMockTestResults";
 import { 
   ArrowLeft, 
@@ -15,9 +17,14 @@ import {
   TrendingUp,
   BarChart3,
   Target,
-  Calendar
+  Calendar,
+  Brain
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+interface MockTestAnalysis {
+  analysis: string;
+}
 
 const MockTestAnalysis: React.FC = () => {
   const { testName } = useParams<{ testName: string }>();
@@ -25,6 +32,10 @@ const MockTestAnalysis: React.FC = () => {
   const { getTestAttempts, loading } = useMockTestResults();
   const [attempts, setAttempts] = useState<MockTestResult[]>([]);
   const [selectedAttempt, setSelectedAttempt] = useState<MockTestResult | null>(null);
+  const [motivation, setMotivation] = useState<{ message: string } | null>(null);
+  const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
+  const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
+  const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
 
   useEffect(() => {
     if (testName) {
@@ -36,6 +47,76 @@ const MockTestAnalysis: React.FC = () => {
       }
     }
   }, [testName, getTestAttempts]);
+
+  // Fetch motivation and analysis when attempt is selected
+  useEffect(() => {
+    const fetchMotivationAndAnalysis = async () => {
+      if (selectedAttempt && !motivation && !isLoadingMotivation && !isLoadingAnalysis) {
+        // First, fetch motivation
+        setIsLoadingMotivation(true);
+        const motivationResult = await getMotivation(selectedAttempt.percentage);
+        setMotivation(motivationResult);
+        setIsLoadingMotivation(false);
+
+        // Then, fetch analysis
+        setIsLoadingAnalysis(true);
+        const analysisResult = await getAnalysis();
+        setAnalysis(analysisResult);
+        setIsLoadingAnalysis(false);
+      }
+    };
+
+    fetchMotivationAndAnalysis();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedAttempt]);
+
+  // API call functions (similar to MockTest.tsx)
+  const getMotivation = async (percentage: number): Promise<{ message: string } | null> => {
+    try {
+      const response = await fetch('https://sscb-backend-api.onrender.com/motivation', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ percentage }),
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Failed to get motivation: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error getting motivation:', error);
+      return null;
+    }
+  };
+
+  const getAnalysis = async (): Promise<MockTestAnalysis | null> => {
+    try {
+      const response = await fetch('https://sscb-backend-api.onrender.com/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `Analyze my mock test performance. I scored ${selectedAttempt?.correct_answers} correct out of ${selectedAttempt?.total_questions} questions (${selectedAttempt?.percentage}%). I got ${selectedAttempt?.incorrect_answers} incorrect and ${selectedAttempt?.unanswered_questions} unanswered. Time taken: ${formatTime(selectedAttempt?.time_taken_seconds || 0)}. Please provide detailed analysis and suggestions for improvement.`,
+          subject: 'Mock Test Analysis'
+        }),
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Failed to get analysis: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      return { analysis: data.response || data.message };
+    } catch (error) {
+      console.error('Error getting analysis:', error);
+      return null;
+    }
+  };
 
   const formatTime = (seconds: number): string => {
     const minutes = Math.floor(seconds / 60);
@@ -153,7 +234,12 @@ const MockTestAnalysis: React.FC = () => {
                     key={attempt.id}
                     variant={selectedAttempt.id === attempt.id ? "default" : "outline"}
                     size="sm"
-                    onClick={() => setSelectedAttempt(attempt)}
+                    onClick={() => {
+                      setSelectedAttempt(attempt);
+                      // Clear previous motivation and analysis when switching attempts
+                      setMotivation(null);
+                      setAnalysis(null);
+                    }}
                   >
                     Attempt {attempts.length - index}
                     <Badge variant="secondary" className="ml-2">
@@ -278,6 +364,60 @@ const MockTestAnalysis: React.FC = () => {
             </CardContent>
           </Card>
         )}
+
+        {/* Motivation Section */}
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Award className="h-6 w-6 text-primary" />
+              Motivation
+            </CardTitle>
+            <CardDescription>A message to keep you motivated</CardDescription>
+          </CardHeader>
+          <CardContent>
+            {isLoadingMotivation ? (
+              <div className="flex flex-col items-center justify-center py-12">
+                <LoadingSpinner size="lg" className="mb-4" />
+                <p className="text-muted-foreground">Getting your motivation message...</p>
+              </div>
+            ) : motivation ? (
+              <div className="prose prose-sm dark:prose-invert max-w-none">
+                <p className="whitespace-pre-line leading-relaxed">{motivation.message}</p>
+              </div>
+            ) : (
+              <div className="text-center py-8 text-muted-foreground">
+                Unable to load motivation message. Please try again later.
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* AI Analysis Section */}
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Brain className="h-6 w-6 text-primary" />
+              AI Analysis
+            </CardTitle>
+            <CardDescription>Personalized insights about your performance</CardDescription>
+          </CardHeader>
+          <CardContent>
+            {isLoadingAnalysis ? (
+              <div className="flex flex-col items-center justify-center py-12">
+                <LoadingSpinner size="lg" className="mb-4" />
+                <p className="text-muted-foreground">Analyzing your performance...</p>
+              </div>
+            ) : analysis ? (
+              <div className="prose prose-sm dark:prose-invert max-w-none">
+                <ReactMarkdown>{analysis.analysis}</ReactMarkdown>
+              </div>
+            ) : (
+              <div className="text-center py-8 text-muted-foreground">
+                Unable to load analysis. Please try again later.
+              </div>
+            )}
+          </CardContent>
+        </Card>
 
         {/* Action Buttons */}
         <div className="flex gap-4 justify-center">

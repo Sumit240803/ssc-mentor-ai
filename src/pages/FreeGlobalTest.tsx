@@ -88,7 +88,7 @@ const FreeGlobalTest = () => {
             Free Mock Test
           </h1>
           <p className="text-muted-foreground text-lg">
-            Try our first complete mock test for free! Get access to full-length practice test to experience our platform.
+            Try our first complete mock test for free! Sign up to get access to full-length practice test and experience our platform.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const FreeGlobalTest = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Start Your Preparation Journey</h3>
                 <p className="text-muted-foreground mb-4">
-                  Our first mock test is completely free! Experience the full exam pattern, get instant results, 
+                  Our first mock test is completely free! Sign up to experience the full exam pattern, get instant results, 
                   AI-powered analysis, and detailed solutions. Upgrade to unlock all 25+ mock tests.
                 </p>
                 <div className="flex gap-4 text-sm">

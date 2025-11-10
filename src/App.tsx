@@ -29,9 +29,13 @@ const queryClient = new QueryClient();
 const MockTestWrapper = () => {
   const { testId } = useParams<{ testId: string }>();
   
-  // Allow free access to Mock Test 1
+  // Allow free access to Mock Test 1 but still require authentication
   if (testId === 'Complete_mock-test_1') {
-    return <MockTest />;
+    return (
+      <ProtectedRoute requirePayment={false}>
+        <MockTest />
+      </ProtectedRoute>
+    );
   }
   
   // Require authentication and payment for other tests
