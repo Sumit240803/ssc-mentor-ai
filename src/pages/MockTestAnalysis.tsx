@@ -78,7 +78,7 @@ const MockTestAnalysis: React.FC = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ percentage }),
+        body: JSON.stringify({motivation_score : percentage }),
       });
       
       if (!response.ok) {
