@@ -93,7 +93,7 @@ const MockTestsList: React.FC = () => {
                 totalQuestions,
                 comingSoon: false,
                 hasAttempted,
-                lastAttemptScore: lastAttempt?.correct_answers,
+                lastAttemptScore: lastAttempt?.score,
                 lastAttemptPercentage: lastAttempt?.percentage,
               };
             } catch (error) {
@@ -217,7 +217,7 @@ const MockTestsList: React.FC = () => {
                         <div className="p-3 bg-muted rounded-lg border">
                           <div className="text-xs text-muted-foreground mb-1">Last Attempt</div>
                           <div className="flex items-center justify-between">
-                            <span className="text-sm font-medium">Score: {test.lastAttemptScore}/{test.totalQuestions}</span>
+                            <span className="text-sm font-medium">Score: {test.lastAttemptScore}/100</span>
                             <Badge variant={test.lastAttemptPercentage >= 60 ? "default" : "destructive"}>
                               {test.lastAttemptPercentage}%
                             </Badge>
