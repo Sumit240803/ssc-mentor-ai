@@ -360,6 +360,19 @@ export const useMockTest = (testFileName?: string) => {
     const question = testState.questions.find(q => q.id === questionId);
     if (!question) return;
 
+    // If selectedOption is empty, remove the answer from userAnswers
+    if (!selectedOption || selectedOption === '') {
+      setTestState(prev => {
+        const newUserAnswers = { ...prev.userAnswers };
+        delete newUserAnswers[questionId];
+        return {
+          ...prev,
+          userAnswers: newUserAnswers,
+        };
+      });
+      return;
+    }
+
     const correctAnswer = testState.language === 'hindi' 
       ? question['answer-hindi'] 
       : question['answer-english'];

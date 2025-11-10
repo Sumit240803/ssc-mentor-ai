@@ -81,19 +81,8 @@ const FeatureInfoModal: React.FC<FeatureInfoModalProps> = ({ open, onOpenChange 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
-        <DialogHeader className="relative">
-          <div className="absolute -top-2 -right-2">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => onOpenChange(false)}
-              className="h-8 w-8 p-0 hover:bg-muted rounded-full"
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          </div>
-          
-          <div className="text-center space-y-4 pr-8">
+        <DialogHeader>
+          <div className="text-center space-y-4">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-primary to-purple-600 rounded-2xl shadow-lg">
               <Sparkles className="w-8 h-8 text-white" />
             </div>
