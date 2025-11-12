@@ -116,8 +116,14 @@ const Landing = () => {
           initial="hidden"
           animate="visible"
           custom={2}
-          className="mt-10 flex gap-4"
+          className="mt-10 flex gap-4 flex-wrap justify-center"
         >
+          <a
+            href="/demo"
+            className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-lg hover:scale-105 transition"
+          >
+            Watch Demo
+          </a>
           <a
             href="/free-mock-test"
             className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:scale-105 transition"

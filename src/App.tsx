@@ -22,6 +22,7 @@ import Schedule from "./pages/Schedule";
 import Profile from "./pages/Profile";
 import PhysicalEducation from "./pages/PhysicalEducation";
 import Contact from "./pages/Contact";
+import Demo from "./pages/Demo";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -59,6 +60,7 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/demo" element={<Demo />} />
         <Route path="/free-mock-test" element={<FreeGlobalTest />} />
             <Route 
               path="/pricing" 
