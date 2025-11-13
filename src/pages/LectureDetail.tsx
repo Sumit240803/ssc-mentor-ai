@@ -45,11 +45,19 @@ const LectureDetail = () => {
       
       // Check if it's an RTF file
       if (url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf')) {
-        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${url}&output_format=text`;
+        const apiUrl = `https://sscb-backend-api.onrender.com/rtf/extract/?file_url=${encodeURIComponent(url)}&output_format=text`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         setContent(data.content || "Failed to load RTF content");
-      } else {
+      } 
+      // Check if it's a DOCX file
+      else if (url.toLowerCase().endsWith('.docx') || url.toLowerCase().includes('.docx')) {
+        const apiUrl = `https://sscb-backend-api.onrender.com/docx/extract/?file_url=${encodeURIComponent(url)}&output_format=text`;
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        setContent(data.content || "Failed to load DOCX content");
+      } 
+      else {
         const response = await fetch(url);
         const text = await response.text();
         setContent(text);
@@ -83,7 +91,8 @@ const LectureDetail = () => {
 
   useEffect(() => {
     const isRtfFile = url.toLowerCase().endsWith('.rtf') || type.includes('rtf');
-    if ((type.includes("text") || isRtfFile) && url) {
+    const isDocxFile = url.toLowerCase().endsWith('.docx') || type.includes('docx');
+    if ((type.includes("text") || isRtfFile || isDocxFile) && url) {
       fetchTextContent();
     } else {
       setLoading(false);
@@ -226,7 +235,7 @@ const highlightedContent = useMemo(() => {
                   </div>
                 )}
               </div>
-            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf')) ? (
+            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf') || url.toLowerCase().endsWith('.docx') || url.toLowerCase().includes('.docx')) ? (
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
