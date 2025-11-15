@@ -408,7 +408,7 @@ const Pricing = () => {
             🔒 Secure payment powered by Razorpay • 256-bit SSL encryption
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-xs text-muted-foreground">
-            <span className="flex items-center gap-1">🏆 Best AI Learning Platform 2024</span>
+            <span className="flex items-center gap-1">🏆 Best AI Learning Platform 2025</span>
             <span className="flex items-center gap-1">🛡️ ISO 27001 Certified</span>
             <span className="flex items-center gap-1">⚡ 99.9% Uptime Guarantee</span>
             <span className="flex items-center gap-1">💯 30-Day Money Back</span>
