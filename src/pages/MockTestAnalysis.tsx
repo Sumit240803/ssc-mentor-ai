@@ -7,6 +7,9 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useMockTestResults, MockTestResult } from "@/hooks/useMockTestResults";
 import { 
   ArrowLeft, 
@@ -18,12 +21,31 @@ import {
   BarChart3,
   Target,
   Calendar,
-  Brain
+  Brain,
+  BookOpen,
+  ChevronLeft,
+  ChevronRight
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface MockTestAnalysis {
   analysis: string;
+}
+
+interface Question {
+  id: string;
+  "question-hindi": string;
+  "question-english": string;
+  "options-hindi": string[];
+  "options-english": string[];
+  "answer-hindi": string;
+  "answer-english": string;
+  "question-image"?: string;
+}
+
+interface Section {
+  section: string;
+  questions: Question[];
 }
 
 const MockTestAnalysis: React.FC = () => {
@@ -36,6 +58,10 @@ const MockTestAnalysis: React.FC = () => {
   const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
   const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
   const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
+  const [showReview, setShowReview] = useState(false);
+  const [reviewQuestions, setReviewQuestions] = useState<Question[]>([]);
+  const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
+  const [isLoadingReview, setIsLoadingReview] = useState(false);
 
   useEffect(() => {
     if (testName) {
@@ -158,6 +184,31 @@ const MockTestAnalysis: React.FC = () => {
     }
     // Fallback: convert the test name to filename format
     return testName.toLowerCase().replace(/\s+/g, '-');
+  };
+
+  const loadReviewQuestions = async () => {
+    if (!selectedAttempt) return;
+    
+    setIsLoadingReview(true);
+    try {
+      const fileName = getTestFileName(selectedAttempt.test_name);
+      const response = await fetch(`/${fileName}.json`);
+      if (!response.ok) throw new Error('Failed to load test');
+      
+      const data: { mockTest: Section[] } = await response.json();
+      const allQuestions: Question[] = [];
+      data.mockTest.forEach((section) => {
+        allQuestions.push(...section.questions);
+      });
+      
+      setReviewQuestions(allQuestions);
+      setCurrentReviewIndex(0);
+      setShowReview(true);
+    } catch (error) {
+      console.error('Error loading review:', error);
+    } finally {
+      setIsLoadingReview(false);
+    }
   };
 
   if (loading) {
@@ -420,7 +471,15 @@ const MockTestAnalysis: React.FC = () => {
         </Card>
 
         {/* Action Buttons */}
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center flex-wrap">
+          <Button 
+            size="lg"
+            onClick={loadReviewQuestions}
+            disabled={isLoadingReview}
+          >
+            <BookOpen className="h-4 w-4 mr-2" />
+            {isLoadingReview ? "Loading..." : "Review Mock Test"}
+          </Button>
           <Button 
             size="lg"
             onClick={() => navigate(`/mock-test/${getTestFileName(selectedAttempt.test_name)}`)}
@@ -435,6 +494,134 @@ const MockTestAnalysis: React.FC = () => {
             All Mock Tests
           </Button>
         </div>
+
+        {/* Review Dialog */}
+        <Dialog open={showReview} onOpenChange={setShowReview}>
+          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+            <DialogHeader>
+              <DialogTitle className="flex items-center gap-2">
+                <BookOpen className="h-5 w-5" />
+                Review Mock Test - Question {currentReviewIndex + 1} of {reviewQuestions.length}
+              </DialogTitle>
+            </DialogHeader>
+            
+            {reviewQuestions.length > 0 && (
+              <div className="space-y-6">
+                {(() => {
+                  const currentQuestion = reviewQuestions[currentReviewIndex];
+                  const questionText = currentQuestion["question-hindi"];
+                  const options = currentQuestion["options-hindi"];
+                  const correctAnswer = currentQuestion["answer-hindi"];
+                  const hasQuestionImage = currentQuestion["question-image"];
+                  const isQuestionTextUrl = questionText.startsWith("http://") || questionText.startsWith("https://");
+
+                  return (
+                    <>
+                      {/* Question */}
+                      <Card>
+                        <CardHeader>
+                          <CardTitle className="text-lg">Question {currentReviewIndex + 1}</CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                          {hasQuestionImage && (
+                            <div className="mb-4">
+                              <img 
+                                src={currentQuestion["question-image"]} 
+                                alt="Question" 
+                                className="max-w-full h-auto rounded-lg border"
+                              />
+                            </div>
+                          )}
+                          
+                          <div className="mb-6">
+                            {hasQuestionImage ? (
+                              <p className="text-base leading-relaxed">{questionText}</p>
+                            ) : isQuestionTextUrl ? (
+                              <img 
+                                src={questionText} 
+                                alt="Question" 
+                                className="max-w-full h-auto rounded-lg border"
+                              />
+                            ) : (
+                              <p style={{ whiteSpace: 'pre-line' }} className="text-base leading-relaxed">{questionText}</p>
+                            )}
+                          </div>
+
+                          <RadioGroup value={correctAnswer} disabled>
+                            {options.map((option, index) => {
+                              const isCorrectOption = option === correctAnswer;
+
+                              return (
+                                <div
+                                  key={index}
+                                  className={cn(
+                                    "p-4 rounded-lg border-2 transition-colors",
+                                    isCorrectOption && "border-green-500 bg-green-50 dark:bg-green-950",
+                                    !isCorrectOption && "border-border"
+                                  )}
+                                >
+                                  <div className="flex items-start gap-3">
+                                    <RadioGroupItem
+                                      value={option}
+                                      id={`option-${index}`}
+                                      className="mt-1"
+                                    />
+                                    <Label
+                                      htmlFor={`option-${index}`}
+                                      className="flex-1 cursor-pointer text-base leading-relaxed"
+                                    >
+                                      {option}
+                                    </Label>
+                                    {isCorrectOption && (
+                                      <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                                    )}
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </RadioGroup>
+
+                          {/* Correct Answer Indicator */}
+                          <div className="mt-4 p-4 rounded-lg bg-muted">
+                            <p className="text-sm text-green-600">
+                              <CheckCircle className="h-4 w-4 inline mr-2" />
+                              Correct Answer: {correctAnswer}
+                            </p>
+                          </div>
+                        </CardContent>
+                      </Card>
+
+                      {/* Navigation */}
+                      <div className="flex justify-between items-center pt-4">
+                        <Button
+                          variant="outline"
+                          onClick={() => setCurrentReviewIndex(Math.max(0, currentReviewIndex - 1))}
+                          disabled={currentReviewIndex === 0}
+                        >
+                          <ChevronLeft className="h-4 w-4 mr-2" />
+                          Previous
+                        </Button>
+                        
+                        <span className="text-sm text-muted-foreground">
+                          {currentReviewIndex + 1} / {reviewQuestions.length}
+                        </span>
+
+                        <Button
+                          variant="outline"
+                          onClick={() => setCurrentReviewIndex(Math.min(reviewQuestions.length - 1, currentReviewIndex + 1))}
+                          disabled={currentReviewIndex === reviewQuestions.length - 1}
+                        >
+                          Next
+                          <ChevronRight className="h-4 w-4 ml-2" />
+                        </Button>
+                      </div>
+                    </>
+                  );
+                })()}
+              </div>
+            )}
+          </DialogContent>
+        </Dialog>
       </div>
     </div>
   );
