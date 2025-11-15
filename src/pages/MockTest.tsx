@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { toast } from "sonner";
 import {
   Clock,
@@ -28,14 +29,17 @@ import {
   ZoomOut,
   Pause,
   Play,
+  Menu,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
   const navigate = useNavigate();
+  const isMobile = useIsMobile();
   const [motivation, setMotivation] = useState<{ message: string } | null>(null);
   const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
   const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
@@ -44,6 +48,7 @@ const MockTest: React.FC = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [markedForReview, setMarkedForReview] = useState<Set<number>>(new Set());
   const [showRestoredNotification, setShowRestoredNotification] = useState(false);
+  const [mobileSheetOpen, setMobileSheetOpen] = useState(false);
 
   const {
     mockTestData,
@@ -517,7 +522,7 @@ const MockTest: React.FC = () => {
       <div className="min-h-screen bg-background">
         {/* Top Header */}
         <div className="sticky top-0 z-50 bg-card border-b shadow-sm">
-          <div className="px-4 py-2">
+          <div className={cn("px-4 py-2", isMobile && "px-2")}>
             <div className="flex items-center justify-between">
               {/* Left: Zoom */}
               <div className="flex items-center gap-4">
@@ -526,7 +531,7 @@ const MockTest: React.FC = () => {
 
               {/* Center: Test Title */}
               <div className="text-center">
-                <h1 className="font-semibold text-lg">{mockTestData?.testName}</h1>
+                <h1 className={cn("font-semibold text-lg", isMobile && "text-sm")}>{mockTestData?.testName}</h1>
               </div>
 
               {/* Right: Timer & User */}
@@ -545,12 +550,13 @@ const MockTest: React.FC = () => {
                   )}
                 </div>
                 <div className="text-center">
-                  <div className="text-xs text-muted-foreground">{testState.isPaused ? "Paused" : "Time Left"}</div>
+                  <div className={cn("text-xs text-muted-foreground", isMobile && "text-[10px]")}>{testState.isPaused ? "Paused" : "Time Left"}</div>
                   <div
                     className={cn(
                       "font-mono font-bold text-xl",
                       testState.timeRemaining < 300 && "text-destructive",
                       testState.isPaused && "text-yellow-600",
+                      isMobile && "text-base"
                     )}
                   >
                     {formatTime(testState.timeRemaining)}
@@ -563,10 +569,10 @@ const MockTest: React.FC = () => {
 
           {/* Instructions & Sections Tabs */}
           <div className="border-t">
-            <div className="px-4 py-2 flex justify-between items-center gap-4">
+            <div className={cn("px-4 py-2 flex justify-between items-center gap-4", isMobile && "px-2 overflow-x-auto")}>
            
 
-              <div className="flex justify-between m-auto gap-10">
+              <div className={cn("flex justify-between m-auto gap-10", isMobile && "gap-2 m-0")}>
                 {sections.map((section, index) => {
                   const isActive = section.section === currentSection;
                   return (
@@ -575,7 +581,7 @@ const MockTest: React.FC = () => {
                       variant={isActive ? "default" : "outline"}
                       size="sm"
                       onClick={() => handleSectionChange(section.section)}
-                      className={cn("text-xs px-3", isActive && "bg-blue-600 text-white hover:bg-blue-700")}
+                      className={cn("text-xs px-3", isActive && "bg-blue-600 text-white hover:bg-blue-700", isMobile && "px-2 text-xs")}
                     >
                       PART-{String.fromCharCode(65 + index)}
                     </Button>
@@ -587,8 +593,8 @@ const MockTest: React.FC = () => {
         </div>
 
         <div className="flex">
-          {/* Left Sidebar - Question Numbers */}
-          {!sidebarCollapsed && (
+          {/* Left Sidebar - Question Numbers (Desktop Only) */}
+          {!isMobile && !sidebarCollapsed && (
             <div className="w-64 border-r bg-card">
               <div className="p-4 border-b bg-muted">
                 <div className="flex items-center justify-between">
@@ -668,7 +674,7 @@ const MockTest: React.FC = () => {
             </div>
           )}
 
-          {sidebarCollapsed && (
+          {!isMobile && sidebarCollapsed && (
             <div className="w-12 border-r bg-card flex items-start justify-center pt-4">
               <ChevronRight
                 className="h-5 w-5 cursor-pointer text-primary"
@@ -678,8 +684,8 @@ const MockTest: React.FC = () => {
           )}
 
           {/* Main Content */}
-          <div className="flex-1 p-6">
-            <div className="max-w-5xl mx-auto">
+          <div className={cn("flex-1 p-6", isMobile && "p-4")}>
+            <div className={cn("max-w-5xl mx-auto", isMobile && "max-w-full")}>
               {/* Question Header */}
               <div className="mb-4">
                 <h2 className="text-xl font-semibold">Question No. {testState.currentQuestionIndex + 1}</h2>
@@ -850,33 +856,35 @@ const MockTest: React.FC = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex items-center justify-center gap-3">
+              <div className={cn("flex items-center justify-center gap-3", isMobile && "flex-wrap gap-2")}>
                 {!testState.isReviewMode && (
                   <>
                     <Button
                       variant="outline"
+                      size={isMobile ? "sm" : "default"}
                       onClick={previousQuestion}
                       disabled={testState.currentQuestionIndex === 0}
                     >
                       <ChevronLeft className="h-4 w-4 mr-2" />
-                      Previous
+                      {!isMobile && "Previous"}
                     </Button>
                     <Button
                       variant="outline"
+                      size={isMobile ? "sm" : "default"}
                       onClick={toggleMarkForReview}
                       className={markedForReview.has(currentQuestion.id) ? "bg-purple-100 dark:bg-purple-900" : ""}
                     >
                       <Flag className="h-4 w-4 mr-2" />
-                      Mark for Review
+                      {!isMobile && "Mark for Review"}
                     </Button>
-                    <Button variant="default" onClick={saveAndNext}>
-                      Save & Next
+                    <Button variant="default" size={isMobile ? "sm" : "default"} onClick={saveAndNext}>
+                      {isMobile ? "Next" : "Save & Next"}
                     </Button>
-                    <Button variant="outline" onClick={clearSelection}>
-                      Clear Selection
+                    <Button variant="outline" size={isMobile ? "sm" : "default"} onClick={clearSelection}>
+                      {isMobile ? "Clear" : "Clear Selection"}
                     </Button>
-                    <Button variant="destructive" onClick={submitTest}>
-                      Submit Test
+                    <Button variant="destructive" size={isMobile ? "sm" : "default"} onClick={submitTest}>
+                      Submit
                     </Button>
                   </>
                 )}
@@ -884,6 +892,7 @@ const MockTest: React.FC = () => {
                   <>
                     <Button
                       variant="outline"
+                      size={isMobile ? "sm" : "default"}
                       onClick={previousQuestion}
                       disabled={testState.currentQuestionIndex === 0}
                     >
@@ -892,13 +901,14 @@ const MockTest: React.FC = () => {
                     </Button>
                     <Button
                       variant="outline"
+                      size={isMobile ? "sm" : "default"}
                       onClick={nextQuestion}
                       disabled={testState.currentQuestionIndex === testState.questions.length - 1}
                     >
                       Next
                       <ChevronRight className="h-4 w-4 ml-2" />
                     </Button>
-                    <Button onClick={() => navigate("/mock-tests")} variant="default">
+                    <Button onClick={() => navigate("/mock-tests")} variant="default" size={isMobile ? "sm" : "default"}>
                       Back to Tests
                     </Button>
                   </>
@@ -907,42 +917,173 @@ const MockTest: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Sidebar - Stats */}
-          <div className="w-80 border-l bg-card p-4">
-            <div className="space-y-4">
-              <div className="text-center p-4 bg-muted rounded-lg">
-                <div className="text-sm text-muted-foreground mb-1">Total Questions Answered</div>
-                <div className="text-3xl font-bold text-orange-600">{answeredCount}</div>
-                <div className="text-sm font-semibold text-orange-600">
-                  Last {Math.floor(mockTestData?.duration || 90)} Minutes
+          {/* Right Sidebar - Stats (Desktop Only) */}
+          {!isMobile && (
+            <div className="w-80 border-l bg-card p-4">
+              <div className="space-y-4">
+                <div className="text-center p-4 bg-muted rounded-lg">
+                  <div className="text-sm text-muted-foreground mb-1">Total Questions Answered</div>
+                  <div className="text-3xl font-bold text-orange-600">{answeredCount}</div>
+                  <div className="text-sm font-semibold text-orange-600">
+                    Last {Math.floor(mockTestData?.duration || 90)} Minutes
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between text-sm">
+                    <span>Select Language</span>
+                    <ToggleGroup
+                      type="single"
+                      value={testState.language}
+                      onValueChange={(value) => value && switchLanguage(value as Language)}
+                      size="sm"
+                    >
+                      <ToggleGroupItem value="english" aria-label="English" className="text-xs">
+                        English
+                      </ToggleGroupItem>
+                      <ToggleGroupItem value="hindi" aria-label="Hindi" className="text-xs">
+                        हिंदी
+                      </ToggleGroupItem>
+                    </ToggleGroup>
+                  </div>
+                  <Button variant="outline" size="sm" className="w-full justify-start">
+                    <Flag className="h-4 w-4 mr-2" />
+                    Report
+                  </Button>
                 </div>
               </div>
+            </div>
+          )}
+        </div>
 
-              <div className="space-y-2">
-                <div className="flex items-center justify-between text-sm">
-                  <span>Select Language</span>
+        {/* Mobile Question Navigation Sheet */}
+        {isMobile && (
+          <Sheet open={mobileSheetOpen} onOpenChange={setMobileSheetOpen}>
+            <SheetTrigger asChild>
+              <Button
+                size="lg"
+                className="fixed bottom-6 right-6 z-50 h-14 w-14 rounded-full shadow-lg"
+              >
+                <Menu className="h-6 w-6" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="bottom" className="h-[80vh] overflow-y-auto">
+              <div className="space-y-4 py-4">
+                <h3 className="text-lg font-semibold">Question Navigation</h3>
+                
+                {/* Section Tabs */}
+                <div className="flex flex-wrap gap-2">
+                  {sections.map((section, index) => {
+                    const isActive = section.section === currentSection;
+                    return (
+                      <Button
+                        key={section.section}
+                        variant={isActive ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => {
+                          handleSectionChange(section.section);
+                          setMobileSheetOpen(false);
+                        }}
+                        className={cn("text-xs px-3", isActive && "bg-blue-600 text-white hover:bg-blue-700")}
+                      >
+                        PART-{String.fromCharCode(65 + index)}
+                      </Button>
+                    );
+                  })}
+                </div>
+
+                {/* Question Grid */}
+                <div className="grid grid-cols-5 gap-2">
+                  {testState.questions.map((question, index) => {
+                    const userAnswer = testState.userAnswers[question.id];
+                    const isCurrent = index === testState.currentQuestionIndex;
+                    const isAnswered = !!userAnswer;
+                    const isMarked = markedForReview.has(question.id);
+                    const isCorrect = userAnswer?.isCorrect;
+
+                    return (
+                      <button
+                        key={question.id}
+                        onClick={() => {
+                          goToQuestion(index);
+                          setMobileSheetOpen(false);
+                        }}
+                        className={cn(
+                          "aspect-square rounded text-sm font-semibold transition-all",
+                          isCurrent && "ring-2 ring-primary ring-offset-2",
+                          testState.isReviewMode && isAnswered && !isMarked && isCorrect && "bg-green-600 text-white",
+                          testState.isReviewMode && isAnswered && !isMarked && !isCorrect && "bg-red-600 text-white",
+                          !testState.isReviewMode && isAnswered && !isMarked && "bg-green-600 text-white",
+                          isMarked && "bg-purple-600 text-white",
+                          !isAnswered && !isMarked && "bg-muted hover:bg-muted/80",
+                        )}
+                      >
+                        {index + 1}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Section Analysis */}
+                {testState.isReviewMode && (
+                  <div className="p-4 border rounded-lg bg-muted/50">
+                    <div className="text-sm font-semibold mb-2">{currentSection} Analysis</div>
+                    <div className="space-y-1 text-xs">
+                      <div className="flex justify-between">
+                        <span>Answered</span>
+                        <span className="px-2 py-1 bg-blue-600 text-white rounded text-xs font-semibold">
+                          {getSectionStats(currentSection).answered}
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Correct</span>
+                        <span className="px-2 py-1 bg-green-600 text-white rounded text-xs font-semibold">
+                          {getSectionStats(currentSection).correct}
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Incorrect</span>
+                        <span className="px-2 py-1 bg-red-600 text-white rounded text-xs font-semibold">
+                          {getSectionStats(currentSection).incorrect}
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Not Answered</span>
+                        <span className="px-2 py-1 bg-muted rounded text-xs font-semibold">
+                          {getSectionStats(currentSection).total - getSectionStats(currentSection).answered}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* Language Selection (Mobile) */}
+                <div className="space-y-2">
+                  <div className="text-sm font-semibold">Select Language</div>
                   <ToggleGroup
                     type="single"
                     value={testState.language}
                     onValueChange={(value) => value && switchLanguage(value as Language)}
-                    size="sm"
+                    className="justify-start"
                   >
-                    <ToggleGroupItem value="english" aria-label="English" className="text-xs">
+                    <ToggleGroupItem value="english" aria-label="English">
                       English
                     </ToggleGroupItem>
-                    <ToggleGroupItem value="hindi" aria-label="Hindi" className="text-xs">
+                    <ToggleGroupItem value="hindi" aria-label="Hindi">
                       हिंदी
                     </ToggleGroupItem>
                   </ToggleGroup>
                 </div>
-                <Button variant="outline" size="sm" className="w-full justify-start">
-                  <Flag className="h-4 w-4 mr-2" />
-                  Report
-                </Button>
+
+                {/* Stats (Mobile) */}
+                <div className="text-center p-4 bg-muted rounded-lg">
+                  <div className="text-sm text-muted-foreground mb-1">Total Questions Answered</div>
+                  <div className="text-3xl font-bold text-orange-600">{answeredCount}</div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </SheetContent>
+          </Sheet>
+        )}
       </div>
     );
   }
