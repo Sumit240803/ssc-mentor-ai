@@ -261,7 +261,7 @@
               "question-hindi": " 69वें फिल्मफेयर अवार्ड्स 2024 में सर्वश्रेष्ठ अभिनेता और अभिनेत्री (पुरुष और महिला) का पुरस्कार किसने जीता?",
               "question-english" : "Who won the Best Actor and Actress in a Leading Role (Male & Female) at the 69th Filmfare Awards 2024?",
               "options-hindi": ["(a) रणबीर कपूर और आलिया भट्ट", "(b) विक्रांत मैसी और आलिया भट्ट", "(c) शाहरुख खान और दीपिका पादुकोण", "(d) सलमान खान और दीपिका पादुकोण"],
-              "options-english": ["a) Ranbir Kapoor and Alia Bhatt", "(b) Vikrant Massey and Alia Bhatt", "(c) Shahrukh Khan and Deepika Padukone", "(d) Salman Khan and Deepika Padukone"],
+              "options-english": ["(a) Ranbir Kapoor and Alia Bhatt", "(b) Vikrant Massey and Alia Bhatt", "(c) Shahrukh Khan and Deepika Padukone", "(d) Salman Khan and Deepika Padukone"],
               "answer-hindi": "(a) रणबीर कपूर और आलिया भट्ट",
               "answer-english": "(a) Ranbir Kapoor and Alia Bhatt",
               "solution-hindi": "समाधान: 69वें फिल्मफेयर अवार्ड्स 2024 में, रणबीर कपूर ने एनिमल के लिए सर्वश्रेष्ठ अभिनेता (पुरुष) का पुरस्कार जीता, और आलिया भट्ट ने रॉकी और रानी की प्रेम कहानी के लिए सर्वश्रेष्ठ अभिनेत्री (महिला) का पुरस्कार जीता।",
@@ -298,8 +298,8 @@
               "question-english" : "The tableau titled india: Mother of Democracy secured the top position at the Republic Day Celebration Parade 2024. It was created by which ministry?",
               "options-hindi": ["(a) गृह मंत्रालय", "(b) संस्कृति मंत्रालय", "(c) रक्षा मंत्रालय", "(d) सूचना एवं प्रसारण मंत्रालय"],
               "options-english": ["(a) Ministry of Home Affairs", "(b) Ministry of Culture", "(c) Ministry of Defence", "(d) Ministry of Information and Broadcasting"],
-              "answer-hindi": "(c) संस्कृति मंत्रालय",
-              "answer-english": "(c) Ministry of Culture",
+              "answer-hindi": "(b) संस्कृति मंत्रालय",
+              "answer-english": "(b) Ministry of Culture",
               "solution-hindi": "समाधान: भारत: लोकतंत्र की जननी शीर्षक वाली झांकी, जिसने भारत की समृद्ध लोकतांत्रिक परंपराओं को दर्शाया, ने गणतंत्र दिवस परेड 2024 में शीर्ष स्थान प्राप्त किया और इसे संस्कृति मंत्रालय द्वारा प्रस्तुत किया गया था।",
               "solution-english": "Solution: The tableau titled India: Mother of Democracy, which depicted the rich democratic traditions of India, secured the top position in the Republic Day Parade 2024 and was presented by the Ministry of Culture."
             },{
