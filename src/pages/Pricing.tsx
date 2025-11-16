@@ -81,7 +81,7 @@ const Pricing = () => {
 
       console.log("Payment record created:", paymentData);
       console.log("Razorpay available:", !!window.Razorpay);
-      const order = await fetch("https://exam-prep-backend-6sjl.onrender.com/create-order",{
+      const order = await fetch("https://exam-prep-backend-two.vercel.app/create-order",{
         method: "POST",
         headers: {
           "Content-Type": "application/json",
