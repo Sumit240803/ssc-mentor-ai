@@ -91,7 +91,7 @@ const Pricing = () => {
 
       // Initialize Razorpay
       const options = {
-        key: "rzp_live_RcRJf28FZHBS5O",
+        key: "rzp_live_RgS0jYkw9iVW6U",
         amount: order.amount, // 499 paise
         currency: "INR",
         order_id : order.id,
