@@ -50,13 +50,6 @@ const LectureDetail = () => {
         const data = await response.json();
         setContent(data.content || "Failed to load RTF content");
       } 
-      // Check if it's a DOCX file
-      else if (url.toLowerCase().endsWith('.docx') || url.toLowerCase().includes('.docx')) {
-        const apiUrl = `https://sscb-backend-api.onrender.com/docx/extract/?file_url=${encodeURIComponent(url)}&output_format=text`;
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-        setContent(data.content || "Failed to load DOCX content");
-      } 
       else {
         const response = await fetch(url);
         const text = await response.text();
@@ -92,7 +85,7 @@ const LectureDetail = () => {
   useEffect(() => {
     const isRtfFile = url.toLowerCase().endsWith('.rtf') || type.includes('rtf');
     const isDocxFile = url.toLowerCase().endsWith('.docx') || type.includes('docx');
-    if ((type.includes("text") || isRtfFile || isDocxFile) && url) {
+    if ((type.includes("text") || isRtfFile) && url && !isDocxFile) {
       fetchTextContent();
     } else {
       setLoading(false);
@@ -235,7 +228,15 @@ const highlightedContent = useMemo(() => {
                   </div>
                 )}
               </div>
-            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf') || url.toLowerCase().endsWith('.docx') || url.toLowerCase().includes('.docx')) ? (
+            ) : (url.toLowerCase().endsWith('.docx') || url.toLowerCase().includes('.docx')) ? (
+              <div className="w-full h-[800px] rounded-lg border bg-card overflow-hidden">
+                <iframe
+                  src={`https://docs.google.com/viewer?url=${encodeURIComponent(url)}&embedded=true`}
+                  className="w-full h-full"
+                  title={fileName}
+                />
+              </div>
+            ) : (type.includes("text") || url.toLowerCase().endsWith('.rtf') || url.toLowerCase().includes('.rtf')) ? (
               <ScrollArea className="h-[600px] w-full rounded-lg border bg-card">
                 <div className="p-8">
                   <div className="prose prose-base dark:prose-invert max-w-none">
