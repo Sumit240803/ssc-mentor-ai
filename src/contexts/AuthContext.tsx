@@ -40,6 +40,27 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         setSession(session);
         setUser(session?.user ?? null);
         setLoading(false);
+
+        // Register session on sign in
+        if (event === 'SIGNED_IN' && session) {
+          setTimeout(async () => {
+            try {
+              const response = await fetch('https://sscb-backend-api.onrender.com/sessions/store', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  access_token: session.access_token,
+                  user_agent: navigator.userAgent
+                })
+              });
+              if (!response.ok) {
+                console.error('Failed to register session');
+              }
+            } catch (error) {
+              console.error('Session registration error:', error);
+            }
+          }, 0);
+        }
       }
     );
 
@@ -110,6 +131,21 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const signOut = async () => {
     try {
       setLoading(true);
+      
+      // Logout session from backend
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.access_token) {
+        try {
+          await fetch('https://sscb-backend-api.onrender.com/sessions/logout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ access_token: session.access_token })
+          });
+        } catch (err) {
+          console.error('Failed to logout session from backend:', err);
+        }
+      }
+
       const { error } = await supabase.auth.signOut();
       if (!error) {
         setUser(null);
