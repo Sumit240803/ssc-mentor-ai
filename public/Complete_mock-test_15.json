@@ -275,8 +275,8 @@
         "(ग) Panthera tigris",
         "(घ) Canis Familiaris"
       ],
-      "answer-english": "c) Panthera tigris",
-      "answer-hindi": "ग) Panthera tigris",
+      "answer-english": "(c) Panthera tigris",
+      "answer-hindi": "(ग) Panthera tigris",
       "explanation-english": "According to the rules of binomial nomenclature mentioned in the text, the scientific name should be italicized. The first letter of the generic name (Genus) must be capitalized, and the first letter of the specific name (species) must be in lowercase. Panthera tigris is the only option that follows all these rules.",
       "explanation-hindi": "द्विपद नामकरण के नियमों के अनुसार, वैज्ञानिक नाम इटैलिक (तिरछे अक्षरों में) होना चाहिए। वंश के नाम (Genus) का पहला अक्षर बड़ा (कैपिटल) होना चाहिए, और प्रजाति के नाम (species) का पहला अक्षर छोटा (लोअरकेस) होना चाहिए। Panthera tigris ही एकमात्र विकल्प है जो इन सभी नियमों का पालन करता है."
     },
@@ -295,8 +295,8 @@
         "(C) हृदय पेशियाँ (Cardiac muscles)",
         "(D) तंत्रिका ऊतक (Nervous tissue)"
       ],
-      "answer-english": "C) Cardiac muscles",
-      "answer-hindi": "C) हृदय पेशियाँ",
+      "answer-english": "(C) Cardiac muscles",
+      "answer-hindi": "(C) हृदय पेशियाँ (Cardiac muscles)",
       "explanation-english": "The detailed comparison of the three muscle types. It states that Cardiac muscles are both involuntary and striated (have bands). It further specifies that their myofilaments are 'interconnected by intercalated discs' and that a key feature is they 'never get fatigued.' This unique combination of characteristics is exclusive to the muscles found in the wall of the heart. Striped (skeletal) muscles are voluntary and get fatigued, while smooth muscles are not striated.",
       "explanation-hindi": "तीन प्रकार की पेशियों की विस्तृत तुलना प्रदान करता है। इसमें कहा गया है कि हृदय पेशियाँ अनैच्छिक और रेखित (धारियाँ वाली) दोनों होती हैं। यह आगे निर्दिष्ट करता है कि उनके मायोफिलामेंट्स 'इंटरकैलेटेड डिस्क द्वारा परस्पर जुड़े होते हैं' और एक प्रमुख विशेषता यह है कि वे 'कभी नहीं थकती हैं।' विशेषताओं का यह अनूठा संयोजन विशेष रूप से हृदय की दीवार में पाई जाने वाली पेशियों के लिए है। रेखित (कंकाल) पेशियाँ स्वैच्छिक होती हैं और थक जाती हैं, जबकि चिकनी पेशियाँ रेखित नहीं होती हैं।"
     },
@@ -315,8 +315,8 @@
         "(C) पीआर श्रीजेश (हॉकी)",
         "(D) हरमनप्रीत सिंह (हॉकी)"
       ],
-      "answer-english": "C) PR Sreejesh (Hockey)",
-      "answer-hindi": "C) पीआर श्रीजेश (हॉकी)",
+      "answer-english": "(C) PR Sreejesh (Hockey)",
+      "answer-hindi": "(C) पीआर श्रीजेश (हॉकी)",
       "explanation-english": "PR Sreejesh, the former goalkeeper of the Indian hockey team, was honored with the Padma Bhushan in 2025. R Ashwin received the Padma Shri, and Manu Bhaker and Harmanpreet Singh were awarded the Major Dhyan Chand Khel Ratna Award.",
       "explanation-hindi": "भारतीय हॉकी टीम के पूर्व गोलकीपर पीआर श्रीजेश को पद्म भूषण से सम्मानित किया गया। आर अश्विन को पद्म श्री मिला, जबकि मनु भाकर और हरमनप्रीत सिंह को मेजर ध्यानचंद खेल रत्न पुरस्कार से सम्मानित किया गया।"
     },
@@ -335,8 +335,8 @@
         "(C) मालदीव",
         "(D) फ्रांस"
       ],
-      "answer-english": "C) Maldives",
-      "answer-hindi": "C) मालदीव",
+      "answer-english": "(C) Maldives",
+      "answer-hindi": "(C) मालदीव",
       "explanation-english": "The 13th edition of the bilateral military exercise 'Ekuverin' began in the Maldives. The name 'Ekuverin' means 'Friends' in the Dhivehi language, spoken in the Maldives.",
       "explanation-hindi": "द्विपक्षीय सैन्य अभ्यास 'एकुवेरिन' का 13वां संस्करण मालदीव में शुरू हुआ। 'एकुवेरिन' नाम का अर्थ मालदीव में बोली जाने वाली धिवेही भाषा में 'मित्र' है।"
     },
@@ -355,8 +355,8 @@
         "(C) किर्गिस्तान",
         "(D) बांग्लादेश"
       ],
-      "answer-english": "C) Kyrgyzstan",
-      "answer-hindi": "C) किर्गिस्तान",
+      "answer-english": "(C) Kyrgyzstan",
+      "answer-hindi": "(C) किर्गिस्तान",
       "explanation-english": "The 'KHANJAR-XII' exercise was the 12th joint special forces exercise conducted between India and Kyrgyzstan. Other exercises like INDRA, VARUNA, and Bongosagar are with Russia, France, and Bangladesh respectively.",
       "explanation-hindi": "'खंजर-XII' (भारत-किर्गिस्तान) भारत और किर्गिस्तान के बीच 12वां संयुक्त विशेष बल अभ्यास था। अन्य अभ्यास जैसे इंद्र रूस के साथ, वरुण फ्रांस के साथ, और बोंगोसागर बांग्लादेश के साथ हैं।"
     },
@@ -375,8 +375,8 @@
         "(C) गौरव",
         "(D) आक्रमण"
       ],
-      "answer-english": "C) Gaurav",
-      "answer-hindi": "C) गौरव",
+      "answer-english": "(C) Gaurav",
+      "answer-hindi": "(C) गौरव",
       "explanation-english": "DRDO successfully tested the 'Gaurav' long-range glide bomb from the Su-30 MKI aircraft. 'Prachand' is a Light Combat Helicopter, 'Dastlik' is a joint military exercise with Uzbekistan, and 'Aakraman' is an Indian Air Force exercise.",
       "explanation-hindi": "DRDO ने Su-30 MKI विमान से 'गौरव' नामक लंबी दूरी के ग्लाइड बम के परीक्षण सफलतापूर्वक किए। 'प्रचंड' लाइट कॉम्बैट हेलीकॉप्टर है, 'दस्तलिक' उज्बेकिस्तान के साथ एक संयुक्त सैन्य अभ्यास है, और 'आक्रमण' भारतीय वायु सेना का अभ्यास है।"
     },{
@@ -394,8 +394,8 @@
         "(C) एक घातक प्लेग के उन्मूलन के उपलक्ष्य में",
         "(D) नए सुल्तान के रूप में उनके राज्याभिषेक को चिह्नित करने के लिए"
       ],
-      "answer-english": "C) To commemorate the eradication of a deadly plague",
-      "answer-hindi": "C) एक घातक प्लेग के उन्मूलन के उपलक्ष्य में",
+      "answer-english": "(C) To commemorate the eradication of a deadly plague",
+      "answer-hindi": "(C) एक घातक प्लेग के उन्मूलन के उपलक्ष्य में",
       "explanation-english": "It is widely accepted that Sultan Muhammad Quli Qutb Shah built the Charminar to honor the end of a devastating plague that had afflicted his city. He had prayed for the plague to end and built the monument as a tribute.",
       "explanation-hindi": "यह व्यापक रूप से स्वीकार किया जाता है कि सुल्तान मुहम्मद कुली कुतुब शाह ने अपने शहर को पीड़ित करने वाली एक विनाशकारी प्लेग की समाप्ति के सम्मान में चारमीनार का निर्माण किया था। उन्होंने प्लेग के खत्म होने की प्रार्थना की थी और एक श्रद्धांजलि के रूप में स्मारक का निर्माण किया था।"
     },
@@ -414,8 +414,8 @@
         "(C) खट्टक नृत्य",
         "(D) धमाल"
       ],
-      "answer-english": "C) Khattak Dance",
-      "answer-hindi": "C) खट्टक नृत्य",
+      "answer-english": "(C) Khattak Dance",
+      "answer-hindi": "(C) खट्टक नृत्य",
       "explanation-english": "The Khattak dance is a swift martial folk dance of the Pashtun culture, originating from the Khyber Pakhtunkhwa province of Pakistan. It is performed to celebrate bravery and honor. Bhangra and Dhamal are primarily associated with the Punjab and Sindh regions, while Jhoomar is popular in Saraiki and Balochi cultures.",
       "explanation-hindi": "खट्टक नृत्य पश्तून संस्कृति का एक तेज मार्शल लोक नृत्य है, जिसकी उत्पत्ति पाकिस्तान के खैबर पख्तूनख्वा प्रांत से हुई है। यह बहादुरी और सम्मान का जश्न मनाने के लिए किया जाता है। भांगड़ा और धमाल मुख्य रूप से पंजाब और सिंध क्षेत्रों से जुड़े हैं, जबकि झूमर सरायकी और बलूची संस्कृतियों में लोकप्रिय है।"
     },
@@ -434,8 +434,8 @@
         "(C) फुटबॉल",
         "(D) बैडमिंटन"
       ],
-      "answer-english": "C) Football",
-      "answer-hindi": "C) फुटबॉल",
+      "answer-english": "(C) Football",
+      "answer-hindi": "(C) फुटबॉल",
       "explanation-english": "The Durand Cup is a prestigious annual domestic football competition in India.",
       "explanation-hindi": "डूरंड कप भारत में एक प्रतिष्ठित वार्षिक घरेलू फुटबॉल प्रतियोगिता है।"
     },
@@ -454,8 +454,8 @@
         "(C) बांग्लादेश",
         "(D) मालदीव"
       ],
-      "answer-english": "D) Maldives",
-      "answer-hindi": "D) मालदीव",
+      "answer-english": "(D) Maldives",
+      "answer-hindi": "(D) मालदीव",
       "explanation-english": "Operation Cactus was a swift military operation launched on November 3, 1988, by India to prevent a coup in the Maldives. The operation was initiated at the request of the then-President of Maldives, Abdul Gayoom, after his government was threatened by a group of mercenaries.",
       "explanation-hindi": "ऑपरेशन कैक्टस 3 नवंबर, 1988 को भारत द्वारा मालदीव में एक तख्तापलट को रोकने के लिए शुरू किया गया एक तेज सैन्य अभियान था। यह ऑपरेशन तत्कालीन मालदीव के राष्ट्रपति अब्दुल गयूम के अनुरोध पर शुरू किया गया था, जब उनकी सरकार को भाड़े के सैनिकों के एक समूह से खतरा था।"
     },
@@ -474,8 +474,8 @@
         "(C) भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO)",
         "(D) भारतीय सर्वेक्षण (SoI)"
       ],
-      "answer-english": "B) Council of Scientific & Industrial Research (CSIR)",
-      "answer-hindi": "B) वैज्ञानिक और औद्योगिक अनुसंधान परिषद (CSIR)",
+      "answer-english": "(B) Council of Scientific & Industrial Research (CSIR)",
+      "answer-hindi": "(B) वैज्ञानिक और औद्योगिक अनुसंधान परिषद (CSIR)",
       "explanation-english": "The Shanti Swarup Bhatnagar Prize was instituted in 1958 by the Council of Scientific & Industrial Research (CSIR) to honor outstanding Indian scientists.",
       "explanation-hindi": "शांति स्वरूप भटनागर पुरस्कार की स्थापना 1958 में वैज्ञानिक और औद्योगिक अनुसंधान परिषद (CSIR) द्वारा उत्कृष्ट भारतीय वैज्ञानिकों को सम्मानित करने के लिए की गई थी।"
     },
@@ -554,8 +554,8 @@
         "(C) भगवद गीता",
         "(D) तत्वबोधिनी पत्रिका"
       ],
-      "answer-english": "B) Mundaka Upanishad",
-      "answer-hindi": "B) मुंडक उपनिषद",
+      "answer-english": "(B) Mundaka Upanishad",
+      "answer-hindi": "(B) मुंडक उपनिषद",
       "explanation-english": "As mentioned in the text, the national motto 'Satyameva Jayate' (meaning 'Truth alone triumphs') is taken from the Mundaka Upanishad.",
       "explanation-hindi": "जैसा कि पाठ में उल्लेख किया गया है, राष्ट्रीय आदर्श वाक्य 'सत्यमेव जयते' (जिसका अर्थ है 'सत्य की ही जीत होती है') मुंडक उपनिषद से लिया गया है।"
     },{
