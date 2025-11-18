@@ -676,7 +676,7 @@
     "question-english": "Read the given statements and conclusions carefully. Statements: Some actors are singers. All singers are dancers.",
     "options-hindi": ["केवल (I) अनुसरण करता है", "केवल (II) अनुसरण करता है", "(I) और (II) दोनों अनुसरण करते हैं", "न तो (I) और न ही (II) अनुसरण करता है"],
     "options-english": ["Only conclusion (I) follows", "Only conclusion (II) follows", "Both (I) and (II) follow", "Neither (I) nor (II) follows"],
-    "answer-hindi": "केवल निष्कर्ष (I) अनुसरण करता है",
+    "answer-hindi": "केवल (I) अनुसरण करता है",
     "answer-english": "Only conclusion (I) follows",
     "solution-hindi": "कुछ अभिनेता गायक हैं और सभी गायक नर्तक हैं, इसलिए कुछ अभिनेता नर्तक हैं। दूसरा निष्कर्ष गलत है।",
     "solution-english": "Some actors are singers and all singers are dancers, so some actors are dancers. The second conclusion is false."
@@ -706,8 +706,8 @@
     "question-english": "Which one word can be formed from the following letters? t l p n a e h e",
     "options-hindi": ["Plant", "Elephant", "Helpful", "Telephone"],
     "options-english": ["Plant", "Elephant", "Helpful", "Telephone"],
-    "answer-hindi": "(b) Elephant",
-    "answer-english": "(b) Elephant",
+    "answer-hindi": "Elephant",
+    "answer-english": "Elephant",
     "solution-hindi": "अक्षरों को पुनर्व्यवस्थित करके 'Elephant' शब्द बनता है।",
     "solution-english": "Rearranging the letters forms the word 'Elephant'."
   },{

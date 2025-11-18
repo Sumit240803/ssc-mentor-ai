@@ -727,15 +727,15 @@
     "question-english": "Pointing to a photograph, a man said, \"I have no brother or sister but that man's father is my father's son.\" Whose photograph was it?",
     "options-hindi": ["अपनी","अपने बेटे की","अपने पिता की","अपने भतीजे की"],
     "options-english": ["His own","His son's","His father's","His nephew's"],
-    "answer-hindi": "उसके बेटे की",
+    "answer-hindi": "अपने बेटे की",
     "answer-english": "His son's",
-    "solution-hindi": "\"मेरे पिता का बेटा\" स्वयं वह आदमी है → उस चित्र का व्यक्ति उसका पुत्र है।",
-    "solution-english": "\"My father's son\" is the speaker himself, so the picture is of his son."
+    "solution-hindi": "मेरे पिता का बेटा स्वयं वह आदमी है → उस चित्र का व्यक्ति उसका पुत्र है।",
+    "solution-english": "My father's son is the speaker himself, so the picture is of his son."
   },
    {
     "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_24/mock_test_24_Q16.png",
-  "question_english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'.",
-  "question_hindi": "एक ही पासे की तीन विभिन्न अवस्थाएँ दिखाई गई हैं। उस फलक पर अंक ज्ञात कीजिए जो अंक '2' वाले फलक के विपरीत है।",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'.",
+  "question-hindi": "एक ही पासे की तीन विभिन्न अवस्थाएँ दिखाई गई हैं। उस फलक पर अंक ज्ञात कीजिए जो अंक '2' वाले फलक के विपरीत है।",
    "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "D",
@@ -765,8 +765,8 @@
   },
    {
     "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q19.png",
-  "question_english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '3'.",
-  "question_hindi": "एक ही पासे की तीन विभिन्न अवस्थाएँ दिखाई गई हैं। उस फलक पर अंक ज्ञात कीजिए जो अंक '2' वाले फलक के विपरीत है।",
+  "question-english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '3'.",
+  "question-hindi": "एक ही पासे की तीन विभिन्न अवस्थाएँ दिखाई गई हैं। उस फलक पर अंक ज्ञात कीजिए जो अंक '2' वाले फलक के विपरीत है।",
    "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "B",
@@ -816,14 +816,14 @@
 },
   {
     "question_image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q24.png",
-  "question_english": "How many triangles are there in the given figure?",
-  "question_hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
+  "question-english": "How many triangles are there in the given figure?",
+  "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
   "options-hindi": ["A", "B", "C", "D"],
   "options-english": ["A", "B", "C", "D"],
   "answer-hindi": "C",
   "answer-english": "C",
-  "solution_english": "By counting all small, medium, and large triangles in the figure systematically, we find there are 18 triangles in total.",
-  "solution_hindi": "चित्र में सभी छोटे, मध्यम और बड़े त्रिभुजों को व्यवस्थित रूप से गिनने पर कुल 18 त्रिभुज पाए जाते हैं।"
+  "solution-english": "By counting all small, medium, and large triangles in the figure systematically, we find there are 18 triangles in total.",
+  "solution-hindi": "चित्र में सभी छोटे, मध्यम और बड़े त्रिभुजों को व्यवस्थित रूप से गिनने पर कुल 18 त्रिभुज पाए जाते हैं।"
 },
   {
     "question-hindi": "यदि '+' का अर्थ '×', '-' का अर्थ '+', '×' का अर्थ '÷' और '÷' का अर्थ '-', है, तो 9 + 3 × 3 - 9 ÷ 9 = ?",

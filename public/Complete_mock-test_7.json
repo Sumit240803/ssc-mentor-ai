@@ -716,7 +716,7 @@
       "options-english": ["(a) Only I", "(b) Only II", "(c) Both I and II", "(d) Neither"],
       "options-hindi": ["(a) केवल I", "(b) केवल II", "(c) I और II दोनों", "(d) कोई नहीं"],
       "answer-english": "(c) Both I and II",
-      "answer-hindi": "(c) दोनों निष्कर्ष I और II सत्य हैं",
+      "answer-hindi": "(c) I और II दोनों",
       "solution-english": "From A > B and B = C → A > C. From C < D ≤ E < F → C < F. Both true.",
       "solution-hindi": "A > B और B = C से A > C; C < ... < F से C < F. दोनों सही हैं।"
     },
