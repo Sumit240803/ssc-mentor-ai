@@ -67,7 +67,7 @@ const Pricing = () => {
         .from("payments")
         .insert({
           user_id: user.id,
-          amount: 499,
+          amount: 399,
           currency: "INR",
           status: "pending",
         })
@@ -86,7 +86,7 @@ const Pricing = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body : JSON.stringify({amount : 499})
+        body : JSON.stringify({amount : 399})
       }).then(res => res.json());
 
       // Initialize Razorpay
@@ -296,11 +296,11 @@ const Pricing = () => {
 
                 <div className="flex items-end justify-center gap-2 mt-6">
                   <span className="text-2xl text-muted-foreground line-through">₹999</span>
-                  <span className="text-6xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹499</span>
+                  <span className="text-6xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹399</span>
                 </div>
 
                 <Badge variant="secondary" className="mt-4 text-sm px-4 py-1.5">
-                  Save ₹500 Today
+                  Save ₹600 Today
                 </Badge>
               </CardHeader>
 
@@ -405,13 +405,13 @@ const Pricing = () => {
         {/* Trust Indicators */}
         <div className="text-center mt-16 space-y-4">
           <p className="text-sm text-muted-foreground">
-            🔒 Secure payment powered by Razorpay • 256-bit SSL encryption
+             Secure payment powered by Razorpay
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-xs text-muted-foreground">
-            <span className="flex items-center gap-1">🏆 Best AI Learning Platform 2025</span>
-            <span className="flex items-center gap-1">🛡️ ISO 27001 Certified</span>
-            <span className="flex items-center gap-1">⚡ 99.9% Uptime Guarantee</span>
-            <span className="flex items-center gap-1">💯 30-Day Money Back</span>
+            <span className="flex items-center gap-1">Best AI Learning Platform 2025</span>
+            <span className="flex items-center gap-1"> ISO 27001 Certified</span>
+            <span className="flex items-center gap-1"> 99.9% Uptime Guarantee</span>
+         
           </div>
         </div>
       </div>
