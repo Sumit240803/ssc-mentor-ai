@@ -856,7 +856,7 @@ const MockTest: React.FC = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className={cn("flex items-center justify-center gap-3", isMobile && "flex-wrap gap-2")}>
+              <div className={cn("flex items-center justify-center gap-3", isMobile && "flex-wrap gap-2 pb-20")}>
                 {!testState.isReviewMode && (
                   <>
                     <Button
@@ -878,7 +878,7 @@ const MockTest: React.FC = () => {
                       {!isMobile && "Mark for Review"}
                     </Button>
                     <Button variant="default" size={isMobile ? "sm" : "default"} onClick={saveAndNext}>
-                      {isMobile ? "Next" : "Save & Next"}
+                      Save & Next
                     </Button>
                     <Button variant="outline" size={isMobile ? "sm" : "default"} onClick={clearSelection}>
                       {isMobile ? "Clear" : "Clear Selection"}

@@ -33,6 +33,7 @@ const Lectures = () => {
   const [activeSections, setActiveSections] = useState<Record<string, string[]>>({});
   const [showFeatureModal, setShowFeatureModal] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
+  const [hasTriggeredModal, setHasTriggeredModal] = useState(false);
 
   // Initialize with URL parameter or first subject (only on initial load)
   useEffect(() => {
@@ -62,16 +63,16 @@ const Lectures = () => {
   // Show feature modal when component mounts (first visit to lectures page)
   useEffect(() => {
     const hasSeenModal = localStorage.getItem('hasSeenFeatureModal');
-    if (!hasSeenModal && !loading && subjects.length > 0) {
+    if (!hasSeenModal && !loading && subjects.length > 0 && !hasTriggeredModal) {
+      setHasTriggeredModal(true);
       const timer = setTimeout(() => {
-        localStorage.setItem('hasSeenFeatureModal', 'true');
         setShowFeatureModal(true);
-       
+        localStorage.setItem('hasSeenFeatureModal', 'true');
       }, 1000); // Small delay to let the page load
       
       return () => clearTimeout(timer);
     }
-  }, [loading, subjects]);
+  }, [loading, subjects, hasTriggeredModal]);
 
   // Reset initialization when component unmounts or when navigating
   useEffect(() => {
