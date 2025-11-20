@@ -170,18 +170,20 @@ const Lectures = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-8 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-8 relative">
-          <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-            Study Materials
-          </h1>
-          <p className="text-muted-foreground">
-            Access comprehensive lecture notes and study materials organized by subject
-          </p>
+        <div className="mb-8 flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          <div>
+            <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
+              Study Materials
+            </h1>
+            <p className="text-muted-foreground">
+              Access comprehensive lecture notes and study materials organized by subject
+            </p>
+          </div>
           
           {/* Study Schedule Button */}
           <Button
             onClick={() => navigate('/schedule')}
-            className="absolute top-0 right-0 gap-2 group hover:shadow-lg transition-all duration-300"
+            className="gap-2 group hover:shadow-lg transition-all duration-300 w-fit"
             variant="default"
           >
             <Calendar className="h-4 w-4 group-hover:scale-110 transition-transform" />
