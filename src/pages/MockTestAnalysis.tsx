@@ -74,17 +74,30 @@ const MockTestAnalysis: React.FC = () => {
   // Fetch motivation and analysis when attempt is selected
   useEffect(() => {
     const fetchMotivationAndAnalysis = async () => {
-      if (selectedAttempt && !motivation && !isLoadingMotivation && !isLoadingAnalysis) {
+      if (!selectedAttempt) return;
+      
+      // Only fetch if we don't have data already
+      if (motivation && analysis) return;
+
+      try {
         // First, fetch motivation
-        setIsLoadingMotivation(true);
-        const motivationResult = await getMotivation(selectedAttempt.percentage);
-        setMotivation(motivationResult);
-        setIsLoadingMotivation(false);
+        if (!motivation && !isLoadingMotivation) {
+          setIsLoadingMotivation(true);
+          const motivationResult = await getMotivation(selectedAttempt.percentage);
+          setMotivation(motivationResult);
+          setIsLoadingMotivation(false);
+        }
 
         // Then, fetch analysis
-        setIsLoadingAnalysis(true);
-        const analysisResult = await getAnalysis();
-        setAnalysis(analysisResult || null);
+        if (!analysis && !isLoadingAnalysis) {
+          setIsLoadingAnalysis(true);
+          const analysisResult = await getAnalysis(selectedAttempt);
+          setAnalysis(analysisResult || null);
+          setIsLoadingAnalysis(false);
+        }
+      } catch (error) {
+        console.error("Error in fetchMotivationAndAnalysis:", error);
+        setIsLoadingMotivation(false);
         setIsLoadingAnalysis(false);
       }
     };
@@ -115,30 +128,32 @@ const MockTestAnalysis: React.FC = () => {
       return null;
     }
   };
-const getAnalysis = async (): Promise<string| null> => {
-  if (!selectedAttempt) {
-    console.error("No selected attempt available for analysis");
+const getAnalysis = async (attempt: MockTestResult): Promise<string| null> => {
+  if (!attempt || !testName) {
+    console.error("No attempt or test name available for analysis");
     return null;
   }
 
   try {
     // Check localStorage cache first
-    const cacheKey = `mocktestanalysis-${testName}-${selectedAttempt.id}`;
+    const cacheKey = `mocktestanalysis-${testName}-${attempt.id}`;
     const cached = localStorage.getItem(cacheKey);
     if (cached) {
-      console.log("Returning cached analysis");
+      console.log("Returning cached analysis from:", cacheKey);
       return JSON.parse(cached);
     }
     
-    console.log("Fetching new analysis from API");
+    console.log("Fetching new analysis from API for:", cacheKey);
     const payload = {
-      total_questions: selectedAttempt.total_questions,
-      correct_answers: selectedAttempt.correct_answers,
-      wrong_answers: selectedAttempt.incorrect_answers,
-      skipped_questions: selectedAttempt.unanswered_questions,
-      subject_wise_score: selectedAttempt.section_wise_scores,
-      time_taken_minutes: Math.round(selectedAttempt.time_taken_seconds / 60),
+      total_questions: attempt.total_questions,
+      correct_answers: attempt.correct_answers,
+      wrong_answers: attempt.incorrect_answers,
+      skipped_questions: attempt.unanswered_questions,
+      subject_wise_score: attempt.section_wise_scores,
+      time_taken_minutes: Math.round(attempt.time_taken_seconds / 60),
     };
+
+    console.log("Analysis payload:", payload);
 
     const response = await fetch("https://sscb-backend-api.onrender.com/mocktest/analyze", {
       method: "POST",
@@ -146,14 +161,24 @@ const getAnalysis = async (): Promise<string| null> => {
       body: JSON.stringify(payload),
     });
 
-    if (!response.ok) throw new Error(`Failed: ${response.status}`);
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error("API Error:", response.status, errorText);
+      throw new Error(`Failed: ${response.status}`);
+    }
 
     const data = await response.json();
+    console.log("Analysis response:", data);
     const analysisText = data.response || data.message;
+
+    if (!analysisText) {
+      console.error("No analysis text in response");
+      return null;
+    }
 
     // Cache the analysis
     localStorage.setItem(cacheKey, JSON.stringify(analysisText));
-    console.log("Analysis cached successfully");
+    console.log("Analysis cached successfully to:", cacheKey);
     
     return analysisText;
   } catch (err) {
