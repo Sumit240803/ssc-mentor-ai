@@ -116,18 +116,28 @@ const MockTestAnalysis: React.FC = () => {
     }
   };
 const getAnalysis = async (): Promise<string| null> => {
-  try {
-    const cached = localStorage.getItem(`mocktestanalysis-${testName}-${selectedAttempt.id}`);
-    if (cached) return JSON.parse(cached);
-    
+  if (!selectedAttempt) {
+    console.error("No selected attempt available for analysis");
+    return null;
+  }
 
+  try {
+    // Check localStorage cache first
+    const cacheKey = `mocktestanalysis-${testName}-${selectedAttempt.id}`;
+    const cached = localStorage.getItem(cacheKey);
+    if (cached) {
+      console.log("Returning cached analysis");
+      return JSON.parse(cached);
+    }
+    
+    console.log("Fetching new analysis from API");
     const payload = {
-      total_questions: selectedAttempt?.total_questions,
-      correct_answers: selectedAttempt?.correct_answers,
-      wrong_answers: selectedAttempt?.incorrect_answers,
-      skipped_questions: selectedAttempt?.unanswered_questions,
-      subject_wise_score: selectedAttempt?.section_wise_scores,
-      time_taken_minutes: Math.round((selectedAttempt?.time_taken_seconds || 0) / 60),
+      total_questions: selectedAttempt.total_questions,
+      correct_answers: selectedAttempt.correct_answers,
+      wrong_answers: selectedAttempt.incorrect_answers,
+      skipped_questions: selectedAttempt.unanswered_questions,
+      subject_wise_score: selectedAttempt.section_wise_scores,
+      time_taken_minutes: Math.round(selectedAttempt.time_taken_seconds / 60),
     };
 
     const response = await fetch("https://sscb-backend-api.onrender.com/mocktest/analyze", {
@@ -141,8 +151,11 @@ const getAnalysis = async (): Promise<string| null> => {
     const data = await response.json();
     const analysisText = data.response || data.message;
 
-    localStorage.setItem(`mocktestanalysis-${testName}-${selectedAttempt.id}`, JSON.stringify(analysisText));
-    return  analysisText ;
+    // Cache the analysis
+    localStorage.setItem(cacheKey, JSON.stringify(analysisText));
+    console.log("Analysis cached successfully");
+    
+    return analysisText;
   } catch (err) {
     console.error("Error getting analysis:", err);
     return null;
