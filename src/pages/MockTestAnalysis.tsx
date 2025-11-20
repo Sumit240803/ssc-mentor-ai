@@ -28,9 +28,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-interface MockTestAnalysis {
-  analysis: string;
-}
 
 interface Question {
   id: string;
@@ -55,7 +52,7 @@ const MockTestAnalysis: React.FC = () => {
   const [attempts, setAttempts] = useState<MockTestResult[]>([]);
   const [selectedAttempt, setSelectedAttempt] = useState<MockTestResult | null>(null);
   const [motivation, setMotivation] = useState<{ message: string } | null>(null);
-  const [analysis, setAnalysis] = useState<MockTestAnalysis | null>(null);
+  const [analysis, setAnalysis] = useState<string | null>(null);
   const [isLoadingMotivation, setIsLoadingMotivation] = useState(false);
   const [isLoadingAnalysis, setIsLoadingAnalysis] = useState(false);
   const [showReview, setShowReview] = useState(false);
@@ -87,7 +84,7 @@ const MockTestAnalysis: React.FC = () => {
         // Then, fetch analysis
         setIsLoadingAnalysis(true);
         const analysisResult = await getAnalysis();
-        setAnalysis(analysisResult?.analysis || null);
+        setAnalysis(analysisResult || null);
         setIsLoadingAnalysis(false);
       }
     };
@@ -118,12 +115,11 @@ const MockTestAnalysis: React.FC = () => {
       return null;
     }
   };
-const getAnalysis = async (): Promise<{ analysis: MockTestAnalysis } | null> => {
+const getAnalysis = async (): Promise<string| null> => {
   try {
-    const cached = localStorage.getItem("lastMockTestAnalysis");
-    if (cached) {
-      return { analysis: JSON.parse(cached) };
-    }
+    const cached = localStorage.getItem(`mocktestanalysis-${testName}-${selectedAttempt.id}`);
+    if (cached) return JSON.parse(cached);
+    
 
     const payload = {
       total_questions: selectedAttempt?.total_questions,
@@ -143,10 +139,10 @@ const getAnalysis = async (): Promise<{ analysis: MockTestAnalysis } | null> => 
     if (!response.ok) throw new Error(`Failed: ${response.status}`);
 
     const data = await response.json();
-    const analysis = data.response || data.message;
+    const analysisText = data.response || data.message;
 
-    localStorage.setItem("lastMockTestAnalysis", JSON.stringify(analysis));
-    return { analysis };
+    localStorage.setItem(`mocktestanalysis-${testName}-${selectedAttempt.id}`, JSON.stringify(analysisText));
+    return  analysisText ;
   } catch (err) {
     console.error("Error getting analysis:", err);
     return null;
@@ -469,7 +465,7 @@ const getAnalysis = async (): Promise<{ analysis: MockTestAnalysis } | null> => 
               </div>
             ) : analysis ? (
               <div className="prose prose-sm dark:prose-invert max-w-none">
-                <ReactMarkdown>{analysis.analysis}</ReactMarkdown>
+                <ReactMarkdown>{analysis}</ReactMarkdown>
               </div>
             ) : (
               <div className="text-center py-8 text-muted-foreground">
