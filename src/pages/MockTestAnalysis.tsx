@@ -87,7 +87,7 @@ const MockTestAnalysis: React.FC = () => {
         // Then, fetch analysis
         setIsLoadingAnalysis(true);
         const analysisResult = await getAnalysis();
-        setAnalysis(analysisResult);
+        setAnalysis(analysisResult?.analysis || null);
         setIsLoadingAnalysis(false);
       }
     };
@@ -118,31 +118,40 @@ const MockTestAnalysis: React.FC = () => {
       return null;
     }
   };
-
-  const getAnalysis = async (): Promise<MockTestAnalysis | null> => {
-    try {
-      const response = await fetch('https://sscb-backend-api.onrender.com/chat', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: `Analyze my mock test performance. I scored ${selectedAttempt?.correct_answers} correct out of ${selectedAttempt?.total_questions} questions (${selectedAttempt?.percentage}%). I got ${selectedAttempt?.incorrect_answers} incorrect and ${selectedAttempt?.unanswered_questions} unanswered. Time taken: ${formatTime(selectedAttempt?.time_taken_seconds || 0)}. Please provide detailed analysis and suggestions for improvement.`,
-          subject: 'Mock Test Analysis'
-        }),
-      });
-      
-      if (!response.ok) {
-        throw new Error(`Failed to get analysis: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      return { analysis: data.response || data.message };
-    } catch (error) {
-      console.error('Error getting analysis:', error);
-      return null;
+const getAnalysis = async (): Promise<{ analysis: MockTestAnalysis } | null> => {
+  try {
+    const cached = localStorage.getItem("lastMockTestAnalysis");
+    if (cached) {
+      return { analysis: JSON.parse(cached) };
     }
-  };
+
+    const payload = {
+      total_questions: selectedAttempt?.total_questions,
+      correct_answers: selectedAttempt?.correct_answers,
+      wrong_answers: selectedAttempt?.incorrect_answers,
+      skipped_questions: selectedAttempt?.unanswered_questions,
+      subject_wise_score: selectedAttempt?.section_wise_scores,
+      time_taken_minutes: Math.round((selectedAttempt?.time_taken_seconds || 0) / 60),
+    };
+
+    const response = await fetch("https://sscb-backend-api.onrender.com/mocktest/analyze", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) throw new Error(`Failed: ${response.status}`);
+
+    const data = await response.json();
+    const analysis = data.response || data.message;
+
+    localStorage.setItem("lastMockTestAnalysis", JSON.stringify(analysis));
+    return { analysis };
+  } catch (err) {
+    console.error("Error getting analysis:", err);
+    return null;
+  }
+};
 
   const formatTime = (seconds: number): string => {
     const minutes = Math.floor(seconds / 60);
