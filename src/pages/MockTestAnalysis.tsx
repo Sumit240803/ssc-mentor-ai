@@ -169,7 +169,7 @@ const getAnalysis = async (attempt: MockTestResult): Promise<string| null> => {
 
     const data = await response.json();
     console.log("Analysis response:", data);
-    const analysisText = data.response || data.message;
+    const analysisText = data.analysis || data.message;
 
     if (!analysisText) {
       console.error("No analysis text in response");
