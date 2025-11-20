@@ -29,7 +29,6 @@ import {
 import { cn } from "@/lib/utils";
 
 
-
 interface Question {
   id: string;
   "question-hindi": string;
