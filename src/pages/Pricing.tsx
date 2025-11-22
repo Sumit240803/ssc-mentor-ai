@@ -67,7 +67,7 @@ const Pricing = () => {
         .from("payments")
         .insert({
           user_id: user.id,
-          amount: 399,
+          amount: 299,
           currency: "INR",
           status: "pending",
         })
@@ -86,13 +86,13 @@ const Pricing = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body : JSON.stringify({amount : 399})
+        body : JSON.stringify({amount : 299})
       }).then(res => res.json());
 
       // Initialize Razorpay
       const options = {
         key: "rzp_live_RgS0jYkw9iVW6U",
-        amount: order.amount, // 499 paise
+        amount: order.amount, // 299 paise
         currency: "INR",
         order_id : order.id,
         name: "ExamPrep",
@@ -296,11 +296,11 @@ const Pricing = () => {
 
                 <div className="flex items-end justify-center gap-2 mt-6">
                   <span className="text-2xl text-muted-foreground line-through">₹999</span>
-                  <span className="text-6xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹399</span>
+                  <span className="text-6xl font-bold bg-gradient-ai-primary bg-clip-text text-transparent">₹299</span>
                 </div>
 
                 <Badge variant="secondary" className="mt-4 text-sm px-4 py-1.5">
-                  Save ₹600 Today
+                  Save ₹700 Today
                 </Badge>
               </CardHeader>
 
