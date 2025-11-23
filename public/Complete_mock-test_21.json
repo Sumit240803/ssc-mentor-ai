@@ -206,8 +206,8 @@
     "question-hindi": "निम्नलिखित में से कौन सी चित्रकला शैली ओडिशा राज्य में लोकप्रिय है?",
     "options-english": ["(A) Warli", "(B) Kalamezhuthu", "(C) Madhubani", "(D) Pattachitra"],
     "options-hindi": ["(A) वारली", "(B) कलमेझुथु", "(C) मधुबनी", "(D) पट्टचित्र"],
-    "answer-english": "D. Pattachitra",
-    "answer-hindi": "D. पट्टचित्र",
+    "answer-english": "(D) Pattachitra",
+    "answer-hindi": "(D) पट्टचित्र",
     "solution-english": "Pattachitra is a traditional style of cloth-based scroll painting that is popular in the state of Odisha. The themes of these paintings are often mythological and religious.",
     "solution-hindi": "पट्टचित्र कपड़े पर आधारित स्क्रॉल पेंटिंग की एक पारंपरिक शैली है जो ओडिशा राज्य में लोकप्रिय है। इन चित्रों के विषय अक्सर पौराणिक और धार्मिक होते हैं।"
   },
@@ -216,8 +216,8 @@
     "question-hindi": "निम्नलिखित में से किस पर्वत श्रृंखला की सबसे ऊंची चोटी 'गुरु शिखर' नामक पर्वत है?",
     "options-english": ["(A) Vindhya Range", "(B) Western Ghats Range", "(C) Satpura Range", "(D) Aravalli Range"],
     "options-hindi": ["(A) विंध्य श्रेणी", "(B) पश्चिमी घाट श्रेणी", "(C) सतपुड़ा श्रेणी", "(D) अरावली श्रेणी"],
-    "answer-english": "D. Aravalli Range",
-    "answer-hindi": "D. अरावली श्रेणी",
+    "answer-english": "(D) Aravalli Range",
+    "answer-hindi":  "(D) अरावली श्रेणी",
     "solution-english": "Guru Shikhar, with an elevation of 1,722 meters, is the highest peak of the Aravalli Range. It is located in the state of Rajasthan.",
     "solution-hindi": "1,722 मीटर की ऊंचाई के साथ गुरु शिखर, अरावली श्रेणी की सबसे ऊंची चोटी है। यह राजस्थान राज्य में स्थित है।"
   },
@@ -226,8 +226,8 @@
     "question-hindi": "थर्मामीटर में पारे का उपयोग किया जाता है क्योंकि",
     "options-english": ["(A) It is a poor conductor of heat", "(B) It is a good conductor of heat", "(C) It is an insulator", "(D) It does not conduct electricity at all"],
     "options-hindi": ["(A) यह ऊष्मा का कुचालक है", "(B) यह ऊष्मा का सुचालक है", "(C) यह एक इन्सुलेटर है", "(D) यह बिल्कुल भी बिजली का संचालन नहीं करता है"],
-    "answer-english": "B. It is a good conductor of heat",
-    "answer-hindi": "B. यह ऊष्मा का सुचालक है",
+    "answer-english": "(B) It is a good conductor of heat",
+    "answer-hindi":"(B) यह ऊष्मा का सुचालक है",
     "solution-english": "Mercury is used in thermometers because it is a good conductor of heat and expands and contracts uniformly with changes in temperature, allowing for accurate temperature readings.",
     "solution-hindi": "थर्मामीटर में पारे का उपयोग किया जाता है क्योंकि यह ऊष्मा का एक अच्छा संवाहक है और तापमान में परिवर्तन के साथ समान रूप से फैलता और सिकुड़ता है, जिससे सटीक तापमान रीडिंग की अनुमति मिलती है।"
   },

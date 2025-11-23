@@ -815,7 +815,7 @@
   "solution-english": ""
 },
   {
-    "question_image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q24.png",
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q24.png",
   "question-english": "How many triangles are there in the given figure?",
   "question-hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
   "options-hindi": ["A", "B", "C", "D"],

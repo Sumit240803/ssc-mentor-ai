@@ -702,15 +702,16 @@
     "solution-english": "Encouragement leads to Victory; similarly, Frustration results in Failure."
   },
   {
-    "question-hindi": "तीन कथन दिए गए हैं और तीन निष्कर्ष I, II और III। यह तय करें कि कौन से निष्कर्ष अनुसरण करते हैं।",
-    "question-english": "Three statements are given followed by conclusions I, II, III. Decide which conclusions logically follow.",
-    "options-hindi": ["I और II", "केवल III", "II और III", "I और III"],
-    "options-english": ["I and II", "Only III", "II and III", "I and III"],
-    "answer-hindi": "केवल निष्कर्ष II और III अनुसरण करते हैं",
-    "answer-english": "Only conclusions II and III follow",
-    "solution-hindi": "'सभी पेन पेंसिल हैं' और 'कोई पेंसिल मार्कर नहीं है' से 'कोई पेन मार्कर नहीं है' और 'कोई मार्कर पेन नहीं है' निष्कर्ष निकलता है।",
-    "solution-english": "From 'All Pens are Pencils' and 'No Pencil is a Marker', we conclude 'No Pen is a Marker' and 'No Marker is a Pen'."
-  },
+  "question-hindi": "प्तीन कथन दिए गए हैं जिनके बाद तीन निष्कर्ष I, II और III दिए गए हैं। कथनों को सत्य मानते हुए, भले ही वे आमतौर पर ज्ञात तथ्यों से भिन्न प्रतीत हों, यह तय करें कि कौन सा/से निष्कर्ष कथनों का तार्किक रूप से अनुसरण करता है/करते हैं।\n\nकथन:\nसभी पेन पेंसिल हैं।\nकोई पेंसिल मार्कर नहीं है।\nकुछ मार्कर इरेज़र हैं।\n\nनिष्कर्ष:\nI. कुछ इरेज़र पेन हैं।\nII. कोई मार्कर पेन नहीं है।\nIII. कोई पेन मार्कर नहीं है।",
+  "question-english": "Three Statements are given followed by Three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\nStatements:\nAll Pens are Pencils.\nNo Pencil is a Marker.\nSome Markers are Erasers.\n\nConclusions:\nI. Some Erasers are Pens.\nII. No Marker is a Pen.\nIII. No Pen is a Marker.",
+  "options-hindi": ["(a) निष्कर्ष I और II दोनों अनुसरण करते हैं।", "(b) केवल निष्कर्ष III अनुसरण करता है।", "(c) केवल निष्कर्ष II और III अनुसरण करते हैं।", "(d) निष्कर्ष I और III दोनों अनुसरण करते हैं।"],
+  "options-english": ["(a) Both conclusions I and II follow.", "(b) Only conclusion III follows.", "(c) Only conclusion II and III follow.", "(d) Both conclusions I and III follow."],
+  "answer-hindi": "(c) केवल निष्कर्ष II और III अनुसरण करते हैं।",
+  "answer-english": "(c) Only conclusion II and III follow.",
+  "solution-hindi": "व्याख्या:\n\"सभी पेन पेंसिल हैं\" और \"कोई पेंसिल मार्कर नहीं है\" से, हम यह निष्कर्ष निकाल सकते हैं कि \"कोई पेन मार्कर नहीं है\" (निष्कर्ष III) और \"कोई मार्कर पेन नहीं है\" (निष्कर्ष II)।\nइरेज़र और पेन के बीच कोई सीधा संबंध नहीं है, इसलिए निष्कर्ष I अनुसरण नहीं करता है।",
+  "solution-english": "Explanation:\nFrom \"All Pens are Pencils\" and \"No Pencil is a Marker\", we can conclude that \"No Pen is a Marker\" (Conclusion III) and \"No Marker is a Pen\" (Conclusion II).\nThere is no direct relation between Erasers and Pens, so Conclusion I does not follow."
+}
+,
   {
     "question-hindi": "छह दोस्त A, B, C, D, E, F हैं, जिनका वजन अलग-अलग है। A सबसे भारी नहीं है। केवल तीन D से भारी हैं और तीन E से हल्के हैं। B, C से भारी है लेकिन D से हल्का है। A से कितने हल्के हैं?",
     "question-english": "Six friends A, B, C, D, E, F have different weights. A is not the heaviest. Three are heavier than D and three lighter than E. B is heavier than C but lighter than D. How many are lighter than A?",
@@ -893,7 +894,7 @@
   "solution-english": ""
 },
   {
-    "question_image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q24.png",
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_23/mock_test_23_Q24.png",
   "question_english": "How many triangles are there in the given figure?",
   "question_hindi": "दिए गए चित्र में कितने त्रिभुज हैं?",
   "options-hindi": ["A", "B", "C", "D"],
@@ -965,7 +966,7 @@
     "options-english": ["(a) 6.25% loss", "(b) 6.25% gain", "(c) 5% loss", "(d) No gain no loss"],
     "options-hindi": ["(a) 6.25% हानि", "(b) 6.25% लाभ", "(c) 5% हानि", "(d) कोई लाभ कोई हानि नहीं"],
     "answer-english":"(a) 6.25% loss",
-    "answer-hindi":"(a) 6.25% loss",
+    "answer-hindi":"(a) 6.25% हानि",
     "solution-english": "When gain% = loss%, there is always a loss. Loss% = (common % /10)^2 = (25/10)^2 = 6.25% loss.",
     "solution-hindi": "जब लाभ% = हानि% होता है, तो हमेशा शुद्ध हानि होती है। हानि% = (समान % /10)^2 = (25/10)^2 = 6.25% हानि।"
   },
