@@ -4,901 +4,901 @@
       "section": "General Science",
           "questions": [
              {
-    "question_english": "The Charter Act of _______ suspended the monopoly of the East India Company over trade with India.",
-    "question_hindi": "_______ के चार्टर अधिनियम ने भारत के साथ व्यापार पर ईस्ट इंडिया कंपनी के एकाधिकार को समाप्त कर दिया।",
-    "options_english": [
+    "question-english": "The Charter Act of _______ suspended the monopoly of the East India Company over trade with India.",
+    "question-hindi": "_______ के चार्टर अधिनियम ने भारत के साथ व्यापार पर ईस्ट इंडिया कंपनी के एकाधिकार को समाप्त कर दिया।",
+    "options-english": [
       "A. 1833",
       "B. 1813",
       "C. 1973",
       "D. 1853"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 1833",
       "B. 1813",
       "C. 1973",
       "D. 1853"
     ],
-    "answer_english": "B. 1813",
-    "answer_hindi": "B. 1813",
-    "solution_english": "The Charter Act of 1813 ended the East India Company's trade monopoly in India while retaining it for trade with China and tea.",
-    "solution_hindi": "1813 का चार्टर अधिनियम भारत के संवैधानिक और प्रशासनिक इतिहास में एक महत्वपूर्ण मील का पत्थर है। इस अधिनियम ने भारत में ब्रिटिश ईस्ट इंडिया कंपनी के व्यापार एकाधिकार को समाप्त कर दिया।"
+    "answer-english": "B. 1813",
+    "answer-hindi": "B. 1813",
+    "solution-english": "The Charter Act of 1813 ended the East India Company's trade monopoly in India while retaining it for trade with China and tea.",
+    "solution-hindi": "1813 का चार्टर अधिनियम भारत के संवैधानिक और प्रशासनिक इतिहास में एक महत्वपूर्ण मील का पत्थर है। इस अधिनियम ने भारत में ब्रिटिश ईस्ट इंडिया कंपनी के व्यापार एकाधिकार को समाप्त कर दिया।"
   },
   {
-    "question_english": "Which of the following statement is related to Koeppen's 'A' type of climate?",
-    "question_hindi": "निम्नलिखित में से कौन सा कथन कोपेन की 'A' प्रकार की जलवायु से संबंधित है?",
-    "options_english": [
+    "question-english": "Which of the following statement is related to Koeppen's 'A' type of climate?",
+    "question-hindi": "निम्नलिखित में से कौन सा कथन कोपेन की 'A' प्रकार की जलवायु से संबंधित है?",
+    "options-english": [
       "A. The average temperature of the coldest month is 18°C or above.",
       "B. Potential evaporation equals precipitation.",
       "C. The average temperature of all months is below 10°C.",
       "D. Cold due to elevation."
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. सबसे ठंडे महीने का औसत तापमान 18 डिग्री सेल्सियस या उससे अधिक है।",
       "B. संभावित वाष्पीकरण वर्षा के बराबर है।",
       "C. सभी महीनों का औसत तापमान 10 डिग्री सेल्सियस से नीचे है।",
       "D. ऊंचाई के कारण ठंड।"
     ],
-    "answer_english": "A. The average temperature of the coldest month is 18°C or above.",
-    "answer_hindi": "A. सबसे ठंडे महीने का औसत तापमान 18 डिग्री सेल्सियस या उससे अधिक है।",
-    "solution_english": "The 'A' type represents tropical climates with the coldest month averaging 18°C or higher.",
-    "solution_hindi": "'A' समूह उष्णकटिबंधीय जलवायु का प्रतिनिधित्व करता है, जिसकी परिभाषित विशेषता लगातार उच्च तापमान है।"
+    "answer-english": "A. The average temperature of the coldest month is 18°C or above.",
+    "answer-hindi": "A. सबसे ठंडे महीने का औसत तापमान 18 डिग्री सेल्सियस या उससे अधिक है।",
+    "solution-english": "The 'A' type represents tropical climates with the coldest month averaging 18°C or higher.",
+    "solution-hindi": "'A' समूह उष्णकटिबंधीय जलवायु का प्रतिनिधित्व करता है, जिसकी परिभाषित विशेषता लगातार उच्च तापमान है।"
   },
   {
-    "question_english": "When was the Jan Dhan Yojana launched?",
-    "question_hindi": "जन धन योजना कब शुरू की गई थी?",
-    "options_english": [
+    "question-english": "When was the Jan Dhan Yojana launched?",
+    "question-hindi": "जन धन योजना कब शुरू की गई थी?",
+    "options-english": [
       "A. 2014",
       "B. 2016",
       "C. 2015",
       "D. 2013"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 2014",
       "B. 2016",
       "C. 2015",
       "D. 2013"
     ],
-    "answer_english": "A. 2014",
-    "answer_hindi": "A. 2014",
-    "solution_english": "The Pradhan Mantri Jan Dhan Yojana was launched on August 28, 2014.",
-    "solution_hindi": "प्रधानमंत्री जन धन योजना 28 अगस्त 2014 को शुरू की गई थी।"
+    "answer-english": "A. 2014",
+    "answer-hindi": "A. 2014",
+    "solution-english": "The Pradhan Mantri Jan Dhan Yojana was launched on August 28, 2014.",
+    "solution-hindi": "प्रधानमंत्री जन धन योजना 28 अगस्त 2014 को शुरू की गई थी।"
   },
   {
-    "question_english": "Who among the following Muslim leaders of British India joined the All-India Muslim League in 1913?",
-    "question_hindi": "ब्रिटिश भारत के निम्नलिखित मुस्लिम नेताओं में से कौन 1913 में अखिल भारतीय मुस्लिम लीग में शामिल हुआ?",
-    "options_english": [
+    "question-english": "Who among the following Muslim leaders of British India joined the All-India Muslim League in 1913?",
+    "question-hindi": "ब्रिटिश भारत के निम्नलिखित मुस्लिम नेताओं में से कौन 1913 में अखिल भारतीय मुस्लिम लीग में शामिल हुआ?",
+    "options-english": [
       "A. Maulana Abul Kalam Azad",
       "B. Maulana Shaukat Ali",
       "C. Muhammad Ali Jinnah",
       "D. Hakim Ajmal Khan"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. मौलाना अबुल कलाम आज़ाद",
       "B. मौलाना शौकत अली",
       "C. मुहम्मद अली जिन्ना",
       "D. हकीम अजमल खान"
     ],
-    "answer_english": "C. Muhammad Ali Jinnah",
-    "answer_hindi": "C. मुहम्मद अली जिन्ना",
-    "solution_english": "Muhammad Ali Jinnah joined the All-India Muslim League in 1913.",
-    "solution_hindi": "मुहम्मद अली जिन्ना 1913 में मुस्लिम लीग में शामिल हुए।"
+    "answer-english": "C. Muhammad Ali Jinnah",
+    "answer-hindi": "C. मुहम्मद अली जिन्ना",
+    "solution-english": "Muhammad Ali Jinnah joined the All-India Muslim League in 1913.",
+    "solution-hindi": "मुहम्मद अली जिन्ना 1913 में मुस्लिम लीग में शामिल हुए।"
   },
   {
-    "question_english": "The lower portion of Dhamekh Stupa at Sarnath is covered with carved _________.",
-    "question_hindi": "सारनाथ में धमेख स्तूप का निचला भाग नक्काशीदार _________ से ढका हुआ है।",
-    "options_english": [
+    "question-english": "The lower portion of Dhamekh Stupa at Sarnath is covered with carved _________.",
+    "question-hindi": "सारनाथ में धमेख स्तूप का निचला भाग नक्काशीदार _________ से ढका हुआ है।",
+    "options-english": [
       "A. Wood",
       "B. Stone",
       "C. Granite",
       "D. Marble"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. लकड़ी",
       "B. पत्थर",
       "C. ग्रेनाइट",
       "D. संगमरमर"
     ],
-    "answer_english": "B. Stone",
-    "answer_hindi": "B. पत्थर",
-    "solution_english": "The lower part of Dhamekh Stupa is covered with beautifully carved stones.",
-    "solution_hindi": "धमेख स्तूप का निचला हिस्सा खूबसूरती से तराशे गए पत्थरों से बना है।"
+    "answer-english": "B. Stone",
+    "answer-hindi": "B. पत्थर",
+    "solution-english": "The lower part of Dhamekh Stupa is covered with beautifully carved stones.",
+    "solution-hindi": "धमेख स्तूप का निचला हिस्सा खूबसूरती से तराशे गए पत्थरों से बना है।"
   },
   {
-    "question_english": "Pandrethan temple of Srinagar is associated with which of the following religions?",
-    "question_hindi": "श्रीनगर का पांद्रेथान मंदिर निम्नलिखित में से किस धर्म से संबंधित है?",
-    "options_english": [
+    "question-english": "Pandrethan temple of Srinagar is associated with which of the following religions?",
+    "question-hindi": "श्रीनगर का पांद्रेथान मंदिर निम्नलिखित में से किस धर्म से संबंधित है?",
+    "options-english": [
       "A. Hinduism",
       "B. Sikhism",
       "C. Buddhism",
       "D. Jainism"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. हिंदू धर्म",
       "B. सिख धर्म",
       "C. बौद्ध धर्म",
       "D. जैन धर्म"
     ],
-    "answer_english": "A. Hinduism",
-    "answer_hindi": "A. हिंदू धर्म",
-    "solution_english": "The Pandrethan Temple is dedicated to Lord Shiva (Hinduism).",
-    "solution_hindi": "पांद्रेथान मंदिर भगवान शिव को समर्पित है।"
+    "answer-english": "A. Hinduism",
+    "answer-hindi": "A. हिंदू धर्म",
+    "solution-english": "The Pandrethan Temple is dedicated to Lord Shiva (Hinduism).",
+    "solution-hindi": "पांद्रेथान मंदिर भगवान शिव को समर्पित है।"
   },
   {
-    "question_english": "What is the full form of NADA?",
-    "question_hindi": "NADA का पूर्ण रूप क्या है?",
-    "options_english": [
+    "question-english": "What is the full form of NADA?",
+    "question-hindi": "NADA का पूर्ण रूप क्या है?",
+    "options-english": [
       "A. National Anti-Doping Agency",
       "B. National Assessment and Development Agency",
       "C. National Athlete-Development Agency",
       "D. National Age-Detection Agency"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. राष्ट्रीय डोपिंग रोधी एजेंसी",
       "B. राष्ट्रीय मूल्यांकन और विकास एजेंसी",
       "C. राष्ट्रीय एथलीट-विकास एजेंसी",
       "D. राष्ट्रीय आयु-पहचान एजेंसी"
     ],
-    "answer_english": "A. National Anti-Doping Agency",
-    "answer_hindi": "A. राष्ट्रीय डोपिंग रोधी एजेंसी",
-    "solution_english": "NADA stands for National Anti-Doping Agency.",
-    "solution_hindi": "NADA का अर्थ राष्ट्रीय डोपिंग रोधी एजेंसी है।"
+    "answer-english": "A. National Anti-Doping Agency",
+    "answer-hindi": "A. राष्ट्रीय डोपिंग रोधी एजेंसी",
+    "solution-english": "NADA stands for National Anti-Doping Agency.",
+    "solution-hindi": "NADA का अर्थ राष्ट्रीय डोपिंग रोधी एजेंसी है।"
   },
   {
-    "question_english": "According to the 2011 Census, which state has the least population in India?",
-    "question_hindi": "2011 की जनगणना के अनुसार, भारत में सबसे कम जनसंख्या वाला राज्य कौन सा है?",
-    "options_english": [
+    "question-english": "According to the 2011 Census, which state has the least population in India?",
+    "question-hindi": "2011 की जनगणना के अनुसार, भारत में सबसे कम जनसंख्या वाला राज्य कौन सा है?",
+    "options-english": [
       "A. Nagaland",
       "B. Sikkim",
       "C. Arunachal Pradesh",
       "D. Tripura"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. नागालैंड",
       "B. सिक्किम",
       "C. अरुणाचल प्रदेश",
       "D. त्रिपुरा"
     ],
-    "answer_english": "B. Sikkim",
-    "answer_hindi": "B. सिक्किम",
-    "solution_english": "Sikkim has the least population in India as per the 2011 Census.",
-    "solution_hindi": "2011 की जनगणना के अनुसार सिक्किम की जनसंख्या सबसे कम है।"
+    "answer-english": "B. Sikkim",
+    "answer-hindi": "B. सिक्किम",
+    "solution-english": "Sikkim has the least population in India as per the 2011 Census.",
+    "solution-hindi": "2011 की जनगणना के अनुसार सिक्किम की जनसंख्या सबसे कम है।"
   },
   {
-    "question_english": "Padmaja Reddy is a famous _________ classical dancer.",
-    "question_hindi": "पद्मजा रेड्डी एक प्रसिद्ध _________ शास्त्रीय नृत्यांगना हैं।",
-    "options_english": [
+    "question-english": "Padmaja Reddy is a famous _________ classical dancer.",
+    "question-hindi": "पद्मजा रेड्डी एक प्रसिद्ध _________ शास्त्रीय नृत्यांगना हैं।",
+    "options-english": [
       "A. Kuchipudi",
       "B. Bharatanatyam",
       "C. Kathak",
       "D. Kathakali"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. कुचिपुड़ी",
       "B. भरतनाट्यम",
       "C. कथक",
       "D. कथकली"
     ],
-    "answer_english": "A. Kuchipudi",
-    "answer_hindi": "A. कुचिपुड़ी",
-    "solution_english": "Padmaja Reddy is a renowned Kuchipudi dancer.",
-    "solution_hindi": "पद्मजा रेड्डी कुचिपुड़ी नृत्य शैली की विशेषज्ञ हैं।"
+    "answer-english": "A. Kuchipudi",
+    "answer-hindi": "A. कुचिपुड़ी",
+    "solution-english": "Padmaja Reddy is a renowned Kuchipudi dancer.",
+    "solution-hindi": "पद्मजा रेड्डी कुचिपुड़ी नृत्य शैली की विशेषज्ञ हैं।"
   },
   {
-    "question_english": "Gorgonia ventalina is the scientific name of which saltwater invertebrate?",
-    "question_hindi": "गॉर्गोनिया वेंटालिना किस खारे पानी के अकशेरुकी का वैज्ञानिक नाम है?",
-    "options_english": [
+    "question-english": "Gorgonia ventalina is the scientific name of which saltwater invertebrate?",
+    "question-hindi": "गॉर्गोनिया वेंटालिना किस खारे पानी के अकशेरुकी का वैज्ञानिक नाम है?",
+    "options-english": [
       "A. Sea Urchin",
       "B. Common Sea Fan",
       "C. Sea Cucumber",
       "D. Sea Anemone"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. समुद्री अर्चिन",
       "B. सामान्य समुद्री पंखा",
       "C. समुद्री खीरा",
       "D. समुद्री एनीमोन"
     ],
-    "answer_english": "B. Common Sea Fan",
-    "answer_hindi": "B. सामान्य समुद्री पंखा",
-    "solution_english": "Gorgonia ventalina is the scientific name of the common sea fan.",
-    "solution_hindi": "गॉर्गोनिया वेंटालिना सामान्य समुद्री पंखा का वैज्ञानिक नाम है।"
+    "answer-english": "B. Common Sea Fan",
+    "answer-hindi": "B. सामान्य समुद्री पंखा",
+    "solution-english": "Gorgonia ventalina is the scientific name of the common sea fan.",
+    "solution-hindi": "गॉर्गोनिया वेंटालिना सामान्य समुद्री पंखा का वैज्ञानिक नाम है।"
   }, {
-    "question_hindi": "देश का सर्वोच्च कानून अधिकारी किसे माना जाता है?",
-    "question_english": "Who is considered as the highest law officer in the country?",
-    "options_english": [
+    "question-hindi": "देश का सर्वोच्च कानून अधिकारी किसे माना जाता है?",
+    "question-english": "Who is considered as the highest law officer in the country?",
+    "options-english": [
       "A. Attorney General of India",
       "B. Chief Election Commissioner",
       "C. Chairman of NITI Aayog",
       "D. Chief Justice of India"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. भारत का महान्यायवादी",
       "B. मुख्य चुनाव आयुक्त",
       "C. नीति आयोग के अध्यक्ष",
       "D. भारत के मुख्य न्यायाधीश"
     ],
-    "answer_english": "A. Attorney General of India",
-    "answer_hindi": "A. भारत का महान्यायवादी",
-    "solution_english": "The Attorney General of India is the highest law officer in the country.",
-    "solution_hindi": "भारत का महान्यायवादी देश का सर्वोच्च कानून अधिकारी होता है।"
+    "answer-english": "A. Attorney General of India",
+    "answer-hindi": "A. भारत का महान्यायवादी",
+    "solution-english": "The Attorney General of India is the highest law officer in the country.",
+    "solution-hindi": "भारत का महान्यायवादी देश का सर्वोच्च कानून अधिकारी होता है।"
   },
   {
-    "question_hindi": "भारतीय संविधान का संरचनात्मक हिस्सा किससे लिया गया है:",
-    "question_english": "The structural part of the Indian Constitution is derived from:",
-    "options_english": [
+    "question-hindi": "भारतीय संविधान का संरचनात्मक हिस्सा किससे लिया गया है:",
+    "question-english": "The structural part of the Indian Constitution is derived from:",
+    "options-english": [
       "A. Government of India Act, 1935",
       "B. Government of India Act, 1919",
       "C. Government of India Act, 1909",
       "D. Government of India Act, 1958"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. भारत सरकार अधिनियम 1935",
       "B. भारत सरकार अधिनियम 1919",
       "C. भारत सरकार अधिनियम 1909",
       "D. भारत सरकार अधिनियम 1958"
     ],
-    "answer_english": "A. Government of India Act, 1935",
-    "answer_hindi": "A. भारत सरकार अधिनियम 1935",
-    "solution_english": "The structural framework of the Indian Constitution is derived from the Government of India Act, 1935.",
-    "solution_hindi": "संविधान का संरचनात्मक ढांचा भारत सरकार अधिनियम 1935 से लिया गया है।"
+    "answer-english": "A. Government of India Act, 1935",
+    "answer-hindi": "A. भारत सरकार अधिनियम 1935",
+    "solution-english": "The structural framework of the Indian Constitution is derived from the Government of India Act, 1935.",
+    "solution-hindi": "संविधान का संरचनात्मक ढांचा भारत सरकार अधिनियम 1935 से लिया गया है।"
   },
   {
-    "question_hindi": "निम्नलिखित में से किस राजा ने विजयनगर के पास नागालपुरम नामक एक उपनगरीय बस्ती की स्थापना की?",
-    "question_english": "Who among the following kings founded a suburban township near Vijayanagara called Nagalapuram?",
-    "options_english": [
+    "question-hindi": "निम्नलिखित में से किस राजा ने विजयनगर के पास नागालपुरम नामक एक उपनगरीय बस्ती की स्थापना की?",
+    "question-english": "Who among the following kings founded a suburban township near Vijayanagara called Nagalapuram?",
+    "options-english": [
       "A. Rajaraja Chola",
       "B. Rajendra I",
       "C. Krishnadevaraya",
       "D. Deva Raya II"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. राजराजा चोल",
       "B. राजेंद्र प्रथम",
       "C. कृष्णदेवराय",
       "D. देव राय द्वितीय"
     ],
-    "answer_english": "C. Krishnadevaraya",
-    "answer_hindi": "C. कृष्णदेवराय",
-    "solution_english": "Krishnadevaraya founded Nagalapuram, naming it after his mother Nagala Devi.",
-    "solution_hindi": "कृष्णदेवराय ने अपनी माता नागला देवी के नाम पर नागालपुरम की स्थापना की।"
+    "answer-english": "C. Krishnadevaraya",
+    "answer-hindi": "C. कृष्णदेवराय",
+    "solution-english": "Krishnadevaraya founded Nagalapuram, naming it after his mother Nagala Devi.",
+    "solution-hindi": "कृष्णदेवराय ने अपनी माता नागला देवी के नाम पर नागालपुरम की स्थापना की।"
   },
   {
-    "question_hindi": "निम्नलिखित कथनों पर विचार करें और सही विकल्प चुनें। A: सभी वस्तुओं को गैसों में बदलने से पहले ठोस से तरल में बदलना चाहिए। B: वाष्पीकरण वह प्रक्रिया है जिससे ठोस गैसों में बदल सकते हैं।",
-    "question_english": "Consider the following statements and select the correct option. A: All objects must change from solids into liquids before changing into gases. B: Evaporation is the process by which solids can change into gases.",
-    "options_english": [
+    "question-hindi": "निम्नलिखित कथनों पर विचार करें और सही विकल्प चुनें। A: सभी वस्तुओं को गैसों में बदलने से पहले ठोस से तरल में बदलना चाहिए। B: वाष्पीकरण वह प्रक्रिया है जिससे ठोस गैसों में बदल सकते हैं।",
+    "question-english": "Consider the following statements and select the correct option. A: All objects must change from solids into liquids before changing into gases. B: Evaporation is the process by which solids can change into gases.",
+    "options-english": [
       "A. A is false, but B is true",
       "B. A is true, but B is false",
       "C. Both A and B are true",
       "D. Both A and B are false"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. A असत्य है, लेकिन B सत्य है",
       "B. A सत्य है, लेकिन B असत्य है",
       "C. A और B दोनों सत्य हैं",
       "D. A और B दोनों असत्य हैं"
     ],
-    "answer_english": "D. Both A and B are false",
-    "answer_hindi": "D. A और B दोनों असत्य हैं",
-    "solution_english": "Both statements are false. Solids can directly change to gases (sublimation). Evaporation is liquid to gas transition.",
-    "solution_hindi": "दोनों कथन असत्य हैं। ठोस सीधे गैस में बदल सकते हैं (ऊर्ध्वपातन)। वाष्पीकरण केवल तरल से गैस में परिवर्तन है।"
+    "answer-english": "D. Both A and B are false",
+    "answer-hindi": "D. A और B दोनों असत्य हैं",
+    "solution-english": "Both statements are false. Solids can directly change to gases (sublimation). Evaporation is liquid to gas transition.",
+    "solution-hindi": "दोनों कथन असत्य हैं। ठोस सीधे गैस में बदल सकते हैं (ऊर्ध्वपातन)। वाष्पीकरण केवल तरल से गैस में परिवर्तन है।"
   },
   {
-    "question_hindi": "चक्का फेंक के खेल में महिलाओं के लिए चक्के का मानक वजन क्या है?",
-    "question_english": "In the game of discus throw, what is the standard weight of a discus for women?",
-    "options_english": [
+    "question-hindi": "चक्का फेंक के खेल में महिलाओं के लिए चक्के का मानक वजन क्या है?",
+    "question-english": "In the game of discus throw, what is the standard weight of a discus for women?",
+    "options-english": [
       "A. 1500 grams",
       "B. 1200 grams",
       "C. 800 grams",
       "D. 1000 grams"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 1500 ग्राम",
       "B. 1200 ग्राम",
       "C. 800 ग्राम",
       "D. 1000 ग्राम"
     ],
-    "answer_english": "D. 1000 grams",
-    "answer_hindi": "D. 1000 ग्राम",
-    "solution_english": "The standard weight of the discus for women is 1 kilogram (1000 grams).",
-    "solution_hindi": "महिलाओं के लिए चक्के का मानक वजन 1 किलोग्राम (1000 ग्राम) होता है।"
+    "answer-english": "D. 1000 grams",
+    "answer-hindi": "D. 1000 ग्राम",
+    "solution-english": "The standard weight of the discus for women is 1 kilogram (1000 grams).",
+    "solution-hindi": "महिलाओं के लिए चक्के का मानक वजन 1 किलोग्राम (1000 ग्राम) होता है।"
   },
   {
-    "question_hindi": "उस कलाकार की पहचान करें जो संगीत वाद्ययंत्र सारंगी से संबंधित नहीं है।",
-    "question_english": "Identify the artist who is NOT associated with the musical instrument sarangi.",
-    "options_english": [
+    "question-hindi": "उस कलाकार की पहचान करें जो संगीत वाद्ययंत्र सारंगी से संबंधित नहीं है।",
+    "question-english": "Identify the artist who is NOT associated with the musical instrument sarangi.",
+    "options-english": [
       "A. Pandit Ram Narayan",
       "B. Pandit Vishwa Mohan Bhatt",
       "C. Ustad Binda Khan",
       "D. Shakur Khan"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. पंडित राम नारायण",
       "B. पंडित विश्व मोहन भट्ट",
       "C. उस्ताद बिंदा खान",
       "D. शकूर खान"
     ],
-    "answer_english": "B. Pandit Vishwa Mohan Bhatt",
-    "answer_hindi": "B. पंडित विश्व मोहन भट्ट",
-    "solution_english": "Pandit Vishwa Mohan Bhatt is known for the Mohan Veena, not the sarangi.",
-    "solution_hindi": "पंडित विश्व मोहन भट्ट मोहन वीणा के लिए प्रसिद्ध हैं, न कि सारंगी के लिए।"
+    "answer-english": "B. Pandit Vishwa Mohan Bhatt",
+    "answer-hindi": "B. पंडित विश्व मोहन भट्ट",
+    "solution-english": "Pandit Vishwa Mohan Bhatt is known for the Mohan Veena, not the sarangi.",
+    "solution-hindi": "पंडित विश्व मोहन भट्ट मोहन वीणा के लिए प्रसिद्ध हैं, न कि सारंगी के लिए।"
   },
   {
-    "question_hindi": "'बाउंसर' शब्द का प्रयोग निम्नलिखित में से किस खेल में किया जाता है?",
-    "question_english": "The term 'bouncer' is used in which of the following games?",
-    "options_english": [
+    "question-hindi": "'बाउंसर' शब्द का प्रयोग निम्नलिखित में से किस खेल में किया जाता है?",
+    "question-english": "The term 'bouncer' is used in which of the following games?",
+    "options-english": [
       "A. Football",
       "B. Tennis",
       "C. Hockey",
       "D. Cricket"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. फुटबॉल",
       "B. टेनिस",
       "C. हॉकी",
       "D. क्रिकेट"
     ],
-    "answer_english": "D. Cricket",
-    "answer_hindi": "D. क्रिकेट",
-    "solution_english": "A 'bouncer' is a short-pitched ball in cricket that bounces high, often near the batsman’s head.",
-    "solution_hindi": "'बाउंसर' क्रिकेट में तेज गेंदबाज द्वारा फेंकी जाने वाली ऊँची उछाल वाली गेंद होती है।"
+    "answer-english": "D. Cricket",
+    "answer-hindi": "D. क्रिकेट",
+    "solution-english": "A 'bouncer' is a short-pitched ball in cricket that bounces high, often near the batsman’s head.",
+    "solution-hindi": "'बाउंसर' क्रिकेट में तेज गेंदबाज द्वारा फेंकी जाने वाली ऊँची उछाल वाली गेंद होती है।"
   },
   {
-    "question_hindi": "भारत के निम्नलिखित में से किस राज्य में नोकरेक बायोस्फीयर रिजर्व स्थित है?",
-    "question_english": "In which of the following states of India is the Nokrek Biosphere Reserve located?",
-    "options_english": [
+    "question-hindi": "भारत के निम्नलिखित में से किस राज्य में नोकरेक बायोस्फीयर रिजर्व स्थित है?",
+    "question-english": "In which of the following states of India is the Nokrek Biosphere Reserve located?",
+    "options-english": [
       "A. Nagaland",
       "B. Telangana",
       "C. Meghalaya",
       "D. Karnataka"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. नागालैंड",
       "B. तेलंगाना",
       "C. मेघालय",
       "D. कर्नाटक"
     ],
-    "answer_english": "C. Meghalaya",
-    "answer_hindi": "C. मेघालय",
-    "solution_english": "The Nokrek Biosphere Reserve is located in Meghalaya’s West Garo Hills.",
-    "solution_hindi": "नोकरेक बायोस्फीयर रिजर्व मेघालय में पश्चिम गारो हिल्स में स्थित है।"
+    "answer-english": "C. Meghalaya",
+    "answer-hindi": "C. मेघालय",
+    "solution-english": "The Nokrek Biosphere Reserve is located in Meghalaya’s West Garo Hills.",
+    "solution-hindi": "नोकरेक बायोस्फीयर रिजर्व मेघालय में पश्चिम गारो हिल्स में स्थित है।"
   },
   {
-    "question_hindi": "भारत में संरचनात्मक बेरोजगारी में योगदान देने वाला प्राथमिक कारक क्या है?",
-    "question_english": "What is the primary factor contributing to structural unemployment in India?",
-    "options_english": [
+    "question-hindi": "भारत में संरचनात्मक बेरोजगारी में योगदान देने वाला प्राथमिक कारक क्या है?",
+    "question-english": "What is the primary factor contributing to structural unemployment in India?",
+    "options-english": [
       "A. Lack of education",
       "B. Seasonal changes",
       "C. Unavailability of jobs",
       "D. Technological advancement"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. शिक्षा की कमी",
       "B. मौसमी बदलाव",
       "C. नौकरियों की अनुपलब्धता",
       "D. तकनीकी प्रगति"
     ],
-    "answer_english": "D. Technological advancement",
-    "answer_hindi": "D. तकनीकी प्रगति",
-    "solution_english": "Technological advancements are the primary factor causing structural unemployment.",
-    "solution_hindi": "तकनीकी प्रगति संरचनात्मक बेरोजगारी का मुख्य कारण है।"
+    "answer-english": "D. Technological advancement",
+    "answer-hindi": "D. तकनीकी प्रगति",
+    "solution-english": "Technological advancements are the primary factor causing structural unemployment.",
+    "solution-hindi": "तकनीकी प्रगति संरचनात्मक बेरोजगारी का मुख्य कारण है।"
   },
   {
-    "question_hindi": "निम्नलिखित में से किस वर्ष में रेलवे बजट को केंद्रीय बजट में मिला दिया गया था?",
-    "question_english": "In which of the following years was the Railway Budget merged with the Union Budget?",
-    "options_english": [
+    "question-hindi": "निम्नलिखित में से किस वर्ष में रेलवे बजट को केंद्रीय बजट में मिला दिया गया था?",
+    "question-english": "In which of the following years was the Railway Budget merged with the Union Budget?",
+    "options-english": [
       "A. 2019",
       "B. 2012",
       "C. 2017",
       "D. 2015"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 2019",
       "B. 2012",
       "C. 2017",
       "D. 2015"
     ],
-    "answer_english": "C. 2017",
-    "answer_hindi": "C. 2017",
-    "solution_english": "The Railway Budget was merged with the Union Budget in 2017.",
-    "solution_hindi": "2017 में रेलवे बजट को केंद्रीय बजट में मिला दिया गया था।"
+    "answer-english": "C. 2017",
+    "answer-hindi": "C. 2017",
+    "solution-english": "The Railway Budget was merged with the Union Budget in 2017.",
+    "solution-hindi": "2017 में रेलवे बजट को केंद्रीय बजट में मिला दिया गया था।"
   }, {
-    "question_english": "Shovana Narayan, an officer with the Indian Audit and Accounts Service, has won many awards for her contribution to dance internationally and has recently acted in a movie. She is an exponent of which of the following dance forms?",
-    "question_hindi": "शोवना नारायण, जो भारतीय लेखा और लेखा परीक्षा सेवा की एक अधिकारी हैं, ने अंतरराष्ट्रीय स्तर पर नृत्य के क्षेत्र में अपने योगदान के लिए कई पुरस्कार जीते हैं और हाल ही में एक फिल्म में अभिनय किया है। वह निम्नलिखित में से किस नृत्य शैली की प्रतिपादक हैं?",
-    "options_english": ["A. Odissi", "B. Bharatanatyam", "C. Kuchipudi", "D. Kathak"],
-    "options_hindi": ["A. ओडिसी", "B. भरतनाट्यम", "C. कुचिपुड़ी", "D. कथक"],
-    "answer_english": "D. Kathak",
-    "answer_hindi": "D. कथक",
-    "solution_english": "Shovana Narayan is one of the most celebrated and senior exponents of the classical dance form Kathak.",
-    "solution_hindi": "शोवना नारायण कथक की एक प्रसिद्ध और वरिष्ठ प्रतिपादक हैं।"
+    "question-english": "Shovana Narayan, an officer with the Indian Audit and Accounts Service, has won many awards for her contribution to dance internationally and has recently acted in a movie. She is an exponent of which of the following dance forms?",
+    "question-hindi": "शोवना नारायण, जो भारतीय लेखा और लेखा परीक्षा सेवा की एक अधिकारी हैं, ने अंतरराष्ट्रीय स्तर पर नृत्य के क्षेत्र में अपने योगदान के लिए कई पुरस्कार जीते हैं और हाल ही में एक फिल्म में अभिनय किया है। वह निम्नलिखित में से किस नृत्य शैली की प्रतिपादक हैं?",
+    "options-english": ["A. Odissi", "B. Bharatanatyam", "C. Kuchipudi", "D. Kathak"],
+    "options-hindi": ["A. ओडिसी", "B. भरतनाट्यम", "C. कुचिपुड़ी", "D. कथक"],
+    "answer-english": "D. Kathak",
+    "answer-hindi": "D. कथक",
+    "solution-english": "Shovana Narayan is one of the most celebrated and senior exponents of the classical dance form Kathak.",
+    "solution-hindi": "शोवना नारायण कथक की एक प्रसिद्ध और वरिष्ठ प्रतिपादक हैं।"
   },
   {
-    "question_english": "Which of the following communities of Sikkim celebrates 'Sonam Losar' as its New Year on the first day of the twelfth month in the lunar calendar?",
-    "question_hindi": "सिक्किम का निम्नलिखित में से कौन सा समुदाय चंद्र कैलेंडर के बारहवें महीने के पहले दिन 'सोनम लोसर' को अपने नव वर्ष के रूप में मनाता है?",
-    "options_english": ["A. Gurung", "B. Tamang", "C. Kirat Khambu Rai", "D. Lepcha"],
-    "options_hindi": ["A. गुरुंग", "B. तमांग", "C. किरात खम्बू राय", "D. लेप्चा"],
-    "answer_english": "B. Tamang",
-    "answer_hindi": "B. तमांग",
-    "solution_english": "Sonam Losar is the principal festival of the Tamang community of Sikkim and is celebrated as their New Year.",
-    "solution_hindi": "सोनम लोसर सिक्किम के तमांग समुदाय का प्रमुख त्योहार है और इसे उनका नव वर्ष माना जाता है।"
+    "question-english": "Which of the following communities of Sikkim celebrates 'Sonam Losar' as its New Year on the first day of the twelfth month in the lunar calendar?",
+    "question-hindi": "सिक्किम का निम्नलिखित में से कौन सा समुदाय चंद्र कैलेंडर के बारहवें महीने के पहले दिन 'सोनम लोसर' को अपने नव वर्ष के रूप में मनाता है?",
+    "options-english": ["A. Gurung", "B. Tamang", "C. Kirat Khambu Rai", "D. Lepcha"],
+    "options-hindi": ["A. गुरुंग", "B. तमांग", "C. किरात खम्बू राय", "D. लेप्चा"],
+    "answer-english": "B. Tamang",
+    "answer-hindi": "B. तमांग",
+    "solution-english": "Sonam Losar is the principal festival of the Tamang community of Sikkim and is celebrated as their New Year.",
+    "solution-hindi": "सोनम लोसर सिक्किम के तमांग समुदाय का प्रमुख त्योहार है और इसे उनका नव वर्ष माना जाता है।"
   },
   {
-    "question_english": "Who among the following wrote 'Prithviraj Raso'?",
-    "question_hindi": "निम्नलिखित में से किसने 'पृथ्वीराज रासो' लिखा?",
-    "options_english": ["A. Jayadeva", "B. Chand Bardai", "C. Padmagupta", "D. Rajashekhara"],
-    "options_hindi": ["A. जयदेव", "B. चंद बरदाई", "C. पद्मगुप्त", "D. राजशेखर"],
-    "answer_english": "B. Chand Bardai",
-    "answer_hindi": "B. चंद बरदाई",
-    "solution_english": "'Prithviraj Raso' is an epic in Brajbhasha traditionally attributed to Chand Bardai.",
-    "solution_hindi": "'पृथ्वीराज रासो' ब्रज भाषा में एक महाकाव्य है जिसे पारंपरिक रूप से चंद बरदाई को श्रेय दिया जाता है।"
+    "question-english": "Who among the following wrote 'Prithviraj Raso'?",
+    "question-hindi": "निम्नलिखित में से किसने 'पृथ्वीराज रासो' लिखा?",
+    "options-english": ["A. Jayadeva", "B. Chand Bardai", "C. Padmagupta", "D. Rajashekhara"],
+    "options-hindi": ["A. जयदेव", "B. चंद बरदाई", "C. पद्मगुप्त", "D. राजशेखर"],
+    "answer-english": "B. Chand Bardai",
+    "answer-hindi": "B. चंद बरदाई",
+    "solution-english": "'Prithviraj Raso' is an epic in Brajbhasha traditionally attributed to Chand Bardai.",
+    "solution-hindi": "'पृथ्वीराज रासो' ब्रज भाषा में एक महाकाव्य है जिसे पारंपरिक रूप से चंद बरदाई को श्रेय दिया जाता है।"
   },
   {
-    "question_english": "Padma Shri awardee Shivnath Mishra is an exponent of the Benaras Gharana and he plays how many styles of Benaras Gayaki Ang?",
-    "question_hindi": "पद्मश्री पुरस्कार से सम्मानित शिवनाथ मिश्रा बनारस घराने के एक प्रतिपादक हैं और वह बनारस गायकी अंग की कितनी शैलियाँ बजाते हैं?",
-    "options_english": ["A. Three", "B. Two", "C. Six", "D. Four"],
-    "options_hindi": ["A. तीन", "B. दो", "C. छह", "D. चार"],
-    "answer_english": "D. Four",
-    "answer_hindi": "D. चार",
-    "solution_english": "Pandit Shivnath Mishra is a distinguished sitar player of the Benaras Gharana and is known to play four distinct Gayaki Ang styles.",
-    "solution_hindi": "पंडित शिवनाथ मिश्रा बनारस घराने के प्रतिष्ठित सितार वादक हैं और वे चार विशिष्ट गायकी अंग शैलियाँ निभाते हैं।"
+    "question-english": "Padma Shri awardee Shivnath Mishra is an exponent of the Benaras Gharana and he plays how many styles of Benaras Gayaki Ang?",
+    "question-hindi": "पद्मश्री पुरस्कार से सम्मानित शिवनाथ मिश्रा बनारस घराने के एक प्रतिपादक हैं और वह बनारस गायकी अंग की कितनी शैलियाँ बजाते हैं?",
+    "options-english": ["A. Three", "B. Two", "C. Six", "D. Four"],
+    "options-hindi": ["A. तीन", "B. दो", "C. छह", "D. चार"],
+    "answer-english": "D. Four",
+    "answer-hindi": "D. चार",
+    "solution-english": "Pandit Shivnath Mishra is a distinguished sitar player of the Benaras Gharana and is known to play four distinct Gayaki Ang styles.",
+    "solution-hindi": "पंडित शिवनाथ मिश्रा बनारस घराने के प्रतिष्ठित सितार वादक हैं और वे चार विशिष्ट गायकी अंग शैलियाँ निभाते हैं।"
   },
   {
-    "question_english": "The famous Hindu temple 'Koneswaram' is located in which country?",
-    "question_hindi": "प्रसिद्ध हिंदू मंदिर 'कोणेश्वरम' किस देश में स्थित है?",
-    "options_english": ["A. Nepal", "B. Sri Lanka", "C. Bhutan", "D. Pakistan"],
-    "options_hindi": ["A. नेपाल", "B. श्रीलंका", "C. भूटान", "D. पाकिस्तान"],
-    "answer_english": "B. Sri Lanka",
-    "answer_hindi": "B. श्रीलंका",
-    "solution_english": "The Koneswaram Temple is an ancient Hindu temple located in Trincomalee, Sri Lanka.",
-    "solution_hindi": "कोणेश्वरम मंदिर श्रीलंका के त्रिनकोमाली में स्थित एक प्राचीन हिंदू मंदिर है।"
+    "question-english": "The famous Hindu temple 'Koneswaram' is located in which country?",
+    "question-hindi": "प्रसिद्ध हिंदू मंदिर 'कोणेश्वरम' किस देश में स्थित है?",
+    "options-english": ["A. Nepal", "B. Sri Lanka", "C. Bhutan", "D. Pakistan"],
+    "options-hindi": ["A. नेपाल", "B. श्रीलंका", "C. भूटान", "D. पाकिस्तान"],
+    "answer-english": "B. Sri Lanka",
+    "answer-hindi": "B. श्रीलंका",
+    "solution-english": "The Koneswaram Temple is an ancient Hindu temple located in Trincomalee, Sri Lanka.",
+    "solution-hindi": "कोणेश्वरम मंदिर श्रीलंका के त्रिनकोमाली में स्थित एक प्राचीन हिंदू मंदिर है।"
   },
   {
-    "question_english": "According to the Ministry of Fisheries, Animal Husbandry and Dairying, what was India's rank in milk production in the world in 2021–22?",
-    "question_hindi": "मत्स्य पालन, पशुपालन और डेयरी मंत्रालय के अनुसार, 2021–22 में विश्व में दूध उत्पादन के मामले में भारत का स्थान क्या था?",
-    "options_english": ["A. Fifth", "B. Second", "C. Third", "D. First"],
-    "options_hindi": ["A. पांचवाँ", "B. दूसरा", "C. तीसरा", "D. पहला"],
-    "answer_english": "D. First",
-    "answer_hindi": "D. पहला",
-    "solution_english": "India was the largest producer of milk in the world in 2021–22, producing about 221 million tonnes.",
-    "solution_hindi": "2021–22 में भारत दुनिया का सबसे बड़ा दूध उत्पादक था, जिसका उत्पादन लगभग 221 मिलियन टन था।"
+    "question-english": "According to the Ministry of Fisheries, Animal Husbandry and Dairying, what was India's rank in milk production in the world in 2021–22?",
+    "question-hindi": "मत्स्य पालन, पशुपालन और डेयरी मंत्रालय के अनुसार, 2021–22 में विश्व में दूध उत्पादन के मामले में भारत का स्थान क्या था?",
+    "options-english": ["A. Fifth", "B. Second", "C. Third", "D. First"],
+    "options-hindi": ["A. पांचवाँ", "B. दूसरा", "C. तीसरा", "D. पहला"],
+    "answer-english": "D. First",
+    "answer-hindi": "D. पहला",
+    "solution-english": "India was the largest producer of milk in the world in 2021–22, producing about 221 million tonnes.",
+    "solution-hindi": "2021–22 में भारत दुनिया का सबसे बड़ा दूध उत्पादक था, जिसका उत्पादन लगभग 221 मिलियन टन था।"
   },
   {
-    "question_english": "The process of removing silica from soil is known as:",
-    "question_hindi": "मिट्टी से सिलिका हटाने की प्रक्रिया को क्या कहा जाता है?",
-    "options_english": ["A. Salinization", "B. Leaching", "C. Polarization", "D. Desilication"],
-    "options_hindi": ["A. लवणीकरण", "B. निष्कर्षण", "C. ध्रुवीकरण", "D. विसिलिकेशन"],
-    "answer_english": "D. Desilication",
-    "answer_hindi": "D. विसिलिकेशन",
-    "solution_english": "The process of removing silica from soil is called desilication (desilication).",
-    "solution_hindi": "मिट्टी से सिलिका हटाने की प्रक्रिया को विसिलिकेशन (desilication) कहा जाता है।"
+    "question-english": "The process of removing silica from soil is known as:",
+    "question-hindi": "मिट्टी से सिलिका हटाने की प्रक्रिया को क्या कहा जाता है?",
+    "options-english": ["A. Salinization", "B. Leaching", "C. Polarization", "D. Desilication"],
+    "options-hindi": ["A. लवणीकरण", "B. निष्कर्षण", "C. ध्रुवीकरण", "D. विसिलिकेशन"],
+    "answer-english": "D. Desilication",
+    "answer-hindi": "D. विसिलिकेशन",
+    "solution-english": "The process of removing silica from soil is called desilication (desilication).",
+    "solution-hindi": "मिट्टी से सिलिका हटाने की प्रक्रिया को विसिलिकेशन (desilication) कहा जाता है।"
   },
   {
-    "question_english": "'My Times: An Autobiography' is authored by which famous freedom fighter of India?",
-    "question_hindi": "‘माई टाइम्स: एन ऑटोबायोग्राफी’ किस प्रसिद्ध स्वतंत्रता सेनानी द्वारा लिखी गई है?",
-    "options_english": ["A. Motilal Nehru", "B. Vinoba Bhave", "C. J. B. Kripalani", "D. C. R. Das"],
-    "options_hindi": ["A. मोतीलाल नेहरू", "B. विनोबा भावे", "C. जे. बी. कृपलानी", "D. सी. आर. दास"],
-    "answer_english": "C. J. B. Kripalani",
-    "answer_hindi": "C. जे. बी. कृपलानी",
-    "solution_english": "'My Times' is the autobiography of J. B. Kripalani, a close associate of Mahatma Gandhi.",
-    "solution_hindi": "'माई टाइम्स' जे. बी. कृपलानी की आत्मकथा है, जो महात्मा गांधी के निकट सहयोगी थे।"
+    "question-english": "'My Times: An Autobiography' is authored by which famous freedom fighter of India?",
+    "question-hindi": "‘माई टाइम्स: एन ऑटोबायोग्राफी’ किस प्रसिद्ध स्वतंत्रता सेनानी द्वारा लिखी गई है?",
+    "options-english": ["A. Motilal Nehru", "B. Vinoba Bhave", "C. J. B. Kripalani", "D. C. R. Das"],
+    "options-hindi": ["A. मोतीलाल नेहरू", "B. विनोबा भावे", "C. जे. बी. कृपलानी", "D. सी. आर. दास"],
+    "answer-english": "C. J. B. Kripalani",
+    "answer-hindi": "C. जे. बी. कृपलानी",
+    "solution-english": "'My Times' is the autobiography of J. B. Kripalani, a close associate of Mahatma Gandhi.",
+    "solution-hindi": "'माई टाइम्स' जे. बी. कृपलानी की आत्मकथा है, जो महात्मा गांधी के निकट सहयोगी थे।"
   },
   {
-    "question_english": "Ponnayya, Vadivelu, Shivanandam and Chinnayya, who were renowned as the Tanjore Quartet, were exponents of which dance form?",
-    "question_hindi": "पोन्नैया, वडिवेलु, शिवानंदम और चिन्नैया, जो तंजौर चौकड़ी के रूप में प्रसिद्ध थे, किस नृत्य के प्रतिपादक थे?",
-    "options_english": ["A. Kathakali", "B. Bharatanatyam", "C. Mohiniyattam", "D. Kuchipudi"],
-    "options_hindi": ["A. कथकली", "B. भरतनाट्यम", "C. मोहिनीअट्टम", "D. कुचिपुड़ी"],
-    "answer_english": "B. Bharatanatyam",
-    "answer_hindi": "B. भरतनाट्यम",
-    "solution_english": "The Tanjore Quartet are credited with codifying the modern form of Bharatanatyam.",
-    "solution_hindi": "तंजौर चौकड़ी को आधुनिक भरतनाट्यम के स्वरूप को व्यवस्थित करने का श्रेय दिया जाता है।"
+    "question-english": "Ponnayya, Vadivelu, Shivanandam and Chinnayya, who were renowned as the Tanjore Quartet, were exponents of which dance form?",
+    "question-hindi": "पोन्नैया, वडिवेलु, शिवानंदम और चिन्नैया, जो तंजौर चौकड़ी के रूप में प्रसिद्ध थे, किस नृत्य के प्रतिपादक थे?",
+    "options-english": ["A. Kathakali", "B. Bharatanatyam", "C. Mohiniyattam", "D. Kuchipudi"],
+    "options-hindi": ["A. कथकली", "B. भरतनाट्यम", "C. मोहिनीअट्टम", "D. कुचिपुड़ी"],
+    "answer-english": "B. Bharatanatyam",
+    "answer-hindi": "B. भरतनाट्यम",
+    "solution-english": "The Tanjore Quartet are credited with codifying the modern form of Bharatanatyam.",
+    "solution-hindi": "तंजौर चौकड़ी को आधुनिक भरतनाट्यम के स्वरूप को व्यवस्थित करने का श्रेय दिया जाता है।"
   },
   {
-    "question_english": "Which committee was constituted in 1955 for village and small-scale industries?",
-    "question_hindi": "1955 में ग्राम और लघु-स्तरीय उद्योगों के लिए गठित समिति कौन सी थी?",
-    "options_english": ["A. Husain Committee", "B. Karve Committee", "C. Nayak Committee", "D. Kohli Committee"],
-    "options_hindi": ["A. हुसैन समिति", "B. कर्वे समिति", "C. नायक समिति", "D. कोहली समिति"],
-    "answer_english": "B. Karve Committee",
-    "answer_hindi": "B. कर्वे समिति",
-    "solution_english": "The Karve Committee was set up in 1955 to promote small-scale village industries and related rural development.",
-    "solution_hindi": "कर्वे समिति 1955 में ग्रामीण विकास और छोटे पैमाने के गांव उद्योगों को बढ़ावा देने के लिए गठित की गई थी।"
+    "question-english": "Which committee was constituted in 1955 for village and small-scale industries?",
+    "question-hindi": "1955 में ग्राम और लघु-स्तरीय उद्योगों के लिए गठित समिति कौन सी थी?",
+    "options-english": ["A. Husain Committee", "B. Karve Committee", "C. Nayak Committee", "D. Kohli Committee"],
+    "options-hindi": ["A. हुसैन समिति", "B. कर्वे समिति", "C. नायक समिति", "D. कोहली समिति"],
+    "answer-english": "B. Karve Committee",
+    "answer-hindi": "B. कर्वे समिति",
+    "solution-english": "The Karve Committee was set up in 1955 to promote small-scale village industries and related rural development.",
+    "solution-hindi": "कर्वे समिति 1955 में ग्रामीण विकास और छोटे पैमाने के गांव उद्योगों को बढ़ावा देने के लिए गठित की गई थी।"
   },
    {
-    "question_english": "In the states, no demand for grants can be made except on the recommendation of the ____________.",
-    "question_hindi": "राज्यों में, ____________ की सिफारिश के बिना कोई अनुदान की मांग नहीं की जा सकती है।",
-    "options_english": [
+    "question-english": "In the states, no demand for grants can be made except on the recommendation of the ____________.",
+    "question-hindi": "राज्यों में, ____________ की सिफारिश के बिना कोई अनुदान की मांग नहीं की जा सकती है।",
+    "options-english": [
       "A. President of India",
       "B. Governor",
       "C. Chief Minister",
       "D. Finance Minister of the State"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. भारत के राष्ट्रपति",
       "B. राज्यपाल",
       "C. मुख्यमंत्री",
       "D. राज्य के वित्त मंत्री"
     ],
-    "answer_english": "B. Governor",
-    "answer_hindi": "B. राज्यपाल",
-    "solution_english": "According to Article 203(3), no demand for grants can be made without the recommendation of the Governor.",
-    "solution_hindi": "अनुच्छेद 203(3) के अनुसार, राज्यपाल की सिफारिश के बिना कोई अनुदान नहीं मांगा जा सकता।"
+    "answer-english": "B. Governor",
+    "answer-hindi": "B. राज्यपाल",
+    "solution-english": "According to Article 203(3), no demand for grants can be made without the recommendation of the Governor.",
+    "solution-hindi": "अनुच्छेद 203(3) के अनुसार, राज्यपाल की सिफारिश के बिना कोई अनुदान नहीं मांगा जा सकता।"
   },
   {
-    "question_english": "Which of the following is referred to as a relaxation of Government restrictions?",
-    "question_hindi": "निम्नलिखित में से किसे सरकारी प्रतिबंधों में ढील के रूप में संदर्भित किया जाता है?",
-    "options_english": [
+    "question-english": "Which of the following is referred to as a relaxation of Government restrictions?",
+    "question-hindi": "निम्नलिखित में से किसे सरकारी प्रतिबंधों में ढील के रूप में संदर्भित किया जाता है?",
+    "options-english": [
       "A. Globalisation",
       "B. Disinvestment",
       "C. Privatisation",
       "D. Liberalisation"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. वैश्वीकरण",
       "B. विनिवेश",
       "C. निजीकरण",
       "D. उदारीकरण"
     ],
-    "answer_english": "D. Liberalisation",
-    "answer_hindi": "D. उदारीकरण",
-    "solution_english": "Liberalisation refers to the relaxation or removal of government restrictions.",
-    "solution_hindi": "उदारीकरण का अर्थ है सरकारी प्रतिबंधों को हटाना या कम करना।"
+    "answer-english": "D. Liberalisation",
+    "answer-hindi": "D. उदारीकरण",
+    "solution-english": "Liberalisation refers to the relaxation or removal of government restrictions.",
+    "solution-hindi": "उदारीकरण का अर्थ है सरकारी प्रतिबंधों को हटाना या कम करना।"
   },
   {
-    "question_english": "'Maila Aanchal', one of the finest examples of regional novels, is written by:",
-    "question_hindi": "‘मैला आंचल’, जो क्षेत्रीय उपन्यासों के बेहतरीन उदाहरणों में से एक है, किसके द्वारा लिखा गया है?",
-    "options_english": [
+    "question-english": "'Maila Aanchal', one of the finest examples of regional novels, is written by:",
+    "question-hindi": "‘मैला आंचल’, जो क्षेत्रीय उपन्यासों के बेहतरीन उदाहरणों में से एक है, किसके द्वारा लिखा गया है?",
+    "options-english": [
       "A. Kamleshwar",
       "B. Phanishwar Nath Renu",
       "C. Munshi Premchand",
       "D. Kedarnath Singh"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. कमलेश्वर",
       "B. फणीश्वर नाथ रेणु",
       "C. मुंशी प्रेमचंद",
       "D. केदार नाथ सिंह"
     ],
-    "answer_english": "B. Phanishwar Nath Renu",
-    "answer_hindi": "B. फणीश्वर नाथ रेणु",
-    "solution_english": "'Maila Aanchal' is a famous novel written by Phanishwar Nath Renu.",
-    "solution_hindi": "‘मैला आंचल’ फणीश्वर नाथ रेणु द्वारा लिखा गया एक प्रसिद्ध उपन्यास है।"
+    "answer-english": "B. Phanishwar Nath Renu",
+    "answer-hindi": "B. फणीश्वर नाथ रेणु",
+    "solution-english": "'Maila Aanchal' is a famous novel written by Phanishwar Nath Renu.",
+    "solution-hindi": "‘मैला आंचल’ फणीश्वर नाथ रेणु द्वारा लिखा गया एक प्रसिद्ध उपन्यास है।"
   },
   {
-    "question_english": "Which Article of the Constitution mentions the duty of citizens to protect the natural environment?",
-    "question_hindi": "भारत के संविधान का कौन सा अनुच्छेद प्राकृतिक पर्यावरण की रक्षा का नागरिक कर्तव्य बताता है?",
-    "options_english": [
+    "question-english": "Which Article of the Constitution mentions the duty of citizens to protect the natural environment?",
+    "question-hindi": "भारत के संविधान का कौन सा अनुच्छेद प्राकृतिक पर्यावरण की रक्षा का नागरिक कर्तव्य बताता है?",
+    "options-english": [
       "A. 51A(e)",
       "B. 51A(j)",
       "C. 51A(b)",
       "D. 51A(g)"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 51A(e)",
       "B. 51A(j)",
       "C. 51A(b)",
       "D. 51A(g)"
     ],
-    "answer_english": "D. 51A(g)",
-    "answer_hindi": "D. 51A(g)",
-    "solution_english": "Article 51A(g) directs citizens to protect and improve the natural environment.",
-    "solution_hindi": "अनुच्छेद 51A(g) नागरिकों को प्राकृतिक पर्यावरण की रक्षा का कर्तव्य देता है।"
+    "answer-english": "D. 51A(g)",
+    "answer-hindi": "D. 51A(g)",
+    "solution-english": "Article 51A(g) directs citizens to protect and improve the natural environment.",
+    "solution-hindi": "अनुच्छेद 51A(g) नागरिकों को प्राकृतिक पर्यावरण की रक्षा का कर्तव्य देता है।"
   },
   {
-    "question_english": "In the Commonwealth Games 2022, how many gold medals did India win?",
-    "question_hindi": "राष्ट्रमंडल खेल 2022 में भारत ने कितने स्वर्ण पदक जीते?",
-    "options_english": [
+    "question-english": "In the Commonwealth Games 2022, how many gold medals did India win?",
+    "question-hindi": "राष्ट्रमंडल खेल 2022 में भारत ने कितने स्वर्ण पदक जीते?",
+    "options-english": [
       "A. 24",
       "B. 25",
       "C. 22",
       "D. 23"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 24",
       "B. 25",
       "C. 22",
       "D. 23"
     ],
-    "answer_english": "C. 22",
-    "answer_hindi": "C. 22",
-    "solution_english": "India won 22 gold medals at the 2022 Commonwealth Games.",
-    "solution_hindi": "भारत ने 2022 राष्ट्रमंडल खेलों में 22 स्वर्ण पदक जीते।"
+    "answer-english": "C. 22",
+    "answer-hindi": "C. 22",
+    "solution-english": "India won 22 gold medals at the 2022 Commonwealth Games.",
+    "solution-hindi": "भारत ने 2022 राष्ट्रमंडल खेलों में 22 स्वर्ण पदक जीते।"
   },
   {
-    "question_english": "Which of the following was co-founded by Subhas Chandra Bose?",
-    "question_hindi": "निम्नलिखित में से किसकी सह-स्थापना सुभाष चंद्र बोस ने की थी?",
-    "options_english": [
+    "question-english": "Which of the following was co-founded by Subhas Chandra Bose?",
+    "question-hindi": "निम्नलिखित में से किसकी सह-स्थापना सुभाष चंद्र बोस ने की थी?",
+    "options-english": [
       "A. All India Forward Bloc",
       "B. All India Students Federation",
       "C. Kisan Mazdoor Praja Party",
       "D. Congress Socialist Party"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. ऑल इंडिया फॉरवर्ड ब्लॉक",
       "B. ऑल इंडिया स्टूडेंट्स फेडरेशन",
       "C. किसान मजदूर प्रजा पार्टी",
       "D. कांग्रेस सोशलिस्ट पार्टी"
     ],
-    "answer_english": "A. All India Forward Bloc",
-    "answer_hindi": "A. ऑल इंडिया फॉरवर्ड ब्लॉक",
-    "solution_english": "Subhas Chandra Bose founded the All India Forward Bloc in 1939.",
-    "solution_hindi": "सुभाष चंद्र बोस ने 1939 में ऑल इंडिया फॉरवर्ड ब्लॉक की स्थापना की।"
+    "answer-english": "A. All India Forward Bloc",
+    "answer-hindi": "A. ऑल इंडिया फॉरवर्ड ब्लॉक",
+    "solution-english": "Subhas Chandra Bose founded the All India Forward Bloc in 1939.",
+    "solution-hindi": "सुभाष चंद्र बोस ने 1939 में ऑल इंडिया फॉरवर्ड ब्लॉक की स्थापना की।"
   },
   {
-    "question_english": "Through which Constitution Amendment Act was Article 39A inserted?",
-    "question_hindi": "किस संविधान संशोधन अधिनियम द्वारा अनुच्छेद 39A जोड़ा गया था?",
-    "options_english": [
+    "question-english": "Through which Constitution Amendment Act was Article 39A inserted?",
+    "question-hindi": "किस संविधान संशोधन अधिनियम द्वारा अनुच्छेद 39A जोड़ा गया था?",
+    "options-english": [
       "A. 48th Amendment Act",
       "B. 44th Amendment Act",
       "C. 46th Amendment Act",
       "D. 42nd Amendment Act"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 48वां संशोधन अधिनियम",
       "B. 44वां संशोधन अधिनियम",
       "C. 46वां संशोधन अधिनियम",
       "D. 42वां संशोधन अधिनियम"
     ],
-    "answer_english": "D. 42nd Amendment Act",
-    "answer_hindi": "D. 42वां संशोधन अधिनियम",
-    "solution_english": "Article 39A was inserted by the 42nd Amendment Act of 1976.",
-    "solution_hindi": "अनुच्छेद 39A को 1976 के 42वें संशोधन अधिनियम के माध्यम से जोड़ा गया।"
+    "answer-english": "D. 42nd Amendment Act",
+    "answer-hindi": "D. 42वां संशोधन अधिनियम",
+    "solution-english": "Article 39A was inserted by the 42nd Amendment Act of 1976.",
+    "solution-hindi": "अनुच्छेद 39A को 1976 के 42वें संशोधन अधिनियम के माध्यम से जोड़ा गया।"
   },
   {
-    "question_english": "Article 76 of the Constitution of India pertains to:",
-    "question_hindi": "भारत के संविधान का अनुच्छेद 76 किससे संबंधित है?",
-    "options_english": [
+    "question-english": "Article 76 of the Constitution of India pertains to:",
+    "question-hindi": "भारत के संविधान का अनुच्छेद 76 किससे संबंधित है?",
+    "options-english": [
       "A. Lokpal",
       "B. Chairman of the Finance Commission",
       "C. Election Commissioner",
       "D. Attorney General"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. लोकपाल",
       "B. वित्त आयोग के अध्यक्ष",
       "C. चुनाव आयुक्त",
       "D. महान्यायवादी"
     ],
-    "answer_english": "D. Attorney General",
-    "answer_hindi": "D. महान्यायवादी",
-    "solution_english": "Article 76 pertains to the Attorney General of India.",
-    "solution_hindi": "अनुच्छेद 76 भारत के महान्यायवादी से संबंधित है।"
+    "answer-english": "D. Attorney General",
+    "answer-hindi": "D. महान्यायवादी",
+    "solution-english": "Article 76 pertains to the Attorney General of India.",
+    "solution-hindi": "अनुच्छेद 76 भारत के महान्यायवादी से संबंधित है।"
   },
   {
-    "question_english": "Banganga Festival, held every year in Mumbai, is a musical tribute to ________.",
-    "question_hindi": "बाणगंगा महोत्सव, जो हर साल मुंबई में आयोजित होता है, ________ को एक संगीतमय श्रद्धांजलि है।",
-    "options_english": [
+    "question-english": "Banganga Festival, held every year in Mumbai, is a musical tribute to ________.",
+    "question-hindi": "बाणगंगा महोत्सव, जो हर साल मुंबई में आयोजित होता है, ________ को एक संगीतमय श्रद्धांजलि है।",
+    "options-english": [
       "A. Lord Rama",
       "B. Lord Ganesha",
       "C. Lord Shiva",
       "D. Lord Brahma"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. भगवान राम",
       "B. भगवान गणेश",
       "C. भगवान शिव",
       "D. भगवान ब्रह्मा"
     ],
-    "answer_english": "A. Lord Rama",
-    "answer_hindi": "A. भगवान राम",
-    "solution_english": "Banganga Festival is dedicated to Lord Rama and held annually in Mumbai.",
-    "solution_hindi": "बाणगंगा महोत्सव भगवान राम को समर्पित है और मुंबई में आयोजित होता है।"
+    "answer-english": "A. Lord Rama",
+    "answer-hindi": "A. भगवान राम",
+    "solution-english": "Banganga Festival is dedicated to Lord Rama and held annually in Mumbai.",
+    "solution-hindi": "बाणगंगा महोत्सव भगवान राम को समर्पित है और मुंबई में आयोजित होता है।"
   },
   {
-    "question_english": "Which Article of the Constitution ensures equal pay for equal work for men and women?",
-    "question_hindi": "भारत के संविधान का कौन सा अनुच्छेद पुरुषों और महिलाओं दोनों के लिए समान काम के लिए समान वेतन सुनिश्चित करने की बात करता है?",
-    "options_english": [
+    "question-english": "Which Article of the Constitution ensures equal pay for equal work for men and women?",
+    "question-hindi": "भारत के संविधान का कौन सा अनुच्छेद पुरुषों और महिलाओं दोनों के लिए समान काम के लिए समान वेतन सुनिश्चित करने की बात करता है?",
+    "options-english": [
       "A. Article 33",
       "B. Article 37",
       "C. Article 39",
       "D. Article 30"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. अनुच्छेद 33",
       "B. अनुच्छेद 37",
       "C. अनुच्छेद 39",
       "D. अनुच्छेद 30"
     ],
-    "answer_english": "C. Article 39",
-    "answer_hindi": "C. अनुच्छेद 39",
-    "solution_english": "Article 39(d) directs the State to ensure equal pay for equal work for both men and women.",
-    "solution_hindi": "अनुच्छेद 39(d) राज्य को समान कार्य के लिए समान वेतन सुनिश्चित करने का निर्देश देता है।"
+    "answer-english": "C. Article 39",
+    "answer-hindi": "C. अनुच्छेद 39",
+    "solution-english": "Article 39(d) directs the State to ensure equal pay for equal work for both men and women.",
+    "solution-hindi": "अनुच्छेद 39(d) राज्य को समान कार्य के लिए समान वेतन सुनिश्चित करने का निर्देश देता है।"
   },{
-    "question_english": "In which of the following years did the Muslim League demand Pakistan, a separate nation for Indian Muslims?",
-    "question_hindi": "निम्नलिखित में से किस वर्ष में मुस्लिम लीग ने भारतीय मुसलमानों के लिए एक अलग राष्ट्र, पाकिस्तान की मांग की?",
-    "options_english": [
+    "question-english": "In which of the following years did the Muslim League demand Pakistan, a separate nation for Indian Muslims?",
+    "question-hindi": "निम्नलिखित में से किस वर्ष में मुस्लिम लीग ने भारतीय मुसलमानों के लिए एक अलग राष्ट्र, पाकिस्तान की मांग की?",
+    "options-english": [
       "A. 1937",
       "B. 1943",
       "C. 1940",
       "D. 1932"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. 1937",
       "B. 1943",
       "C. 1940",
       "D. 1932"
     ],
-    "answer_english": "C. 1940",
-    "answer_hindi": "C. 1940",
-    "solution_english": "The All-India Muslim League passed the Lahore Resolution on March 23, 1940, which formally demanded Pakistan.",
-    "solution_hindi": "अखिल भारतीय मुस्लिम लीग ने 23 मार्च 1940 को लाहौर सत्र में लाहौर प्रस्ताव पारित किया, जिसमें पाकिस्तान की मांग की गई।"
+    "answer-english": "C. 1940",
+    "answer-hindi": "C. 1940",
+    "solution-english": "The All-India Muslim League passed the Lahore Resolution on March 23, 1940, which formally demanded Pakistan.",
+    "solution-hindi": "अखिल भारतीय मुस्लिम लीग ने 23 मार्च 1940 को लाहौर सत्र में लाहौर प्रस्ताव पारित किया, जिसमें पाकिस्तान की मांग की गई।"
   },
   {
-    "question_english": "What was the capital of the North-western province under Ashoka?",
-    "question_hindi": "अशोक के अधीन उत्तर-पश्चिमी प्रांत की राजधानी क्या थी?",
-    "options_english": [
+    "question-english": "What was the capital of the North-western province under Ashoka?",
+    "question-hindi": "अशोक के अधीन उत्तर-पश्चिमी प्रांत की राजधानी क्या थी?",
+    "options-english": [
       "A. Suvarnagiri",
       "B. Tosali",
       "C. Taxila",
       "D. Ujjayini"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. सुवर्णगिरि",
       "B. तोसली",
       "C. तक्षशिला",
       "D. उज्जयिनी"
     ],
-    "answer_english": "C. Taxila",
-    "answer_hindi": "C. तक्षशिला",
-    "solution_english": "The capital of the North-Western province under Ashoka was Taxila.",
-    "solution_hindi": "मौर्य साम्राज्य के उत्तर-पश्चिमी प्रांत (उत्तरापथ) की राजधानी तक्षशिला थी।"
+    "answer-english": "C. Taxila",
+    "answer-hindi": "C. तक्षशिला",
+    "solution-english": "The capital of the North-Western province under Ashoka was Taxila.",
+    "solution-hindi": "मौर्य साम्राज्य के उत्तर-पश्चिमी प्रांत (उत्तरापथ) की राजधानी तक्षशिला थी।"
   },
   {
-    "question_english": "During the British era, India was an exporter of:",
-    "question_hindi": "ब्रिटिश काल के दौरान भारत किसका निर्यातक था:",
-    "options_english": [
+    "question-english": "During the British era, India was an exporter of:",
+    "question-hindi": "ब्रिटिश काल के दौरान भारत किसका निर्यातक था:",
+    "options-english": [
       "A. Manufactured goods",
       "B. Capital goods",
       "C. Industrial products",
       "D. Primary products"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. विनिर्माण उत्पाद",
       "B. पूंजीगत सामान",
       "C. औद्योगिक उत्पाद",
       "D. प्राथमिक उत्पाद"
     ],
-    "answer_english": "D. Primary products",
-    "answer_hindi": "D. प्राथमिक उत्पाद",
-    "solution_english": "During the British era, India exported raw materials such as cotton, jute, and indigo.",
-    "solution_hindi": "ब्रिटिश शासन के तहत भारत कच्चे माल जैसे कपास, जूट और नील का निर्यातक था।"
+    "answer-english": "D. Primary products",
+    "answer-hindi": "D. प्राथमिक उत्पाद",
+    "solution-english": "During the British era, India exported raw materials such as cotton, jute, and indigo.",
+    "solution-hindi": "ब्रिटिश शासन के तहत भारत कच्चे माल जैसे कपास, जूट और नील का निर्यातक था।"
   },
   {
-    "question_english": "The process by which the mix of species and habitat in an area changes over time is called:",
-    "question_hindi": "वह प्रक्रिया जिसके द्वारा समय के साथ किसी क्षेत्र में प्रजातियों और आवास का मिश्रण बदलता है, कहलाती है:",
-    "options_english": [
+    "question-english": "The process by which the mix of species and habitat in an area changes over time is called:",
+    "question-hindi": "वह प्रक्रिया जिसके द्वारा समय के साथ किसी क्षेत्र में प्रजातियों और आवास का मिश्रण बदलता है, कहलाती है:",
+    "options-english": [
       "A. Ecological balance",
       "B. Ecological saturation",
       "C. Ecological degradation",
       "D. Ecological succession"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. पारिस्थितिक संतुलन",
       "B. पारिस्थितिक संतृप्ति",
       "C. पारिस्थितिक क्षरण",
       "D. पारिस्थितिक उत्तराधिकार"
     ],
-    "answer_english": "D. Ecological succession",
-    "answer_hindi": "D. पारिस्थितिक उत्तराधिकार",
-    "solution_english": "The gradual change in species and habitat over time is called ecological succession.",
-    "solution_hindi": "समय के साथ पारिस्थितिक समुदाय में परिवर्तन की प्रक्रिया को पारिस्थितिक उत्तराधिकार कहा जाता है।"
+    "answer-english": "D. Ecological succession",
+    "answer-hindi": "D. पारिस्थितिक उत्तराधिकार",
+    "solution-english": "The gradual change in species and habitat over time is called ecological succession.",
+    "solution-hindi": "समय के साथ पारिस्थितिक समुदाय में परिवर्तन की प्रक्रिया को पारिस्थितिक उत्तराधिकार कहा जाता है।"
   },
   {
-    "question_english": "Identify the group of crops that are associated with Kharif season in the northern states of India.",
-    "question_hindi": "भारत के उत्तरी राज्यों में खरीफ के मौसम से जुड़ी फसलों के समूह की पहचान करें?",
-    "options_english": [
+    "question-english": "Identify the group of crops that are associated with Kharif season in the northern states of India.",
+    "question-hindi": "भारत के उत्तरी राज्यों में खरीफ के मौसम से जुड़ी फसलों के समूह की पहचान करें?",
+    "options-english": [
       "A. Cotton, Bajra, Maize, Wheat, Gram",
       "B. Rice, Cotton, Bajra, Rapeseed, Mustard",
       "C. Rice, Cotton, Bajra, Maize, Jowar",
       "D. Wheat, Gram, Rapeseed, Mustard, Barley"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. कपास, बाजरा, मक्का, गेहूं, चना",
       "B. चावल, कपास, बाजरा, रेपसीड, सरसों",
       "C. चावल, कपास, बाजरा, मक्का, ज्वार",
       "D. गेहूं, चना, रेपसीड, सरसों, जौ"
     ],
-    "answer_english": "C. Rice, Cotton, Bajra, Maize, Jowar",
-    "answer_hindi": "C. चावल, कपास, बाजरा, मक्का, ज्वार",
-    "solution_english": "Rice, cotton, bajra, maize, and jowar are Kharif crops grown in northern India.",
-    "solution_hindi": "चावल, कपास, बाजरा, मक्का और ज्वार खरीफ फसलें हैं।"
+    "answer-english": "C. Rice, Cotton, Bajra, Maize, Jowar",
+    "answer-hindi": "C. चावल, कपास, बाजरा, मक्का, ज्वार",
+    "solution-english": "Rice, cotton, bajra, maize, and jowar are Kharif crops grown in northern India.",
+    "solution-hindi": "चावल, कपास, बाजरा, मक्का और ज्वार खरीफ फसलें हैं।"
   },
   {
-    "question_english": "Which dynasty's king was the first ruler to issue gold coins on a large scale in India?",
-    "question_hindi": "किस राजवंश का राजा भारत में बड़े पैमाने पर सोने के सिक्के जारी करने वाला पहला शासक था?",
-    "options_english": [
+    "question-english": "Which dynasty's king was the first ruler to issue gold coins on a large scale in India?",
+    "question-hindi": "किस राजवंश का राजा भारत में बड़े पैमाने पर सोने के सिक्के जारी करने वाला पहला शासक था?",
+    "options-english": [
       "A. Greek",
       "B. Parthian",
       "C. Shaka",
       "D. Kushan"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. यूनानी",
       "B. पहलव",
       "C. शक",
       "D. कुषाण"
     ],
-    "answer_english": "D. Kushan",
-    "answer_hindi": "D. कुषाण",
-    "solution_english": "Kushan emperor Vima Kadphises was the first ruler to issue gold coins on a large scale in India.",
-    "solution_hindi": "कुषाण सम्राट विम कडफिसेस भारत में बड़े पैमाने पर सोने के सिक्के जारी करने वाले पहले शासक थे।"
+    "answer-english": "D. Kushan",
+    "answer-hindi": "D. कुषाण",
+    "solution-english": "Kushan emperor Vima Kadphises was the first ruler to issue gold coins on a large scale in India.",
+    "solution-hindi": "कुषाण सम्राट विम कडफिसेस भारत में बड़े पैमाने पर सोने के सिक्के जारी करने वाले पहले शासक थे।"
   },
   {
-    "question_english": "Identify the precipitate formed when carbon dioxide gas is passed through lime water.",
-    "question_hindi": "चूने के पानी से कार्बन डाइऑक्साइड गैस गुजारने पर बनने वाले अवक्षेप की पहचान करें।",
-    "options_english": [
+    "question-english": "Identify the precipitate formed when carbon dioxide gas is passed through lime water.",
+    "question-hindi": "चूने के पानी से कार्बन डाइऑक्साइड गैस गुजारने पर बनने वाले अवक्षेप की पहचान करें।",
+    "options-english": [
       "A. Zinc carbonate",
       "B. Calcium carbonate",
       "C. Sodium oxide",
       "D. Calcium oxide"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. जिंक कार्बोनेट",
       "B. कैल्शियम कार्बोनेट",
       "C. सोडियम ऑक्साइड",
       "D. कैल्शियम ऑक्साइड"
     ],
-    "answer_english": "B. Calcium carbonate",
-    "answer_hindi": "B. कैल्शियम कार्बोनेट",
-    "solution_english": "When CO₂ is passed through lime water, calcium carbonate is formed as a white precipitate.",
-    "solution_hindi": "चूने के पानी में CO₂ पास करने पर कैल्शियम कार्बोनेट का सफेद अवक्षेप बनता है।"
+    "answer-english": "B. Calcium carbonate",
+    "answer-hindi": "B. कैल्शियम कार्बोनेट",
+    "solution-english": "When CO₂ is passed through lime water, calcium carbonate is formed as a white precipitate.",
+    "solution-hindi": "चूने के पानी में CO₂ पास करने पर कैल्शियम कार्बोनेट का सफेद अवक्षेप बनता है।"
   },
   {
-    "question_english": "Which of the following schemes comes under the Ministry of Commerce and Industry?",
-    "question_hindi": "निम्नलिखित में से कौन सी योजना वाणिज्य और उद्योग मंत्रालय के अंतर्गत आती है?",
-    "options_english": [
+    "question-english": "Which of the following schemes comes under the Ministry of Commerce and Industry?",
+    "question-hindi": "निम्नलिखित में से कौन सी योजना वाणिज्य और उद्योग मंत्रालय के अंतर्गत आती है?",
+    "options-english": [
       "A. National Child Hygiene",
       "B. National Digital Health Mission",
       "C. Make in India",
       "D. Swachh Bharat Abhiyan"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. राष्ट्रीय बाल स्वच्छता",
       "B. राष्ट्रीय डिजिटल स्वास्थ्य मिशन",
       "C. मेक इन इंडिया",
       "D. स्वच्छ भारत अभियान"
     ],
-    "answer_english": "C. Make in India",
-    "answer_hindi": "C. मेक इन इंडिया",
-    "solution_english": "'Make in India' is managed by the Department for Promotion of Industry and Internal Trade under the Ministry of Commerce and Industry.",
-    "solution_hindi": "'मेक इन इंडिया' वाणिज्य और उद्योग मंत्रालय के अधीन उद्योग संवर्धन विभाग की योजना है।"
+    "answer-english": "C. Make in India",
+    "answer-hindi": "C. मेक इन इंडिया",
+    "solution-english": "'Make in India' is managed by the Department for Promotion of Industry and Internal Trade under the Ministry of Commerce and Industry.",
+    "solution-hindi": "'मेक इन इंडिया' वाणिज्य और उद्योग मंत्रालय के अधीन उद्योग संवर्धन विभाग की योजना है।"
   },
   {
-    "question_english": "Who is known as the 'Father of Microfinance'?",
-    "question_hindi": "'माइक्रोफाइनेंस के जनक' के रूप में किसे जाना जाता है?",
-    "options_english": [
+    "question-english": "Who is known as the 'Father of Microfinance'?",
+    "question-hindi": "'माइक्रोफाइनेंस के जनक' के रूप में किसे जाना जाता है?",
+    "options-english": [
       "A. Mahbub ul Haq",
       "B. Amartya Sen",
       "C. Muhammad Yunus",
       "D. Mahatma Gandhi"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. महबूब हक",
       "B. अमर्त्य सेन",
       "C. मुहम्मद यूनुस",
       "D. महात्मा गांधी"
     ],
-    "answer_english": "C. Muhammad Yunus",
-    "answer_hindi": "C. मुहम्मद यूनुस",
-    "solution_english": "Muhammad Yunus, founder of Grameen Bank, is known as the 'Father of Microfinance'.",
-    "solution_hindi": "मुहम्मद यूनुस को 'माइक्रोफाइनेंस के जनक' कहा जाता है; उन्होंने ग्रामीण बैंक की स्थापना की।"
+    "answer-english": "C. Muhammad Yunus",
+    "answer-hindi": "C. मुहम्मद यूनुस",
+    "solution-english": "Muhammad Yunus, founder of Grameen Bank, is known as the 'Father of Microfinance'.",
+    "solution-hindi": "मुहम्मद यूनुस को 'माइक्रोफाइनेंस के जनक' कहा जाता है; उन्होंने ग्रामीण बैंक की स्थापना की।"
   },
   {
-    "question_english": "Who won the 66th Filmfare Award 2021 for Best Choreography for the song 'Dil Bechara'?",
-    "question_hindi": "निम्नलिखित में से किसने 'दिल बेचारा' गीत के लिए '66वां फिल्मफेयर पुरस्कार 2021 सर्वश्रेष्ठ कोरियोग्राफी' जीता?",
-    "options_english": [
+    "question-english": "Who won the 66th Filmfare Award 2021 for Best Choreography for the song 'Dil Bechara'?",
+    "question-hindi": "निम्नलिखित में से किसने 'दिल बेचारा' गीत के लिए '66वां फिल्मफेयर पुरस्कार 2021 सर्वश्रेष्ठ कोरियोग्राफी' जीता?",
+    "options-english": [
       "A. Prabhu Deva",
       "B. Farah Khan",
       "C. Remo D’Souza",
       "D. Ganesh Acharya"
     ],
-    "options_hindi": [
+    "options-hindi": [
       "A. प्रभु देवा",
       "B. फराह खान",
       "C. रेमो डिसूजा",
       "D. गणेश आचार्य"
     ],
-    "answer_english": "B. Farah Khan",
-    "answer_hindi": "B. फराह खान",
-    "solution_english": "Farah Khan won the Best Choreography award for the title track of 'Dil Bechara'.",
-    "solution_hindi": "फराह खान ने फिल्म 'दिल बेचारा' के टाइटल ट्रैक के लिए सर्वश्रेष्ठ कोरियोग्राफी का पुरस्कार जीता।"
+    "answer-english": "B. Farah Khan",
+    "answer-hindi": "B. फराह खान",
+    "solution-english": "Farah Khan won the Best Choreography award for the title track of 'Dil Bechara'.",
+    "solution-hindi": "फराह खान ने फिल्म 'दिल बेचारा' के टाइटल ट्रैक के लिए सर्वश्रेष्ठ कोरियोग्राफी का पुरस्कार जीता।"
   }
           ]
     },
@@ -1095,20 +1095,20 @@
   "question-english": "In a certain code language, TRAIN is written as 2021914. How will the word PLANE be written in that code?",
   "question-hindi": "एक निश्चित कूट भाषा में, TRAIN को 2021914 के रूप में लिखा गया है। उस भाषा में PLANE को कैसे लिखा जाएगा?",
   "options-english": [
-    "161211145",
-    "161212145",
-    "161211145",
-    "161211145"
+    "A. 16121145",
+    "B. 16121415",
+    "C. 16112145",
+    "D. 16121154"
   ],
   "options-hindi": [
-    "161211145",
-    "161212145",
-    "161211145",
-    "161211145"
+    "A. 16121145",
+    "B. 16121415",
+    "C. 16112145",
+    "D. 16121154"
   ],
-  "answer-english": "161211145",
-  "answer-hindi": "161211145",
-  "solution-english": "The code represents the position of each letter in the English alphabet: T=20, R=18, A=1, I=9, N=14 → TRAIN = 2021914. Similarly, P=16, L=12, A=1, N=14, E=5 → PLANE = 16121145.",
+  "answer-english": "A. 16121145",
+  "answer-hindi": "A. 16121145",
+  "solution-english": "The code represents the position of each letter in the English alphabet: T=20, R=18, A=1, I=9, N=14 → TRAIN = 2021914. For PLANE: P=16, L=12, A=1, N=14, E=5 → PLANE = 16121145.",
   "solution-hindi": "यह कोड अंग्रेजी वर्णमाला में प्रत्येक अक्षर की स्थिति को दर्शाता है: T=20, R=18, A=1, I=9, N=14 → TRAIN = 2021914। उसी प्रकार, P=16, L=12, A=1, N=14, E=5 → PLANE = 16121145।"
 },{
   "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/mock_test_10/mock_test_10_Q17.png",
