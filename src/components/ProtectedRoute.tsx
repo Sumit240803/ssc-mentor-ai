@@ -14,8 +14,6 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requirePaymen
   const { hasPaid, loading: paymentLoading, paymentStatus } = usePaymentStatus();
   const location = useLocation();
 
-  console.log('ProtectedRoute - User:', user?.id, 'Auth Loading:', authLoading, 'Payment Loading:', paymentLoading, 'Has Paid:', hasPaid, 'Payment Status:', paymentStatus);
-
   if (authLoading || paymentLoading || paymentStatus === 'verifying') {
     return (
       <div className="min-h-screen flex items-center justify-center">
