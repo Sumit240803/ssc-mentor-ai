@@ -106,8 +106,8 @@ const Auth = () => {
         }
       } else {
         toast({
-          title: "Success!",
-          description: "Account created successfully! Please proceed to complete your purchase.",
+          title: "Check Your Email!",
+          description: "We've sent a confirmation link to your email. Please check your inbox (and spam folder) and click the link to verify your account before signing in.",
         });
         // Clear form
         setEmail('');
