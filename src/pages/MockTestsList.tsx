@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { useNavigate } from "react-router-dom";
 import { BookOpen, Clock, FileText, Target, BarChart3, RefreshCw } from "lucide-react";
 import { useMockTestResults } from "@/hooks/useMockTestResults";
+import { trackEvent } from "@/lib/analytics";
 
 interface MockTestInfo {
   fileName: string;
@@ -130,10 +131,12 @@ const MockTestsList: React.FC = () => {
   }, [resultsLoading, userResults]);
 
   const handleStartTest = (fileName: string) => {
+    trackEvent('Mock Test', 'Start Test', fileName);
     navigate(`/mock-test/${fileName.replace(".json", "")}`);
   };
 
   const handleViewAnalysis = (testName: string) => {
+    trackEvent('Mock Test', 'View Analysis', testName);
     // Navigate to analysis page
     navigate(`/mock-test-analysis/${encodeURIComponent(testName)}`);
   };

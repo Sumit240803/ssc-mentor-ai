@@ -35,6 +35,7 @@ import { cn } from "@/lib/utils";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { trackEvent } from "@/lib/analytics";
 
 const MockTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
@@ -252,7 +253,10 @@ const MockTest: React.FC = () => {
               </ToggleGroup>
             </div>
 
-            <Button onClick={() => startTest(selectedLanguage)} size="lg" className="w-full" variant="default">
+            <Button onClick={() => {
+              trackEvent('Mock Test', 'Start Test', mockTestData?.testName || 'Unknown Test');
+              startTest(selectedLanguage);
+            }} size="lg" className="w-full" variant="default">
               {previousResults.length > 0 ? "Retake Test" : "Start Test"}
             </Button>
           </CardContent>
@@ -366,10 +370,16 @@ const MockTest: React.FC = () => {
               </div>
 
               <div className="flex gap-4 justify-center flex-wrap">
-                <Button onClick={enterReviewMode} variant="default">
+                <Button onClick={() => {
+                  trackEvent('Mock Test', 'Review Answers', mockTestData?.testName || 'Unknown Test');
+                  enterReviewMode();
+                }} variant="default">
                   Review Answers
                 </Button>
-                <Button onClick={resetTest} variant="default">
+                <Button onClick={() => {
+                  trackEvent('Mock Test', 'Reattempt Test', mockTestData?.testName || 'Unknown Test');
+                  resetTest();
+                }} variant="default">
                   Reattempt Test
                 </Button>
                 <Button onClick={() => navigate("/mock-tests")} variant="outline">
@@ -883,7 +893,10 @@ const MockTest: React.FC = () => {
                     <Button variant="outline" size={isMobile ? "sm" : "default"} onClick={clearSelection}>
                       {isMobile ? "Clear" : "Clear Selection"}
                     </Button>
-                    <Button variant="destructive" size={isMobile ? "sm" : "default"} onClick={submitTest}>
+                    <Button variant="destructive" size={isMobile ? "sm" : "default"} onClick={() => {
+                      trackEvent('Mock Test', 'Submit Test', mockTestData?.testName || 'Unknown Test');
+                      submitTest();
+                    }}>
                       Submit
                     </Button>
                   </>

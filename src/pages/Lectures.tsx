@@ -10,6 +10,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { SubjectAIChat } from "@/components/SubjectAIChat";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import FeatureInfoModal from "@/components/FeatureInfoModal";
+import { trackEvent } from "@/lib/analytics";
 
 interface FileItem {
   file_name: string;
@@ -165,6 +166,8 @@ const Lectures = () => {
   };
 
   const handleFileClick = (file: FileItem, topic: LectureTopic, language : string) => {
+    const fileType = file.type?.includes('audio') ? 'Audio' : 'Notes';
+    trackEvent('Lectures', `Open ${fileType}`, `${topic.subject} - ${topic.topic} (${language})`);
     navigate(`/lecture-detail?url=${encodeURIComponent(file.url)}&fileName=${encodeURIComponent(file.file_name)}&type=${encodeURIComponent(file.type)}&subject=${encodeURIComponent(topic.subject)}&topic=${encodeURIComponent(topic.topic)}&language=${encodeURIComponent(language)}`);
   };
 
@@ -183,7 +186,10 @@ const Lectures = () => {
           
           {/* Study Schedule Button */}
           <Button
-            onClick={() => navigate('/schedule')}
+            onClick={() => {
+              trackEvent('Lectures', 'Click', 'Study Schedule Button');
+              navigate('/schedule');
+            }}
             className="gap-2 group hover:shadow-lg transition-all duration-300 w-fit"
             variant="default"
           >
