@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useDashboardData } from "@/hooks/useDashboardData";
+import { trackEvent } from "@/lib/analytics";
 
 const Dashboard = () => {
   const { 
@@ -125,7 +126,10 @@ const Dashboard = () => {
                   <div 
                     key={task.id} 
                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors cursor-pointer"
-                    onClick={() => toggleTask(task.id)}
+                    onClick={() => {
+                      trackEvent('Dashboard', 'Toggle Task', task.is_completed ? 'Uncomplete' : 'Complete');
+                      toggleTask(task.id);
+                    }}
                   >
                     <div className={`p-1 rounded-full ${task.is_completed ? 'bg-secondary' : 'bg-muted'}`}>
                       <CheckCircle className={`h-4 w-4 ${task.is_completed ? 'text-white' : 'text-muted-foreground'}`} />
@@ -207,9 +211,9 @@ const Dashboard = () => {
           </Card>
         </div>
 
-        {/* Quick Actions */}
+          {/* Quick Actions */}
         <div className="mt-8 grid md:grid-cols-4 gap-4">
-          <Link to="/lectures">
+          <Link to="/lectures" onClick={() => trackEvent('Dashboard', 'Quick Action', 'Start Learning')}>
             <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
               <div className="text-center">
                 <div className="p-3 bg-primary/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
@@ -221,7 +225,7 @@ const Dashboard = () => {
             </Card>
           </Link>
           
-          <Link to="/mock-test">
+          <Link to="/mock-test" onClick={() => trackEvent('Dashboard', 'Quick Action', 'Mock Test')}>
             <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
               <div className="text-center">
                 <div className="p-3 bg-green-500/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-green-500/20 transition-colors">
@@ -233,7 +237,7 @@ const Dashboard = () => {
             </Card>
           </Link>
           
-          <Link to="/schedule">
+          <Link to="/schedule" onClick={() => trackEvent('Dashboard', 'Quick Action', 'Study Schedule')}>
             <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
               <div className="text-center">
                 <div className="p-3 bg-secondary/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-secondary/20 transition-colors">
@@ -245,7 +249,7 @@ const Dashboard = () => {
             </Card>
           </Link>
           
-          <Link to="/motivation">
+          <Link to="/motivation" onClick={() => trackEvent('Dashboard', 'Quick Action', 'Stay Motivated')}>
             <Card className="p-6 hover:shadow-elevated transition-all duration-300 cursor-pointer group border-0 shadow-card">
               <div className="text-center">
                 <div className="p-3 bg-orange-500/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors">

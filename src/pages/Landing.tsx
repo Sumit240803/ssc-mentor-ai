@@ -2,6 +2,7 @@ import React from "react";
 import { motion, Variants } from "framer-motion";
 import { Brain, Calendar, BookOpen, Sparkles, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { trackEvent } from "@/lib/analytics";
 
 // Animation Variants
 const fadeInUp : Variants = {
@@ -121,18 +122,21 @@ const Landing = () => {
           <a
             href="/demo"
             className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-lg hover:scale-105 transition"
+            onClick={() => trackEvent('Hero Section', 'Click', 'Watch Demo Button')}
           >
             Watch Demo
           </a>
           <a
             href="/free-mock-test"
             className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:scale-105 transition"
+            onClick={() => trackEvent('Hero Section', 'Click', 'Try Free Mock Test Button')}
           >
             Try Free Mock Test
           </a>
           <a
             href="/pricing"
             className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-600 dark:text-cyan-300 font-semibold backdrop-blur hover:bg-cyan-400/10 transition"
+            onClick={() => trackEvent('Hero Section', 'Click', 'View Pricing Button')}
           >
             View Pricing
           </a>
@@ -283,6 +287,7 @@ const Landing = () => {
           <a
             href="/pricing"
             className="px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:scale-105 transition"
+            onClick={() => trackEvent('CTA Section', 'Click', 'Join Now Button')}
           >
             Join Now
           </a>
