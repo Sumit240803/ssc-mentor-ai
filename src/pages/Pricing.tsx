@@ -86,7 +86,7 @@ const Pricing = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body : JSON.stringify({amount : 299})
+        body : JSON.stringify({amount : 299, user_id : user.id})
       }).then(res => res.json());
 
       // Initialize Razorpay
@@ -100,34 +100,26 @@ const Pricing = () => {
         handler: async function (response: any) {
           try {
             // Update payment record with Razorpay details
-            const { error: updateError } = await supabase
-              .from("payments")
-              .update({
-                razorpay_payment_id: response.razorpay_payment_id,
-                status: "completed",
-              })
-              .eq("id", paymentData.id);
+            // const {data, error: updateError } = await supabase
+            //   .from("payments")
+            //   .update({
+            //     razorpay_payment_id: response.razorpay_payment_id,
+            //     status: "completed",
+            //   })
+            //   .eq("id", paymentData.id);
 
-            if (updateError) {
-              throw updateError;
-            }
+            // if (updateError) {
+            //   throw updateError;
+            // }
 
-            // Update user profile payment status
-            const { error: profileError } = await supabase
-              .from("profiles")
-              .update({ payment_status: "completed" })
-              .eq("user_id", user.id);
-
-            if (profileError) {
-              throw profileError;
-            }
 
             toast({
               title: "Payment Successful!",
-              description: "Welcome to EduPlatform Premium! You now have access to all courses.",
+              description: "We are Processing your payment....",
             });
-
-           window.location.href = "/lectures";
+            setTimeout(()=>{
+              window.location.href = "/lectures";
+            }, 2000);
           } catch (error) {
             console.error("Payment verification error:", error);
             toast({
