@@ -41,21 +41,14 @@ const Demo: React.FC = () => {
           </CardHeader>
           <CardContent>
             <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-              <video
-                controls
+              <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg border shadow-lg"
-                poster="/placeholder-video.jpg"
-              >
-                <source
-                  src="https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/demo/EXAM%20PREP%20TUTORIAL(3).mov"
-                  type="video/quicktime"
-                />
-                <source
-                  src="https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/demo/EXAM%20PREP%20TUTORIAL(3).mov"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
+                src="https://www.youtube.com/embed/_rS9rXbXcZ8"
+                title="SSC Mentor AI Tutorial"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
             </div>
           </CardContent>
         </Card>
