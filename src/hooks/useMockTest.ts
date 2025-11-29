@@ -188,7 +188,12 @@ export const useMockTest = (testFileName?: string) => {
         const savedState = loadFromLocalStorage();
         if (savedState && savedState.isActive && !savedState.isCompleted) {
           console.log('Restoring saved test progress from localStorage');
-          setTestState(savedState);
+          // Generate fresh questions from JSON, but restore user progress
+          const freshQuestions = generateQuestionsFromData(testData);
+          setTestState({
+            ...savedState,
+            questions: freshQuestions, // Always use fresh questions from JSON
+          });
         }
 
         // Load previous results if user is logged in
@@ -268,13 +273,12 @@ export const useMockTest = (testFileName?: string) => {
     };
   }, [testState.isActive, testState.isCompleted, testState.isPaused]);
 
-  const generateQuestions = (): TestQuestion[] => {
-    if (!mockTestData) return [];
-
+  // Helper function to generate questions from test data
+  const generateQuestionsFromData = (testData: MockTestData): TestQuestion[] => {
     const allQuestions: TestQuestion[] = [];
     let questionId = 1;
 
-    mockTestData.mockTest.forEach((section) => {
+    testData.mockTest.forEach((section) => {
       section.questions.forEach((question: any) => {
         allQuestions.push({
           'question-image': question['question-image'],
@@ -295,6 +299,11 @@ export const useMockTest = (testFileName?: string) => {
     });
 
     return allQuestions;
+  };
+
+  const generateQuestions = (): TestQuestion[] => {
+    if (!mockTestData) return [];
+    return generateQuestionsFromData(mockTestData);
   };
 
   const startTest = (language: Language = 'hindi') => {
