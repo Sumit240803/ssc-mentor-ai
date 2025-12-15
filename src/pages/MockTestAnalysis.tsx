@@ -633,12 +633,21 @@ const getAnalysis = async (attempt: MockTestResult): Promise<string| null> => {
                           </div>
 
                           {/* Solution */}
-                          {currentQuestion["solution-hindi"] && (
+                          {(currentQuestion["solution-hindi"] || currentQuestion["solution-img"]) && (
                             <div className="mt-4 p-4 rounded-lg bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800">
                               <h4 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Solution:</h4>
-                              <p style={{ whiteSpace: 'pre-line' }} className="text-sm text-blue-800 dark:text-blue-200 leading-relaxed">
-                                {currentQuestion["solution-hindi"]}
-                              </p>
+                              {currentQuestion["solution-hindi"] && (
+                                <p style={{ whiteSpace: 'pre-line' }} className="text-sm text-blue-800 dark:text-blue-200 leading-relaxed">
+                                  {currentQuestion["solution-hindi"]}
+                                </p>
+                              )}
+                              {currentQuestion["solution-img"] && (
+                                <img 
+                                  src={currentQuestion["solution-img"]} 
+                                  alt="Solution" 
+                                  className="mt-3 max-w-full rounded-lg border border-blue-200 dark:border-blue-700"
+                                />
+                              )}
                             </div>
                           )}
                         </CardContent>
