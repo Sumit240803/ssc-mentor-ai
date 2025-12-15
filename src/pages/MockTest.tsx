@@ -786,16 +786,19 @@ const MockTest: React.FC = () => {
                                     {isCorrectOption && <CheckCircle className="h-5 w-5 text-green-600" />}
                                     {isWrongSelection && <XCircle className="h-5 w-5 text-red-600" />}
                                     <div className="flex-1">
-                                      {typeof option === "string" &&
-                                      (option.startsWith("http://") || option.startsWith("https://")) ? (
-                                        <img
-                                          src={option}
-                                          alt={`Option ${index + 1}`}
-                                          className="max-w-full h-auto rounded-md max-h-32 object-contain"
-                                        />
-                                      ) : (
-                                        <span className="text-base">{option}</span>
-                                      )}
+                                      {(() => {
+                                        const urlMatch = typeof option === "string" && option.match(/(https?:\/\/[^\s]+)/);
+                                        const imageUrl = urlMatch ? urlMatch[1] : null;
+                                        return imageUrl ? (
+                                          <img
+                                            src={imageUrl}
+                                            alt={`Option ${index + 1}`}
+                                            className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                                          />
+                                        ) : (
+                                          <span className="text-base">{option}</span>
+                                        );
+                                      })()}
                                     </div>
                                     {/* Show indicators for attempted vs correct answers */}
                                     <div className="flex flex-col items-end gap-1">
@@ -820,9 +823,10 @@ const MockTest: React.FC = () => {
                               );
                             })
                           : options.map((option, index) => {
-                              const isImageUrl =
-                                typeof option === "string" &&
-                                (option.startsWith("http://") || option.startsWith("https://"));
+                              // Check if option contains an image URL (with or without prefix like "1).")
+                              const urlMatch = typeof option === "string" && option.match(/(https?:\/\/[^\s]+)/);
+                              const imageUrl = urlMatch ? urlMatch[1] : null;
+                              const isImageOption = imageUrl !== null;
 
                               return (
                                 <div
@@ -831,9 +835,9 @@ const MockTest: React.FC = () => {
                                 >
                                   <RadioGroupItem value={option} id={`option-${index}`} />
                                   <Label htmlFor={`option-${index}`} className="flex-1 cursor-pointer text-base">
-                                    {isImageUrl ? (
+                                    {isImageOption ? (
                                       <img
-                                        src={option}
+                                        src={imageUrl}
                                         alt={`Option ${index + 1}`}
                                         className="max-w-full h-auto rounded-md max-h-32 object-contain"
                                       />
