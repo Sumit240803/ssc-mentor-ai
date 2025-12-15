@@ -1,0 +1,1253 @@
+{
+  "mockTest": [
+    {
+      "section": "Reasoning",
+          "questions": [
+            {
+  "question-hindi": "प्रश्न 1. एक कूट भाषा में ‘HAND’ को ‘GYMB’ लिखा जाता है और ‘FOOD’ को ‘EMNB’ लिखा जाता है। उसी कूट भाषा में ‘TEXT’ को कैसे लिखा जाएगा?",
+  "question-english": "Q.1 In a code language, ‘HAND’ is written as ‘GYMB’, and ‘FOOD’ is written as ‘EMNB’. How will ‘TEXT’ be written in that language?",
+  "options-hindi": ["1). RWSC", "2). SCWR", "3). SCRW", "4). SWRC"],
+  "options-english": ["1). RWSC", "2). SCWR", "3). SCRW", "4). SWRC"],
+  "answer-hindi": "2). SCWR",
+  "answer-english": "2). SCWR",
+  "solution-hindi": "देखें कि ‘HAND’ के प्रत्येक अक्षर को कैसे बदला गया है। पहले अक्षर से 1 अक्षर पीछे, दूसरे अक्षर से 2 अक्षर पीछे, तीसरे अक्षर से 1 अक्षर पीछे और चौथे अक्षर से 2 अक्षर पीछे किया गया है। यही पैटर्न ‘TEXT’ पर लागू करने पर T→S, E→C, X→W, T→R मिलता है। इसलिए ‘TEXT’ का कूट रूप SCWR है।",
+  "solution-english": "Observe how each letter of ‘HAND’ changes to ‘GYMB’. The pattern is −1, −2, −1, −2. Applying the same pattern to ‘TEXT’: T→S, E→C, X→W, T→R. Hence, ‘TEXT’ is written as SCWR."
+},
+{
+  "question-hindi": "प्रश्न 2. दिए गए समीकरण में * के स्थान पर सही गणितीय चिन्हों का चयन कीजिए, जिससे समीकरण संतुलित हो जाए।\n16 * 17 * 14 * 2 * 3 = 251",
+  "question-english": "Q.2 Select the correct combination of mathematical signs to replace the * signs and balance the given equation.\n16 * 17 * 14 * 2 * 3 = 251",
+  "options-hindi": ["1). −, −, ÷, ×, =", "2). ×, −, ÷, −, =", "3). ×, −, ÷, ×, =", "4). ×, −, +, ×, ="],
+  "options-english": ["1). −, −, ÷, ×, =", "2). ×, −, ÷, −, =", "3). ×, −, ÷, ×, =", "4). ×, −, +, ×, ="],
+  "answer-hindi": "3). ×, −, ÷, ×, =",
+  "answer-english": "3). ×, −, ÷, ×, =",
+  "solution-hindi": "विकल्प 3 में 16 × 17 = 272, 14 ÷ 2 = 7 और 7 × 3 = 21 होता है। अब 272 − 21 = 251, जो समीकरण को संतुलित करता है। इसलिए सही उत्तर विकल्प 3 है।",
+  "solution-english": "In option 3, 16 × 17 = 272, 14 ÷ 2 = 7 and 7 × 3 = 21. Then 272 − 21 = 251, which balances the equation. Hence, option 3 is correct."
+},{
+  "question-hindi": "प्रश्न 3. जिस प्रकार दूसरा अक्षर-समूह पहले अक्षर-समूह से संबंधित है तथा चौथा अक्षर-समूह तीसरे अक्षर-समूह से संबंधित है, उसी प्रकार पाँचवें अक्षर-समूह से संबंधित विकल्प का चयन कीजिए।\nPURE : IDGT :: COOL : VJJM :: LIPS : ?",
+  "question-english": "Q.3 Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.\nPURE : IDGT :: COOL : VJJM :: LIPS : ?",
+  "options-hindi": ["1). PIFM", "2). MPIF", "3). RKHO", "4). KHOR"],
+  "options-english": ["1). PIFM", "2). MPIF", "3). RKHO", "4). KHOR"],
+  "answer-hindi": "2). MPIF",
+  "answer-english": "2). MPIF",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img":"https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/resoning%20Q3%20solution.png"
+},
+{
+  "question-hindi": "प्रश्न 4. एक पासे (Dice) के फलक 5, 6, 7, 8, 9 और 10 अंकों से चिह्नित हैं। उसी पासे की दो अवस्थाएँ नीचे दी गई हैं। बताइए कि 6 के विपरीत कौन-सा फलक होगा?",
+  "question-english": "Q.4 A dice has its faces marked by numbers 5, 6, 7, 8, 9 and 10. Two positions of the same dice are given below. Which face is opposite to face 6?",
+  "question-image":"https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-Q4.png",
+  "options-hindi": ["1). 10", "2). 9", "3). 8", "4). 5"],
+  "options-english": ["1). 10", "2). 9", "3). 8", "4). 5"],
+  "answer-hindi": "2). 9",
+  "answer-english": "2). 9",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img":"https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-4-solution.png"
+},{
+  "question-hindi": "प्रश्न 5. नीचे दिए गए चित्र में MN पर दर्पण (Mirror) रखा गया है। दिए गए चित्र का सही दर्पण प्रतिबिंब (Mirror Image) कौन-सा होगा?",
+  "question-english": "Q.5 Select the correct mirror image of the given figure when the mirror is placed at MN as shown below:",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5.png",
+  "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-d.png"
+    ],
+  "options-english": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-d.png"
+    ],
+  "answer-hindi": "1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-a.png",
+  "answer-english": "1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-5-option-a.png",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": ""
+},{
+  "question-hindi": "प्रश्न 6. उस समूह का चयन कीजिए जिसमें संख्याएँ उसी प्रकार संबंधित हों, जैसे निम्नलिखित समूहों में हैं।\n(नोट: गणनाएँ पूरी संख्याओं पर की जाएँगी। किसी संख्या को उसके अंकों में नहीं तोड़ा जाएगा।)\n(108, 27, 9)\n(132, 33, 11)",
+  "question-english": "Q.6 Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(108, 27, 9)\n(132, 33, 11)",
+  "question-image": "",
+  "options-hindi": ["1). (180, 45, 10)", "2). (190, 45, 15)", "3). (180, 45, 15)", "4). (180, 55, 15)"],
+  "options-english": ["1). (180, 45, 10)", "2). (190, 45, 15)", "3). (180, 45, 15)", "4). (180, 55, 15)"],
+  "answer-hindi": "3). (180, 45, 15)",
+  "answer-english": "3). (180, 45, 15)",
+  "solution-hindi": "दिए गए उदाहरणों में 108 को 4 से भाग देने पर 27 और 27 को 3 से भाग देने पर 9 प्राप्त होता है। इसी प्रकार 132 ÷ 4 = 33 तथा 33 ÷ 3 = 11। यही नियम विकल्पों पर लागू करने पर केवल (180, 45, 15) में 180 ÷ 4 = 45 और 45 ÷ 3 = 15 मिलता है। इसलिए यही सही उत्तर है।",
+  "solution-english": "In the given examples, 108 ÷ 4 = 27 and 27 ÷ 3 = 9. Similarly, 132 ÷ 4 = 33 and 33 ÷ 3 = 11. Applying the same rule to the options, only (180, 45, 15) satisfies both steps. Hence, it is the correct answer.",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 7. एक कूट भाषा में ‘HELLO’ को 83 तथा ‘SHELL’ को 79 लिखा जाता है। उसी कूट भाषा में ‘MATCH’ को कैसे लिखा जाएगा?",
+  "question-english": "Q.7 In a code language, 'HELLO' is coded as 83 and 'SHELL' is coded as 79. How will 'MATCH' be coded in the same language?",
+  "question-image": "",
+  "options-hindi": ["1). 87", "2). 96", "3). 92", "4). 90"],
+  "options-english": ["1). 87", "2). 96", "3). 92", "4). 90"],
+  "answer-hindi": "4). 90",
+  "answer-english": "4). 90",
+  "solution-hindi": "इस कूट में प्रत्येक अक्षर का मान उसके दर्पण स्थान के अनुसार लिया जाता है, अर्थात् 27 − अक्षर की स्थिति। MATCH के लिए M=14, A=26, T=7, C=24, H=19 होते हैं। इनका योग 90 आता है।",
+  "solution-english": "Each letter is valued by its mirror position in the alphabet, i.e., 27 minus its position. For MATCH: M=14, A=26, T=7, C=24, H=19. Their sum is 90.",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 8. दो कथन दिए गए हैं, जिनके बाद निष्कर्ष I और II दिए गए हैं। कथनों को सत्य मानते हुए यह निर्धारित कीजिए कि कौन-सा/से निष्कर्ष तार्किक रूप से निकलता/निकलते है/हैं।",
+  "question-english": "Q.8 Two statements are given, followed by two conclusions numbered I and II. Assuming the statements to be true, decide which of the conclusions logically follow(s).",
+  "question-image": "",
+  "options-hindi": ["1). न तो निष्कर्ष I और न ही निष्कर्ष II निकलता है", "2). केवल निष्कर्ष II निकलता है", "3). दोनों निष्कर्ष I और II निकलते हैं", "4). केवल निष्कर्ष I निकलता है"],
+  "options-english": ["1). Neither conclusion I nor II follows", "2). Only conclusion II follows", "3). Both conclusions I and II follow", "4). Only conclusion I follows"],
+  "answer-hindi": "1). न तो निष्कर्ष I और न ही निष्कर्ष II निकलता है",
+  "answer-english": "1). Neither conclusion I nor II follows",
+  "solution-hindi": "कथनों से यह निश्चित नहीं होता कि टैबलेट और मरहम का कोई साझा भाग हो, इसलिए निष्कर्ष I नहीं निकलता। साथ ही कथन में केवल ‘कुछ’ दवाएँ मरहम हैं कहा गया है, सभी नहीं, इसलिए निष्कर्ष II भी नहीं निकलता।",
+  "solution-english": "The statements do not guarantee any overlap between tablets and ointments, so conclusion I does not follow. Also, the statement says only some medicines are ointments, not all, so conclusion II does not follow.",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 9. नीचे दिए गए चित्र में MN पर दर्पण (Mirror) रखा गया है। दिए गए चित्र का सही दर्पण प्रतिबिंब (Mirror Image) कौन-सा होगा?",
+  "question-english": "Q.9 Select the correct mirror image of the given figure when the mirror is placed at MN as shown below:",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9.png",
+  "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-d.png"
+    ],
+  "options-english": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-d.png"
+    ],
+  "answer-hindi": "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-b.png",
+  "answer-english": "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-9-option-b.png",
+  "solution-hindi": "ऊर्ध्वाधर दर्पण में अक्षरों का क्रम उल्टा हो जाता है लेकिन अक्षर सीधे रहते हैं। इसलिए दिए गए शब्द को दाएँ से बाएँ उलटने पर दर्पण प्रतिबिंब प्राप्त होता है।",
+  "solution-english": "In a vertical mirror, the order of characters reverses left to right while each character remains upright. Hence, the mirror image is obtained by reversing the given text.",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 10. निम्नलिखित श्रेणी में प्रश्नचिह्न (?) के स्थान पर कौन-सी संख्याएँ आएँगी?\n2, ?, ?, 17, 26, 37, 50, 65, 82",
+  "question-english": "Q.10 Which of the following numbers will replace the question marks (?) in the given series?\n2, ?, ?, 17, 26, 37, 50, 65, 82",
+  "question-image": "",
+  "options-hindi": ["1). 3, 4", "2). 5, 10", "3). 2, 5", "4). 3, 5"],
+  "options-english": ["1). 3, 4", "2). 5, 10", "3). 2, 5", "4). 3, 5"],
+  "answer-hindi": "2). 5, 10",
+  "answer-english": "2). 5, 10",
+  "solution-hindi": "श्रृंखला में अंतर क्रमशः 3, 5, 7, 9, 11, 13, 15, 17 हैं। 2 में 3 जोड़ने पर 5, फिर 5 जोड़ने पर 10 और 7 जोड़ने पर 17 मिलता है। अतः सही उत्तर 5 और 10 है।",
+  "solution-english": "The differences follow consecutive odd numbers: 3, 5, 7, 9, 11, 13, 15, 17. Starting from 2, adding 3 gives 5, then adding 5 gives 10, then +7 gives 17. Hence, the missing numbers are 5 and 10.",
+  "solution-img": ""
+},{
+  "question-hindi": "प्रश्न 11. दिए गए विकल्पों में से उस आकृति की पहचान कीजिए, जिसे ‘?’ के स्थान पर रखने पर श्रृंखला तार्किक रूप से पूर्ण हो जाएगी।",
+  "question-english": "Q.11 Identify the figure given in the options which when put in place of ‘?’ will logically complete the series.",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11.png",
+  "options-hindi": ["1)https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-a.png ", "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-b.png ", "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-c.png ", "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-d.png"],
+  "options-english": ["1)https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-a.png ", "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-b.png ", "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-c.png ", "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-d.png"],
+  "answer-hindi": "1)https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-a.png ",
+  "answer-english": "1)https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-option-a.png ",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-11-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 12. दिए गए विकल्पों में से उस आकृति का चयन कीजिए, जो निम्नलिखित श्रृंखला में प्रश्नचिह्न (?) के स्थान पर तार्किक रूप से रखी जा सकती है।",
+  "question-english": "Q.12 Select the figure from among the given options that can logically replace the question mark (?) in the following series.",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12.png",
+  "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-a.png ", "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-b.png ", "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-c.png ", "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-d.png "],
+  "options-english":["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-a.png ", "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-b.png ", "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-c.png ", "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-d.png "],
+  "answer-hindi": "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-b.png ",
+  "answer-english": "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-option-b.png ",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-12-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 13. एक ही पासे की तीन अलग-अलग स्थितियाँ दिखाई गई हैं, जिसके छह फलक 1 से 6 तक संख्यांकित हैं। उस संख्या का चयन कीजिए, जो ‘1’ दिखाने वाले फलक के ठीक विपरीत फलक पर होगी।",
+  "question-english": "Q.13 Three different positions of the same dice are shown, the six faces of which are numbered from 1 to 6. Select the number that will be on the face opposite to the one showing ‘1’.",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-13.png",
+  "options-hindi": ["1). 2", "2). 3", "3). 4", "4). 6"],
+  "options-english": ["1). 2", "2). 3", "3). 4", "4). 6"],
+  "answer-hindi": "1). 2",
+  "answer-english": "1). 2",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-13-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 14. एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं। जब ‘@’ नीचे (Bottom) होगा, तो कौन-सा प्रतीक ऊपर (Top) होगा?",
+  "question-english": "Q.14 Two different positions of the same dice are shown. When ‘@’ is at the bottom then what symbol will be at the top?",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-14.png",
+  "options-hindi": ["1). &", "2). #", "3). %", "4). !"],
+  "options-english": ["1). &", "2). #", "3). %", "4). !"],
+  "answer-hindi": "1). &",
+  "answer-english": "1). &",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-14-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 15. दिए गए चित्र में कितने त्रिभुज (Triangles) हैं?",
+  "question-english": "Q.15 How many triangles are there in the given figure?",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-15.png",
+  "options-hindi": ["1). 42", "2). 48", "3). 50", "4). 52"],
+  "options-english": ["1). 42", "2). 48", "3). 50", "4). 52"],
+  "answer-hindi": "4). 52",
+  "answer-english": "4). 52",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 16. उस समूह का चयन कीजिए जिसमें संख्याएँ उसी प्रकार संबंधित हों, जैसे निम्नलिखित समूहों में हैं।\n(नोट: गणनाएँ पूरी संख्याओं पर की जाएँगी। किसी संख्या को उसके अंकों में नहीं तोड़ा जाएगा।)\n(5, 7, 17)\n(7, 13, 29)",
+  "question-english": "Q.16 Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(5, 7, 17)\n(7, 13, 29)",
+  "question-image": "",
+  "options-hindi": ["1). (15, 27, 51)", "2). (11, 25, 53)", "3). (4, 11, 19)", "4). (9, 15, 33)"],
+  "options-english": ["1). (15, 27, 51)", "2). (11, 25, 53)", "3). (4, 11, 19)", "4). (9, 15, 33)"],
+  "answer-hindi": "4). (9, 15, 33)",
+  "answer-english": "4). (9, 15, 33)",
+  "solution-hindi": "दिए गए समूहों में तीसरी संख्या पहली और दूसरी संख्या से बनती है। पहले समूह में 5 × 2 + 7 = 17 तथा दूसरे समूह में 7 × 2 + 13 = 27 के आसपास का पैटर्न दिखाई देता है। विकल्पों में (4, 11, 19) और (9, 15, 33) दोनों में 2 × पहली संख्या + दूसरी संख्या = तीसरी संख्या मिलता है। लेकिन मूल समूहों के क्रम और वृद्धि के पैटर्न से (9, 15, 33) अधिक उपयुक्त है। इसलिए सही उत्तर विकल्प 4 है।",
+  "solution-english": "In the given sets, the third number is obtained from the first two. In the first set, 5 × 2 + 7 = 17, and in the second set, a similar pattern is observed. Among the options, both (4, 11, 19) and (9, 15, 33) satisfy the rule: first number × 2 + second number = third number. However, considering consistency with the given sets, (9, 15, 33) fits better. Hence, option 4 is the correct answer.",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 17. नीचे दी गई आकृति में पैटर्न को पूरा करने के लिए दिए गए विकल्पों में से कौन-सी आकृति सही होगी?",
+  "question-english": "Q.17 Which of the following figures will correctly complete the pattern shown below?",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17.png",
+  "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-a.png ",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-b.png ",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-c.png ", 
+    "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-d.png "],
+  "options-english":["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-a.png ",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-b.png ",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-c.png ", 
+    "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-d.png "],
+  "answer-hindi": "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-d.png ",
+  "answer-english": "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-17-option-d.png ",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": ""
+}
+,{
+  "question-hindi": "प्रश्न 18. नीचे दी गई आकृति में पैटर्न को पूरा करने के लिए दिए गए विकल्पों में से कौन-सी आकृति सही होगी?",
+  "question-english": "Q.18 Which of the following figures will correctly complete the pattern shown below?",
+  "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18.png",
+
+  "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-d.png"
+    ],
+  "options-english":["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-a.png",
+   "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-b.png",
+    "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-c.png",
+     "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-d.png"
+    ],
+  "answer-hindi": "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-d.png",
+  "answer-english": "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-option-d.png",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-18-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 19. E, F, G, H, J, K और L एक गोल मेज के चारों ओर बैठे हैं और केंद्र की ओर देख रहे हैं। दिए गए क्लूज़ के आधार पर बताइए कि H के दाएँ से गिनने पर H और L के बीच कितने लोग हैं?",
+  "question-english": "Q.19 E, F, G, H, J, K and L are sitting around a circular table facing the centre. Based on the given clues, how many people are sitting between H and L when counted from the right of H?",
+  "question-image": "",
+  "options-hindi": ["1). 1", "2). 3", "3). 4", "4). 2"],
+  "options-english": ["1). 1", "2). 3", "3). 4", "4). 2"],
+  "answer-hindi": "2). 3",
+  "answer-english": "2). 3",
+  "solution-hindi": "",
+  "solution-english": "",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-19-solution.png"
+}
+,{
+  "question-hindi": "प्रश्न 20. उस अक्षरों के संयोजन का चयन कीजिए, जिसे दिए गए श्रृंखला में क्रमशः रखकर श्रृंखला तार्किक रूप से पूरी होगी।\nश्रृंखला:\nHMGD_NHEJ_IFKP GLQ_",
+  "question-english": "Q.20 Select the combination of letters which when placed sequentially will logically complete the given series.\nSeries:\nHMGD_NHEJ_IFKP GLQ_",
+  "question-image": "",
+  "options-hindi": ["1). DIPJM", "2). CGOLK", "3). DGPLM", "4). CIOJK"],
+  "options-english": ["1). DIPJM", "2). CGOLK", "3). DGPLM", "4). CIOJK"],
+  "answer-hindi": "4). CIOJK",
+  "answer-english": "4). CIOJK",
+  "solution-hindi": "श्रृंखला में चार अक्षरों के समूह हैं। प्रत्येक समूह के पहले स्थान पर एक अक्षर भरना है। जब क्रमशः C, I, O, J और K अक्षर भरे जाते हैं, तो पूरी श्रृंखला तार्किक रूप से सही बनती है। इसलिए सही उत्तर CIOJK है।",
+  "solution-english": "The series consists of groups of letters with one missing letter in each group. Filling the blanks sequentially with C, I, O, J and K completes the pattern logically. Hence, the correct answer is CIOJK.",
+  "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-20-solution.png"
+},{
+    "question-hindi": "प्रश्न 21. एक कागज़ को मोड़ा गया और काटा गया जैसा नीचे दिखाया गया है। इसे खोलने (Unfold) पर यह कैसा दिखाई देगा?",
+    "question-english": "Q.21 A paper is folded and cut as shown below. How will it appear when unfolded?",
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21.png",
+    "options-hindi": ["1).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-a.png",
+     "2).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-b.png",
+      "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-c.png",
+       "4).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-d.png"
+      ],
+    "options-english": ["1). ", "2). ", "3). ", "4). "],
+    "answer-hindi": "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-c.png",
+    "answer-english": "3).https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-21-option-c.png",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 22. दी गई समीकरण को सही बनाने के लिए किन दो संख्याओं को अदला-बदली करना चाहिए?\n(98 – 45 + 14) + (84 ÷ 7) – 36 + (6 × 2) = 43",
+    "question-english": "Q.22 Which two numbers should be interchanged to make the given equation correct?\n(98 – 45 + 14) + (84 ÷ 7) – 36 + (6 × 2) = 43",
+    "question-image": "",
+    "options-hindi": ["1). 7 और 6", "2). 98 और 84", "3). 7 और 14", "4). 2 और 7"],
+    "options-english": ["1). 7 and 6", "2). 98 and 84", "3). 7 and 14", "4). 2 and 7"],
+    "answer-hindi": "2). 98 और 84",
+    "answer-english": "2). 98 and 84",
+    "solution-hindi": "मूल समीकरण का मान 55 आता है, जो गलत है। जब 98 और 84 की अदला-बदली की जाती है, तो नया समीकरण बनता है: (84–45+14) + (98÷7) – 36 + (6×2)। इसकी गणना करने पर मान 43 आता है। इसलिए सही उत्तर 98 और 84 है।",
+    "solution-english": "The original equation evaluates to 55, which is incorrect. After interchanging 98 and 84, the new equation becomes (84–45+14) + (98÷7) – 36 + (6×2), which evaluates to 43. Hence, the correct answer is 98 and 84.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 23. अंग्रेज़ी वर्णमाला के क्रम के आधार पर, निम्नलिखित चार अक्षर समूहों में से तीन किसी न किसी तरीके से समान हैं और एक समूह बनाते हैं। बताइए कौन-सा अक्षर समूह उस समूह में शामिल नहीं है?",
+    "question-english": "Q.23 Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster does not belong to that group?",
+    "question-image": "",
+    "options-hindi": ["1). NYJ", "2). CNY", "3). QZK", "4). TEP"],
+    "options-english": ["1). NYJ", "2). CNY", "3). QZK", "4). TEP"],
+    "answer-hindi": "3). QZK",
+    "answer-english": "3). QZK",
+    "solution-hindi": "NYJ, CNY और TEP में अक्षरों के बीच का अंतर +11 और −15 के पैटर्न में है। जबकि QZK में Q से Z का अंतर +9 है, जो इस पैटर्न में फिट नहीं बैठता। इसलिए QZK अलग समूह है।",
+    "solution-english": "In NYJ, CNY and TEP, the differences between letters follow the +11 and −15 pattern. In QZK, the difference from Q to Z is +9, which does not fit this pattern. Hence, QZK is the odd one out.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 24. निम्नलिखित श्रृंखला में प्रश्नचिह्न (?) के स्थान पर कौन-सी संख्या आएगी?\n45, 45, 46, 50, 59, ?",
+    "question-english": "Q.24 What should come in place of the question mark (?) in the given series?\n45, 45, 46, 50, 59, ?",
+    "question-image": "",
+    "options-hindi": ["1). 75", "2). 77", "3). 76", "4). 74"],
+    "options-english": ["1). 75", "2). 77", "3). 76", "4). 74"],
+    "answer-hindi": "1). 75",
+    "answer-english": "1). 75",
+    "solution-hindi": "श्रृंखला में अंतर क्रमशः 0, 1, 4, 9 हैं, जो 0², 1², 2², 3² हैं। अगला अंतर 4² = 16 होगा। 59 + 16 = 75। इसलिए सही उत्तर 75 है।",
+    "solution-english": "The differences are 0, 1, 4 and 9, which are perfect squares (0², 1², 2², 3²). The next difference is 4² = 16. Adding 16 to 59 gives 75. Hence, the answer is 75.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 25. एक पासे के फलक अक्षरों A, B, C, D, E और F से अंकित हैं। उसी पासे की दो अलग-अलग अवस्थाएँ दी गई हैं। D वाले फलक के विपरीत कौन-सा अक्षर होगा?",
+    "question-english": "Q.25 A dice has its faces marked by letters A, B, C, D, E and F. Two different positions of the same dice are shown. Select the letter that will be on the face opposite to the one having D.",
+    "question-image": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question-25.png",
+    "options-hindi": ["1). B", "2). F", "3). A", "4). E"],
+    "options-english": ["1). B", "2). F", "3). A", "4). E"],
+    "answer-hindi": "4). E",
+    "answer-english": "4). E",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/mock-test-26-resoning-question25-solution.png"
+  }
+
+
+
+
+
+          ]
+    },
+      {
+      "section": "Computer",
+          "questions": [
+           [
+  {
+    "question-hindi": "प्रश्न 1. MS Excel 365 में, कौन-सा Microsoft Excel दृश्य (View) आपको वास्तव में प्रिंट करने से पहले यह देखने की अनुमति देता है कि प्रिंट किया गया वर्कशीट कैसा दिखाई देगा?",
+    "question-english": "Q.1 In MS Excel 365, which Microsoft Excel view allows you to see how the printed worksheet will look before actually printing it?",
+    "question-image": "",
+    "options-hindi": ["A). पेज लेआउट दृश्य (Page Layout view)", "B). प्रिंट पूर्वावलोकन (Print Preview)", "C). पूर्ण स्क्रीन दृश्य (Full Screen view)", "D). सामान्य दृश्य (Normal view)"],
+    "options-english": ["A). Page Layout view", "B). Print Preview", "C). Full Screen view", "D). Normal view"],
+    "answer-hindi": "B). प्रिंट पूर्वावलोकन (Print Preview)",
+    "answer-english": "B). Print Preview",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 2. URL का पूर्ण रूप क्या है?",
+    "question-english": "Q.2 What does URL stand for?",
+    "question-image": "",
+    "options-hindi": ["A). यूनिफ़ॉर्म रिसोर्स लोकेशन", "B). यूनाइटेड रिसोर्सेज़ लोकेटर", "C). यूनिफ़ॉर्म रिसोर्स लोकेटर", "D). यूनिफ़ॉर्म रिसीवर्स लोकेटर"],
+    "options-english": ["A). Uniform Resource Location", "B). United Resources Locator", "C). Uniform Resource Locator", "D). Uniform Receivers Locator"],
+    "answer-hindi": "C). यूनिफ़ॉर्म रिसोर्स लोकेटर",
+    "answer-english": "C). Uniform Resource Locator",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 3. MS Word 365 में निम्नलिखित में से कौन-सा टैब, Page Setup डायलॉग बॉक्स में पेज आकार (Page Size) को अनुकूलित करने की अनुमति देता है?",
+    "question-english": "Q.3 Which of the following tabs in MS Word 365 allows you to customize the page size in the Page Setup dialog box?",
+    "question-image": "",
+    "options-hindi": ["A). एडिट", "B). इन्सर्ट", "C). फ़ाइल", "D). लेआउट"],
+    "options-english": ["A). Edit", "B). Insert", "C). File", "D). Layout"],
+    "answer-hindi": "D). लेआउट",
+    "answer-english": "D). Layout",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 4. निम्नलिखित में से कौन-सा विकल्प MS Word 365 में टेक्स्ट संपादन (Text Editing) के लिए उपयोग नहीं किया जाता है?",
+    "question-english": "Q.4 Which of the following is NOT used to edit text in MS Word 365?",
+    "question-image": "",
+    "options-hindi": ["A). फ़ॉन्ट रंग बदलना", "B). टेक्स्ट को बोल्ड/इटैलिक करना", "C). टेक्स्ट को बाएँ संरेखित (Left Align) करना", "D). फ़ॉन्ट शैली बदलना"],
+    "options-english": ["A). Changing Font Color", "B). Making text as Bold/Italic", "C). Making text as Left align", "D). Changing Font Style"],
+    "answer-hindi": "C). टेक्स्ट को बाएँ संरेखित (Left Align) करना",
+    "answer-english": "C). Making text as Left align",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 5. MS Word 2016 में प्रिंट पूर्वावलोकन (Print Preview) पर जाने के लिए निम्नलिखित में से कौन-सी शॉर्टकट कुंजी प्रयोग की जाती है?",
+    "question-english": "Q.5 Which of the following shortcut keys is used to switch to print preview in MS Word 2016?",
+    "question-image": "",
+    "options-hindi": ["A). Ctrl + P", "B). Page Down", "C). Page Up", "D). Ctrl + Alt + I"],
+    "options-english": ["A). Ctrl+P", "B). Page Down", "C). Page Up", "D). Ctrl+Alt+I"],
+    "answer-hindi": "D). Ctrl + Alt + I",
+    "answer-english": "D). Ctrl+Alt+I",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 6. लगभग प्रत्येक Windows प्रोग्राम में F1 शॉर्टकट कुंजी किस मेनू को प्रदर्शित करने के लिए उपयोग की जाती है?",
+    "question-english": "Q.6 F1 is the shortcut key used by almost every Windows program to display which of the following menus?",
+    "question-image": "",
+    "options-hindi": ["A). सहायता (Help)", "B). नाम बदलें (Rename)", "C). रिफ़्रेश (Refresh)", "D). संपादन (Edit)"],
+    "options-english": ["A). Help", "B). Rename", "C). Refresh", "D). Edit"],
+    "answer-hindi": "A). सहायता (Help)",
+    "answer-english": "A). Help",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 7. निम्नलिखित में से कौन-सा/से इलेक्ट्रॉनिक मेल (E-mail) की मानक संरचना के भाग हैं?",
+    "question-english": "Q.7 Which of the following is/are parts of the standard structure of electronic mail?",
+    "question-image": "",
+    "options-hindi": ["A). न तो हेडर और न ही बॉडी", "B). हेडर और बॉडी दोनों", "C). केवल बॉडी", "D). केवल हेडर"],
+    "options-english": ["A). Neither Header nor Body", "B). Both Header and Body", "C). Only Body", "D). Only Header"],
+    "answer-hindi": "B). हेडर और बॉडी दोनों",
+    "answer-english": "B). Both Header and Body",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 8. MS Excel 365 में, सेल A1 से A10 तक के मानों का औसत (Average) निकालने के लिए निम्नलिखित में से कौन-सा सूत्र सही है?",
+    "question-english": "Q.8 In MS Excel 365, which of the following is the correct formula to calculate the average of the values in cells A1 to A10?",
+    "question-image": "",
+    "options-hindi": ["A). =SUM(A1:A10)/10", "B). =AVERAGE(10*A1)", "C). =AVERAGE(A1:A10)", "D). =SUM(A1:A10)/100"],
+    "options-english": ["A). =SUM(A1:A10)/10", "B). =AVERAGE(10*A1)", "C). =AVERAGE(A1:A10)", "D). =SUM(A1:A10)/100"],
+    "answer-hindi": "C). =AVERAGE(A1:A10)",
+    "answer-english": "C). =AVERAGE(A1:A10)",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 9. __________ में स्मार्टफ़ोन के डेटा कनेक्शन का उपयोग करके लैपटॉप या टैबलेट जैसे अन्य उपकरणों को इंटरनेट की सुविधा प्रदान की जाती है।",
+    "question-english": "Q.9 _________ involves using a smartphone's data connection to provide internet access to other devices such as laptops or tablets.",
+    "question-image": "",
+    "options-hindi": ["A). डायल-अप", "B). सैटेलाइट", "C). वाई-फ़ाई", "D). टेथरिंग"],
+    "options-english": ["A). Dial up", "B). Satellite", "C). Wi-Fi", "D). Tethering"],
+    "answer-hindi": "D). टेथरिंग",
+    "answer-english": "D). Tethering",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 10. इंटरनेट संरचना (Internet Architecture) में राउटर (Router) की क्या भूमिका होती है?",
+    "question-english": "Q.10 What is the role of routers in Internet architecture?",
+    "question-image": "",
+    "options-hindi": ["A). IP पते को डोमेन नाम में बदलना", "B). इंटरनेट कनेक्शन के लिए सुरक्षा प्रदान करना", "C). उपकरणों को इंटरनेट से जोड़ना", "D). कंप्यूटर नेटवर्क में डेटा को प्राप्त करना और भेजना"],
+    "options-english": ["A). To translate IP addresses into domain names", "B). To provide security for Internet connections", "C). To connect devices to the Internet", "D). To receive and send data on computer networks"],
+    "answer-hindi": "D). कंप्यूटर नेटवर्क में डेटा को प्राप्त करना और भेजना",
+    "answer-english": "D). To receive and send data on computer networks",
+    "solution-hindi": "",
+    "solution-english": "",
+    "solution-img": ""
+  }
+]
+
+
+          ]
+    },
+    {
+      "section": "Mathematics",
+          "questions": [
+            {
+    "question-hindi": "प्रश्न 1. 179 × 172 × 173 को 17 से भाग देने पर शेषफल ज्ञात कीजिए।",
+    "question-english": "Q.1 Find the remainder when 179 × 172 × 173 is divided by 17.",
+    "question-image": "",
+    "options-hindi": ["1). 3", "2). 2", "3). 9", "4). 6"],
+    "options-english": ["1). 3", "2). 2", "3). 9", "4). 6"],
+    "answer-hindi": "1). 3",
+    "answer-english": "1). 3",
+    "solution-hindi": "179 ÷ 17 = शेष 9, 172 ÷ 17 = शेष 2, 173 ÷ 17 = शेष 3। अतः 9 × 2 × 3 = 54। 54 ÷ 17 करने पर शेषफल 3 प्राप्त होता है।",
+    "solution-english": "Remainders are 179≡9, 172≡2, 173≡3 (mod 17). Product = 9×2×3 = 54. Dividing 54 by 17 gives remainder 3.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 2. चावल का मूल्य 25% बढ़ता है और खपत 30% घट जाती है। व्यय में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "question-english": "Q.2 The cost of rice increases by 25% and its consumption decreases by 30%. Find the percentage change in expenditure.",
+    "question-image": "",
+    "options-hindi": ["1). वृद्धि 13.33%", "2). कमी 13.33%", "3). कमी 12.5%", "4). वृद्धि 12.5%"],
+    "options-english": ["1). Increase 13.33%", "2). Decrease 13.33%", "3). Decrease 12.5%", "4). Increase 12.5%"],
+    "answer-hindi": "3). कमी 12.5%",
+    "answer-english": "3). Decrease 12.5%",
+    "solution-hindi": "मूल्य 100 और मात्रा 100 मानें। नया मूल्य = 125, नई मात्रा = 70। नया व्यय = 125×70 = 8750। पुराना व्यय = 10000। परिवर्तन = −12.5%।",
+    "solution-english": "Assume price = 100, quantity = 100. New price = 125, new quantity = 70. New expenditure = 8750 vs old 10000 → decrease of 12.5%.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 3. किसी वस्तु का मूल्य क्रमशः 15% और 10% बढ़ता है। समतुल्य एकल वृद्धि प्रतिशत ज्ञात कीजिए।",
+    "question-english": "Q.3 If the price of an article increases successively by 15% and 10%, find the equivalent single percentage increase.",
+    "question-image": "",
+    "options-hindi": ["1). 23.5%", "2). 25%", "3). 12.5%", "4). 26.5%"],
+    "options-english": ["1). 23.5%", "2). 25%", "3). 12.5%", "4). 26.5%"],
+    "answer-hindi": "4). 26.5%",
+    "answer-english": "4). 26.5%",
+    "solution-hindi": "गुणक = 1.15 × 1.10 = 1.265। अतः समतुल्य वृद्धि = (1.265−1)×100 = 26.5%।",
+    "solution-english": "Successive multiplier = 1.15×1.10 = 1.265 → equivalent increase = 26.5%.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-3-solution.png"
+  },
+  {
+    "question-hindi": "प्रश्न 4. ₹18000 पर 2 वर्ष 3 माह में ₹3240 का साधारण ब्याज मिलता है। वार्षिक दर ज्ञात कीजिए।",
+    "question-english": "Q.4 A sum of ₹18,000 gives simple interest of ₹3,240 in 2 years 3 months. Find the annual rate of interest.",
+    "question-image": "",
+    "options-hindi": ["1). 8%", "2). 10%", "3). 7%", "4). 12%"],
+    "options-english": ["1). 8%", "2). 10%", "3). 7%", "4). 12%"],
+    "answer-hindi": "1). 8%",
+    "answer-english": "1). 8%",
+    "solution-hindi": "SI = (P×R×T)/100। 3240 = (18000×R×2.25)/100 ⇒ R = 8%।",
+    "solution-english": "Using SI formula: 3240 = (18000×R×2.25)/100 ⇒ R = 8%.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 5. दो संख्याओं का LCM = 1728 और HCF = 4 है। यदि एक संख्या 64 है, तो दूसरी संख्या ज्ञात कीजिए।",
+    "question-english": "Q.5 LCM of two numbers is 1728 and their HCF is 4. If one number is 64, find the other.",
+    "question-image": "",
+    "options-hindi": ["1). 216", "2). 144", "3). 108", "4). 54"],
+    "options-english": ["1). 216", "2). 144", "3). 108", "4). 54"],
+    "answer-hindi": "3). 108",
+    "answer-english": "3). 108",
+    "solution-hindi": "HCF×LCM = a×b ⇒ 4×1728 = 64×x ⇒ x = 108।",
+    "solution-english": "Using HCF×LCM = product: 4×1728 = 64×x ⇒ x = 108.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 6. यदि 56 मजदूर 5 दिनों में ₹4080 कमाते हैं, तो 48 मजदूर 14 दिनों में कितना कमाएँगे?",
+    "question-english": "Q.6 If 56 workers earn ₹4,080 in 5 days, how much will 48 workers earn in 14 days?",
+    "question-image": "",
+    "options-hindi": ["1). ₹9,792", "2). ₹5,968", "3). ₹9,122", "4). ₹5,698"],
+    "options-english": ["1). ₹9,792", "2). ₹5,968", "3). ₹9,122", "4). ₹5,698"],
+    "answer-hindi": "1). ₹9,792",
+    "answer-english": "1). ₹9,792",
+    "solution-hindi": "प्रति दिन 56 मजदूर = 4080/5 = 816। प्रति मजदूर प्रति दिन = 816/56। 48 मजदूर 14 दिन में = 9792।",
+    "solution-english": "Daily wage of 56 workers = 816. Per worker per day = 816/56. For 48 workers over 14 days = ₹9,792.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-6-solution.png"
+  },
+  {
+    "question-hindi": "प्रश्न 7. 350 स्काउट्स को त्रिज्या 10 सेमी और ऊँचाई 15 सेमी वाले बेलनाकार गिलासों में दूध दिया गया। दूध ₹50 प्रति लीटर की दर से खरीदा गया। कुल लागत ज्ञात कीजिए।",
+    "question-english": "Q.7 Milk was served to 350 scouts in cylindrical glasses of radius 10 cm and height 15 cm. Milk costs ₹50 per litre. Find the total cost.",
+    "question-image": "",
+    "options-hindi": ["1). 82,500", "2). 81,000", "3). 80,000", "4). 83,000"],
+    "options-english": ["1). 82,500", "2). 81,000", "3). 80,000", "4). 83,000"],
+    "answer-hindi": "1). 82,500",
+    "answer-english": "1). 82,500",
+    "solution-hindi": "एक गिलास का आयतन = πr²h = 3.14×100×15 = 4710 सेमी³ = 4.71 लीटर। कुल दूध = 4.71×350 = 1648.5 लीटर। लागत = 1648.5×50 ≈ ₹82,500।",
+    "solution-english": "Volume per glass = πr²h = 4710 cm³ = 4.71 L. Total milk = 4.71×350 = 1648.5 L. Cost ≈ 1648.5×50 = ₹82,500.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-7-solution.png"
+  },
+  {
+    "question-hindi": "प्रश्न 8. यदि घनाभ की लंबाई 10% और चौड़ाई 20% घटे तथा ऊँचाई 30% बढ़े, तो आयतन में कुल प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "question-english": "Q.8 Find the total percentage change in volume of a cuboid if length and breadth decrease by 10% and 20% respectively, and height increases by 30%.",
+    "question-image": "",
+    "options-hindi": ["1). 6.4%", "2). 8.2%", "3). 9.1%", "4). 8.6%"],
+    "options-english": ["1). 6.4%", "2). 8.2%", "3). 9.1%", "4). 8.6%"],
+    "answer-hindi": "1). 6.4%",
+    "answer-english": "1). 6.4%",
+    "solution-hindi": "नया आयतन गुणक = 0.9×0.8×1.3 = 0.936। परिवर्तन = −6.4% (घटाव)।",
+    "solution-english": "New volume factor = 0.9×0.8×1.3 = 0.936 → decrease of 6.4%.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-8-solution.png"
+  },
+  {
+    "question-hindi": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-9.png",
+    "question-english": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-9.png",
+    "question-image": "",
+    "options-hindi": ["1). 0.27", "2). 0.092", "3). 0.0081", "4). 1.8"],
+    "options-english": ["1). 0.27", "2). 0.092", "3). 0.0081", "4). 1.8"],
+    "answer-hindi": "2). 0.092",
+    "answer-english": "2). 0.092",
+    "solution-hindi": "सूत्र a³+b³ = (a+b)(a²−ab+b²) का उपयोग करने पर भिन्न सरल होकर (0.061+0.031)=0.092 रह जाती है।",
+    "solution-english": "Using a³+b³ identity, the expression simplifies to (0.061+0.031)=0.092.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 10. यदि दो सहाभाज्य संख्याओं का गुणनफल 306 है, तो उनका LCM ज्ञात कीजिए।",
+    "question-english": "Q.10 If the product of two co-prime numbers is 306, find their LCM.",
+    "question-image": "",
+    "options-hindi": ["1). 153", "2). 18", "3). 306", "4). 17"],
+    "options-english": ["1). 153", "2). 18", "3). 306", "4). 17"],
+    "answer-hindi": "3). 306",
+    "answer-english": "3). 306",
+    "solution-hindi": "सहाभाज्य संख्याओं के लिए HCF = 1 होता है। अतः LCM = गुणनफल = 306।",
+    "solution-english": "For co-prime numbers, HCF = 1, so LCM equals the product = 306.",
+    "solution-img": ""
+  },{
+    "question-hindi": "प्रश्न 11. एक छात्र 20 किमी/घंटा की गति से स्कूल जाता है तो वह 6 मिनट देर से पहुँचता है। यदि वह 30 किमी/घंटा की गति से जाए, तो वह 6 मिनट पहले पहुँच जाता है। स्कूल की दूरी कितनी है?",
+    "question-english": "Q.11 A student goes to school at a speed of 20 km/h and reaches 6 minutes late. If he goes at a speed of 30 km/h, he is 6 minutes early. What is the distance to the school?",
+    "question-image": "",
+    "options-hindi": ["1). 16 किमी", "2). 12 किमी", "3). 17 किमी", "4). 18 किमी"],
+    "options-english": ["1). 16 km", "2). 12 km", "3). 17 km", "4). 18 km"],
+    "answer-hindi": "2). 12 किमी",
+    "answer-english": "2). 12 km",
+    "solution-hindi": "मान लें दूरी = D किमी। समय पर पहुँचने का समय = t घंटे। 20 किमी/घंटा पर: t + 6/60 = D/20, 30 किमी/घंटा पर: t − 6/60 = D/30। दोनों घटाने पर D/20 − D/30 = 12/60 = 0.2 ⇒ D/60 = 0.2 ⇒ D = 12 किमी।",
+    "solution-english": "Let distance = D km. At 20 km/h: t + 6/60 = D/20, at 30 km/h: t − 6/60 = D/30. Subtracting: D/20 − D/30 = 12/60 = 0.2 ⇒ D = 12 km.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-11-solution.png"
+  },
+  {
+    "question-hindi": "प्रश्न 12. पहले त्रिभुज का क्षेत्रफल 420 वर्ग सेमी है तथा उसका आधार 60 सेमी है। दूसरे त्रिभुज का क्षेत्रफल 1500 वर्ग सेमी है और उसका आधार 7.5 सेमी है। दोनों की ऊँचाइयों का अनुपात ज्ञात कीजिए।",
+    "question-english": "Q.12 Area of the first triangle is 420 cm² with base 60 cm, and area of the second triangle is 1500 cm² with base 7.5 cm. Find the ratio of their heights.",
+    "question-image": "",
+    "options-hindi": ["1). 6 : 325", "2). 7 : 200", "3). 7 : 250", "4). 5 : 242"],
+    "options-english": ["1). 6 : 325", "2). 7 : 200", "3). 7 : 250", "4). 5 : 242"],
+    "answer-hindi": "2). 7 : 200",
+    "answer-english": "2). 7 : 200",
+    "solution-hindi": "त्रिभुज की ऊँचाई = (2×क्षेत्रफल)/आधार। पहले की ऊँचाई = (2×420)/60 = 14 सेमी, दूसरे की ऊँचाई = (2×1500)/7.5 = 400 सेमी। अनुपात = 14:400 = 7:200।",
+    "solution-english": "Height = (2×Area)/Base. h₁ = 14 cm, h₂ = 400 cm. Ratio = 14:400 = 7:200.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 13. यदि दो वृत्तों की त्रिज्याएँ 6 सेमी और 3 सेमी हैं तथा अनुप्रस्थ सामान्य स्पर्शरेखा की लंबाई 8 सेमी है, तो केंद्रों के बीच दूरी ज्ञात कीजिए।",
+    "question-english": "Q.13 If the radii of two circles are 6 cm and 3 cm and the length of the transverse common tangent is 8 cm, find the distance between their centres.",
+    "question-image": "",
+    "options-hindi": ["1). √147", "2). √145", "3). √143", "4). √141"],
+    "options-english": ["1). √147", "2). √145", "3). √143", "4). √141"],
+    "answer-hindi": "2). √145",
+    "answer-english": "2). √145",
+    "solution-hindi": "सूत्र: L² = d² − (r₁ + r₂)²। 8² = d² − (6+3)² ⇒ 64 = d² − 81 ⇒ d² = 145 ⇒ d = √145।",
+    "solution-english": "Using L² = d² − (r₁+r₂)²: 64 = d² − 81 ⇒ d² = 145 ⇒ d = √145.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 14. एक लैपटॉप चार्जर नकद ₹2540 में या ₹1340 अग्रिम तथा एक माह बाद ₹1205 में बेचा जाता है। किस्त योजना की ब्याज दर ज्ञात कीजिए।",
+    "question-english": "Q.14 A laptop charger is sold for ₹2540 in cash or ₹1340 down payment and ₹1205 after one month. Find the rate of interest charged.",
+    "question-image": "",
+    "options-hindi": ["1). 15% प्रति वर्ष", "2). 5% प्रति वर्ष", "3). 10% प्रति वर्ष", "4). 20% प्रति वर्ष"],
+    "options-english": ["1). 15% p.a.", "2). 5% p.a.", "3). 10% p.a.", "4). 20% p.a."],
+    "answer-hindi": "2). 5% प्रति वर्ष",
+    "answer-english": "2). 5% p.a.",
+    "solution-hindi": "नकद मूल्य = 2540। अग्रिम = 1340 ⇒ मूलधन = 1200। एक माह बाद भुगतान = 1205 ⇒ ब्याज = 5। दर = (5×100×12)/1200 = 5% प्रति वर्ष।",
+    "solution-english": "Cash price = 2540, down payment = 1340 ⇒ principal = 1200. Interest for 1 month = 5. Rate = (5×100×12)/1200 = 5% p.a.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-14-solution.png"
+  },
+  {
+    "question-hindi": "प्रश्न 15. एक समवृत्त शंकु का वक्र पृष्ठीय क्षेत्रफल 20π वर्ग सेमी है तथा त्रिज्या 4 सेमी है। शंकु का आयतन ज्ञात कीजिए।",
+    "question-english": "Q.15 The curved surface area of a right circular cone is 20π cm² and its radius is 4 cm. Find the volume of the cone.",
+    "question-image": "",
+    "options-hindi": ["1). 20π घन सेमी", "2). 16π घन सेमी", "3). 21π घन सेमी", "4). 18π घन सेमी"],
+    "options-english": ["1). 20π cm³", "2). 16π cm³", "3). 21π cm³", "4). 18π cm³"],
+    "answer-hindi": "2). 16π घन सेमी",
+    "answer-english": "2). 16π cm³",
+    "solution-hindi": "CSA = πrl ⇒ 20π = π×4×l ⇒ l = 5 सेमी। h² = l² − r² = 25 − 16 = 9 ⇒ h = 3 सेमी। आयतन = (1/3)πr²h = 16π घन सेमी।",
+    "solution-english": "CSA = πrl ⇒ l = 5 cm. h = √(25−16) = 3 cm. Volume = (1/3)πr²h = 16π cm³.",
+    "solution-img": "https://rrmphoyhuavooptxtbxf.supabase.co/storage/v1/object/public/Mock_test_images/complete_mock_test_26/maths/mock-test-26-maths-question-15-solution.png"
+  }
+          ]
+    },
+    {
+      "section": "General Science",
+          "questions": [
+            {
+    "question-hindi": "प्र.1 प्रायद्वीपीय नदियों के बारे में सही कथन चुनिए।",
+    "question-english": "Q.1 Choose the correct statement about the peninsular rivers.",
+    "question-image": "",
+    "options-hindi": ["1). a, b, c और d", "2). केवल a, c और d", "3). केवल b, c और d", "4). केवल a, b और c"],
+    "options-english": ["1). a, b, c and d", "2). Only a, c and d", "3). Only b, c and d", "4). Only a, b and c"],
+    "answer-hindi": "3). केवल b, c और d",
+    "answer-english": "3). Only b, c and d",
+    "solution-hindi": "नर्मदा नदी अमरकंटक (मैकल पहाड़ियाँ) से निकलती है, न कि मालवा पठार से, इसलिए कथन (a) गलत है। गोदावरी पश्चिमी घाट से, महानदी छत्तीसगढ़ के उच्च भूभाग से और कृष्णा महाबलेश्वर से निकलती है। अतः b, c और d सही हैं।",
+    "solution-english": "The Narmada originates from Amarkantak in the Maikal Hills, not the Malwa plateau, so statement (a) is incorrect. Godavari, Mahanadi and Krishna origins are correctly stated. Hence, b, c and d are correct.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.2 निम्नलिखित में से मोहिनीअट्टम नृत्य शैली की प्रसिद्ध व्यक्तित्व कौन है?",
+    "question-english": "Q.2 Who among the following is a famous personality of the dance form Mohiniyattam?",
+    "question-image": "",
+    "options-hindi": ["1). सुनंदा नायर", "2). सितारा देवी", "3). पंडित बिरजू महाराज", "4). दमयंती जोशी"],
+    "options-english": ["1). Sunanda Nair", "2). Sitara Devi", "3). Pandit Birju Maharaj", "4). Damayanti Joshi"],
+    "answer-hindi": "1). सुनंदा नायर",
+    "answer-english": "1). Sunanda Nair",
+    "solution-hindi": "सुनंदा नायर केरल की शास्त्रीय नृत्य शैली मोहिनीअट्टम की प्रसिद्ध कलाकार हैं। अन्य सभी कलाकार कथक से संबंधित हैं।",
+    "solution-english": "Sunanda Nair is a renowned exponent of Mohiniyattam. The other personalities are associated with Kathak.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.3 औसत वार्षिक वर्षा के घटते क्रम में भारतीय राज्यों का सही क्रम कौन-सा है?",
+    "question-english": "Q.3 Identify the correct sequence of Indian states in terms of decreasing average annual rainfall.",
+    "question-image": "",
+    "options-hindi": ["1). हरियाणा > बिहार > राजस्थान", "2). असम > बिहार > राजस्थान", "3). उत्तर प्रदेश > बिहार > पश्चिम बंगाल", "4). राजस्थान > असम > बिहार"],
+    "options-english": ["1). Haryana > Bihar > Rajasthan", "2). Assam > Bihar > Rajasthan", "3). Uttar Pradesh > Bihar > West Bengal", "4). Rajasthan > Assam > Bihar"],
+    "answer-hindi": "2). असम > बिहार > राजस्थान",
+    "answer-english": "2). Assam > Bihar > Rajasthan",
+    "solution-hindi": "असम में सर्वाधिक वर्षा होती है, बिहार में मध्यम और राजस्थान में सबसे कम। इसलिए सही घटता क्रम असम > बिहार > राजस्थान है।",
+    "solution-english": "Assam receives the highest rainfall, Bihar moderate and Rajasthan the lowest. Hence the decreasing order is Assam > Bihar > Rajasthan.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.4 “A Flight of Pigeons” पुस्तक के लेखक कौन हैं?",
+    "question-english": "Q.4 A Flight of Pigeons is a famous book written by whom?",
+    "question-image": "",
+    "options-hindi": ["1). सलमान रुश्दी", "2). रस्किन बॉन्ड", "3). विक्रम सेठ", "4). खुशवंत सिंह"],
+    "options-english": ["1). Salman Rushdie", "2). Ruskin Bond", "3). Vikram Seth", "4). Khushwant Singh"],
+    "answer-hindi": "2). रस्किन बॉन्ड",
+    "answer-english": "2). Ruskin Bond",
+    "solution-hindi": "“A Flight of Pigeons” रस्किन बॉन्ड द्वारा लिखित उपन्यासिका है, जो 1857 के विद्रोह पर आधारित है।",
+    "solution-english": "“A Flight of Pigeons” is a novella written by Ruskin Bond, based on the Revolt of 1857.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.5 भारतीय संविधान के किस अनुच्छेद में किसी व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किए जाने का प्रावधान है?",
+    "question-english": "Q.5 Which Article of the Indian Constitution mentions that a person may be appointed as the Governor of two or more states?",
+    "question-image": "",
+    "options-hindi": ["1). अनुच्छेद 150", "2). अनुच्छेद 152", "3). अनुच्छेद 153", "4). अनुच्छेद 151"],
+    "options-english": ["1). Article 150", "2). Article 152", "3). Article 153", "4). Article 151"],
+    "answer-hindi": "3). अनुच्छेद 153",
+    "answer-english": "3). Article 153",
+    "solution-hindi": "अनुच्छेद 153 में यह प्रावधान है कि एक ही व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किया जा सकता है।",
+    "solution-english": "Article 153 allows the appointment of the same person as Governor of two or more states.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.6 मुंबई और गोवा के बीच पश्चिमी तटीय मैदान के उत्तरी भाग को क्या कहा जाता है?",
+    "question-english": "Q.6 What is the name of the northern part of the western coastal plain between Mumbai and Goa?",
+    "question-image": "",
+    "options-hindi": ["1). मालाबार तट", "2). कन्नड़ मैदान", "3). कोंकण तट", "4). कोरोमंडल तट"],
+    "options-english": ["1). Malabar Coast", "2). Kannad Plain", "3). Konkan Coast", "4). Coromandel Coast"],
+    "answer-hindi": "3). कोंकण तट",
+    "answer-english": "3). Konkan Coast",
+    "solution-hindi": "मुंबई और गोवा के बीच पश्चिमी तटीय मैदान का उत्तरी भाग कोंकण तट कहलाता है।",
+    "solution-english": "The northern part of the western coastal plain between Mumbai and Goa is called the Konkan Coast.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.7 भारतीय संविधान के 42वें संशोधन (1976) के अनुसार भारत एक ________ राष्ट्र है।",
+    "question-english": "Q.7 The 42nd Amendment of the Indian Constitution (1976) states that India is a/an ______ nation.",
+    "question-image": "",
+    "options-hindi": ["1). धर्मनिरपेक्ष", "2). अभिजातीय", "3). पूंजीवादी", "4). कुलीनतंत्रीय"],
+    "options-english": ["1). Secular", "2). Aristocratic", "3). Capitalist", "4). Oligarchic"],
+    "answer-hindi": "1). धर्मनिरपेक्ष",
+    "answer-english": "1). Secular",
+    "solution-hindi": "42वें संविधान संशोधन द्वारा संविधान की प्रस्तावना में ‘धर्मनिरपेक्ष’ शब्द जोड़ा गया।",
+    "solution-english": "The 42nd Amendment added the word ‘Secular’ to the Preamble of the Indian Constitution.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.8 35वें राष्ट्रीय खेल किस राज्य में आयोजित किए गए थे?",
+    "question-english": "Q.8 The 35th National Games were held in which state?",
+    "question-image": "",
+    "options-hindi": ["1). असम", "2). केरल", "3). झारखंड", "4). गुजरात"],
+    "options-english": ["1). Assam", "2). Kerala", "3). Jharkhand", "4). Gujarat"],
+    "answer-hindi": "2). केरल",
+    "answer-english": "2). Kerala",
+    "solution-hindi": "35वें राष्ट्रीय खेल 2015 में केरल राज्य में आयोजित किए गए थे।",
+    "solution-english": "The 35th National Games of India were held in Kerala in 2015.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.9 यदि किसी व्यक्ति को 24 घंटे के भीतर मजिस्ट्रेट के समक्ष प्रस्तुत नहीं किया जाता है, तो वह किस रिट के अंतर्गत रिहा होने का अधिकारी होगा?",
+    "question-english": "Q.9 If a person arrested is not produced before a Magistrate within 24 hours, he will be entitled to be released on which writ?",
+    "question-image": "",
+    "options-hindi": ["1). परमादेश", "2). प्रतिषेध", "3). बंदी प्रत्यक्षीकरण", "4). अधिकार पृच्छा"],
+    "options-english": ["1). Mandamus", "2). Prohibition", "3). Habeas Corpus", "4). Quo-warranto"],
+    "answer-hindi": "3). बंदी प्रत्यक्षीकरण",
+    "answer-english": "3). Habeas Corpus",
+    "solution-hindi": "24 घंटे के भीतर मजिस्ट्रेट के समक्ष प्रस्तुत न करना अवैध हिरासत है, ऐसे में बंदी प्रत्यक्षीकरण रिट लागू होती है।",
+    "solution-english": "Failure to produce an arrested person before a Magistrate within 24 hours amounts to illegal detention, and Habeas Corpus can be invoked.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्र.10 मॉर्ले–मिंटो सुधारों के अंतर्गत पृथक निर्वाचन मंडल किस वर्ष लागू किए गए थे?",
+    "question-english": "Q.10 In which year were separate electorates introduced under the Morley–Minto Reforms?",
+    "question-image": "",
+    "options-hindi": ["1). भारत सरकार अधिनियम, 1919", "2). भारत सरकार अधिनियम, 1935", "3). भारतीय परिषद अधिनियम, 1861", "4). भारतीय परिषद अधिनियम, 1909"],
+    "options-english": ["1). Government of India Act, 1919", "2). Government of India Act, 1935", "3). Indian Council Act, 1861", "4). Indian Council Act, 1909"],
+    "answer-hindi": "4). भारतीय परिषद अधिनियम, 1909",
+    "answer-english": "4). Indian Council Act, 1909",
+    "solution-hindi": "मॉर्ले–मिंटो सुधार भारतीय परिषद अधिनियम, 1909 के माध्यम से लागू किए गए थे, जिसमें पृथक निर्वाचन मंडल की व्यवस्था की गई।",
+    "solution-english": "The Morley–Minto Reforms were introduced through the Indian Councils Act, 1909, which provided for separate electorates.",
+    "solution-img": ""
+  },{
+    "question-hindi": "प्रश्न 11. पृथ्वी के कुल जल का कितना प्रतिशत महासागरों में पाया जाता है?",
+    "question-english": "Q.11 How much percentage of Earth's water make up the oceans?",
+    "question-image": "",
+    "options-hindi": ["1). 97%", "2). 95%", "3). 89%", "4). 82%"],
+    "options-english": ["1). 97%", "2). 95%", "3). 89%", "4). 82%"],
+    "answer-hindi": "1). 97%",
+    "answer-english": "1). 97%",
+    "solution-hindi": "पृथ्वी के कुल जल का लगभग 97% भाग महासागरों में पाया जाता है। यह जल खारा होता है, इसलिए सीधे मानव उपभोग के लिए उपयुक्त नहीं है।",
+    "solution-english": "About 97% of the Earth's water is found in the oceans. This water is saline and not suitable for direct human consumption.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 12. ब्रिटिश भारत के निम्नलिखित में से किस अधिनियम के अंतर्गत ब्रिटिश सरकार ने भारत के प्रशासन को सीधे अपने हाथों में ले लिया?",
+    "question-english": "Q.12 Under which Act did the British government take direct control of the administration of India?",
+    "question-image": "",
+    "options-hindi": ["1). भारत सरकार अधिनियम, 1858", "2). बंगाल विनियमन अधिनियम, 1818", "3). भारतीय संविदा अधिनियम, 1872", "4). चार्टर अधिनियम, 1813"],
+    "options-english": ["1). Government of India Act 1858", "2). Bengal Regulation Act 1818", "3). Indian Contract Act 1872", "4). Charter Act 1813"],
+    "answer-hindi": "1). भारत सरकार अधिनियम, 1858",
+    "answer-english": "1). Government of India Act 1858",
+    "solution-hindi": "1857 के विद्रोह के बाद भारत सरकार अधिनियम, 1858 द्वारा ईस्ट इंडिया कंपनी का शासन समाप्त कर दिया गया और भारत का प्रशासन सीधे ब्रिटिश क्राउन के अधीन कर दिया गया।",
+    "solution-english": "After the Revolt of 1857, the Government of India Act 1858 ended Company rule and transferred the administration of India directly to the British Crown.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 13. प्रधानमंत्री रोजगार सृजन कार्यक्रम (PMEGP) कब प्रारंभ किया गया?",
+    "question-english": "Q.13 When was the Prime Minister’s Employment Generation Programme (PMEGP) launched?",
+    "question-image": "",
+    "options-hindi": ["1). 2006", "2). 2008", "3). 2007", "4). 2009"],
+    "options-english": ["1). 2006", "2). 2008", "3). 2007", "4). 2009"],
+    "answer-hindi": "2). 2008",
+    "answer-english": "2). 2008",
+    "solution-hindi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (PMEGP) भारत सरकार द्वारा वर्ष 2008 में स्वरोजगार और सूक्ष्म उद्यमों को बढ़ावा देने के उद्देश्य से शुरू किया गया था।",
+    "solution-english": "The Prime Minister’s Employment Generation Programme (PMEGP) was launched in 2008 to promote self-employment and micro-enterprises.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 14. हिमालय का उत्थान निम्नलिखित में से किस भू-अवसादी गर्त से हुआ है?",
+    "question-english": "Q.14 The Himalayas have uplifted from which of the following geosynclines?",
+    "question-image": "",
+    "options-hindi": ["1). अरावली भू-अवसादी गर्त", "2). कैलिडोनियन भू-अवसादी गर्त", "3). टेथिस भू-अवसादी गर्त", "4). एपलाचियन भू-अवसादी गर्त"],
+    "options-english": ["1). Aravalli geosyncline", "2). Caledonian geosyncline", "3). Tethys geosyncline", "4). Appalachian geosyncline"],
+    "answer-hindi": "3). टेथिस भू-अवसादी गर्त",
+    "answer-english": "3). Tethys geosyncline",
+    "solution-hindi": "हिमालय का निर्माण टेथिस भू-अवसादी गर्त में जमा अवसादों के उत्थान से हुआ, जो भारतीय और यूरेशियन प्लेटों के टकराव से पहले स्थित था।",
+    "solution-english": "The Himalayas were formed by the uplift of sediments deposited in the Tethys geosyncline before the collision of the Indian and Eurasian plates.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 15. विजयनगर के किस राजा ने ‘यवन राज्य का स्थापक’ की उपाधि धारण की?",
+    "question-english": "Q.15 Which king of Vijayanagara took the title of ‘establisher of the Yavana kingdom’?",
+    "question-image": "",
+    "options-hindi": ["1). अच्युत देव राय", "2). वीर नरसिंह राय", "3). कृष्णदेव राय", "4). सदाशिव राय"],
+    "options-english": ["1). Achyuta Deva Raya", "2). Vira Narasimha Raya", "3). Krishna Deva Raya", "4). Sada Siva Raya"],
+    "answer-hindi": "3). कृष्णदेव राय",
+    "answer-english": "3). Krishna Deva Raya",
+    "solution-hindi": "विजयनगर साम्राज्य के महान शासक कृष्णदेव राय ने ‘यवनराज्य स्थापकाचार्य’ की उपाधि धारण की, जो दक्कन सल्तनतों पर उनकी विजय को दर्शाती है।",
+    "solution-english": "Krishna Deva Raya assumed the title ‘Yavanarajya Sthapanacharya’, reflecting his military victories over the Deccan Sultanates.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 16. राष्ट्रकूट वंश के कृष्ण तृतीय ने चोल शासक परांतक प्रथम को पराजित करने के बाद किस नगर में विजय स्तंभ स्थापित किया?",
+    "question-english": "Q.16 Krishna III of the Rashtrakuta dynasty established a victory pillar after defeating Parantaka I at which city?",
+    "question-image": "",
+    "options-hindi": ["1). रामेश्वरम", "2). पूम्पुहार", "3). तक्कोलम", "4). उदैयालूर"],
+    "options-english": ["1). Rameswaram", "2). Poompuhar", "3). Takkolam", "4). Udaiyalur"],
+    "answer-hindi": "1). रामेश्वरम",
+    "answer-english": "1). Rameswaram",
+    "solution-hindi": "949 ई. के लगभग तक्कोलम के युद्ध में विजय के बाद कृष्ण तृतीय ने रामेश्वरम में विजय स्तंभ (जयस्तंभ) स्थापित किया।",
+    "solution-english": "After the Battle of Takkolam (c. 949 CE), Krishna III erected a victory pillar at Rameswaram.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 17. मूल सूची में चार नए नीति निदेशक तत्व किस वर्ष जोड़े गए?",
+    "question-english": "Q.17 In which year were four new Directive Principles added to the original list?",
+    "question-image": "",
+    "options-hindi": ["1). 1977", "2). 1980", "3). 1975", "4). 1976"],
+    "options-english": ["1). 1977", "2). 1980", "3). 1975", "4). 1976"],
+    "answer-hindi": "4). 1976",
+    "answer-english": "4). 1976",
+    "solution-hindi": "42वाँ संविधान संशोधन अधिनियम, 1976 द्वारा राज्य के नीति निदेशक तत्वों में चार नए तत्व जोड़े गए।",
+    "solution-english": "The 42nd Constitutional Amendment Act, 1976 added four new Directive Principles of State Policy.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 18. निम्नलिखित में से कौन-सा गवर्नर-जनरल स्वतंत्र प्रेस के पक्ष में था और उसने 1823 के प्रेस विनियमों को समाप्त कर दिया?",
+    "question-english": "Q.18 Which Governor-General repealed the Press Regulations of 1823 and supported free press?",
+    "question-image": "",
+    "options-hindi": ["1). लॉर्ड लिटन", "2). लॉर्ड एलेनबरो", "3). लॉर्ड रिपन", "4). लॉर्ड मेटकाफ"],
+    "options-english": ["1). Lord Lytton", "2). Lord Ellenborough", "3). Lord Ripon", "4). Lord Metcalfe"],
+    "answer-hindi": "4). लॉर्ड मेटकाफ",
+    "answer-english": "4). Lord Metcalfe",
+    "solution-hindi": "लॉर्ड मेटकाफ को ‘भारतीय प्रेस का मुक्तिदाता’ कहा जाता है। उन्होंने 1823 के प्रेस विनियमों को समाप्त किया।",
+    "solution-english": "Lord Metcalfe, known as the Liberator of the Indian Press, repealed the Press Regulations of 1823.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 19. अरब सागर के किनारे स्थित तटों का चयन कीजिए।",
+    "question-english": "Q.19 Choose the coasts that are running along the Arabian Sea.",
+    "question-image": "",
+    "options-hindi": ["1). a, b और c", "2). केवल b और c", "3). b, c और d", "4). केवल a और c"],
+    "options-english": ["1). a, b and c", "2). Only b and c", "3). b, c and d", "4). Only a and c"],
+    "answer-hindi": "2). केवल b और c",
+    "answer-english": "2). Only b and c",
+    "solution-hindi": "अरब सागर के तट मालाबार और कोंकण हैं। उत्तरी सरकार और कोरोमंडल तट बंगाल की खाड़ी के किनारे स्थित हैं।",
+    "solution-english": "Malabar and Konkan coasts lie along the Arabian Sea, while Northern Circars and Coromandel are on the Bay of Bengal.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 20. किस शासक के शासनकाल में मुगल साम्राज्य अपने सर्वाधिक क्षेत्रीय विस्तार पर पहुँचा?",
+    "question-english": "Q.20 Under whose rule did the Mughal Empire achieve its largest territorial extent?",
+    "question-image": "",
+    "options-hindi": ["1). शाहजहाँ", "2). औरंगज़ेब", "3). अकबर", "4). बहादुर शाह द्वितीय"],
+    "options-english": ["1). Shah Jahan", "2). Aurangzeb", "3). Akbar", "4). Bahadur Shah II"],
+    "answer-hindi": "2). औरंगज़ेब",
+    "answer-english": "2). Aurangzeb",
+    "solution-hindi": "औरंगज़ेब के शासनकाल (1658–1707) में मुगल साम्राज्य का क्षेत्रीय विस्तार अपने चरम पर पहुँचा।",
+    "solution-english": "During Aurangzeb’s reign (1658–1707), the Mughal Empire reached its maximum territorial expansion.",
+    "solution-img": ""
+  }, {
+    "question-hindi": "प्रश्न 21. पांड्य वंश की बंदरगाह-नगरी निम्नलिखित में से कौन-सी थी?",
+    "question-english": "Q.21 Which of the following was the port-city of the Pandyan Kingdom?",
+    "question-image": "",
+    "options-hindi": ["1). कोरकई", "2). तेनकासी", "3). विरुधुनगर", "4). डिंडीगुल"],
+    "options-english": ["1). Korkai", "2). Tenkasi", "3). Virudhunagar", "4). Dindigul"],
+    "answer-hindi": "1). कोरकई",
+    "answer-english": "1). Korkai",
+    "solution-hindi": "कोरकई पांड्य वंश की एक प्राचीन बंदरगाह नगरी थी। यह मोती मत्स्य उद्योग के लिए प्रसिद्ध थी और संगम साहित्य तथा विदेशी यात्रियों के विवरणों में वर्णित है।",
+    "solution-english": "Korkai was an ancient port city of the Pandyan Kingdom, famous for pearl fishing and maritime trade, and is mentioned in Sangam literature.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 22. भारतीय संविधान के किस अनुच्छेद में यह उल्लेख है कि सर्वोच्च न्यायालय द्वारा घोषित विधि भारत के क्षेत्र के भीतर सभी न्यायालयों पर बाध्यकारी होगी?",
+    "question-english": "Q.22 Which Article of the Indian Constitution states that the law declared by the Supreme Court shall be binding on all courts in India?",
+    "question-image": "",
+    "options-hindi": ["1). अनुच्छेद 147", "2). अनुच्छेद 137", "3). अनुच्छेद 151", "4). अनुच्छेद 141"],
+    "options-english": ["1). Article 147", "2). Article 137", "3). Article 151", "4). Article 141"],
+    "answer-hindi": "4). अनुच्छेद 141",
+    "answer-english": "4). Article 141",
+    "solution-hindi": "अनुच्छेद 141 यह सुनिश्चित करता है कि सर्वोच्च न्यायालय द्वारा घोषित विधि भारत के सभी न्यायालयों पर बाध्यकारी होगी।",
+    "solution-english": "Article 141 provides that the law declared by the Supreme Court is binding on all courts within India.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 23. चूना-पत्थर की गुफा के फर्श से ऊपर की ओर बनने वाली CaCO₃ की संरचना को क्या कहा जाता है?",
+    "question-english": "Q.23 The depositional pattern of CaCO₃ rising from the floor of a limestone cave is known as what?",
+    "question-image": "",
+    "options-hindi": ["1). स्टैलेग्माइट", "2). स्टैलेक्टाइट", "3). हैटेक्टाइट", "4). ड्रिपस्टोन"],
+    "options-english": ["1). Stalagmite", "2). Stalactite", "3). Hatectite", "4). Dripstone"],
+    "answer-hindi": "1). स्टैलेग्माइट",
+    "answer-english": "1). Stalagmite",
+    "solution-hindi": "स्टैलेग्माइट गुफा के फर्श से ऊपर की ओर बढ़ती हैं, जबकि स्टैलेक्टाइट छत से नीचे की ओर लटकती हैं।",
+    "solution-english": "Stalagmites rise upward from the cave floor, whereas stalactites hang down from the ceiling.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 24. भारत में ‘वसंत’, ‘ग्रीष्म’ और ‘वर्षा’ किसके नाम हैं?",
+    "question-english": "Q.24 ‘Vasanta’, ‘Grishma’ and ‘Varsha’ are names of what in India?",
+    "question-image": "",
+    "options-hindi": ["1). स्थानीय पवनें", "2). पारंपरिक ऋतुएँ", "3). चक्रवात", "4). स्थानीय आँधियाँ"],
+    "options-english": ["1). Local winds", "2). Traditional seasons", "3). Cyclones", "4). Local storms"],
+    "answer-hindi": "2). पारंपरिक ऋतुएँ",
+    "answer-english": "2). Traditional seasons",
+    "solution-hindi": "वसंत, ग्रीष्म और वर्षा भारतीय पंचांग की छह पारंपरिक ऋतुओं में शामिल हैं।",
+    "solution-english": "Vasanta, Grishma and Varsha are part of the six traditional seasons followed in the Indian calendar.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 25. बहमनी शासक हुमायूँ शाह द्वारा ‘मलिक-उत-तुज्जार’ की उपाधि किसे दी गई थी?",
+    "question-english": "Q.25 Who was granted the title of ‘Malik-ut-Tujjar’ by the Bahamani ruler Humayun Shah?",
+    "question-image": "",
+    "options-hindi": ["1). महमूद गवां", "2). यूसुफ़ आदिल शाह", "3). अलाउद्दीन इमाद शाह", "4). अहमद तृतीय"],
+    "options-english": ["1). Mahmud Gawan", "2). Yusuf Adil Shah", "3). Alauddin Imad Shah", "4). Ahmad III"],
+    "answer-hindi": "1). महमूद गवां",
+    "answer-english": "1). Mahmud Gawan",
+    "solution-hindi": "महमूद गवां को बहमनी शासक हुमायूँ शाह ने उनकी प्रशासनिक और आर्थिक सेवाओं के लिए ‘मलिक-उत-तुज्जार’ की उपाधि दी।",
+    "solution-english": "Mahmud Gawan was granted the title ‘Malik-ut-Tujjar’ in recognition of his administrative and economic services.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 26. रुक्मिणी देवी अरुंडेल किस शास्त्रीय नृत्य शैली की प्रमुख कलाकार थीं?",
+    "question-english": "Q.26 Rukmini Devi Arundale was an exponent of which classical dance form?",
+    "question-image": "",
+    "options-hindi": ["1). कथकली", "2). कथक", "3). सत्त्रिया", "4). भरतनाट्यम"],
+    "options-english": ["1). Kathakali", "2). Kathak", "3). Sattriya", "4). Bharatanatyam"],
+    "answer-hindi": "4). भरतनाट्यम",
+    "answer-english": "4). Bharatanatyam",
+    "solution-hindi": "रुक्मिणी देवी अरुंडेल ने भरतनाट्यम के पुनरुत्थान और वैश्विक पहचान में महत्वपूर्ण भूमिका निभाई।",
+    "solution-english": "Rukmini Devi Arundale played a key role in reviving and popularising Bharatanatyam.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 27. राष्ट्रीय बहुआयामी गरीबी सूचकांक रिपोर्ट 2023 के अनुसार किस केंद्रशासित प्रदेश की गरीबी दर सबसे कम है?",
+    "question-english": "Q.27 As per the National Multidimensional Poverty Index Report 2023, which Union Territory has the lowest poverty rate?",
+    "question-image": "",
+    "options-hindi": ["1). लक्षद्वीप", "2). जम्मू और कश्मीर", "3). पुडुचेरी", "4). लद्दाख"],
+    "options-english": ["1). Lakshadweep", "2). Jammu and Kashmir", "3). Puducherry", "4). Ladakh"],
+    "answer-hindi": "3). पुडुचेरी",
+    "answer-english": "3). Puducherry",
+    "solution-hindi": "MPI रिपोर्ट 2023 के अनुसार, केंद्रशासित प्रदेशों में पुडुचेरी की गरीबी दर सबसे कम है।",
+    "solution-english": "According to the MPI Report 2023, Puducherry has the lowest poverty rate among UTs.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 28. शुभा मुद्गल को वर्ष 2000 में कौन-सा पुरस्कार प्रदान किया गया?",
+    "question-english": "Q.28 Which award was Shubha Mudgal honoured with in 2000?",
+    "question-image": "",
+    "options-hindi": ["1). पद्म श्री", "2). पद्म भूषण", "3). संगीत नाटक अकादमी", "4). पद्म विभूषण"],
+    "options-english": ["1). Padma Shri", "2). Padma Bhushan", "3). Sangeet Natak Akademi", "4). Padma Vibhushan"],
+    "answer-hindi": "1). पद्म श्री",
+    "answer-english": "1). Padma Shri",
+    "solution-hindi": "शुभा मुद्गल को भारतीय शास्त्रीय संगीत में योगदान के लिए 2000 में पद्म श्री से सम्मानित किया गया।",
+    "solution-english": "Shubha Mudgal was awarded the Padma Shri in 2000 for her contribution to Indian classical music.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 29. ‘रंगों का त्योहार’ किसे कहा जाता है?",
+    "question-english": "Q.29 Which festival is known as the festival of colours?",
+    "question-image": "",
+    "options-hindi": ["1). दीपावली", "2). महाशिवरात्रि", "3). जन्माष्टमी", "4). होली"],
+    "options-english": ["1). Diwali", "2). Maha Shivratri", "3). Janmashtami", "4). Holi"],
+    "answer-hindi": "4). होली",
+    "answer-english": "4). Holi",
+    "solution-hindi": "होली वसंत ऋतु के आगमन और रंगों के उत्सव के रूप में मनाई जाती है।",
+    "solution-english": "Holi is celebrated as the festival of colours to mark the arrival of spring.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 30. निम्नलिखित में से कौन ओडिसी नृत्यांगना नहीं है?",
+    "question-english": "Q.30 Who among the following is NOT an Odissi dancer?",
+    "question-image": "",
+    "options-hindi": ["1). अनीता रत्नम", "2). प्रतिमा बेदी", "3). कुमकुम मोहंती", "4). सोनल मानसिंह"],
+    "options-english": ["1). Anita Ratnam", "2). Protima Bedi", "3). Kumkum Mohanty", "4). Sonal Mansingh"],
+    "answer-hindi": "1). अनीता रत्नम",
+    "answer-english": "1). Anita Ratnam",
+    "solution-hindi": "अनीता रत्नम मुख्यतः भरतनाट्यम और समकालीन नृत्य से जुड़ी हैं, जबकि अन्य तीन ओडिसी नृत्यांगनाएँ हैं।",
+    "solution-english": "Anita Ratnam is associated with Bharatanatyam and contemporary dance, not Odissi.",
+    "solution-img": ""
+  },{
+    "question-hindi": "प्रश्न 31. ‘अनलेडीलाईक (Unladylike)’ किसकी आत्मकथा (संस्मरण) है?",
+    "question-english": "Q.31 ‘Unladylike’ is a memoir by ________.",
+    "question-image": "",
+    "options-hindi": ["1). ऐश्वर्या मोहनराज", "2). अदिति मित्तल", "3). राधिका वाज़", "4). सुप्रिया जोशी"],
+    "options-english": ["1). Aishwarya Mohanraj", "2). Aditi Mittal", "3). Radhika Vaz", "4). Supriya Joshi"],
+    "answer-hindi": "3). राधिका वाज़",
+    "answer-english": "3). Radhika Vaz",
+    "solution-hindi": "“Unladylike” भारतीय स्टैंड-अप कॉमेडियन एवं लेखिका राधिका वाज़ की आत्मकथा है, जिसमें उनके व्यक्तिगत अनुभवों और कॉमेडी जगत के सफ़र का वर्णन है।",
+    "solution-english": "“Unladylike” is a memoir by Indian stand-up comedian and writer Radhika Vaz, describing her personal experiences and journey in comedy.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 32. जल में घुलनशील क्षारों (Bases) को क्या कहा जाता है?",
+    "question-english": "Q.32 What are bases that are soluble in water called?",
+    "question-image": "",
+    "options-hindi": ["1). एल्केन", "2). अम्ल", "3). एल्कीन", "4). क्षार (Alkalis)"],
+    "options-english": ["1). Alkanes", "2). Acids", "3). Alkenes", "4). Alkalis"],
+    "answer-hindi": "4). क्षार (Alkalis)",
+    "answer-english": "4). Alkalis",
+    "solution-hindi": "जो क्षार जल में घुलनशील होते हैं, उन्हें क्षार (Alkalis) कहा जाता है। ये जल में OH⁻ आयन छोड़ते हैं।",
+    "solution-english": "Bases that are soluble in water are called alkalis. They release hydroxide (OH⁻) ions in water.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 33. उपहार कर, संपत्ति कर आदि करों को किस प्रकार के कर कहा जाता है?",
+    "question-english": "Q.33 Taxes like gift tax and wealth tax are referred to as which type of taxes?",
+    "question-image": "",
+    "options-hindi": ["1). पेपरलेस कर", "2). प्रत्यक्ष कर", "3). अमीरों के कर", "4). काग़जी कर"],
+    "options-english": ["1). Paperless taxes", "2). Direct taxes", "3). Rich taxes", "4). Paper taxes"],
+    "answer-hindi": "2). प्रत्यक्ष कर",
+    "answer-english": "2). Direct taxes",
+    "solution-hindi": "उपहार कर, संपत्ति कर, आयकर आदि प्रत्यक्ष कर होते हैं क्योंकि ये सीधे व्यक्ति या संस्था पर लगाए जाते हैं।",
+    "solution-english": "Gift tax, wealth tax and income tax are direct taxes as they are directly levied on individuals or entities.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 34. किस पंचवर्षीय योजना के दौरान पर्वतीय क्षेत्र विकास कार्यक्रम की शुरुआत की गई?",
+    "question-english": "Q.34 During which Five Year Plan was the Hill Area Development Programme initiated?",
+    "question-image": "",
+    "options-hindi": ["1). छठी पंचवर्षीय योजना", "2). चौथी पंचवर्षीय योजना", "3). आठवीं पंचवर्षीय योजना", "4). पाँचवीं पंचवर्षीय योजना"],
+    "options-english": ["1). Sixth Five Year Plan", "2). Fourth Five Year Plan", "3). Eighth Five Year Plan", "4). Fifth Five Year Plan"],
+    "answer-hindi": "2). चौथी पंचवर्षीय योजना",
+    "answer-english": "2). Fourth Five Year Plan",
+    "solution-hindi": "पर्वतीय क्षेत्र विकास कार्यक्रम की शुरुआत चौथी पंचवर्षीय योजना (1969–1974) के दौरान की गई।",
+    "solution-english": "The Hill Area Development Programme was initiated during the Fourth Five Year Plan (1969–1974).",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 35. शरीर से अपशिष्ट पदार्थों के निष्कासन के लिए उत्तरदायी मांसपेशी कौन-सी है?",
+    "question-english": "Q.35 Identify a muscle responsible for exit of waste material from the body.",
+    "question-image": "",
+    "options-hindi": ["1). पेक्टोरालिस", "2). गैस्ट्रोक्नीमियस", "3). स्फिंक्टर", "4). रेक्टस"],
+    "options-english": ["1). Pectoralis", "2). Gastrocnemius", "3). Sphincter", "4). Rectus"],
+    "answer-hindi": "3). स्फिंक्टर",
+    "answer-english": "3). Sphincter",
+    "solution-hindi": "स्फिंक्टर मांसपेशियाँ अपशिष्ट पदार्थों के निष्कासन को नियंत्रित करती हैं।",
+    "solution-english": "Sphincter muscles control the exit of waste material from the body.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 36. 2032 ओलंपिक खेलों की मेज़बानी के लिए किस शहर का चयन किया गया?",
+    "question-english": "Q.36 Which city was selected to host the 2032 Olympics?",
+    "question-image": "",
+    "options-hindi": ["1). ब्रिस्बेन", "2). सिडनी", "3). मॉस्को", "4). न्यूयॉर्क"],
+    "options-english": ["1). Brisbane", "2). Sydney", "3). Moscow", "4). New York"],
+    "answer-hindi": "1). ब्रिस्बेन",
+    "answer-english": "1). Brisbane",
+    "solution-hindi": "IOC ने 21 जुलाई 2021 को ब्रिस्बेन को 2032 ओलंपिक की मेज़बानी सौंपी।",
+    "solution-english": "The IOC selected Brisbane on 21 July 2021 to host the 2032 Summer Olympics.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 37. टोक्यो ओलंपिक 2020 में नीरज चोपड़ा की विजयी थ्रो कितनी थी?",
+    "question-english": "Q.37 What was the winning throw of Neeraj Chopra in Tokyo Olympics 2020?",
+    "question-image": "",
+    "options-hindi": ["1). 90.58 मीटर", "2). 90.00 मीटर", "3). 87.58 मीटर", "4). 80.00 मीटर"],
+    "options-english": ["1). 90.58 m", "2). 90.00 m", "3). 87.58 m", "4). 80.00 m"],
+    "answer-hindi": "3). 87.58 मीटर",
+    "answer-english": "3). 87.58 m",
+    "solution-hindi": "नीरज चोपड़ा ने 87.58 मीटर की थ्रो के साथ स्वर्ण पदक जीता।",
+    "solution-english": "Neeraj Chopra won gold with a best throw of 87.58 metres.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 38. समान नागरिक संहिता लागू करने वाला भारत का पहला राज्य कौन-सा है?",
+    "question-english": "Q.38 Which Indian state became the first to implement the Uniform Civil Code?",
+    "question-image": "",
+    "options-hindi": ["1). उत्तराखंड", "2). गोवा", "3). महाराष्ट्र", "4). गुजरात"],
+    "options-english": ["1). Uttarakhand", "2). Goa", "3). Maharashtra", "4). Gujarat"],
+    "answer-hindi": "1). उत्तराखंड",
+    "answer-english": "1). Uttarakhand",
+    "solution-hindi": "27 जनवरी 2025 को उत्तराखंड भारत का पहला राज्य बना जिसने UCC लागू किया।",
+    "solution-english": "Uttarakhand became the first Indian state to implement the Uniform Civil Code on 27 January 2025.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 39. ठोस अवस्था से सीधे गैस अवस्था में परिवर्तन की प्रक्रिया को क्या कहते हैं?",
+    "question-english": "Q.39 The process of converting a solid directly into gas is called what?",
+    "question-image": "",
+    "options-hindi": ["1). संघनन", "2). ठोसकरण", "3). उर्ध्वपातन", "4). निक्षेपण"],
+    "options-english": ["1). Condensation", "2). Solidification", "3). Sublimation", "4). Deposition"],
+    "answer-hindi": "3). उर्ध्वपातन",
+    "answer-english": "3). Sublimation",
+    "solution-hindi": "उर्ध्वपातन में ठोस सीधे गैस में बदलता है, बिना द्रव अवस्था से गुज़रे।",
+    "solution-english": "In sublimation, a solid changes directly into gas without passing through the liquid state.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 40. 38वें राष्ट्रीय खेलों के संबंध में सही विकल्प चुनिए।",
+    "question-english": "Q.40 Choose the correct option regarding the 38th National Games.",
+    "question-image": "",
+    "options-hindi": ["1). केवल कथन 1 सही है", "2). केवल कथन 2 सही है", "3). न तो कथन 1 और न ही कथन 2 सही है", "4). दोनों कथन सही हैं"],
+    "options-english": ["1). Only statement 1 is correct", "2). Only statement 2 is correct", "3). Neither statement 1 nor statement 2 is correct", "4). Both statements are correct"],
+    "answer-hindi": "1). केवल कथन 1 सही है",
+    "answer-english": "1). Only statement 1 is correct",
+    "solution-hindi": "38वें राष्ट्रीय खेल उत्तराखंड में आयोजित हुए, लेकिन यह पहली बार नहीं था जब खेल कई शहरों में हुए।",
+    "solution-english": "The 38th National Games were held in Uttarakhand, but it was not the first multi-city edition.",
+    "solution-img": ""
+  }, {
+    "question-hindi": "प्रश्न 41. भारत में ‘स्वयं सहायता समूह – बैंक लिंकेज कार्यक्रम’ (SHG-BLP) किस वर्ष प्रारंभ किया गया था?",
+    "question-english": "Q.41 In which year was the ‘Self Help Group – Bank Linkage Programme’ (SHG-BLP) introduced in India?",
+    "question-image": "",
+    "options-hindi": ["1). 1984", "2). 2000", "3). 1992", "4). 1996"],
+    "options-english": ["1). 1984", "2). 2000", "3). 1992", "4). 1996"],
+    "answer-hindi": "3). 1992",
+    "answer-english": "3). 1992",
+    "solution-hindi": "स्वयं सहायता समूह–बैंक लिंकेज कार्यक्रम (SHG-BLP) की शुरुआत 1992 में NABARD द्वारा की गई थी। इसका उद्देश्य गरीबों, विशेषकर महिलाओं को बैंकों से जोड़कर सूक्ष्म वित्त को बढ़ावा देना था।",
+    "solution-english": "The SHG–Bank Linkage Programme was introduced by NABARD in 1992 to link self-help groups with banks and promote microfinance.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 42. भारतीय नौसेना का सबसे भारी संचार उपग्रह कौन-सा है?",
+    "question-english": "Q.42 Which is India’s heaviest communication satellite of the Indian Navy?",
+    "question-image": "",
+    "options-hindi": ["1). CMS-01", "2). CMS-02", "3). CMS-03", "4). CMS-04"],
+    "options-english": ["1). CMS-01", "2). CMS-02", "3). CMS-03", "4). CMS-04"],
+    "answer-hindi": "3). CMS-03",
+    "answer-english": "3). CMS-03",
+    "solution-hindi": "CMS-03 (GSAT-7R) भारतीय नौसेना के लिए विकसित सबसे भारी संचार उपग्रह है, जिसका वजन लगभग 4,400 किलोग्राम है।",
+    "solution-english": "CMS-03 (GSAT-7R) is the heaviest communication satellite developed for the Indian Navy, weighing about 4,400 kg.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 43. विश्व का सबसे बड़ा डेटा सेंटर किस राज्य में बनाया जाएगा?",
+    "question-english": "Q.43 In which state will the world’s largest data center be built?",
+    "question-image": "",
+    "options-hindi": ["1). गुजरात", "2). ओडिशा", "3). महाराष्ट्र", "4). उत्तर प्रदेश"],
+    "options-english": ["1). Gujarat", "2). Odisha", "3). Maharashtra", "4). Uttar Pradesh"],
+    "answer-hindi": "1). गुजरात",
+    "answer-english": "1). Gujarat",
+    "solution-hindi": "विश्व का सबसे बड़ा डेटा सेंटर गुजरात के जामनगर में प्रस्तावित है।",
+    "solution-english": "The world’s largest data center is planned to be built in Jamnagar, Gujarat.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 44. ISRO के द्रव प्रणोदन प्रणाली केंद्र (LPSC) के निदेशक के रूप में किसे नियुक्त किया गया है?",
+    "question-english": "Q.44 Who has been appointed as the Director of the Liquid Propulsion Systems Centre of ISRO?",
+    "question-image": "",
+    "options-hindi": ["1). एम. मोहन", "2). एस. सोमनाथ", "3). वी. नारायणन", "4). के. सिवन"],
+    "options-english": ["1). M. Mohan", "2). S. Somnath", "3). V. Narayanan", "4). K. Sivan"],
+    "answer-hindi": "1). एम. मोहन",
+    "answer-english": "1). M. Mohan",
+    "solution-hindi": "एम. मोहन ने 27 जनवरी 2025 को ISRO के LPSC निदेशक का पदभार ग्रहण किया।",
+    "solution-english": "M. Mohan took charge as Director of ISRO’s Liquid Propulsion Systems Centre on 27 January 2025.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 45. ऑस्ट्रेलियन ओपन 2025 में पुरुष एकल खिताब किसने जीता?",
+    "question-english": "Q.45 Who won the Men’s Singles title at the Australian Open 2025?",
+    "question-image": "",
+    "options-hindi": ["1). जानिक सिनर", "2). अलेक्ज़ेंडर ज़्वेरेव", "3). नोवाक जोकोविच", "4). कार्लोस अल्काराज़"],
+    "options-english": ["1). Jannik Sinner", "2). Alexander Zverev", "3). Novak Djokovic", "4). Carlos Alcaraz"],
+    "answer-hindi": "1). जानिक सिनर",
+    "answer-english": "1). Jannik Sinner",
+    "solution-hindi": "जानिक सिनर ने ऑस्ट्रेलियन ओपन 2025 का पुरुष एकल खिताब जीता।",
+    "solution-english": "Jannik Sinner won the Men’s Singles title at the Australian Open 2025.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 46. सत्र 2024–25 का बैलन डी’ओर पुरस्कार किसे मिला?",
+    "question-english": "Q.46 Who won the Ballon d’Or for the 2024–25 season?",
+    "question-image": "",
+    "options-hindi": ["1). एर्लिंग हालांड", "2). किलियन एम्बाप्पे", "3). लामिन यामाल", "4). उस्मान डेम्बेले"],
+    "options-english": ["1). Erling Haaland", "2). Kylian Mbappe", "3). Lamine Yamal", "4). Ousmane Dembele"],
+    "answer-hindi": "4). उस्मान डेम्बेले",
+    "answer-english": "4). Ousmane Dembele",
+    "solution-hindi": "उस्मान डेम्बेले को 2024–25 सत्र के लिए बैलन डी’ओर से सम्मानित किया गया।",
+    "solution-english": "Ousmane Dembélé won the Ballon d’Or for the 2024–25 season.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 47. जीवाणु कोशिकाओं में गति के लिए उत्तरदायी पतले तंतु-जैसे विस्तार क्या कहलाते हैं?",
+    "question-english": "Q.47 What are the thin filamentous extensions responsible for motility in bacteria called?",
+    "question-image": "",
+    "options-hindi": ["1). लैमेलाए", "2). पाइलाइ", "3). फिम्ब्रिया", "4). फ्लैजेला"],
+    "options-english": ["1). Lamellae", "2). Pili", "3). Fimbriae", "4). Flagella"],
+    "answer-hindi": "4). फ्लैजेला",
+    "answer-english": "4). Flagella",
+    "solution-hindi": "फ्लैजेला जीवाणु कोशिकाओं की गति के लिए उत्तरदायी लंबे, चाबुक-नुमा संरचनाएँ होती हैं।",
+    "solution-english": "Flagella are long, whip-like structures responsible for bacterial motility.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 48. भारतीय खाद्य मार्गदर्शिका पिरामिड में कौन-सा शामिल नहीं है?",
+    "question-english": "Q.48 Which of the following is NOT included in the Indian Food Guide Pyramid?",
+    "question-image": "",
+    "options-hindi": ["1). दालें एवं फलियाँ", "2). मादक पेय", "3). दूध, मांस एवं उत्पाद", "4). वसा एवं शर्करा"],
+    "options-english": ["1). Pulses and legumes", "2). Alcoholic beverages", "3). Milk, meat and products", "4). Fats and sugar"],
+    "answer-hindi": "2). मादक पेय",
+    "answer-english": "2). Alcoholic beverages",
+    "solution-hindi": "भारतीय खाद्य पिरामिड में मादक पेय शामिल नहीं होते क्योंकि ये स्वस्थ आहार के लिए अनुशंसित नहीं हैं।",
+    "solution-english": "Alcoholic beverages are not included in the Indian Food Guide Pyramid as they are not recommended for healthy eating.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 49. फॉर्मूला 1 एतिहाद एयरवेज़ अबू धाबी ग्रां प्री 2024 का विजेता कौन था?",
+    "question-english": "Q.49 Who won the Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024?",
+    "question-image": "",
+    "options-hindi": ["1). सी. लेक्लर्क", "2). एल. हैमिल्टन", "3). एम. वेरस्टैपेन", "4). एल. नॉरिस"],
+    "options-english": ["1). C. Leclerc", "2). L. Hamilton", "3). M. Verstappen", "4). L. Norris"],
+    "answer-hindi": "4). एल. नॉरिस",
+    "answer-english": "4). L. Norris",
+    "solution-hindi": "लैंडो नॉरिस ने 2024 अबू धाबी ग्रां प्री में जीत हासिल की।",
+    "solution-english": "Lando Norris won the 2024 Abu Dhabi Grand Prix.",
+    "solution-img": ""
+  },
+  {
+    "question-hindi": "प्रश्न 50. मई 2025 तक भारत के मुख्य न्यायाधीश कौन हैं?",
+    "question-english": "Q.50 Who is the Chief Justice of India as of May 2025?",
+    "question-image": "",
+    "options-hindi": ["1). डी. वाई. चंद्रचूड़", "2). संजीव खन्ना", "3). एच. जे. कन्या", "4). बी. आर. गवई"],
+    "options-english": ["1). D. Y. Chandrachud", "2). Sanjiv Khanna", "3). H. J. Kania", "4). B. R. Gavai"],
+    "answer-hindi": "4). बी. आर. गवई",
+    "answer-english": "4). B. R. Gavai",
+    "solution-hindi": "न्यायमूर्ति बी. आर. गवई ने 14 मई 2025 को भारत के 52वें मुख्य न्यायाधीश के रूप में पदभार संभाला।",
+    "solution-english": "Justice B. R. Gavai became the 52nd Chief Justice of India on 14 May 2025.",
+    "solution-img": ""
+  }
+          ]
+    }
+  ]
+}
