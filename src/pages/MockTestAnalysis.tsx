@@ -613,7 +613,19 @@ const getAnalysis = async (attempt: MockTestResult): Promise<string| null> => {
                                       htmlFor={`option-${index}`}
                                       className="flex-1 cursor-pointer text-base leading-relaxed"
                                     >
-                                      {option}
+                                      {(() => {
+                                        const urlMatch = typeof option === "string" && option.match(/(https?:\/\/[^\s]+)/);
+                                        const imageUrl = urlMatch ? urlMatch[1] : null;
+                                        return imageUrl ? (
+                                          <img
+                                            src={imageUrl}
+                                            alt={`Option ${index + 1}`}
+                                            className="max-w-full h-auto rounded-md max-h-32 object-contain"
+                                          />
+                                        ) : (
+                                          option
+                                        );
+                                      })()}
                                     </Label>
                                     {isCorrectOption && (
                                       <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
