@@ -57,7 +57,6 @@ const MockTestsList: React.FC = () => {
           "Complete_mock-test_23.json",
           "Complete_mock-test_24.json",
           "Complete_mock-test_25.json",
-          "Complete_mock-test_26.json",
         ];
 
         const testsData = await Promise.all(
@@ -109,6 +108,7 @@ const MockTestsList: React.FC = () => {
         
         // Add coming soon tests
         const comingSoonTests: MockTestInfo[] = [
+          { fileName: "Complete_mock-test_26.json", testName: "Mock Test 26", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
           { fileName: "Complete_mock-test_27.json", testName: "Mock Test 27", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
           { fileName: "Complete_mock-test_28.json", testName: "Mock Test 28", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
           { fileName: "Complete_mock-test_29.json", testName: "Mock Test 29", duration: 90, totalQuestions: 0, comingSoon: true, hasAttempted: false },
