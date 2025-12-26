@@ -9,59 +9,46 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Navbar from "./components/Navbar";
 import { useEffect } from "react";
 import { initializeAnalytics, trackPageView } from "./lib/analytics";
-// import Landing from "./pages/Landing";
-// import Auth from "./pages/Auth";
-// import Pricing from "./pages/Pricing";
-// import FreeGlobalTest from "./pages/FreeGlobalTest";
+import Landing from "./pages/Landing";
+import Auth from "./pages/Auth";
+import Pricing from "./pages/Pricing";
+import FreeGlobalTest from "./pages/FreeGlobalTest";
 
-// import Lectures from "./pages/Lectures";
-// import LectureDetail from "./pages/LectureDetail";
-// import AIChat from "./pages/AIChat";
-// import MockTestsList from "./pages/MockTestsList";
-// import MockTest from "./pages/MockTest";
-// import MockTestAnalysis from "./pages/MockTestAnalysis";
-// import Schedule from "./pages/Schedule";
-// import Profile from "./pages/Profile";
-// import PhysicalEducation from "./pages/PhysicalEducation";
-// import Contact from "./pages/Contact";
-// import Demo from "./pages/Demo";
-// import NotFound from "./pages/NotFound";
-
-// Maintenance Page Component
-const MaintenancePage = () => (
-  <div className="min-h-screen flex items-center justify-center bg-background">
-    <div className="text-center p-8">
-      <div className="text-6xl mb-6">🛠️</div>
-      <h1 className="text-4xl font-bold text-foreground mb-4">Website Under Maintenance</h1>
-      <p className="text-xl text-muted-foreground max-w-md mx-auto">
-        We're currently performing some updates to improve your experience. Please check back soon!
-      </p>
-    </div>
-  </div>
-);
+import Lectures from "./pages/Lectures";
+import LectureDetail from "./pages/LectureDetail";
+import AIChat from "./pages/AIChat";
+import MockTestsList from "./pages/MockTestsList";
+import MockTest from "./pages/MockTest";
+import MockTestAnalysis from "./pages/MockTestAnalysis";
+import Schedule from "./pages/Schedule";
+import Profile from "./pages/Profile";
+import PhysicalEducation from "./pages/PhysicalEducation";
+import Contact from "./pages/Contact";
+import Demo from "./pages/Demo";
+import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
 // Wrapper component to conditionally protect mock test routes
-// const MockTestWrapper = () => {
-//   const { testId } = useParams<{ testId: string }>();
+const MockTestWrapper = () => {
+  const { testId } = useParams<{ testId: string }>();
   
-//   // Allow free access to Mock Test 1 but still require authentication
-//   if (testId === 'Complete_mock-test_1') {
-//     return (
-//       <ProtectedRoute requirePayment={false}>
-//         <MockTest />
-//       </ProtectedRoute>
-//     );
-//   }
+  // Allow free access to Mock Test 1 but still require authentication
+  if (testId === 'Complete_mock-test_1') {
+    return (
+      <ProtectedRoute requirePayment={false}>
+        <MockTest />
+      </ProtectedRoute>
+    );
+  }
   
-//   // Require authentication and payment for other tests
-//   return (
-//     <ProtectedRoute>
-//       <MockTest />
-//     </ProtectedRoute>
-//   );
-// };
+  // Require authentication and payment for other tests
+  return (
+    <ProtectedRoute>
+      <MockTest />
+    </ProtectedRoute>
+  );
+};
 
 // Component to conditionally render navbar
 const AppContent = () => {
@@ -75,96 +62,93 @@ const AppContent = () => {
 
   return (
     <>
-      {/* {shouldShowNavbar && <Navbar />} */}
+      {shouldShowNavbar && <Navbar />}
       <Routes>
-        <Route path="*" element={<MaintenancePage />} />
-        {/* ALL ROUTES COMMENTED OUT FOR MAINTENANCE
         <Route path="/" element={<Landing />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/demo" element={<Demo />} />
         <Route path="/free-mock-test" element={<FreeGlobalTest />} />
-            <Route 
-              path="/pricing" 
-              element={
-                <ProtectedRoute requirePayment={false}>
-                  <Pricing />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/lectures" 
-              element={
-                <ProtectedRoute>
-                  <Lectures />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/lecture-detail" 
-              element={
-                <ProtectedRoute>
-                  <LectureDetail />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/ai-chat" 
-              element={
-                <ProtectedRoute>
-                  <AIChat />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/mock-tests" 
-              element={
-                <ProtectedRoute>
-                  <MockTestsList />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/mock-test/:testId" 
-              element={<MockTestWrapper />} 
-            />
-            <Route 
-              path="/mock-test-analysis/:testName" 
-              element={
-                <ProtectedRoute>
-                  <MockTestAnalysis />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/schedule" 
-              element={
-                <ProtectedRoute>
-                  <Schedule />
-                </ProtectedRoute>
-              } 
-            />
-            <Route
-              path="/profile" 
-              element={
-                <ProtectedRoute>
-                  <Profile />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/physical-education" 
-              element={
-                <ProtectedRoute>
-                  <PhysicalEducation />
-                </ProtectedRoute>
-              } 
-            />
-            <Route 
-              path="/contact" 
-              element={<Contact />} 
-            />
+        <Route 
+          path="/pricing" 
+          element={
+            <ProtectedRoute requirePayment={false}>
+              <Pricing />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/lectures" 
+          element={
+            <ProtectedRoute>
+              <Lectures />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/lecture-detail" 
+          element={
+            <ProtectedRoute>
+              <LectureDetail />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/ai-chat" 
+          element={
+            <ProtectedRoute>
+              <AIChat />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/mock-tests" 
+          element={
+            <ProtectedRoute>
+              <MockTestsList />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/mock-test/:testId" 
+          element={<MockTestWrapper />} 
+        />
+        <Route 
+          path="/mock-test-analysis/:testName" 
+          element={
+            <ProtectedRoute>
+              <MockTestAnalysis />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/schedule" 
+          element={
+            <ProtectedRoute>
+              <Schedule />
+            </ProtectedRoute>
+          } 
+        />
+        <Route
+          path="/profile" 
+          element={
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/physical-education" 
+          element={
+            <ProtectedRoute>
+              <PhysicalEducation />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/contact" 
+          element={<Contact />} 
+        />
         <Route path="*" element={<NotFound />} />
-        */}
       </Routes>
     </>
   );
